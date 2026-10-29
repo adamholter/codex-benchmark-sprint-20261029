@@ -1,0 +1,76 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "fantom",
+  "id": "63-1-0-3327",
+  "category": "tom:info_accessibility:binary",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793286315.42793,
+  "turn": {
+    "id": "01a18831-9ebe-7092-aecc-e26234e7a12d",
+    "rootTurnId": "01a18831-9ebe-7092-aecc-e26234e7a12d",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_01a687ad9e7ed5f7016ae360d3a66081959e9547b1221dc019",
+        "text": "Yes",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793286315,
+    "completedAt": 1793286355,
+    "durationMs": 40021
+  },
+  "score": {
+    "correct": true,
+    "extracted": "Yes",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 40.33841683389619,
+  "usage": {
+    "total": {
+      "totalTokens": 5151,
+      "inputTokens": 5146,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 5,
+      "reasoningOutputTokens": 0
+    },
+    "last": {
+      "totalTokens": 5151,
+      "inputTokens": 5146,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 5,
+      "reasoningOutputTokens": 0
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 318a91e3-a490-4e40-8cac-88640c053de9",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a18831-9e9d-7263-ac14-4961221e6a21",
+      "turnId": "01a18831-9ebe-7092-aecc-e26234e7a12d"
+    }
+  ],
+  "finished_at": 1793286355.7661152
+}

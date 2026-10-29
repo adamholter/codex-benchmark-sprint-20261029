@@ -1,0 +1,79 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly",
+  "id": "178:Q 3.2:full_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288584.8937862,
+  "turn": {
+    "id": "01a18854-406f-7e51-86fc-10027bad4a34",
+    "rootTurnId": "01a18854-406f-7e51-86fc-10027bad4a34",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0c8a7a01dcdf1216016ae3698e3ec0819790574f9f5b520b63",
+        "text": "{\n  \"1.\": \"la zia\",\n  \"2.\": \"lo zio\",\n  \"3.\": \"il sasso\",\n  \"4.\": \"gli storici\",\n  \"5.\": \"gli zaini\",\n  \"6.\": \"il successo\",\n  \"7.\": \"le zone\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288585,
+    "completedAt": 1793288590,
+    "durationMs": 5407
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "1.": "la zia",
+      "2.": "lo zio",
+      "3.": "il sasso",
+      "4.": "gli storici",
+      "5.": "gli zaini",
+      "6.": "il successo",
+      "7.": "le zone"
+    },
+    "score": 1.0,
+    "parts_correct": 7,
+    "parts_total": 7,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "1.": 1.0,
+      "2.": 1.0,
+      "3.": 1.0,
+      "4.": 1.0,
+      "5.": 1.0,
+      "6.": 1.0,
+      "7.": 1.0
+    }
+  },
+  "seconds": 5.895371041959152,
+  "usage": {
+    "total": {
+      "totalTokens": 4324,
+      "inputTokens": 4186,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 138,
+      "reasoningOutputTokens": 62
+    },
+    "last": {
+      "totalTokens": 4324,
+      "inputTokens": 4186,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 138,
+      "reasoningOutputTokens": 62
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793288590.788689
+}

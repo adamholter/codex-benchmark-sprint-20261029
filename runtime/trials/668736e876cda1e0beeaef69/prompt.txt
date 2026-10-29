@@ -1,0 +1,79 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+Hedwig is a pet who acts as a messenger for Harry Potter.
+Time-turner is a device for Time travel that looks like an hourglass on a gold necklace. The number of times the hourglass is turned represents the number of hours in time.
+Felix Felicis is one of the strangest little potions, a lucky potion that will bring you good luck. Making it is very complicated, and if you get it wrong, the consequences are catastrophic. But if you cook it right, like in this crucible, you'll find that whatever you do will work -- before the effects wear off. If taken in excess, it can lead to dizziness, recklessness and arrogance
+When cast on your opponent during a duel, their wand flies into your hand and obeys you. It glows red when emitted with a wand.
+After seeing the warning sign of Hogwarts, if Muggles must approach the place, they will suddenly remember something urgent that they must do immediately and leave.
+Certain staircases at Hogwarts School of Witchcraft and Wizardry, such as the Grand Staircase, are enchanted to change shape and direction at random intervals, making it difficult to predict where each step leads.
+Typically, regular invisibility cloaks are made from demiguise fur or are ordinary cloaks that have been enchanted with a disappearing spell. However, these cloaks tend to lose their effectiveness over time. Only the Cloak of Invisibility from the Deathly Hallows can provide permanent and uninterrupted invisibility.
+If the injury is more serious, the student needs to be taken to St. Mungo's Hospital for Magical Injuries and illnesses for further treatment. In 1996, Katie Bell was cursed after touching an opal necklace and was rushed to St Mungo's Hospital.
+The Blasting Curse can blow up everything it touches, and it's so dangerous that misuse can be fatal.
+The entrance to Gryffindor Tower, located on the eighth floor of the castle, behind the portrait of the Fat Lady. To get in, you have to give the correct code to the portrait. Once the portrait hears the correct code, the painting swings forward to reveal a circular opening.
+Defense Against the Dark Arts teaches students to fight against all kinds of dark magic and dangerous creatures, such as vampires, werewolves, black goblins and other magical creatures.
+Education Decree No. 27: Any student found with the Quibbler magazine shall be expelled immediately.
+House-elf is a very low status race, must serve the master for generations, are the slaves of the old and rich wizard family, bear all the housework, bound by the master, can not disobey the master's orders.
+In the seventh year, Harry Potter dropped out of school, Hogwarts was controlled by the Death Eaters, and the Dark Arts teacher was Amycus Carroll, who even let the students release Avada Kedavra on him in class, and release the Imperius Curse on the students so that the students learn to resist, and the power of the Death Eaters gradually infiltrated the campus.
+Ordinary Wizarding Level is a separate examination taken by fifth year students at Hogwarts School of Witchcraft and Wizardry and administered by the Wizarding Examinations Authority.
+Gryffindor, named after Godric Gryffindor, values bravery, daring, and chivalry. Its emblematic creature is the lion, and its colors are red and gold.
+Ravenclaw, the house of Rowena Ravenclaw, values intelligence, creativity, learning, and wit. Its emblem is an eagle, and its colors are blue and silver.
+As Voldemort's power began to rise, Dumbledore formed this underground secret organization to fight Voldemort. The D.A., also known as the Defence Association, is a secret society founded in 1995 by Harry Potter, RON Weasley, and Hermione Granger.
+ The prophecy made by Sybill Trelawney, foretelling the birth of a boy who has the power to defeat Lord Voldemort, is the catalyst for the entire series. It sets Voldemort on a path to kill Harry, which ironically fulfills the prophecy, and weaves a complicated web of destiny that both Harry and Voldemort are trapped in.
+The purpose of Voldemort's magical world is to preserve pure wizards, and to brutally kill those who are not. On the contrary, the wizarding world, as represented by Dumbledore and Harry, is inclusive, and they believe that birth is not important, but that individual effort is the most important.
+
+Custom Formal Fallacy Naming Rules:
+- NegAnt Method: If P, then Q. Not P, erroneously concludes Not Q.
+- AffCons Method: If P, then Q. Q is true, erroneously concludes P.
+- CondSwap Method: If P then Q, erroneously believes that if Q then P.
+- IncorrNeg Method: If P then Q, erroneously concludes that if Not P then Not Q.
+- DisjSyl Method: Either P or Q. Knowing Q, erroneously concludes Not P.
+- QuantSwitch Method: ∀x∃y R(x, y), therefore, ∃y∀x R(x, y). Erroneously changes the order of quantifiers, leading to an invalid conclusion.
+- IllTrans Method: ∀x (Sx → Px), therefore, ∀x (Px → Sx). It is erroneous to infer "all P are S" from "all S are P". Similarly, from ∃x (Sx ∧ ¬Px), it is erroneous to infer ∃x (Px ∧ ¬Sx). Erroneously converts the terms in the proposition, leading to an invalid conclusion.
+- IncorrInf Method: From ∃x (Sx ∧ Px) infer ∃x (Sx ∧ ¬Px), and from ∃x (Sx ∧ ¬Px) infer ∃x (Sx ∧ Px). It is erroneous to infer "some S are not P" from "some S are P" and vice versa. An invalid inference is made about propositions with existential quantifiers.
+- InvSubError Method: `K(x, y)` indicates that individual x knows that y is true. `R(x, y, z)` indicates that x has a relationship z with y. `SubError(x, y, z)` indicates a substitution error when incorrectly applying knowledge or attributes about y to z.
+- LetClauseShift Method: When the structure of a statement is incorrectly adjusted or interpreted, causing the original intent or logical relationship to be misrepresented. For example, a shift in the structure of a let clause leads to an invalid inference.
+
+
+### Questions:
+question1:
+If x is a positive even number, then x is a natural number, so, if x is a natural number, then x is a positive even number. Everyone who has been to elementary school understands that this reasoning is incorrect.
+
+What type of formal fallacy is this?
+
+A. NegAnt Method
+B. AffCons Method
+C. CondSwap Method
+D. IncorrNeg Method
+E. DisjSyl Method
+F. QuantSwitch Method
+G. IllTrans Method
+H. IncorrInf Method
+I. InvSubError Method
+J. LetClauseShift Method
+
+Please give your answer in the format [[A/B/C/D/E/F/G/H/I/J]].
+
+question2:
+What will happen when an average person think of after they see a \"Dangerous, do not Enter, not safe\" sign near an uncommon school? (answer with one option)
+Options:A. Be forced to leave; ##B. One urgent thing they have to do; ##C. Take the initiative to leave;##D. Lose one's memory
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+question3:
+In which of the following two groups of people do class relations exist? (answer with one option)
+Options: A. Company managers and Human Resource; ##B. Hedwig and Harry Potter;##C. Emperor and aristocrat;##D. House-elf and Wizard;
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+
+### Answers:

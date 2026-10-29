@@ -1,0 +1,98 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+1.The game is played on a grid consisting of several partitions (zones). Each partition consists of a number of squares.
+2.Place stars in the given grid.
+3.n stars are placed in each row and column.
+4.n stars are placed in each partition.
+5.Stars cannot be adjacent, i.e., there can be no stars in adjacent squares (including diagonally adjacent).
+6.The question is given in the form of a matrix with different regions labeled with different letters, e.g. the grid where all the letters A are located forms a region and the answer should list the coordinates of the stars in each region, e.g. A:(row i, column j)
+
+**Encryption Rules**
+
+- Input:
+    - Plaintext: A string of uppercase letters (A-Z) without punctuation and spaces.
+- Output:
+    - Ciphertext: A binary string containing only 0s and 1s.
+- Preparation:
+    - Fixed Key: A binary string of length 8 (e.g., '10101010').
+    - Permutation Table:
+        - Permutation Table: (2, 0, 3, 1, 4, 6, 5, 7)
+        - Inverse Permutation Table: (1, 3, 0, 2, 4, 6, 5, 7)
+- Encryption Steps:
+    1. Convert Each Character to Binary:
+        - For each character in the plaintext, convert it to its ASCII value.
+        - Convert this ASCII value to an 8-bit binary string.
+    2. XOR Operation:
+        - Perform an XOR operation between the 8-bit binary representation of the character and the fixed key.
+        - Ensure the key is repeated to match the length of the binary representation if needed.
+    3. Permutation:
+        - Apply the permutation table to the XOR result to get the final encrypted binary string for each character.
+    4. Combine Binary Strings:
+        - Concatenate the binary strings of all characters to form the final ciphertext.
+
+**Decryption Rules**
+
+- Input:
+    - Ciphertext: A binary string containing only 0s and 1s.
+- Output:
+    - Plaintext: A string of uppercase letters (A-Z) without punctuation and spaces.
+- Preparation:
+    - Fixed Key: Same binary string of length 8 used for encryption (e.g., '10101010').
+    - Permutation Table:
+        - Permutation Table: (2, 0, 3, 1, 4, 6, 5, 7)
+        - Inverse Permutation Table: (1, 3, 0, 2, 4, 6, 5, 7)
+- Decryption Steps:
+    1. Split Ciphertext into Chunks:
+        - Split the binary ciphertext into 8-bit chunks, each representing an encrypted character.
+    2. Inverse Permutation:
+        - Apply the inverse permutation table to each 8-bit chunk to reverse the permutation applied during encryption.
+    3. XOR Operation:
+        - Perform an XOR operation between the permuted binary chunk and the fixed key.
+    4. Convert Binary to Character:
+        - Convert the resulting binary string back to its decimal equivalent.
+        - Convert this decimal value to its corresponding ASCII character.
+    5. Combine Characters:
+        - Concatenate the characters obtained from each binary chunk to form the final plaintext.
+
+a%b=a^b+\sqrt{ab}.
+a and b are positive integers.
+
+
+### Questions:
+question1:
+1 star.
+
+A        A        A        B        B        D        D        D
+A        A        A        B        B        D        E        E
+A        B        B        B        C        D        E        E
+A        A        F        F        D        D        D        E
+A        A        G        F        F        E        E        E
+G        G        G        F        F        F        E        E
+G        F        F        F        F        F        E        E
+G        G        G        G        H        H        H        H
+
+Output in alphabetical order, if there are more than one stellar coordinates in a region, write the coordinates of the answer with the smallest number of rows first, if the number of rows is the same, then write the one with the smallest number of columns first, and the coordinates of the different regions are separated by a line breaker.
+Please wrap the answer in double square brackets, like this:
+[[A(1,1)(2,5)
+B(1,3)(3,2)
+C(3,7)(4,9)]].
+
+question2:
+If 1%X=3, find X.
+The answer should only be given as a number.
+Please wrap the answer in double square brackets, like this: [[your answer]].
+
+
+### Answers:

@@ -1,0 +1,67 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly",
+  "id": "141:Q 3.1:full_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290368.05532,
+  "turn": {
+    "id": "01a1886f-765c-7fe2-b74d-b9e59460d415",
+    "rootTurnId": "01a1886f-765c-7fe2-b74d-b9e59460d415",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_042b309165afc931016ae370848ac48196a86ef48f1c275b51",
+        "text": "{\"1.\":\"wielkoludzi, wielkoludowie\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290368,
+    "completedAt": 1793290372,
+    "durationMs": 4127
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "1.": "wielkoludzi, wielkoludowie"
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 1,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "1.": 0.0
+    }
+  },
+  "seconds": 4.71069295797497,
+  "usage": {
+    "total": {
+      "totalTokens": 4585,
+      "inputTokens": 4493,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 92,
+      "reasoningOutputTokens": 72
+    },
+    "last": {
+      "totalTokens": 4585,
+      "inputTokens": 4493,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 92,
+      "reasoningOutputTokens": 72
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793290372.76512
+}

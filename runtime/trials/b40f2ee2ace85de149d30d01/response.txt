@@ -1,0 +1,7 @@
+{
+  "(f)": "Cannot be determined; the table is missing.",
+  "(g)": "Cannot be determined; the table is missing.",
+  "(h)": "Cannot be determined; the table is missing.",
+  "(i)": "Cannot be determined; the table is missing.",
+  "(j)": "Cannot be determined; the table is missing."
+}

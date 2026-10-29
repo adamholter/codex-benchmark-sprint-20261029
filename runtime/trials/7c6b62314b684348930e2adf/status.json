@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "fantom",
+  "id": "82-0-0-4180",
+  "category": "tom:belief:inaccessible:multiple-choice",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793293137.472693,
+  "turn": {
+    "id": "01a18899-b793-7e81-9e16-b2fb819aed22",
+    "rootTurnId": "01a18899-b793-7e81-9e16-b2fb819aed22",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_06a6d9f60f256955016ae37b54d10c81968e29e0b1f99cca1c",
+        "text": "**(b)** They discussed how food can evoke memories and emotions, provide comfort, shape routines, and bring people together socially.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793293137,
+    "completedAt": 1793293141,
+    "durationMs": 3558
+  },
+  "score": {
+    "correct": false,
+    "extracted": "**(b)** They discussed how food can evoke memories and emotions, provide comfort, shape routines, and bring people together socially.",
+    "strict_correct": false,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 3.9187327079707757,
+  "usage": {
+    "total": {
+      "totalTokens": 4654,
+      "inputTokens": 4583,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 71,
+      "reasoningOutputTokens": 39
+    },
+    "last": {
+      "totalTokens": 4654,
+      "inputTokens": 4583,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 71,
+      "reasoningOutputTokens": 39
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793293141.391242
+}

@@ -1,0 +1,125 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+a%b=a^b+\sqrt{ab}.
+a and b are positive integers.
+
+**Encryption Rules:**
+
+- Input:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Output:
+    - Ciphertext: Uppercase letters string.
+- Preparation:
+    - LETTERS = ['J', 'D', 'W', 'O', 'T', 'R', 'A', 'C', 'X', 'Q', 'M', 'F', 'Y',
+    'E', 'Z', 'G', 'U', 'K', 'P', 'V', 'B', 'S', 'H', 'N', 'L', 'I']
+    - Associate each letter with its position in the LETTERS (starting from 0):
+        
+        J -> 0, D -> 1, W -> 2, O -> 3, T -> 4, R -> 5, A -> 6, C -> 7, X -> 8, Q -> 9,
+        M -> 10, F -> 11, Y -> 12, E -> 13, Z -> 14, G -> 15, U -> 16, K -> 17, P -> 18,
+        V -> 19, B -> 20, S -> 21, H -> 22, N -> 23, L -> 24, I -> 25
+        
+    - Initial sequence of cards:
+        - A list of 54 numbers, including a randomly shuffled deck consisting of 52 suited cards and two distinguishable jokers known as the A Joker and B Joker. Suited cards are valued sequentially across four suits: Clubs, Diamonds, Hearts, and Spades, with values ranging from 1 to 52, while the jokers are valued 53 and 54.
+        - [9, 25, 44, 38, 40, 22, 11, 36, 13, 39, 18, 42, 10, 53, 26, 12, 1, 16, 3, 43, 37, 17, 30, 4, 28, 48, 27, 41, 32, 15, 47, 29, 20, 51, 6, 7, 52, 34, 35, 5, 50, 9, 54, 46, 23, 31, 24, 14, 8, 33, 2, 49, 45, 21]
+    - **Keystream Algorithm**
+        
+        This algorithm generates keystream values by moving cards within a deck. The keystream algorithm is *deterministic*, meaning keystream values depend solely on the initial order of the deck. The deck is treated as a circular array, allowing a card that needs to move below the bottom card to wrap around to the top (in other words, the first card follows the last card).
+        
+        For example, starting with:
+        9, 25, 44, 38, 40, 22, 11, 36, 13, 39, 18, 42, 10, 53, 26, 12, 1, 16, 3, 43, 37, 17, 30, 4, 28, 48, 27, 41, 32, 15, 47, 29, 20, 51, 6, 7, 52, 34, 35, 5, 50, 9, 54, 46, 23, 31, 24, 14, 8, 33, 2, 49, 45, 21
+        
+        Perform the following steps to generate a character of the keystream:
+        
+        1. Locate card A and move it down by one position. If it's the last card, it becomes the second card. It cannot become the first card. The deck now looks like this:
+        9, 25, 44, 38, 40, 22, 11, 36, 13, 39, 18, 42, 10, 26, **53,** 12, 1, 16, 3, 43, 37, 17, 30, 4, 28, 48, 27, 41, 32, 15, 47, 29, 20, 51, 6, 7, 52, 34, 35, 5, 50, 9, 54, 46, 23, 31, 24, 14, 8, 33, 2, 49, 45, 21
+        2. Locate card B and move it down by two positions. Note, if it's the second last card, it will wrap around to become the second card. If it's the last card, it will become the third card. It cannot become the first card. The deck now looks like this:
+        9, 25, 44, 38, 40, 22, 11, 36, 13, 39, 18, 42, 10, 26, **53,** 12, 1, 16, 3, 43, 37, 17, 30, 4, 28, 48, 27, 41, 32, 15, 47, 29, 20, 51, 6, 7, 52, 34, 35, 5, 50, 9, 46, 23, **54,** 31, 24, 14, 8, 33, 2, 49, 45, 21
+        3. Perform a "triple cut": Divide the deck into three parts, using the jokers as boundaries, then swap the top and bottom parts. The jokers themselves and the cards between them remain unchanged.
+        31, 24, 14, 8, 33, 2, 49, 45, 21, **53,** 12, 1, 16, 3, 43, 37, 17, 30, 4, 28, 48, 27, 41, 32, 15, 47, 29, 20, 51, 6, 7, 52, 34, 35, 5, 50, 9, 46, 23, **54,** 9, 25, 44, 38, 40, 22, 11, 36, 13, 39, 18, 42, 10, 26
+        4. Perform a "count cut": Examine the bottom card of the deck. If it's a joker (53/54), its value remains fixed at 53. Take out that many cards from the top of the deck and insert them just above the last card of the deck.
+        29, 20, 51, 6, 7, 52, 34, 35, 5, 50, 9, 46, 23, **54,** 9, 25, 44, 38, 40, 22, 11, 36, 13, 39, 18, 42, 10, **31, 24, 14, 8, 33, 2, 49, 45, 21,** 53, 12, 1, 16, 3, 43, 37, 17, 30, 4, 28, 48, 27, 41, 32, 15, 47, 26
+        5. Now, look at the value of the top card. Similarly, any joker counts as 53. Calculate the number of positions below this card, and use that card's value as the next value in the keystream. If the calculated card is a joker, ignore it and repeat the keystream algorithm. In this example, the top card is 29, so the value of the 30th card (i.e., 14) determines the keystream value. (Note that no cards change position in this step; this step only determines the keystream value).
+        6. Return the resulting keystream value: 14
+- Encryption Steps:
+    - cards=Initial sequence of cards
+    - For each given plaintext character p:
+        - Use the alphabet to convert p to the corresponding positional value x. (starting from 0).
+        - Generate a keystream value y for p using the Initial sequence of cards:
+            - y, cards = Keystream Algorithm (cards)
+            - This algorithm modifies the order of the pile of cards, and the next execution then uses the new order.
+        - When the keystream value y is added to the position value x, the mod 26 operation is applied to obtain z:
+            - z=(y+x) % 26
+        - Use the LETTERS list to return the letter corresponding to position z.
+        - Append it to the ciphertext.
+
+ **Decryption Rules:**
+
+- Input:
+    - Ciphertext: Uppercase letters string.
+- Output:
+    - Plaintext: Uppercase letters string.
+- Preparation:
+    - LETTERS = ['J', 'D', 'W', 'O', 'T', 'R', 'A', 'C', 'X', 'Q', 'M', 'F', 'Y',
+    'E', 'Z', 'G', 'U', 'K', 'P', 'V', 'B', 'S', 'H', 'N', 'L', 'I']
+    - Associate each letter with its position in the LETTERS (starting from 0):
+        
+        J -> 0, D -> 1, W -> 2, O -> 3, T -> 4, R -> 5, A -> 6, C -> 7, X -> 8, Q -> 9,
+        M -> 10, F -> 11, Y -> 12, E -> 13, Z -> 14, G -> 15, U -> 16, K -> 17, P -> 18,
+        V -> 19, B -> 20, S -> 21, H -> 22, N -> 23, L -> 24, I -> 25
+        
+    - Initial sequence of cards(Same as encryption)
+    - Keystream Algorithm(Same as encryption)
+- Decryption Steps (exact opposite of encryption steps):
+    - cards=Initial sequence of cards
+    - For each ciphertext character c:
+        - Convert c to its corresponding positional value z using the LETTERS (starting from 0).
+        - Generate the keystream value y for c:
+            - y, cards = Keystream Algorithm (cards)
+            - This algorithm modifies the order of the pile of cards, and the next execution then uses the new order.
+        - Calculate the original positional value x from ciphertext character c:
+            - x=(z-y) mod 26
+        - Use the LETTERS list to return the letter corresponding to position x.
+        - Append it to the decrypted plaintext.
+
+Hyperspace travel is a method used in the Star Wars universe to traverse the galaxy at speeds faster than light, allowing for quick interstellar travel.
+Imperial Stormtroopers, in the Star Wars universe, are often deployed to maintain order and enforce the will of the Galactic Empire during times of unrest.
+The Jedi Archives in the Star Wars universe contain vast amounts of knowledge about the galaxy's history, planets, and the Force.
+In the Star Wars universe, lightsaber duels are often used to settle disputes and conflicts, especially among Force-sensitive individuals.
+Clone Troopers are renowned in the Star Wars universe for their effectiveness in battle, especially during the Clone Wars.
+Sith Lords in the Star Wars universe often possess knowledge of ancient civilizations and dark secrets of the galaxy.
+Kamino, known for its advanced cloning technologies in the Star Wars universe, is capable of cloning various species, aiding in their preservation.
+Jedi foresight, a power of the Force in the Star Wars universe, allows Jedi to sense and sometimes predict future events, including those in the cosmos.
+Anakin Skywalker, known for his exceptional skills with droids and technology in the Star Wars universe, would be adept at handling a droid uprising.
+Probe Droids, used extensively in the Star Wars universe, are autonomous droids equipped for deep space exploration and intelligence gathering.
+Mandalorian mercenaries, known for their combat skills and armor in the Star Wars universe, are often employed for protection in dangerous assignments.
+Jedi often engage in meditation within the Jedi Temple as a means of maintaining their well-being and connection to the Force.
+The Republic often mobilizes disaster relief efforts to aid planets affected by natural disasters in the Star Wars universe.
+Kyber crystals are a vital resource in the Star Wars universe, used in the construction of lightsabers and as a powerful energy source.
+Hyperfuel is a high-energy substance used to power starships and other machinery in the Star Wars universe.
+The Galactic Senate, comprising representatives from various star systems, is a central governing body in the Star Wars universe.
+In the Star Wars universe, Jedi healers undergo specialized training, often in the Jedi Temple, to learn advanced healing techniques using the Force.
+Star maps in the Jedi Archives are crucial for navigation and understanding the galaxy in the Star Wars universe.
+Sith holocrons in the Star Wars universe are ancient devices used by the Sith to record and preserve their knowledge and teachings.
+Practice with a training remote is a common first step for Jedi in learning lightsaber skills in the Star Wars universe.
+
+
+### Questions:
+question1:
+If X%3=30, find X.
+The answer should only be given as a number.
+Please wrap the answer in double square brackets, like this: [[your answer]].
+
+
+### Answers:

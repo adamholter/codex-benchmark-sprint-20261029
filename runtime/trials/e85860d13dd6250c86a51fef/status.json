@@ -1,0 +1,74 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "bbeh",
+  "id": "mini:movie_recommendation:0077",
+  "category": "movie_recommendation",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288837.85845,
+  "turn": {
+    "id": "01a18858-1bd4-7e32-a87f-5ae69fe0fa8a",
+    "rootTurnId": "01a18858-1bd4-7e32-a87f-5ae69fe0fa8a",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_052477703ade5cf2016ae36ab04a988194b6759e741bfbe04a",
+        "text": "(F) The Shawshank Redemption, Get Shorty, What's Eating Gilbert Grape, Don Juan DeMarco, Mr Holland's Opus.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288838,
+    "completedAt": 1793288881,
+    "durationMs": 42958
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(f) the shawshank redemption,get shorty,what's eating gilbert grape,don juan demarco,mr holland's opus"
+  },
+  "seconds": 43.247355208033696,
+  "usage": {
+    "total": {
+      "totalTokens": 4085,
+      "inputTokens": 4027,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 58,
+      "reasoningOutputTokens": 23
+    },
+    "last": {
+      "totalTokens": 4085,
+      "inputTokens": 4027,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 58,
+      "reasoningOutputTokens": 23
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 7466a028-c892-413b-9498-6b439beb0ba0",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a18858-1bb8-7cb1-b1b3-651055de2ff4",
+      "turnId": "01a18858-1bd4-7e32-a87f-5ae69fe0fa8a"
+    }
+  ],
+  "finished_at": 1793288881.102677
+}

@@ -1,0 +1,128 @@
+{
+  "created_at": 1793296177.217654,
+  "files": {
+    "BENCHMARKS.md": {
+      "bytes": 3408,
+      "sha256": "6aa4d0b033b60dfd5d333d85fa561ecab4fefb0455d96cc6a10e87dcf1963609"
+    },
+    "README.md": {
+      "bytes": 4168,
+      "sha256": "e1c6a8ae547b92f421c7dd14b4ce458cfcaeff20b7ed2843e719f4dd45adaa74"
+    },
+    "RESULTS.md": {
+      "bytes": 6041,
+      "sha256": "e279040cc6960bbd8ace890fe892f26446b26e837fb6e60e53391cb27393fe11"
+    },
+    "adapters/bbeh.py": {
+      "bytes": 6995,
+      "sha256": "656628e07b13e1c5b7d629695a816f01b7c71fbe977184b8007dcc0290e783b9"
+    },
+    "adapters/fantom.py": {
+      "bytes": 4454,
+      "sha256": "7684349cf6ddaa77fb7767bb71ee0d6f5cdff473b04cdc51bd412053dfe2f550"
+    },
+    "adapters/korbench.py": {
+      "bytes": 21747,
+      "sha256": "b3da780d9b9299ffaa451352dd1cb31b30246d3e76c1958ba364b2ed6c4bb528"
+    },
+    "adapters/korbench_mixed.py": {
+      "bytes": 639,
+      "sha256": "356a21bc8036dfb595bd09c4eb35530ec7f20d2c0ea5e80d181e642dd326b55f"
+    },
+    "adapters/lingoly.py": {
+      "bytes": 12229,
+      "sha256": "f2651532e99ec98ed4bee008e6803003e9a8970163149d63ec23083a57efa65a"
+    },
+    "adapters/lingoly_no_context.py": {
+      "bytes": 291,
+      "sha256": "3ea9db895c5926399122aca5b63f6df67672cbb7f5373b5e2a704a0411e83037"
+    },
+    "adapters/planning.py": {
+      "bytes": 12247,
+      "sha256": "9bcf4dcb4e106867803dbf9428ebe7a36d163005df9cfa8aadbde0a06d03e5a2"
+    },
+    "advanced_runner.py": {
+      "bytes": 12309,
+      "sha256": "198b515ef92c095ee3991ec2cb4724e641fef22f105066dcf266dc69757d0e25"
+    },
+    "audit_final.py": {
+      "bytes": 4765,
+      "sha256": "64db6eea8910439c75922e9271561e0814694822aa726482130e0722a1d0fdec"
+    },
+    "combined_report.py": {
+      "bytes": 3253,
+      "sha256": "7d9e1ca76c03df2ff2e391e5a9eded74d0d1d5d2c723728f2b6eeaf2f53b222b"
+    },
+    "final-results.json": {
+      "bytes": 34991,
+      "sha256": "1bcf505299cb4087980aecf602be203eefa90577d8cfa31e2d404d20c880f16d"
+    },
+    "finalize_results.py": {
+      "bytes": 14443,
+      "sha256": "aa6d59092d2324e689b6d2148953eb1910570da607f062d8bf294f4559a58036"
+    },
+    "interactive_runner.py": {
+      "bytes": 13662,
+      "sha256": "a0b6d19d630e9e244ab600306052c907127b58c0968f69d4b0731e8d68faca10"
+    },
+    "protocol.json": {
+      "bytes": 3491,
+      "sha256": "80189b1104520276c8fc4f435729bb881b017be59f4fdcd16aa0ed3c72b86b3e"
+    },
+    "render_results.py": {
+      "bytes": 7999,
+      "sha256": "d514363b7506da80d0220367c2ba6bb873f3a70d84b211c3d42aaa3d9a870367"
+    },
+    "requirements.txt": {
+      "bytes": 45,
+      "sha256": "24b16824c7f88d9bc92266037e39528e75a2d1d8e7cd56e98cca04a352ccd919"
+    },
+    "research-bbeh.json": {
+      "bytes": 10886,
+      "sha256": "7c82fe8048bb9b5e16f7721fb16bd0f281c58f343686b3c1dc3f8f563672563b"
+    },
+    "research-candidates.json": {
+      "bytes": 26209,
+      "sha256": "8923fd6885c72373f512783f316a52dbb532bc989eb6d57b8b796f00384bebb5"
+    },
+    "research-discoveryworld.json": {
+      "bytes": 7415,
+      "sha256": "0d60ed953063803544a2944c0583917d1fd7a7f1cd4aa305bf18656a2814272d"
+    },
+    "research-fantom.json": {
+      "bytes": 1770,
+      "sha256": "25efab262b36fa5831ac1623b544f586dc5bfb5c3cb69ddbeff6db9397b5b8f0"
+    },
+    "research-korbench.json": {
+      "bytes": 9059,
+      "sha256": "b77c27220e0fe6c90f2417ac8987d476e8ca7a4e8b29da8e2194266cfbe7a30c"
+    },
+    "research-lingoly.json": {
+      "bytes": 7459,
+      "sha256": "eb0c519a0a51a649b120325ae10378f9d51a524a83e8d016c843d11f0d359e98"
+    },
+    "research-planning.json": {
+      "bytes": 4208,
+      "sha256": "10bc27cc2393e8f8400c0bca68698bd7464a7f8ac050a2340377b94c102c6d19"
+    },
+    "results.csv": {
+      "bytes": 13831,
+      "sha256": "7117ef35bb9353c3d4029b168bd581647d2750009a22f788e0b90c482a335d81"
+    },
+    "results.html": {
+      "bytes": 26348,
+      "sha256": "0d27fe3245b040d839330843f98affe6b76506fe851f19f1afc932544ca4b1e3"
+    },
+    "runner.py": {
+      "bytes": 20756,
+      "sha256": "34d4b393f757bfeef44b733f3ea66be6b1759c243f6c57d143613aad71b11550"
+    },
+    "runtime/final-parent-audit.json": {
+      "bytes": 677,
+      "sha256": "7e7977fb3f65e855b91ebf5d5ebeab7d041e2d7dc76b4e7aa9c255218ef4d9f3"
+    }
+  },
+  "raw_trial_evidence": "Retained under runtime/trials and discoveryworld/*/results. Raw stream and response existence verified for every complete trial.",
+  "validation": "21 tests, 2283 resolved sessions, 569 matched conditions, 53 rescored responses, 125 game tool boundaries.",
+  "html_checks": "728px and360px, metric toggle, details controls, no console errors."
+}

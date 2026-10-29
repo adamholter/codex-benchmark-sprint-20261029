@@ -1,0 +1,10 @@
+{
+  "a. ": "kannetje",
+  "b.": "karretje",
+  "c.": "kwartje",
+  "d.": "laatje",
+  "e.": "moedertje",
+  "f.": "riempje",
+  "g.": "stilletjes",
+  "h.": "tafeltje"
+}

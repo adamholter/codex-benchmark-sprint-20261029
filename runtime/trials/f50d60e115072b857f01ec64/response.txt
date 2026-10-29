@@ -1,0 +1,7 @@
+{
+  "17.": "Cannot determine: the sheet’s reference examples are missing.",
+  "18.": "Cannot determine: the sheet’s reference examples are missing.",
+  "19.": "Cannot determine: the sheet’s reference examples are missing.",
+  "20.": "Cannot determine: the sheet’s reference examples are missing.",
+  "21.": "Cannot determine: the sheet’s reference examples are missing."
+}

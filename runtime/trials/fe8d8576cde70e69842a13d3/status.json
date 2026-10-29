@@ -1,0 +1,62 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-RQ_253",
+  "category": "Multi-RQ",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793286443.661283,
+  "turn": {
+    "id": "01a18833-9410-7f12-a614-a9030f95c97c",
+    "rootTurnId": "01a18833-9410-7f12-a614-a9030f95c97c",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_088b98ddd4805129016ae3612f8c748197b8ddb0228cbf08fd",
+        "text": "{\n  \"question1\": \"[[ARIES CANCER LIBRA SCORPIO LEO]]\",\n  \"question2\": \"[[8^3]]\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793286444,
+    "completedAt": 1793286448,
+    "durationMs": 4130
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "question1": "ARIES CANCER LIBRA SCORPIO LEO",
+      "question2": "8^3"
+    },
+    "pass_rate": 1.0
+  },
+  "seconds": 4.54373266606126,
+  "usage": {
+    "total": {
+      "totalTokens": 4583,
+      "inputTokens": 4503,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 80,
+      "reasoningOutputTokens": 39
+    },
+    "last": {
+      "totalTokens": 4583,
+      "inputTokens": 4503,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 80,
+      "reasoningOutputTokens": 39
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793286448.204891
+}

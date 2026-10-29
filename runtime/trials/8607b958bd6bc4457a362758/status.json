@@ -1,0 +1,83 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly_no_context",
+  "id": "185:Q 10.2:no_context",
+  "category": "Match-up / Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793286123.3506272,
+  "turn": {
+    "id": "01a1882e-b0da-76d0-bcac-e2d88647d913",
+    "rootTurnId": "01a1882e-b0da-76d0-bcac-e2d88647d913",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0c560f35f295eb84016ae3601faf908197b30e096b0d3a5e7e",
+        "text": "{\"(a)\":\"Cannot be determined from the information provided.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793286123,
+    "completedAt": 1793286176,
+    "durationMs": 52350
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "Cannot be determined from the information provided."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 1,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 0.0
+    }
+  },
+  "seconds": 52.76383620791603,
+  "usage": {
+    "total": {
+      "totalTokens": 4286,
+      "inputTokens": 4230,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 56,
+      "reasoningOutputTokens": 36
+    },
+    "last": {
+      "totalTokens": 4286,
+      "inputTokens": 4230,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 56,
+      "reasoningOutputTokens": 36
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 232d7c73-a660-419e-8c81-73a430a93e09",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a1882e-b0c0-7e01-9bc1-9ebd9f53374a",
+      "turnId": "01a1882e-b0da-76d0-bcac-e2d88647d913"
+    }
+  ],
+  "finished_at": 1793286176.114305
+}

@@ -1,0 +1,71 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly_no_context",
+  "id": "122:Q 9.2:no_context",
+  "category": "Monolingual / Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793285336.873177,
+  "turn": {
+    "id": "01a18822-b18c-7b82-bc6e-5c143ff8de10",
+    "rootTurnId": "01a18822-b18c-7b82-bc6e-5c143ff8de10",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_07ea2304c36b2a84016ae35cdcbea88197800079bb7365f7ea",
+        "text": "{\"a.\":\"Not provided in the sheet\",\"b.\":\"Not provided in the sheet\",\"c.\":\"Not provided in the sheet\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793285337,
+    "completedAt": 1793285341,
+    "durationMs": 3600
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "a.": "Not provided in the sheet",
+      "b.": "Not provided in the sheet",
+      "c.": "Not provided in the sheet"
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 3,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 0.0,
+      "b.": 0.0,
+      "c.": 0.0
+    }
+  },
+  "seconds": 4.23956925002858,
+  "usage": {
+    "total": {
+      "totalTokens": 4070,
+      "inputTokens": 3958,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 112,
+      "reasoningOutputTokens": 78
+    },
+    "last": {
+      "totalTokens": 4070,
+      "inputTokens": 3958,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 112,
+      "reasoningOutputTokens": 78
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793285341.112424
+}

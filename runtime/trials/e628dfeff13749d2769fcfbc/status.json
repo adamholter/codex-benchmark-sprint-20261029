@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "fantom",
+  "id": "15-1-0-894",
+  "category": "tom:belief:inaccessible:multiple-choice",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793286168.872712,
+  "turn": {
+    "id": "01a1882f-6270-7f81-abb7-3877541fc663",
+    "rootTurnId": "01a1882f-6270-7f81-abb7-3877541fc663",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0f92be314ab65c3c016ae3601c4cd88190bcd26fc79b3b6366",
+        "text": "(b) Nyla believes they discussed sharing personal milestones, showcasing talents, expanding knowledge through online communities, and social media\u2019s political influence\u2014including participation, misinformation, and regulation.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793286169,
+    "completedAt": 1793286172,
+    "durationMs": 3506
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(b) Nyla believes they discussed sharing personal milestones, showcasing talents, expanding knowledge through online communities, and social media\u2019s political influence\u2014including participation, misinformation, and regulation.",
+    "strict_correct": false,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 3.8634012090042233,
+  "usage": {
+    "total": {
+      "totalTokens": 4917,
+      "inputTokens": 4795,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 122,
+      "reasoningOutputTokens": 82
+    },
+    "last": {
+      "totalTokens": 4917,
+      "inputTokens": 4795,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 122,
+      "reasoningOutputTokens": 82
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793286172.735847
+}

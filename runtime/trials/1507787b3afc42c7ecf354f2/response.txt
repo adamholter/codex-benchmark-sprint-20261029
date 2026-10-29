@@ -1,0 +1,6 @@
+{
+  "(a)": "Cannot be determined: no Maltese vocabulary translations or grammar rules are provided.",
+  "(b)": "Cannot be determined: no Maltese vocabulary translations or grammar rules are provided.",
+  "(c)": "Cannot be determined: no Maltese vocabulary translations or grammar rules are provided.",
+  "(d)": "Cannot be determined: no Maltese vocabulary translations or grammar rules are provided."
+}

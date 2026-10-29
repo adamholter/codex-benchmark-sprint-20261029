@@ -1,0 +1,1 @@
+{"a.": "law", "b.": "shoulder blade", "c.": "bad"}

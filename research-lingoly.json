@@ -1,0 +1,123 @@
+{
+  "benchmark": "LingOly",
+  "repository": {
+    "url": "https://github.com/am-bean/lingOly",
+    "cloned_at": "2026-10-29",
+    "last_commit": "ba5cfb422c0cdf6cb25a0fcd04234b411060bf28",
+    "last_commit_date_utc": "2025-03-03T11:30:01Z",
+    "last_commit_subject": "Update LICENSE to match paper"
+  },
+  "paper": {
+    "title": "LingOly: A Benchmark of Olympiad-Level Linguistic Reasoning Puzzles in Low-Resource and Extinct Languages",
+    "url": "https://arxiv.org/abs/2406.06196",
+    "latest_version": "v3",
+    "latest_version_date": "2024-10-31",
+    "results_tables": ["Appendix G, Table 6: exact match", "Appendix G, Table 7: Delta_NC"]
+  },
+  "data_rights": {
+    "dataset_license": "CC BY-NC-ND 4.0",
+    "dataset_license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "code_license": "CC BY-SA 4.0",
+    "code_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source_terms": [
+      "Questions are included with permission of their original authors.",
+      "The dataset is for language-model benchmark evaluation only.",
+      "Training on the dataset is prohibited.",
+      "Distribution is governed by CC BY-NC-ND 4.0; the paper also notes that original authors and UKLO may retain rights to control use."
+    ],
+    "task_specific_handling": "Do not publish source data. The official password-protected archives are retained in sources/lingoly. The adapter decrypts benchmark.zip in memory and does not write plaintext JSONL.",
+    "local_benchmark_use_authorized_by_user": true,
+    "code_attribution": "adapters/lingoly.py adapts am-bean/lingOly prompt and scoring code; changes are identified in its header."
+  },
+  "data": {
+    "official_benchmark_archive": {
+      "path": "sources/lingoly/testing/data/benchmark.zip",
+      "sha256_archive": "5ff333cb892395690b87f1e35ad913667ef0c3c1fbf6ad912f7da984a940add8",
+      "member": "test.jsonl",
+      "member_sha256_uncompressed": "acce3dff06d91129944745c8b10fa84a8ef85b6670584bfc5510de880892da82",
+      "member_encrypted": true,
+      "member_size_bytes": 3247822
+    },
+    "original_transcriptions_archive": {
+      "path": "sources/lingoly/creation/data/raw_puzzles.zip",
+      "sha256_archive": "ec949c7d41239643c9901b267c0766386581de0700e04f40b3a42e0d008b596f"
+    },
+    "bundled_responses_archive": {
+      "path": "sources/lingoly/testing/data/responses.zip",
+      "sha256_archive": "906a6029bc784e36a28c2115fc97af432f27eb4e74c806641daf58388b32d840",
+      "latest_member_timestamp_as_stored": {
+        "member": "temp.json",
+        "timestamp": "2024-06-05T20:52:10",
+        "timezone": "not encoded in ZIP DOS timestamps; timestamp is recorded verbatim"
+      },
+      "latest_named_model_response_as_stored": {
+        "member": "Llama-2-70b-chat-hf_lingoly.json",
+        "timestamp": "2024-05-29T15:09:50",
+        "timezone": "not encoded in ZIP DOS timestamps; timestamp is recorded verbatim"
+      }
+    },
+    "source_file_sha256": {
+      "testing/code/load_questions.py": "228364cf77b4bcba854e53fe7cb7b4d088e073a09fbf87edf418ef150c0315aa",
+      "testing/code/scoring_methods.py": "c5bbedab33035e20b98eebcebd2c14d6e6ac4ff58e6d1065d2e360c26520f474",
+      "testing/data/model_list.json": "ef5053e7e448a3182edff4c12eb579f53a9efa89322b4779e14c80c6c5f0cc9b"
+    },
+    "dataset_counts": {
+      "puzzle_sheets": 90,
+      "question_groups": 204,
+      "answer_parts": 1133,
+      "full_context_cases": 204,
+      "no_context_diagnostic_cases": 204
+    }
+  },
+  "adapter_method": {
+    "module": "adapters/lingoly.py",
+    "prompt_source": "Official testing/code/load_questions.py load_question function, using the GPT_4o registry entry with its blank chat header and footer by default.",
+    "grouping": "One case per upstream question group; all original subquestion parts remain together.",
+    "no_context": "Calls the same official loader with no_context=true; retains the preamble and question sheet while omitting context.",
+    "scoring_source": "Port of testing/code/scoring_methods.py exact-match normalization and accepted-answer handling.",
+    "normalization": [
+      "Strip leading and trailing whitespace and periods.",
+      "Collapse repeated ASCII spaces and lowercase.",
+      "Remove plus signs.",
+      "Standardize curly quotation marks.",
+      "Apply Unicode NFKD normalization."
+    ],
+    "model_inference_performed": false
+  },
+  "published_historical_scores": {
+    "source": "arXiv:2406.06196v3, Appendix G, Tables 6 and 7",
+    "results_date": "2024-10-31",
+    "exact_match_percent": "Published exact-match accuracy on the full-context benchmark, by easy, difficult, and overall split.",
+    "delta_nc_percentage_points": "Published score(full context) minus score(no context), by the same splits; these are deltas, not the no-context accuracies.",
+    "split_names": ["breakthrough_foundation", "intermediate_advanced_round2", "overall"],
+    "models": [
+      {"model": "Claude Opus", "exact_match_percent": [77.1, 38.7, 46.3], "delta_nc_percentage_points": [45.3, 24.7, 28.8]},
+      {"model": "GPT-4o", "exact_match_percent": [68.2, 30.0, 37.6], "delta_nc_percentage_points": [38.6, 21.7, 25.1]},
+      {"model": "GPT-4", "exact_match_percent": [67.3, 25.0, 33.4], "delta_nc_percentage_points": [40.8, 16.7, 21.5]},
+      {"model": "Gemini 1.5 Pro", "exact_match_percent": [63.2, 24.4, 32.1], "delta_nc_percentage_points": [44.4, 18.2, 23.4]},
+      {"model": "Command R+", "exact_match_percent": [42.6, 16.3, 21.5], "delta_nc_percentage_points": [20.2, 9.5, 11.6]},
+      {"model": "GPT-3.5", "exact_match_percent": [38.6, 16.9, 21.2], "delta_nc_percentage_points": [15.2, 10.1, 11.2]},
+      {"model": "Mixtral 8x7B", "exact_match_percent": [28.3, 10.7, 14.2], "delta_nc_percentage_points": [9.0, 5.8, 6.4]},
+      {"model": "Llama 3 8B", "exact_match_percent": [26.0, 7.8, 11.4], "delta_nc_percentage_points": [11.7, 3.2, 4.9]},
+      {"model": "Aya 23 35B", "exact_match_percent": [25.1, 7.1, 10.7], "delta_nc_percentage_points": [10.3, 3.5, 4.8]},
+      {"model": "Llama 3 70B", "exact_match_percent": [23.8, 6.9, 10.3], "delta_nc_percentage_points": [7.6, 1.8, 2.9]},
+      {"model": "Llama 2 70B", "exact_match_percent": [19.3, 3.2, 6.4], "delta_nc_percentage_points": [8.1, -0.7, 1.1]},
+      {"model": "Gemma 7B", "exact_match_percent": [7.6, 4.2, 4.9], "delta_nc_percentage_points": [2.2, 2.2, 2.2]}
+    ]
+  },
+  "source_scorer_audit": {
+    "empty_answer_parts": 13,
+    "question_groups_with_only_empty_answers": 12,
+    "fuzzy_matching_true_parts": 22,
+    "repository_behavior": "The upstream exact scorer gives an empty gold answer 1.0 and does not inspect fuzzy_matching. The paper describes missing and fuzzy answers as excluded, so these code and paper descriptions do not align. This adapter preserves repository scorer behavior; published scores are historical references, not a verified reproduction of the source scorer output."
+  },
+  "validation": {
+    "prompt_and_grouping": "204 full-context and 204 paired no-context cases loaded; 1,133 answer parts retained.",
+    "answer_template": "Every prompt contains the official blank-answer JSON template; gold values stay separate from prompt input.",
+    "official_answer_positive_checks": 204,
+    "definitely_wrong_answer_checks": 192,
+    "json_extraction": "Fenced JSON with leading prose extracted and scored against official answers.",
+    "unconditionally_correct_all_empty_cases": 12,
+    "inference": "None"
+  }
+}

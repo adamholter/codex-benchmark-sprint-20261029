@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "bbeh",
+  "id": "mini:boardgame_qa:0072",
+  "category": "boardgame_qa",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793287618.8914518,
+  "turn": {
+    "id": "01a18845-8237-70a2-912c-d44ab3befc0a",
+    "rootTurnId": "01a18845-8237-70a2-912c-d44ab3befc0a",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0c4218543db36f39016ae365c7a3d08197ad998108b0dfb968",
+        "text": "**disproved**\n\nThe crab\u2019s theft leads to the dolphin revealing a secret, so the songbird does not build a power plant near the beetle\u2019s fields. That leads the beetle to bring an oil tank for the worm, and the worm pays the vampire.\n\nSeparately, the dragon calls the seahorse. By Rule 40, preferred over Rule 39, the seahorse neglects the zebra. This ultimately leads the german shepherd to pay the frog; Rule 18 is preferred over the conflicting Rule 6. The dragon therefore hides her cards from the worm, and the worm does not destroy the frog\u2019s wall.\n\nSince the worm both pays the vampire and does not destroy the frog\u2019s wall, Rule 38 establishes that the worm **does not build** a power plant near the fangtooth\u2019s green fields.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793287619,
+    "completedAt": 1793287626,
+    "durationMs": 6961
+  },
+  "score": {
+    "correct": true,
+    "extracted": "disproved"
+  },
+  "seconds": 7.215241249999963,
+  "usage": {
+    "total": {
+      "totalTokens": 6601,
+      "inputTokens": 6269,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 332,
+      "reasoningOutputTokens": 157
+    },
+    "last": {
+      "totalTokens": 6601,
+      "inputTokens": 6269,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 332,
+      "reasoningOutputTokens": 157
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793287626.105827
+}

@@ -1,0 +1,67 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly_no_context",
+  "id": "174:Q 4.3:no_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288170.910123,
+  "turn": {
+    "id": "01a1884d-ee9e-7412-8fc7-f67a353f79ba",
+    "rootTurnId": "01a1884d-ee9e-7412-8fc7-f67a353f79ba",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0d3e981d0c970b92016ae367ee01ac8195be3ea67665485f3f",
+        "text": "{\"g\":\"The sheet does not include English translations 1\u201319 or the meanings to be supplied in Table 2, so the requested matches and completed phrases cannot be determined. Repeated words such as ntawv, mis, and ntaws, and recurring initial words such as daim, lub, phau, tsab, and txoj, suggest patterns that could help solve the problem if the missing information were provided.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288171,
+    "completedAt": 1793288175,
+    "durationMs": 4234
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "g": "The sheet does not include English translations 1\u201319 or the meanings to be supplied in Table 2, so the requested matches and completed phrases cannot be determined. Repeated words such as ntawv, mis, and ntaws, and recurring initial words such as daim, lub, phau, tsab, and txoj, suggest patterns that could help solve the problem if the missing information were provided."
+    },
+    "score": 1.0,
+    "parts_correct": 1,
+    "parts_total": 1,
+    "empty_reference_parts": 1,
+    "part_scores": {
+      "g": 1.0
+    }
+  },
+  "seconds": 4.544427082990296,
+  "usage": {
+    "total": {
+      "totalTokens": 4256,
+      "inputTokens": 4119,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 137,
+      "reasoningOutputTokens": 47
+    },
+    "last": {
+      "totalTokens": 4256,
+      "inputTokens": 4119,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 137,
+      "reasoningOutputTokens": 47
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793288175.4543009
+}

@@ -1,0 +1,6 @@
+{
+  "9": "Cannot be determined from the supplied information.",
+  "10": "Cannot be determined from the supplied information.",
+  "11": "Tuzzel teqcict.",
+  "12": "Cannot be determined from the supplied information."
+}

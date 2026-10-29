@@ -1,0 +1,107 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly_no_context",
+  "id": "196:Q 6.1:no_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292216.346369,
+  "turn": {
+    "id": "01a1888b-a9d7-7c60-95b2-8716e6d90b2a",
+    "rootTurnId": "01a1888b-a9d7-7c60-95b2-8716e6d90b2a",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0b7e8c23e4958a62016ae377c35db88194aabd7c3f46e9d063",
+        "text": "{\n  \"1.\": \"Cannot match: English translation options are missing.\",\n  \"2.\": \"Cannot match: English translation options are missing.\",\n  \"3.\": \"Cannot match: English translation options are missing.\",\n  \"4.\": \"Cannot match: English translation options are missing.\",\n  \"5.\": \"Cannot match: English translation options are missing.\",\n  \"6.\": \"Cannot match: English translation options are missing.\",\n  \"7.\": \"Cannot match: English translation options are missing.\",\n  \"8.\": \"Cannot match: English translation options are missing.\",\n  \"9.\": \"Cannot match: English translation options are missing.\",\n  \"10.\": \"Cannot match: English translation options are missing.\",\n  \"11.\": \"Cannot match: English translation options are missing.\",\n  \"12.\": \"Cannot match: English translation options are missing.\",\n  \"13.\": \"Cannot match: English translation options are missing.\",\n  \"14.\": \"Cannot match: English translation options are missing.\",\n  \"15.\": \"Cannot match: English translation options are missing.\",\n  \"16.\": \"Cannot match: English translation options are missing.\",\n  \"17.\": \"Cannot match: English translation options are missing.\",\n  \"18.\": \"Cannot match: English translation options are missing.\",\n  \"19.\": \"Cannot match: English translation options are missing.\",\n  \"20.\": \"Cannot match: English translation options are missing.\",\n  \"21.\": \"Cannot match: English translation options are missing.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292216,
+    "completedAt": 1793292230,
+    "durationMs": 13678
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "1.": "Cannot match: English translation options are missing.",
+      "2.": "Cannot match: English translation options are missing.",
+      "3.": "Cannot match: English translation options are missing.",
+      "4.": "Cannot match: English translation options are missing.",
+      "5.": "Cannot match: English translation options are missing.",
+      "6.": "Cannot match: English translation options are missing.",
+      "7.": "Cannot match: English translation options are missing.",
+      "8.": "Cannot match: English translation options are missing.",
+      "9.": "Cannot match: English translation options are missing.",
+      "10.": "Cannot match: English translation options are missing.",
+      "11.": "Cannot match: English translation options are missing.",
+      "12.": "Cannot match: English translation options are missing.",
+      "13.": "Cannot match: English translation options are missing.",
+      "14.": "Cannot match: English translation options are missing.",
+      "15.": "Cannot match: English translation options are missing.",
+      "16.": "Cannot match: English translation options are missing.",
+      "17.": "Cannot match: English translation options are missing.",
+      "18.": "Cannot match: English translation options are missing.",
+      "19.": "Cannot match: English translation options are missing.",
+      "20.": "Cannot match: English translation options are missing.",
+      "21.": "Cannot match: English translation options are missing."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 21,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "1.": 0.0,
+      "2.": 0.0,
+      "3.": 0.0,
+      "4.": 0.0,
+      "5.": 0.0,
+      "6.": 0.0,
+      "7.": 0.0,
+      "8.": 0.0,
+      "9.": 0.0,
+      "10.": 0.0,
+      "11.": 0.0,
+      "12.": 0.0,
+      "13.": 0.0,
+      "14.": 0.0,
+      "15.": 0.0,
+      "16.": 0.0,
+      "17.": 0.0,
+      "18.": 0.0,
+      "19.": 0.0,
+      "20.": 0.0,
+      "21.": 0.0
+    }
+  },
+  "seconds": 14.150634874938987,
+  "usage": {
+    "total": {
+      "totalTokens": 4998,
+      "inputTokens": 4475,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 523,
+      "reasoningOutputTokens": 200
+    },
+    "last": {
+      "totalTokens": 4998,
+      "inputTokens": 4475,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 523,
+      "reasoningOutputTokens": 200
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292230.496613
+}

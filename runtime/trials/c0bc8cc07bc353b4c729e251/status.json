@@ -1,0 +1,105 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly_no_context",
+  "id": "220:Q 5.1:no_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288977.713079,
+  "turn": {
+    "id": "01a1885a-3e47-7902-a42c-655d13dfc24d",
+    "rootTurnId": "01a1885a-3e47-7902-a42c-655d13dfc24d",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_056ee4f2f002f692016ae36b15c0488194a21ea2a1f0ae2d63",
+        "text": "{\"1.\": \"not determinable from the provided information\", \"2.\": \"not determinable from the provided information\", \"3.\": \"not determinable from the provided information\", \"4.\": \"not determinable from the provided information\", \"5.\": \"not determinable from the provided information\", \"6.\": \"not determinable from the provided information\", \"7.\": \"not determinable from the provided information\", \"8.\": \"not determinable from the provided information\", \"9.\": \"not determinable from the provided information\", \"10.\": \"not determinable from the provided information\", \"11.\": \"not determinable from the provided information\", \"12.\": \"not determinable from the provided information\", \"13.\": \"not determinable from the provided information\", \"14.\": \"not determinable from the provided information\", \"15.\": \"not determinable from the provided information\", \"16.\": \"not determinable from the provided information\", \"17.\": \"not determinable from the provided information\", \"18.\": \"not determinable from the provided information\", \"19.\": \"not determinable from the provided information\", \"20.\": \"not determinable from the provided information\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288977,
+    "completedAt": 1793288983,
+    "durationMs": 5484
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "1.": "not determinable from the provided information",
+      "2.": "not determinable from the provided information",
+      "3.": "not determinable from the provided information",
+      "4.": "not determinable from the provided information",
+      "5.": "not determinable from the provided information",
+      "6.": "not determinable from the provided information",
+      "7.": "not determinable from the provided information",
+      "8.": "not determinable from the provided information",
+      "9.": "not determinable from the provided information",
+      "10.": "not determinable from the provided information",
+      "11.": "not determinable from the provided information",
+      "12.": "not determinable from the provided information",
+      "13.": "not determinable from the provided information",
+      "14.": "not determinable from the provided information",
+      "15.": "not determinable from the provided information",
+      "16.": "not determinable from the provided information",
+      "17.": "not determinable from the provided information",
+      "18.": "not determinable from the provided information",
+      "19.": "not determinable from the provided information",
+      "20.": "not determinable from the provided information"
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 20,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "1.": 0.0,
+      "2.": 0.0,
+      "3.": 0.0,
+      "4.": 0.0,
+      "5.": 0.0,
+      "6.": 0.0,
+      "7.": 0.0,
+      "8.": 0.0,
+      "9.": 0.0,
+      "10.": 0.0,
+      "11.": 0.0,
+      "12.": 0.0,
+      "13.": 0.0,
+      "14.": 0.0,
+      "15.": 0.0,
+      "16.": 0.0,
+      "17.": 0.0,
+      "18.": 0.0,
+      "19.": 0.0,
+      "20.": 0.0
+    }
+  },
+  "seconds": 5.786679542041384,
+  "usage": {
+    "total": {
+      "totalTokens": 5034,
+      "inputTokens": 4550,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 484,
+      "reasoningOutputTokens": 218
+    },
+    "last": {
+      "totalTokens": 5034,
+      "inputTokens": 4550,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 484,
+      "reasoningOutputTokens": 218
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793288983.49937
+}

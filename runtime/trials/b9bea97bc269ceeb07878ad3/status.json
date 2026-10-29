@@ -1,0 +1,68 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-RQ_Hard_1838",
+  "category": "Multi-RQ_Hard",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793293233.250418,
+  "turn": {
+    "id": "01a1889b-2d51-75e3-a3f1-91cab0c84f80",
+    "rootTurnId": "01a1889b-2d51-75e3-a3f1-91cab0c84f80",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_09160d05f36112be016ae37bcee32881959479e8848e5a9de2",
+        "text": "{\n  \"question1\": \"[[4]]\",\n  \"question2\": \"[[D]]\",\n  \"question3\": \"Underdetermined: the rules do not specify enough constraints to determine a unique matrix.\",\n  \"question4\": \"[[4]]\",\n  \"question5\": \"Underdetermined: the rules do not specify enough constraints to determine a unique matrix.\",\n  \"question6\": \"[[3]]\",\n  \"question7\": \"Underdetermined: the rules do not specify enough constraints to determine a unique matrix.\",\n  \"question8\": \"[[HAFGDBXPOYE]]\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793293233,
+    "completedAt": 1793293264,
+    "durationMs": 30571
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "question1": "4",
+      "question2": "D",
+      "question3": "NULL",
+      "question4": "4",
+      "question5": "NULL",
+      "question6": "3",
+      "question7": "NULL",
+      "question8": "HAFGDBXPOYE"
+    },
+    "pass_rate": 0.5
+  },
+  "seconds": 30.827145666931756,
+  "usage": {
+    "total": {
+      "totalTokens": 7355,
+      "inputTokens": 5152,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 2203,
+      "reasoningOutputTokens": 2070
+    },
+    "last": {
+      "totalTokens": 7355,
+      "inputTokens": 5152,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 2203,
+      "reasoningOutputTokens": 2070
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793293264.075448
+}

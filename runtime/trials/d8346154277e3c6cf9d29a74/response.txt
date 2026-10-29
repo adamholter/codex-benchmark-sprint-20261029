@@ -1,0 +1,7 @@
+**31 items.**
+
+The material totals show that the aunt’s replacement material was glass. The discarded color was yellow, and the brother’s replacement size was large.
+
+Before the fiancée added copies, **26 items** met all five conditions. She added **5 more qualifying copies**: two ivory, freshly-cut-grass-smelling items and three magenta items with new smell–color pairs. Losing a small item did not affect the count, since small items are excluded.
+
+So the final count is **26 + 5 = 31**.

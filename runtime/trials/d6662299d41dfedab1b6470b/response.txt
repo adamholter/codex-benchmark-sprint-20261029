@@ -1,0 +1,20 @@
+{
+  "(a)": "Cannot determine: table missing.",
+  "(b)": "Cannot determine: table missing.",
+  "(c)": "Cannot determine: table missing.",
+  "(d)": "Cannot determine: table missing.",
+  "(e)": "Cannot determine: table missing.",
+  "(f)": "Cannot determine: table missing.",
+  "(g)": "Cannot determine: table missing.",
+  "(h)": "Cannot determine: table missing.",
+  "(i)": "Cannot determine: table missing.",
+  "(j)": "Cannot determine: table missing.",
+  "(k)": "Cannot determine: table missing.",
+  "(l)": "Cannot determine: table missing.",
+  "(m)": "Cannot determine: table missing.",
+  "(n)": "Cannot determine: table missing.",
+  "(o)": "Cannot determine: table missing.",
+  "(p)": "Cannot determine: table missing.",
+  "(q)": "Cannot determine: table missing.",
+  "(r)": "Cannot determine: table missing."
+}

@@ -1,0 +1,102 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+In the Transformers universe, the origins of the Autobots and Decepticons trace back to their home planet Cybertron, a metallic world inhabited by sentient robots capable of transformation. Cybertron was once a peaceful planet ruled by the High Council, the original rulers of Cybertron. However, a rift developed between two key figures: Optimus Prime, who would become the leader of the Autobots, and Megatron, who would become the head of the Decepticons. The inhabitants of Cybertron are mechanical life forms composed of metal and mechanical parts.
+Optimus Prime believes in the freedom of all sentient beings and advocates for a vision of harmonious coexistence. On the other hand, Megatron, initially a gladiator, was disillusioned with the existing system. He envisioned a society ruled by the strongest, leading him to form the Decepticons.
+The rift between Optimus Prime and Megatron resulted in a civil war that split Cybertronian society into Autobots (primarily civilian vehicles) and Decepticons (mostly military vehicles). The war was so devastating that Cybertron became uninhabitable, causing both Autobots and Decepticons to disperse across the galaxy.
+The Autobots and Decepticons eventually arrived on Earth, continuing their conflict with Earth's fate hanging in the balance. The ideological differences between their respective leaders—Optimus Prime's belief in freedom and equality versus Megatron's belief in survival of the fittest—continuously drive the conflict. In 1991, the first secret contact of Cybertron with humanity was discovered.
+Despite both factions having hierarchical structures, the leadership structures of the Autobots and Decepticons differ in principle, reflecting the overall spirit of the two factions. 
+Starting with the Autobots, the organization is led by a leader, a title that signifies the leader of Autobot strength. This title has been held by several characters throughout the Transformers universe, with Optimus Prime being the most renowned. The leader is typically chosen by the Matrix of Leadership, a powerful artifact passed from one Autobot leader to another. This tradition symbolizes the ideals of democracy and elite governance within the Autobot faction.
+The role of the leader is not only that of a battlefield commander but also a source of moral guidance and wisdom. Leaders are often seen making decisions that prioritize the well-being of all sentient life and are known for their compassion, courage, and commitment to peace and freedom. The second-in-command, known as the Commander, supports the leader. They lead individual teams or units and are chosen for their strategic abilities and leadership qualities.
+On the other hand, the Decepticons' leadership structure is more dictatorial and militarized. The organization is led by their most powerful and ruthless members, emphasizing the Decepticons' belief in "survival of the fittest." Megatron, the most notable Decepticon leader, seized control through strength and intimidation. In 2007, the Decepticon leader Megatron was discovered.
+Decepticon leaders maintain their positions by displaying power, using their strength or cunning to deter challengers. While subordinates may serve loyally, they often plot to overthrow their leaders to gain power, leading to constant power struggles within the faction. This ongoing tension reflects the Decepticons' aggressive and power-driven ideology.
+Cybertronian form refers to the original or native form of Transformers before they acquire Earth-based modes. On their home planet Cybertron, Transformers take on mechanical life forms that can transform into various objects, vehicles, or even animal-like shapes. In their Cybertronian forms, Transformers usually adopt more alien, often abstract or geometric configurations that hint at their functions or purposes. Some may transform into Cybertronian vehicles or weapons, while others may transform into various complex mechanical devices.
+In the Transformers universe, Rescue Bots are the Autobots' medical experts responsible for the medical care of Transformers.
+The ability of Transformers to transform is not merely a means of disguise or transportation. It is a fundamental part of their biology—or more accurately, their "mechanics." This ability is as natural to them as walking or running is to humans, having been "forged" with it. This transformation capability is driven by the "T-Cog," a component that allows Transformers to change their forms at will.
+The Matrix of Leadership, also known as the Allspark, plays a crucial role in the mythology of the Transformers universe. It is often described as a large metallic cube emitting mysterious energy, essentially the life force of all Transformers, with the power to create new Transformer life and, in some cases, restore deactivated Transformers. The Allspark is regarded as the source of all Transformer life. It not only creates new Transformers but also can revive deactivated Transformers, possessing crucial vitality. Energon is the primary source of energy for all Transformers.
+In the Transformers universe, Teletraan I is the primary computer system used for communication among Autobots.
+
+**Encryption Rules:**
+
+- Input:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+    - Key: The key is a string used to select the alphabets. Each letter in the key will be used to select the corresponding alphabet for encryption or decryption.
+- Output:
+    - Ciphertext: Uppercase letters string.
+- Preparation:
+    - Cipher Alphabets
+        
+        Use the following 13 cipher alphabets, each associated with two letters:
+        AB: NOPQRSTUVWXYZABCDEFGHIJKLM
+        CD: ZNOPQRSTUVWXYBCDEFGHIJKLMA
+        EF: YZNOPQRSTUVWXCDEFGHIJKLMAB
+        GH: XYZNOPQRSTUVWDEFGHIJKLMABC
+        IJ: WXYZNOPQRSTUVEFGHIJKLMABCD
+        KL: VWXYZNOPQRSTUFGHIJKLMABCDE
+        MN: UVWXYZNOPQRSTGHIJKLMABCDEF
+        OP: TUVWXYZNOPQRSHIJKLMABCDEFG
+        QR: STUVWXYZNOPQRIJKLMABCDEFGH
+        ST: RSTUVWXYZNOPQJKLMABCDEFGHI
+        UV: QRSTUVWXYZNOPKLMABCDEFGHIJ
+        WX: PQRSTUVWXYZNOLMABCDEFGHIJK
+        YZ: OPQRSTUVWXYZNMABCDEFGHIJKL
+        
+    - Standard Alphabet
+        - ABCDEFGHIJKLMNOPQRSTUVWXYZ
+- Encryption Steps:
+    - Pair each letter in the key with each letter in the plaintext. If the key is shorter than the plaintext, repeat the key.
+    - For each given plaintext character p:
+        - Find the corresponding cipher alphabet based on the key letter paired with it. If the key letter is A, mark the choice AB: NOPQRSTUVWXYZABCDEFGHIJKLM
+        - Find the position of p in the standard alphabet and replace it with the letter at the same position in the cipher alphabet.
+
+ **Decryption Rules:**
+
+- Input:
+    - Ciphertext: Uppercase letters string.
+    - Key: The key is a string used to select the alphabets. Each letter in the key will be used to select the corresponding alphabet for encryption or decryption.
+- Output:
+    - Plaintext: Uppercase letters string.
+- Preparation:
+    - Cipher Alphabets (Same as encryption)
+    - Standard Alphabet(Same as encryption)
+- Decryption Steps (exact opposite of encryption steps):
+    - Pair each letter in the key with each letter in the ciphertext. If the key is shorter than the plaintext, repeat the key.
+    - For each given ciphertext character c:
+        - Find the corresponding cipher alphabet based on the key letter paired with it. If the key letter is A, mark AB Option: NOPQRSTUVWXYZABCDEFGHIJKLM
+        - Find the position of c in the cipher alphabet and reduce it to the plaintext letter using the same position in the standard alphabet.
+
+1.Each puzzle contains a number of elements and attributes, and a description of them.
+2.The descriptions are usually presented in the form of clues, each of which provides part of the information, and all of which are true and do not contradict each other.
+3.The information provided by the clues needs to be combined and analyzed to match elements to attributes.
+
+
+### Questions:
+question1:
+1.Vicki's client, Beulah and the client who paid $150 were all different clients.
+2.Misty's client was either Eula or Inez.
+3.Nancy's client paid more than Kara's client.
+4.Debra paid 10 dollars less than Inez.
+5.Debra paid 20 dollars less than Misty's client.
+
+The output should contain four entries, each containing three fields in order: Prices Clients Masseuses (the header does not need to be given), the fields separated by spaces and the entries separated by commas.
+Arrange the entries in order: the first field is $150, $160, $170 and $180 respectively.
+Finally, enclose the entire answer in double brackets, like this: [[...]].
+
+question2:
+What is considered the source of life creation?
+Options: A. Natural birth##B. The Allspark##C. Genetic engineering##D. Divine creation
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+
+### Answers:

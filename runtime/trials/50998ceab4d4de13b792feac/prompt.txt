@@ -1,0 +1,108 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+Between propositions p1 and p2, the representation is defined as follows:
+A: ∀p1⇒p2
+E: ∀p1⇒¬p2
+I: ∃p1⇒p2
+O: ∃p1⇒¬p2
+
+The figures and moods of the syllogism are as follows:
+1.Figure I
+Form:
+M()P
+S()M
+∴S()P
+The parentheses can be filled in with the following Valid Moods.
+Valid Moods:
+- AAA
+- EAE
+- AII
+- EIO
+
+2.Figure II
+Form: 
+P()M
+S()M
+∴S()P
+The parentheses can be filled in with the following Valid Moods.
+Valid Moods:
+- AEE
+- EAE
+- EIO
+- AOO
+
+3.Figure III
+Form:
+M()P
+M()S
+∴S()P
+The parentheses can be filled in with the following Valid Moods.
+Valid Moods:
+- AII
+- EIO
+- IAI
+- OAO
+
+4.Figure IV
+Form: 
+P()M
+M()S
+∴S()P
+The parentheses can be filled in with the following Valid Moods.
+Valid Moods:
+- AEE
+- EIO
+- IAI
+
+f■g=\frac{\partial f}{\partial x}+\frac{\partial g}{\partial x}.
+
+Lighthouse is called the largest man-made flying object that flies above the earth and is inhabited by surviving humans.
+Victor, the character in the anime Spirit Cage and its derivative works, the city defense Army commander General Victor is loyal to the city master Morgan, the mechanical iron wall is his medal for defending the lighthouse, and his city defense Army is the functional department in charge of city security, with the only field team allowed to carry heat weapons on the lighthouse.
+The Lighthouse society enforced a strict system of racial segregation, and the dust people were not regarded as ordinary human beings and had no reproductive rights.
+One such group is the Church of Light and Shadow, founded by the current city lord Morgan, with his son Charles as the leader. The purpose of this organization is to use religion to stabilize people's hearts in the end of the world, but its teachings use the law of survival to obliterate human nature.
+The cuneiform script of ancient Babylon appears in the cave of Marc's dream wedding, and on the archival panels of the White Boss's base.
+The speech the spine GU spoke during the operation was in Sanskrit.
+According to the Mana ecological report, Devouring Beast I could evolve into Devouring Beast II.Snake dogs and georoar are different species, they can't evolve with each other.
+Morgan in the Spirit Cage states that the Lotto system has existed since the time of Tartarus, and that it can calculate the future of the fate of humanity.
+The lighthouse was formerly known as Tartaslow Prison, which was used to house various criminals.
+Marc's body is special. It can fuse with any species.
+Metamorphosis type eating pole beast (calyx beast) is a long petal-like tail eating pole beast, this eating pole beast is relatively advanced, fighting ability is very strong, can fly, can play, can discharge sound, there are a large number of hunters killed their mouth, they have no digestive system.
+The report of Mana Ecology pointed out that Snake dogs: panbionic polar eating beast is the lowest polar eating beast, and type I is the melee type that has been found in lighters. Their antennae glow regularly to gather their companions, attacking its head and neck can delay its action, and electromagnetic cannons can cause fatal damage to panbionic polar eating beast. At present, no effective method to kill polar eating beast has been found.
+Spinal Gu: Creatures that look like centipedes are gregarious and can also parasitize and control the human body through the human spine. The controlled person is similar to a zombie, but unlike a zombie, he can still move even if he loses his brain. Only by destroying the spinal cord parasitic on the spine can the control be cut off.
+Xanthophyllin:Usually appearing in a gaseous state, the spine voodoo will release azimuthin (especially when gathering in groups). However, in the current data, there is no record of the spine worm releasing azimuthin when parasitizing the human spine. These hormones can cause hallucinations in those who inhale too much.
+Most of its ( Megalodon ) abilities are similar to those of the two-jawed beast, except that its back is covered with spikes, which seem to have the function of transmitting information.
+Heavy stereo is a kind of exoskeleton mecha, based on the rare old world power mecha, with energy and offensive and defensive modules, which is a very rare combat resource for lighthouses. When humans wear it, it's as if they have become "iron warriors"!
+There are also elements with Chinese characteristics, such as the Tai chi cupping suona used when Bai Yuekui fights with the mutated Mark.
+
+
+### Questions:
+question1:
+f(x,y)=x^3+y^3,g(x,y)=x^2+y^2, compute f■g.
+If there is a power inside the answer, write it in the form a^b (a is the base, b is the exponent).
+Please wrap the answer in double square brackets, like this: [[your answer]].
+
+question2:
+f(x,y)=sinx+y^2,g(x,y)=cosx-y, compute f■g.
+Please provide your answer in LaTeX format. 
+Wrap the final answer in double square brackets, like this: [[your answer]].
+
+question3:
+Given the logical statements:
+∀P⇒M, ∀M⇒¬S ⇒ ∀S⇒¬P
+
+Determine which figure and mood of syllogism the argument corresponds to, using the format [[I/II/III/IV];[Mood]].
+
+
+### Answers:

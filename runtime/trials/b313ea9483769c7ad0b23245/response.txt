@@ -1,0 +1,1 @@
+After undoing each row’s rotation, the qualifying rows give a sleep-minutes median of 469.5 and a phone-screen-time median of 36. Their absolute difference, rounded to two decimal places, is **433.50**.

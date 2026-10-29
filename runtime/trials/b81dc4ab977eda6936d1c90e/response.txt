@@ -1,0 +1,20 @@
+{
+  "e.": "Cannot determine: the numeral table and years are missing.",
+  "f.": "Insufficient information",
+  "g.": "Insufficient information",
+  "h.": "Insufficient information",
+  "i.": "Insufficient information",
+  "j.": "Insufficient information",
+  "k.": "Insufficient information",
+  "l.": "Insufficient information",
+  "m.": "Insufficient information",
+  "n.": "Insufficient information",
+  "o.": "Insufficient information",
+  "p.": "Insufficient information",
+  "q.": "Insufficient information",
+  "r.": "Insufficient information",
+  "s.": "Insufficient information",
+  "t.": "Insufficient information",
+  "u.": "Insufficient information",
+  "v.": "Insufficient information"
+}

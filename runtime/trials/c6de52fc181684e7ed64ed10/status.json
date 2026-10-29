@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "fantom",
+  "id": "92-1-2-4607",
+  "category": "tom:answerability:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290066.587472,
+  "turn": {
+    "id": "01a1886a-de34-7392-a597-996cfd8fa6f3",
+    "rootTurnId": "01a1886a-de34-7392-a597-996cfd8fa6f3",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0844cf9cb56e04c4016ae36f5cc4988197a0de3b6c0bed54f2",
+        "text": "Lucia and Riley.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290067,
+    "completedAt": 1793290077,
+    "durationMs": 9835
+  },
+  "score": {
+    "correct": true,
+    "extracted": "Lucia and Riley.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 11.343112375005148,
+  "usage": {
+    "total": {
+      "totalTokens": 4368,
+      "inputTokens": 4271,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 97,
+      "reasoningOutputTokens": 86
+    },
+    "last": {
+      "totalTokens": 4368,
+      "inputTokens": 4271,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 97,
+      "reasoningOutputTokens": 86
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793290077.929735
+}

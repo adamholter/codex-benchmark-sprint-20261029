@@ -1,0 +1,1 @@
+{"d.":"The supplied sheet contains no Pame number forms or numerical examples, so neither language’s number system nor the differences between them can be determined from the information provided."}

@@ -1,0 +1,6 @@
+After removing the appended values, 16 days satisfy both conditions. Ignoring null measurements:
+
+- Mean sleep_minutes = 5116 / 12 = 426.33
+- Mean coding_minutes = 489 / 14 = 34.93
+
+The absolute difference, rounded to two decimal places, is **391.40**.

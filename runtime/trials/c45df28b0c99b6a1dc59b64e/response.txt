@@ -1,0 +1,12 @@
+{
+  "(a)": "Cannot determine: roman-numeral choices were not provided.",
+  "(b)": "Cannot determine: roman-numeral choices were not provided.",
+  "(c)": "Cannot determine: roman-numeral choices were not provided.",
+  "(d)": "Cannot determine: roman-numeral choices were not provided.",
+  "(e)": "Cannot determine: roman-numeral choices were not provided.",
+  "(f)": "Cannot determine: roman-numeral choices were not provided.",
+  "(g)": "Cannot determine: roman-numeral choices were not provided.",
+  "(h)": "Cannot determine: roman-numeral choices were not provided.",
+  "(i)": "Cannot determine: roman-numeral choices were not provided.",
+  "(j)": "Cannot determine: roman-numeral choices were not provided."
+}

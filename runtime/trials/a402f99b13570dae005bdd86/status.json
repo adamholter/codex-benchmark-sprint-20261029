@@ -1,0 +1,81 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly_no_context",
+  "id": "101:Q 1.:no_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793295463.901663,
+  "turn": {
+    "id": "01a188bd-3895-7472-8102-d59e54fca98b",
+    "rootTurnId": "01a188bd-3895-7472-8102-d59e54fca98b",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_00227179604b2afc016ae3846e4c34819392614e944acb7463",
+        "text": "{\n  \"1\": \"Cannot determine: the referenced Lithuanian conversation is missing.\",\n  \"2\": \"Cannot determine: the referenced Lithuanian conversation is missing.\",\n  \"3\": \"Cannot determine: the referenced Lithuanian conversation is missing.\",\n  \"4\": \"Cannot determine: the referenced Lithuanian conversation is missing.\",\n  \"5\": \"Cannot determine: the referenced Lithuanian conversation is missing.\",\n  \"6\": \"Cannot determine: the referenced Lithuanian conversation is missing.\",\n  \"7\": \"Cannot determine: the referenced Lithuanian conversation is missing.\",\n  \"8\": \"Cannot determine: the referenced Lithuanian conversation is missing.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793295464,
+    "completedAt": 1793295472,
+    "durationMs": 7656
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "1": "Cannot determine: the referenced Lithuanian conversation is missing.",
+      "2": "Cannot determine: the referenced Lithuanian conversation is missing.",
+      "3": "Cannot determine: the referenced Lithuanian conversation is missing.",
+      "4": "Cannot determine: the referenced Lithuanian conversation is missing.",
+      "5": "Cannot determine: the referenced Lithuanian conversation is missing.",
+      "6": "Cannot determine: the referenced Lithuanian conversation is missing.",
+      "7": "Cannot determine: the referenced Lithuanian conversation is missing.",
+      "8": "Cannot determine: the referenced Lithuanian conversation is missing."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 8,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.0,
+      "4": 0.0,
+      "5": 0.0,
+      "6": 0.0,
+      "7": 0.0,
+      "8": 0.0
+    }
+  },
+  "seconds": 8.379920209059492,
+  "usage": {
+    "total": {
+      "totalTokens": 4488,
+      "inputTokens": 4288,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 200,
+      "reasoningOutputTokens": 64
+    },
+    "last": {
+      "totalTokens": 4488,
+      "inputTokens": 4288,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 200,
+      "reasoningOutputTokens": 64
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793295472.2810502
+}

@@ -1,0 +1,99 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly_no_context",
+  "id": "74:Q 6.:no_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290273.0559108,
+  "turn": {
+    "id": "01a1886e-05cd-75b2-aa78-f87117ad5fd7",
+    "rootTurnId": "01a1886e-05cd-75b2-aa78-f87117ad5fd7",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0f2844069e5d3227016ae3702976b88197823746246b00d883",
+        "text": "{\n  \"1\": \"Cannot determine: translation options missing.\",\n  \"2\": \"Cannot determine: translation options missing.\",\n  \"3\": \"Cannot determine: translation options missing.\",\n  \"4\": \"Cannot determine: translation options missing.\",\n  \"5\": \"Cannot determine: translation options missing.\",\n  \"6\": \"Cannot determine: translation options missing.\",\n  \"7\": \"Cannot determine: translation options missing.\",\n  \"8\": \"Cannot determine: translation options missing.\",\n  \"9\": \"Cannot determine: translation options missing.\",\n  \"10\": \"Cannot determine: translation options missing.\",\n  \"11\": \"Cannot determine: translation options missing.\",\n  \"12\": \"Cannot determine: translation options missing.\",\n  \"13\": \"Cannot determine: translation options missing.\",\n  \"14\": \"Cannot determine: translation options missing.\",\n  \"15\": \"Cannot determine: translation options missing.\",\n  \"16\": \"Cannot determine: translation options missing.\",\n  \"17\": \"Cannot determine: translation options missing.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290274,
+    "completedAt": 1793290283,
+    "durationMs": 9223
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "1": "Cannot determine: translation options missing.",
+      "2": "Cannot determine: translation options missing.",
+      "3": "Cannot determine: translation options missing.",
+      "4": "Cannot determine: translation options missing.",
+      "5": "Cannot determine: translation options missing.",
+      "6": "Cannot determine: translation options missing.",
+      "7": "Cannot determine: translation options missing.",
+      "8": "Cannot determine: translation options missing.",
+      "9": "Cannot determine: translation options missing.",
+      "10": "Cannot determine: translation options missing.",
+      "11": "Cannot determine: translation options missing.",
+      "12": "Cannot determine: translation options missing.",
+      "13": "Cannot determine: translation options missing.",
+      "14": "Cannot determine: translation options missing.",
+      "15": "Cannot determine: translation options missing.",
+      "16": "Cannot determine: translation options missing.",
+      "17": "Cannot determine: translation options missing."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 17,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.0,
+      "4": 0.0,
+      "5": 0.0,
+      "6": 0.0,
+      "7": 0.0,
+      "8": 0.0,
+      "9": 0.0,
+      "10": 0.0,
+      "11": 0.0,
+      "12": 0.0,
+      "13": 0.0,
+      "14": 0.0,
+      "15": 0.0,
+      "16": 0.0,
+      "17": 0.0
+    }
+  },
+  "seconds": 10.61172758298926,
+  "usage": {
+    "total": {
+      "totalTokens": 4471,
+      "inputTokens": 4144,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 327,
+      "reasoningOutputTokens": 115
+    },
+    "last": {
+      "totalTokens": 4471,
+      "inputTokens": 4144,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 327,
+      "reasoningOutputTokens": 115
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793290283.666954
+}

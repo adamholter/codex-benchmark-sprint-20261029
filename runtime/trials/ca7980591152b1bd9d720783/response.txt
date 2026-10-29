@@ -1,0 +1,8 @@
+{
+  "(a1)": "E nakonako nakon te auti Meeri ningaabong.",
+  "(a2)": "Mary will walk to the house tomorrow.",
+  "(b1)": "I tekateka inanon te kawai ŋai.",
+  "(b2)": "I am sitting in the road.",
+  "(c1)": "A nakonako nakon te kawai ataei n te bong aei.",
+  "(c2)": "Children are walking to the road today."
+}

@@ -1,0 +1,117 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly_no_context",
+  "id": "169:Q A4.1.:no_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292984.146036,
+  "turn": {
+    "id": "01a18897-6030-7ce0-bab1-455ed0be5ba1",
+    "rootTurnId": "01a18897-6030-7ce0-bab1-455ed0be5ba1",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0628a38a503f0912016ae37ac687088193ba1867a82b41f11e",
+        "text": "{\n  \"(a)\": \"Cannot determine: Table 1 is missing.\",\n  \"(b)\": \"Cannot determine: Table 1 is missing.\",\n  \"(c)\": \"Cannot determine: Table 1 is missing.\",\n  \"(d)\": \"Cannot determine: Table 1 is missing.\",\n  \"(e)\": \"Cannot determine: Table 1 is missing.\",\n  \"(f)\": \"Cannot determine: Table 1 is missing.\",\n  \"(g)\": \"Cannot determine: Table 1 is missing.\",\n  \"(h)\": \"Cannot determine: Table 1 is missing.\",\n  \"(i)\": \"Cannot determine: Table 1 is missing.\",\n  \"(j)\": \"Cannot determine: Table 1 is missing.\",\n  \"(k)\": \"Cannot determine: Table 1 is missing.\",\n  \"(l)\": \"Cannot determine: Table 1 is missing.\",\n  \"(m)\": \"Cannot determine: Table 1 is missing.\",\n  \"(n)\": \"Cannot determine: Table 1 is missing.\",\n  \"(o)\": \"Cannot determine: Table 1 is missing.\",\n  \"(p)\": \"Cannot determine: Table 1 is missing.\",\n  \"(q)\": \"Cannot determine: Table 1 is missing.\",\n  \"(r)\": \"Cannot determine: Table 1 is missing.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292984,
+    "completedAt": 1793293003,
+    "durationMs": 18922
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "Cannot determine: Table 1 is missing.",
+      "(b)": "Cannot determine: Table 1 is missing.",
+      "(c)": "Cannot determine: Table 1 is missing.",
+      "(d)": "Cannot determine: Table 1 is missing.",
+      "(e)": "Cannot determine: Table 1 is missing.",
+      "(f)": "Cannot determine: Table 1 is missing.",
+      "(g)": "Cannot determine: Table 1 is missing.",
+      "(h)": "Cannot determine: Table 1 is missing.",
+      "(i)": "Cannot determine: Table 1 is missing.",
+      "(j)": "Cannot determine: Table 1 is missing.",
+      "(k)": "Cannot determine: Table 1 is missing.",
+      "(l)": "Cannot determine: Table 1 is missing.",
+      "(m)": "Cannot determine: Table 1 is missing.",
+      "(n)": "Cannot determine: Table 1 is missing.",
+      "(o)": "Cannot determine: Table 1 is missing.",
+      "(p)": "Cannot determine: Table 1 is missing.",
+      "(q)": "Cannot determine: Table 1 is missing.",
+      "(r)": "Cannot determine: Table 1 is missing."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 18,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 0.0,
+      "(b)": 0.0,
+      "(c)": 0.0,
+      "(d)": 0.0,
+      "(e)": 0.0,
+      "(f)": 0.0,
+      "(g)": 0.0,
+      "(h)": 0.0,
+      "(i)": 0.0,
+      "(j)": 0.0,
+      "(k)": 0.0,
+      "(l)": 0.0,
+      "(m)": 0.0,
+      "(n)": 0.0,
+      "(o)": 0.0,
+      "(p)": 0.0,
+      "(q)": 0.0,
+      "(r)": 0.0
+    }
+  },
+  "seconds": 19.171100292005576,
+  "usage": {
+    "total": {
+      "totalTokens": 4491,
+      "inputTokens": 4174,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 317,
+      "reasoningOutputTokens": 57
+    },
+    "last": {
+      "totalTokens": 4491,
+      "inputTokens": 4174,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 317,
+      "reasoningOutputTokens": 57
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 968e8220-859c-454e-b64b-b60f6ec3ea45",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a18897-6018-7b11-a0b4-34c6bd94f4ce",
+      "turnId": "01a18897-6030-7ce0-bab1-455ed0be5ba1"
+    }
+  ],
+  "finished_at": 1793293003.317007
+}

@@ -1,0 +1,66 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-Q_976",
+  "category": "Multi-Q",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793287801.993591,
+  "turn": {
+    "id": "01a18848-4d45-7ba2-92c6-3abca5ed83af",
+    "rootTurnId": "01a18848-4d45-7ba2-92c6-3abca5ed83af",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0806c37a9804f732016ae366898aac8194995cc361b601cf5d",
+        "text": "{\n  \"question1\": \"[[{p,s}]]\",\n  \"question2\": \"[[{x | (x \u2208 \u2115 and x \u2264 0) or (x > 0 and x \u2209 \u2115)}]]\",\n  \"question3\": \"[[{1,2,3,6,7,8}]]\",\n  \"question4\": \"[[{a,b,d,e}]]\",\n  \"question5\": \"[[{w,y}]]\",\n  \"question6\": \"[[{m,o,p}]]\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793287802,
+    "completedAt": 1793287818,
+    "durationMs": 16499
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "question1": "{p,s}",
+      "question2": "{x | (x \u2208 \u2115 and x \u2264 0) or (x > 0 and x \u2209 \u2115)}",
+      "question3": "{1,2,3,6,7,8}",
+      "question4": "{a,b,d,e}",
+      "question5": "{w,y}",
+      "question6": "{m,o,p}"
+    },
+    "pass_rate": 0.8333333333333334
+  },
+  "seconds": 16.7057403329527,
+  "usage": {
+    "total": {
+      "totalTokens": 4544,
+      "inputTokens": 4132,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 412,
+      "reasoningOutputTokens": 296
+    },
+    "last": {
+      "totalTokens": 4544,
+      "inputTokens": 4132,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 412,
+      "reasoningOutputTokens": 296
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793287818.699137
+}

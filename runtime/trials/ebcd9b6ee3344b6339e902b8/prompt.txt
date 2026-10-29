@@ -1,0 +1,38 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+1.The game gives a formula of letters, each representing a unique number (0-9). 
+2.Different letters cannot represent the same number.
+3.The first letter of any multi-digit number cannot represent 0.
+
+
+### Questions:
+question1:
+NUMBER+NUMBER=PUZZLE.
+Please provide your answer in the form: letter=number, and make sure to enclose your answer in double square brackets, like this: [[A=1,B=2,...]].
+
+question2:
+TO+GO=OUT.
+Please provide your answer in the form: letter=number, and make sure to enclose your answer in double square brackets, like this: [[A=1,B=2,...]].
+
+question3:
+HERE+SHE=COMES.
+Please provide your answer in the form: letter=number, and make sure to enclose your answer in double square brackets, like this: [[A=1,B=2,...]].
+
+question4:
+EAT+THAT=APPLE.
+Please provide your answer in the form: letter=number, and make sure to enclose your answer in double square brackets, like this: [[A=1,B=2,...]].
+
+
+### Answers:

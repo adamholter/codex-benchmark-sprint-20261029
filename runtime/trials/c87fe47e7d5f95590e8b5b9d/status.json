@@ -1,0 +1,68 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-Q_458",
+  "category": "Multi-Q",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292463.002066,
+  "turn": {
+    "id": "01a1888f-6c20-7e20-a700-cc306e16e41d",
+    "rootTurnId": "01a1888f-6c20-7e20-a700-cc306e16e41d",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_027ee0f82bcd926c016ae378b307ec81978c423293b4c6d689",
+        "text": "{\n  \"question1\": \"[[D]]\",\n  \"question2\": \"[[RHWXPNDXVIX]]\",\n  \"question3\": \"[[3]]\",\n  \"question4\": \"[[$1~%34!*:2@]]\",\n  \"question5\": \"[[UX]]\",\n  \"question6\": \"[[+]]\",\n  \"question7\": \"[[Z]]\",\n  \"question8\": \"[[2]]\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292463,
+    "completedAt": 1793292468,
+    "durationMs": 4930
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "question1": "D",
+      "question2": "RHWXPNDXVIX",
+      "question3": "3",
+      "question4": "$1~%34!*:2@",
+      "question5": "UX",
+      "question6": "+",
+      "question7": "Z",
+      "question8": "2"
+    },
+    "pass_rate": 1.0
+  },
+  "seconds": 5.087297749938443,
+  "usage": {
+    "total": {
+      "totalTokens": 4792,
+      "inputTokens": 4605,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 187,
+      "reasoningOutputTokens": 86
+    },
+    "last": {
+      "totalTokens": 4792,
+      "inputTokens": 4605,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 187,
+      "reasoningOutputTokens": 86
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292468.0888581
+}

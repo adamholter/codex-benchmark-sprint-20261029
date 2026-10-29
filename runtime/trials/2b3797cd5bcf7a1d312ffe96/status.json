@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "fantom",
+  "id": "36-0-2-2259",
+  "category": "tom:info_accessibility:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793287786.530142,
+  "turn": {
+    "id": "01a18848-1101-7c73-b722-9844405445af",
+    "rootTurnId": "01a18848-1101-7c73-b722-9844405445af",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_072bfb13072cd8a8016ae36676a2848190b74fbaf9104231ec",
+        "text": "Frank and Adelyn.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793287786,
+    "completedAt": 1793287799,
+    "durationMs": 12286
+  },
+  "score": {
+    "correct": true,
+    "extracted": "Frank and Adelyn.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 12.587084249942563,
+  "usage": {
+    "total": {
+      "totalTokens": 4544,
+      "inputTokens": 4405,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 139,
+      "reasoningOutputTokens": 128
+    },
+    "last": {
+      "totalTokens": 4544,
+      "inputTokens": 4405,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 139,
+      "reasoningOutputTokens": 128
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793287799.1170418
+}

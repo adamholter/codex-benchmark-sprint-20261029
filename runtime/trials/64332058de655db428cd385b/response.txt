@@ -1,0 +1,3 @@
+{
+  "question1": "[[P(F, 180, 200), P(F, 210, 300); the sample proportions are 90% and 70%, so they do not support C(F, 180/200, 210/300) as an inference of similar population proportions.]]"
+}

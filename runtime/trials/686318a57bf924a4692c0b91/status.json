@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "bbeh",
+  "id": "mini:word_sorting:0375",
+  "category": "word_sorting",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290422.2679439,
+  "turn": {
+    "id": "01a18870-495b-7990-aebc-13c8f01ccd1d",
+    "rootTurnId": "01a18870-495b-7990-aebc-13c8f01ccd1d",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_02fc861b8b3f1e6d016ae370ba72988196bf1b67f214bcbe0c",
+        "text": "parameter, photosynthesis, piggish, pintail, protector, algonquin, beachhead, bloodstain, characterizations, dilate, forth, frolic, lacunae, lazy, liggett, mcintosh, rationalizations, responsibilities, slaughterhouse, sterno, transformations, unesco",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290422,
+    "completedAt": 1793290426,
+    "durationMs": 4347
+  },
+  "score": {
+    "correct": true,
+    "extracted": "parameter,photosynthesis,piggish,pintail,protector,algonquin,beachhead,bloodstain,characterizations,dilate,forth,frolic,lacunae,lazy,liggett,mcintosh,rationalizations,responsibilities,slaughterhouse,sterno,transformations,unesco"
+  },
+  "seconds": 4.743048124946654,
+  "usage": {
+    "total": {
+      "totalTokens": 3990,
+      "inputTokens": 3813,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 177,
+      "reasoningOutputTokens": 108
+    },
+    "last": {
+      "totalTokens": 3990,
+      "inputTokens": 3813,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 177,
+      "reasoningOutputTokens": 108
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793290427.010443
+}

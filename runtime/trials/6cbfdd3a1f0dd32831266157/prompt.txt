@@ -1,0 +1,50 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+A￡B=(A∪B)−(A∩B).
+
+
+### Questions:
+question1:
+A={p,q,r}, B={q,r,s}.
+Compute A￡B.
+Please wrap the answer in double square brackets, like this: [[{the elements in the collection}]].
+
+question2:
+A={x∣x is a natural number}, B = {x∣x is postive}.
+Compute A￡B.
+Please wrap the answer in double square brackets, like this: [[{the elements in the collection}]]
+
+question3:
+A={1,2,3,4,5}, B={4,5,6,7,8}.
+Compute A￡B.
+Please wrap the answer in double square brackets, like this: [[{the elements in the collection}]]
+
+question4:
+A={a,b,c}, B={c,d,e}.
+Compute A￡B.
+Please wrap the answer in double square brackets, like this: [[{the elements in the collection}]].
+
+question5:
+A={x,y,z}, B={w,x,z}.
+Compute A￡B.
+Please wrap the answer in double square brackets, like this: [[{the elements in the collection}]]
+
+question6:
+A={m,n}, B={n,o,p}.
+Compute A￡B.
+Please wrap the answer in double square brackets, like this: [[{the elements in the collection}]]
+
+
+### Answers:

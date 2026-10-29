@@ -1,0 +1,73 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly",
+  "id": "196:Q 6.3:full_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294276.7686982,
+  "turn": {
+    "id": "01a188ab-1a7b-7241-9211-4b588c74cb93",
+    "rootTurnId": "01a188ab-1a7b-7241-9211-4b588c74cb93",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0b90a177904916db016ae37fc9ea888190b4b6c8eea42ee19d",
+        "text": "{\"a.\":\"Sa piu i ati?\",\"b.\":\"Kush ia shiti?\",\"c.\":\"Si k\u00ebrceu macja?\",\"d.\":\"Ku arrite?\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294277,
+    "completedAt": 1793294282,
+    "durationMs": 5062
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "a.": "Sa piu i ati?",
+      "b.": "Kush ia shiti?",
+      "c.": "Si k\u00ebrceu macja?",
+      "d.": "Ku arrite?"
+    },
+    "score": 1.0,
+    "parts_correct": 4,
+    "parts_total": 4,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 1.0,
+      "b.": 1.0,
+      "c.": 1.0,
+      "d.": 1.0
+    }
+  },
+  "seconds": 5.603026582975872,
+  "usage": {
+    "total": {
+      "totalTokens": 4879,
+      "inputTokens": 4572,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 307,
+      "reasoningOutputTokens": 262
+    },
+    "last": {
+      "totalTokens": 4879,
+      "inputTokens": 4572,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 307,
+      "reasoningOutputTokens": 262
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793294282.370796
+}

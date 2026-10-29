@@ -1,0 +1,96 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "PlanBench Blocksworld Hard - PDDL",
+  "id": "instance-7",
+  "category": "PDDL plan generation / exact plan validity",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289144.969611,
+  "turn": {
+    "id": "01a1885c-cb93-7ab1-a34c-e3e9488dac73",
+    "rootTurnId": "01a1885c-cb93-7ab1-a34c-e3e9488dac73",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0995fafa3a08588f016ae36bc903bc81938500a13a5ee02711",
+        "text": "(unstack i l)\n(put-down i)\n(unstack l e)\n(stack l i)\n(unstack e c)\n(put-down e)\n(unstack c m)\n(put-down c)\n(unstack m h)\n(put-down m)\n(unstack h f)\n(put-down h)\n(unstack f d)\n(put-down f)\n(unstack a k)\n(put-down a)\n(unstack k j)\n(put-down k)\n(unstack j b)\n(put-down j)\n(stack h b)\n(stack j h)\n(stack k j)\n(stack a k)\n(stack m a)\n(stack d c)\n(stack e d)\n(stack f e)\n(stack g l)",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289145,
+    "completedAt": 1793289161,
+    "durationMs": 16612
+  },
+  "score": {
+    "correct": false,
+    "extracted": [
+      "(unstack i l)",
+      "(put-down i)",
+      "(unstack l e)",
+      "(stack l i)",
+      "(unstack e c)",
+      "(put-down e)",
+      "(unstack c m)",
+      "(put-down c)",
+      "(unstack m h)",
+      "(put-down m)",
+      "(unstack h f)",
+      "(put-down h)",
+      "(unstack f d)",
+      "(put-down f)",
+      "(unstack a k)",
+      "(put-down a)",
+      "(unstack k j)",
+      "(put-down k)",
+      "(unstack j b)",
+      "(put-down j)",
+      "(stack h b)",
+      "(stack j h)",
+      "(stack k j)",
+      "(stack a k)",
+      "(stack m a)",
+      "(stack d c)",
+      "(stack e d)",
+      "(stack f e)",
+      "(stack g l)"
+    ],
+    "valid_actions": 20,
+    "reason": "precondition_failed",
+    "failed_step": 21,
+    "action": "(stack h b)",
+    "precondition": [
+      "holding",
+      "h"
+    ]
+  },
+  "seconds": 16.905461333924904,
+  "usage": {
+    "total": {
+      "totalTokens": 6014,
+      "inputTokens": 4306,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1708,
+      "reasoningOutputTokens": 1567
+    },
+    "last": {
+      "totalTokens": 6014,
+      "inputTokens": 4306,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1708,
+      "reasoningOutputTokens": 1567
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793289161.874479
+}

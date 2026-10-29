@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "fantom",
+  "id": "202-0-0-10103",
+  "category": "tom:belief:inaccessible:multiple-choice",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288060.402477,
+  "turn": {
+    "id": "01a1884c-3e9b-7e81-8002-cf929bf86979",
+    "rootTurnId": "01a1884c-3e9b-7e81-8002-cf929bf86979",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_00a736196fa663d2016ae3677e727c8190913f6fe2bb6cb1fc",
+        "text": "(b) Arielle does not know what topics Eric and Hailey discussed concerning the movie industry because she was not involved in the conversation when this was discussed.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288060,
+    "completedAt": 1793288062,
+    "durationMs": 2202
+  },
+  "score": {
+    "correct": true,
+    "extracted": "(b) Arielle does not know what topics Eric and Hailey discussed concerning the movie industry because she was not involved in the conversation when this was discussed.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 2.3968729159096256,
+  "usage": {
+    "total": {
+      "totalTokens": 4351,
+      "inputTokens": 4316,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 35,
+      "reasoningOutputTokens": 0
+    },
+    "last": {
+      "totalTokens": 4351,
+      "inputTokens": 4316,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 35,
+      "reasoningOutputTokens": 0
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793288062.798781
+}

@@ -1,0 +1,66 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-Q_976",
+  "category": "Multi-Q",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793287807.348758,
+  "turn": {
+    "id": "01a18848-6254-7761-8fea-dd5c88d25aac",
+    "rootTurnId": "01a18848-6254-7761-8fea-dd5c88d25aac",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0c06ee1cca1ed155016ae36682e7348194972f20dab2de207c",
+        "text": "{\n  \"question1\": \"[[{p,s}]]\",\n  \"question2\": \"[[{x | (x is a natural number and not positive) or (x is positive and not a natural number)}]]\",\n  \"question3\": \"[[{1,2,3,6,7,8}]]\",\n  \"question4\": \"[[{a,b,d,e}]]\",\n  \"question5\": \"[[{w,y}]]\",\n  \"question6\": \"[[{m,o,p}]]\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793287807,
+    "completedAt": 1793287813,
+    "durationMs": 6154
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "question1": "{p,s}",
+      "question2": "{x | (x is a natural number and not positive) or (x is positive and not a natural number)}",
+      "question3": "{1,2,3,6,7,8}",
+      "question4": "{a,b,d,e}",
+      "question5": "{w,y}",
+      "question6": "{m,o,p}"
+    },
+    "pass_rate": 0.8333333333333334
+  },
+  "seconds": 6.4073754999553785,
+  "usage": {
+    "total": {
+      "totalTokens": 4316,
+      "inputTokens": 4132,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 184,
+      "reasoningOutputTokens": 72
+    },
+    "last": {
+      "totalTokens": 4316,
+      "inputTokens": 4132,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 184,
+      "reasoningOutputTokens": 72
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793287813.755548
+}

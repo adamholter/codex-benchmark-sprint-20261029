@@ -1,0 +1,20 @@
+{
+  "(a)": "ein",
+  "(b)": "uno",
+  "(c)": "deux",
+  "(d)": "zwei",
+  "(e)": "tres",
+  "(f)": "vier",
+  "(g)": "cuatro",
+  "(h)": "cinq",
+  "(i)": "fünf",
+  "(j)": "seis",
+  "(k)": "sept",
+  "(l)": "sieben",
+  "(m)": "huit",
+  "(n)": "ocho",
+  "(o)": "neun",
+  "(p)": "nueve",
+  "(q)": "dix",
+  "(r)": "zehn"
+}

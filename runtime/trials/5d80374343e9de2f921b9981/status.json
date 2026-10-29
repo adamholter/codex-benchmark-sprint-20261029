@@ -1,0 +1,67 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly_no_context",
+  "id": "189:Q 4.4:no_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294040.8341918,
+  "turn": {
+    "id": "01a188a7-8090-7da0-af4e-80ae8ac10864",
+    "rootTurnId": "01a188a7-8090-7da0-af4e-80ae8ac10864",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0993f954b8404114016ae37edf35cc8197958be830ff7ce32e",
+        "text": "{\"(t)\":\"The noun declension patterns and verb tables referred to in the questions are missing from the supplied sheet. Without those examples, the patterns and missing forms cannot be deduced, so a solution cannot be explained.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294041,
+    "completedAt": 1793294048,
+    "durationMs": 7236
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "(t)": "The noun declension patterns and verb tables referred to in the questions are missing from the supplied sheet. Without those examples, the patterns and missing forms cannot be deduced, so a solution cannot be explained."
+    },
+    "score": 1.0,
+    "parts_correct": 1,
+    "parts_total": 1,
+    "empty_reference_parts": 1,
+    "part_scores": {
+      "(t)": 1.0
+    }
+  },
+  "seconds": 7.661796542000957,
+  "usage": {
+    "total": {
+      "totalTokens": 4288,
+      "inputTokens": 4173,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 115,
+      "reasoningOutputTokens": 62
+    },
+    "last": {
+      "totalTokens": 4288,
+      "inputTokens": 4173,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 115,
+      "reasoningOutputTokens": 62
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793294048.495373
+}

@@ -1,0 +1,69 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly_no_context",
+  "id": "42:Q 3.1:no_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793286703.337902,
+  "turn": {
+    "id": "01a18837-9173-7cc2-a5d3-67145450631f",
+    "rootTurnId": "01a18837-9173-7cc2-a5d3-67145450631f",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_021dc37151c6ae54016ae362347d3c8193a9d9aab63f9c5cbe",
+        "text": "{\"a.\":\"The king sits down.\",\"b.\":\"The king is the god of the village.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793286705,
+    "completedAt": 1793286708,
+    "durationMs": 3355
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "a.": "The king sits down.",
+      "b.": "The king is the god of the village."
+    },
+    "score": 0.5,
+    "parts_correct": 1,
+    "parts_total": 2,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 1.0,
+      "b.": 0.0
+    }
+  },
+  "seconds": 6.232951499987394,
+  "usage": {
+    "total": {
+      "totalTokens": 4106,
+      "inputTokens": 4012,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 94,
+      "reasoningOutputTokens": 66
+    },
+    "last": {
+      "totalTokens": 4106,
+      "inputTokens": 4012,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 94,
+      "reasoningOutputTokens": 66
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793286709.5702279
+}

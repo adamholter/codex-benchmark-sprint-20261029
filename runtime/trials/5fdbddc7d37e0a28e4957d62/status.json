@@ -1,0 +1,75 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly_no_context",
+  "id": "197:Q 7.1:no_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292873.043048,
+  "turn": {
+    "id": "01a18895-aec8-7dd2-8e82-8300433f74c6",
+    "rootTurnId": "01a18895-aec8-7dd2-8e82-8300433f74c6",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_09bb2917d4e0cd98016ae37a4ea0b08197b8486ec1a3b2f5d2",
+        "text": "{\n  \"(a)\": \"Cannot be determined from the supplied information.\",\n  \"(b)\": \"Cannot be determined from the supplied information.\",\n  \"(c)\": \"Cannot be determined from the supplied information.\",\n  \"(d)\": \"Cannot be determined from the supplied information.\",\n  \"(e)\": \"Cannot be determined from the supplied information.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292873,
+    "completedAt": 1793292879,
+    "durationMs": 5810
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "Cannot be determined from the supplied information.",
+      "(b)": "Cannot be determined from the supplied information.",
+      "(c)": "Cannot be determined from the supplied information.",
+      "(d)": "Cannot be determined from the supplied information.",
+      "(e)": "Cannot be determined from the supplied information."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 5,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 0.0,
+      "(b)": 0.0,
+      "(c)": 0.0,
+      "(d)": 0.0,
+      "(e)": 0.0
+    }
+  },
+  "seconds": 6.239092292031273,
+  "usage": {
+    "total": {
+      "totalTokens": 4295,
+      "inputTokens": 4085,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 210,
+      "reasoningOutputTokens": 137
+    },
+    "last": {
+      "totalTokens": 4295,
+      "inputTokens": 4085,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 210,
+      "reasoningOutputTokens": 137
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292879.282024
+}

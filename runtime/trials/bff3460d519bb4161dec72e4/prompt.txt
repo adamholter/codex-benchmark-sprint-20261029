@@ -1,0 +1,150 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+A￡B=(A∪B)−(A∩B).
+
+In the Transformers universe, the origins of the Autobots and Decepticons trace back to their home planet Cybertron, a metallic world inhabited by sentient robots capable of transformation. Cybertron was once a peaceful planet ruled by the High Council, the original rulers of Cybertron. However, a rift developed between two key figures: Optimus Prime, who would become the leader of the Autobots, and Megatron, who would become the head of the Decepticons. The inhabitants of Cybertron are mechanical life forms composed of metal and mechanical parts.
+Optimus Prime believes in the freedom of all sentient beings and advocates for a vision of harmonious coexistence. On the other hand, Megatron, initially a gladiator, was disillusioned with the existing system. He envisioned a society ruled by the strongest, leading him to form the Decepticons.
+The rift between Optimus Prime and Megatron resulted in a civil war that split Cybertronian society into Autobots (primarily civilian vehicles) and Decepticons (mostly military vehicles). The war was so devastating that Cybertron became uninhabitable, causing both Autobots and Decepticons to disperse across the galaxy.
+The Autobots and Decepticons eventually arrived on Earth, continuing their conflict with Earth's fate hanging in the balance. The ideological differences between their respective leaders—Optimus Prime's belief in freedom and equality versus Megatron's belief in survival of the fittest—continuously drive the conflict. In 1991, the first secret contact of Cybertron with humanity was discovered.
+Despite both factions having hierarchical structures, the leadership structures of the Autobots and Decepticons differ in principle, reflecting the overall spirit of the two factions. 
+Starting with the Autobots, the organization is led by a leader, a title that signifies the leader of Autobot strength. This title has been held by several characters throughout the Transformers universe, with Optimus Prime being the most renowned. The leader is typically chosen by the Matrix of Leadership, a powerful artifact passed from one Autobot leader to another. This tradition symbolizes the ideals of democracy and elite governance within the Autobot faction.
+The role of the leader is not only that of a battlefield commander but also a source of moral guidance and wisdom. Leaders are often seen making decisions that prioritize the well-being of all sentient life and are known for their compassion, courage, and commitment to peace and freedom. The second-in-command, known as the Commander, supports the leader. They lead individual teams or units and are chosen for their strategic abilities and leadership qualities.
+On the other hand, the Decepticons' leadership structure is more dictatorial and militarized. The organization is led by their most powerful and ruthless members, emphasizing the Decepticons' belief in "survival of the fittest." Megatron, the most notable Decepticon leader, seized control through strength and intimidation. In 2007, the Decepticon leader Megatron was discovered.
+Decepticon leaders maintain their positions by displaying power, using their strength or cunning to deter challengers. While subordinates may serve loyally, they often plot to overthrow their leaders to gain power, leading to constant power struggles within the faction. This ongoing tension reflects the Decepticons' aggressive and power-driven ideology.
+Cybertronian form refers to the original or native form of Transformers before they acquire Earth-based modes. On their home planet Cybertron, Transformers take on mechanical life forms that can transform into various objects, vehicles, or even animal-like shapes. In their Cybertronian forms, Transformers usually adopt more alien, often abstract or geometric configurations that hint at their functions or purposes. Some may transform into Cybertronian vehicles or weapons, while others may transform into various complex mechanical devices.
+In the Transformers universe, Rescue Bots are the Autobots' medical experts responsible for the medical care of Transformers.
+The ability of Transformers to transform is not merely a means of disguise or transportation. It is a fundamental part of their biology—or more accurately, their "mechanics." This ability is as natural to them as walking or running is to humans, having been "forged" with it. This transformation capability is driven by the "T-Cog," a component that allows Transformers to change their forms at will.
+The Matrix of Leadership, also known as the Allspark, plays a crucial role in the mythology of the Transformers universe. It is often described as a large metallic cube emitting mysterious energy, essentially the life force of all Transformers, with the power to create new Transformer life and, in some cases, restore deactivated Transformers. The Allspark is regarded as the source of all Transformer life. It not only creates new Transformers but also can revive deactivated Transformers, possessing crucial vitality. Energon is the primary source of energy for all Transformers.
+In the Transformers universe, Teletraan I is the primary computer system used for communication among Autobots.
+
+Time Propositions:
+1. Symbol "H" represents "past point in time".
+2. Symbol "A" represents "past period of time".
+3. Symbol "F" represents "future point in time".
+4. Symbol "G" represents "future period of time".
+5. Symbol "T" represents "present".
+
+Time Proposition Relationships:
+(1) ※ Relationship:
+- Pairs: Ap and H¬p; A¬p and Hp; Gp and F¬p; G¬p and Fp
+- Properties: They cannot both be true, nor both false.
+
+(2) ↦ Relationship:
+- Pairs: Ap and A¬p; Gp and G¬p
+- Properties: They cannot both be true, but can both be false.
+
+(3) ⚭ Relationship:
+- Pairs: Hp and H¬p; Fp and F¬p
+- Properties: They cannot both be false, but can both be true.
+
+(4) ⁂ Relationship:
+- Pairs: Ap and Hp, A¬p and H¬p; Gp and Fp, G¬p and F¬p
+- Properties: They can both be true, or both be false.
+
+Time Proposition Inference Formulas:
+(1) Ap ↔ H¬p
+(2) A¬p ↔ ¬Hp
+(3) Hp ↔ ¬A¬p
+(4) H¬p ↔ ¬Ap
+(5) Ap → ¬A¬p
+(6) A¬p → ¬Ap
+(7) ¬Hp → H¬p
+(8) ¬H¬p → Hp
+(9) Ap → Hp
+(10) A¬p → H¬p
+(11) ¬Hp → ¬Ap
+(12) ¬H¬p → ¬A¬p
+(13) Gp ↔ F¬p
+(14) G¬p ↔ ¬Fp
+(15) Fp ↔ ¬G¬p
+(16) F¬p ↔ ¬Gp
+(17) Gp → ¬G¬p
+(18) G¬p → ¬Gp
+(19) ¬Fp → F¬p
+(20) ¬F¬p → Fp
+(21) Gp → Fp
+(22) G¬p → F¬p
+(23) ¬Fp → ¬Gp
+(24) ¬F¬p → ¬G¬p
+
+
+### Questions:
+question1:
+A={1,2,3,4,5}, B={4,5,6,7,8}.
+Compute A￡B.
+Please wrap the answer in double square brackets, like this: [[{the elements in the collection}]]
+
+question2:
+How are leaders elected?
+Options: A. By democratic election ##B. By leadership matrix or by strength and intimidation ## C. Selection by lottery ##D. Random selection
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+question3:
+What was a major technological breakthrough in the year 1991?
+Options: A. Launch of the World Wide Web##B. Discovery of Cybertron##C. Introduction of the Hubble Space Telescope##D. Invention of the first smartphone
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+question4:
+What are the main components of a living organism?
+Options: A. Organic cells##B. Metal and machinery##C. Energy and plasma##D. Carbon and water
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+question5:
+Symbolize the following propositions:
+(1) Wang Qiang worked in Beijing for one year in the past.
+(2) Lin Min has lived in Ningbo in the past.
+
+Use p to represent the ordinary propositions.
+
+Please provide the answers in the format [[];[]].
+
+question6:
+Reasoning Formula 7 is consistent with what following what relationship?
+
+A. ∗ relationship 
+B. ↦ relationship 
+C. ⚭ relationship 
+D. ⁂ relationship
+
+Please provide the answer in the format [[A/B/C/D]].
+
+question7:
+Which important figure became a major leader? 
+Options: A. Leonardo da Vinci##B. Optimus Prime##C. Winston Churchill##D. Isaac Newton 
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+question8:
+A={x∈R∣x>0}, B={x∈R∣x<1}.
+Compute A￡B.
+Use a set like {x∣x<1} to present the answer. Use '≤' for less than or equal to, and '≥' for greater than or equal to. Separate conditions with 'or' if there are multiple conditions.
+Please wrap the answer in double square brackets, like this: [[you answer]].
+
+question9:
+What relationships do the following sentences have?
+
+(1) "Old Li's health was good in the past" and "At some point in the past, Old Li's health was not very good"
+(2) "Aunt Wang never won a major award in the past" and "Allow the execution of contracts"
+
+A. ※ Relationship       B. ↦ Relationship     C. ⚭ Relationship    D. ⁂ Relationship
+
+Please provide the answer in the format [[A/B/C/D];[A/B/C/D]].
+
+question10:
+What is a primary energy source for beings?
+Options: A. Food##B. Solar energy##C. Fossil fuels##D. Energon
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+
+### Answers:

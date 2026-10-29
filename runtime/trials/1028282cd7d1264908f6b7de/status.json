@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "fantom",
+  "id": "240-0-2-12025",
+  "category": "tom:belief:inaccessible:multiple-choice",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292532.808585,
+  "turn": {
+    "id": "01a18890-7df2-7902-a6d1-ff19bbdaa5c1",
+    "rootTurnId": "01a18890-7df2-7902-a6d1-ff19bbdaa5c1",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0f6be994d9744989016ae378f7ef848195bfe7512c9e2b38c4",
+        "text": "(a) Elliana believes Kaiden is unaware that Natalia interacted with her niece\u2019s cat, since he joined the conversation afterward.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292533,
+    "completedAt": 1793292536,
+    "durationMs": 2873
+  },
+  "score": {
+    "correct": true,
+    "extracted": "(a) Elliana believes Kaiden is unaware that Natalia interacted with her niece\u2019s cat, since he joined the conversation afterward.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 3.3412988339550793,
+  "usage": {
+    "total": {
+      "totalTokens": 4482,
+      "inputTokens": 4401,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 81,
+      "reasoningOutputTokens": 50
+    },
+    "last": {
+      "totalTokens": 4482,
+      "inputTokens": 4401,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 81,
+      "reasoningOutputTokens": 50
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292536.149207
+}

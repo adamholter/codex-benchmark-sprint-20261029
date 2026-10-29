@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "fantom",
+  "id": "244-0-0-12208",
+  "category": "tom:info_accessibility:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793286421.0664299,
+  "turn": {
+    "id": "01a18833-3b55-72e3-bab8-b6ea0e8f74d1",
+    "rootTurnId": "01a18833-3b55-72e3-bab8-b6ea0e8f74d1",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0e2492d5e4ec4737016ae3611a0394819591f614cbc402ada9",
+        "text": "Elena, Collin, and Carolyn.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793286421,
+    "completedAt": 1793286426,
+    "durationMs": 4956
+  },
+  "score": {
+    "correct": true,
+    "extracted": "Elena, Collin, and Carolyn.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 5.251887542079203,
+  "usage": {
+    "total": {
+      "totalTokens": 4694,
+      "inputTokens": 4642,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 52,
+      "reasoningOutputTokens": 37
+    },
+    "last": {
+      "totalTokens": 4694,
+      "inputTokens": 4642,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 52,
+      "reasoningOutputTokens": 37
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793286426.318217
+}

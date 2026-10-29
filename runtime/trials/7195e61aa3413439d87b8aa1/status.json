@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "fantom",
+  "id": "213-0-1-10992",
+  "category": "tom:answerability:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793284673.1613839,
+  "turn": {
+    "id": "01a18818-8fdf-76c1-9d7b-278cd0b2adc7",
+    "rootTurnId": "01a18818-8fdf-76c1-9d7b-278cd0b2adc7",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0f9617af58401671016ae35a47f69081969b0acf259d1eb927",
+        "text": "Donovan, Moises, and Craig.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793284673,
+    "completedAt": 1793284680,
+    "durationMs": 6948
+  },
+  "score": {
+    "correct": true,
+    "extracted": "Donovan, Moises, and Craig.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 7.728806332917884,
+  "usage": {
+    "total": {
+      "totalTokens": 4953,
+      "inputTokens": 4757,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 196,
+      "reasoningOutputTokens": 181
+    },
+    "last": {
+      "totalTokens": 4953,
+      "inputTokens": 4757,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 196,
+      "reasoningOutputTokens": 181
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793284680.889856
+}

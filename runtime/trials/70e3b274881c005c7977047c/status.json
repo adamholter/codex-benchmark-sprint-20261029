@@ -1,0 +1,73 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly_no_context",
+  "id": "160:Q 2.1:no_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288774.952621,
+  "turn": {
+    "id": "01a18857-2643-7592-9c55-fdf24401c85c",
+    "rootTurnId": "01a18857-2643-7592-9c55-fdf24401c85c",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_047698e768d8035c016ae36a5836088195b4890d571f39f5f4",
+        "text": "{\n  \"9\": \"Cannot determine: the example data are missing.\",\n  \"10\": \"Cannot determine: the example data are missing.\",\n  \"11\": \"Cannot determine reliably: the example data are missing.\",\n  \"12\": \"Cannot determine: the example data are missing.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288775,
+    "completedAt": 1793288793,
+    "durationMs": 18107
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "9": "Cannot determine: the example data are missing.",
+      "10": "Cannot determine: the example data are missing.",
+      "11": "Cannot determine reliably: the example data are missing.",
+      "12": "Cannot determine: the example data are missing."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 4,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "9": 0.0,
+      "10": 0.0,
+      "11": 0.0,
+      "12": 0.0
+    }
+  },
+  "seconds": 18.416672667022794,
+  "usage": {
+    "total": {
+      "totalTokens": 4483,
+      "inputTokens": 4099,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 384,
+      "reasoningOutputTokens": 319
+    },
+    "last": {
+      "totalTokens": 4483,
+      "inputTokens": 4099,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 384,
+      "reasoningOutputTokens": 319
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793288793.3690271
+}

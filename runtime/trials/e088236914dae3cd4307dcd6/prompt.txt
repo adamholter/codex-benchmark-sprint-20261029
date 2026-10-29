@@ -1,0 +1,43 @@
+You are an intelligent assistant that helps with various logical reasoning tasks. Below is a custom-defined rule for a specific type of logic. When responding, please ensure that your output adheres to the specified logical rules and format.
+
+### Instructions:
+
+1. Identify the relevant properties and objects as specified in the rule.
+2. Apply the given logical operations or reasoning patterns.
+3. Ensure your output is formatted according to the specified notation and symbols.
+
+### Logic Rule:
+
+Propositions are represented using p1, p2, ..., pn.
+Let p1 be a proposition, the compound proposition "not p1" is represented as ~p1.
+Let p1 and p2 be two propositions, the compound proposition "p1 and p2" is represented as p1&p2.
+Let p1 and p2 be two propositions, the compound proposition "p1 or p2" is represented as p1||p2.
+Let p1 and p2 be two propositions, the compound proposition "if p1, then p2" is represented as p1=::>p2.
+Let p1 and p2 be two propositions, the compound proposition "p1 if and only if p2" is represented as p1=p2.
+A single proposition and proposition constants can be called a formula.
+Formulas are represented using F1, F2, ..., Fn.
+If F1 is a formula, then ~F1 is also a formula.
+If F1 and F2 are formulas, then F1&F2, F1||F2, F1=::>F2, F1=F2 are also formulas.
+Level A Formula: The most basic proposition unit, without logical connectives or nested structures.
+Level B Formula: A formula containing one logical connective, and the connected two propositions are both Level A formulas.For example, p1.
+Level C Formula: A formula containing nested logical connectives and at least one Level B formula.For example, ~p1.
+Other levels of logic follow by analogy; when higher than Level Z, they are classified as Z+n (n≥1).For example, ~(~p1).
+True assignment of a proposition: A proposition p1 is assigned as ✓, indicating that p1 is true.
+False assignment of a proposition: A proposition p1 is assigned as x, indicating that p1 is false.
+True assignment of a formula: If the formula is (~p1&~p2&~p3)||(p1&p2), then x|x|x,✓|✓|x are true assignments of the formula.
+False assignment of a formula: If the formula is (~p1&~p2&~p3)||(p1&p2), then x|x|✓,x|✓|✓ are false assignments of the formula.
+For p1=::>p2, only ✓|x is a false assignment of the formula.
+A formula that is true under all assignments is called a Truth Formula.
+A formula that is false under all assignments is called a Falsehood Formula.
+Recursive definition of formulas: Any formula containing nested logical connectives can be decomposed recursively to obtain its subformulas and their logical connective structures.
+Priority of logical connectives: The priority of logical connectives from high to low is as follows: ~ (not), & (and), || (or), =::> (if...then), = (if and only if).
+Without parentheses, operations are performed according to priority.
+Equivalence of formulas: Two formulas are equivalent if they have the same truth value under all assignments.
+Equivalent formulas can be interchanged.
+Simplification of formulas: Formulas can be simplified through logical rules to obtain a more concise form without changing the truth value of the formula.
+
+### Question:
+Please determine the level of the formula (~(p1=::>~p2))&((p3||p4)=~p1). 
+The answer should be given as a single letter from A to Z, or Z+n (where n is a number greater than or equal to 1).The answer format should be like [[A]].
+
+### Answer:

@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "bbeh",
+  "id": "mini:shuffled_objects:0418",
+  "category": "shuffled_objects",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793286498.895,
+  "turn": {
+    "id": "01a18834-6b2a-7460-8474-38a80bbd9071",
+    "rootTurnId": "01a18834-6b2a-7460-8474-38a80bbd9071",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_09197d87c911b4d9016ae361821740819484bc8e3ba7c4dd1f",
+        "text": "Claire is dancing with **Helga** \u2014 **(C)**. The partner swaps cancel out overall for Claire; the remaining swaps do not involve her.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793286499,
+    "completedAt": 1793286530,
+    "durationMs": 31825
+  },
+  "score": {
+    "correct": false,
+    "extracted": "claire is dancing with helga \u2014 (c). the partner swaps cancel out overall for claire; the remaining swaps do not involve her"
+  },
+  "seconds": 32.06036799994763,
+  "usage": {
+    "total": {
+      "totalTokens": 9634,
+      "inputTokens": 7009,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 2625,
+      "reasoningOutputTokens": 2588
+    },
+    "last": {
+      "totalTokens": 9634,
+      "inputTokens": 7009,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 2625,
+      "reasoningOutputTokens": 2588
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793286530.955043
+}

@@ -1,0 +1,69 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-Q_339",
+  "category": "Multi-Q",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793295408.979359,
+  "turn": {
+    "id": "01a188bc-6041-7b70-bcf2-ff94458c519e",
+    "rootTurnId": "01a188bc-6041-7b70-bcf2-ff94458c519e",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0b89ffcaa34cd43d016ae3843c01548190be561b48fb719b5c",
+        "text": "{\n  \"question1\": \"[[244898898]]\",\n  \"question2\": \"[[RKHCSDHLHOY]]\",\n  \"question3\": \"[[848898898]]\",\n  \"question4\": \"[[AU]]\",\n  \"question5\": \"[[MC]]\",\n  \"question6\": \"[[BM]]\",\n  \"question7\": \"[[595898898]]\",\n  \"question8\": \"[[GC]]\",\n  \"question9\": \"[[844898898]]\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793295409,
+    "completedAt": 1793295421,
+    "durationMs": 12145
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "question1": "244898898",
+      "question2": "RKHCSDHLHOY",
+      "question3": "848898898",
+      "question4": "AU",
+      "question5": "MC",
+      "question6": "BM",
+      "question7": "595898898",
+      "question8": "GC",
+      "question9": "844898898"
+    },
+    "pass_rate": 1.0
+  },
+  "seconds": 12.407485499978065,
+  "usage": {
+    "total": {
+      "totalTokens": 5532,
+      "inputTokens": 5165,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 367,
+      "reasoningOutputTokens": 256
+    },
+    "last": {
+      "totalTokens": 5532,
+      "inputTokens": 5165,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 367,
+      "reasoningOutputTokens": 256
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793295421.386349
+}

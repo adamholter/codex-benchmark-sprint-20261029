@@ -1,0 +1,9 @@
+{
+  "a.": "Cannot determine: stages A–G were not provided.",
+  "b.": "Cannot determine: stages A–G were not provided.",
+  "c.": "Cannot determine: stages A–G were not provided.",
+  "d.": "Cannot determine: stages A–G were not provided.",
+  "e.": "Cannot determine: stages A–G were not provided.",
+  "f.": "Cannot determine: stages A–G were not provided.",
+  "g.": "Cannot determine: stages A–G were not provided."
+}

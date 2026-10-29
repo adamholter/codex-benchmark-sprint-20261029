@@ -1,0 +1,1 @@
+[[\xE8\x00\x01\x00`]] — the decrypted bytes are not valid uppercase ASCII.

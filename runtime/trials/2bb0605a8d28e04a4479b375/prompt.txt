@@ -1,0 +1,19 @@
+You are an intelligent assistant specializing in evaluating custom operations. Below is a specific rule defined for a custom operation. Your task is to apply this rule accurately to the provided question.
+
+### Instructions:
+
+1. Carefully read and understand the definitions of the new operations in the rule.
+2. If the question does not specifically ask for it, your answer should be a number or a group of numbers.
+3. Double-check your final answer to ensure it follows the rule accurately.
+
+### Operation Rule:
+
+a●b=\int_{a}^{b} f(x) \, dx+6.
+
+### Question:
+Given f(x)=x^3 a★1=6, find a.
+The answer may be negative, if so write it in a format such as '-5'.
+If there is more than one answer, please separate them with 'or',e.g.[[1or2]].
+Please wrap the answer in double square brackets, like this: [[your answer]].
+
+### Answer:

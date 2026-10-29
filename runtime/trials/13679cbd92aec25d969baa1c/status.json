@@ -1,0 +1,93 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly_no_context",
+  "id": "131:Q 1.:no_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793285663.831863,
+  "turn": {
+    "id": "01a18827-adc5-7671-9866-b76b52720264",
+    "rootTurnId": "01a18827-adc5-7671-9866-b76b52720264",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_093565106ad88b85016ae35e4026588194b333e9eec7e31f1a",
+        "text": "{\n  \"1\": \"Cannot determine: the labeled verbs are missing.\",\n  \"2\": \"Cannot determine: the labeled verbs are missing.\",\n  \"3\": \"Cannot determine: the labeled verbs are missing.\",\n  \"4\": \"Cannot determine: the labeled verbs are missing.\",\n  \"5\": \"Cannot determine: the labeled verbs are missing.\",\n  \"6\": \"Cannot determine: the labeled verbs are missing.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793285664,
+    "completedAt": 1793285697,
+    "durationMs": 33619
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "1": "Cannot determine: the labeled verbs are missing.",
+      "2": "Cannot determine: the labeled verbs are missing.",
+      "3": "Cannot determine: the labeled verbs are missing.",
+      "4": "Cannot determine: the labeled verbs are missing.",
+      "5": "Cannot determine: the labeled verbs are missing.",
+      "6": "Cannot determine: the labeled verbs are missing."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 6,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.0,
+      "4": 0.0,
+      "5": 0.0,
+      "6": 0.0
+    }
+  },
+  "seconds": 34.001091707963496,
+  "usage": {
+    "total": {
+      "totalTokens": 4425,
+      "inputTokens": 4242,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 183,
+      "reasoningOutputTokens": 91
+    },
+    "last": {
+      "totalTokens": 4425,
+      "inputTokens": 4242,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 183,
+      "reasoningOutputTokens": 91
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 7b3d9309-adc7-45b3-b0a2-255d511e5009",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a18827-ad96-7320-9541-bbcafa01fd3a",
+      "turnId": "01a18827-adc5-7671-9866-b76b52720264"
+    }
+  ],
+  "finished_at": 1793285697.832852
+}

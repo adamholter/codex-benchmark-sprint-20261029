@@ -1,0 +1,1 @@
+**(C)** is true. Its final `or` clause is \(4-(10/5)\le 8\), which simplifies to \(2\le 8\), so the entire expression is true.

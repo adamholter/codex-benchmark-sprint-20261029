@@ -1,0 +1,84 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+1.A rectangular grid is given, which is pre-filled with numbers, while each row and column has a number at the end indicating the sum of the numbers in that row or column.
+2.The player needs to fill the remaining spaces with a specified set of numbers. 
+3.Each number can only be used once.
+4.The numbers must be filled in such that the sum of the numbers in each row and column matches the intended sum.
+5.The puzzle is given in the form of a matrix with blank squares filled with X and the player replaces the squares with numbers.
+
+Between propositions p1 and p2, the representation is defined as follows:
+A: ∀p1⇒p2
+E: ∀p1⇒¬p2
+I: ∃p1⇒p2
+O: ∃p1⇒¬p2
+
+The figures and moods of the syllogism are as follows:
+1.Figure I
+Form:
+M()P
+S()M
+∴S()P
+The parentheses can be filled in with the following Valid Moods.
+Valid Moods:
+- AAA
+- EAE
+- AII
+- EIO
+
+2.Figure II
+Form: 
+P()M
+S()M
+∴S()P
+The parentheses can be filled in with the following Valid Moods.
+Valid Moods:
+- AEE
+- EAE
+- EIO
+- AOO
+
+3.Figure III
+Form:
+M()P
+M()S
+∴S()P
+The parentheses can be filled in with the following Valid Moods.
+Valid Moods:
+- AII
+- EIO
+- IAI
+- OAO
+
+4.Figure IV
+Form: 
+P()M
+M()S
+∴S()P
+The parentheses can be filled in with the following Valid Moods.
+Valid Moods:
+- AEE
+- EIO
+- IAI
+
+
+### Questions:
+question1:
+Given the logical statements:
+∀P⇒M, ∀M⇒¬S ⇒ ∀S⇒¬P
+
+Determine which figure and mood of syllogism the argument corresponds to, using the format [[I/II/III/IV];[Mood]].
+
+
+### Answers:

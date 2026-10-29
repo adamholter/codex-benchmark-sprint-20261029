@@ -1,0 +1,71 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly",
+  "id": "217:Q 2.1:full_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288743.9111779,
+  "turn": {
+    "id": "01a18856-accc-71e1-b65e-301e74a6dca2",
+    "rootTurnId": "01a18856-accc-71e1-b65e-301e74a6dca2",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0cdb0100cbd3b0db016ae36a3f2dcc8194a459fe578c070112",
+        "text": "{\n  \"9.\": \"Did I eat the new mudwasp that wanted the egg?\",\n  \"10.\": \"Do the men not eat the buchu powder that I touched?\",\n  \"11.\": \"The woman\u2019s springbok that he looks at was stuck in the grass.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288744,
+    "completedAt": 1793288767,
+    "durationMs": 23772
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "9.": "Did I eat the new mudwasp that wanted the egg?",
+      "10.": "Do the men not eat the buchu powder that I touched?",
+      "11.": "The woman\u2019s springbok that he looks at was stuck in the grass."
+    },
+    "score": 0.3333333333333333,
+    "parts_correct": 1,
+    "parts_total": 3,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "9.": 0.0,
+      "10.": 1.0,
+      "11.": 0.0
+    }
+  },
+  "seconds": 24.016158040962182,
+  "usage": {
+    "total": {
+      "totalTokens": 5337,
+      "inputTokens": 4623,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 714,
+      "reasoningOutputTokens": 647
+    },
+    "last": {
+      "totalTokens": 5337,
+      "inputTokens": 4623,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 714,
+      "reasoningOutputTokens": 647
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793288767.926956
+}

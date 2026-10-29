@@ -1,0 +1,89 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+As a member of the Department of Motor Vehicles, Lightning the Otter has not been able to change his habit of moving very slowly here.
+Animal City gangster Mr. Big is a shrew who employs hulking polar bears as bodyguards.
+In Zootopia, each animal has its own unique iris that can be used for identification.
+In Zootopia somewhere on a street, beavers can be seen building roads and smoothing cement.
+Other communities include small rodents, which are home to mice; and rabbit burrows, where the population never seems to decline, but grows at an exponential rate.
+Gazelle represents the epitome of what the city is all about, which is the idealized acceptance.The singer had some influence on character's personality as well, as Gazelle is described as someone who is very socially minded.
+Within the same city, there are a variety of completely different ecological environments such as jungle areas, desert areas, and snow areas. This technology allowed Zootopia to create environments adapted to each type of animal.
+These eco-zones are also recyclable ecosystems, with the creators designing the walls of the tundra city as giant air conditioners with air vents that simultaneously heat the Sahara Plaza, so that if the snow and ice melt, then the rainforest areas can be nourished
+Some buildings, such as train stations, police stations and DMVs, will be used by animals of all sizes. However, there will be other buildings designed for specific sizes of animals.
+Animal City's urban planning takes into account the practical needs of different animals, and there is a well-developed system of underground tunnels, mainly for gophers and other underground animals to make transportation more convenient.
+An ice cream parlor run by an elephant refused to sell popsicles to a notorious fox, and produced a sign saying "Every animal has the right to refuse service to another animal" as legal backing. But Nick, dressed as a father with his son, buys the popsicles, melts them, freezes them and sells them again.
+Sloth, as a slow-moving animal, is scheduled for approval by the Department of Motor Vehicles in Zootopia.
+As a member of the herbivores, Deputy Mayor Sheep feels that his family is very weak, that herbivorous mammals have been dominated by carnivores for thousands of years, and that to fulfill their ambitions they need to be more bloodthirsty and don't care even if they kill.
+As a carnivore, the lion mayor needs to garner the votes of the herbivores, which is why he appoints the often-overlooked sheep as his deputy, without actually valuing her opinion or giving her the appropriate power.
+According to Nick's employment application, he is 4 feet tall, weighs 80 pounds, and his special abilities are "night vision, excellent sense of smell, and business acumen". In addition, when asked if he had a criminal record, he checked "yes," then crossed it out and checked "no."
+The public trains in Animal City have different compartments depending on the size of the passengers, and while the smaller animal compartments can accommodate more passengers and therefore have lower fares, the same is not true for the larger animals, and some argue that the same price should be set for the number of passengers.
+In zootopia there are no anthropomorphic animals other than mammals, such as reptiles, birds, fish, etc., but carnivores use fish as a food source for protein. Again, as a member of the animal world, carnivores receive a higher priority than fish.
+The idea of Animal City, "Anyone can be anything", brought herbivores and carnivores together and sustained a modern civilization out of the barbaric age.
+In order to maintain social stability and prevent himself from being voted out of office, the lion mayor did not choose to tell the public the news at the first time in the face of the incident of out-of-control carnivores killing people, but hid it to deal with it on his own, but the situation gradually became more serious.
+ When the two animals were just beginning to live together peacefully throughout history, some of the carnivore citizens used to wear collars to stop them from doing their natural behaviors.
+
+a◎b=(a + bi)^2
+
+Direct Propositions:
+Reflect propositions that assert whether something does or does not possess a certain property, also known as property propositions or subject-predicate propositions.
+
+Examples:
+- [1] All metals are conductive.
+- [2] Some products of labor are not commodities.
+
+Composition of Direct Propositions:
+- Subject (S): The term in the proposition that denotes the object being discussed. Examples include "metals" in [1] and "products of labor" in [2].
+- Predicate (P): The term in the proposition that denotes the property of the object. Examples include "conductive" in [1] and "commodities" in [2].
+- Connectives(C): Words that connect the subject and predicate.
+    - Affirmative connective (e.g., "are"): Asserts that the subject possesses the property.
+    - Negative connective (e.g., "are not"): Asserts that the subject does not possess the property.
+- Quantifiers(Q): Words that indicate the quantity of objects referred to by the subject.
+    - Universal quantifier (e.g., "all"): Indicates all members.
+    - Particular quantifier (e.g., "some"): Indicates at least one member.
+
+Logical Forms of Direct Propositions:
+- Universal Affirmative (A): All S are P, abbreviated as SAP.
+- Universal Negative (E): No S are P, abbreviated as SEP.
+- Particular Affirmative (I): Some S are P, abbreviated as SIP.
+- Particular Negative (O): Some S are not P, abbreviated as SOP.
+- Singular Affirmative: a is P.
+- Singular Negative: a is not P.
+
+Relationships: 
+The relationships between declarative propositions are based on the premise that the subject and predicate are identical. 
+This identity is referred to as having the same subject (S) and predicate (P). 
+There are four types of relationships as follows:
+- * Relation:
+    - Between A propositions and O propositions, E propositions and I propositions.
+    - If one is true, the other is false; if one is false, the other is true.
+- # Relation:
+    - Between A propositions and E propositions.
+    - If one is true, the other is false; if one is false, the other may be true or false.
+- & Relation:
+    - Between I propositions and O propositions.
+    - If one is false, the other is true; if one is true, the other may be false or true.
+- % Relation:
+    - Between A propositions and I propositions, E propositions and O propositions.
+    - If the universal proposition is true, the particular proposition is true; if the particular proposition is false, the universal proposition is false.
+
+
+### Questions:
+question1:
+Compute (2◎3)−(2◎2).
+If the answer is a complex number, write it in the form x + yi.
+The answer may be negative, if so write it in a format such as '-5'.
+Please wrap the answer in double square brackets, like this: [[your answer]].
+
+
+### Answers:

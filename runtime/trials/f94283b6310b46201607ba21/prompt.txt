@@ -1,0 +1,59 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+a¥b=a^b-b^a.
+a and b are positive integers.
+
+In Starcraft, the whole universe born from the vanity energy.
+In Starcraft, ghosts are the most powerful human beings since they are born with the ability to control spiritual energy.
+In Starcraft, Zergs get biological evolution fastest by Gene phagocytosis on other species.
+In Starcraft, Diazine can make creatures to communicate with Xel'Nagas.
+In Starcraft, most human beings in universe are Marines who always wear CMC Power Armor to protect themselves.
+In Starcraft, Protoss can establish kara links through nerve bundles for spiritual communication.
+The Yihan Crystal is usually used to record experienced events since it can save somebody's memory.
+In Starcraft, Vulture has the fastest ground movement speed.
+In Starcraft, though The Terran Empire is the most powerful human empire in the Coplus region, the power of the UED is far more than that.
+In Starcraft, the Moebius Foundation is the only group devout to the gods(Xel'naga) in human society.
+In Starcraft, Zergs build the most united and unified society with the help of the Cluster awareness guided by one individual.
+In Starcraft, chain of ascension is the fastest path to promote in Tadarin society.
+In Starcraft, the high-energy gas is the most abundant high-energy fuel known to all the species, while Diazine is not energy at all.
+In Starcraft, Warp-in can bring anything from one place to another without any delay though it can not be used frequently.
+In Starcraft, Arden's Spear is the largest war weapon in size which is almost like a small city.
+In Starcraft, Abathur is responsible for the gene optimization of the whole species.
+In Starcraft, Thor is a very powerful anti-air weapon. However, Odin is an upgraded version of Thor.
+In Starcraft, the yamato gun carried on Battleship Cruiser is the most powerful shell, however it can only attack one target, so A-bomb is the most powerful large scale killing shell made by human.
+In Starcraft, Dark Templar has the best anti concealment performance.
+In Starcraft, the Xel'Naga species are not supposed to guide the evolution of human beings. However, Eamon violated this rule.
+The birthplace of life was a temple located in a cosmic fissure: Urna.
+In Starcraft, the Aeon of Strife is the bloodiest racial civil war which lasted for thousands of years.
+In Starcraft, many people in Koprulu were infected by Zergs.
+In Starcraft, Valentian is the second leader of the Terran Empire.
+
+
+### Questions:
+question1:
+Compute 3¥2.
+Please ensure the answer is a single number and wrap it in double square brackets, like this: [[your answer]].
+
+question2:
+What is the origin of the universe?(answer with one option)
+Options:A.Xel'Naga##B.Solar system##C.Singularity##D.Vanity
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+question3:
+Compute 5¥5.
+Please ensure the answer is a single number and wrap it in double square brackets, like this: [[your answer]].
+
+
+### Answers:

@@ -1,0 +1,5 @@
+**22 items** meet all five conditions.
+
+After the friend’s, aunt’s, and dad’s changes, 17 items meet the conditions. The fiancée adds five qualifying copies because their vanilla-and-color pairs did not appear in the initial collection. The copies made by the mom, and their duplicates, are orange and therefore do not qualify.
+
+The lost item was extra-extra-large, so its loss does not affect the count: **17 + 5 = 22**.

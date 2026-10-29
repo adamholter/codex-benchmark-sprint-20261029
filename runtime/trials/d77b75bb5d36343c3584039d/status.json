@@ -1,0 +1,74 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "bbeh",
+  "id": "mini:geometric_shapes:0101",
+  "category": "geometric_shapes",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288381.397978,
+  "turn": {
+    "id": "01a18851-24d7-7c53-aa77-2354307cd4b8",
+    "rootTurnId": "01a18851-24d7-7c53-aa77-2354307cd4b8",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_08ea4596d045e611016ae368dfae708193a3bd066982e25a74",
+        "text": "**(F) 4, 7 and 8** \u2014 a right triangle, an irregular convex pentagon, and an irregular concave pentagon.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288381,
+    "completedAt": 1793288416,
+    "durationMs": 34634
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(f) 4,7 and 8 \u2014 a right triangle,an irregular convex pentagon,and an irregular concave pentagon"
+  },
+  "seconds": 34.91636337491218,
+  "usage": {
+    "total": {
+      "totalTokens": 5470,
+      "inputTokens": 4994,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 476,
+      "reasoningOutputTokens": 438
+    },
+    "last": {
+      "totalTokens": 5470,
+      "inputTokens": 4994,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 476,
+      "reasoningOutputTokens": 438
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 39cff702-7612-4fb8-ad4d-bfce917e68c7",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a18851-24bb-7531-81a1-4909bc8e1944",
+      "turnId": "01a18851-24d7-7c53-aa77-2354307cd4b8"
+    }
+  ],
+  "finished_at": 1793288416.3138618
+}

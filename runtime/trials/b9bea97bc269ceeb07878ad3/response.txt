@@ -1,0 +1,10 @@
+{
+  "question1": "[[4]]",
+  "question2": "[[D]]",
+  "question3": "Underdetermined: the rules do not specify enough constraints to determine a unique matrix.",
+  "question4": "[[4]]",
+  "question5": "Underdetermined: the rules do not specify enough constraints to determine a unique matrix.",
+  "question6": "[[3]]",
+  "question7": "Underdetermined: the rules do not specify enough constraints to determine a unique matrix.",
+  "question8": "[[HAFGDBXPOYE]]"
+}

@@ -1,0 +1,8 @@
+{
+  "a": "lub hnub",
+  "b": "txoj hlua",
+  "c": "zaj nkauj",
+  "d": "sau ntawv",
+  "e": "daim teb",
+  "f": "lub txiv hmab"
+}

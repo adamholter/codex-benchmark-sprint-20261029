@@ -1,0 +1,105 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly_no_context",
+  "id": "220:Q 5.1:no_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289062.362241,
+  "turn": {
+    "id": "01a1885b-88b9-72f1-8d97-0907f357e9b9",
+    "rootTurnId": "01a1885b-88b9-72f1-8d97-0907f357e9b9",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_08676ae25c302096016ae36b71fd148195a9531ae104795bc7",
+        "text": "{\n  \"1.\": \"Cannot determine: lettered choices are missing.\",\n  \"2.\": \"Cannot determine: lettered choices are missing.\",\n  \"3.\": \"Cannot determine: lettered choices are missing.\",\n  \"4.\": \"Cannot determine: lettered choices are missing.\",\n  \"5.\": \"Cannot determine: lettered choices are missing.\",\n  \"6.\": \"Cannot determine: lettered choices are missing.\",\n  \"7.\": \"Cannot determine: lettered choices are missing.\",\n  \"8.\": \"Cannot determine: lettered choices are missing.\",\n  \"9.\": \"Cannot determine: lettered choices are missing.\",\n  \"10.\": \"Cannot determine: lettered choices are missing.\",\n  \"11.\": \"Cannot determine: lettered choices are missing.\",\n  \"12.\": \"Cannot determine: lettered choices are missing.\",\n  \"13.\": \"Cannot determine: lettered choices are missing.\",\n  \"14.\": \"Cannot determine: lettered choices are missing.\",\n  \"15.\": \"Cannot determine: lettered choices are missing.\",\n  \"16.\": \"Cannot determine: lettered choices are missing.\",\n  \"17.\": \"Cannot determine: lettered choices are missing.\",\n  \"18.\": \"Cannot determine: lettered choices are missing.\",\n  \"19.\": \"Cannot determine: lettered choices are missing.\",\n  \"20.\": \"Cannot determine: lettered choices are missing.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289062,
+    "completedAt": 1793289079,
+    "durationMs": 16741
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "1.": "Cannot determine: lettered choices are missing.",
+      "2.": "Cannot determine: lettered choices are missing.",
+      "3.": "Cannot determine: lettered choices are missing.",
+      "4.": "Cannot determine: lettered choices are missing.",
+      "5.": "Cannot determine: lettered choices are missing.",
+      "6.": "Cannot determine: lettered choices are missing.",
+      "7.": "Cannot determine: lettered choices are missing.",
+      "8.": "Cannot determine: lettered choices are missing.",
+      "9.": "Cannot determine: lettered choices are missing.",
+      "10.": "Cannot determine: lettered choices are missing.",
+      "11.": "Cannot determine: lettered choices are missing.",
+      "12.": "Cannot determine: lettered choices are missing.",
+      "13.": "Cannot determine: lettered choices are missing.",
+      "14.": "Cannot determine: lettered choices are missing.",
+      "15.": "Cannot determine: lettered choices are missing.",
+      "16.": "Cannot determine: lettered choices are missing.",
+      "17.": "Cannot determine: lettered choices are missing.",
+      "18.": "Cannot determine: lettered choices are missing.",
+      "19.": "Cannot determine: lettered choices are missing.",
+      "20.": "Cannot determine: lettered choices are missing."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 20,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "1.": 0.0,
+      "2.": 0.0,
+      "3.": 0.0,
+      "4.": 0.0,
+      "5.": 0.0,
+      "6.": 0.0,
+      "7.": 0.0,
+      "8.": 0.0,
+      "9.": 0.0,
+      "10.": 0.0,
+      "11.": 0.0,
+      "12.": 0.0,
+      "13.": 0.0,
+      "14.": 0.0,
+      "15.": 0.0,
+      "16.": 0.0,
+      "17.": 0.0,
+      "18.": 0.0,
+      "19.": 0.0,
+      "20.": 0.0
+    }
+  },
+  "seconds": 16.988346083904617,
+  "usage": {
+    "total": {
+      "totalTokens": 4943,
+      "inputTokens": 4550,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 393,
+      "reasoningOutputTokens": 85
+    },
+    "last": {
+      "totalTokens": 4943,
+      "inputTokens": 4550,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 393,
+      "reasoningOutputTokens": 85
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793289079.350136
+}

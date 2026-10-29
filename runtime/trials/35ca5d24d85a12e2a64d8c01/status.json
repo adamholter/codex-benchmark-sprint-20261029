@@ -1,0 +1,79 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly_no_context",
+  "id": "178:Q 3.1:no_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290406.800522,
+  "turn": {
+    "id": "01a18870-0ccd-7173-94d1-1b1a35245b46",
+    "rootTurnId": "01a18870-0ccd-7173-94d1-1b1a35245b46",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_08404e186755c545016ae370b56cbc819396ef3ffb5c246562",
+        "text": "{\n  \"1.\": \"la donna\",\n  \"2.\": \"il treno\",\n  \"3.\": \"i tavoli\",\n  \"4.\": \"i gatti\",\n  \"5.\": \"le aule\",\n  \"6.\": \"lo scolaro\",\n  \"7.\": \"gli orsi\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290407,
+    "completedAt": 1793290422,
+    "durationMs": 15609
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "1.": "la donna",
+      "2.": "il treno",
+      "3.": "i tavoli",
+      "4.": "i gatti",
+      "5.": "le aule",
+      "6.": "lo scolaro",
+      "7.": "gli orsi"
+    },
+    "score": 0.8571428571428571,
+    "parts_correct": 6,
+    "parts_total": 7,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "1.": 1.0,
+      "2.": 1.0,
+      "3.": 1.0,
+      "4.": 1.0,
+      "5.": 1.0,
+      "6.": 0.0,
+      "7.": 1.0
+    }
+  },
+  "seconds": 15.950896291993558,
+  "usage": {
+    "total": {
+      "totalTokens": 4253,
+      "inputTokens": 3968,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 285,
+      "reasoningOutputTokens": 208
+    },
+    "last": {
+      "totalTokens": 4253,
+      "inputTokens": 3968,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 285,
+      "reasoningOutputTokens": 208
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793290422.751127
+}

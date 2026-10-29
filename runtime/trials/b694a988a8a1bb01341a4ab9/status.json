@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "fantom",
+  "id": "148-0-1-7189",
+  "category": "tom:info_accessibility:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290450.915978,
+  "turn": {
+    "id": "01a18870-b950-7163-a016-97537895c29b",
+    "rootTurnId": "01a18870-b950-7163-a016-97537895c29b",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0ed23ec06c6cba4f016ae370d83ef48195a3117e9463a6b86e",
+        "text": "Joel and Albert.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290451,
+    "completedAt": 1793290456,
+    "durationMs": 5081
+  },
+  "score": {
+    "correct": true,
+    "extracted": "Joel and Albert.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 5.758665208006278,
+  "usage": {
+    "total": {
+      "totalTokens": 4432,
+      "inputTokens": 4320,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 112,
+      "reasoningOutputTokens": 102
+    },
+    "last": {
+      "totalTokens": 4432,
+      "inputTokens": 4320,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 112,
+      "reasoningOutputTokens": 102
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793290456.6744902
+}

@@ -1,0 +1,93 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly_no_context",
+  "id": "167:Q A2.1:no_context",
+  "category": "Pattern / Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793287858.826127,
+  "turn": {
+    "id": "01a18849-2b8a-7401-96e2-1f7ec2e29bd0",
+    "rootTurnId": "01a18849-2b8a-7401-96e2-1f7ec2e29bd0",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_04b6cfbd3df18125016ae366e244508193bc537232d59c84a0",
+        "text": "{\n  \"(h)\": \"Cannot determine: Table 2 is missing.\",\n  \"(i)\": \"Cannot determine: Table 2 is missing.\",\n  \"(j)\": \"Cannot determine: Table 2 is missing.\",\n  \"(k)\": \"Cannot determine: Table 2 is missing.\",\n  \"(l)\": \"Cannot determine: Table 2 is missing.\",\n  \"(m)\": \"Cannot determine: Table 2 is missing.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793287859,
+    "completedAt": 1793287907,
+    "durationMs": 48755
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(h)": "Cannot determine: Table 2 is missing.",
+      "(i)": "Cannot determine: Table 2 is missing.",
+      "(j)": "Cannot determine: Table 2 is missing.",
+      "(k)": "Cannot determine: Table 2 is missing.",
+      "(l)": "Cannot determine: Table 2 is missing.",
+      "(m)": "Cannot determine: Table 2 is missing."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 6,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(h)": 0.0,
+      "(i)": 0.0,
+      "(j)": 0.0,
+      "(k)": 0.0,
+      "(l)": 0.0,
+      "(m)": 0.0
+    }
+  },
+  "seconds": 49.03914716700092,
+  "usage": {
+    "total": {
+      "totalTokens": 4302,
+      "inputTokens": 4142,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 160,
+      "reasoningOutputTokens": 68
+    },
+    "last": {
+      "totalTokens": 4302,
+      "inputTokens": 4142,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 160,
+      "reasoningOutputTokens": 68
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 238210e7-276e-42bd-9a01-4cd16b79df18",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a18849-2b71-7cc2-9259-20b043cc01a4",
+      "turnId": "01a18849-2b8a-7401-96e2-1f7ec2e29bd0"
+    }
+  ],
+  "finished_at": 1793287907.8646789
+}

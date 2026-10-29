@@ -1,0 +1,121 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+a%b=a^b+\sqrt{ab}.
+a and b are positive integers.
+
+Eugene Harold Krabs, more commonly known as Mr. Krabs, is a miserly red crab who lives in an anchor with his daughter, Pearl, who is a young whale. He is the owner and founder of the Krusty Krab restaurant.
+SpongeBob is a sea sponge with a rectangular shape, despite being designed to look like an actual kitchen sponge. He is light yellow with a light olive-green outline. 
+Karen Plankton is a waterproof supercomputer. She is Plankton's wife and sidekick who supplies him with evil plans to steal the Krabby Patty formula. When SpongeBob puts tape on Karen's screen, her speech is muffled. This implies that her screen acts like a mouth.
+The Krusty Krab is a fast food restaurant located in Bikini Bottom. The Krabby Patty is the Krusty Krab's signature and popular food item. It is a meatless hamburger of sorts made from seaweed-sea buns, undersea vegetables, condiments, and a patty. 
+Bikini Bottom is an undersea city where SpongeBob and his friends live. Boatmobiles are boat-shaped cars which are the main mode of transport for Bikini Bottomites. 
+Karen Plankton is a waterproof supercomputer who lives in the Chum Bucket laboratory. She is Plankton's wife and sidekick who supplies him with evil plans to steal the Krabby Patty formula. 
+Karen reveals to Plankton that she ordered a baby for them, and a stork drone soon arrives at the Chum Bucket to deliver it. SpongeBob has the ability to filter-feed and reproduce by budding.
+Plankton advises Mr. Krabs to marry money; Krabs agrees if possible. That night, Krabs hears crying near Krusty Krab's bus stop. Investigating, he finds a money stack with a face, unaware it's a robot named Cashina controlled by Plankton. Krabs falls in love, proposes to Cashina, and she accepts. The next day, Mr. Krabs and Cashina are officially married after their wedding. The Krabby Patty formula is the sole property of the Krusty Krab and is only to be discussed in part or in whole with its creator, Mr. Krabs. Duplication of this formula is punishable by law. Restrictions apply, results may vary.
+The Atlanteans traveled countless light-years from their home planet and brought the oldest living bubble on the journey, living over a million years. The Atlanteans took great advances in weapons, wealth, science, art, and things that people took for granted in Bikini Bottom today. The Weapons Vault contains all Atlantean-created weaponry, as the Atlanteans sealed away their entire arsenal to live in harmony with any sea life around them.
+In 6188 B.C., Bikini Bottom population is 23. Seen on SpongeBob's license, on July 14, 1986, SpongeBob was born. Squidward was born on the same year.
+The first Neptune dynasty takes throne of Bikini Bottom after the Krabs dynasty loses power (and the krabby patty recipe) in the 12th century.
+Princess Pearl Krabs was a princess of Bikini Bottomshire sometime before the 12th century and is a medieval ancestor of Pearl Krabs. She first appears in the episode "Dunces and Dragons."
+Alternate-Universe SpongeBob is a sea sponge who usually appears as a reflection of SpongeBob since he lives in a mirror and usually goes against the laws of reflections by not following SpongeBob's movement and instead behaving in his own manner, but sometimes exists in an alternative reality as his nickname suggests. He first appears in the episode "Squid's Day Off."
+The Bi-Annual Jellyfish Convention is a convention for Jellyfishers. It is located in a huge stadium and it has a big turnouts. 
+Even though Squidward's name contains the word "squid," he is an octopus, not a squid, as confirmed in many interviews and episodes. The series' animators illustrated Squidward with six tentacles.
+The island is built on and island and is a castle, whose windows are barred. It usually storms at the island. Inferno's Islands counselor is very mean, and serves tires for snacks. 
+King Neptune is a recurring character on SpongeBob SquarePants. He and his wife, Queen Amphitrite, are the supreme rulers of the ocean. King Neptune's name is often used in place of God's, with phrases such as "Dear Neptune," "Thank Neptune," "Neptune's preserver!," and "Oh my Neptune."
+Garold Gareth "Gary" Wilson, Jr. is SpongeBob SquarePants' pet sea snail. "Your Shoe's Untied" reveals that Gary has two legs and wears shoes. 
+The two begin capturing everyone with Sandy's net guns (intended for harvesting moon rocks), believing the citizens of Bikini Bottom to be aliens.
+The Protogenerator 2000 appears to be a large machine that greatly resembles a stove. It has many buttons on the front and a large opening at the bottom where the clones come out. One can choose how many clones they want to create. The Protogenerator 2000 is one of Sandy's inventions that has the ability to clone other sea creatures. This machine is used to clone any subject that is placed. It can make one to three clones at a time, making more people to do their things.
+
+Propositions are represented using p1, p2, ..., pn.
+Let p1 be a proposition, the compound proposition "not p1" is represented as ~p1.
+Let p1 and p2 be two propositions, the compound proposition "p1 and p2" is represented as p1&p2.
+Let p1 and p2 be two propositions, the compound proposition "p1 or p2" is represented as p1||p2.
+Let p1 and p2 be two propositions, the compound proposition "if p1, then p2" is represented as p1=::>p2.
+Let p1 and p2 be two propositions, the compound proposition "p1 if and only if p2" is represented as p1=p2.
+A single proposition and proposition constants can be called a formula.
+Formulas are represented using F1, F2, ..., Fn.
+If F1 is a formula, then ~F1 is also a formula.
+If F1 and F2 are formulas, then F1&F2, F1||F2, F1=::>F2, F1=F2 are also formulas.
+Level A Formula: The most basic proposition unit, without logical connectives or nested structures.
+Level B Formula: A formula containing one logical connective, and the connected two propositions are both Level A formulas.For example, p1.
+Level C Formula: A formula containing nested logical connectives and at least one Level B formula.For example, ~p1.
+Other levels of logic follow by analogy; when higher than Level Z, they are classified as Z+n (n≥1).For example, ~(~p1).
+True assignment of a proposition: A proposition p1 is assigned as ✓, indicating that p1 is true.
+False assignment of a proposition: A proposition p1 is assigned as x, indicating that p1 is false.
+True assignment of a formula: If the formula is (~p1&~p2&~p3)||(p1&p2), then x|x|x,✓|✓|x are true assignments of the formula.
+False assignment of a formula: If the formula is (~p1&~p2&~p3)||(p1&p2), then x|x|✓,x|✓|✓ are false assignments of the formula.
+For p1=::>p2, only ✓|x is a false assignment of the formula.
+A formula that is true under all assignments is called a Truth Formula.
+A formula that is false under all assignments is called a Falsehood Formula.
+Recursive definition of formulas: Any formula containing nested logical connectives can be decomposed recursively to obtain its subformulas and their logical connective structures.
+Priority of logical connectives: The priority of logical connectives from high to low is as follows: ~ (not), & (and), || (or), =::> (if...then), = (if and only if).
+Without parentheses, operations are performed according to priority.
+Equivalence of formulas: Two formulas are equivalent if they have the same truth value under all assignments.
+Equivalent formulas can be interchanged.
+Simplification of formulas: Formulas can be simplified through logical rules to obtain a more concise form without changing the truth value of the formula.
+
+**Encryption Rules:**
+
+- Input:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Output:
+    - Ciphertext:  Uppercase letters  string without punctuation and spaces.
+- Preparation:
+    - 6x6 Matrix (The rows and columns in the matrix are counted from 0.)
+        
+        [['R', 'U', 'A', '0', 'Q', 'B'], 
+        ['D', '2', 'W', 'K', 'S', '1'], 
+        ['H', '4', '5', 'F', 'T', 'Z'],
+        ['Y', 'C', 'G', 'X', '7', 'L'], 
+        ['9', '8', 'I', '3', 'P', 'N'],
+        ['6', 'J', 'V', 'O', 'E', 'M']]
+        
+    - Encrypted Character Set
+        - "ADFGVX"
+- Encryption Steps:
+    - For each character in the plaintext:
+        - Find the number of rows and columns of that character in the 6X6 matrix. For example, A has 0 rows and 2 columns.
+        - The position of each character in the encrypted character set is flagged as 0-6. Use the character at the corresponding position in the encrypted character set to replace the number of rows and columns to get the encrypted binary.
+            - For example, the number of rows of A is 0, which corresponds to A in the encrypted character set, and the number of columns of A is 2, which corresponds to F in the encrypted character set. so the encrypted binary corresponding to A is (A,F).The encrypted binary is (A,F).
+        - Read all rows of the encrypted binary, and then read all columns of the encrypted binary to get the final ciphertext.
+            - For example, the encrypted binary is (A,F)(X,V), the last read is AXFV, so the final ciphertext is AXFV.
+
+ **Decryption Rules:**
+
+- Input:
+    - Ciphertext: Uppercase letters  string without punctuation and spaces.
+- Output:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Preparation:
+    - 6x6 Matrix (Same as encryption)
+    - Encrypted Character Set (Same as encryption)
+- Decryption Steps:
+    - Divide the ciphertext into two halves.
+    - Take one letter from the upper half and one letter from the lower half each time as a decryption binary:
+        - The position of each character in the encrypted character set is flagged as 0-6, and the position of the corresponding character in the encrypted character set is used to decrypt the number of rows and columns represented by the decrypted binary.
+            - For example, the decrypted binary is the encrypted binary as (A,F), the position of A is 0 and the position of F is 2, so the number of rows is 0 and the number of columns is 2, obtaining (0, 2).
+        - Use the number of rows and columns obtained to find the letter in the corresponding position in the 6x6 matrix as the character after decryption.
+            - For example, the character at (0, 2) is A, and the character after AF decryption is A.
+    - Concatenate all the decrypted characters to get the final plaintext.
+
+
+### Questions:
+question1:
+Find the falsity values of the following formulas:
+(1)~(~p1&p2)||~p3
+(2)(~p2||p3)&(p1=::>p2)
+(3)(p1=::>p2)&(~(p1&p3)||p1)
+The answer format is [[F:...];[F:...];[F:...]].If there are multiple values in F, they should be separated by commas (,).For example [[F:x|x|x];[F:✓|✓|✓];[F:x|x|x,✓|✓|✓]]
+
+
+### Answers:

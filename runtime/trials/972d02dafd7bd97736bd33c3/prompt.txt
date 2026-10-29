@@ -1,0 +1,65 @@
+There are 8 people next to each other in a row in positions 1, 2, 3, 4, 5, 6, 7, 8 who have the following characteristics.
+Everyone supports a different NFL team: Carolina Panthers, Pittsburgh Steelers, Denver Broncos, Miami Dolphins, Seattle Seahawks, Buffalo Bills, Los Angeles Rams, Dallas Cowboys.
+Everyone drives a different motorbike: Benelli, Harley-Davidson, Bajaj, Buell, Piaggio, Kawasaki, Yamaha, Ducati.
+Everyone likes a different type of gemstone: Dolomites, Rubies, Opals, Sapphires, Corals, Pearls, Topaz, Emeralds.
+Everyone likes a different fruit: raspberries, pears, blueberries, mangoes, blackberries, apples, grapes, bananas.
+Everyone lives in a different colored house: violet, red, orange, purple, yellow, indigo, gold, pink.
+Everyone likes a different type of flower: peonies, daisies, roses, dahlias, orchids, daffodils, begonias, marigolds.
+Everyone has a different name: Mohsen, Rajiv, Jackson, Rose, Bob, Yair, Randy, Michelle.
+Everyone reads a different genre of books: short story, romance, history, humor, magical realism, fantasy, science fiction, spiritual.
+Using the clues provided below, answer the question at the end.
+Clue 1: The person who eats mangoes is somewhere in between the person who reads science fiction books and the person who drives the Harley-Davidson in that order.
+Clue 2: The person who drives the Benelli is the person who likes Corals.
+Clue 3: The person who supports the Carolina Panthers is the person who reads magical realism books.
+Clue 4: The person who reads history books is immediately to the left of the person who likes daisies.
+Clue 5: The person who eats pears is immediately to the left of the person who supports the Denver Broncos.
+Clue 6: The person who eats grapes is the person who lives in the yellow house.
+Clue 7: Rose is immediately to the left of the person who likes roses.
+Clue 8: The person who drives the Ducati is somewhere in between the person who likes daffodils and the person who likes Rubies in that order.
+Clue 9: The person who reads spiritual books is somewhere to the left of the person who likes marigolds.
+Clue 10: The person who reads fantasy books is the person who supports the Buffalo Bills.
+Clue 11: The person who eats raspberries is next to the person who lives in the indigo house.
+Clue 12: The person who drives the Benelli is next to the person who supports the Carolina Panthers.
+Clue 13: Yair is immediately to the left of Jackson.
+Clue 14: The person who lives in the indigo house is Rajiv.
+Clue 15: The person who lives in the gold house is at one of the ends.
+Clue 16: The person who eats blueberries is the person who likes roses.
+Clue 17: The person who likes Corals is the person who supports the Miami Dolphins.
+Clue 18: The person who eats blueberries is next to the person who lives in the violet house.
+Clue 19: The person who drives the Ducati is immediately to the left of the person who drives the Bajaj.
+Clue 20: Bob is immediately to the left of the person who drives the Piaggio.
+Clue 21: Bob is immediately to the left of the person who supports the Los Angeles Rams.
+Clue 22: The person who lives in the orange house is the person who eats raspberries.
+Clue 23: The person who likes Pearls is Randy.
+Clue 24: The person who lives in the violet house is somewhere in between the person who reads history books and the person who reads short story books in that order.
+Clue 25: The person who lives in the yellow house is the person who supports the Seattle Seahawks.
+Clue 26: The person who reads spiritual books is at one of the ends.
+Clue 27: The person who reads science fiction books is next to the person who eats mangoes.
+Clue 28: The person who drives the Yamaha is the person who likes dahlias.
+Clue 29: Yair is the person who reads spiritual books.
+Clue 30: The person who reads spiritual books is the person who drives the Benelli.
+Clue 31: Michelle is somewhere in between Mohsen and the person who eats mangoes in that order.
+Clue 32: The person who likes Pearls is the person who lives in the pink house.
+Clue 33: The person who likes Rubies is somewhere to the left of the person who likes Pearls.
+Clue 34: The person who likes Opals is next to the person who supports the Dallas Cowboys.
+Clue 35: The person who likes Dolomites is the person who lives in the orange house.
+Clue 36: The person who likes begonias is immediately to the left of the person who likes dahlias.
+Clue 37: The person who supports the Carolina Panthers is the person who likes peonies.
+Clue 38: The person who drives the Harley-Davidson is the person who lives in the pink house.
+Clue 39: The person who likes peonies is the person who likes Sapphires.
+Clue 40: Bob is somewhere to the left of the person who likes Topaz.
+Clue 41: The person who lives in the red house is the person who likes daffodils.
+Clue 42: The person who drives the Piaggio is somewhere in between the person who reads humor books and the person who likes Rubies in that order.
+Clue 43: The person who lives in the pink house is next to Rose.
+Clue 44: The person who likes Pearls is next to the person who supports the Buffalo Bills.
+Clue 45: The person who supports the Denver Broncos is immediately to the left of the person who likes Dolomites.
+Clue 46: The person who eats apples is immediately to the left of the person who lives in the orange house.
+Clue 47: The person who likes orchids is at one of the ends.
+Clue 48: The person who drives the Benelli is the person who eats bananas.
+Clue 49: The person who likes Corals is immediately to the left of the person who eats pears.
+Clue 50: The person who reads fantasy books is next to the person who likes Opals.
+Clue 51: The person who likes Sapphires is immediately to the left of the person who drives the Kawasaki.
+Clue 52: The person at the 4th position is next to the person who drives the Ducati.
+Clue 53: The person who likes dahlias is next to Randy.
+
+Question: What position is the person who lives in the orange house at?

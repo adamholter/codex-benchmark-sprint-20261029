@@ -1,0 +1,27 @@
+Kaylee: Hi Salvador, I'm quite intrigued by our mutual interest in comedy! Which genre do you prefer?
+Salvador: Hi Kaylee, it's nice to meet you. I'm more into dark comedy and stand-ups, but I do appreciate all forms of wit and humor. What about you?
+Kaylee: I'm into romantic comedy and sit-coms. They just lighten up my mood. I also enjoy stand-up comedy, especially observational humor.
+Salvador: Oh yes, observational comedians have this unique way of making everyday situations extraordinarily funny. Have you noticed any trends in comedy these days?
+Kaylee: I guess the trend now is shifting towards more relatable and everyday life content. People seem to lean towards humor that they can relate to based on their experiences. Memes and social media humor is a big thing too.
+Salvador: You're right. Social media has opened up a new platform for many comedians. Have you tried to participate in any comedy events or write jokes?
+Kaylee: I'm not much of a performer, but I do enjoy writing situational jokes for fun. Sometimes, I share them online too. Have you done any performances or any comedy related activities?
+Salvador: Well, once I tried to do a stand-up at a local Open Mic. It was harder than I thought! But nevertheless, it was a great experience.
+Kaylee: That's brave of you! Comedy is indeed a tough field. It's not just about telling jokes, but it's about timing, delivery, and knowing your audience.
+Salvador: Absolutely! There's so much more to comedy than what meets the eye. It's such an interesting art form and I’m glad we have this common interest.
+Kaylee: Definitely! I'm glad we had this conversation. It has been wonderful discussing comedy with you, Salvador.
+Salvador: Likewise, Kaylee. I hope we can have more such insightful discussions in the future.
+Bennett: Hello there, Salvador, Kaylee! I couldn't help but overhear the tail-end of your conversation.
+Salvador: Hi Bennett! We were just discussing our interest in comedy.
+Bennett: Really? That's intriguing because I, too, have a keen interest in it. I took a crack at stand-up at an open mic night once, too.
+Kaylee: Oh, that's interesting! How was your experience, Bennett?
+Bennett: It was definitely nerve-wracking. You got it right, Kaylee, the timing, delivery, and knowing the audience play a pivotal role. Yet, there's something exhilarating about it, don't you agree Salvador?
+Salvador: I couldn't agree more, Bennett. There's this thrill, and when you feel the audience resonating with your humor... it's just amazing.
+Bennett: True that, Salvador. And Kaylee, you mentioned you enjoy writing jokes. Have any been a hit on social media?
+Kaylee: I've had a few reactions, mostly from friends. It's just light-hearted fun, but it's rewarding when others get the humor.
+Bennett: That's the best part, isn't it? To know your humor brightened someone's day.
+Salvador: Absolutely, Bennett. It's all about sharing a laugh, bringing some joy to people's lives.
+Kaylee: I agree, Salvador, Bennett. Comedy is such a powerful tool for connection and joy. I'm so glad we could share our experiences.
+
+Target: What were the topics of conversation between Kaylee and Salvador related to comedy before Bennett's arrival?
+Question: List all the characters who know the precise correct answer to this question.
+Answer:

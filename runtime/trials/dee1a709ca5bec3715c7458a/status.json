@@ -1,0 +1,67 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly_no_context",
+  "id": "147:Q 4.1:no_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793293597.36698,
+  "turn": {
+    "id": "01a188a0-bb64-71d2-820e-08e772102675",
+    "rootTurnId": "01a188a0-bb64-71d2-820e-08e772102675",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_02507a0683681f38016ae37d27d3ec81948c3b17857b6e1ecb",
+        "text": "{\"g.\":\"Cannot be determined from the supplied sheet: no words are shown with stress marked.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793293597,
+    "completedAt": 1793293608,
+    "durationMs": 11203
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "g.": "Cannot be determined from the supplied sheet: no words are shown with stress marked."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 1,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "g.": 0.0
+    }
+  },
+  "seconds": 11.404951458098367,
+  "usage": {
+    "total": {
+      "totalTokens": 4195,
+      "inputTokens": 4008,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 187,
+      "reasoningOutputTokens": 160
+    },
+    "last": {
+      "totalTokens": 4195,
+      "inputTokens": 4008,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 187,
+      "reasoningOutputTokens": 160
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793293608.771442
+}

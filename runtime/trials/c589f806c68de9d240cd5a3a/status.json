@@ -1,0 +1,73 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly_no_context",
+  "id": "164:Q 2.1:no_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292487.9373598,
+  "turn": {
+    "id": "01a1888f-cde0-71a1-91ed-5407ba9ca083",
+    "rootTurnId": "01a1888f-cde0-71a1-91ed-5407ba9ca083",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_062688f104a1db63016ae378cc13888193883fc95d769b211c",
+        "text": "{\"9\":\"Cannot be determined from the information provided.\",\"10\":\"Cannot be determined from the information provided.\",\"11\":\"Tuzzel teqcict\",\"12\":\"Cannot be determined from the information provided.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292488,
+    "completedAt": 1793292492,
+    "durationMs": 4394
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "9": "Cannot be determined from the information provided.",
+      "10": "Cannot be determined from the information provided.",
+      "11": "Tuzzel teqcict",
+      "12": "Cannot be determined from the information provided."
+    },
+    "score": 0.25,
+    "parts_correct": 1,
+    "parts_total": 4,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "9": 0.0,
+      "10": 0.0,
+      "11": 1.0,
+      "12": 0.0
+    }
+  },
+  "seconds": 4.631350500043482,
+  "usage": {
+    "total": {
+      "totalTokens": 4468,
+      "inputTokens": 4311,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 157,
+      "reasoningOutputTokens": 110
+    },
+    "last": {
+      "totalTokens": 4468,
+      "inputTokens": 4311,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 157,
+      "reasoningOutputTokens": 110
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292492.568149
+}

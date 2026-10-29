@@ -1,0 +1,122 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+A€B=2A+3B
+A and B are matrices.
+
+1.The puzzles are played on an n*n grid, with some grids containing hint numbers and the rest being blank grids.
+2.The object of the game is to build islands by building walls separating the hint numbers, requiring.
+3.Each island contains only one hint number.
+4.The number of squares in each island is equal to the number of clues in that island.
+5.Islands are separated from each other vertically or horizontally.
+6.There are no 2x2 or larger rectangles in the area formed by the wall.
+7.Walls can form a continuous path.
+8.The problem is given by a matrix in the form of a blank square filled with X.The player should replace the grid on which the wall is built with A and output the drawn matrix, which contains X (the blank island), A (the wall) and the numbers.
+
+
+### Questions:
+question1:
+A=
+\[
+\begin{pmatrix}
+  1 & 2 \\
+  3 & 4
+\end{pmatrix}
+\]
+B=
+\[
+\begin{pmatrix}
+  5 & 6 \\
+  7 & 8
+\end{pmatrix}
+\]
+Compute A€B.
+The answer is a matrix, write it in this form:[[((a,b),(c,d))]].
+
+question2:
+A=
+\[
+\begin{pmatrix}
+  1 & 0 \\
+  0 & 1
+\end{pmatrix}
+\]
+B=
+\[
+\begin{pmatrix}
+  2 & 2 \\
+  2 & 2
+\end{pmatrix}
+\]
+Compute A€B.
+The answer is a matrix, write it in this form:[[((a,b),(c,d))]].
+
+question3:
+A=
+\[
+\begin{pmatrix}
+  1 & 2 & 3\\
+  4 & 5 & 6\\
+  7 & 8 & 9
+\end{pmatrix}
+\]
+B=
+\[
+\begin{pmatrix}
+  9 & 8 & 7\\
+  6 & 5 & 4\\
+  3 & 2 & 1
+\end{pmatrix}
+\]
+Compute A€B.
+The answer is a matrix, write it in this form:[[((a,b,c),(d,e,f),(g,h,i))]].
+
+question4:
+A=
+\[
+\begin{pmatrix}
+  1 & 2 \\
+  3 & 4
+\end{pmatrix}
+\]
+B=
+\[
+\begin{pmatrix}
+  0 & 1 \\
+  2 & 3
+\end{pmatrix}
+\]
+Compute A€B.
+The answer is a matrix, write it in this form:[[((a,b),(c,d))]].
+
+question5:
+A=
+\[
+\begin{pmatrix}
+  3 & 3 \\
+  3 & 3
+\end{pmatrix}
+\]
+B=
+\[
+\begin{pmatrix}
+  4 & 4 \\
+  4 & 4
+\end{pmatrix}
+\]
+Compute A€B.
+The answer is a matrix, write it in this form:[[((a,b),(c,d))]].
+
+
+### Answers:

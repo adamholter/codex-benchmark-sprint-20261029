@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "bbeh",
+  "id": "mini:movie_recommendation:0158",
+  "category": "movie_recommendation",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793285771.7969549,
+  "turn": {
+    "id": "01a18829-52f3-7062-8d9b-6c1f830d2738",
+    "rootTurnId": "01a18829-52f3-7062-8d9b-6c1f830d2738",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_03b46429ab6c5779016ae35e98d8c481959b14207c839b885b",
+        "text": "(A) Pretty Woman, Interview with the Vampire: The Vampire Chronicles, Batman, Babe, The Mask.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793285772,
+    "completedAt": 1793285785,
+    "durationMs": 13683
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(a) pretty woman,interview with the vampire: the vampire chronicles,batman,babe,the mask"
+  },
+  "seconds": 13.917796374997124,
+  "usage": {
+    "total": {
+      "totalTokens": 4144,
+      "inputTokens": 3906,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 238,
+      "reasoningOutputTokens": 211
+    },
+    "last": {
+      "totalTokens": 4144,
+      "inputTokens": 3906,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 238,
+      "reasoningOutputTokens": 211
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793285785.714609
+}

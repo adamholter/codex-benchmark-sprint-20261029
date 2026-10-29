@@ -1,0 +1,128 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+**Encryption Rules:**
+
+- Input:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Output:
+    - Ciphertext: A numeric string without punctuation and spaces.
+- Preparation:
+    - 3 Girds(All row and column numbers are counted from 0.):
+        - Grid 1 (3x9):
+            
+            Q W E R T Y U I O
+            P A S D F G H J K
+            L Z X C V B N M #
+            
+        - Grid 2 (9x3):
+            
+            Q W E
+            R T Y
+            U I O
+            P A S
+            D F G
+            H J K
+            L Z X
+            C V B
+            N M #
+            
+        - Grid 3 (3x3):
+            
+            1 2 3
+            4 5 6
+            7 8 9
+            
+- Encryption Steps:
+    - Remove all spaces and punctuation from the plain text and convert them to capital letters.
+    - Cut the plaintext into groups of 6 characters, and if a group is less than 6 characters long, fill it with `#`.
+    - Split each group of 6 characters into 3 binary groups.
+    - For each binary group `(L1, L2)` do the following:
+        - Determine the row and column numbers  of `L1` in `grid1` as `(l1_row, l1_col)`.
+        - Determine the row and column numbers of `L2` in `grid2` as `(l2_row, l2_col)`.
+        - Find the corresponding number `num3` in `grid3` from `l1_row` and `l2_col`.
+        - Output the triple `(l1_col, num3, l2_row)` of the three numbers.
+            - For example, for the binary (T,H), the row and column numbers of T in `grid1` are (0,4), the row and column numbers of H in `grid2` are (5,0).
+            - Based on `l1_row` (0) and `l2_col`(0) , the corresponding number `num3` found in `grid3` is 1, and the final ternary is (4, 1, 5).
+    - After performing the previous step multiple times and converting all the binary groups to triples, read them in turn to form a string of numbers that can be used as encrypted information. For example (4, 1, 5), (2, 3, 3), (8, 1, 8), the final encrypted message is 415233818.
+
+ **Decryption Rules:**
+
+- Input:
+    - Ciphertext: A numeric string without punctuation and spaces.
+- Output:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Preparation:
+    - 3 Girds (Same as encryption)
+- Decryption Steps (exact opposite of encryption steps):
+    - Divide the ciphertext into triples of three numbers.
+    - For each ternary `(x, y, z)` do the following:
+        - Find the row number of y in Gird3 where the value of L1_row is equal to the row number;
+        - Find the column number of y in Gird3, with the value of L2_col equal to that column number;
+        - The value of L1_col is equal to x, the value of L2_row is equal to z.
+        - Find the corresponding letter p1 in Gird1 according to the determined (L1_row,L1_col).
+        - Based on the determined (L2_row,L2_col), find the corresponding letter p2 in Gird2.
+        - p1p2 is the decrypted message of the triad.
+        - For example, for the ternary (4,1,5), in Gird3, the row number corresponding to 1 is 0, so L1_row=0, in Gird3, the column number corresponding to 1 is 0, so L2_col=0. L1_col=4, L2_row=5. According to (0,4) in Gird1, we find the corresponding letter T, and according to (5,0) in Gird2, we decrypt all the ternaries to get the letter p2 p1p2 as the message after decrypting the ternary. We find the corresponding letter H in Gird2 according to (5,0), so the final decryption is TH.
+    - String all the decrypted messages together, remove the `#` at the end (these characters are padding characters added to make the message length a multiple of 6), to form the decrypted plaintext.
+
+
+### Questions:
+question1:
+Plaintext: "SD"
+
+Please provide the encrypted answer, encapsulated in double square brackets. For example, the format should be: [[encrypted answer]].
+
+question2:
+Ciphertext: "335647244646662538"
+
+Please provide the decrypted answer, encapsulated in double square brackets. For example, the format should be: [[decrypted answer]].
+
+question3:
+Plaintext: "KN"
+
+Please provide the encrypted answer, encapsulated in double square brackets. For example, the format should be: [[encrypted answer]].
+
+question4:
+Ciphertext: "142898898"
+
+Please provide the decrypted answer, encapsulated in double square brackets. For example, the format should be: [[decrypted answer]].
+
+question5:
+Ciphertext: "777898898"
+
+Please provide the decrypted answer, encapsulated in double square brackets. For example, the format should be: [[decrypted answer]].
+
+question6:
+Ciphertext: "588898898"
+
+Please provide the decrypted answer, encapsulated in double square brackets. For example, the format should be: [[decrypted answer]].
+
+question7:
+Plaintext: "BK"
+
+Please provide the encrypted answer, encapsulated in double square brackets. For example, the format should be: [[encrypted answer]].
+
+question8:
+Ciphertext: "547898898"
+
+Please provide the decrypted answer, encapsulated in double square brackets. For example, the format should be: [[decrypted answer]].
+
+question9:
+Plaintext: "KD"
+
+Please provide the encrypted answer, encapsulated in double square brackets. For example, the format should be: [[encrypted answer]].
+
+
+### Answers:

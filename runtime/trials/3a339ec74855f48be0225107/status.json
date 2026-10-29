@@ -1,0 +1,67 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly",
+  "id": "122:Q 9.3:full_context",
+  "category": "Monolingual / Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793287553.105802,
+  "turn": {
+    "id": "01a18844-810d-79a3-bf27-339f3895e5b5",
+    "rootTurnId": "01a18844-810d-79a3-bf27-339f3895e5b5",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_011ad43af35e157a016ae365aba8a8819699ed0bef10f91c13",
+        "text": "{\"d.\":\"Northern Pame uses a base-eight system. The number before tenhiu\u0272 counts groups of eight, and the number after it gives the remainder: for example, kanuje tenhiu\u0272 sante is 2 \u00d7 8 + 1 = 17, while giriu\u1e2d tenhiu\u0272 rnu\u0294 is 4 \u00d7 8 + 3 = 35.\\n\\nI cannot determine the complete Central Pame system confidently from the supplied equalities, so I cannot give a reliable full comparison.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793287553,
+    "completedAt": 1793287597,
+    "durationMs": 44279
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "d.": "Northern Pame uses a base-eight system. The number before tenhiu\u0272 counts groups of eight, and the number after it gives the remainder: for example, kanuje tenhiu\u0272 sante is 2 \u00d7 8 + 1 = 17, while giriu\u1e2d tenhiu\u0272 rnu\u0294 is 4 \u00d7 8 + 3 = 35.\n\nI cannot determine the complete Central Pame system confidently from the supplied equalities, so I cannot give a reliable full comparison."
+    },
+    "score": 1.0,
+    "parts_correct": 1,
+    "parts_total": 1,
+    "empty_reference_parts": 1,
+    "part_scores": {
+      "d.": 1.0
+    }
+  },
+  "seconds": 44.49136395798996,
+  "usage": {
+    "total": {
+      "totalTokens": 7122,
+      "inputTokens": 4412,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 2710,
+      "reasoningOutputTokens": 2588
+    },
+    "last": {
+      "totalTokens": 7122,
+      "inputTokens": 4412,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 2710,
+      "reasoningOutputTokens": 2588
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793287597.59701
+}

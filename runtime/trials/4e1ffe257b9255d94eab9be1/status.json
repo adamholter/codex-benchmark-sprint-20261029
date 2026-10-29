@@ -1,0 +1,101 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly",
+  "id": "85:Q 2.1:full_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290257.378119,
+  "turn": {
+    "id": "01a1886d-c5ce-7bc1-94d5-899b1c8cdec8",
+    "rootTurnId": "01a1886d-c5ce-7bc1-94d5-899b1c8cdec8",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_017a6247414f8600016ae37014b374819496452426ce4fcf62",
+        "text": "{\"(a)\": \"ein\", \"(b)\": \"uno\", \"(c)\": \"deux\", \"(d)\": \"zwei\", \"(e)\": \"tres\", \"(f)\": \"vier\", \"(g)\": \"cuatro\", \"(h)\": \"cinq\", \"(i)\": \"f\u00fcnf\", \"(j)\": \"seis\", \"(k)\": \"sept\", \"(l)\": \"sieben\", \"(m)\": \"huit\", \"(n)\": \"ocho\", \"(o)\": \"neun\", \"(p)\": \"nueve\", \"(q)\": \"dix\", \"(r)\": \"zehn\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290257,
+    "completedAt": 1793290261,
+    "durationMs": 3694
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "(a)": "ein",
+      "(b)": "uno",
+      "(c)": "deux",
+      "(d)": "zwei",
+      "(e)": "tres",
+      "(f)": "vier",
+      "(g)": "cuatro",
+      "(h)": "cinq",
+      "(i)": "f\u00fcnf",
+      "(j)": "seis",
+      "(k)": "sept",
+      "(l)": "sieben",
+      "(m)": "huit",
+      "(n)": "ocho",
+      "(o)": "neun",
+      "(p)": "nueve",
+      "(q)": "dix",
+      "(r)": "zehn"
+    },
+    "score": 1.0,
+    "parts_correct": 18,
+    "parts_total": 18,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 1.0,
+      "(b)": 1.0,
+      "(c)": 1.0,
+      "(d)": 1.0,
+      "(e)": 1.0,
+      "(f)": 1.0,
+      "(g)": 1.0,
+      "(h)": 1.0,
+      "(i)": 1.0,
+      "(j)": 1.0,
+      "(k)": 1.0,
+      "(l)": 1.0,
+      "(m)": 1.0,
+      "(n)": 1.0,
+      "(o)": 1.0,
+      "(p)": 1.0,
+      "(q)": 1.0,
+      "(r)": 1.0
+    }
+  },
+  "seconds": 4.279148875037208,
+  "usage": {
+    "total": {
+      "totalTokens": 4684,
+      "inputTokens": 4411,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 273,
+      "reasoningOutputTokens": 143
+    },
+    "last": {
+      "totalTokens": 4684,
+      "inputTokens": 4411,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 273,
+      "reasoningOutputTokens": 143
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793290261.656586
+}

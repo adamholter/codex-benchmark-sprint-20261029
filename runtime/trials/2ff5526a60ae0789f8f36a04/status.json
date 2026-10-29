@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "fantom",
+  "id": "180-1-1-8928",
+  "category": "tom:answerability:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793293843.373086,
+  "turn": {
+    "id": "01a188a4-7d45-7cf2-a3c0-92352b816f59",
+    "rootTurnId": "01a188a4-7d45-7cf2-a3c0-92352b816f59",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0004d56d9aa3ef93016ae37e19b44481939201694498c20eb7",
+        "text": "Sasha, Cayden, and Colt.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793293843,
+    "completedAt": 1793293850,
+    "durationMs": 6358
+  },
+  "score": {
+    "correct": false,
+    "extracted": "Sasha, Cayden, and Colt.",
+    "strict_correct": false,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 7.019724540994503,
+  "usage": {
+    "total": {
+      "totalTokens": 4733,
+      "inputTokens": 4685,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 48,
+      "reasoningOutputTokens": 33
+    },
+    "last": {
+      "totalTokens": 4733,
+      "inputTokens": 4685,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 48,
+      "reasoningOutputTokens": 33
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793293850.392364
+}

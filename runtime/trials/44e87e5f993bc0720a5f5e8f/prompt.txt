@@ -1,0 +1,32 @@
+You are an intelligent assistant specializing in solving custom puzzle problems. Below is a specific rule defined for a custom puzzle. Your task is to apply this rule accurately to the provided question.
+
+### Instructions:
+
+1. Thoroughly understand the rule provided. If needed, break down the rule into simpler components or steps.
+2. Apply the rule carefully to address the question presented.
+3. Verify your answer to ensure it aligns with the rule and the context of the puzzle.
+
+### Puzzle Rule:
+
+1.The puzzle is played on an N*N grid, which is divided into regions.
+2.The player must place dominoes on some of the cells so that.
+3.There are exactly 2 cells in each region that are covered by dominoes.
+4.Each shaded cell should be part of a domino*. Dominoes can cross region boundaries.
+5.Dominoes cannot touch each other, except diagonally.
+6.Dominoes are shapes (1x2 or 2x1) consisting of two adjacent shaded cells.
+7.The question is given in matrix form, with different letters representing different regions.
+
+### Question:
+Grid Layout:
+A	B	C	C	C	C
+A	B	B	C	C	D
+A	E	C	C	C	D
+A	E	E	C	C	H
+F	E	G	G	G	H
+F	E	G	H	H	H
+The answer should contain the coordinates of all dominoes in the format (row i,column j)(row x,column y).
+The coordinates should be listed in order from left to right or top to bottom.
+Different dominoes should be separated by commas.
+Ensure that your final answer is enclosed in double square brackets, like this: [[(1,2)(1,3),(2,4)(3,4),(4,1)(4,2)]].
+
+### Answer:

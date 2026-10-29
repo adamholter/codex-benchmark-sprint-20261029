@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "fantom",
+  "id": "155-0-0-7467",
+  "category": "tom:answerability:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288635.687807,
+  "turn": {
+    "id": "01a18855-063a-7bc2-9ef0-4bb9ec75e74e",
+    "rootTurnId": "01a18855-063a-7bc2-9ef0-4bb9ec75e74e",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_07325df88c3a79a4016ae369c12ffc8197bca8824f918f7ea1",
+        "text": "Dylan and Iris.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288635,
+    "completedAt": 1793288641,
+    "durationMs": 5701
+  },
+  "score": {
+    "correct": true,
+    "extracted": "Dylan and Iris.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 6.0149988329503685,
+  "usage": {
+    "total": {
+      "totalTokens": 4389,
+      "inputTokens": 4347,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 42,
+      "reasoningOutputTokens": 31
+    },
+    "last": {
+      "totalTokens": 4389,
+      "inputTokens": 4347,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 42,
+      "reasoningOutputTokens": 31
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793288641.702611
+}

@@ -1,0 +1,494 @@
+{
+  "researched_on": "2026-10-29",
+  "scope": "Older or quiet benchmarks beyond standard coding and math leaderboards, with a local-model pilot that is plausibly runnable within five hours.",
+  "method": {
+    "sources": "Primary GitHub repositories and the papers linked from them; GitHub REST metadata/history checked for repository activity where available.",
+    "no_model_tests": true,
+    "no_paid_apis": true,
+    "public_web_lookup": "Public GitHub pages and linked papers were checked through web search/open; no interactive browser session or sign-in was used.",
+    "setup_times_are_estimates": true,
+    "caution": "Historical scores identify tasks worth rechecking; they do not establish modern model unsaturation. No 2026 model run was performed."
+  },
+  "recommendations": [
+    {
+      "rank": 1,
+      "name": "PlanBench",
+      "pilot": "Sample 100 to 200 randomized Mystery Blocksworld or hard PDDL instances; retain plan-validity and goal-completion metrics by split.",
+      "reason": "Strongest practical planning candidate: clear historical failures on controlled tasks and a symbolic evaluator.",
+      "repo_url": "https://github.com/harshakokel/PlanBench",
+      "score_url": "https://github.com/harshakokel/PlanBench#planbench-static-test-set-leaderboard",
+      "paper_url": "https://arxiv.org/abs/2206.10498"
+    },
+    {
+      "rank": 2,
+      "name": "DiscoveryWorld",
+      "pilot": "Use one fixed seed on four to eight easy or challenge scenarios; report completion, procedural progress, and knowledge separately.",
+      "reason": "Uncommon end-to-end scientific discovery tasks with local simulation and built-in scorecards.",
+      "repo_url": "https://github.com/allenai/discoveryworld",
+      "score_url": "https://openreview.net/forum?id=cDYqckEt6d",
+      "paper_url": "https://arxiv.org/abs/2406.06769"
+    },
+    {
+      "rank": 3,
+      "name": "MuSR",
+      "pilot": "Evaluate 100 to 200 items balanced across murder mysteries, object placement, and team allocation using the Hugging Face backend.",
+      "reason": "Narrative reasoning has three distinct inference modes, a fixed test set, and exact multiple-choice scoring.",
+      "repo_url": "https://github.com/Zayne-sprague/MuSR",
+      "score_url": "https://arxiv.org/abs/2310.16049",
+      "paper_url": "https://arxiv.org/abs/2310.16049"
+    },
+    {
+      "rank": 4,
+      "name": "StepGame",
+      "pilot": "Score 200 to 500 corrected, noisy examples, stratified by hop count; include k=6 to 10 for generalization.",
+      "reason": "Cheap spatial-reasoning slice with generated labels and a clear correction history.",
+      "repo_url": "https://github.com/ShiZhengyan/StepGame",
+      "score_url": "https://github.com/Fangjun-Li/SpatialLM-StepGame",
+      "paper_url": "https://arxiv.org/abs/2401.03991"
+    }
+  ],
+  "candidates": [
+    {
+      "rank": 1,
+      "name": "PlanBench",
+      "areas": [
+        "planning",
+        "formal reasoning"
+      ],
+      "repo_url": "https://github.com/harshakokel/PlanBench",
+      "paper_url": "https://arxiv.org/abs/2206.10498",
+      "repository_activity": {
+        "last_substantive_commit": "2025-05-05, merged upstream planning/results changes; content additions include 2025-04-07",
+        "last_leaderboard_or_results_update": "2025-04-24, static leaderboard text in README",
+        "distinction": "Leaderboard table is a separate README edit from the later repository merge."
+      },
+      "published_top_scores": [
+        {
+          "model": "DeepSeek R1",
+          "result": "99.1% Blocksworld NL; 43.3% Mystery Blocksworld NL; 25.8% randomized Mystery Blocksworld NL; 53.6% Blocksworld Hard PDDL",
+          "metric": "Plan success / accuracy on the static test sets",
+          "source_url": "https://github.com/harshakokel/PlanBench#planbench-static-test-set-leaderboard"
+        }
+      ],
+      "license": {
+        "code": "MIT",
+        "data": "Problem sets and result artifacts are in the repository; no separate dataset license statement found."
+      },
+      "data_access": "Public static test sets and model result files in the repository. Local scoring is possible.",
+      "evaluator": {
+        "metric": "Whether the proposed plan reaches the goal; PDDL plans can be validated with the supplied planner tooling.",
+        "deterministic": "Yes for a fixed problem and fixed planner/version; generation randomness comes from the model."
+      },
+      "setup_and_five_hour_fit": {
+        "estimate": "A 100 to 200 item pilot should fit; full run time depends on local model speed and planner setup.",
+        "estimate_is_verified": false,
+        "local_no_api_path": "Use a local Hugging Face model or local OpenAI-compatible endpoint; do not use the paid API path.",
+        "caveat": "Output format and prompting differ between natural-language and PDDL conditions."
+      },
+      "latest_frontier_score": null,
+      "modern_unsaturation": "Unknown. README results end in 2025; low historical randomized-task scores are not proof of current headroom."
+    },
+    {
+      "rank": 2,
+      "name": "MuSR",
+      "areas": [
+        "language",
+        "multi-step reasoning",
+        "planning-like constraint tracking"
+      ],
+      "repo_url": "https://github.com/Zayne-sprague/MuSR",
+      "paper_url": "https://arxiv.org/abs/2310.16049",
+      "repository_activity": {
+        "last_substantive_code_or_data_commit": "2023-10-24",
+        "last_readme_update": "2024-01-24",
+        "license_commit": "2024-08-10",
+        "last_leaderboard_or_results_update": "No results table or leaderboard in the repository; paper results are from the 2024 ICLR paper."
+      },
+      "published_top_scores": [
+        {
+          "model": "GPT-4, one-shot CoT+",
+          "result": "86.0% murder mysteries; 72.3% object placements; 86.8% team allocation",
+          "metric": "Multiple-choice accuracy",
+          "source_url": "https://arxiv.org/abs/2310.16049"
+        }
+      ],
+      "license": {
+        "code": "MIT",
+        "data": "Dataset files are included in the repository; no separate data license was found."
+      },
+      "data_access": "Public JSON test sets in datasets/. The paper describes 750 total examples across three domains.",
+      "evaluator": {
+        "metric": "Exact multiple-choice answer accuracy.",
+        "deterministic": "Yes after answer-letter parsing; model sampling can change predictions."
+      },
+      "setup_and_five_hour_fit": {
+        "estimate": "A balanced 100 to 200 item local-model pilot is plausible within five hours. Full 750-item timing depends on model throughput and output length.",
+        "estimate_is_verified": false,
+        "local_no_api_path": "The README documents Hugging Face model support. The default example uses OpenAI, which is not required."
+      },
+      "latest_frontier_score": null,
+      "modern_unsaturation": "Unknown. No current frontier comparison in the repository or linked paper."
+    },
+    {
+      "rank": 3,
+      "name": "StepGame",
+      "areas": [
+        "spatial reasoning",
+        "multi-hop inference",
+        "systematic generalization"
+      ],
+      "repo_url": "https://github.com/ShiZhengyan/StepGame",
+      "related_llm_repo_url": "https://github.com/Fangjun-Li/SpatialLM-StepGame",
+      "paper_url": "https://arxiv.org/abs/2204.08292",
+      "repository_activity": {
+        "last_substantive_dataset_update": "2024-02-04, corrected templates and regenerated data",
+        "dataset_hub_update": "2024-03-04",
+        "last_readme_update": "2024-03-20",
+        "last_leaderboard_or_results_update": "No official current leaderboard. A separate corrected-dataset LLM evaluation appeared in 2024."
+      },
+      "published_top_scores": [
+        {
+          "model": "TP-MANN",
+          "result": "52.99% mean accuracy over noisy k=1 to 5 test splits; 31.25% at k=5",
+          "metric": "Exact spatial-relation accuracy",
+          "source_url": "https://arxiv.org/abs/2204.08292"
+        },
+        {
+          "model": "GPT-3.5 / text-davinci-003",
+          "result": "Cached model responses and corrected-data experiments are provided, but no single comparable SOTA score was found in the repository summary.",
+          "metric": "Accuracy by split and prompting condition",
+          "source_url": "https://github.com/Fangjun-Li/SpatialLM-StepGame"
+        }
+      ],
+      "license": {
+        "code": "MIT",
+        "data": "Repository offers generated datasets and a Hugging Face copy; no separate dataset license statement found."
+      },
+      "data_access": "Public clean/noisy generated data; use the corrected February 2024 data or the linked Hugging Face dataset.",
+      "evaluator": {
+        "metric": "Exact relation-label accuracy by noise and hop count.",
+        "deterministic": "Yes for fixed labels and answer normalization."
+      },
+      "setup_and_five_hour_fit": {
+        "estimate": "A 200 to 500 item slice is plausible within five hours. Avoid running every generated split; the full data collection is large.",
+        "estimate_is_verified": false,
+        "local_no_api_path": "Inference is independent of the generator. Use local models and exact-answer scoring."
+      },
+      "quality_notes": "The original repository documents a 2024 template correction. Old scores are neural-network results, not current LLM scores.",
+      "latest_frontier_score": null,
+      "modern_unsaturation": "Unknown. No representative current LLM leaderboard found."
+    },
+    {
+      "rank": 4,
+      "name": "SciBench",
+      "areas": [
+        "scientific reasoning",
+        "chemistry",
+        "physics",
+        "college-level quantitative reasoning"
+      ],
+      "repo_url": "https://github.com/mandyyyyii/scibench",
+      "project_site_url": "https://scibench-ucla.github.io/",
+      "paper_url": "https://arxiv.org/abs/2307.10635",
+      "repository_activity": {
+        "last_substantive_commit": "2024-07-08, dataset/readme repair",
+        "last_leaderboard_or_results_update": "The official site says its GPT results were evaluated 2024-03-15; it currently displays a best overall score of 48.96%.",
+        "distinction": "The displayed page is current, but the underlying model evaluations are dated 2024-03-15."
+      },
+      "published_top_scores": [
+        {
+          "model": null,
+          "result": "48.96% overall under zero-shot setting",
+          "metric": "Accuracy on the textbook dataset",
+          "source_url": "https://scibench-ucla.github.io/",
+          "note": "The static page exposes the aggregate score but not the model row in its text view; model identity left unknown."
+        },
+        {
+          "model": "Best configuration in the 2023 paper",
+          "result": "43.22% text, 13.8% multimodal, 51.57% closed exam",
+          "metric": "Accuracy",
+          "source_url": "https://arxiv.org/abs/2307.10635"
+        }
+      ],
+      "license": {
+        "code": "MIT",
+        "data": "The repository links a public Hugging Face dataset; confirm the dataset card terms before redistribution."
+      },
+      "data_access": "Textbook problems and multimodal files are in the repository; the paper describes 869 total problems, including 177 with visual context. Closed exam data is a separate set.",
+      "evaluator": {
+        "metric": "Parsed numeric answer accuracy; the repository also has a separate LLM-based error attribution workflow.",
+        "deterministic": "Numeric matching is deterministic after answer extraction; error attribution is not deterministic and needs an LLM."
+      },
+      "setup_and_five_hour_fit": {
+        "estimate": "A 50 to 100 item text-only pilot is plausible within five hours. Full 869-item evaluation depends on local model throughput and calculator setup.",
+        "estimate_is_verified": false,
+        "local_no_api_path": "Adapt the prompt runner to a local model. The error-analysis script explicitly expects an API key, but it is optional for accuracy scoring."
+      },
+      "quality_notes": "Paper-to-repository dataset size/version may differ; pin the downloaded version and report it. This overlaps quantitative reasoning more than the other candidates.",
+      "latest_frontier_score": "48.96% is displayed by the official site, but its accompanying note dates GPT evaluations to 2024-03-15.",
+      "modern_unsaturation": "Unknown; the published measurement is old and must not be treated as current headroom."
+    },
+    {
+      "rank": 5,
+      "name": "DiscoveryWorld",
+      "areas": [
+        "scientific reasoning",
+        "experimental design",
+        "interactive planning"
+      ],
+      "repo_url": "https://github.com/allenai/discoveryworld",
+      "paper_url": "https://arxiv.org/abs/2406.06769",
+      "results_paper_url": "https://openreview.net/forum?id=cDYqckEt6d",
+      "repository_activity": {
+        "latest_repository_commit": "2025-03-10, README update",
+        "latest_non_readme_file_change_found": "2025-01-21, repository cleanup; core data release dates to 2024-06-12",
+        "last_leaderboard_or_results_update": "No live leaderboard found; latest benchmark results are from the NeurIPS 2024 paper."
+      },
+      "published_top_scores": [
+        {
+          "model": "GPT-4o ReAct",
+          "result": "18% challenge-task completion in the paper's aggregate challenge setting",
+          "metric": "Binary task completion; paper separately reports procedural progress and knowledge",
+          "source_url": "https://openreview.net/forum?id=cDYqckEt6d",
+          "note": "Paper table reports scores averaged over seeds; not a current frontier result."
+        },
+        {
+          "model": "GPT-4o Hypothesizer",
+          "result": "8% challenge explanatory-knowledge score",
+          "metric": "Knowledge metric",
+          "source_url": "https://openreview.net/forum?id=cDYqckEt6d"
+        }
+      ],
+      "license": {
+        "code": "Apache-2.0",
+        "data": "Paper-run data is linked from the repository. Bundled CuteRPG art assets use separate terms and cannot be resold."
+      },
+      "data_access": "Public simulator, scenarios, agent examples, scorecards, and links to full paper run data. The README says installation usually takes minutes and documents Python 3.9.",
+      "evaluator": {
+        "metric": "Rule-based task completion, procedural scorecards, and explanatory-knowledge checks.",
+        "deterministic": "Mostly deterministic with a fixed task seed and simulator version; model action selection is stochastic if decoding is."
+      },
+      "setup_and_five_hour_fit": {
+        "estimate": "Install is documented as minutes. A 4 to 8 task pilot with one seed is plausible within five hours; a full 120-task run is not guaranteed.",
+        "estimate_is_verified": false,
+        "local_no_api_path": "The repository has a small agent API adapter point; connect it to a local model."
+      },
+      "quality_notes": "Excellent scientific-discovery task, but simulations are abstractions and do not establish transfer to real scientific research.",
+      "latest_frontier_score": null,
+      "modern_unsaturation": "Unknown. Founding-paper baselines are from 2024; no current frontier rerun found."
+    },
+    {
+      "rank": 6,
+      "name": "AbductionRules",
+      "areas": [
+        "formal logic",
+        "abductive reasoning",
+        "scientific hypothesis generation"
+      ],
+      "repo_url": "https://github.com/Strong-AI-Lab/AbductionRules",
+      "paper_url": "https://arxiv.org/abs/2203.12186",
+      "results_url": "https://github.com/Strong-AI-Lab/AbductionRules/tree/main/results",
+      "repository_activity": {
+        "last_substantive_commit": "2022-03-16, final paper release",
+        "last_results_file_update": "2022-03-14",
+        "last_leaderboard_or_results_update": "Static result files and final paper; no later leaderboard found."
+      },
+      "published_top_scores": [
+        {
+          "model": "Fine-tuned Transformer, in-domain",
+          "result": "100% exact match on several matched train/test dataset conditions",
+          "metric": "Exact explanation-string accuracy",
+          "source_url": "https://arxiv.org/abs/2203.12186"
+        },
+        {
+          "model": "Fine-tuned Transformer, cross-domain",
+          "result": "0% exact match in some unseen domains; paper reports much higher useful-answer rates under relaxed error handling",
+          "metric": "Exact string accuracy, with separate relaxed-error analyses",
+          "source_url": "https://arxiv.org/abs/2203.12186"
+        }
+      ],
+      "license": {
+        "code": "MIT",
+        "data": "Dataset files are included with the repository; no distinct data terms found."
+      },
+      "data_access": "Public generated train/dev/test sets across animal/person domains and simple/confounded rules.",
+      "evaluator": {
+        "metric": "Exact natural-language explanation match; paper also reports human-inspected lossless and lossy error relaxations.",
+        "deterministic": "Exact-string metric is deterministic; relaxed human error adjudication is not fully automated."
+      },
+      "setup_and_five_hour_fit": {
+        "estimate": "A 100-item-per-condition local-model pilot is plausible within five hours; the bundled model and Transformers path can be used for historical baselines.",
+        "estimate_is_verified": false,
+        "local_no_api_path": "The repository contains a model artifact and dataset; no paid API is required."
+      },
+      "quality_notes": "Output-format sensitivity is substantial. Report exact and relaxed scores separately; do not use exact match alone as a claim about reasoning.",
+      "latest_frontier_score": null,
+      "modern_unsaturation": "Unknown. Old results are fine-tuned Transformer results, not a modern LLM evaluation."
+    },
+    {
+      "rank": 7,
+      "name": "CLUTRR",
+      "areas": [
+        "language",
+        "inductive reasoning",
+        "systematic generalization"
+      ],
+      "repo_url": "https://github.com/facebookresearch/clutrr",
+      "paper_url": "https://arxiv.org/abs/1908.06177",
+      "related_results_paper_url": "https://arxiv.org/abs/2201.01787",
+      "repository_activity": {
+        "last_substantive_commit": "2021-08-04",
+        "last_leaderboard_or_results_update": "No official LLM leaderboard found. The original benchmark paper is 2019; a 2022 follow-up reports model accuracy."
+      },
+      "published_top_scores": [
+        {
+          "model": "Entity-abstraction-aware model",
+          "result": "88.8% accuracy on CLUTRR versus 62.9% for its baseline",
+          "metric": "Accuracy in the 2022 entity-abstraction study",
+          "source_url": "https://arxiv.org/abs/2201.01787",
+          "note": "Not an LLM leaderboard result."
+        }
+      ],
+      "license": {
+        "code_and_data": "CC-BY-NC 4.0 is stated in the README; GitHub's license detector reports NOASSERTION."
+      },
+      "data_access": "Public generator and pre-generated data links; test tasks can hold out relation combinations and noisy facts.",
+      "evaluator": {
+        "metric": "Exact kinship-relation class accuracy.",
+        "deterministic": "Yes for fixed data and normalization."
+      },
+      "setup_and_five_hour_fit": {
+        "estimate": "Generate or select 200 to 500 held-out examples and score them locally within five hours.",
+        "estimate_is_verified": false,
+        "local_no_api_path": "Use a local model and normalize the answer to the relation label."
+      },
+      "quality_notes": "Useful systematic-generalization task, but generated kinship patterns may be template-learnable. License is non-commercial.",
+      "latest_frontier_score": null,
+      "modern_unsaturation": "Unknown; recent papers still use CLUTRR, but no current official model score was found."
+    },
+    {
+      "rank": 8,
+      "name": "EntailmentBank",
+      "areas": [
+        "scientific reasoning",
+        "deduction",
+        "proof construction"
+      ],
+      "repo_url": "https://github.com/allenai/entailment_bank",
+      "paper_url": "https://aclanthology.org/2021.emnlp-main.585/",
+      "repository_activity": {
+        "last_substantive_commit": "2022-11-05, custom Task 3 scoring support",
+        "last_leaderboard_or_results_update": "No leaderboard in the repository; published baseline results are from the 2021 paper."
+      },
+      "published_top_scores": [
+        {
+          "model": "EntailmentWriter baseline",
+          "result": "AllCorrect: 35.6% Task 1, 25.6% Task 2, 2.9% Task 3",
+          "metric": "Exact whole-proof correctness; paper also reports leaf/step/intermediate F1 and BLEURT",
+          "source_url": "https://aclanthology.org/2021.emnlp-main.585/"
+        }
+      ],
+      "license": {
+        "code": "Apache-2.0",
+        "data": "Public data is linked from AllenAI; a separate data license was not stated in the repository README."
+      },
+      "data_access": "Public science questions and proof-tree dataset linked from the repository.",
+      "evaluator": {
+        "metric": "Proof-tree overlap, all-correct score, and BLEURT; Task 3 has a separate JSONL scorer.",
+        "deterministic": "Mostly fixed for a pinned BLEURT checkpoint and scorer version; learned BLEURT scoring means it is not a pure symbolic exact-match evaluator."
+      },
+      "setup_and_five_hour_fit": {
+        "estimate": "A small Task 1 pilot may fit, but a fresh Python 3.7 environment plus BLEURT checkpoint download is borderline for five hours.",
+        "estimate_is_verified": false,
+        "local_no_api_path": "Scoring needs no model API. Generate predictions with a local model."
+      },
+      "quality_notes": "Best fit if proof quality matters. Legacy Python and learned BLEURT scorer add setup."
+    },
+    {
+      "rank": 9,
+      "name": "SpaRTQA",
+      "areas": [
+        "spatial reasoning",
+        "language understanding"
+      ],
+      "repo_url": "https://github.com/HLR/SpartQA-baselines",
+      "paper_url": "https://aclanthology.org/2021.naacl-main.364/",
+      "repository_activity": {
+        "last_substantive_code_commit": "2021-05-06",
+        "last_readme_update": "2023-03-27",
+        "last_leaderboard_or_results_update": "No maintained official leaderboard found; papers include 2021 baselines and later task-specific studies."
+      },
+      "published_top_scores": [
+        {
+          "model": null,
+          "result": null,
+          "metric": "Task-specific Yes/No accuracy and relation-finding precision/recall/F1",
+          "source_url": "https://github.com/HLR/SpartQA-baselines",
+          "note": "A clean, directly comparable top LLM score for the original SpaRTQA splits was not established. Do not substitute ReSQ results."
+        }
+      ],
+      "license": {
+        "code": "MIT",
+        "data": "The repo links a Google Drive data download; data license was not stated in the README."
+      },
+      "data_access": "Dataset download is public via a Drive link; baseline code requires an older Torch/Transformers stack.",
+      "evaluator": {
+        "metric": "Exact answer accuracy for Yes/No and choose-object questions; precision/recall/F1 for relation-finding.",
+        "deterministic": "Yes for the fixed labels and metric scripts."
+      },
+      "setup_and_five_hour_fit": {
+        "estimate": "A 100 to 200 item local-model slice is plausible within five hours if the Drive download works; old Transformers 4.0.1 may need a separate environment.",
+        "estimate_is_verified": false,
+        "local_no_api_path": "Use local inference; repository baseline scripts do not require paid LLM calls."
+      },
+      "quality_notes": "Different variants and subtask metrics are easy to conflate. Check the exact split before comparing."
+    },
+    {
+      "rank": 10,
+      "name": "FOLIO",
+      "areas": [
+        "formal logic",
+        "natural-language deduction"
+      ],
+      "repo_url": "https://github.com/Yale-LILY/FOLIO",
+      "paper_url": "https://arxiv.org/abs/2209.00840",
+      "repository_activity": {
+        "last_substantive_commit": "2023-12-22, data/repository update",
+        "last_leaderboard_or_results_update": "No official leaderboard found. Paper scores are from 2022; README still says the test leaderboard/test set will be released."
+      },
+      "published_top_scores": [
+        {
+          "model": "RoBERTa-large fine-tuned",
+          "result": "62.11% accuracy",
+          "metric": "Natural-language first-order logic reasoning accuracy",
+          "source_url": "https://arxiv.org/abs/2209.00840"
+        },
+        {
+          "model": "Codex code-davinci-002, 8-shot",
+          "result": "56.04% accuracy; GPT-3 text-davinci-002 scored 52.24%",
+          "metric": "Accuracy",
+          "source_url": "https://arxiv.org/abs/2209.00840"
+        }
+      ],
+      "license": {
+        "code_and_data": "CC-BY-SA-4.0 in GitHub metadata."
+      },
+      "data_access": "GitHub contains labeled train and validation files. The README describes the paper test split as unreleased; check the linked newer dataset before treating the task as held-out.",
+      "evaluator": {
+        "metric": "Exact True/False/Unknown accuracy; NL-to-FOL translation has separate structural metrics.",
+        "deterministic": "Yes for label accuracy; translation metric depends on formula normalization."
+      },
+      "setup_and_five_hour_fit": {
+        "estimate": "A 100 to 200 labeled development-set slice can be scored within five hours; there is no official current held-out leaderboard path established from GitHub.",
+        "estimate_is_verified": false,
+        "local_no_api_path": "Use local inference and a three-label parser."
+      },
+      "quality_notes": "High-quality expert logic with verified annotations, but hidden-test availability and contamination make it a weak primary pick."
+    }
+  ],
+  "decision_rules": [
+    "Treat historical numbers as dated references only, not as proof that current models remain weak.",
+    "Prefer fixed, versioned splits and exact or executable scoring; report any LLM-judged metric separately.",
+    "Use local model inference only. No paid API, probes, grading calls, or tests were run for this research."
+  ]
+}

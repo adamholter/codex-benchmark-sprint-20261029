@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "bbeh",
+  "id": "mini:nycc:0385",
+  "category": "nycc",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292519.419589,
+  "turn": {
+    "id": "01a18890-4912-7690-94cf-c67fbbba859d",
+    "rootTurnId": "01a18890-4912-7690-94cf-c67fbbba859d",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0217b7fa9c864f4a016ae378ed899081959cb25c55c5bfcfbd",
+        "text": "(C) \u201cSorry about the water landing\u2014old habit.\u201d",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292519,
+    "completedAt": 1793292525,
+    "durationMs": 6159
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(c) \u201csorry about the water landing\u2014old habit.\u201d"
+  },
+  "seconds": 6.4506895840168,
+  "usage": {
+    "total": {
+      "totalTokens": 3981,
+      "inputTokens": 3913,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 68,
+      "reasoningOutputTokens": 50
+    },
+    "last": {
+      "totalTokens": 3981,
+      "inputTokens": 3913,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 68,
+      "reasoningOutputTokens": 50
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292525.87012
+}

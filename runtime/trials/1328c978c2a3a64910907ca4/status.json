@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "bbeh",
+  "id": "mini:shuffled_objects:0367",
+  "category": "shuffled_objects",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289631.687865,
+  "turn": {
+    "id": "01a18864-38d6-74e3-9f61-5e3e93ebd95a",
+    "rootTurnId": "01a18864-38d6-74e3-9f61-5e3e93ebd95a",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_002a112ec2874764016ae36da9e4308196b71a79bb5bde2fea",
+        "text": "**(G) The Fellowship of the Ring**\n\nThe discussions and periods of inactivity don\u2019t change who holds a book. After cancelling the swaps that undo one another, the effective swaps, in order, are:\n\n1. Bob\u2013Gertrude\n2. Eve\u2013Dave\n3. Alice\u2013Gertrude\n4. Eve\u2013Alice\n5. Fred\u2013Eve\n6. Alice\u2013Bob\n7. Claire\u2013Alice\n\nAfter the first swap, Bob has *The Fellowship of the Ring*. None of the intervening effective swaps involves Bob, so he passes it to Alice in the sixth swap. Alice then passes it to Claire in the final swap.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289631,
+    "completedAt": 1793289643,
+    "durationMs": 11640
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(g) the fellowship of the ring"
+  },
+  "seconds": 11.933307541068643,
+  "usage": {
+    "total": {
+      "totalTokens": 7604,
+      "inputTokens": 6971,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 633,
+      "reasoningOutputTokens": 492
+    },
+    "last": {
+      "totalTokens": 7604,
+      "inputTokens": 6971,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 633,
+      "reasoningOutputTokens": 492
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793289643.6206322
+}

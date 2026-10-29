@@ -1,0 +1,5 @@
+{
+  "question1": "No valid solution. The two F cells at (4,2) and (4,3) must form a domino, but every adjacent pair of E cells includes a cell that touches it.",
+  "question2": "[[((3,5),(8,10))]]",
+  "question3": "No valid solution. The two D cells at (2,4) and (2,5) must form a domino, leaving no adjacent pair of C cells that can be covered without touching it."
+}

@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "fantom",
+  "id": "32-1-1-2126",
+  "category": "tom:belief:inaccessible:multiple-choice",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793287514.506578,
+  "turn": {
+    "id": "01a18843-ea6d-7222-9f0d-eabbedcdc490",
+    "rootTurnId": "01a18843-ea6d-7222-9f0d-eabbedcdc490",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0424658bf33d4037016ae3655c5a4c8195b49b82ca1fd293a4",
+        "text": "(b) Xavier is unaware of the challenges mentioned with regard to marriage counseling because he was not involved in the conversation when this was discussed.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793287514,
+    "completedAt": 1793287516,
+    "durationMs": 1913
+  },
+  "score": {
+    "correct": true,
+    "extracted": "(b) Xavier is unaware of the challenges mentioned with regard to marriage counseling because he was not involved in the conversation when this was discussed.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 2.161608750000596,
+  "usage": {
+    "total": {
+      "totalTokens": 5151,
+      "inputTokens": 5120,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 31,
+      "reasoningOutputTokens": 0
+    },
+    "last": {
+      "totalTokens": 5151,
+      "inputTokens": 5120,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 31,
+      "reasoningOutputTokens": 0
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793287516.667862
+}

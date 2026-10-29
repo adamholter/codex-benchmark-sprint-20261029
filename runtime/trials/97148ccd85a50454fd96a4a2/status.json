@@ -1,0 +1,85 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly_no_context",
+  "id": "127:Q 4.2:no_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793291910.215313,
+  "turn": {
+    "id": "01a18886-fdc5-7b80-babb-b8ee63f2e0de",
+    "rootTurnId": "01a18886-fdc5-7b80-babb-b8ee63f2e0de",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0de6cb80ad134333016ae3769338f08193b71b8cb2236a8d3a",
+        "text": "{\n  \"a.\": \"Cannot be determined: the supplied sheet lacks vocabulary and translated examples.\",\n  \"b.\": \"Cannot be determined from the supplied information.\",\n  \"c.\": \"Cannot be determined from the supplied information.\",\n  \"d.\": \"Cannot be determined from the supplied information.\",\n  \"e.\": \"Cannot be determined from the supplied information.\",\n  \"f.\": \"Cannot be determined from the supplied information.\",\n  \"g.\": \"Cannot be determined from the supplied information.\",\n  \"h.\": \"Cannot be determined from the supplied information.\",\n  \"i.\": \"Cannot be determined from the supplied information.\",\n  \"j.\": \"Cannot be determined from the supplied information.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793291910,
+    "completedAt": 1793291924,
+    "durationMs": 14308
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "a.": "Cannot be determined: the supplied sheet lacks vocabulary and translated examples.",
+      "b.": "Cannot be determined from the supplied information.",
+      "c.": "Cannot be determined from the supplied information.",
+      "d.": "Cannot be determined from the supplied information.",
+      "e.": "Cannot be determined from the supplied information.",
+      "f.": "Cannot be determined from the supplied information.",
+      "g.": "Cannot be determined from the supplied information.",
+      "h.": "Cannot be determined from the supplied information.",
+      "i.": "Cannot be determined from the supplied information.",
+      "j.": "Cannot be determined from the supplied information."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 10,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 0.0,
+      "b.": 0.0,
+      "c.": 0.0,
+      "d.": 0.0,
+      "e.": 0.0,
+      "f.": 0.0,
+      "g.": 0.0,
+      "h.": 0.0,
+      "i.": 0.0,
+      "j.": 0.0
+    }
+  },
+  "seconds": 14.995576416957192,
+  "usage": {
+    "total": {
+      "totalTokens": 4686,
+      "inputTokens": 4296,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 390,
+      "reasoningOutputTokens": 237
+    },
+    "last": {
+      "totalTokens": 4686,
+      "inputTokens": 4296,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 390,
+      "reasoningOutputTokens": 237
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793291925.210293
+}

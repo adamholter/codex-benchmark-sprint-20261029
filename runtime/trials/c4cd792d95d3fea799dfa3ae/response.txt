@@ -1,0 +1,1 @@
+{"21.":"boar","22.":"red chicken","23.":"buffalo cow","24.":"buffalo meat"}

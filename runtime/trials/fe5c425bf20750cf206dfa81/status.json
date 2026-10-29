@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "bbeh",
+  "id": "mini:geometric_shapes:0142",
+  "category": "geometric_shapes",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793295151.330689,
+  "turn": {
+    "id": "01a188b8-7c4f-74f3-ae68-6bfa9086e553",
+    "rootTurnId": "01a188b8-7c4f-74f3-ae68-6bfa9086e553",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_002079987ae130d1016ae3835a816c8197ac522e3fb1d71b96",
+        "text": "**(N) 1, 8 and 3.** The lines show a non-square rectangle, an irregular concave pentagon, and an equilateral triangle (so a triangle that is not right).",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793295154,
+    "completedAt": 1793295195,
+    "durationMs": 40993
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(n) 1,8 and 3. the lines show a non-square rectangle,an irregular concave pentagon,and an equilateral triangle (so a triangle that is not right)"
+  },
+  "seconds": 44.6245419170009,
+  "usage": {
+    "total": {
+      "totalTokens": 7388,
+      "inputTokens": 4355,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 3033,
+      "reasoningOutputTokens": 2984
+    },
+    "last": {
+      "totalTokens": 7388,
+      "inputTokens": 4355,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 3033,
+      "reasoningOutputTokens": 2984
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793295195.944109
+}

@@ -1,0 +1,69 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly",
+  "id": "206:Q 1.4:full_context",
+  "category": "Text",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288003.290011,
+  "turn": {
+    "id": "01a1884b-5fc9-7c80-a0f8-0bd212daa6d6",
+    "rootTurnId": "01a1884b-5fc9-7c80-a0f8-0bd212daa6d6",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_051f46497ac12813016ae36746187081939d8266613cab6cf9",
+        "text": "{\"j.\": \"hlaf\", \"k.\": \"gyltas\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288003,
+    "completedAt": 1793288006,
+    "durationMs": 2799
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "j.": "hlaf",
+      "k.": "gyltas"
+    },
+    "score": 1.0,
+    "parts_correct": 2,
+    "parts_total": 2,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "j.": 1.0,
+      "k.": 1.0
+    }
+  },
+  "seconds": 3.090229000081308,
+  "usage": {
+    "total": {
+      "totalTokens": 4546,
+      "inputTokens": 4525,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 21,
+      "reasoningOutputTokens": 0
+    },
+    "last": {
+      "totalTokens": 4546,
+      "inputTokens": 4525,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 21,
+      "reasoningOutputTokens": 0
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793288006.3759649
+}

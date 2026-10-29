@@ -1,0 +1,1 @@
+**(B)** is true. Its first comparison is \(1-(-10)=11\le4\), which is false; negating it gives true. So `not (...) or False` is true, and the other `and` factor is true because it begins with `True or ...`. Thus the expression’s first disjunct is true, making all of (B) true.

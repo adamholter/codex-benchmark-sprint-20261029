@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "fantom",
+  "id": "55-0-1-2975",
+  "category": "tom:belief:inaccessible:multiple-choice",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290945.299712,
+  "turn": {
+    "id": "01a18878-4511-7391-b58b-2b46f9d0b3a6",
+    "rootTurnId": "01a18878-4511-7391-b58b-2b46f9d0b3a6",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0967c05cc45a391e016ae372c3797881949caa898ab6bb1251",
+        "text": "(b) Brianna is unaware of Trey's responsibilities because she joined the conversation after they were discussed.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290945,
+    "completedAt": 1793290947,
+    "durationMs": 1939
+  },
+  "score": {
+    "correct": true,
+    "extracted": "(b) Brianna is unaware of Trey's responsibilities because she joined the conversation after they were discussed.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 2.6015177499502897,
+  "usage": {
+    "total": {
+      "totalTokens": 4358,
+      "inputTokens": 4334,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 24,
+      "reasoningOutputTokens": 0
+    },
+    "last": {
+      "totalTokens": 4358,
+      "inputTokens": 4334,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 24,
+      "reasoningOutputTokens": 0
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793290947.900678
+}

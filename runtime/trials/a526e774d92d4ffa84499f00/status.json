@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "bbeh",
+  "id": "mini:time_arithmetic:0330",
+  "category": "time_arithmetic",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290189.858452,
+  "turn": {
+    "id": "01a1886c-bddc-79e1-a258-9e591c04b111",
+    "rootTurnId": "01a1886c-bddc-79e1-a258-9e591c04b111",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0f7fba2da81d320e016ae36fd1da908194abef296ce9c81421",
+        "text": "X = 2254, so X\u2032 = 10.  \nY = 9, so Y\u2032 = 31.\n\nBenjamin\u2019s first paycheck was on 03-31-2006. Counting forward every 10 days, his next paycheck after 05-28-2006 is **05-30-2006**.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290190,
+    "completedAt": 1793290194,
+    "durationMs": 4119
+  },
+  "score": {
+    "correct": false,
+    "extracted": "x = 2254,so x\u2032 = 10.  "
+  },
+  "seconds": 4.621145375072956,
+  "usage": {
+    "total": {
+      "totalTokens": 4164,
+      "inputTokens": 3971,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 193,
+      "reasoningOutputTokens": 119
+    },
+    "last": {
+      "totalTokens": 4164,
+      "inputTokens": 3971,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 193,
+      "reasoningOutputTokens": 119
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793290194.479245
+}

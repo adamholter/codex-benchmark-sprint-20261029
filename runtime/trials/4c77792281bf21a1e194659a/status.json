@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "bbeh",
+  "id": "mini:movie_recommendation:0158",
+  "category": "movie_recommendation",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793285781.386208,
+  "turn": {
+    "id": "01a18829-7877-7f30-9c8a-53505cd422d5",
+    "rootTurnId": "01a18829-7877-7f30-9c8a-53505cd422d5",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_045350a4c279667d016ae35ea275ec819490f8dc4de7cfffe3",
+        "text": "(G) The Mask, Unicorn City, Batman, Zoom, and Bright are the most similar group, with overlapping fantasy, superhero, and comic-book appeal.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793285781,
+    "completedAt": 1793285794,
+    "durationMs": 13186
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(g) the mask,unicorn city,batman,zoom,and bright are the most similar group,with overlapping fantasy,superhero,and comic-book appeal"
+  },
+  "seconds": 13.43818537495099,
+  "usage": {
+    "total": {
+      "totalTokens": 4902,
+      "inputTokens": 3906,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 996,
+      "reasoningOutputTokens": 959
+    },
+    "last": {
+      "totalTokens": 4902,
+      "inputTokens": 3906,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 996,
+      "reasoningOutputTokens": 959
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793285794.824382
+}

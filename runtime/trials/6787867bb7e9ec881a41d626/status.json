@@ -1,0 +1,71 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly_no_context",
+  "id": "136:Q 4.:no_context",
+  "category": "Monolingual",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289341.869619,
+  "turn": {
+    "id": "01a1885f-ce84-7090-9d34-f4e26d281b96",
+    "rootTurnId": "01a1885f-ce84-7090-9d34-f4e26d281b96",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_06297bae54f0eeae016ae36c8768d48194ac826c6fa431475b",
+        "text": "{\n  \"14)\": \"dambumirri ga marrma rulu ga lurrkun\",\n  \"15)\": \"lurrkun dambumirri ga marrma rulu\",\n  \"16)\": \"dambumiriw dambumirri ga wanggang rulu ga wanggang\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289342,
+    "completedAt": 1793289352,
+    "durationMs": 9398
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "14)": "dambumirri ga marrma rulu ga lurrkun",
+      "15)": "lurrkun dambumirri ga marrma rulu",
+      "16)": "dambumiriw dambumirri ga wanggang rulu ga wanggang"
+    },
+    "score": 1.0,
+    "parts_correct": 3,
+    "parts_total": 3,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "14)": 1.0,
+      "15)": 1.0,
+      "16)": 1.0
+    }
+  },
+  "seconds": 10.279567459016107,
+  "usage": {
+    "total": {
+      "totalTokens": 4840,
+      "inputTokens": 4217,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 623,
+      "reasoningOutputTokens": 554
+    },
+    "last": {
+      "totalTokens": 4840,
+      "inputTokens": 4217,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 623,
+      "reasoningOutputTokens": 554
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793289352.148621
+}

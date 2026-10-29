@@ -1,0 +1,103 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly_no_context",
+  "id": "185:Q 10.1:no_context",
+  "category": "Match-up / Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793285064.4197419,
+  "turn": {
+    "id": "01a1881e-8903-7180-9f2b-bc15f7d27141",
+    "rootTurnId": "01a1881e-8903-7180-9f2b-bc15f7d27141",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_05261de0acc0d7a1016ae35bdf6758819384f27baea7788ab3",
+        "text": "{\n  \"(a)\": \"Cannot determine: numbered English translations are missing.\",\n  \"(b)\": \"Cannot determine: numbered English translations are missing.\",\n  \"(c)\": \"Cannot determine: numbered English translations are missing.\",\n  \"(d)\": \"Cannot determine: numbered English translations are missing.\",\n  \"(e)\": \"Cannot determine: numbered English translations are missing.\",\n  \"(f)\": \"Cannot determine: numbered English translations are missing.\",\n  \"(g)\": \"Cannot determine: numbered English translations are missing.\",\n  \"(h)\": \"Cannot determine: numbered English translations are missing.\",\n  \"(i)\": \"Cannot determine: numbered English translations are missing.\",\n  \"(j)\": \"Cannot determine: numbered English translations are missing.\",\n  \"(l)\": \"Cannot determine: numbered English translations are missing.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793285064,
+    "completedAt": 1793285090,
+    "durationMs": 25110
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "Cannot determine: numbered English translations are missing.",
+      "(b)": "Cannot determine: numbered English translations are missing.",
+      "(c)": "Cannot determine: numbered English translations are missing.",
+      "(d)": "Cannot determine: numbered English translations are missing.",
+      "(e)": "Cannot determine: numbered English translations are missing.",
+      "(f)": "Cannot determine: numbered English translations are missing.",
+      "(g)": "Cannot determine: numbered English translations are missing.",
+      "(h)": "Cannot determine: numbered English translations are missing.",
+      "(i)": "Cannot determine: numbered English translations are missing.",
+      "(j)": "Cannot determine: numbered English translations are missing.",
+      "(l)": "Cannot determine: numbered English translations are missing."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 11,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 0.0,
+      "(b)": 0.0,
+      "(c)": 0.0,
+      "(d)": 0.0,
+      "(e)": 0.0,
+      "(f)": 0.0,
+      "(g)": 0.0,
+      "(h)": 0.0,
+      "(i)": 0.0,
+      "(j)": 0.0,
+      "(l)": 0.0
+    }
+  },
+  "seconds": 25.68232295801863,
+  "usage": {
+    "total": {
+      "totalTokens": 4650,
+      "inputTokens": 4366,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 284,
+      "reasoningOutputTokens": 122
+    },
+    "last": {
+      "totalTokens": 4650,
+      "inputTokens": 4366,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 284,
+      "reasoningOutputTokens": 122
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 4f90ef7e-59a2-4195-a742-27af0de99326",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a1881e-88cd-7620-81dd-46ae3a7d5483",
+      "turnId": "01a1881e-8903-7180-9f2b-bc15f7d27141"
+    }
+  ],
+  "finished_at": 1793285090.101737
+}

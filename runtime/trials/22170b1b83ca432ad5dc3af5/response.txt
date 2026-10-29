@@ -1,0 +1,23 @@
+{
+  "1.": "Why is he/she in England?",
+  "2.": "To whom did he/she sell it?",
+  "3.": "Whom did he/she kill?",
+  "4.": "Why did you sell it to him/her?",
+  "5.": "When did he/she arrive in England?",
+  "6.": "Who is ready?",
+  "7.": "When did you learn Albanian?",
+  "8.": "How much did he/she cut?",
+  "9.": "Where is his father?",
+  "10.": "What did he/she buy?",
+  "11.": "Who is in England?",
+  "12.": "How did you dance?",
+  "13.": "What is this?",
+  "14.": "Where did the cat go?",
+  "15.": "Whom did he/she wash?",
+  "16.": "Did you kill anyone?",
+  "17.": "What did you drink?",
+  "18.": "When did he/she sell it to him/her?",
+  "19.": "Who is this?",
+  "20.": "Did you drink anything?",
+  "21.": "Why did you learn Albanian?"
+}

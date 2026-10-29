@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "bbeh",
+  "id": "mini:nycc:0015",
+  "category": "nycc",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289018.45018,
+  "turn": {
+    "id": "01a1885a-dd7f-7cc0-a8c3-ba1d5e7f627d",
+    "rootTurnId": "01a1885a-dd7f-7cc0-a8c3-ba1d5e7f627d",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_07b9d75494572f18016ae36b3f20988196951991565979f113",
+        "text": "(D) \u2014 the genie\u2019s legalistic disclaimer about the lamp\u2019s \u201cnonconsensual\u201d rub is the funniest.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289018,
+    "completedAt": 1793289023,
+    "durationMs": 4685
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(d) \u2014 the genie\u2019s legalistic disclaimer about the lamp\u2019s \u201cnonconsensual\u201d rub is the funniest"
+  },
+  "seconds": 5.000146083999425,
+  "usage": {
+    "total": {
+      "totalTokens": 4184,
+      "inputTokens": 3932,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 252,
+      "reasoningOutputTokens": 222
+    },
+    "last": {
+      "totalTokens": 4184,
+      "inputTokens": 3932,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 252,
+      "reasoningOutputTokens": 222
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793289023.450037
+}

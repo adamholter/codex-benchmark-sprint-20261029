@@ -1,0 +1,22 @@
+Judah: Hey Eddie, it's a pleasure to meet you.
+Eddie: Same here, Judah. So what types of beauty products are you into?
+Judah: Oh, I'm more of a skincare person than makeup. I love natural ingredients and lately, I've been into this brand, Youth To The People. Heard of them?
+Eddie: Yes, I've heard of that! A friend recommended their superfood face wash. I haven't tried it yet, but I've heard good things.
+Judah: Yeah, it's great! The kale and spinach really energize my skin. How about you Eddie, any favorite beauty brands?
+Eddie: Well, I like Kiehl's for skincare. Especially their facial fuel energizing face wash. It works wonders on my skin after a tiring day.
+Judah: Interesting, I've never tried Kiehl's, but I've always been curious. I'll give it a go next time I need a new face wash.
+Eddie: You should, I highly recommend it. Also, their ultra facial cream is a must-have. Especially now that winter is approaching.
+Judah: Sounds like a solid recommendation! I've been looking for a good moisturizer for the colder months.
+Holly: Hi guys, sorry for being AWOL. I couldn't help noticing the array of skincare products on the table.
+Judah: Oh, hey Holly! We were just discussing our favourite products. I was responding how I love Youth To The People, and Eddie here loves Kiehl's.
+Holly: Oh cool! I'm a fan of both actually. Kiehl's creamy eye treatment with avocado is a staple in my routine, as well as Youth To The People's superberry hydrate and glow dream mask. They're just too good!
+Eddie: I totally agree with you on Kiehl's creamy eye treatment, Holly! It does wonders for tired eyes.
+Judah: And the superberry mask sounds amazing. Haven't tried any of their masks yet, but I guess that's about to change.
+Eddie: While we are on the subject, do any of you have any advice for a good hair care routine?
+Holly: Well, I love the OGX Kukui oil shampoo and conditioner. They're really good for hydration, especially with winter coming up. And I've been using this Living Proof hair mask once a week. It's done wonders for my hair.
+Judah: That's a great routine, Holly. I personally just try to keep it simple with a moisturizing shampoo and conditioner, then a leave-in conditioner. But the hair mask is something I'll look into.
+Eddie: Thanks, I'll definitely check those out. I struggle with dry hair in the colder months, so this sounds perfect.
+
+Target: Can you name the Kiehl's skincare products Eddie recommends and identify his winter skincare staple?
+Question: Does Eddie know the precise correct answer to this question? Answer yes or no.
+Answer:

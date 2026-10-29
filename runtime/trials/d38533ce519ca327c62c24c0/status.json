@@ -1,0 +1,119 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly_no_context",
+  "id": "174:Q 4.1:no_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289711.84638,
+  "turn": {
+    "id": "01a18865-7214-7872-b449-6eb0d99a3369",
+    "rootTurnId": "01a18865-7214-7872-b449-6eb0d99a3369",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_09b6a8dca9a16419016ae36e09be508190a8df6fdb291aee31",
+        "text": "{\n  \"A\": \"Cannot determine: translations 1\u201319 are missing.\",\n  \"B\": \"Cannot determine: translations 1\u201319 are missing.\",\n  \" C \\t \": \"Cannot determine: translations 1\u201319 are missing.\",\n  \"D\": \"Cannot determine: translations 1\u201319 are missing.\",\n  \"E\": \"Cannot determine: translations 1\u201319 are missing.\",\n  \"F\": \"Cannot determine: translations 1\u201319 are missing.\",\n  \"G\": \"Cannot determine: translations 1\u201319 are missing.\",\n  \"H\": \"Cannot determine: translations 1\u201319 are missing.\",\n  \"I\": \"Cannot determine: translations 1\u201319 are missing.\",\n  \"J\": \"Cannot determine: translations 1\u201319 are missing.\",\n  \"K\": \"Cannot determine: translations 1\u201319 are missing.\",\n  \"L\": \"Cannot determine: translations 1\u201319 are missing.\",\n  \"M\": \"Cannot determine: translations 1\u201319 are missing.\",\n  \"N\": \"Cannot determine: translations 1\u201319 are missing.\",\n  \"O\": \"Cannot determine: translations 1\u201319 are missing.\",\n  \"P\": \"Cannot determine: translations 1\u201319 are missing.\",\n  \"Q\": \"Cannot determine: translations 1\u201319 are missing.\",\n  \"R\": \"Cannot determine: translations 1\u201319 are missing.\",\n  \"S\": \"Cannot determine: translations 1\u201319 are missing.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289712,
+    "completedAt": 1793289742,
+    "durationMs": 30723
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "A": "Cannot determine: translations 1\u201319 are missing.",
+      "B": "Cannot determine: translations 1\u201319 are missing.",
+      " C \t ": "Cannot determine: translations 1\u201319 are missing.",
+      "D": "Cannot determine: translations 1\u201319 are missing.",
+      "E": "Cannot determine: translations 1\u201319 are missing.",
+      "F": "Cannot determine: translations 1\u201319 are missing.",
+      "G": "Cannot determine: translations 1\u201319 are missing.",
+      "H": "Cannot determine: translations 1\u201319 are missing.",
+      "I": "Cannot determine: translations 1\u201319 are missing.",
+      "J": "Cannot determine: translations 1\u201319 are missing.",
+      "K": "Cannot determine: translations 1\u201319 are missing.",
+      "L": "Cannot determine: translations 1\u201319 are missing.",
+      "M": "Cannot determine: translations 1\u201319 are missing.",
+      "N": "Cannot determine: translations 1\u201319 are missing.",
+      "O": "Cannot determine: translations 1\u201319 are missing.",
+      "P": "Cannot determine: translations 1\u201319 are missing.",
+      "Q": "Cannot determine: translations 1\u201319 are missing.",
+      "R": "Cannot determine: translations 1\u201319 are missing.",
+      "S": "Cannot determine: translations 1\u201319 are missing."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 19,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "A": 0.0,
+      "B": 0.0,
+      " C \t ": 0.0,
+      "D": 0.0,
+      "E": 0.0,
+      "F": 0.0,
+      "G": 0.0,
+      "H": 0.0,
+      "I": 0.0,
+      "J": 0.0,
+      "K": 0.0,
+      "L": 0.0,
+      "M": 0.0,
+      "N": 0.0,
+      "O": 0.0,
+      "P": 0.0,
+      "Q": 0.0,
+      "R": 0.0,
+      "S": 0.0
+    }
+  },
+  "seconds": 31.054719583014958,
+  "usage": {
+    "total": {
+      "totalTokens": 4760,
+      "inputTokens": 4311,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 449,
+      "reasoningOutputTokens": 135
+    },
+    "last": {
+      "totalTokens": 4760,
+      "inputTokens": 4311,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 449,
+      "reasoningOutputTokens": 135
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: c474472c-d749-4f8b-852a-572e7f9030b9",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a18865-71da-7010-a5cb-a1cf8c627449",
+      "turnId": "01a18865-7214-7872-b449-6eb0d99a3369"
+    }
+  ],
+  "finished_at": 1793289742.901031
+}

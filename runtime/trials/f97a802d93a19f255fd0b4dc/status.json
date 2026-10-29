@@ -1,0 +1,95 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly_no_context",
+  "id": "141:Q 3.2:no_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793293073.0898628,
+  "turn": {
+    "id": "01a18898-bbc4-77f2-be08-7970bd761ce2",
+    "rootTurnId": "01a18898-bbc4-77f2-be08-7970bd761ce2",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_07019a12193a9edf016ae37b1a044881939cde39e3e6db088b",
+        "text": "{\n  \"a.\": \"kalendarze\",\n  \"b.\": \"jarskie kapelusze\",\n  \"c.\": \"\u0142otrzy, \u0142otrowie\",\n  \"d.\": \"robotnicy\",\n  \"e.\": \"chorowici chirurdzy, chorowici chirurgowie\",\n  \"f.\": \"partnerzy, partnerowie\",\n  \"g.\": \"zwali\u015bci golfi\u015bci\",\n  \"h.\": \"zachodnioeuropejscy akordeoni\u015bci\",\n  \"i.\": \"chybcy piloci, chybcy pilotowie\",\n  \"j.\": \"czepki\",\n  \"k.\": \"grzejniki\",\n  \"l.\": \"rude groby\",\n  \"m.\": \"szympansy\",\n  \"n.\": \"panowie\",\n  \"o.\": \"zal\u0105\u017cki\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793293073,
+    "completedAt": 1793293083,
+    "durationMs": 10244
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "a.": "kalendarze",
+      "b.": "jarskie kapelusze",
+      "c.": "\u0142otrzy, \u0142otrowie",
+      "d.": "robotnicy",
+      "e.": "chorowici chirurdzy, chorowici chirurgowie",
+      "f.": "partnerzy, partnerowie",
+      "g.": "zwali\u015bci golfi\u015bci",
+      "h.": "zachodnioeuropejscy akordeoni\u015bci",
+      "i.": "chybcy piloci, chybcy pilotowie",
+      "j.": "czepki",
+      "k.": "grzejniki",
+      "l.": "rude groby",
+      "m.": "szympansy",
+      "n.": "panowie",
+      "o.": "zal\u0105\u017cki"
+    },
+    "score": 0.6666666666666666,
+    "parts_correct": 10,
+    "parts_total": 15,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 1.0,
+      "b.": 1.0,
+      "c.": 0.0,
+      "d.": 1.0,
+      "e.": 0.0,
+      "f.": 0.0,
+      "g.": 1.0,
+      "h.": 1.0,
+      "i.": 0.0,
+      "j.": 1.0,
+      "k.": 1.0,
+      "l.": 1.0,
+      "m.": 1.0,
+      "n.": 1.0,
+      "o.": 0.0
+    }
+  },
+  "seconds": 10.520353500032797,
+  "usage": {
+    "total": {
+      "totalTokens": 4833,
+      "inputTokens": 4288,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 545,
+      "reasoningOutputTokens": 344
+    },
+    "last": {
+      "totalTokens": 4833,
+      "inputTokens": 4288,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 545,
+      "reasoningOutputTokens": 344
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793293083.6097689
+}

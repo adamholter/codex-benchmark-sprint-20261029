@@ -1,0 +1,161 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+**Encryption Rules:**
+
+- Input:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Output:
+    - Ciphertext: Uppercase letters string.
+- Preparation:
+    - alphabet = 'ABCDEFGHIKLMNOPQRSTUVWXYZ'(The letter J is excluded)
+    - 8 Grids:
+        
+        Grid0:
+        
+        | P | H | I | L | S |
+        | A | B | C | D | E |
+        | F | G | K | M | N |
+        | O | Q | R | T | U |
+        | V | W | X | Y | Z |
+        
+        Grid1:
+        
+        | V | W | X | Y | Z |
+        | P | H | I | L | S |
+        | A | B | C | D | E |
+        | F | G | K | M | N |
+        | O | Q | R | T | U |
+        
+        Grid2:
+        
+        | O | Q | R | T | U |
+        | V | W | X | Y | Z |
+        | P | H | I | L | S |
+        | A | B | C | D | E |
+        | F | G | K | M | N |
+        
+        Grid3:
+        
+        | F | G | K | M | N |
+        | O | Q | R | T | U |
+        | V | W | X | Y | Z |
+        | P | H | I | L | S |
+        | A | B | C | D | E |
+        
+        Grid4:
+        
+        | A | B | C | D | E |
+        | F | G | K | M | N |
+        | O | Q | R | T | U |
+        | V | W | X | Y | Z |
+        | P | H | I | L | S |
+        
+        Grid5:
+        
+        | P | H | I | L | S |
+        | A | B | C | D | E |
+        | F | G | K | M | N |
+        | O | Q | R | T | U |
+        | V | W | X | Y | Z |
+        
+        Grid6:
+        
+        | V | W | X | Y | Z |
+        | P | H | I | L | S |
+        | A | B | C | D | E |
+        | F | G | K | M | N |
+        | O | Q | R | T | U |
+        
+        Grid7:
+        
+        | O | Q | R | T | U |
+        | V | W | X | Y | Z |
+        | P | H | I | L | S |
+        | A | B | C | D | E |
+        | F | G | K | M | N |
+        
+- Encryption Steps:
+    - The plaintext is grouped into blocks of 5 characters, numbered from 0.
+    - For blocks of 5 characters:
+        - To use the grid is determined by calculating grid_index = (i // 5) % 8, where i is the number. Integer division operator // divides the number on the left by the number on the right, rounding down the result. That is, it removes the fractional part and keeps only the integer part!This ensures that the grid is recycled.
+        - For each character in the current block:
+            - If the character is "J", it is not encrypted and is appended directly to the encrypted block.
+            - Otherwise, find the position of the character in the current grid. Then move one grid position to the lower right (row+1,col+1) (or continue on the opposite side of the corresponding boundary if it crosses the boundary), and get the letter at the position after the move as the encrypted letter.
+            - Add the encrypted letter to the encryption block.
+    - After processing all the blocks, connect the encrypted blocks to form the final encrypted message.
+
+ **Decryption Rules:**
+
+- Input:
+    - Ciphertext: Uppercase letters string.
+- Output:
+    - Plaintext: Uppercase letters string.
+- Preparation:
+    - alphabet = 'ABCDEFGHIKLMNOPQRSTUVWXYZ'(The letter J is excluded)
+    - 8 Grids (Same as encryption)
+- Decryption Steps (exact opposite of encryption steps):
+    - Divide the ciphertext into 5-character blocks:
+        - For example, if the cipher text is "KHOORTQHQTHHSAUQ", the 0th block is "KHOOR", the 1st block is "TQHQH", and so on. (Numbering starts at 0)
+    - Determine the grid used for the current block:
+    Calculate grid_index = (i // 5) % 8 to select the appropriate grid from the grid list. i is the block number.
+    - For each character in the block:
+        - If the character is "J": add "J" directly to the decrypted block without decryption.
+        - Otherwise find the position of the character in the grid and obtain it by moving one grid to the upper left (or continue on the opposite side of the corresponding boundary if it crosses the boundary). the letter at the position after the move is used as the decrypted letter.
+        - Append the decrypted letter to the decryption block.
+    - After processing all characters in the block, append the decrypted block to the decrypted message list. Form the final decrypted message.
+
+1. Propositional Symbolization Rules:
+    - Equivalence is represented by `::=::`
+    - Negation is represented by `!`
+    - Or is represented by `|`
+    - And is represented by `&`
+    - Implication is represented by `>`
+    - Equivalence is represented by `=`
+    - NAND is represented by `⇑`
+    - NOR is represented by `⇓`
+2. Basic Equivalences:
+    (1) A ::=:: !!A
+    (2) A ::=:: A | A, A ::=:: A & A
+    (3) A | B ::=:: B | A, A & B ::=:: B & A
+    (4) (A | B) | C ::=:: A | (B | C), (A & B) & C ::=:: A & (B & C)
+    (5) A | (B & C) ::=:: (A | B) & (A | C), A & (B | C) ::=:: (A & B) | (A & C)
+    (6) !(A | B) ::=:: !A & !B, !(A & B) ::=:: !A | !B
+    (7) A | (A & B) ::=:: A, A & (A | B) ::=:: A
+    (8) A | !A ::=:: 1
+    (9) A & !A ::=:: 0
+    (10) A > B ::=:: !A | B
+    (11) A = B ::=:: (A > B) & (B > A)
+    (12) A > B ::=:: !B > !A
+    (13) A = B ::=:: !A = !B
+    (14) (A > B) & (A > !B) ::=:: !A
+    (15) A ⇑ B ::=:: !A | !B
+    (16) A ⇓ B ::=:: !A & !B
+3. Equivalence Calculation Rules:
+    - The final expression should be completely represented using `|`, `&`, and `!`, without retaining `>` and `=`.
+4. Truth Value Judgment Steps:
+    - Define the practical problem to be judged as simple propositions and symbolize them.
+    - Use simple propositions to express the formula based on each person's description.
+    - Combine the information of who is true and who is false to write the final logical expression.
+    - Use the above equivalences to derive and judge the truth of the expression.
+
+
+### Questions:
+question1:
+Ciphertext: "L"
+
+Please provide the decrypted answer, encapsulated in double square brackets. For example, the format should be: [[decrypted answer]].
+
+
+### Answers:

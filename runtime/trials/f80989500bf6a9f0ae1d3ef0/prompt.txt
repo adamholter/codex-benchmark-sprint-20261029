@@ -1,0 +1,26 @@
+Breanna: So, Trey, could you tell me about your favorite volunteering experience?
+Trey: Yes, of course! My most memorable experience was when I volunteered at a local animal shelter. I'm a huge animal lover, so I was ecstatic about getting involved.
+Breanna: Oh, how exciting! Tell me more about it.
+Trey: Well, I was in charge of taking care of dogs that had been neglected. It was heartbreaking at times to see the state they were in, but ultimately rewarding to see them regain health and trust in humans.
+Breanna: That must have been an emotional ride. How long did you volunteer there?
+Trey: I volunteered for nearly two years. I still visit from time to time. What about you, Breanna? What's your most memorable volunteering experience?
+Breanna: Well, mine is quite different from yours. I volunteered for a sea turtle conservation project in Costa Rica.
+Trey: Oh wow. That sounds really interesting. How was that experience?
+Breanna: It was amazing! I learned so much about sea turtles and their importance to the ecosystem. The best part was releasing the newly-hatched turtles into the sea.
+Trey: Wow, that must've been a truly incredible experience. Does it require special training?
+Breanna: Yes, it did. We had to be trained on how to assist the turtles without causing them stress or harm.
+Trey: That sounds really rewarding. I'd love to volunteer for something like that.
+Breanna: You definitely should. It was one of the best decisions I ever made.
+Brianna: Hi guys, what's the topic of discussion?
+Breanna: We were just sharing our most memorable volunteering experiences. I was telling Trey about the sea turtle conservation project I was a part of in Costa Rica. What about you, Brianna? Any memorable volunteering experiences to share?
+Brianna: Absolutely, my favorite was when I volunteered as a teacher in rural India. It was such a transformative experience!
+Trey: Wow, both of you have such inspiring stories. Volunteering abroad is something I've always wanted to do. Brianna, what was it like teaching in India?
+Brianna: It was an eye-opener. Many villages lacked basic amenities and schools were few. However, despite the hurdles, the children were so eager to learn. It was a gratifying experience to say the least.
+Breanna: That sounds like a challenging yet unforgettable journey. You guys have given me some great ideas about future volunteering projects.
+Trey: I agree. Your experiences sound enriching and meaningful. I can't wait to have a similar experience abroad.
+
+Question: What does Brianna believe were Trey's responsibilities while volunteering at the animal shelter?
+(a) Brianna believes that Trey's responsibilities while volunteering at the animal shelter were taking care of neglected dogs, helping them regain health, and rebuilding their trust in humans.
+(b) Brianna is unaware of what Trey's responsibilities were while volunteering at the animal shelter because she was not involved in the conversation when this was discussed.
+
+Choose an answer from above:

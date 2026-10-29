@@ -1,0 +1,1 @@
+The puzzle does not specify a starting point, so the path and its numbered positions cannot be determined uniquely. If the start is the top-left cell, its arrow leads to the next cell, whose arrow leads straight back, forming a loop.

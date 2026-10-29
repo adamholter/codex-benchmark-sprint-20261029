@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "fantom",
+  "id": "189-0-0-9426",
+  "category": "tom:info_accessibility:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793287114.5556638,
+  "turn": {
+    "id": "01a1883d-d1b4-7ad0-9952-d8c1db581c1a",
+    "rootTurnId": "01a1883d-d1b4-7ad0-9952-d8c1db581c1a",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_08ee1482912ede61016ae363d2ad288196bb525f4c98ea4e6b",
+        "text": "Leslie and Josiah.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793287115,
+    "completedAt": 1793287123,
+    "durationMs": 7882
+  },
+  "score": {
+    "correct": true,
+    "extracted": "Leslie and Josiah.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 8.567176875076257,
+  "usage": {
+    "total": {
+      "totalTokens": 4736,
+      "inputTokens": 4649,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 87,
+      "reasoningOutputTokens": 75
+    },
+    "last": {
+      "totalTokens": 4736,
+      "inputTokens": 4649,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 87,
+      "reasoningOutputTokens": 75
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793287123.122401
+}

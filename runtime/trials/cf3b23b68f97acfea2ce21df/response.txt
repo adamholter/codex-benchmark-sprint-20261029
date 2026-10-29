@@ -1,0 +1,5 @@
+{
+  "question1": "[[1 + e]]",
+  "question2": "[[x^2 - \\sin(x)]]",
+  "question3": "[[e - 1]]"
+}

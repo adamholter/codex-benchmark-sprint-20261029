@@ -1,0 +1,6 @@
+{
+  "question1": "[[100%]]",
+  "question2": "[[4%]]",
+  "question3": "[[C(S, 90/100, 75/150): 90% and 50% are not similar, so the C-reasoning inference does not apply.]]",
+  "question4": "[[P(A, 40, 500) ⇒ Pr(A) ≈ 40/500 = 8%]]"
+}

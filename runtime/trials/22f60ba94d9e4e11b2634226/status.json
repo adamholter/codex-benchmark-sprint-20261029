@@ -1,0 +1,81 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly",
+  "id": "48:Q 8.1:full_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793291996.182527,
+  "turn": {
+    "id": "01a18888-4fcc-7502-838d-8e46ede90caa",
+    "rootTurnId": "01a18888-4fcc-7502-838d-8e46ede90caa",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0894e8fca847d058016ae376e4480c8197a4c97d8dca8a5334",
+        "text": "{\"a. \": \"kannetje\", \"b.\": \"karretje\", \"c.\": \"kwartje\", \"d.\": \"laatje\", \"e.\": \"moedertje\", \"f.\": \"riempje\", \"g.\": \"stilletjes\", \"h.\": \"tafeltje\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793291997,
+    "completedAt": 1793292005,
+    "durationMs": 8501
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "a. ": "kannetje",
+      "b.": "karretje",
+      "c.": "kwartje",
+      "d.": "laatje",
+      "e.": "moedertje",
+      "f.": "riempje",
+      "g.": "stilletjes",
+      "h.": "tafeltje"
+    },
+    "score": 0.875,
+    "parts_correct": 7,
+    "parts_total": 8,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a. ": 1.0,
+      "b.": 1.0,
+      "c.": 1.0,
+      "d.": 0.0,
+      "e.": 1.0,
+      "f.": 1.0,
+      "g.": 1.0,
+      "h.": 1.0
+    }
+  },
+  "seconds": 9.517526792013086,
+  "usage": {
+    "total": {
+      "totalTokens": 4603,
+      "inputTokens": 4473,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 130,
+      "reasoningOutputTokens": 54
+    },
+    "last": {
+      "totalTokens": 4603,
+      "inputTokens": 4473,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 130,
+      "reasoningOutputTokens": 54
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292005.6992269
+}

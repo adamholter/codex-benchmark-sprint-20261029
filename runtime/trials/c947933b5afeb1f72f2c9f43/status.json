@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "fantom",
+  "id": "174-0-1-8536",
+  "category": "tom:belief:inaccessible:multiple-choice",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288819.133405,
+  "turn": {
+    "id": "01a18857-d2a5-7142-9a11-7a91e73aa011",
+    "rootTurnId": "01a18857-d2a5-7142-9a11-7a91e73aa011",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_016b4a46accbd18a016ae36a761f388194abc0334234882825",
+        "text": "(a) Tanner was not involved in the conversation when Kristopher discussed the breath-focus technique.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288819,
+    "completedAt": 1793288822,
+    "durationMs": 3117
+  },
+  "score": {
+    "correct": true,
+    "extracted": "(a) Tanner was not involved in the conversation when Kristopher discussed the breath-focus technique.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 3.395147542003542,
+  "usage": {
+    "total": {
+      "totalTokens": 4515,
+      "inputTokens": 4493,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 22,
+      "reasoningOutputTokens": 0
+    },
+    "last": {
+      "totalTokens": 4515,
+      "inputTokens": 4493,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 22,
+      "reasoningOutputTokens": 0
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793288822.528449
+}

@@ -1,0 +1,23 @@
+Aubrey: Hey Chelsey, I'm glad we finally got to meet. I love books; do you?
+Chelsey: Oh, absolutely! I'm a sucker for a good book. It's hard to find people who appreciate books these days.
+Aubrey: Right? I always feel like I’m in my own world because of this. Anyway, do you have any good book recommendations?
+Chelsey: Well, that depends on the genre you’re interested in. I read a lot of different kinds, but lately I've been into historical fiction. Have you ever read any?
+Aubrey: Yes, I love historical fiction! Do you have a favorite you'd recommend?
+Chelsey: Definitely, you should check out "All the Light We Cannot See" by Anthony Doerr. It's a beautifully written book set during World War II. What about you, got any treasure you'd like to recommend?
+Aubrey: That seems interesting, I'll sure add it to my list. As for my recommendation, "The Book Thief" by Markus Zusak is one of my all-time favorites. Its narrative style is so unique, you'll be hooked right from the start!
+Chelsey: That sounds fantastic. I’ve heard of it but haven’t gotten around to reading it. I will for sure now. Let’s keep trading recommendations, shall we?
+Aubrey: Certainly, I will love that! Let's continue this another time. Enjoy reading "The Book Thief".
+Chelsey: You too, Aubrey. Looking forward to our next bookish conversation. Thanks for the recommendation!
+Harper: Hi Aubrey, Chelsey. It seems like we share a common love for books. What literary gems are you sharing?
+Aubrey: Hey Harper! We were just passing on some book recommendations. Do you have any good ones?
+Harper: Sure do. I'm really immersed in fantasy novels these days. "The Name of the Wind" by Patrick Rothfuss caught my fancy. Just can't seem to get enough of it.
+Chelsey: That's a fantastic choice, Harper! I've been meaning to delve into the fantasy genre, and your recommendation seems like the perfect start.
+Harper: It's a great book, glad it piqued your interest Chelsey. Aubrey, have you been into fantasy novels?
+Aubrey: I've dabbled into fantasy here and there. My favorite would be the Harry Potter series. Can't beat a classic, right? But I'm excited to explore more. Harper's recommendation sounds right up my alley!
+Harper: Indeed, nothing quite like the magical world of Hogwarts. It's what got me into fantasy in the first place. You ladies have shared some excellent recommendations. I haven’t ventured into historical fiction much. I’ll be sure to add your suggestions to my reading list.
+Chelsey: That sounds like a plan, Harper. Maybe we can all discuss these books next time?
+Aubrey: I think that's a brilliant idea! It's always more fun to discuss books with others who are just as passionate. Looking forward to it, Chelsey and Harper.
+
+Information: What book did Chelsey recommend to Aubrey? "All the Light We Cannot See" by Anthony Doerr.
+Question: List all the characters who know this information.
+Answer:

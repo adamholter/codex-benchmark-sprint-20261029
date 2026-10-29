@@ -1,0 +1,85 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly_no_context",
+  "id": "127:Q 4.2:no_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793291894.6235452,
+  "turn": {
+    "id": "01a18886-c0f2-7bb3-af7c-8c4e6c6db027",
+    "rootTurnId": "01a18886-c0f2-7bb3-af7c-8c4e6c6db027",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0c60c4b8382334c2016ae37687a1288195a2a571de41ba89b8",
+        "text": "{\"a.\":\"Insufficient information: the sheet provides no Mixtec word for \u2018depth\u2019.\",\"b.\":\"Insufficient information: the sheet provides no Mixtec word for \u2018heat\u2019.\",\"c.\":\"Insufficient information: the sheet does not give the meanings of the relevant Mixtec words or constructions.\",\"d.\":\"Insufficient information: the sheet does not identify the Mixtec words for \u2018blind\u2019 or \u2018person\u2019.\",\"e.\":\"Insufficient information: the sheet does not identify the Mixtec words for \u2018blind\u2019 or \u2018person\u2019.\",\"f.\":\"Insufficient information: the sheet does not identify the Mixtec words for \u2018clothes\u2019 or \u2018red\u2019.\",\"g.\":\"Insufficient information: the sheet does not identify the words or construction for \u2018my clothes are the black ones\u2019.\",\"h.\":\"Insufficient information: the sheet does not identify the Mixtec expression for \u2018true\u2019 or how emphasis is marked.\",\"i.\":\"Insufficient information: the sheet does not identify the Mixtec expression for \u2018true\u2019.\",\"j.\":\"Insufficient information: the sheet does not identify the Mixtec word for \u2018truth\u2019.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793291895,
+    "completedAt": 1793291913,
+    "durationMs": 18661
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "a.": "Insufficient information: the sheet provides no Mixtec word for \u2018depth\u2019.",
+      "b.": "Insufficient information: the sheet provides no Mixtec word for \u2018heat\u2019.",
+      "c.": "Insufficient information: the sheet does not give the meanings of the relevant Mixtec words or constructions.",
+      "d.": "Insufficient information: the sheet does not identify the Mixtec words for \u2018blind\u2019 or \u2018person\u2019.",
+      "e.": "Insufficient information: the sheet does not identify the Mixtec words for \u2018blind\u2019 or \u2018person\u2019.",
+      "f.": "Insufficient information: the sheet does not identify the Mixtec words for \u2018clothes\u2019 or \u2018red\u2019.",
+      "g.": "Insufficient information: the sheet does not identify the words or construction for \u2018my clothes are the black ones\u2019.",
+      "h.": "Insufficient information: the sheet does not identify the Mixtec expression for \u2018true\u2019 or how emphasis is marked.",
+      "i.": "Insufficient information: the sheet does not identify the Mixtec expression for \u2018true\u2019.",
+      "j.": "Insufficient information: the sheet does not identify the Mixtec word for \u2018truth\u2019."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 10,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 0.0,
+      "b.": 0.0,
+      "c.": 0.0,
+      "d.": 0.0,
+      "e.": 0.0,
+      "f.": 0.0,
+      "g.": 0.0,
+      "h.": 0.0,
+      "i.": 0.0,
+      "j.": 0.0
+    }
+  },
+  "seconds": 19.083031999995,
+  "usage": {
+    "total": {
+      "totalTokens": 5904,
+      "inputTokens": 4296,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1608,
+      "reasoningOutputTokens": 1369
+    },
+    "last": {
+      "totalTokens": 5904,
+      "inputTokens": 4296,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1608,
+      "reasoningOutputTokens": 1369
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793291913.706084
+}

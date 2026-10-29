@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "bbeh",
+  "id": "mini:object_counting:0264",
+  "category": "object_counting",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289162.38697,
+  "turn": {
+    "id": "01a1885d-0f7c-7280-8a8a-cb71455d4db9",
+    "rootTurnId": "01a1885d-0f7c-7280-8a8a-cb71455d4db9",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_013792b1a0fc567d016ae36bce488881958c0c02d107fdf088",
+        "text": "You have 497 mobiles and 697 musical instruments, for a total of **1,194**.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289162,
+    "completedAt": 1793289166,
+    "durationMs": 3972
+  },
+  "score": {
+    "correct": false,
+    "extracted": "you have 497 mobiles and 697 musical instruments,for a total of 1,194"
+  },
+  "seconds": 4.228278332971968,
+  "usage": {
+    "total": {
+      "totalTokens": 6142,
+      "inputTokens": 5939,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 203,
+      "reasoningOutputTokens": 176
+    },
+    "last": {
+      "totalTokens": 6142,
+      "inputTokens": 5939,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 203,
+      "reasoningOutputTokens": 176
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793289166.61516
+}

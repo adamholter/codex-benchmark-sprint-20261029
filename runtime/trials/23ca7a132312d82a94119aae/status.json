@@ -1,0 +1,73 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly",
+  "id": "164:Q 2.1:full_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793293162.67439,
+  "turn": {
+    "id": "01a1889a-19e1-7753-9ba9-6b4b42cda368",
+    "rootTurnId": "01a1889a-19e1-7753-9ba9-6b4b42cda368",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_096f2c43bacd1516016ae37b7184848194b91fc98d9c8e5ed1",
+        "text": "{\"9\":\"Cannot be determined from the information provided.\",\"10\":\"Cannot be determined from the information provided.\",\"11\":\"Tuzzel teqcict\",\"12\":\"Cannot be determined from the information provided.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793293162,
+    "completedAt": 1793293169,
+    "durationMs": 6863
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "9": "Cannot be determined from the information provided.",
+      "10": "Cannot be determined from the information provided.",
+      "11": "Tuzzel teqcict",
+      "12": "Cannot be determined from the information provided."
+    },
+    "score": 0.25,
+    "parts_correct": 1,
+    "parts_total": 4,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "9": 0.0,
+      "10": 0.0,
+      "11": 1.0,
+      "12": 0.0
+    }
+  },
+  "seconds": 7.211337583023123,
+  "usage": {
+    "total": {
+      "totalTokens": 5224,
+      "inputTokens": 4661,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 563,
+      "reasoningOutputTokens": 516
+    },
+    "last": {
+      "totalTokens": 5224,
+      "inputTokens": 4661,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 563,
+      "reasoningOutputTokens": 516
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793293169.8855722
+}

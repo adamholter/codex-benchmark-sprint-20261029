@@ -1,0 +1,57 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "korbench",
+  "id": "cipher_236",
+  "category": "cipher",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793284380.3684962,
+  "turn": {
+    "id": "01a18814-1e1b-7e20-a0ee-2a912d64a8f3",
+    "rootTurnId": "01a18814-1e1b-7e20-a0ee-2a912d64a8f3",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0e3b4c1ec8058b77016ae35921d8dc8190b285d3ab4eec49e5",
+        "text": "[[N]]",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793284382,
+    "completedAt": 1793284386,
+    "durationMs": 3725
+  },
+  "score": {
+    "correct": true,
+    "extracted": "N"
+  },
+  "seconds": 5.797650665976107,
+  "usage": {
+    "total": {
+      "totalTokens": 4171,
+      "inputTokens": 4137,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 34,
+      "reasoningOutputTokens": 25
+    },
+    "last": {
+      "totalTokens": 4171,
+      "inputTokens": 4137,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 34,
+      "reasoningOutputTokens": 25
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "finished_at": 1793284386.166094
+}

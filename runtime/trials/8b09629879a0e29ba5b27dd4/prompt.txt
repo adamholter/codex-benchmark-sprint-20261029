@@ -1,0 +1,110 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+**Encryption Rules:**
+
+- Input:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Output:
+    - Ciphertext:  A string without punctuation and spaces.
+- Preparation:
+    - Number of lines: 5
+- Encryption Steps:
+    - Fill in the first plaintext in the first position of the first line.
+    - Two ways to fill:
+        - Downward Fill: Fill the first row with a "#" (removing the first column, since the first position is already filled with a plaintext letter), then fill the plaintext downwards from the second row to the last row (fifth row).
+        - Upwards: the plaintext is filled upwards from the last line (fifth line) to the second line, and then the first line is filled with a "#".
+    - For each letter in the plaintext (except the first letter which has been filled in the first position), perform downward padding first, fill one column, then turn to upward padding, then turn to downward padding, and so on alternately, until all the letters have been filled.
+        - For example, HELLOWORLD.The content of the five lines after filling is
+        H L #
+        E R D
+        L O
+        L W
+        O #
+    - Filled out, read line by line, first read the contents of the first line, after reading the contents of each line are added a * sign, marking the end of the line; and then read the contents of the second line, and so on, read all the lines, the formation of the final password text.
+        H L #
+        E R D
+        L O
+        L W
+        O #
+        - Read the final cipher text line by line as "HL#*ERD*LO*LW*O#*" (i.e., there must be five *'s in the final cipher text to indicate that there are five lines)
+
+ **Decryption Rules:**
+
+- Input:
+    - Ciphertext: A string without punctuation and spaces.
+- Output:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Preparation:
+    - Number of lines: 5
+- Decryption Steps (exact opposite of encryption steps):
+    - According to the * in the ciphertext (excluding the * sign), it can be divided into five groups, which are filled into five rows in turn. Get the recovered data in five rows.
+        - For example, like "HL#*ERD*LO*LW*O#*" ,according to the division of * and then fill in the five lines to get the recovered five lines of data D:
+            H L #
+            E R D
+            L O
+            L W
+            O #
+    - Then read all the columns alternately according to read down first and then read up. Get the uncleared messages.
+        - For example, for the five rows of message D in the previous step, read alternately to get "HELLO#WORL#D"
+    - Remove the # from the uncleaned message to get the final plaintext.
+
+The timeline of World of Warcraft begins with the "Age of the Titans," a period where the Titans, god-like beings that roam the cosmos, shaped the world of Azeroth. Their most notable creations include the Earthen (the ancestors of the Dwarves) and the Well of Eternity, a powerful source of magic. Events on the timeline are often categorized by major epochs. The "War of the Ancients" is a pivotal event when Queen Azshara and the Highborne Elves attempted to summon the malevolent Burning Legion into Azeroth. This led to the shattering of the Well of Eternity and the birth of a new continent. Many beings in Azeroth rely on magical energy (mana) to cast spells and perform magical feats; mana is their primary energy source.
+Fast forward to the "First War," marking the initial conflict between the humans of Stormwind and the Orcs who arrived through a dimensional portal known as the Dark Portal. The war resulted in the fall of Stormwind, leading to the "Second War," which involved expanded alliances on both sides. The "Second War" ended with the defeat of the Horde, leading to the imprisonment of the Orcs and a relative peace for humans and their allies. Anduin Lothar is known for his leadership in the First and Second Wars.
+However, this peace was short-lived as the "Third War" erupted. A significant event in Azeroth was the discovery and confrontation with Illidan Stormrage, marking a pivotal moment in the world's history.
+Azeroth widely uses a powerful and versatile substance—Azerite. Azerite plays a crucial role in the technology and machinery of Azeroth, showcasing the unique technological backdrop of this magical world.
+In Azeroth, portals created by mages or through special buildings are the primary mode of transportation. These portals allow individuals to traverse continents instantly, making them a preferred mode of travel for many residents.
+Serious injuries in Azeroth are usually treated by magical means. Priests, Druids, and Shamans use their healing spells to cure the wounded.
+Arena battles—where warriors, mages, and other combatants face off against each other—are a common and popular form of entertainment in Azeroth.
+Azeroth is composed of several continents, each with its unique geography, climate, and ecosystems. These continents include the Eastern Kingdoms, Kalimdor, Northrend, Pandaria, the Broken Isles, and the later introduced Zandalar and Kul Tiras. The continents themselves are divided into various regions or "zones," each with distinct landscapes and inhabitants.
+The Eastern Kingdoms, home to Humans, Dwarves, and the Undead, is known for its European-inspired architecture and diverse landscapes, ranging from the verdant Elwynn Forest to the desolate, war-torn Plaguelands. It is the birthplace of the Alliance and has been the epicenter of many significant events in WoW's history.
+On the other hand, Kalimdor leans more toward a Native American aesthetic. It houses the Night Elves, Tauren, and Orcs and features environments as varied as the scorching deserts of Tanaris and the lush, primal wilderness of Feralas. The continent is significant for the Horde, with Orgrimmar, the Horde's capital, located here.
+Northrend is a frozen wasteland and the base of operations for the Lich King. It features icy plains, towering fortresses, and is the setting for the "Wrath of the Lich King" expansion.
+Pandaria, inspired by East Asian aesthetics, is a serene and beautiful land inhabited by the Pandaren and was introduced in the "Mists of Pandaria" expansion.
+The Alliance, known for its principles of honor and justice, is composed of the Humans, Night Elves, Dwarves, Gnomes, Draenei, Worgen, and the enigmatic Pandaren. Each race has a distinct narrative that shapes its unique characteristics.Leaders in the Alliance are often chosen based on heritage, valor, or notable achievements rather than democratic elections. 
+Humans, the most versatile of the races, hail from the kingdom of Stormwind and are known for their resilience and determination. The architecture of human cities, primarily consisting of medieval castles and fortifications. The Night Elves, one of the oldest races in Azeroth, have a deep affinity with nature and magic. The Moon Festival is an important event in the culture of the Night Elves, celebrating their connection to the moon and their ancestors. This festival reflects the Night Elves' tradition of reverence for spirits and ancestors. The industrious Dwarves and inventive Gnomes are recognized for their technological prowess, while the Draenei, refugees from the planet Draenor, are deeply spiritual with a strong connection to the Light. The Worgen are humans afflicted with a feral curse, and the Pandaren are a peaceful race that values harmony and balance.
+
+There are two types of analogical reasoning:
+
+1. Ψ Method:
+    Object A has attributes a, b, c, d;
+    Object B has attributes a, b, c;
+    Therefore, Object B also has attribute d.
+    Here, attributes a, b, c are referred to as #Ψ attributes, and d is referred to as the +Ψ attribute.
+    
+2. ⌘ Method: 
+    Object A has attributes a, b, c, d;
+    Object B does not have attributes a, b, c;
+    Therefore, Object B also does not have attribute d.
+    Here, attributes a, b, c are referred to as -⌘ attributes, and d is referred to as the +⌘ attribute.
+
+1.A series of words will be given in the question.
+2.These words have one thing in common, usually the same prefix of a suffix or the same combination of letters.
+3.This commonality will be given in the question.
+4.You need to answer which words or letter combinations are common to each of these words. e.g. If each of these words contains the name of an animal, the answer needs to be the name of the animal contained in each word in turn.
+
+
+### Questions:
+question1:
+Plaintext: "BIVKC"
+
+Please provide the encrypted answer, encapsulated in double square brackets. For example, the format should be: [[encrypted answer]].
+
+question2:
+What is the most dominant building type in human cities in Azeroth?
+Options:A. Modern skyscrapers##B. Protective shells##C. Underground cities##D. Medieval castles and fortifications
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+
+### Answers:

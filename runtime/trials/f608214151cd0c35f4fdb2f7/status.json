@@ -1,0 +1,64 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-RQ_Hard_474",
+  "category": "Multi-RQ_Hard",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793286081.26102,
+  "turn": {
+    "id": "01a1882e-0c30-72e3-81d6-708c9315a835",
+    "rootTurnId": "01a1882e-0c30-72e3-81d6-708c9315a835",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0acebd65b19d51f0016ae35fc484ac8195b8707b24f95e8371",
+        "text": "{\n  \"question1\": \"[[A]]\",\n  \"question2\": \"[[A]]\",\n  \"question3\": \"[[9+\\\\sqrt{6}]]\",\n  \"question4\": \"[[260]]\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793286081,
+    "completedAt": 1793286084,
+    "durationMs": 3286
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "question1": "A",
+      "question2": "A",
+      "question3": "9+\\sqrt{6}",
+      "question4": "260"
+    },
+    "pass_rate": 1.0
+  },
+  "seconds": 3.632076791021973,
+  "usage": {
+    "total": {
+      "totalTokens": 5902,
+      "inputTokens": 5740,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 162,
+      "reasoningOutputTokens": 108
+    },
+    "last": {
+      "totalTokens": 5902,
+      "inputTokens": 5740,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 162,
+      "reasoningOutputTokens": 108
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793286084.892838
+}

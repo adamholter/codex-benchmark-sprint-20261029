@@ -1,0 +1,71 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly",
+  "id": "34:Q 9.1:full_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793295063.508397,
+  "turn": {
+    "id": "01a188b7-1cd5-7692-9c00-e17a0c386b48",
+    "rootTurnId": "01a188b7-1cd5-7692-9c00-e17a0c386b48",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0fd28bb9455cff4d016ae382dfb5c081959eeadf336e41b70d",
+        "text": "{\n  \"a.\": \"I am sitting in the camp.\",\n  \"b.\": \"Then they both ask this man.\",\n  \"c.\": \"I am not hungry now.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793295064,
+    "completedAt": 1793295072,
+    "durationMs": 8201
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "a.": "I am sitting in the camp.",
+      "b.": "Then they both ask this man.",
+      "c.": "I am not hungry now."
+    },
+    "score": 1.0,
+    "parts_correct": 3,
+    "parts_total": 3,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 1.0,
+      "b.": 1.0,
+      "c.": 1.0
+    }
+  },
+  "seconds": 13.811986124957912,
+  "usage": {
+    "total": {
+      "totalTokens": 4987,
+      "inputTokens": 4882,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 105,
+      "reasoningOutputTokens": 59
+    },
+    "last": {
+      "totalTokens": 4987,
+      "inputTokens": 4882,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 105,
+      "reasoningOutputTokens": 59
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793295077.319634
+}

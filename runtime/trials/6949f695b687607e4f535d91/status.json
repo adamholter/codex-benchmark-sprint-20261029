@@ -1,0 +1,79 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly",
+  "id": "178:Q 3.2:full_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288589.2233422,
+  "turn": {
+    "id": "01a18854-50aa-7130-9635-629b3420372a",
+    "rootTurnId": "01a18854-50aa-7130-9635-629b3420372a",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_07584bb706bfe576016ae369905c148193bb8836235c8d157d",
+        "text": "{\n  \"1.\": \"la zia\",\n  \"2.\": \"lo zio\",\n  \"3.\": \"il sasso\",\n  \"4.\": \"gli storici\",\n  \"5.\": \"gli zaini\",\n  \"6.\": \"il successo\",\n  \"7.\": \"le zone\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288589,
+    "completedAt": 1793288592,
+    "durationMs": 3489
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "1.": "la zia",
+      "2.": "lo zio",
+      "3.": "il sasso",
+      "4.": "gli storici",
+      "5.": "gli zaini",
+      "6.": "il successo",
+      "7.": "le zone"
+    },
+    "score": 1.0,
+    "parts_correct": 7,
+    "parts_total": 7,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "1.": 1.0,
+      "2.": 1.0,
+      "3.": 1.0,
+      "4.": 1.0,
+      "5.": 1.0,
+      "6.": 1.0,
+      "7.": 1.0
+    }
+  },
+  "seconds": 4.023866917006671,
+  "usage": {
+    "total": {
+      "totalTokens": 4260,
+      "inputTokens": 4186,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 74,
+      "reasoningOutputTokens": 0
+    },
+    "last": {
+      "totalTokens": 4260,
+      "inputTokens": 4186,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 74,
+      "reasoningOutputTokens": 0
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793288593.246903
+}

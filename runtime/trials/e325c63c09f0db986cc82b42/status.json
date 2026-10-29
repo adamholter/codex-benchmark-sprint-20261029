@@ -1,0 +1,71 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly_no_context",
+  "id": "187:Q 2.3:no_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793293925.634395,
+  "turn": {
+    "id": "01a188a5-d3fc-70e2-a02a-093e55eee3ea",
+    "rootTurnId": "01a188a5-d3fc-70e2-a02a-093e55eee3ea",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0aba57a822d3ec63016ae37e6f1fc481969df83093bec8c5d5",
+        "text": "{\"a.\": \"Cannot be determined from the information provided.\", \"b.\": \"Cannot be determined from the information provided.\", \"c.\": \"Cannot be determined from the information provided.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793293931,
+    "completedAt": 1793293935,
+    "durationMs": 4197
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "a.": "Cannot be determined from the information provided.",
+      "b.": "Cannot be determined from the information provided.",
+      "c.": "Cannot be determined from the information provided."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 3,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 0.0,
+      "b.": 0.0,
+      "c.": 0.0
+    }
+  },
+  "seconds": 10.437405959004536,
+  "usage": {
+    "total": {
+      "totalTokens": 4127,
+      "inputTokens": 4062,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 65,
+      "reasoningOutputTokens": 19
+    },
+    "last": {
+      "totalTokens": 4127,
+      "inputTokens": 4062,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 65,
+      "reasoningOutputTokens": 19
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793293936.071021
+}

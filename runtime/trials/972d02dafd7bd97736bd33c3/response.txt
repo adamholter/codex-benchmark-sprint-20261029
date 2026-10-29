@@ -1,0 +1,3 @@
+Yair reads spiritual books, and the spiritual reader is at an end. Since Yair is immediately left of Jackson, Yair must be in position 1. The spiritual reader drives the Benelli and likes Corals; Corals are immediately left of pears, which are immediately left of the Denver Broncos. The Broncos are immediately left of the person who likes Dolomites, who lives in the orange house.
+
+So the orange house is in **position 4**.

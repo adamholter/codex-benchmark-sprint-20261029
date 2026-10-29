@@ -1,0 +1,77 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly_no_context",
+  "id": "167:Q A2.1:no_context",
+  "category": "Pattern / Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793287840.57349,
+  "turn": {
+    "id": "01a18848-e420-7750-bcad-42320a8e0cce",
+    "rootTurnId": "01a18848-e420-7750-bcad-42320a8e0cce",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0ca102266bc38694016ae366a79434819789f4c4dc45e6d161",
+        "text": "{\n  \"(h)\": \"Cannot determine: Table 2 is missing.\",\n  \"(i)\": \"Cannot determine: Table 2 is missing.\",\n  \"(j)\": \"Cannot determine: Table 2 is missing.\",\n  \"(k)\": \"Cannot determine: Table 2 is missing.\",\n  \"(l)\": \"Cannot determine: Table 2 is missing.\",\n  \"(m)\": \"Cannot determine: Table 2 is missing.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793287840,
+    "completedAt": 1793287848,
+    "durationMs": 7704
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(h)": "Cannot determine: Table 2 is missing.",
+      "(i)": "Cannot determine: Table 2 is missing.",
+      "(j)": "Cannot determine: Table 2 is missing.",
+      "(k)": "Cannot determine: Table 2 is missing.",
+      "(l)": "Cannot determine: Table 2 is missing.",
+      "(m)": "Cannot determine: Table 2 is missing."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 6,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(h)": 0.0,
+      "(i)": 0.0,
+      "(j)": 0.0,
+      "(k)": 0.0,
+      "(l)": 0.0,
+      "(m)": 0.0
+    }
+  },
+  "seconds": 7.962817957974039,
+  "usage": {
+    "total": {
+      "totalTokens": 4335,
+      "inputTokens": 4142,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 193,
+      "reasoningOutputTokens": 101
+    },
+    "last": {
+      "totalTokens": 4335,
+      "inputTokens": 4142,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 193,
+      "reasoningOutputTokens": 101
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793287848.536104
+}

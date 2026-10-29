@@ -1,0 +1,12 @@
+{
+  "question1": "[[{1,2,3,6,7,8}]]",
+  "question2": "[[B]]",
+  "question3": "[[B]]",
+  "question4": "[[B]]",
+  "question5": "[[Ap];[Hp]]",
+  "question6": "[[C]]",
+  "question7": "[[B]]",
+  "question8": "[[{x∣x≤0 or x≥1}]]",
+  "question9": "[[C];[A]]",
+  "question10": "[[D]]"
+}

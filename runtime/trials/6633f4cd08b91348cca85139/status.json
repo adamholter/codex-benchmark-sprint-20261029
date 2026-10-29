@@ -1,0 +1,67 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly",
+  "id": "204:Q 4.3:full_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793293670.052945,
+  "turn": {
+    "id": "01a188a1-d797-7382-a535-bb7d171f4a39",
+    "rootTurnId": "01a188a1-d797-7382-a535-bb7d171f4a39",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_097deff4449df826016ae37d736534819684a614dcdcaae58c",
+        "text": "{\"(i)\":\"The orthography generally writes consonants and the vowels other than [\u0259]. An unwritten [\u0259] is supplied where needed to make syllables, as in frf [\u0278\u0259.\u027e\u0259\u0278]. Syllable division can be inferred from the examples: a consonant before a vowel generally begins a syllable, while a consonant following a vowel may close it. Some clusters, such as [t\u027e] in trutru, can begin a syllable.\\n\\nA written vowel at the beginning of a word is preceded by [\u0294], as in ezi [\u0294e.t\u0283i]. Adjacent written vowels are separated by [\u0294], as in trn\u00e4a\u0308 [t\u0259\u027e.n\u00e6.\u0294\u00e6]. The letter o is pronounced [\u0254] in an open syllable and [\u025e] in a closed syllable, as illustrated by emothdbo and emoth.\\n\\nSeveral consonants change according to their position. At the beginning of a syllable, b, d and g are [\u1d50b], [\u207fd] and [\u1d51g]; at the end, they are [\u1d50p], [\u207ft] and [\u1d51k]. Likewise, th is [\u00f0] at the beginning of a syllable and [\u03b8] at the end. The letter z is [t\u0283] before a front vowel, but [ts] elsewhere; nz is correspondingly [\u207fd\u0292] before a front vowel and [\u207fdz] at the beginning of a syllable elsewhere, but [\u207fts] at the end of a syllable. Other correspondences include f [\u0278] and r [\u027e].\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793293670,
+    "completedAt": 1793293688,
+    "durationMs": 17935
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "(i)": "The orthography generally writes consonants and the vowels other than [\u0259]. An unwritten [\u0259] is supplied where needed to make syllables, as in frf [\u0278\u0259.\u027e\u0259\u0278]. Syllable division can be inferred from the examples: a consonant before a vowel generally begins a syllable, while a consonant following a vowel may close it. Some clusters, such as [t\u027e] in trutru, can begin a syllable.\n\nA written vowel at the beginning of a word is preceded by [\u0294], as in ezi [\u0294e.t\u0283i]. Adjacent written vowels are separated by [\u0294], as in trn\u00e4a\u0308 [t\u0259\u027e.n\u00e6.\u0294\u00e6]. The letter o is pronounced [\u0254] in an open syllable and [\u025e] in a closed syllable, as illustrated by emothdbo and emoth.\n\nSeveral consonants change according to their position. At the beginning of a syllable, b, d and g are [\u1d50b], [\u207fd] and [\u1d51g]; at the end, they are [\u1d50p], [\u207ft] and [\u1d51k]. Likewise, th is [\u00f0] at the beginning of a syllable and [\u03b8] at the end. The letter z is [t\u0283] before a front vowel, but [ts] elsewhere; nz is correspondingly [\u207fd\u0292] before a front vowel and [\u207fdz] at the beginning of a syllable elsewhere, but [\u207fts] at the end of a syllable. Other correspondences include f [\u0278] and r [\u027e]."
+    },
+    "score": 1.0,
+    "parts_correct": 1,
+    "parts_total": 1,
+    "empty_reference_parts": 1,
+    "part_scores": {
+      "(i)": 1.0
+    }
+  },
+  "seconds": 18.202077792026103,
+  "usage": {
+    "total": {
+      "totalTokens": 5678,
+      "inputTokens": 4790,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 888,
+      "reasoningOutputTokens": 516
+    },
+    "last": {
+      "totalTokens": 5678,
+      "inputTokens": 4790,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 888,
+      "reasoningOutputTokens": 516
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793293688.254473
+}

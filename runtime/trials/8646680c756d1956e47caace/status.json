@@ -1,0 +1,95 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly",
+  "id": "178:Q 3.2:full_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288586.913568,
+  "turn": {
+    "id": "01a18854-478c-78d3-b38f-7dfe0470e75b",
+    "rootTurnId": "01a18854-478c-78d3-b38f-7dfe0470e75b",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_026918bc2812d764016ae369bfe7b081978d91fc99fc524b6f",
+        "text": "{\n  \"1.\": \"la zia\",\n  \"2.\": \"lo zio\",\n  \"3.\": \"il sasso\",\n  \"4.\": \"gli storici\",\n  \"5.\": \"gli zaini\",\n  \"6.\": \"il successo\",\n  \"7.\": \"le zone\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288587,
+    "completedAt": 1793288641,
+    "durationMs": 53858
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "1.": "la zia",
+      "2.": "lo zio",
+      "3.": "il sasso",
+      "4.": "gli storici",
+      "5.": "gli zaini",
+      "6.": "il successo",
+      "7.": "le zone"
+    },
+    "score": 1.0,
+    "parts_correct": 7,
+    "parts_total": 7,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "1.": 1.0,
+      "2.": 1.0,
+      "3.": 1.0,
+      "4.": 1.0,
+      "5.": 1.0,
+      "6.": 1.0,
+      "7.": 1.0
+    }
+  },
+  "seconds": 54.1168278750265,
+  "usage": {
+    "total": {
+      "totalTokens": 4313,
+      "inputTokens": 4186,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 127,
+      "reasoningOutputTokens": 51
+    },
+    "last": {
+      "totalTokens": 4313,
+      "inputTokens": 4186,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 127,
+      "reasoningOutputTokens": 51
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 7fe0ab0f-1396-4c37-8c96-80677c7802e3",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a18854-476e-7571-a78e-767ab8ee2b46",
+      "turnId": "01a18854-478c-78d3-b38f-7dfe0470e75b"
+    }
+  ],
+  "finished_at": 1793288641.030079
+}

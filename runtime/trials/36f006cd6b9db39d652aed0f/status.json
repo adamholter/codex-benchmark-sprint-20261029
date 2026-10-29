@@ -1,0 +1,103 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly_no_context",
+  "id": "187:Q 2.1:no_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294281.312656,
+  "turn": {
+    "id": "01a188ab-2c0b-7d73-82f8-9eb61c911696",
+    "rootTurnId": "01a188ab-2c0b-7d73-82f8-9eb61c911696",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0c89016e17f17366016ae37fcdda788196ad46aa805b8ab7b1",
+        "text": "{\n  \"1.\": \"Undetermined: lettered options not provided\",\n  \"2.\": \"Undetermined: lettered options not provided\",\n  \"3.\": \"Undetermined: lettered options not provided\",\n  \"4.\": \"Undetermined: lettered options not provided\",\n  \"5.\": \"Undetermined: lettered options not provided\",\n  \"6.\": \"Undetermined: lettered options not provided\",\n  \"7.\": \"Undetermined: lettered options not provided\",\n  \"8.\": \"Undetermined: lettered options not provided\",\n  \"9.\": \"Undetermined: lettered options not provided\",\n  \"10.\": \"Undetermined: lettered options not provided\",\n  \"11.\": \"Undetermined: lettered options not provided\",\n  \"12.\": \"Undetermined: lettered options not provided\",\n  \"13.\": \"Undetermined: lettered options not provided\",\n  \"14.\": \"Undetermined: lettered options not provided\",\n  \"15.\": \"Undetermined: lettered options not provided\",\n  \"16.\": \"Undetermined: lettered options not provided\",\n  \"17.\": \"Undetermined: lettered options not provided\",\n  \"18.\": \"Undetermined: lettered options not provided\",\n  \"19.\": \"Undetermined: lettered options not provided\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294281,
+    "completedAt": 1793294287,
+    "durationMs": 5987
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "1.": "Undetermined: lettered options not provided",
+      "2.": "Undetermined: lettered options not provided",
+      "3.": "Undetermined: lettered options not provided",
+      "4.": "Undetermined: lettered options not provided",
+      "5.": "Undetermined: lettered options not provided",
+      "6.": "Undetermined: lettered options not provided",
+      "7.": "Undetermined: lettered options not provided",
+      "8.": "Undetermined: lettered options not provided",
+      "9.": "Undetermined: lettered options not provided",
+      "10.": "Undetermined: lettered options not provided",
+      "11.": "Undetermined: lettered options not provided",
+      "12.": "Undetermined: lettered options not provided",
+      "13.": "Undetermined: lettered options not provided",
+      "14.": "Undetermined: lettered options not provided",
+      "15.": "Undetermined: lettered options not provided",
+      "16.": "Undetermined: lettered options not provided",
+      "17.": "Undetermined: lettered options not provided",
+      "18.": "Undetermined: lettered options not provided",
+      "19.": "Undetermined: lettered options not provided"
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 19,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "1.": 0.0,
+      "2.": 0.0,
+      "3.": 0.0,
+      "4.": 0.0,
+      "5.": 0.0,
+      "6.": 0.0,
+      "7.": 0.0,
+      "8.": 0.0,
+      "9.": 0.0,
+      "10.": 0.0,
+      "11.": 0.0,
+      "12.": 0.0,
+      "13.": 0.0,
+      "14.": 0.0,
+      "15.": 0.0,
+      "16.": 0.0,
+      "17.": 0.0,
+      "18.": 0.0,
+      "19.": 0.0
+    }
+  },
+  "seconds": 6.443601458915509,
+  "usage": {
+    "total": {
+      "totalTokens": 4676,
+      "inputTokens": 4311,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 365,
+      "reasoningOutputTokens": 72
+    },
+    "last": {
+      "totalTokens": 4676,
+      "inputTokens": 4311,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 365,
+      "reasoningOutputTokens": 72
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793294287.75571
+}

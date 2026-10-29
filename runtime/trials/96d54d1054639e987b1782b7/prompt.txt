@@ -1,0 +1,63 @@
+You are an intelligent assistant that helps with various logical reasoning tasks. Below is a custom-defined rule for a specific type of logic. When responding, please ensure that your output adheres to the specified logical rules and format.
+
+### Instructions:
+
+1. Identify the relevant properties and objects as specified in the rule.
+2. Apply the given logical operations or reasoning patterns.
+3. Ensure your output is formatted according to the specified notation and symbols.
+
+### Logic Rule:
+
+Custom Speech Act Classification Rules
+
+1. Assertives
+
+- Purpose: To commit the speaker to the truth of the expressed proposition.
+- Adaptation Direction: From words to the world (*)
+- Psychological State: Belief (♥)
+- Formula: *♥(p)
+- Common Verbs: Assert, affirm, deny, state, notify, remind, oppose, forecast, report.
+
+2. Directives
+
+- Purpose: To get the hearer to do something.
+- Adaptation Direction: From the world to words (→)
+- Psychological State: Want or desire (✧)
+- Formula: →✧(H do A)
+- Common Verbs: Command, ask, plead, request, pray, instruct, advise, prohibit.
+
+3. Commissives
+
+- Purpose: To commit the speaker to do something in the future.
+- Adaptation Direction: From the world to words (→)
+- Psychological State: Intention (✊)
+- Formula: →✊(S do A)
+- Common Verbs: Promise, agree, ensure, adopt.
+
+4. Expressives
+
+- Purpose: To express the mental state of the speaker.
+- Adaptation Direction: Use the wavy sign (~) to indicate no specific direction.
+- Formula: ~(p)
+- Common Verbs: Congratulate, apologize, express sympathy, thank, praise, protest.
+
+5. Declarations
+
+- Purpose: to change the state of reality through the speech act itself.
+- Direction of adaptation: use of double arrows (↔) to indicate bi-directionality.
+- Formula: ↔(p)
+- Common verbs: declare, announce, appoint, dismiss, approve.
+
+### Question:
+"Please →✧ help me get that item."
+
+ Which category of speech act does this sentence belong to?
+
+A. Assertives
+B. Directives
+C. Commissives
+D. Expressives
+
+Please give your answer in the format [[A/B/C/D]].
+
+### Answer:

@@ -1,0 +1,67 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly",
+  "id": "185:Q 10.3:full_context",
+  "category": "Match-up / Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288336.3951209,
+  "turn": {
+    "id": "01a18850-74f9-7030-85c0-de8028d0d3a2",
+    "rootTurnId": "01a18850-74f9-7030-85c0-de8028d0d3a2",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0f51bfb7ad941ca3016ae3689b4ea88190940aca4330156e76",
+        "text": "{\"(a)\":\"It marks the first-person singular subject: \u201cI.\u201d\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288336,
+    "completedAt": 1793288347,
+    "durationMs": 11069
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "It marks the first-person singular subject: \u201cI.\u201d"
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 1,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 0.0
+    }
+  },
+  "seconds": 11.331314707989804,
+  "usage": {
+    "total": {
+      "totalTokens": 5722,
+      "inputTokens": 4939,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 783,
+      "reasoningOutputTokens": 760
+    },
+    "last": {
+      "totalTokens": 5722,
+      "inputTokens": 4939,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 783,
+      "reasoningOutputTokens": 760
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793288347.7263281
+}

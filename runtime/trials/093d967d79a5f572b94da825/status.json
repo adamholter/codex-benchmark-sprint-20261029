@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "fantom",
+  "id": "136-0-0-6648",
+  "category": "tom:info_accessibility:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288421.102721,
+  "turn": {
+    "id": "01a18851-bfc5-7840-bae9-a49b3e65d9f9",
+    "rootTurnId": "01a18851-bfc5-7840-bae9-a49b3e65d9f9",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0f32de37b4107a93016ae368e7e8188193be3b99a9a44cb68f",
+        "text": "Elise and Griffin.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288421,
+    "completedAt": 1793288424,
+    "durationMs": 2738
+  },
+  "score": {
+    "correct": true,
+    "extracted": "Elise and Griffin.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 3.0390330840600654,
+  "usage": {
+    "total": {
+      "totalTokens": 4515,
+      "inputTokens": 4461,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 54,
+      "reasoningOutputTokens": 43
+    },
+    "last": {
+      "totalTokens": 4515,
+      "inputTokens": 4461,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 54,
+      "reasoningOutputTokens": 43
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793288424.141141
+}

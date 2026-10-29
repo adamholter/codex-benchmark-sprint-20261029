@@ -1,0 +1,101 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly_no_context",
+  "id": "202:Q 2.2:no_context",
+  "category": "Monolingual",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288479.438687,
+  "turn": {
+    "id": "01a18852-a3c2-7cd2-9282-6c0ed3c785b2",
+    "rootTurnId": "01a18852-a3c2-7cd2-9282-6c0ed3c785b2",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_075d794d24bb47c6016ae369250e388194ab5dec916f72ea8b",
+        "text": "{\n  \"e.\": \"Cannot be determined\",\n  \"f.\": \"Cannot be determined\",\n  \"g.\": \"Cannot be determined\",\n  \"h.\": \"Cannot be determined\",\n  \"i.\": \"Cannot be determined\",\n  \"j.\": \"Cannot be determined\",\n  \"k.\": \"Cannot be determined\",\n  \"l.\": \"Cannot be determined\",\n  \"m.\": \"Cannot be determined\",\n  \"n.\": \"Cannot be determined\",\n  \"o.\": \"Cannot be determined\",\n  \"p.\": \"Cannot be determined\",\n  \"q.\": \"Cannot be determined\",\n  \"r.\": \"Cannot be determined\",\n  \"s.\": \"Cannot be determined\",\n  \"t.\": \"Cannot be determined\",\n  \"u.\": \"Cannot be determined\",\n  \"v.\": \"Cannot be determined\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288479,
+    "completedAt": 1793288487,
+    "durationMs": 7966
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "e.": "Cannot be determined",
+      "f.": "Cannot be determined",
+      "g.": "Cannot be determined",
+      "h.": "Cannot be determined",
+      "i.": "Cannot be determined",
+      "j.": "Cannot be determined",
+      "k.": "Cannot be determined",
+      "l.": "Cannot be determined",
+      "m.": "Cannot be determined",
+      "n.": "Cannot be determined",
+      "o.": "Cannot be determined",
+      "p.": "Cannot be determined",
+      "q.": "Cannot be determined",
+      "r.": "Cannot be determined",
+      "s.": "Cannot be determined",
+      "t.": "Cannot be determined",
+      "u.": "Cannot be determined",
+      "v.": "Cannot be determined"
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 18,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "e.": 0.0,
+      "f.": 0.0,
+      "g.": 0.0,
+      "h.": 0.0,
+      "i.": 0.0,
+      "j.": 0.0,
+      "k.": 0.0,
+      "l.": 0.0,
+      "m.": 0.0,
+      "n.": 0.0,
+      "o.": 0.0,
+      "p.": 0.0,
+      "q.": 0.0,
+      "r.": 0.0,
+      "s.": 0.0,
+      "t.": 0.0,
+      "u.": 0.0,
+      "v.": 0.0
+    }
+  },
+  "seconds": 8.230349957942963,
+  "usage": {
+    "total": {
+      "totalTokens": 4496,
+      "inputTokens": 4258,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 238,
+      "reasoningOutputTokens": 50
+    },
+    "last": {
+      "totalTokens": 4496,
+      "inputTokens": 4258,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 238,
+      "reasoningOutputTokens": 50
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793288487.668652
+}

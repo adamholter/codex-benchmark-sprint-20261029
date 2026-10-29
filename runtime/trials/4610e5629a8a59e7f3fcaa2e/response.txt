@@ -1,0 +1,5 @@
+No solution satisfies the given constraints.
+
+Row 2 must have a tent in column 4 and another in either column 9 or 10. A tent at row 2, column 9 would prevent row 1 from placing its required three tents, so row 2 must use column 10.
+
+Column 4 then requires a second tent at row 5, column 4. But column 9 also requires a tent, and its only remaining eligible position is row 5, column 9. That would give row 5 two tents, contrary to its constraint of one.

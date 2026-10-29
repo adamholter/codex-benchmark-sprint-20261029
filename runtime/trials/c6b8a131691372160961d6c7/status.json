@@ -1,0 +1,64 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-Q_544",
+  "category": "Multi-Q",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294758.663023,
+  "turn": {
+    "id": "01a188b2-741a-7401-903c-55cf5f974d97",
+    "rootTurnId": "01a188b2-741a-7401-903c-55cf5f974d97",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_06a9e94ad113cd14016ae381bbe88481939d103ff4b07632d5",
+        "text": "{\n  \"question1\": \"[[100%]]\",\n  \"question2\": \"[[4%]]\",\n  \"question3\": \"[[C(S, 90/100, 75/150): 90% and 50% are not similar, so the C-reasoning inference does not apply.]]\",\n  \"question4\": \"[[P(A, 40, 500) \u21d2 Pr(A) \u2248 40/500 = 8%]]\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294758,
+    "completedAt": 1793294781,
+    "durationMs": 22642
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "question1": "100%",
+      "question2": "4%",
+      "question3": "C(S, 90/100, 75/150): 90% and 50% are not similar, so the C-reasoning inference does not apply.",
+      "question4": "P(A, 40, 500) \u21d2 Pr(A) \u2248 40/500 = 8%"
+    },
+    "pass_rate": 0.5
+  },
+  "seconds": 22.942111500073224,
+  "usage": {
+    "total": {
+      "totalTokens": 5113,
+      "inputTokens": 4596,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 517,
+      "reasoningOutputTokens": 411
+    },
+    "last": {
+      "totalTokens": 5113,
+      "inputTokens": 4596,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 517,
+      "reasoningOutputTokens": 411
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793294781.603893
+}

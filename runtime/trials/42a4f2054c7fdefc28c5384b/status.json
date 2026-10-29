@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "fantom",
+  "id": "30-0-1-1943",
+  "category": "tom:info_accessibility:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292137.057215,
+  "turn": {
+    "id": "01a1888a-7359-7c63-9693-9f62e15895fe",
+    "rootTurnId": "01a1888a-7359-7c63-9693-9f62e15895fe",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0cea8eeaae9bb513016ae3777b1c7c819484b69ba467069cb9",
+        "text": "Emely, Cali, and Lena.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292137,
+    "completedAt": 1793292155,
+    "durationMs": 18450
+  },
+  "score": {
+    "correct": false,
+    "extracted": "Emely, Cali, and Lena.",
+    "strict_correct": false,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 18.732832625042647,
+  "usage": {
+    "total": {
+      "totalTokens": 4652,
+      "inputTokens": 4444,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 208,
+      "reasoningOutputTokens": 194
+    },
+    "last": {
+      "totalTokens": 4652,
+      "inputTokens": 4444,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 208,
+      "reasoningOutputTokens": 194
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292155.789859
+}

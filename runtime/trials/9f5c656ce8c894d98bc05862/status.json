@@ -1,0 +1,73 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly_no_context",
+  "id": "137:Q 2.:no_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793293721.8465862,
+  "turn": {
+    "id": "01a188a2-a2bc-7633-8513-efca61fd9377",
+    "rootTurnId": "01a188a2-a2bc-7633-8513-efca61fd9377",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0dc54c484ba7550a016ae37dabc8cc8193a38eafa228470cac",
+        "text": "{\n  \"(a)\": \"Cannot be determined: the word for 'child' is not supplied.\",\n  \"(b)\": \"Cannot be determined fully: the tag-question construction is not supplied.\",\n  \"(c)\": \"Cannot be determined: the verb 'speak' is not supplied.\",\n  \"(d)\": \"Cannot be determined fully: the word for 'father' is not supplied.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793293722,
+    "completedAt": 1793293740,
+    "durationMs": 18395
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "Cannot be determined: the word for 'child' is not supplied.",
+      "(b)": "Cannot be determined fully: the tag-question construction is not supplied.",
+      "(c)": "Cannot be determined: the verb 'speak' is not supplied.",
+      "(d)": "Cannot be determined fully: the word for 'father' is not supplied."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 4,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 0.0,
+      "(b)": 0.0,
+      "(c)": 0.0,
+      "(d)": 0.0
+    }
+  },
+  "seconds": 19.007968624937348,
+  "usage": {
+    "total": {
+      "totalTokens": 4524,
+      "inputTokens": 3963,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 561,
+      "reasoningOutputTokens": 477
+    },
+    "last": {
+      "totalTokens": 4524,
+      "inputTokens": 3963,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 561,
+      "reasoningOutputTokens": 477
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793293740.8536801
+}

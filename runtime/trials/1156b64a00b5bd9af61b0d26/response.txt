@@ -1,0 +1,12 @@
+{
+  "1.": "Cannot be determined from the information provided.",
+  "2.": "Cannot be determined from the information provided.",
+  "3.": "Cannot be determined from the information provided.",
+  "4.": "Cannot be determined from the information provided.",
+  "5.": "Cannot be determined from the information provided.",
+  "6.": "Cannot be determined from the information provided.",
+  "7.": "Cannot be determined from the information provided.",
+  "8.": "Cannot be determined from the information provided.",
+  "9.": "Cannot be determined from the information provided.",
+  "10.": "Cannot be determined from the information provided."
+}

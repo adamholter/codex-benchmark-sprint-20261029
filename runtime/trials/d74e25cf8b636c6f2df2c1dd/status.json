@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "bbeh",
+  "id": "mini:geometric_shapes:0101",
+  "category": "geometric_shapes",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288405.1247082,
+  "turn": {
+    "id": "01a18851-81c8-7d91-9c37-40ce3bc3e250",
+    "rootTurnId": "01a18851-81c8-7d91-9c37-40ce3bc3e250",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0f1df46067f059a1016ae368df9a5c8194a419f347e6209c2b",
+        "text": "**(F) 4, 7 and 8.**\n\n- **Right triangle:** vertices approximately \\((-16,5.7735)\\), \\((-7,-2.16375)\\), and \\((0,5.7735)\\). The right angle is at \\((-7,-2.16375)\\).\n- **Irregular convex pentagon:** the shape on the right, with vertices \\((0,0)\\), \\((7.69681,0)\\), \\((12.69681,2.88675)\\), \\((7.69681,5.7735)\\), and \\((0,5.7735)\\).\n- **Irregular concave pentagon:** the shape on the left, with vertices approximately \\((-16,5.7735)\\), \\((-22.61438,-1.7265)\\), \\((-13.61438,-9.66375)\\), \\((-16.80238,-0.18553)\\), and \\((-7,-2.16375)\\).",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288405,
+    "completedAt": 1793288417,
+    "durationMs": 11910
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(f) 4,7 and 8"
+  },
+  "seconds": 12.25717616698239,
+  "usage": {
+    "total": {
+      "totalTokens": 5806,
+      "inputTokens": 4994,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 812,
+      "reasoningOutputTokens": 591
+    },
+    "last": {
+      "totalTokens": 5806,
+      "inputTokens": 4994,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 812,
+      "reasoningOutputTokens": 591
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793288417.381582
+}

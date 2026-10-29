@@ -1,0 +1,62 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-RQ_Hard_2492",
+  "category": "Multi-RQ_Hard",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288652.8562381,
+  "turn": {
+    "id": "01a18855-491d-7c20-bdf6-44098a3318cf",
+    "rootTurnId": "01a18855-491d-7c20-bdf6-44098a3318cf",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0d1939144438ecef016ae36a044a548193b8a6f62140a723b2",
+        "text": "{\n  \"question1\": \"[[(1,1)(1,2),(1,4)(1,5),(2,3)(3,3),(3,1)(4,1),(4,6)(5,6),(5,2)(5,3),(6,4)(6,5)]]\",\n  \"question2\": \"[[(1,3)(1,4),(2,5)(2,6),(3,3)(3,4),(4,1)(4,2),(4,5)(4,6),(5,3)(5,4),(6,1)(6,2),(6,5)(6,6)]]\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288653,
+    "completedAt": 1793288709,
+    "durationMs": 56303
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "question1": "(1,1)(1,2),(1,4)(1,5),(2,3)(3,3),(3,1)(4,1),(4,6)(5,6),(5,2)(5,3),(6,4)(6,5)",
+      "question2": "(1,3)(1,4),(2,5)(2,6),(3,3)(3,4),(4,1)(4,2),(4,5)(4,6),(5,3)(5,4),(6,1)(6,2),(6,5)(6,6)"
+    },
+    "pass_rate": 0.5
+  },
+  "seconds": 56.54595362499822,
+  "usage": {
+    "total": {
+      "totalTokens": 9765,
+      "inputTokens": 5477,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 4288,
+      "reasoningOutputTokens": 4142
+    },
+    "last": {
+      "totalTokens": 9765,
+      "inputTokens": 5477,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 4288,
+      "reasoningOutputTokens": 4142
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793288709.402017
+}

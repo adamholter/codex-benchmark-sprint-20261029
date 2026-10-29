@@ -1,0 +1,87 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly_no_context",
+  "id": "136:Q 4.:no_context",
+  "category": "Monolingual",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289334.537201,
+  "turn": {
+    "id": "01a1885f-b372-7e13-a5a7-34391fe56109",
+    "rootTurnId": "01a1885f-b372-7e13-a5a7-34391fe56109",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0c1070f8083db00f016ae36c9a49088194bede64d9bfaf90cd",
+        "text": "{\n  \"14)\": \"dambumirri ga marrma rulu ga lurrkun\",\n  \"15)\": \"lurrkun dambumirri ga marrma rulu\",\n  \"16)\": \"dambumiriw dambumirri ga wanggang rulu ga wanggang\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289335,
+    "completedAt": 1793289371,
+    "durationMs": 36116
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "14)": "dambumirri ga marrma rulu ga lurrkun",
+      "15)": "lurrkun dambumirri ga marrma rulu",
+      "16)": "dambumiriw dambumirri ga wanggang rulu ga wanggang"
+    },
+    "score": 1.0,
+    "parts_correct": 3,
+    "parts_total": 3,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "14)": 1.0,
+      "15)": 1.0,
+      "16)": 1.0
+    }
+  },
+  "seconds": 37.3588567499537,
+  "usage": {
+    "total": {
+      "totalTokens": 4477,
+      "inputTokens": 4217,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 260,
+      "reasoningOutputTokens": 191
+    },
+    "last": {
+      "totalTokens": 4477,
+      "inputTokens": 4217,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 260,
+      "reasoningOutputTokens": 191
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 1b936777-03f2-4ef3-aeae-450852e54916",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a1885f-b2fa-7031-a6ac-f7ae6dfc863b",
+      "turnId": "01a1885f-b372-7e13-a5a7-34391fe56109"
+    }
+  ],
+  "finished_at": 1793289371.89554
+}

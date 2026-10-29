@@ -1,0 +1,91 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "PlanBench Blocksworld Hard - PDDL",
+  "id": "instance-70",
+  "category": "PDDL plan generation / exact plan validity",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793295128.6954439,
+  "turn": {
+    "id": "01a188b8-1c1d-74c1-ac8b-083145fbffc9",
+    "rootTurnId": "01a188b8-1c1d-74c1-ac8b-083145fbffc9",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0a0934d5d05b70a9016ae383237a7c8193922a1873e3bbb3eb",
+        "text": "(unstack g h)\n(put-down g)\n(unstack h k)\n(put-down h)\n(unstack k a)\n(put-down k)\n(unstack i d)\n(put-down i)\n(unstack d j)\n(put-down d)\n(unstack j c)\n(put-down j)\n(unstack e b)\n(put-down e)\n(pick-up g)\n(stack g a)\n(pick-up b)\n(stack b g)\n(pick-up d)\n(stack d b)\n(pick-up e)\n(stack e d)\n(pick-up j)\n(stack j h)\n(pick-up f)\n(stack f j)\n(pick-up c)\n(stack c f)\n(pick-up k)\n(stack k c)",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793295129,
+    "completedAt": 1793295140,
+    "durationMs": 10872
+  },
+  "score": {
+    "correct": true,
+    "extracted": [
+      "(unstack g h)",
+      "(put-down g)",
+      "(unstack h k)",
+      "(put-down h)",
+      "(unstack k a)",
+      "(put-down k)",
+      "(unstack i d)",
+      "(put-down i)",
+      "(unstack d j)",
+      "(put-down d)",
+      "(unstack j c)",
+      "(put-down j)",
+      "(unstack e b)",
+      "(put-down e)",
+      "(pick-up g)",
+      "(stack g a)",
+      "(pick-up b)",
+      "(stack b g)",
+      "(pick-up d)",
+      "(stack d b)",
+      "(pick-up e)",
+      "(stack e d)",
+      "(pick-up j)",
+      "(stack j h)",
+      "(pick-up f)",
+      "(stack f j)",
+      "(pick-up c)",
+      "(stack c f)",
+      "(pick-up k)",
+      "(stack k c)"
+    ],
+    "valid_actions": 30,
+    "reason": "goal_reached"
+  },
+  "seconds": 15.199002083973028,
+  "usage": {
+    "total": {
+      "totalTokens": 5236,
+      "inputTokens": 4296,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 940,
+      "reasoningOutputTokens": 792
+    },
+    "last": {
+      "totalTokens": 5236,
+      "inputTokens": 4296,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 940,
+      "reasoningOutputTokens": 792
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793295143.831947
+}

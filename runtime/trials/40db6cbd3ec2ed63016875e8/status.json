@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "bbeh",
+  "id": "mini:disambiguation_qa:0260",
+  "category": "disambiguation_qa",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288038.036701,
+  "turn": {
+    "id": "01a1884b-e815-7d31-84d1-4b86cf0c5d95",
+    "rootTurnId": "01a1884b-e815-7d31-84d1-4b86cf0c5d95",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_055549438d8bbf85016ae3676aecc0819498b2b9677b6c23b2",
+        "text": "**(E) Ambiguous.** The pronouns do not clearly establish whether the cook or the assistant had each background.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288038,
+    "completedAt": 1793288043,
+    "durationMs": 4895
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(e) ambiguous. the pronouns do not clearly establish whether the cook or the assistant had each background"
+  },
+  "seconds": 5.296682291897014,
+  "usage": {
+    "total": {
+      "totalTokens": 4079,
+      "inputTokens": 3879,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 200,
+      "reasoningOutputTokens": 169
+    },
+    "last": {
+      "totalTokens": 4079,
+      "inputTokens": 3879,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 200,
+      "reasoningOutputTokens": 169
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793288043.333262
+}

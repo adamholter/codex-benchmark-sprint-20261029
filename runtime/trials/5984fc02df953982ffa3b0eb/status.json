@@ -1,0 +1,57 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "bbeh",
+  "id": "mini:boardgame_qa:0400",
+  "category": "boardgame_qa",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793284366.585508,
+  "turn": {
+    "id": "01a18813-ef52-7d41-8389-01d11c55ae4e",
+    "rootTurnId": "01a18813-ef52-7d41-8389-01d11c55ae4e",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_02dd78e4988dc224016ae35914e0cc8197af6641b2da938019",
+        "text": "**disproved**\n\nThe mermaid is in Toronto, so she is in Canada. By Rules 26, 4, and 5, the flamingo smiles at the gorilla.\n\nThe beaver\u2019s 1795 movie was released after the French Revolution began. By Rules 20, 11, and 10, the flamingo does not acquire a photo of the seahorse.\n\nThus, by Rules 2 and 3, the chinchilla calls the dachshund. Rule 23 then establishes that the finch **does not neglect the badger**.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793284370,
+    "completedAt": 1793284374,
+    "durationMs": 3987
+  },
+  "score": {
+    "correct": true,
+    "extracted": "disproved"
+  },
+  "seconds": 8.153332374989986,
+  "usage": {
+    "total": {
+      "totalTokens": 5164,
+      "inputTokens": 4975,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 189,
+      "reasoningOutputTokens": 65
+    },
+    "last": {
+      "totalTokens": 5164,
+      "inputTokens": 4975,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 189,
+      "reasoningOutputTokens": 65
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "finished_at": 1793284374.7381
+}

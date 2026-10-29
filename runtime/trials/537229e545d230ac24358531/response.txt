@@ -1,0 +1,18 @@
+{
+  "a.": "Cannot determine: the table is missing.",
+  "b.": "Cannot determine",
+  "c.": "Cannot determine",
+  "d.": "Cannot determine",
+  "e.": "Cannot determine",
+  "f.": "Cannot determine",
+  "g.": "Cannot determine",
+  "h.": "Cannot determine",
+  "i.": "Cannot determine",
+  "j.": "Cannot determine",
+  "k.": "Cannot determine",
+  "l.": "Cannot determine",
+  "m.": "Cannot determine",
+  "n.": "Cannot determine",
+  "o.": "Cannot determine",
+  "p.": "Cannot determine"
+}

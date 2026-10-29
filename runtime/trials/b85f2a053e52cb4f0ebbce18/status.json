@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "fantom",
+  "id": "174-0-1-8536",
+  "category": "tom:belief:inaccessible:multiple-choice",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288826.2237709,
+  "turn": {
+    "id": "01a18857-ee56-7ea2-81ce-c22d2b65f9fe",
+    "rootTurnId": "01a18857-ee56-7ea2-81ce-c22d2b65f9fe",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_01b24eafb258f9e8016ae36a7df7fc8194b7ec899cdf6c49b9",
+        "text": "(a) Tanner does not know or is unaware about the technique Kristopher uses for meditation because he was not involved in the conversation when this was discussed.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288826,
+    "completedAt": 1793288830,
+    "durationMs": 3971
+  },
+  "score": {
+    "correct": true,
+    "extracted": "(a) Tanner does not know or is unaware about the technique Kristopher uses for meditation because he was not involved in the conversation when this was discussed.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 4.2269024580018595,
+  "usage": {
+    "total": {
+      "totalTokens": 4559,
+      "inputTokens": 4493,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 66,
+      "reasoningOutputTokens": 30
+    },
+    "last": {
+      "totalTokens": 4559,
+      "inputTokens": 4493,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 66,
+      "reasoningOutputTokens": 30
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793288830.450254
+}

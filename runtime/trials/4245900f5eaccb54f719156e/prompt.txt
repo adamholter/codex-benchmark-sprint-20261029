@@ -1,0 +1,21 @@
+You are an intelligent assistant specializing in solving custom puzzle problems. Below is a specific rule defined for a custom puzzle. Your task is to apply this rule accurately to the provided question.
+
+### Instructions:
+
+1. Thoroughly understand the rule provided. If needed, break down the rule into simpler components or steps.
+2. Apply the rule carefully to address the question presented.
+3. Verify your answer to ensure it aligns with the rule and the context of the puzzle.
+
+### Puzzle Rule:
+
+1.A series of words will be given in the question.
+2.These words have one thing in common, usually the same prefix of a suffix or the same combination of letters.
+3.This commonality will be given in the question.
+4.You need to answer which words or letter combinations are common to each of these words. e.g. If each of these words contains the name of an animal, the answer needs to be the name of the animal contained in each word in turn.
+
+### Question:
+"sunflower pineapple butterfly newspaper catfish", these words are all made up of two nouns words.
+Please output the nouns that make up each word.
+Please provide your answer in the same order as the words, and make sure to enclose your answer in double square brackets, like this: [[word1 word2 ...]].
+
+### Answer:

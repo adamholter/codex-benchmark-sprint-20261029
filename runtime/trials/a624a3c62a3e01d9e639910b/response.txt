@@ -1,0 +1,1 @@
+**(C)**. Its final disjunct is true: \(4-(10/5)=2\), and \(2\leq 8\). Therefore the whole expression is true.

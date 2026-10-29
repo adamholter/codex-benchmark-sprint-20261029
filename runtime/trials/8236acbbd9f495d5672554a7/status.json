@@ -1,0 +1,77 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-RQ_Hard_2331",
+  "category": "Multi-RQ_Hard",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793287141.712224,
+  "turn": {
+    "id": "01a1883e-3b9f-73f2-9171-5abbd0306569",
+    "rootTurnId": "01a1883e-3b9f-73f2-9171-5abbd0306569",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_02280fb19421aad1016ae3640b86788193a8bef9245372765c",
+        "text": "{\n  \"question1\": \"[[F:x|\u2713|\u2713];[F:x|\u2713|x,\u2713|x|x,\u2713|x|\u2713,\u2713|\u2713|x];[F:\u2713|x|x,\u2713|x|\u2713]]\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793287142,
+    "completedAt": 1793287180,
+    "durationMs": 38339
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "question1": "F:x|\u2713|\u2713];[F:x|\u2713|x,\u2713|x|x,\u2713|x|\u2713,\u2713|\u2713|x];[F:\u2713|x|x,\u2713|x|\u2713"
+    },
+    "pass_rate": 0.0
+  },
+  "seconds": 38.94877858401742,
+  "usage": {
+    "total": {
+      "totalTokens": 6659,
+      "inputTokens": 6473,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 186,
+      "reasoningOutputTokens": 122
+    },
+    "last": {
+      "totalTokens": 6659,
+      "inputTokens": 6473,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 186,
+      "reasoningOutputTokens": 122
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 485d3060-19a8-48c5-8bcc-06a6da9995b0",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a1883e-3b63-7c30-8f6d-a705b959417f",
+      "turnId": "01a1883e-3b9f-73f2-9171-5abbd0306569"
+    }
+  ],
+  "finished_at": 1793287180.6608582
+}

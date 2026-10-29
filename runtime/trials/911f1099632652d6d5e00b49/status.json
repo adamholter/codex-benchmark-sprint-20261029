@@ -1,0 +1,73 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly_no_context",
+  "id": "164:Q 2.1:no_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292492.492904,
+  "turn": {
+    "id": "01a1888f-df65-7412-9f5c-30e7aa21367c",
+    "rootTurnId": "01a1888f-df65-7412-9f5c-30e7aa21367c",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_09669249fa579f9b016ae378dd9be881948b56e505ce78f08d",
+        "text": "{\n  \"9\": \"Cannot be determined from the supplied information.\",\n  \"10\": \"Cannot be determined from the supplied information.\",\n  \"11\": \"Tuzzel teqcict.\",\n  \"12\": \"Cannot be determined from the supplied information.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292492,
+    "completedAt": 1793292510,
+    "durationMs": 17510
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "9": "Cannot be determined from the supplied information.",
+      "10": "Cannot be determined from the supplied information.",
+      "11": "Tuzzel teqcict.",
+      "12": "Cannot be determined from the supplied information."
+    },
+    "score": 0.25,
+    "parts_correct": 1,
+    "parts_total": 4,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "9": 0.0,
+      "10": 0.0,
+      "11": 1.0,
+      "12": 0.0
+    }
+  },
+  "seconds": 17.676912124967203,
+  "usage": {
+    "total": {
+      "totalTokens": 4728,
+      "inputTokens": 4311,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 417,
+      "reasoningOutputTokens": 358
+    },
+    "last": {
+      "totalTokens": 4728,
+      "inputTokens": 4311,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 417,
+      "reasoningOutputTokens": 358
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292510.169378
+}

@@ -1,0 +1,22 @@
+Eric: Hi Hailey, it's really refreshing to meet someone with interest in the entertainment industry.
+Hailey: Absolutely Eric! It can be a fascinating and complex sphere. There are so many trends and controversies happening all the time.
+Eric: Yes, that's right! Have you noticed the trend of reboots in the movie industry? It seems like they're everywhere.
+Hailey: Oh, yes! I've definitely noticed that. While some are worthwhile, others just seem like a money grab. What's your take on it?
+Eric: I personally believe that some classics should be left alone. However, I can see the appeal of reintroducing some stories to a new generation of viewers.
+Hailey: That's a balanced view. Speaking of controversies, what are your thoughts about the increasing scrutiny on how women are portrayed in the industry?
+Eric: It's a really important conversation we need to have. Representation and objectification are issues we need to tackle head on. The industry needs to do a better job in portraying diversity and providing equal opportunities, not only regarding gender, but also race.
+Hailey: I couldn’t agree more Eric. The time for change is indeed now. Changing gears a bit, what's your take on streaming platforms dominating traditional cinema?
+Eric: It's certainly a crucial battle. Streaming platforms offer incredible convenience and variety. Yet, there's something unique about the traditional cinema experience. Perhaps there's a middle ground to be found.
+Hailey: Probably, Eric. I also believe there should be a balance. It's a complex and ever-evolving industry. I look forward to seeing how it unravels.
+Arielle: Hey guys, sorry for the interruption, couldn't help but join when I saw you both engrossed in conversation. If you don't mind me asking, what's your favorite genre of music?
+Eric: Hi Arielle, nice to see you! I am a huge rock music fan, classics like The Beatles and Rolling Stones are some of my favorites. What about you Hailey?
+Hailey: Cool choice, Eric. I lean more towards pop, but also appreciate a good mix of indie.
+Arielle: Interesting to hear both of your preferences. I actually am more into country music but I definitely love exploring other genres. It all boils down to the soul of the song, doesn't it?
+Eric: Absolutely, Arielle. It's about the emotion the music invokes.
+Hailey: Couldn't agree more. The connection we establish with the music is predominant, regardless of the genre.
+
+Question: What does Arielle believe were the topics Eric and Hailey discussed concerning the movie industry?
+(a) Arielle believes that Eric and Hailey discussed topics such as the trend of movie reboots, the portrayal of women and representation in the industry, as well as the dominance of streaming platforms over traditional cinema in the movie industry.
+(b) Arielle does not know what topics Eric and Hailey discussed concerning the movie industry because she was not involved in the conversation when this was discussed.
+
+Choose an answer from above:

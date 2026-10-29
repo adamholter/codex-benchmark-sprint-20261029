@@ -1,0 +1,6 @@
+{
+  "21.": "boars",
+  "22.": "bad eyes",
+  "23.": "to eat resolutely",
+  "24.": "wild food"
+}

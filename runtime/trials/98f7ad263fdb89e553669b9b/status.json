@@ -1,0 +1,62 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-RQ_221",
+  "category": "Multi-RQ",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793293885.7884102,
+  "turn": {
+    "id": "01a188a5-2c07-7173-bd00-c1f0beeb1085",
+    "rootTurnId": "01a188a5-2c07-7173-bd00-c1f0beeb1085",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_037b5fa20c368286016ae37e4328c08190b99eab7e3661ad95",
+        "text": "{\"question1\":\"[[C]]\",\"question2\":\"[[C]]\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793293888,
+    "completedAt": 1793293891,
+    "durationMs": 2909
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "question1": "C",
+      "question2": "C"
+    },
+    "pass_rate": 1.0
+  },
+  "seconds": 5.708959292038344,
+  "usage": {
+    "total": {
+      "totalTokens": 4891,
+      "inputTokens": 4822,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 69,
+      "reasoningOutputTokens": 48
+    },
+    "last": {
+      "totalTokens": 4891,
+      "inputTokens": 4822,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 69,
+      "reasoningOutputTokens": 48
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793293891.496804
+}

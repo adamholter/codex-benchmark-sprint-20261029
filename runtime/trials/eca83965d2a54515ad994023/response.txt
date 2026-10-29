@@ -1,0 +1,10 @@
+**(J) 3, 4, 5 and 8.**
+
+Examples visible in the path are:
+
+- **Non-right triangle:** \((0,-13.97695)\), \((-12,6.80766)\), \((0,0)\).
+- **Right triangle:** \((-12,6.80766)\), \((-23.24914,13.18936)\), \((-19.5,19.79804)\).
+- **Nonrectangular parallelogram:** \((0,0)\), \((11.30719,-6.41463)\), \((11.30719,17.58537)\), \((0,24)\).
+- **Concave pentagon:** \((-19.5,19.79804)\), \((-24.7187,22.75864)\), \((-28.46784,16.14996)\), \((-23.29454,19.18919)\), \((-23.24914,13.18936)\).
+
+Some sides consist of multiple collinear path segments, as allowed in the question.

@@ -1,0 +1,5 @@
+{
+  "a.": "nda ntsawʔ nda",
+  "b.": "nui lien seskaʔai tilija",
+  "c.": "ranhũʔ lien"
+}

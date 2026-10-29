@@ -1,0 +1,64 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-RQ_Hard_2274",
+  "category": "Multi-RQ_Hard",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290357.120886,
+  "turn": {
+    "id": "01a1886f-4bda-7622-94cf-73f871fe09cd",
+    "rootTurnId": "01a1886f-4bda-7622-94cf-73f871fe09cd",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_06438630fd686d66016ae3707c57f081948b3ec11b64ea7cba",
+        "text": "{\n  \"question1\": \"[[January Athios unspecified, February Cornick Rubicorp, March Gralax Techtrin, April Exatris SpaceZen]]\",\n  \"question2\": \"& is not defined by the rules. If @ was intended: [[((4,3),(5,5))]]\",\n  \"question3\": \"[[B]]\",\n  \"question4\": \"& is not defined by the rules. If @ was intended: [[((3,4),(2,3))]]\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290357,
+    "completedAt": 1793290365,
+    "durationMs": 7385
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "question1": "January Athios unspecified, February Cornick Rubicorp, March Gralax Techtrin, April Exatris SpaceZen",
+      "question2": "((4,3),(5,5))",
+      "question3": "B",
+      "question4": "((3,4),(2,3))"
+    },
+    "pass_rate": 0.75
+  },
+  "seconds": 8.046295125037432,
+  "usage": {
+    "total": {
+      "totalTokens": 6018,
+      "inputTokens": 5617,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 401,
+      "reasoningOutputTokens": 290
+    },
+    "last": {
+      "totalTokens": 6018,
+      "inputTokens": 5617,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 401,
+      "reasoningOutputTokens": 290
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793290365.166959
+}

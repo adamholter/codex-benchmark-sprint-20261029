@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "fantom",
+  "id": "202-0-0-10103",
+  "category": "tom:belief:inaccessible:multiple-choice",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288055.6629581,
+  "turn": {
+    "id": "01a1884c-2c51-7980-9e14-56bb1775c62b",
+    "rootTurnId": "01a1884c-2c51-7980-9e14-56bb1775c62b",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0987e922a1a319de016ae36779d7408195ac97573bab0c2fc4",
+        "text": "(b) Arielle was not part of the conversation when Eric and Hailey discussed the movie industry.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288055,
+    "completedAt": 1793288057,
+    "durationMs": 2055
+  },
+  "score": {
+    "correct": true,
+    "extracted": "(b) Arielle was not part of the conversation when Eric and Hailey discussed the movie industry.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 2.3777289160061628,
+  "usage": {
+    "total": {
+      "totalTokens": 4366,
+      "inputTokens": 4316,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 50,
+      "reasoningOutputTokens": 24
+    },
+    "last": {
+      "totalTokens": 4366,
+      "inputTokens": 4316,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 50,
+      "reasoningOutputTokens": 24
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793288058.040589
+}

@@ -1,0 +1,62 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-Q_583",
+  "category": "Multi-Q",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793284388.2297301,
+  "turn": {
+    "id": "01a18814-379a-73a0-96c4-d189270df427",
+    "rootTurnId": "01a18814-379a-73a0-96c4-d189270df427",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0b9b10bfdd00c13c016ae35933ca708193b7c91df89b276346",
+        "text": "{\n  \"question1\": \"[[B]]\",\n  \"question2\": \"[[D]]\",\n  \"question3\": \"[[B]]\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793284388,
+    "completedAt": 1793284404,
+    "durationMs": 15698
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "question1": "B",
+      "question2": "D",
+      "question3": "B"
+    },
+    "pass_rate": 1.0
+  },
+  "seconds": 16.352520333020948,
+  "usage": {
+    "total": {
+      "totalTokens": 4805,
+      "inputTokens": 4597,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 208,
+      "reasoningOutputTokens": 170
+    },
+    "last": {
+      "totalTokens": 4805,
+      "inputTokens": 4597,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 208,
+      "reasoningOutputTokens": 170
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "finished_at": 1793284404.582196
+}

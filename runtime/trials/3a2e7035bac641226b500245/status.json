@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "fantom",
+  "id": "68-0-2-3563",
+  "category": "tom:belief:inaccessible:multiple-choice",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294712.818217,
+  "turn": {
+    "id": "01a188b1-c210-7bc0-b272-05f3f728556a",
+    "rootTurnId": "01a188b1-c210-7bc0-b272-05f3f728556a",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0bfde012fcdb3291016ae3817c20d08195bc6500c134ff5196",
+        "text": "(a) Isaiah does not know who shared their parents\u2019 wisdom before he joined the conversation.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294713,
+    "completedAt": 1793294716,
+    "durationMs": 3169
+  },
+  "score": {
+    "correct": true,
+    "extracted": "(a) Isaiah does not know who shared their parents\u2019 wisdom before he joined the conversation.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 3.7601747079752386,
+  "usage": {
+    "total": {
+      "totalTokens": 4291,
+      "inputTokens": 4242,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 49,
+      "reasoningOutputTokens": 25
+    },
+    "last": {
+      "totalTokens": 4291,
+      "inputTokens": 4242,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 49,
+      "reasoningOutputTokens": 25
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793294716.577826
+}

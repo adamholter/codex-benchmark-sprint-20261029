@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "fantom",
+  "id": "174-0-1-8536",
+  "category": "tom:belief:inaccessible:multiple-choice",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288823.7826738,
+  "turn": {
+    "id": "01a18857-e52b-74b2-a448-a493f8c2afd8",
+    "rootTurnId": "01a18857-e52b-74b2-a448-a493f8c2afd8",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0d61d047f6debc39016ae36a7ad6fc8196888757aca836d8b4",
+        "text": "(a) Tanner was not involved when Kristopher described his meditation technique.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288824,
+    "completedAt": 1793288827,
+    "durationMs": 3284
+  },
+  "score": {
+    "correct": true,
+    "extracted": "(a) Tanner was not involved when Kristopher described his meditation technique.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 3.6411199159920216,
+  "usage": {
+    "total": {
+      "totalTokens": 4549,
+      "inputTokens": 4493,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 56,
+      "reasoningOutputTokens": 36
+    },
+    "last": {
+      "totalTokens": 4549,
+      "inputTokens": 4493,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 56,
+      "reasoningOutputTokens": 36
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793288827.4189599
+}

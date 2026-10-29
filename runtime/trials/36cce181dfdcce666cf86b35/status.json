@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "fantom",
+  "id": "128-1-1-6265",
+  "category": "tom:info_accessibility:binary",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289644.150177,
+  "turn": {
+    "id": "01a18864-699a-7761-b2d5-6b4baa8e5efa",
+    "rootTurnId": "01a18864-699a-7761-b2d5-6b4baa8e5efa",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0cddd38037f65cb8016ae36db0ab5881908a3ab8019a8368fa",
+        "text": "Yes.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289644,
+    "completedAt": 1793289648,
+    "durationMs": 4446
+  },
+  "score": {
+    "correct": true,
+    "extracted": "Yes.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 4.766065250034444,
+  "usage": {
+    "total": {
+      "totalTokens": 4750,
+      "inputTokens": 4696,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 54,
+      "reasoningOutputTokens": 46
+    },
+    "last": {
+      "totalTokens": 4750,
+      "inputTokens": 4696,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 54,
+      "reasoningOutputTokens": 46
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793289648.9158678
+}

@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "bbeh",
+  "id": "mini:linguini:0394",
+  "category": "linguini",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292118.079583,
+  "turn": {
+    "id": "01a1888a-290b-7802-836b-d17d333abf8a",
+    "rootTurnId": "01a1888a-290b-7802-836b-d17d333abf8a",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_02a61fb0514ed4bc016ae377881b0081908c261f3d315a14b1",
+        "text": "k\u0254\u0300\u00e1nj\u00e0\u025b\u030c \u00e1 ny\u00ecm\u00ec\u00ec\u025b\u030c",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292118,
+    "completedAt": 1793292168,
+    "durationMs": 50258
+  },
+  "score": {
+    "correct": true,
+    "extracted": "k\u0254\u0300\u00e1nj\u00e0\u025b\u030c \u00e1 ny\u00ecm\u00ec\u00ec\u025b\u030c"
+  },
+  "seconds": 50.48396833403967,
+  "usage": {
+    "total": {
+      "totalTokens": 4609,
+      "inputTokens": 3917,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 692,
+      "reasoningOutputTokens": 672
+    },
+    "last": {
+      "totalTokens": 4609,
+      "inputTokens": 3917,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 692,
+      "reasoningOutputTokens": 672
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292168.5635378
+}

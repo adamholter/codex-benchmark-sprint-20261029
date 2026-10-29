@@ -1,0 +1,71 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly",
+  "id": "20:Q 1.4:full_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292375.113559,
+  "turn": {
+    "id": "01a1888e-1577-7462-b6e1-0d4415a25af0",
+    "rootTurnId": "01a1888e-1577-7462-b6e1-0d4415a25af0",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_097536cba8ece392016ae3785a93e08195a12ab0a8c5e73912",
+        "text": "{\"a\":\"kapirtirlangu\",\"b\":\"kapirtirlangu\",\"c\":\"kapirdirlangu\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292375,
+    "completedAt": 1793292378,
+    "durationMs": 3404
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "a": "kapirtirlangu",
+      "b": "kapirtirlangu",
+      "c": "kapirdirlangu"
+    },
+    "score": 1.0,
+    "parts_correct": 3,
+    "parts_total": 3,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a": 1.0,
+      "b": 1.0,
+      "c": 1.0
+    }
+  },
+  "seconds": 3.7188418329460546,
+  "usage": {
+    "total": {
+      "totalTokens": 4926,
+      "inputTokens": 4831,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 95,
+      "reasoningOutputTokens": 67
+    },
+    "last": {
+      "totalTokens": 4926,
+      "inputTokens": 4831,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 95,
+      "reasoningOutputTokens": 67
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292378.832305
+}

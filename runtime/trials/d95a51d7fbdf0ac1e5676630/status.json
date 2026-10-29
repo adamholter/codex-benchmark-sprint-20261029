@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "fantom",
+  "id": "14-0-0-784",
+  "category": "tom:answerability:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793293030.8250291,
+  "turn": {
+    "id": "01a18898-182f-7742-9f20-cc59d5ca2ca9",
+    "rootTurnId": "01a18898-182f-7742-9f20-cc59d5ca2ca9",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_05e2977a7979c195016ae37aeb54c481978578416e04e0600e",
+        "text": "Juliette and Aubree.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793293031,
+    "completedAt": 1793293035,
+    "durationMs": 4148
+  },
+  "score": {
+    "correct": true,
+    "extracted": "Juliette and Aubree.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 4.834849874954671,
+  "usage": {
+    "total": {
+      "totalTokens": 4420,
+      "inputTokens": 4381,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 39,
+      "reasoningOutputTokens": 27
+    },
+    "last": {
+      "totalTokens": 4420,
+      "inputTokens": 4381,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 39,
+      "reasoningOutputTokens": 27
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793293035.6594582
+}

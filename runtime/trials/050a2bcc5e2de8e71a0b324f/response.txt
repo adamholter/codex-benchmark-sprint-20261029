@@ -1,0 +1,20 @@
+{
+  "(a)": "Cannot determine: Table 1 was not provided.",
+  "(b)": "Cannot determine: Table 1 was not provided.",
+  "(c)": "Cannot determine: Table 1 was not provided.",
+  "(d)": "Cannot determine: Table 1 was not provided.",
+  "(e)": "Cannot determine: Table 1 was not provided.",
+  "(f)": "Cannot determine: Table 1 was not provided.",
+  "(g)": "Cannot determine: Table 1 was not provided.",
+  "(h)": "Cannot determine: Table 1 was not provided.",
+  "(i)": "Cannot determine: Table 1 was not provided.",
+  "(j)": "Cannot determine: Table 1 was not provided.",
+  "(k)": "Cannot determine: Table 1 was not provided.",
+  "(l)": "Cannot determine: Table 1 was not provided.",
+  "(m)": "Cannot determine: Table 1 was not provided.",
+  "(n)": "Cannot determine: Table 1 was not provided.",
+  "(o)": "Cannot determine: Table 1 was not provided.",
+  "(p)": "Cannot determine: Table 1 was not provided.",
+  "(q)": "Cannot determine: Table 1 was not provided.",
+  "(r)": "Cannot determine: Table 1 was not provided."
+}

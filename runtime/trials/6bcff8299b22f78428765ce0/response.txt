@@ -1,0 +1,19 @@
+{
+  "1": "Cannot determine: translations and letters not provided",
+  "2": "Cannot determine: translations and letters not provided",
+  "3": "Cannot determine: translations and letters not provided",
+  "4": "Cannot determine: translations and letters not provided",
+  "5": "Cannot determine: translations and letters not provided",
+  "6": "Cannot determine: translations and letters not provided",
+  "7": "Cannot determine: translations and letters not provided",
+  "8": "Cannot determine: translations and letters not provided",
+  "9": "Cannot determine: translations and letters not provided",
+  "10": "Cannot determine: translations and letters not provided",
+  "11": "Cannot determine: translations and letters not provided",
+  "12": "Cannot determine: translations and letters not provided",
+  "13": "Cannot determine: translations and letters not provided",
+  "14": "Cannot determine: translations and letters not provided",
+  "15": "Cannot determine: translations and letters not provided",
+  "16": "Cannot determine: translations and letters not provided",
+  "17": "Cannot determine: translations and letters not provided"
+}

@@ -1,0 +1,3 @@
+No valid grid satisfies these clues. The first row is forced to be `4 3 2 1`. The top and bottom clues for column 4 then force row 2, column 4 to be `4`. But no permutation of the remaining heights gives row 2 visibility clues `2` from the left and `1` from the right without repeating a height in a column.
+
+So there is no answer in the requested grid format.

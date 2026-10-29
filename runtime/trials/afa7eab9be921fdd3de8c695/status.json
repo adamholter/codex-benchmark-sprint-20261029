@@ -1,0 +1,83 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly_no_context",
+  "id": "184:Q 9.4:no_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289561.951065,
+  "turn": {
+    "id": "01a18863-28a6-7290-a8df-f37fb1e65d18",
+    "rootTurnId": "01a18863-28a6-7290-a8df-f37fb1e65d18",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_062e4c7b158ef2fb016ae36d8deec481979a9c8b2b25fe0067",
+        "text": "{\"1.\":\"Cannot be determined from the supplied sheet; the relevant Tseltal examples are missing.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289562,
+    "completedAt": 1793289614,
+    "durationMs": 52273
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "1.": "Cannot be determined from the supplied sheet; the relevant Tseltal examples are missing."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 1,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "1.": 0.0
+    }
+  },
+  "seconds": 52.65008316701278,
+  "usage": {
+    "total": {
+      "totalTokens": 4457,
+      "inputTokens": 4186,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 271,
+      "reasoningOutputTokens": 243
+    },
+    "last": {
+      "totalTokens": 4457,
+      "inputTokens": 4186,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 271,
+      "reasoningOutputTokens": 243
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: eda159b5-7155-49df-8f3a-a446c584ea60",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a18863-2876-7d20-998a-d97954a65795",
+      "turnId": "01a18863-28a6-7290-a8df-f37fb1e65d18"
+    }
+  ],
+  "finished_at": 1793289614.601093
+}

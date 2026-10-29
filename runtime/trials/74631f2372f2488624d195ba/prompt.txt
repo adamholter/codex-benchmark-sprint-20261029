@@ -1,0 +1,97 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+The Catastrophic Quaken can eat rocks and spit lava, jut like the Gronckle. This dragon can curl itself into a ball, just like an armadillo and can smash itself against the ground. This dragon also strong enough to crash rocks with its body as it curls like a ball. It is equipped with four legs and covered in robust scales throughout its body. Their height is about 50-60 feet, their width is about 30-45 feet and length is 55 feet.
+This is Berk. It's 12 days north of Hopeless and a few degrees south of Freezing to Death. It's located solidly on the Meridian of Misery. My village. In a word: sturdy. It's been here for seven generations but every single building is new. We have fishing, hunting, and a charming view of the sunsets. The only problems are the pests. You see, most places have mice or mosquitoes. We have... ... dragons.
+Berk is getting ready for the traditional annual boat race called the Regatta which starts in a few days, when suddenly a herd of sheep run throughout the village, causing minor trouble. The Dragon Riders then start riding their dragons to catch the sheep.
+Hiccup participated in founding the Dragon Academy at the age of 15, where dragon riders at Berk Dragon Academy learn how to train dragons, including the skill of flying on dragonback.
+The Isle of Berk is an island located in the Barbaric Archipelago, serving as the primary setting for the 'How to Train Your Dragon' series. Comprising the main island and surrounding sea stacks, the main island features two towering rock peaks. On a small peninsula in the southern part of the main island lies the only human settlement on Berk—the village of Berk.
+Hiccup, is the tenacious, spirited son of Stoick the Vast, chieftain of Berk. No longer a runt, but still lanky by comparison, Hiccup is the island's ace flier and resident dragon expert. Celebrated as a hometown hero for ushering in an era of peace between Vikings and dragons, Hiccup now prefers to spend his time exploring uncharted lands and discovering new dragons with the help of his trusty Night Fury, Toothless. However, Stoick's plan to pass down the mantle of Chief to his son has Hiccup fleeing in the opposite direction, for fear of becoming his father and losing sight of himself. But as the call of adventure draws Hiccup deep into lands unknown, his search for identity will be answered in ways he could never have dreamed.
+Depending on the method, training a Skrill can be incredibly difficult or close to impossible. They are aggressive and stubborn, refusing to be trained even in times of crisis. However, by treating it with respect and showing it mercy instead of cruelty, you can gain its trust. The Skrill would return its gratitude with a dignified bow.
+In How to Train Your Dragon, some large reptiles, such as certain dragon species, are known to inhabit extremely cold regions, including polar islands.
+New Berk is elevated far above sea level, making it hard for non-dragon-riders (or those without Hiccup's wingsuits) to access. It contains fields, waterfalls, thick forests, and lakes with sandy beaches. It is considerably larger than the original Berk, seeing as overcrowding did not seem to be a problem once the Berkians arrived there.
+Some dragons such as the Prickleboggle have cold hides. Saddle warmers were developed for riding such dragons, especially for longer periods of time.
+In Riders of Berk, Changewing eggs have a triangular shape, and they constantly change colors. Changewing eggs are often mistaken for Stones of Good Fortune, a gem that will give good fortune to whoever has it for the rest of their life. If an egg is stolen, adult Changewings will hunt around for where it is, as seen in Gem of a Different Color.
+Snoggletog is an annual holiday which is celebrated on Berk. Snoggletog is inspired by modern day Christmas. Stoick and Hiccup call it the "winter holiday". Similar to how Santa places his gifts in children's stockings, Vikings are to present gifts in helmets, boots, or other places for little children. The children believe the gifts come from the god Odin. In Gift of the Night Fury, dragon eggs were tied up in ribbons and placed there.
+The Dragon Manual, also frequently referred to as the Book of Dragons, is a Viking encyclopedia of all the dragon species discovered by the Hooligan Tribe. Considered an important piece of knowledge, it is how the Vikings of Berk know the weaknesses and methods needed to slay the dragons, and in the future, to train them. As it is displayed in the movie, the Dragon Manual has many errors throughout it.
+Dragonese is the language that the dragons speak in the books. Hiccup tries to train Toothless by speaking to him in Dragonese, but it doesn't really work any better than yelling at him.
+The short film unfolds approximately three years before the events of the sequel and after the occurrences of the second season. During this time, Hiccup and Snotlout engage in a competition, honing their skills in capturing sheep for the annual Dragon Race—the newly established official dragon sport event on Berk. The objective of the race is to capture the highest number of sheep.
+The Night Fury, belongs to the Strike Class, was once considered to be one of the most mysterious and fearsome species of dragons. In fact, until Hiccup befriended Toothless, no one even knew what a Night Fury looked like because they preferred to attack at night, when their black scales allowed them to blend into the night sky, making them mostly invisible.
+Red Deaths are an alpha species and are capable of enforcing smaller dragons to obey, even against their wills. The Red Death at the end of How to Train Your Dragon appeared unable to stop the riders' dragons from attacking it, nor call upon other dragons for help. 
+Dragon hunters were able to make dragons, such as Scardian's pack of Forest Island, very hostile towards humans after torturing them.The hunters were also able to ensure obedience from a pair of Quakens by using giant hammers. The hunters also forced a Shellfire to fire it's plasma-boulders by using the giant hammers to torture it.
+Biokinetic energy is the energy generated by the body's movement and physical activity. Dragon riders rely on dragons to achieve flight, harnessing the dragons' movement for this purpose.
+Dragon Nip alters Dragon behavior, paralleling Cat Nip in real life. It affects different dragons differently, ranging from no reaction, to relaxation, to playfulness, to aggression. One of the most effective known ways of taming a Gronckle is to rub a bit of Dragon Nip on its nose, then scratch and tickle it until it bonds with the tamer. Whispering Deaths, however, appear to be immune to the effects of Dragon Nip and sneeze when they are near it.
+
+**Encryption Rules:**
+
+- Input:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Output:
+    - Ciphertext: A string.
+- Preparation:
+    - Numerical-Index Mapping Table
+        - '..' : 5
+        - '.-' : 4
+        - './' : 9
+        - '-.' : 8
+        - '--' : 6
+        - '-/' : 7
+        - '/.' : 3
+        - '/-' : 1
+        - '//' : 2
+    - morse_code Table
+        - morse_code = {
+                'A': '.-',     'B': '-...',   'C': '-.-.',   'D': '-..',
+                'E': '.',      'F': '..-.',   'G': '--.',    'H': '....',
+                'I': '..',     'J': '.---',   'K': '-.-',    'L': '.-..',
+                'M': '--',     'N': '-.',     'O': '---',    'P': '.--.',
+                'Q': '--.-',   'R': '.-.',    'S': '...',    'T': '-',
+                'U': '..-',    'V': '...-',   'W': '.--',    'X': '-..-',
+                'Y': '-.--',   'Z': '--..',
+            }
+- Encryption Steps:
+    - Convert each character in the plaintext into Morse code according to the morse_code Table, with each character separated by a /, e.g., the Morse code corresponding to AB is '.-/-...'.
+    - Divide Morse code into two pairs of characters. If the length of the Morse code is odd, the last character, without the following mapping, is finally added to the end of the ciphertext.
+    - Each pair of characters is converted into a corresponding numeric string according to the numeric index mapping table.
+    - The encrypted message is represented by a string.
+
+ **Decryption Rules:**
+
+- Input:
+    - Ciphertext: A numeric string.
+- Output:
+    - Plaintext: Uppercase letters string.
+- Preparation:
+    - Numerical-Index Mapping Table (Same as encryption)
+    - morse_code Table (Same as encryption)
+- Decryption Steps (exact opposite of encryption steps):
+    - Each digit in the ciphertext is converted to the corresponding character pair according to the digit-index mapping table. If there is a non-numeric character at the end of the ciphertext, it is not processed. By this point, the complete Morse code is obtained.
+    - Obtain the Morse code for each character by splitting the Morse code by /.
+    - Convert the Morse code of each character to the corresponding plaintext character according to the morse_code table.
+    - The final plaintext character is an uppercase string.
+
+
+### Questions:
+question1:
+Plaintext: "UM"
+
+Please provide the encrypted answer, encapsulated in double square brackets. For example, the format should be: [[encrypted answer]].
+
+question2:
+In How To Train Your Dragon, which statement about hunting and killing wild animals is correct?
+Options: A.In the current state of technology, hunters always carry rifles when hunting.##B.Conservationists advocate using non-lethal tools such as cameras for observation and photography, rather than supporting the killing of wild animals.##C.Dragons are powerful and dangerous creatures; no one can successfully capture them, but people have mastered the art of dragon training.##D.Dragon hunters can capture dragons, and they have the ability to train and subjugate them.
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+
+### Answers:

@@ -1,0 +1,73 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly_no_context",
+  "id": "179:Q 4.1:no_context",
+  "category": "Rosetta / Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793286889.088332,
+  "turn": {
+    "id": "01a1883a-604c-74a2-a2f3-052d90f28e35",
+    "rootTurnId": "01a1883a-604c-74a2-a2f3-052d90f28e35",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0126d6e0b9d69452016ae362ed7ea081908b92842a67a6b3ce",
+        "text": "{\n  \"(a)\": \"Cannot be determined from the information provided.\",\n  \"(b)\": \"Cannot be determined from the information provided.\",\n  \"(c)\": \"Cannot be determined from the information provided.\",\n  \"(d)\": \"Cannot be determined from the information provided.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793286889,
+    "completedAt": 1793286893,
+    "durationMs": 4124
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "Cannot be determined from the information provided.",
+      "(b)": "Cannot be determined from the information provided.",
+      "(c)": "Cannot be determined from the information provided.",
+      "(d)": "Cannot be determined from the information provided."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 4,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 0.0,
+      "(b)": 0.0,
+      "(c)": 0.0,
+      "(d)": 0.0
+    }
+  },
+  "seconds": 4.604981458047405,
+  "usage": {
+    "total": {
+      "totalTokens": 4147,
+      "inputTokens": 4033,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 114,
+      "reasoningOutputTokens": 54
+    },
+    "last": {
+      "totalTokens": 4147,
+      "inputTokens": 4033,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 114,
+      "reasoningOutputTokens": 54
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793286893.692988
+}

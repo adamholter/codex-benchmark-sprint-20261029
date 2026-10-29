@@ -1,0 +1,1 @@
+\(X = 2254\), so \(X' = 10\). \(Y = 9\), so \(Y' = 31\). Benjamin’s first paycheck is on 03-31-2006; with paychecks every 10 days, his next paycheck after 05-28-2006 is **05-30-2006**.

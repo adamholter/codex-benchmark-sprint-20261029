@@ -1,0 +1,74 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "korbench",
+  "id": "puzzle_65",
+  "category": "puzzle",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793287794.331198,
+  "turn": {
+    "id": "01a18848-3012-7832-94d3-18e93d5cf296",
+    "rootTurnId": "01a18848-3012-7832-94d3-18e93d5cf296",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0648f22fc4957330016ae366a858888197b520cd5ec7c30779",
+        "text": "[[$150 Debra Kara, $160 Inez Vicki, $170 Eula Misty, $180 Beulah Nancy]]",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793287794,
+    "completedAt": 1793287848,
+    "durationMs": 54008
+  },
+  "score": {
+    "correct": true,
+    "extracted": "$150 Debra Kara, $160 Inez Vicki, $170 Eula Misty, $180 Beulah Nancy"
+  },
+  "seconds": 54.60927279200405,
+  "usage": {
+    "total": {
+      "totalTokens": 4217,
+      "inputTokens": 4037,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 180,
+      "reasoningOutputTokens": 147
+    },
+    "last": {
+      "totalTokens": 4217,
+      "inputTokens": 4037,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 180,
+      "reasoningOutputTokens": 147
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 25ec26da-4b70-4d68-8765-9e42a46b8c88",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a18848-2fe8-7543-9ed1-a10edc610a12",
+      "turnId": "01a18848-3012-7832-94d3-18e93d5cf296"
+    }
+  ],
+  "finished_at": 1793287848.940177
+}

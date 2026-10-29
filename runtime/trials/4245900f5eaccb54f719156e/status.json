@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "korbench",
+  "id": "puzzle_4",
+  "category": "puzzle",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793286441.2900858,
+  "turn": {
+    "id": "01a18833-8b12-77c0-a004-3b91c6b7296b",
+    "rootTurnId": "01a18833-8b12-77c0-a004-3b91c6b7296b",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0ca3ba8ea14bea29016ae3612e01948196aace075d7620c60b",
+        "text": "[[sun flower pine apple butter fly news paper cat fish]]",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793286441,
+    "completedAt": 1793286446,
+    "durationMs": 4582
+  },
+  "score": {
+    "correct": true,
+    "extracted": "sun flower pine apple butter fly news paper cat fish"
+  },
+  "seconds": 5.064597374992445,
+  "usage": {
+    "total": {
+      "totalTokens": 4030,
+      "inputTokens": 3977,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 53,
+      "reasoningOutputTokens": 35
+    },
+    "last": {
+      "totalTokens": 4030,
+      "inputTokens": 3977,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 53,
+      "reasoningOutputTokens": 35
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793286446.3545861
+}

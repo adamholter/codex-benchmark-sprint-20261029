@@ -1,0 +1,39 @@
+You are an intelligent assistant that helps with various logical reasoning tasks. Below is a custom-defined rule for a specific type of logic. When responding, please ensure that your output adheres to the specified logical rules and format.
+
+### Instructions:
+
+1. Identify the relevant properties and objects as specified in the rule.
+2. Apply the given logical operations or reasoning patterns.
+3. Ensure your output is formatted according to the specified notation and symbols.
+
+### Logic Rule:
+
+Custom Argumentation Method Rules
+
+1. Direct Argumentation Methods
+
+- E+ Method: Using specific instances to argue for the truth of a proposition.
+- Syl+ Method: Using universal propositions as premises and supporting conclusions through syllogistic reasoning.
+- Metaph+ Method: Using metaphors to argue for the truth of a topic.
+- Case+ Method: When it is necessary to prove that a proposition holds true under various conditions, prove its truthfulness by discussing each case separately.
+
+2. Indirect Argumentation Methods
+
+- Contra- Method: Indirectly confirming the truth of the original proposition by refuting the contrary proposition that contradicts the original one. For example, proving the necessity of improving scientific and cultural levels by negating the contrary proposition that "party and government leaders do not need to improve their scientific and cultural levels."
+- Elim- Method: Indirectly determining the original proposition to be true by eliminating other possibilities related to the original proposition as false. For example, supporting the view that learning science and technology and resisting decadent culture by eliminating the possibilities of other foreign learning methods.
+
+### Question:
+"Light has mass. This is because light exerts pressure on the matter it strikes, and if light were massless, it would not generate such pressure."
+
+What argumentation method does this use?
+
+A.E+ Method
+B.Syl+ Method
+C.Metaph+ Method
+D.Case+ Method
+E.Contra- Method
+F.Elim- Method
+
+Please give your answers in [[A/B/C/D/E/F]] format.
+
+### Answer:

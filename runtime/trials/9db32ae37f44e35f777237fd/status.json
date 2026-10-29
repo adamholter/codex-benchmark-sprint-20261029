@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "fantom",
+  "id": "39-0-2-2422",
+  "category": "tom:info_accessibility:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292695.857019,
+  "turn": {
+    "id": "01a18892-fa15-75c0-9ea8-e81570824d18",
+    "rootTurnId": "01a18892-fa15-75c0-9ea8-e81570824d18",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_05d46a1baf4c18d2016ae3799cb4008190a52501366981a9fe",
+        "text": "Angelo and Alexa.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292696,
+    "completedAt": 1793292700,
+    "durationMs": 4888
+  },
+  "score": {
+    "correct": true,
+    "extracted": "Angelo and Alexa.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 5.1493154999334365,
+  "usage": {
+    "total": {
+      "totalTokens": 4542,
+      "inputTokens": 4482,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 60,
+      "reasoningOutputTokens": 49
+    },
+    "last": {
+      "totalTokens": 4542,
+      "inputTokens": 4482,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 60,
+      "reasoningOutputTokens": 49
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292701.005892
+}

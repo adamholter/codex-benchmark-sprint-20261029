@@ -1,0 +1,5 @@
+{
+  "a.": "Cannot be determined: no vocabulary or grammar information is provided.",
+  "b.": "Cannot be determined: no vocabulary or grammar information is provided.",
+  "c.": "Cannot be determined: no vocabulary or grammar information is provided."
+}

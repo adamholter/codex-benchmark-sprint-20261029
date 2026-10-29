@@ -1,0 +1,12 @@
+Which option has more similar movies in terms of whether a group of people will like them or not?
+Options:
+(A) Pretty Woman, Interview with the Vampire The Vampire Chronicles, Batman, Babe, The Mask
+(B) Bright, Zoom, Unicorn City, Pretty Woman, Babe
+(C) Unicorn City, Interview with the Vampire The Vampire Chronicles, Babe, Batman, The Mask
+(D) Unicorn City, The Mask, Pretty Woman, Zoom, Bright
+(E) Babe, Bright, Zoom, Unicorn City, The Mask
+(F) The Mask, Batman, Interview with the Vampire The Vampire Chronicles, Bright, Babe
+(G) The Mask, Unicorn City, Batman, Zoom, Bright
+(H) The Mask, Zoom, Babe, Pretty Woman, Bright
+(I) Pretty Woman, Bright, Zoom, Interview with the Vampire The Vampire Chronicles, Unicorn City
+(J) The Mask, Unicorn City, Bright, Interview with the Vampire The Vampire Chronicles, Pretty Woman

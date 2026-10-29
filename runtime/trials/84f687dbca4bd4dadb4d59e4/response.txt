@@ -1,0 +1,6 @@
+{
+  "a.": "kąmp'įwnemą ipikaxi",
+  "b.": "p'ine ipikimų",
+  "c.": "kiwcine iwp'imų",
+  "d.": "ipęna p'ǫyxi"
+}

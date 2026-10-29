@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "bbeh",
+  "id": "mini:spatial_reasoning:0188",
+  "category": "spatial_reasoning",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289745.698941,
+  "turn": {
+    "id": "01a18865-f611-7491-8711-c4e4eaf11394",
+    "rootTurnId": "01a18865-f611-7491-8711-c4e4eaf11394",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0c345baea7b76484016ae36e146d0081949738270108d4f476",
+        "text": "jeans",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289745,
+    "completedAt": 1793289748,
+    "durationMs": 2657
+  },
+  "score": {
+    "correct": true,
+    "extracted": "jeans"
+  },
+  "seconds": 3.0814161670859903,
+  "usage": {
+    "total": {
+      "totalTokens": 4008,
+      "inputTokens": 3919,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 89,
+      "reasoningOutputTokens": 81
+    },
+    "last": {
+      "totalTokens": 4008,
+      "inputTokens": 3919,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 89,
+      "reasoningOutputTokens": 81
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793289748.779833
+}

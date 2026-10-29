@@ -1,0 +1,83 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly",
+  "id": "122:Q 9.3:full_context",
+  "category": "Monolingual / Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793287551.073666,
+  "turn": {
+    "id": "01a18844-79db-7711-97c5-a2ea397eda18",
+    "rootTurnId": "01a18844-79db-7711-97c5-a2ea397eda18",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0ac442af2abd7b42016ae365f04bcc8194b49715caa60b2963",
+        "text": "{\"d.\":\"Northern Pame uses base 8: \u2018a tenhiu\u0272 b\u2019 means 8a + b. In the eights position, 1, 2 and 3 take the special forms kara, kanuje and karnu\u0294. Central Pame uses base 20, with an intermediate grouping of 10: \u2018a lien b\u2019 means 20a + b, while seska\u0294ai means 10 and is followed by the units for 11\u201319. Central Pame also forms 8 as nda ntsaw\u0294 and 9 as nda ntsaw\u0294 nda. Thus Northern Pame groups by eights, whereas Central Pame groups by twenties and tens.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793287551,
+    "completedAt": 1793287669,
+    "durationMs": 118058
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "d.": "Northern Pame uses base 8: \u2018a tenhiu\u0272 b\u2019 means 8a + b. In the eights position, 1, 2 and 3 take the special forms kara, kanuje and karnu\u0294. Central Pame uses base 20, with an intermediate grouping of 10: \u2018a lien b\u2019 means 20a + b, while seska\u0294ai means 10 and is followed by the units for 11\u201319. Central Pame also forms 8 as nda ntsaw\u0294 and 9 as nda ntsaw\u0294 nda. Thus Northern Pame groups by eights, whereas Central Pame groups by twenties and tens."
+    },
+    "score": 1.0,
+    "parts_correct": 1,
+    "parts_total": 1,
+    "empty_reference_parts": 1,
+    "part_scores": {
+      "d.": 1.0
+    }
+  },
+  "seconds": 118.462616207893,
+  "usage": {
+    "total": {
+      "totalTokens": 5602,
+      "inputTokens": 4412,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1190,
+      "reasoningOutputTokens": 1034
+    },
+    "last": {
+      "totalTokens": 5602,
+      "inputTokens": 4412,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1190,
+      "reasoningOutputTokens": 1034
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 2bbb0d8d-5820-426e-826d-f4d7247d393e",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a18844-79ae-7f53-84e4-31a2f2dbb43d",
+      "turnId": "01a18844-79db-7711-97c5-a2ea397eda18"
+    }
+  ],
+  "finished_at": 1793287669.535858
+}

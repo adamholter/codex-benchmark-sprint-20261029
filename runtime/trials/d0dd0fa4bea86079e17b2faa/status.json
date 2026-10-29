@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "bbeh",
+  "id": "mini:geometric_shapes:0101",
+  "category": "geometric_shapes",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288416.597756,
+  "turn": {
+    "id": "01a18851-ae5a-7541-b0ea-7c00360dcfcf",
+    "rootTurnId": "01a18851-ae5a-7541-b0ea-7c00360dcfcf",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0bb6d2e064a17f2a016ae369018b0c8195a45abf50e50ec422",
+        "text": "**(F) 4, 7, 8** \u2014 the lines show a right triangle, an irregular convex pentagon, and an irregular concave pentagon.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288416,
+    "completedAt": 1793288449,
+    "durationMs": 33108
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(f) 4,7,8 \u2014 the lines show a right triangle,an irregular convex pentagon,and an irregular concave pentagon"
+  },
+  "seconds": 33.39138704095967,
+  "usage": {
+    "total": {
+      "totalTokens": 8711,
+      "inputTokens": 4994,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 3717,
+      "reasoningOutputTokens": 3676
+    },
+    "last": {
+      "totalTokens": 8711,
+      "inputTokens": 4994,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 3717,
+      "reasoningOutputTokens": 3676
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793288449.988864
+}

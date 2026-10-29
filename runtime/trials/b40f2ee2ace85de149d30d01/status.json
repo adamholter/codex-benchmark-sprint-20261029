@@ -1,0 +1,75 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly_no_context",
+  "id": "191:Q 1.2:no_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793285414.216222,
+  "turn": {
+    "id": "01a18823-de38-77c0-b0b9-2482c5ab8ff1",
+    "rootTurnId": "01a18823-de38-77c0-b0b9-2482c5ab8ff1",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0451d8f83a2f1d4e016ae35d28ed0c8196b402a436399843ab",
+        "text": "{\n  \"(f)\": \"Cannot be determined; the table is missing.\",\n  \"(g)\": \"Cannot be determined; the table is missing.\",\n  \"(h)\": \"Cannot be determined; the table is missing.\",\n  \"(i)\": \"Cannot be determined; the table is missing.\",\n  \"(j)\": \"Cannot be determined; the table is missing.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793285414,
+    "completedAt": 1793285417,
+    "durationMs": 3110
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(f)": "Cannot be determined; the table is missing.",
+      "(g)": "Cannot be determined; the table is missing.",
+      "(h)": "Cannot be determined; the table is missing.",
+      "(i)": "Cannot be determined; the table is missing.",
+      "(j)": "Cannot be determined; the table is missing."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 5,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(f)": 0.0,
+      "(g)": 0.0,
+      "(h)": 0.0,
+      "(i)": 0.0,
+      "(j)": 0.0
+    }
+  },
+  "seconds": 3.37480908294674,
+  "usage": {
+    "total": {
+      "totalTokens": 4147,
+      "inputTokens": 4036,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 111,
+      "reasoningOutputTokens": 33
+    },
+    "last": {
+      "totalTokens": 4147,
+      "inputTokens": 4036,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 111,
+      "reasoningOutputTokens": 33
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793285417.590624
+}

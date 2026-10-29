@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "bbeh",
+  "id": "mini:buggy_tables:0063",
+  "category": "buggy_tables",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294460.601942,
+  "turn": {
+    "id": "01a188ad-e9a1-7671-8766-4e0b2b2efe34",
+    "rootTurnId": "01a188ad-e9a1-7671-8766-4e0b2b2efe34",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0e7935ad7d1a6938016ae3809d0f78819494baf0df36d5c9f3",
+        "text": "After undoing each row\u2019s rotation, the qualifying rows give a sleep-minutes median of 469.5 and a phone-screen-time median of 36. Their absolute difference, rounded to two decimal places, is **433.50**.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294461,
+    "completedAt": 1793294494,
+    "durationMs": 32875
+  },
+  "score": {
+    "correct": false,
+    "extracted": "after undoing each row\u2019s rotation,the qualifying rows give a sleep-minutes median of 469.5 and a phone-screen-time median of 36. their absolute difference,rounded to two decimal places,is 433.50"
+  },
+  "seconds": 33.72199970902875,
+  "usage": {
+    "total": {
+      "totalTokens": 10132,
+      "inputTokens": 6115,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 4017,
+      "reasoningOutputTokens": 3962
+    },
+    "last": {
+      "totalTokens": 10132,
+      "inputTokens": 6115,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 4017,
+      "reasoningOutputTokens": 3962
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793294494.3233259
+}

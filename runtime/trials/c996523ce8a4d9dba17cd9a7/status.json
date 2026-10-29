@@ -1,0 +1,71 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly",
+  "id": "169:Q A4.2.:full_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292560.057343,
+  "turn": {
+    "id": "01a18890-e77f-7911-a5e1-19ee0d164b49",
+    "rootTurnId": "01a18890-e77f-7911-a5e1-19ee0d164b49",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0a5e5a48d7ccd45f016ae379159c6c8193aa8ca3c6fd8ba3b6",
+        "text": "{\"(a)\":\"baby rabbit\",\"(b)\":\"kothekwani\",\"(c)\":\"wiineetepi\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292560,
+    "completedAt": 1793292566,
+    "durationMs": 5756
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "baby rabbit",
+      "(b)": "kothekwani",
+      "(c)": "wiineetepi"
+    },
+    "score": 0.3333333333333333,
+    "parts_correct": 1,
+    "parts_total": 3,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 0.0,
+      "(b)": 0.0,
+      "(c)": 1.0
+    }
+  },
+  "seconds": 5.9690492920344695,
+  "usage": {
+    "total": {
+      "totalTokens": 4685,
+      "inputTokens": 4413,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 272,
+      "reasoningOutputTokens": 240
+    },
+    "last": {
+      "totalTokens": 4685,
+      "inputTokens": 4413,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 272,
+      "reasoningOutputTokens": 240
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292566.0260549
+}

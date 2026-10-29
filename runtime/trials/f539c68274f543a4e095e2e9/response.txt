@@ -1,0 +1,10 @@
+{
+  "question1": "[[4]]",
+  "question2": "[[D]]",
+  "question3": "[[A A A A A A,A 1 A X A X,5 A 3 X A X,X A X A A X,X A 2 A X 6,X X A A A X]]",
+  "question4": "[[4]]",
+  "question5": "Unable to determine.",
+  "question6": "[[3]]",
+  "question7": "Unable to determine.",
+  "question8": "[[IAFHDBXNMYE]]"
+}

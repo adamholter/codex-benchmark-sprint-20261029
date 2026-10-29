@@ -1,0 +1,71 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly_no_context",
+  "id": "187:Q 2.2:no_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793291435.247639,
+  "turn": {
+    "id": "01a1887f-be12-7120-bf7f-b43995399deb",
+    "rootTurnId": "01a1887f-be12-7120-bf7f-b43995399deb",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_064b18bca1fff45b016ae374b560f48196b9baee2a31d8683a",
+        "text": "{\"a.\":\"Cannot be determined: the English correspondences are missing.\",\"b.\":\"Cannot be determined: the English correspondences are missing.\",\"c.\":\"Cannot be determined: the English correspondences are missing.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793291435,
+    "completedAt": 1793291446,
+    "durationMs": 10772
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "a.": "Cannot be determined: the English correspondences are missing.",
+      "b.": "Cannot be determined: the English correspondences are missing.",
+      "c.": "Cannot be determined: the English correspondences are missing."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 3,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 0.0,
+      "b.": 0.0,
+      "c.": 0.0
+    }
+  },
+  "seconds": 11.092819624929689,
+  "usage": {
+    "total": {
+      "totalTokens": 4227,
+      "inputTokens": 4063,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 164,
+      "reasoningOutputTokens": 114
+    },
+    "last": {
+      "totalTokens": 4227,
+      "inputTokens": 4063,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 164,
+      "reasoningOutputTokens": 114
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793291446.340014
+}

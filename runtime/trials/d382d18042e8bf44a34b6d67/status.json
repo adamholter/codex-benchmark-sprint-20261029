@@ -1,0 +1,67 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly",
+  "id": "185:Q 10.3:full_context",
+  "category": "Match-up / Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288302.658398,
+  "turn": {
+    "id": "01a1884f-f12f-70d0-95ca-415177d68844",
+    "rootTurnId": "01a1884f-f12f-70d0-95ca-415177d68844",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0f74e08fe79d66db016ae36896ef908197bc449ddaef03ccfe",
+        "text": "{\"(a)\":\"It marks an ongoing action (the present progressive: \u201cbe \u2026-ing\u201d).\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288302,
+    "completedAt": 1793288343,
+    "durationMs": 40726
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "It marks an ongoing action (the present progressive: \u201cbe \u2026-ing\u201d)."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 1,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 0.0
+    }
+  },
+  "seconds": 40.98751520796213,
+  "usage": {
+    "total": {
+      "totalTokens": 5547,
+      "inputTokens": 4939,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 608,
+      "reasoningOutputTokens": 580
+    },
+    "last": {
+      "totalTokens": 5547,
+      "inputTokens": 4939,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 608,
+      "reasoningOutputTokens": 580
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793288343.645636
+}

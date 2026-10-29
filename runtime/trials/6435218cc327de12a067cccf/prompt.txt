@@ -1,0 +1,109 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+**Encryption Rules:**
+
+- Input:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Output:
+    - Ciphertext: A string.
+- Preparation:
+    - Numerical-Index Mapping Table
+        - '..' : 5
+        - '.-' : 4
+        - './' : 9
+        - '-.' : 8
+        - '--' : 6
+        - '-/' : 7
+        - '/.' : 3
+        - '/-' : 1
+        - '//' : 2
+    - morse_code Table
+        - morse_code = {
+                'A': '.-',     'B': '-...',   'C': '-.-.',   'D': '-..',
+                'E': '.',      'F': '..-.',   'G': '--.',    'H': '....',
+                'I': '..',     'J': '.---',   'K': '-.-',    'L': '.-..',
+                'M': '--',     'N': '-.',     'O': '---',    'P': '.--.',
+                'Q': '--.-',   'R': '.-.',    'S': '...',    'T': '-',
+                'U': '..-',    'V': '...-',   'W': '.--',    'X': '-..-',
+                'Y': '-.--',   'Z': '--..',
+            }
+- Encryption Steps:
+    - Convert each character in the plaintext into Morse code according to the morse_code Table, with each character separated by a /, e.g., the Morse code corresponding to AB is '.-/-...'.
+    - Divide Morse code into two pairs of characters. If the length of the Morse code is odd, the last character, without the following mapping, is finally added to the end of the ciphertext.
+    - Each pair of characters is converted into a corresponding numeric string according to the numeric index mapping table.
+    - The encrypted message is represented by a string.
+
+ **Decryption Rules:**
+
+- Input:
+    - Ciphertext: A numeric string.
+- Output:
+    - Plaintext: Uppercase letters string.
+- Preparation:
+    - Numerical-Index Mapping Table (Same as encryption)
+    - morse_code Table (Same as encryption)
+- Decryption Steps (exact opposite of encryption steps):
+    - Each digit in the ciphertext is converted to the corresponding character pair according to the digit-index mapping table. If there is a non-numeric character at the end of the ciphertext, it is not processed. By this point, the complete Morse code is obtained.
+    - Obtain the Morse code for each character by splitting the Morse code by /.
+    - Convert the Morse code of each character to the corresponding plaintext character according to the morse_code table.
+    - The final plaintext character is an uppercase string.
+
+1. Statistical Reasoning Categories and Symbolization
+
+(1) U-Generalization
+    - Symbol: `U`
+    - Definition: If all individuals in a sample possess a certain attribute, we infer that all individuals in the population may also possess that attribute.
+
+(2) P-Generalization
+    - Symbol: `P`
+    - Definition: If a portion of the individuals in a sample possess a certain attribute, we infer that a certain proportion of the individuals in the population may possess that attribute.
+
+(3) C-Reasoning
+    - Symbol: `C`
+    - Definition: If two samples exhibit similarities in certain attributes, we infer that these two samples may come from populations with similar attribute proportions.
+
+2. Statistical Attribute Inference Based on Samples
+
+(1) Rule Description:
+- Randomly select a representative sample from the population.
+- Observe and record specific attributes of individuals in the sample.
+- Depending on the frequency of the attributes and the type of sample, apply the following rules:
+
+(2) U-Generalization Rule:
+- If all individuals (denoted as `n`) in the sample possess attribute `A`, then we can infer that all individuals in the population also possess attribute `A`.
+- Symbolization: If `U(A, n)`, then `∀x ∈ P, A(x)`.
+
+(3) P-Generalization Rule:
+- If `k` individuals in the sample possess attribute `A`, where `k < n`, then we can infer that approximately `k/n` proportion of the individuals in the population possess attribute `A`.
+- Symbolization: If `P(A, k, n)`, then `Pr(A) ≈ k/n`.
+
+(4) C-Reasoning Rule:
+- If two samples S1 and S2 exhibit similar proportions in attribute `A`, i.e., `P(A, k1, n1)` and `P(A, k2, n2)`, then we can infer that these two samples may come from populations with similar proportions of attribute `A`.
+- Symbolization: If `C(A, k1/n1, k2/n2)`, then `Pr(A, P1) ≈ Pr(A, P2)`.
+
+
+### Questions:
+question1:
+In a survey of student satisfaction in two different schools, 180 out of 200 students in School X said they were satisfied with the school's facilities, and 210 out of 300 students in School Y said they were satisfied.
+
+Using the C-Reasoning Rule, 
+denote the attribute 'student satisfaction' as F.
+
+Therefore, the whole can be symbolised to denote why?
+
+Please give the answer in the format [[]].
+
+
+### Answers:

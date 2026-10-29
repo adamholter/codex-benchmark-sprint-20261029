@@ -1,0 +1,63 @@
+You are an intelligent assistant that helps with various logical reasoning tasks. Below is a custom-defined rule for a specific type of logic. When responding, please ensure that your output adheres to the specified logical rules and format.
+
+### Instructions:
+
+1. Identify the relevant properties and objects as specified in the rule.
+2. Apply the given logical operations or reasoning patterns.
+3. Ensure your output is formatted according to the specified notation and symbols.
+
+### Logic Rule:
+
+Five Methods for Exploring Causal Relationships
+
+1. Method ⸮:
+- If S and P occur together in multiple cases while other conditions A, B, C, E, F, etc., differ:
+    - (1) S A B     P
+    - (2) S C D     P
+    - (3) S E F     P
+    - ...
+    - Therefore, S and P may have a causal relationship.
+
+2. Method ؆:
+- If P occurs when S is present and does not occur when S is absent:
+    - (1) S A B     P
+    - (2) - A B     P
+    - Therefore, S and P may have a causal relationship.
+
+3. Method ꙮ:
+- Positive group: S and P occur together, while other conditions A, B, C, D, E, F, etc., differ:
+    - Positive group
+        - (1) S A B     P
+        - (2) S C D    P
+        - (3) S E F     P
+    - Negative group: S is absent, P is also absent, and other conditions A, C, D, E, F, etc., differ:
+        - Negative group
+            - (1') - A C    -
+            - (2') - D E    -
+            - (3') - B F    -
+    - Therefore, S and P may have a causal relationship.
+
+4. Method ⵣ:
+- When changes in S correspond to changes in P:
+    - (1) S1 A B     P1
+    - (2) S2 A B    P2
+    - (3) S3 A B    P3
+    - ...
+    - Therefore, S and P may have a causal relationship.
+
+5. Method ⚘:
+- When S, A, B, C have causal relationships with P, X, Y, Z, and the causal relationships between A and X, B and Y, C and Z are known:
+    - (1) A has a causal relationship with X
+    - (2) B has a causal relationship with Y
+    - (3) C has a causal relationship with Z
+    - Therefore, S and P may have a causal relationship.
+
+### Question:
+Research has shown that the impact of family education styles on children's emotional intelligence varies across cultures. Through an analysis of similarities and differences, we first examined a group of families whose parents adopted an educational style that actively participated and encouraged the expression of emotions. Children in these families demonstrated higher levels of emotional intelligence, showing greater emotional expression and problem-solving skills. In contrast, the other group of parents adopted a passive and negative educational style with little involvement in their children's emotional expression and problem-solving processes. In these families, the children had significantly lower EQ development and showed emotional suppression and inadequate problem-solving skills. Therefore, we conclude that a family education style that actively participates in and encourages the expression of emotions significantly contributes to the development of children's emotional intelligence.
+
+The causal derivation of this discourse is consistent with which approach:
+A. ⸮ method   B. ؆ method   C. ꙮ method   D. ⵣ method   E. ⚘ method
+
+Please give your answer in [[A/B/C/D/E]] format.
+
+### Answer:

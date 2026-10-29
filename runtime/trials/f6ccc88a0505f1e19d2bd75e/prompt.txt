@@ -1,0 +1,80 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+In the future, an unprecedented geological disaster destroys human civilization, with Earth's lifeforms nearly extinct.
+A floating fortress from the old world, entrusted with the duty of an aerial prison, miraculously survived the great catastrophe due to its uniqueness. The surviving prison guards and prisoners in the sky named it "Lighthouse", symbolizing "illuminating the last future of mankind."
+However, after the great disaster, a new ecosystem gradually appeared on the fragmented earth - the Mana ecosystem: strange plants shimmer under luminescent lights, and fierce monsters hunt humans everywhere. Looking over everything, the people of the Lighthouse use this airborne city as their final sanctuary.
+Birth, aging, illness, and death are inevitable processes in life. In a lighthouse, if you are determined to have a life value equal to zero, then the doctor will not save you. If the doctor saves you, it is a violation of the three principles of the lighthouse.
+For a more effective response to the apocalyptic threat, cold and harsh survival rules breed within the lighthouse, and humans can only struggle to live in this twisted and oppressive environment. At the same time, the Lighthouse needs continuous energy supply to remain afloat. With the increasing threat from the ground, they organized a combat squad named "Waste Hunters". The Waste Hunters are well-trained and can often bring back key supplies of energy, medicine, and food from the perilous ground ruin. But even the powerful Waste Hunters have never dared to step deep into the mysterious ecosystem to explore the truth of everything.The treatment of the elderly is a journey, that is, to return to the "uninhabitable" ground, to explore the unknown world for the lighthouse.
+Gravity body is a type of exoskeleton mecha, based on the rare old-world powered mecha, equipped with energy and attack-defense modules, it is a very rare combat resource for the Lighthouse. When humans wear it, it's as if they've become "Iron Warriors".
+The light bearers are the enforcers who supervise the light-shadow value of the Lighthouse residents and also responsible for maintaining the daily order of the Lighthouse. Concealing their faces beneath detection masks, people's understanding of Bright Guardians is limited to their cold judgments and harsh punishments. They patrol the Lighthouse like ghosts. Emotionless words may sound at any moment, making everyone blench in fear.
+light bearers held a detection device to measure the light-shade value of the people in the hall. This light-shade value could probably refer to the emotional fluctuations of a person, ranging from normal to volatile, then to danger, followed by degradation, and finally abyss.
+"Light and Shadow Church", although a religious organization, is indeed one of the three major forces within the "Lighthouse", boasting the largest number of members and the greatest influence. It could even be said that it has the greatest power!
+The Lord of the City is the leader of the lighthouse, possessing the highest supervision and command of the lighthouse.
+The lighthouse has a gene matching mechanism, where everyone's genes are stored in a database. This mechanism matches men and women of suitable age to go to the Dawn Hall to complete reproduction tasks, producing offspring with high-quality genes.
+After being born, the children on the lighthouse will be divided into either the "Upper people" or the "Normal people" group based on their genetics. They will be collectively raised and nurtured by the lighthouse, where they will be assigned a job.
+The 'normal people' live humbly and die humbly. They are not worthy of having a name, only a number. They can only eat foods like 'bug cakes' and live in pigeon cages. Even if they get sick, no one cares to treat them.
+The organs of the normal civilians cannot be transplanted to the upper civilians. They would rather sacrifice an upper civilian than accept a transplant of an organ from a normal civilian.
+Dr. Carrie is the Medical and Ecological Director at the lighthouse, who is very obsessive about scientific experiments.
+Bai Yuekui, a genius scientist from the old world, is astoundingly talented and has a clear sense of love and hate. She is the boss of the ground team and has strong combat power. When Bai Yuekui first appeared, she was standing on the shoulder of a monarch-level beast, in her next appearance, she subdued Mark who had turned into a beast, and helped him remove some of the beast energy from his body. Afterwards, she revealed the secrets of the world to Mark, and they started to cooperate after establishing trust.
+
+
+### Questions:
+question1:
+How do you normally refer to a specific person amongst the common crowd?
+Options: A. Profession ##B. Number ##C. Address ##D. Name
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+question2:
+Who is tasked with maintaining human order?
+Options: A. Police ##B. Civilians ##C. Light bearers ##D. Wilderness hunters
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+question3:
+After falling ill and seeking a doctor's help, which of the following options is the doctor most likely to take?
+Options: A.Ask about medical history, actively start treatment ##B. Bribery as a condition for treatment ##C. Use the life formula to calculate life value, if the life value is high enough, treatment will be started ##D. Review contribution points, if contribution points are high enough, treatment will be started
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+question4:
+In the following options, which is the most relevant to social status?
+Options: A. Wealth ##B. Personality ##C. Genetic testing results ##D. Beliefs
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+question5:
+Among the following options, which organization possess a religious nature?
+Options: A. Christianity ##B. The Democratic Party ##C.Church of Light and Shadow ##D. Light bearers
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+question6:
+Which of the following ways of organ transplant is in accordance with the regulations?
+Options: A. Normal citizens voluntarily donate their organs to others ##B. ForcingNormal citizens to donate their organs to others ##C. The upper class can only accept organs from the upper class ##D. The upper class receives organs from extreme beasts
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+question7:
+Which of the following methods can effectively enhance the body's resistance without causing harm to the body?
+Options: A. Physical exercise ##B. Stimulants ##C. Gravity body ##D. Becoming a devouring beast
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+question8:
+When people get old and retire, how is the government likely to treat these people?
+Options: A. Provide pensions ##B. Ignore the needs of the elderly ##C. Be asked to leave the lighthouse and go to the ground ##D. Be asked to join the Church of Light and Shadow and participate in the affairs of the Church of Light and Shadow
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+question9:
+What did human governance evolve from?
+Options: A. Primitive tribes ##B. Commercial transactions ##C. Prison guards and prisoners ##D. Extraterrestrial civilizations
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+
+### Answers:

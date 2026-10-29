@@ -1,0 +1,71 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+Symbols: Use # for necessity, $ for possibility, letters like p, q, r... for propositions, ! for negation, + for conjunction, - for disjunction, = for equivalence, and > for implication.
+
+1. Four Modal Proposition Relationships:
+(1) * Relationship:
+- Pairs of Propositions: #p and $¬p; #¬p and $p
+- Property: They cannot both be true or both be false.
+
+(2) x Relationship:
+- Pairs of Propositions: #p and #¬p
+- Property: They cannot both be true, but they can both be false.
+
+(3) @ Relationship:
+- Pairs of Propositions: $p and $¬p
+- Property: They cannot both be false, but they can both be true.
+
+(4) % Relationship:
+- Pairs of Propositions: #p and $p; #¬p and $¬p
+- Property: They can both be true or both be false.
+
+2. Modal Logic Inference Formulas:
+(1) #p ←→ !$!p
+(2) $p ←→ !#!p
+(3) #!p ←→ !$p
+(4) $!p ←→ !#p
+(5) #p → !#!p
+(6) #!p → !#p
+(7) !$p → $!p
+(8) !$!p → $p
+(9) #p → $p
+(10) #!p → $!p
+(11) !$p → !#p
+(12) !$!p → !#!p
+(13) #p → p
+(14) #!p → !p
+(15) p → $p
+(16) !p → $!p
+
+
+### Questions:
+question1:
+Symbolise the following modal propositions:
+
+(1) There must be either life or no life in a fire. Use p to denote "there is life on Mars".
+(2) If Li Ming plays well, then it is possible for him to win the championship. Use p to indicate that "Li Ming plays well" and q to indicate that "he wins the championship".
+
+First symbolize the propositions, then enclose them in parentheses, and finally add modal symbols around them.
+Please give your answer in [[];[]] format.
+
+question2:
+"The experiment is not necessarily not going to succeed"
+can infer "The experiment may possibly succeed”. 
+Which truth-value modal reasoning formula corresponds to this?
+
+Please answer in the format of [[number]].
+
+
+### Answers:

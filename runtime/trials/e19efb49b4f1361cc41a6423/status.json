@@ -1,0 +1,67 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly_no_context",
+  "id": "220:Q 5.4:no_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793295315.291519,
+  "turn": {
+    "id": "01a188ba-f2b4-7c30-ad3c-101330b6ae20",
+    "rootTurnId": "01a188ba-f2b4-7c30-ad3c-101330b6ae20",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0bc03b7e19693a7f016ae3844444d88190821133eb098e955f",
+        "text": "{\"30.\":\"A shrimp drinks water.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793295315,
+    "completedAt": 1793295428,
+    "durationMs": 112964
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "30.": "A shrimp drinks water."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 1,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "30.": 0.0
+    }
+  },
+  "seconds": 113.32327858393546,
+  "usage": {
+    "total": {
+      "totalTokens": 6976,
+      "inputTokens": 4233,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 2743,
+      "reasoningOutputTokens": 2727
+    },
+    "last": {
+      "totalTokens": 6976,
+      "inputTokens": 4233,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 2743,
+      "reasoningOutputTokens": 2727
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793295428.61401
+}

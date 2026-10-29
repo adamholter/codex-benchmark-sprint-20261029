@@ -1,0 +1,6 @@
+{
+  "(a)": "Il-ktieb tat-tifla huwa żgħir.",
+  "(b)": "Il-kelb maħmuġ ma jarax it-tifel tal-ġardinar.",
+  "(c)": "Il-qattus tal-bidwi kbir huwa tajjeb.",
+  "(d)": "It-tifla tara l-kolazzjon tat-tifel għani."
+}

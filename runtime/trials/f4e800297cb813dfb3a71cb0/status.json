@@ -1,0 +1,17 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "bbeh",
+  "id": "mini:linguini:0250",
+  "category": "linguini",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "interrupted",
+  "started_at": 1793295503.978376,
+  "seconds": 14.660393083002418,
+  "usage": null,
+  "errors": [
+    "global stop or deadline"
+  ],
+  "native_retry_notices": [],
+  "finished_at": 1793295518.638557
+}

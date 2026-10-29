@@ -1,0 +1,85 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly",
+  "id": "146:Q 3.1:full_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793285634.6745658,
+  "turn": {
+    "id": "01a18827-3b46-7ab3-83fc-be48a15d2572",
+    "rootTurnId": "01a18827-3b46-7ab3-83fc-be48a15d2572",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_08440c6b62bedf29016ae35e04f4bc81939d605514946187e4",
+        "text": "{\"a.\":\"N\",\"b.\":\"N\",\"c.\":\"S\",\"d.\":\"S\",\"e.\":\"N\",\"f.\":\"S\",\"g.\":\"S\",\"h.\":\"S\",\"i.\":\"S\",\"j.\":\"N\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793285634,
+    "completedAt": 1793285637,
+    "durationMs": 2557
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "a.": "N",
+      "b.": "N",
+      "c.": "S",
+      "d.": "S",
+      "e.": "N",
+      "f.": "S",
+      "g.": "S",
+      "h.": "S",
+      "i.": "S",
+      "j.": "N"
+    },
+    "score": 1.0,
+    "parts_correct": 10,
+    "parts_total": 10,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 1.0,
+      "b.": 1.0,
+      "c.": 1.0,
+      "d.": 1.0,
+      "e.": 1.0,
+      "f.": 1.0,
+      "g.": 1.0,
+      "h.": 1.0,
+      "i.": 1.0,
+      "j.": 1.0
+    }
+  },
+  "seconds": 2.812900082906708,
+  "usage": {
+    "total": {
+      "totalTokens": 4777,
+      "inputTokens": 4722,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 55,
+      "reasoningOutputTokens": 0
+    },
+    "last": {
+      "totalTokens": 4777,
+      "inputTokens": 4722,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 55,
+      "reasoningOutputTokens": 0
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793285637.487293
+}

@@ -1,0 +1,28 @@
+Everett: It's great to meet with both of you. I'm a huge fan of outdoor activities, especially hiking. I find it great for both physical fitness and stress relief. What kind of sports or outdoor activities are you into?
+Kaleb: Nice to meet you too, Everett. Well, my passion is rock climbing. The adrenaline, the physical challenge, definitely a great way to keep in shape.
+Elliana: Hi, guys! I'm so excited to be part of this conversation. I love running. It's an incredible exercise for mind and body, plus it gives the chance to explore the city.
+Everett: Rock climbing, that's cool, Kaleb! I've never tried it. How would you suggest someone get into it?
+Kaleb: Start with an indoor climbing gym if you can. The people there can help guide you and the conditions are a bit more predictable than outside.
+Everett: Sounds like a good plan. And Elliana, your running passion sounds interesting. Have you participated in any races?
+Elliana: Actually, yes! I’ve run a few half marathons over the past couple of years. I’m hoping to run a full marathon by next year.
+Kaleb: That's amazing, Elliana. Running a marathon is a significant accomplishment.
+Everett: Definitely commendable, Elliana. Also, I'd like to come back to rock climbing, Kaleb, it's definitely piqued my interest!
+Kaleb: I'm glad to hear that, Everett. Anytime you're ready to give it a go, let me know!
+Elliana: And if you guys ever want to do a fun run or something, I'd be more than happy to join!
+Everett: Sounds perfect. It's awesome to meet fellow fitness enthusiasts. Here's to more adventures ahead!
+Katrina: Hey everyone, sorry for missing the start of the discussion. Outdoor activities are always a major part of my routine too. I particularly enjoy cycling.
+Everett: Welcome back, Katrina! Cycling, that's really great. I have often thought about integrating biking into my regime.
+Kaleb: Cycling is a great way to see the scenery and get exercise at the same time. Have you got any specific gear recommendations, Katrina?
+Katrina: Oh yes, getting a comfortable saddle and wearing proper fitting cycle shoes are crucial. They make a huge difference on long rides.
+Elliana: That's an handy tip, Katrina. Even as a runner, a right footwear makes so much difference.
+Everett: Totally agree with you guys. A good pair of shoes is essential whether hiking, running or cycling. But for rock climbing, Kaleb, what would you suggest?
+Kaleb: Well, for beginners, it’s important to invest in a good harness, and climbing shoes that fits you well. A helmet is a must too for rock climbing.
+Katrina: That seems quite intense! You certainly need to have the right gear to ensure safety.
+Elliana: Safety is priority, no matter what sport we choose to do.
+Everett: Right! Quality gear is crucial for performance, safety, and enjoyment. This is a great discussion, we should do this more often.
+
+Question: What does Kaleb believe about Katrina's belief regarding Elliana's running goal for next year?
+(a) Kaleb believes that Katrina is unaware of Elliana's running goal for next year because Katrina was not present during the conversation where this was discussed.
+(b) Kaleb believes that Katrina thinks Elliana hopes to run a full marathon next year.
+
+Choose an answer from above:

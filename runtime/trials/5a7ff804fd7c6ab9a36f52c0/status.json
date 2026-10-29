@@ -1,0 +1,64 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-RQ_Hard_2274",
+  "category": "Multi-RQ_Hard",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290359.3985531,
+  "turn": {
+    "id": "01a1886f-55b5-7200-807e-ee4009c46fee",
+    "rootTurnId": "01a1886f-55b5-7200-807e-ee4009c46fee",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0cef09421a2b4227016ae370881dcc8195a31c1afbd1542559",
+        "text": "{\n  \"question1\": \"[[January Athios undetermined, February Cornick Rubicorp, March Gralax Techtrin, April Exatris SpaceZen]]\",\n  \"question2\": \"[[((4,3),(5,5))]]\",\n  \"question3\": \"[[B]]\",\n  \"question4\": \"[[((3,4),(2,3))]]\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290360,
+    "completedAt": 1793290376,
+    "durationMs": 16468
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "question1": "January Athios undetermined, February Cornick Rubicorp, March Gralax Techtrin, April Exatris SpaceZen",
+      "question2": "((4,3),(5,5))",
+      "question3": "B",
+      "question4": "((3,4),(2,3))"
+    },
+    "pass_rate": 0.75
+  },
+  "seconds": 17.370520666940138,
+  "usage": {
+    "total": {
+      "totalTokens": 7222,
+      "inputTokens": 5617,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1605,
+      "reasoningOutputTokens": 1519
+    },
+    "last": {
+      "totalTokens": 7222,
+      "inputTokens": 5617,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1605,
+      "reasoningOutputTokens": 1519
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793290376.768437
+}

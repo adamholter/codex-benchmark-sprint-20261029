@@ -1,0 +1,10 @@
+{
+  "question1": "[[No valid path: no arrow leads to the end]]",
+  "question2": "[[No valid path: no arrow leads to the end]]",
+  "question3": "[[A]]",
+  "question4": "[[43]]",
+  "question5": "[[25]]",
+  "question6": "[[D]]",
+  "question7": "[[\\frac{40-\\sqrt{6}}{16}]]",
+  "question8": "[[18]]"
+}

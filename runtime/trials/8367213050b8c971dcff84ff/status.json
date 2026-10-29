@@ -1,0 +1,63 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-RQ_951",
+  "category": "Multi-RQ",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289674.010834,
+  "turn": {
+    "id": "01a18864-de08-7402-b0e9-1c65b6545b83",
+    "rootTurnId": "01a18864-de08-7402-b0e9-1c65b6545b83",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0e1c332d2715aa3e016ae36dd0d4308190b710508c460b2dab",
+        "text": "{\n  \"question1\": \"[[3x^2+2x]]\",\n  \"question2\": \"[[\\\\cos x - \\\\sin x]]\",\n  \"question3\": \"[[IV];[AEE]]\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289674,
+    "completedAt": 1793289681,
+    "durationMs": 7569
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "question1": "3x^2+2x",
+      "question2": "\\cos x - \\sin x",
+      "question3": "IV];[AEE"
+    },
+    "pass_rate": 0.6666666666666666
+  },
+  "seconds": 7.829726208001375,
+  "usage": {
+    "total": {
+      "totalTokens": 5190,
+      "inputTokens": 5079,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 111,
+      "reasoningOutputTokens": 57
+    },
+    "last": {
+      "totalTokens": 5190,
+      "inputTokens": 5079,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 111,
+      "reasoningOutputTokens": 57
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793289681.8404741
+}

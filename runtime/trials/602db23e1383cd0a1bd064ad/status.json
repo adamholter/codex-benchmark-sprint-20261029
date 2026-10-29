@@ -1,0 +1,71 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly",
+  "id": "122:Q 9.2:full_context",
+  "category": "Monolingual / Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793285308.356909,
+  "turn": {
+    "id": "01a18822-41fb-7ed0-a032-97f6c0de8586",
+    "rootTurnId": "01a18822-41fb-7ed0-a032-97f6c0de8586",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0b43a1cb7ca35d30016ae35cdd9a98819495cd8ccbd59e9e29",
+        "text": "{\n  \"a.\": \"nda ntsaw\u0294 nda\",\n  \"b.\": \"nui lien seska\u0294ai tilija\",\n  \"c.\": \"ranh\u0169\u0294 lien\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793285308,
+    "completedAt": 1793285342,
+    "durationMs": 33256
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "a.": "nda ntsaw\u0294 nda",
+      "b.": "nui lien seska\u0294ai tilija",
+      "c.": "ranh\u0169\u0294 lien"
+    },
+    "score": 1.0,
+    "parts_correct": 3,
+    "parts_total": 3,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 1.0,
+      "b.": 1.0,
+      "c.": 1.0
+    }
+  },
+  "seconds": 33.83863154205028,
+  "usage": {
+    "total": {
+      "totalTokens": 5367,
+      "inputTokens": 4407,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 960,
+      "reasoningOutputTokens": 909
+    },
+    "last": {
+      "totalTokens": 5367,
+      "inputTokens": 4407,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 960,
+      "reasoningOutputTokens": 909
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793285342.1944342
+}

@@ -1,0 +1,71 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly",
+  "id": "187:Q 2.2:full_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793284707.7084448,
+  "turn": {
+    "id": "01a18819-17b6-7bd3-b5ca-8b9687a90c9e",
+    "rootTurnId": "01a18819-17b6-7bd3-b5ca-8b9687a90c9e",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_05ae5720da9b794d016ae35a832dac8190b7ae5b804de827e4",
+        "text": "{\"a.\": \"spear\", \"b.\": \"crab heart\", \"c.\": \"bad\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793284708,
+    "completedAt": 1793284739,
+    "durationMs": 31233
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "a.": "spear",
+      "b.": "crab heart",
+      "c.": "bad"
+    },
+    "score": 1.0,
+    "parts_correct": 3,
+    "parts_total": 3,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 1.0,
+      "b.": 1.0,
+      "c.": 1.0
+    }
+  },
+  "seconds": 31.834334291983396,
+  "usage": {
+    "total": {
+      "totalTokens": 6057,
+      "inputTokens": 4337,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1720,
+      "reasoningOutputTokens": 1690
+    },
+    "last": {
+      "totalTokens": 6057,
+      "inputTokens": 4337,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1720,
+      "reasoningOutputTokens": 1690
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793284739.542484
+}

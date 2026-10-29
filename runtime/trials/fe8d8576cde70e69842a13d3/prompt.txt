@@ -1,0 +1,86 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+1.A series of words will be given in the question.
+2.These words have one thing in common, usually the same prefix of a suffix or the same combination of letters.
+3.This commonality will be given in the question.
+4.You need to answer which words or letter combinations are common to each of these words. e.g. If each of these words contains the name of an animal, the answer needs to be the name of the animal contained in each word in turn.
+
+**Encryption Rules:**
+
+- Input:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Output:
+    - Ciphertext: A string without punctuation.
+- Preparation:
+    - Multitap Code Table
+        | Letter | Multitap Code |
+        | --- | --- |
+        | A | 2^1 |
+        | B | 2^2 |
+        | C | 2^3 |
+        | D | 3^1 |
+        | E | 3^2 |
+        | F | 3^3 |
+        | G | 4^1 |
+        | H | 4^2 |
+        | I | 4^3 |
+        | J | 5^1 |
+        | K | 5^2 |
+        | L | 5^3 |
+        | M | 6^1 |
+        | N | 6^2 |
+        | O | 6^3 |
+        | P | 7^1 |
+        | Q | 7^2 |
+        | R | 7^3 |
+        | S | 7^4 |
+        | T | 8^1 |
+        | U | 8^2 |
+        | V | 8^3 |
+        | W | 9^1 |
+        | X | 9^2 |
+        | Y | 9^3 |
+        | Z | 9^4 |
+- Encryption Steps:
+    - For each given plaintext character p:
+        - If `p` is an uppercase letter and exists in the Multitap Code Table:
+            - Replace `p` with the corresponding Multitap Code from the Multitap Code Table.
+
+ **Decryption Rules:**
+
+- Input:
+    - Ciphertext: A string without punctuation.
+- Output:
+    - Plaintext: Uppercase letters string.
+- Preparation: Multitap Code Table (Same as encryption)
+- Decryption Steps (exact opposite of encryption steps):
+    - For each given ciphertext Multitap Code c:
+        - If `c` is a Multitap Code from the Multitap Code Table:
+            - Replace `c` with the corresponding uppercase letter from the Multitap Code Table.
+
+
+### Questions:
+question1:
+"Boundaries Cancerous Librarian Scorpions Chameleon", these words are all contain on of the names from the 12 signs of the zodiac.
+Please output the zodiac they contain.
+Please provide your answer in the same order as the words, and make sure to enclose your answer in double square brackets, like this: [[word1 word2 ...]].
+
+question2:
+Plaintext: "V"
+
+Please provide the encrypted answer, encapsulated in double square brackets. For example, the format should be: [[encrypted answer]].
+
+
+### Answers:

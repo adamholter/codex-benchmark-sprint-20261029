@@ -1,0 +1,5 @@
+{
+  "question1": "[[B]]",
+  "question2": "[[D]]",
+  "question3": "[[B]]"
+}

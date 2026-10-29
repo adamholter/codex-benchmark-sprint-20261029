@@ -1,0 +1,66 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-Q_516",
+  "category": "Multi-Q",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793285284.643281,
+  "turn": {
+    "id": "01a18821-e5bc-7f82-8831-3a12b6949754",
+    "rootTurnId": "01a18821-e5bc-7f82-8831-3a12b6949754",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_08a76ec5776ca197016ae35caf10b08194a9fac7bdf0553923",
+        "text": "{\n  \"question1\": \"[[ab]]\",\n  \"question2\": \"[[ject]]\",\n  \"question3\": \"[[tal]]\",\n  \"question4\": \"[[ana]]\",\n  \"question5\": \"[[pro]]\",\n  \"question6\": \"[[dict]]\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793285285,
+    "completedAt": 1793285296,
+    "durationMs": 10711
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "question1": "ab",
+      "question2": "ject",
+      "question3": "tal",
+      "question4": "ana",
+      "question5": "pro",
+      "question6": "dict"
+    },
+    "pass_rate": 1.0
+  },
+  "seconds": 11.423560583032668,
+  "usage": {
+    "total": {
+      "totalTokens": 4302,
+      "inputTokens": 4115,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 187,
+      "reasoningOutputTokens": 119
+    },
+    "last": {
+      "totalTokens": 4302,
+      "inputTokens": 4115,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 187,
+      "reasoningOutputTokens": 119
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793285296.066433
+}

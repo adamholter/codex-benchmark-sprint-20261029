@@ -1,0 +1,127 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+**Encryption Rules:**
+
+- Input:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Output:
+    - Ciphertext: Uppercase letters string.
+- Preparation:
+    - Reels
+        
+        Reel1:   "ABCEIGDJFVUYMHTQKZOLRXSPWN",
+        Reel2:   "ACDEHFIJKTLMOUVYGZNPQXRWSB",
+        Reel3:   "ADKOMJUBGEPHSCZINXFYQRTVWL",
+        Reel4:   "AEDCBIFGJHLKMRUOQVPTNWYXZS",
+        Reel5:   "AFNQUKDOPITJBRHCYSLWEMZVXG",
+        Reel6:   "AGPOCIXLURNDYZHWBJSQFKVMET",
+        Reel7:    "AHXJEZBNIKPVROGSYDULCFMQTW",
+        Reel8:    "AIHPJOBWKCVFZLQERYNSUMGTDX",
+        Reel9:    "AJDSKQOIVTZEFHGYUNLPMBXWCR",
+        Reel10:   "AKELBDFJGHONMTPRQSVZUXYWIC",
+        Reel11:    "ALTMSXVQPNOHUWDIZYCGKRFBEJ",
+        Reel12:    "AMNFLHQGCUJTBYPZKXISRDVEWO",
+        Reel13:    "ANCJILDHBMKGXUZTSWQYVORPFE",
+        Reel14:    "AODWPKJVIUQHZCTXBLEGNYRSMF",
+        Reel15:    "APBVHIYKSGUENTCXOWFQDRLJZM",
+        Reel16:    "AQJNUBTGIMWZRVLXCSHDEOKFPY",
+        Reel17:    "ARMYOFTHEUSZJXDPCWGQIBKLNV",
+        Reel18:    "ASDMCNEQBOZPLGVJRKYTFUIWXH",
+        Reel19:    "ATOJYLFXNGWHVCMIRBSEKUPDZQ",
+        Reel20:    "AUTRZXQLYIOVBPESNHJWMDGFCK",
+        Reel21:     "AVNKHRGOXEYBFSJMUDQCLZWTIP",
+        Reel22:    "AWVSFDLIEBHKNRJQZGMXPUCOTY",
+        Reel23:    "AXKWREVDTUFOYHMLSIQNJCPGBZ",
+        Reel24:    "AYJPXMVKBQWUGLOSTECHNZFRID",
+        Reel25:    "AZDNBUHYFWJLVGRCQMPSOEXTKI"
+        
+- Encryption Steps:
+    - Initially select the Reel1.
+    - For each character p in the plaintext:
+        - Find character p on the Reel and replace it with the next character on the Reel to get the ciphertext character.
+        - If the current character is at the end of the Reel, go around to the beginning of the Reel.
+        - Move to the next Reel to get the next character. When you reach the last Reel, circle back to the first Reel and continue the encryption process.
+
+ **Decryption Rules:**
+
+- Input:
+    - Ciphertext: Uppercase letters string.
+- Output:
+    - Plaintext: Uppercase letters string.
+- Preparation:
+    - Reels (Same as encryption)
+- Decryption Steps (exact opposite of encryption steps):
+    - Initially select the Reel1.
+    - For each character c in the ciphertext:
+        - Find character c on the Reel and replace it with the previous character  on the Reel to get the plaintext character.
+        - If the current character is at the beginning of the Reel, go around to the end of the Reel.
+        - Move to the next Reel to get the next character. When you reach the last Reel, circle back to the first Reel and continue the decryption process.
+
+1.The puzzle is played on an N*N grid, which is divided into regions.
+2.The player must place dominoes on some of the cells so that.
+3.There are exactly 2 cells in each region that are covered by dominoes.
+4.Each shaded cell should be part of a domino*. Dominoes can cross region boundaries.
+5.Dominoes cannot touch each other, except diagonally.
+6.Dominoes are shapes (1x2 or 2x1) consisting of two adjacent shaded cells.
+7.The question is given in matrix form, with different letters representing different regions.
+
+1. * Induction
+(1) Definition:* induction involves inferring a general conclusion based on observing specific instances within a class.
+(2) Symbolic Representation:
+- `e_i` represents the ith instance.
+- `P(e_i)` denotes that instance `e_i` has property `P`.
+- `forall e` indicates "for all instances `e`".
+- The conclusion `forall e, P(e)` signifies that all instances `e` possess property `P`.
+(3) Rules:
+- Premise: Observations of instances `e_1, e_2, ..., e_k` all possessing property `P`, where these instances are part of class `S`.
+    - Symbolically: `P(e_1), P(e_2), ..., P(e_k)`
+- Conclusion: Based on limited observation, it is inferred that all instances `e` in class `S` possess property `P`.
+    - Symbolically: `forall e in S, P(e)` (this is a conjecture).
+
+2. Φ Induction
+
+(1) Definition:Φ induction derives a general conclusion about all members of a class based on examining the properties of every individual in that class.
+(2) Symbolic Representation:
+- `E` represents the set of all individuals in the class.
+- `P(E)` denotes that every individual in set `E` possesses property `P`.
+(3) Rules:
+- Premise: Every individual `e_i` in set `E` possesses property `P`, where `e_1, e_2, ..., e_n` are all members of class `S`.
+    - Symbolically: `P(e_1), P(e_2), ..., P(e_n)`
+- Conclusion: All members of class `S` possess property `P`.
+    - Symbolically: `P(E)`
+
+3. Key Differences
+- * Induction:
+    - Premise: Based on observations of some instances.
+    - Conclusion: Inferred for all instances.
+    - Symbolic Representation: `P(e_1), P(e_2), ..., P(e_k) -> forall e in S, P(e)`.
+- Φ Induction:
+    - Premise: Based on observations of all instances.
+    - Conclusion: Determined for all instances.
+    - Symbolic Representation: `P(e_1), P(e_2), ..., P(e_n) -> P(E)`.
+
+
+### Questions:
+question1:
+Premise: We observed five different oranges, each of which was sweet.
+conclusion: All oranges are sweet.
+
+Is this * inductive reasoning or **Φ** inductive reasoning?
+A. * inductive reasoning B. **Φ** inductive reasoning
+
+Please give your answer in [[A/B]] format.
+
+
+### Answers:

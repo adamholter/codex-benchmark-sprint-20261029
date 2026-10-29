@@ -1,0 +1,101 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly",
+  "id": "202:Q 2.2:full_context",
+  "category": "Monolingual",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289281.581441,
+  "turn": {
+    "id": "01a1885e-e105-7293-9074-5a97bfd76c58",
+    "rootTurnId": "01a1885e-e105-7293-9074-5a97bfd76c58",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_051639876353fe2a016ae36c6f3d98819084868bafcfff982d",
+        "text": "{\n  \"e.\": \"\u014bokor\",\n  \"f.\": \"i\u014bokor\",\n  \"g.\": \"onem\",\n  \"h.\": \"rimeyosier\",\n  \"i.\": \"wonem\",\n  \"j.\": \"oneme\u014bokor\",\n  \"k.\": \"rimi\u014bokor\",\n  \"l.\": \"17\",\n  \"m.\": \"safur onemenuru\",\n  \"n.\": \"safur rimenuru\",\n  \"o.\": \"arzus di nuru nuru\",\n  \"p.\": \"aresonuru nuru\",\n  \"q.\": \"ares fiak beberin nuru\",\n  \"r.\": \"arzus di \u014bokor safur onemefak\",\n  \"s.\": \"ares fik beberin siu\",\n  \"t.\": \"arzus di fak safur oneme\u014bokor\",\n  \"u.\": \"aresofak safur rimi\u014bokor\",\n  \"v.\": \"ares siu beberin war\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289281,
+    "completedAt": 1793289329,
+    "durationMs": 47637
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "e.": "\u014bokor",
+      "f.": "i\u014bokor",
+      "g.": "onem",
+      "h.": "rimeyosier",
+      "i.": "wonem",
+      "j.": "oneme\u014bokor",
+      "k.": "rimi\u014bokor",
+      "l.": "17",
+      "m.": "safur onemenuru",
+      "n.": "safur rimenuru",
+      "o.": "arzus di nuru nuru",
+      "p.": "aresonuru nuru",
+      "q.": "ares fiak beberin nuru",
+      "r.": "arzus di \u014bokor safur onemefak",
+      "s.": "ares fik beberin siu",
+      "t.": "arzus di fak safur oneme\u014bokor",
+      "u.": "aresofak safur rimi\u014bokor",
+      "v.": "ares siu beberin war"
+    },
+    "score": 1.0,
+    "parts_correct": 18,
+    "parts_total": 18,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "e.": 1.0,
+      "f.": 1.0,
+      "g.": 1.0,
+      "h.": 1.0,
+      "i.": 1.0,
+      "j.": 1.0,
+      "k.": 1.0,
+      "l.": 1.0,
+      "m.": 1.0,
+      "n.": 1.0,
+      "o.": 1.0,
+      "p.": 1.0,
+      "q.": 1.0,
+      "r.": 1.0,
+      "s.": 1.0,
+      "t.": 1.0,
+      "u.": 1.0,
+      "v.": 1.0
+    }
+  },
+  "seconds": 47.88148362492211,
+  "usage": {
+    "total": {
+      "totalTokens": 6408,
+      "inputTokens": 4623,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1785,
+      "reasoningOutputTokens": 1552
+    },
+    "last": {
+      "totalTokens": 6408,
+      "inputTokens": 4623,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1785,
+      "reasoningOutputTokens": 1552
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793289329.4627662
+}

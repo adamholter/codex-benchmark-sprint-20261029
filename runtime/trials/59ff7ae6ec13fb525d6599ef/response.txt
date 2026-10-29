@@ -1,0 +1,1 @@
+{"a.": "kalendarze", "b.": "jarskie kapelusze", "c.": "łotrzy, łotry", "d.": "robotnicy", "e.": "chorowici chirurdzy", "f.": "partnerzy, partnerowie", "g.": "zwaliści golfiści", "h.": "zachodnioeuropejscy akordeoniści", "i.": "chybcy piloci", "j.": "czepki", "k.": "grzejniki", "l.": "rude groby", "m.": "szympansy", "n.": "panowie, pany", "o.": "zalążki"}

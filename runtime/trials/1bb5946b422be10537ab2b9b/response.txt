@@ -1,0 +1,6 @@
+{
+  "a.": "Where did he dance?",
+  "b.": "Is the cat ready?",
+  "c.": "What did you cut?",
+  "d.": "Did he sell anything?"
+}

@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "fantom",
+  "id": "139-0-0-6834",
+  "category": "tom:answerability:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289393.343628,
+  "turn": {
+    "id": "01a18860-96bb-71d3-a3df-cf4ae53ce7f4",
+    "rootTurnId": "01a18860-96bb-71d3-a3df-cf4ae53ce7f4",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_04fde41619dc32c9016ae36cb465f481959d0d8a721d8e0070",
+        "text": "Michaela, Julissa, and Rodney.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289393,
+    "completedAt": 1793289396,
+    "durationMs": 3122
+  },
+  "score": {
+    "correct": true,
+    "extracted": "Michaela, Julissa, and Rodney.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 3.85835108300671,
+  "usage": {
+    "total": {
+      "totalTokens": 4592,
+      "inputTokens": 4551,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 41,
+      "reasoningOutputTokens": 25
+    },
+    "last": {
+      "totalTokens": 4592,
+      "inputTokens": 4551,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 41,
+      "reasoningOutputTokens": 25
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793289397.201359
+}

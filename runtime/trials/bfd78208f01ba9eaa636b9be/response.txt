@@ -1,0 +1,5 @@
+{
+  "a.": "Cannot be determined from the provided sheet.",
+  "b.": "Cannot be determined from the provided sheet.",
+  "c.": "Cannot be determined from the provided sheet."
+}

@@ -1,0 +1,103 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "PlanBench Blocksworld Hard - PDDL",
+  "id": "instance-14",
+  "category": "PDDL plan generation / exact plan validity",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793286590.070935,
+  "turn": {
+    "id": "01a18835-cf4d-7da3-acb5-016af3903c4b",
+    "rootTurnId": "01a18835-cf4d-7da3-acb5-016af3903c4b",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_062c3a4fa1774e94016ae361cf917c8196ba5b90b6d316fa0c",
+        "text": "(unstack c g)\n(put-down c)\n(unstack g d)\n(put-down g)\n(unstack d i)\n(put-down d)\n(unstack i f)\n(put-down i)\n(unstack f h)\n(put-down f)\n(unstack h a)\n(put-down h)\n(unstack b e)\n(put-down b)\n(pick-up a)\n(stack a d)\n(pick-up e)\n(stack e a)\n(pick-up g)\n(stack g h)\n(pick-up f)\n(stack f g)\n(pick-up b)\n(stack b f)\n(pick-up i)\n(stack i b)",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793286590,
+    "completedAt": 1793286609,
+    "durationMs": 19412
+  },
+  "score": {
+    "correct": true,
+    "extracted": [
+      "(unstack c g)",
+      "(put-down c)",
+      "(unstack g d)",
+      "(put-down g)",
+      "(unstack d i)",
+      "(put-down d)",
+      "(unstack i f)",
+      "(put-down i)",
+      "(unstack f h)",
+      "(put-down f)",
+      "(unstack h a)",
+      "(put-down h)",
+      "(unstack b e)",
+      "(put-down b)",
+      "(pick-up a)",
+      "(stack a d)",
+      "(pick-up e)",
+      "(stack e a)",
+      "(pick-up g)",
+      "(stack g h)",
+      "(pick-up f)",
+      "(stack f g)",
+      "(pick-up b)",
+      "(stack b f)",
+      "(pick-up i)",
+      "(stack i b)"
+    ],
+    "valid_actions": 26,
+    "reason": "goal_reached"
+  },
+  "seconds": 19.640685542020947,
+  "usage": {
+    "total": {
+      "totalTokens": 4559,
+      "inputTokens": 4270,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 289,
+      "reasoningOutputTokens": 159
+    },
+    "last": {
+      "totalTokens": 4559,
+      "inputTokens": 4270,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 289,
+      "reasoningOutputTokens": 159
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 570dca4b-2a28-4f7d-aff8-a0af751bc412",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a18835-cf37-7180-bd61-b8d130479f4b",
+      "turnId": "01a18835-cf4d-7da3-acb5-016af3903c4b"
+    }
+  ],
+  "finished_at": 1793286609.711427
+}

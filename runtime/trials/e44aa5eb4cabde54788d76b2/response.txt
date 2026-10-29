@@ -1,0 +1,10 @@
+{
+  "a. (Old English)": "Cannot be determined from the supplied sheet",
+  "a. (West Frisian)": "Cannot be determined from the supplied sheet",
+  "b. (Old English)": "Cannot be determined from the supplied sheet",
+  "b. (West Frisian)": "Cannot be determined from the supplied sheet",
+  "c. (Old English)": "Cannot be determined from the supplied sheet",
+  "c. (West Frisian)": "Cannot be determined from the supplied sheet",
+  "d. (Old English)": "Cannot be determined from the supplied sheet",
+  "d. (West Frisian)": "Cannot be determined from the supplied sheet"
+}

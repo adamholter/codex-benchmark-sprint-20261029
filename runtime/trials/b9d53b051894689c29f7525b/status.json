@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "fantom",
+  "id": "213-0-1-10992",
+  "category": "tom:answerability:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793284675.326684,
+  "turn": {
+    "id": "01a18818-98b5-7af2-8e22-6cfb44fbd92e",
+    "rootTurnId": "01a18818-98b5-7af2-8e22-6cfb44fbd92e",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0bc33a939cd912c0016ae35a499840819496cd005375ed2609",
+        "text": "Donovan, Moises, and Craig.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793284675,
+    "completedAt": 1793284681,
+    "durationMs": 6124
+  },
+  "score": {
+    "correct": true,
+    "extracted": "Donovan, Moises, and Craig.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 6.626319958013482,
+  "usage": {
+    "total": {
+      "totalTokens": 5037,
+      "inputTokens": 4757,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 280,
+      "reasoningOutputTokens": 265
+    },
+    "last": {
+      "totalTokens": 5037,
+      "inputTokens": 4757,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 280,
+      "reasoningOutputTokens": 265
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793284681.9527009
+}

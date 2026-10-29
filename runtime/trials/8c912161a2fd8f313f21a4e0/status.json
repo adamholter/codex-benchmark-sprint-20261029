@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "bbeh",
+  "id": "mini:boolean_expressions:0125",
+  "category": "boolean_expressions",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290896.6328142,
+  "turn": {
+    "id": "01a18877-8623-7b23-8049-f42f0302e0ce",
+    "rootTurnId": "01a18877-8623-7b23-8049-f42f0302e0ce",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0f6d5d45aed4ee35016ae372bd44ec819688bd1bad2b64dbf9",
+        "text": "As written, **both (D) and (E) evaluate to true**, so there isn\u2019t exactly one true expression.\n\nFor (D), the first outer term is false. In the second, the parenthesized expression is false, so `not not not (...)` is true.\n\nFor (E), the first outer term is false. In the second, the inner conjunction is false, so its triple negation is true.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290896,
+    "completedAt": 1793290942,
+    "durationMs": 45301
+  },
+  "score": {
+    "correct": false,
+    "extracted": "as written,both (d) and (e) evaluate to true,so there isn\u2019t exactly one true expression"
+  },
+  "seconds": 45.64871758304071,
+  "usage": {
+    "total": {
+      "totalTokens": 8343,
+      "inputTokens": 4739,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 3604,
+      "reasoningOutputTokens": 3511
+    },
+    "last": {
+      "totalTokens": 8343,
+      "inputTokens": 4739,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 3604,
+      "reasoningOutputTokens": 3511
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793290942.281069
+}

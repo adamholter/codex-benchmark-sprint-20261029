@@ -1,0 +1,75 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly",
+  "id": "191:Q 1.2:full_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793286452.407893,
+  "turn": {
+    "id": "01a18833-b636-77d0-bff5-86250aa7b6c0",
+    "rootTurnId": "01a18833-b636-77d0-bff5-86250aa7b6c0",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_059e6773df3c152e016ae3614482ac81938489054c5b8f75dd",
+        "text": "{\"(f)\": \"tuta\", \"(g)\": \"puplu\", \"(h)\": \"people\", \"(i)\": \"vetluf\", \"(j)\": \"calves\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793286452,
+    "completedAt": 1793286468,
+    "durationMs": 16137
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(f)": "tuta",
+      "(g)": "puplu",
+      "(h)": "people",
+      "(i)": "vetluf",
+      "(j)": "calves"
+    },
+    "score": 0.8,
+    "parts_correct": 4,
+    "parts_total": 5,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(f)": 1.0,
+      "(g)": 1.0,
+      "(h)": 0.0,
+      "(i)": 1.0,
+      "(j)": 1.0
+    }
+  },
+  "seconds": 16.550461916951463,
+  "usage": {
+    "total": {
+      "totalTokens": 5790,
+      "inputTokens": 4395,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1395,
+      "reasoningOutputTokens": 1352
+    },
+    "last": {
+      "totalTokens": 5790,
+      "inputTokens": 4395,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1395,
+      "reasoningOutputTokens": 1352
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793286468.958072
+}

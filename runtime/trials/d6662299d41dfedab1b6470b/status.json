@@ -1,0 +1,101 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly_no_context",
+  "id": "85:Q 2.1:no_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793293332.653779,
+  "turn": {
+    "id": "01a1889c-b1f7-7590-a068-3f5ec4113581",
+    "rootTurnId": "01a1889c-b1f7-7590-a068-3f5ec4113581",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_06212d6095a86f85016ae37c1fa948819486dcd400cf108f3b",
+        "text": "{\n  \"(a)\": \"Cannot determine: table missing.\",\n  \"(b)\": \"Cannot determine: table missing.\",\n  \"(c)\": \"Cannot determine: table missing.\",\n  \"(d)\": \"Cannot determine: table missing.\",\n  \"(e)\": \"Cannot determine: table missing.\",\n  \"(f)\": \"Cannot determine: table missing.\",\n  \"(g)\": \"Cannot determine: table missing.\",\n  \"(h)\": \"Cannot determine: table missing.\",\n  \"(i)\": \"Cannot determine: table missing.\",\n  \"(j)\": \"Cannot determine: table missing.\",\n  \"(k)\": \"Cannot determine: table missing.\",\n  \"(l)\": \"Cannot determine: table missing.\",\n  \"(m)\": \"Cannot determine: table missing.\",\n  \"(n)\": \"Cannot determine: table missing.\",\n  \"(o)\": \"Cannot determine: table missing.\",\n  \"(p)\": \"Cannot determine: table missing.\",\n  \"(q)\": \"Cannot determine: table missing.\",\n  \"(r)\": \"Cannot determine: table missing.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793293332,
+    "completedAt": 1793293346,
+    "durationMs": 14011
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "Cannot determine: table missing.",
+      "(b)": "Cannot determine: table missing.",
+      "(c)": "Cannot determine: table missing.",
+      "(d)": "Cannot determine: table missing.",
+      "(e)": "Cannot determine: table missing.",
+      "(f)": "Cannot determine: table missing.",
+      "(g)": "Cannot determine: table missing.",
+      "(h)": "Cannot determine: table missing.",
+      "(i)": "Cannot determine: table missing.",
+      "(j)": "Cannot determine: table missing.",
+      "(k)": "Cannot determine: table missing.",
+      "(l)": "Cannot determine: table missing.",
+      "(m)": "Cannot determine: table missing.",
+      "(n)": "Cannot determine: table missing.",
+      "(o)": "Cannot determine: table missing.",
+      "(p)": "Cannot determine: table missing.",
+      "(q)": "Cannot determine: table missing.",
+      "(r)": "Cannot determine: table missing."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 18,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 0.0,
+      "(b)": 0.0,
+      "(c)": 0.0,
+      "(d)": 0.0,
+      "(e)": 0.0,
+      "(f)": 0.0,
+      "(g)": 0.0,
+      "(h)": 0.0,
+      "(i)": 0.0,
+      "(j)": 0.0,
+      "(k)": 0.0,
+      "(l)": 0.0,
+      "(m)": 0.0,
+      "(n)": 0.0,
+      "(o)": 0.0,
+      "(p)": 0.0,
+      "(q)": 0.0,
+      "(r)": 0.0
+    }
+  },
+  "seconds": 14.365571791073307,
+  "usage": {
+    "total": {
+      "totalTokens": 4546,
+      "inputTokens": 4228,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 318,
+      "reasoningOutputTokens": 112
+    },
+    "last": {
+      "totalTokens": 4546,
+      "inputTokens": 4228,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 318,
+      "reasoningOutputTokens": 112
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793293347.0192692
+}

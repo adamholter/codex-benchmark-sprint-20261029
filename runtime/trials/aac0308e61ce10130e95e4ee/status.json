@@ -1,0 +1,81 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly_no_context",
+  "id": "101:Q 1.:no_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793295461.324251,
+  "turn": {
+    "id": "01a188bd-2c9a-7e00-912d-bce0fc9fe707",
+    "rootTurnId": "01a188bd-2c9a-7e00-912d-bce0fc9fe707",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0cb9b033eb699ca0016ae3846ba0ec8197abdb3f1a2a2162f3",
+        "text": "{\n  \"1\": \"Cannot be determined: the referenced conversation was not provided.\",\n  \"2\": \"Cannot be determined: the referenced conversation was not provided.\",\n  \"3\": \"Cannot be determined: the referenced conversation was not provided.\",\n  \"4\": \"Cannot be determined: the referenced conversation was not provided.\",\n  \"5\": \"Cannot be determined: the referenced conversation was not provided.\",\n  \"6\": \"Cannot be determined: the referenced conversation was not provided.\",\n  \"7\": \"Cannot be determined: the referenced conversation was not provided.\",\n  \"8\": \"Cannot be determined: the referenced conversation was not provided.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793295461,
+    "completedAt": 1793295469,
+    "durationMs": 7547
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "1": "Cannot be determined: the referenced conversation was not provided.",
+      "2": "Cannot be determined: the referenced conversation was not provided.",
+      "3": "Cannot be determined: the referenced conversation was not provided.",
+      "4": "Cannot be determined: the referenced conversation was not provided.",
+      "5": "Cannot be determined: the referenced conversation was not provided.",
+      "6": "Cannot be determined: the referenced conversation was not provided.",
+      "7": "Cannot be determined: the referenced conversation was not provided.",
+      "8": "Cannot be determined: the referenced conversation was not provided."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 8,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.0,
+      "4": 0.0,
+      "5": 0.0,
+      "6": 0.0,
+      "7": 0.0,
+      "8": 0.0
+    }
+  },
+  "seconds": 7.8000857919687405,
+  "usage": {
+    "total": {
+      "totalTokens": 4537,
+      "inputTokens": 4288,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 249,
+      "reasoningOutputTokens": 113
+    },
+    "last": {
+      "totalTokens": 4537,
+      "inputTokens": 4288,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 249,
+      "reasoningOutputTokens": 113
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793295469.1240408
+}

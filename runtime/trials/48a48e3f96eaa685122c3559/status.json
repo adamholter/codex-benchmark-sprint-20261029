@@ -1,0 +1,75 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly",
+  "id": "220:Q 5.3:full_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288084.3130932,
+  "turn": {
+    "id": "01a1884c-9c60-7ec0-ba33-5b1e0b4ee294",
+    "rootTurnId": "01a1884c-9c60-7ec0-ba33-5b1e0b4ee294",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0e16f1a698b3094f016ae367c5dc648196a69a372b94ba4efb",
+        "text": "{\n  \"25.\": \"nda\u00b9\",\n  \"26.\": \"put\u2077\",\n  \"27.\": \"\",\n  \"28.\": \"\",\n  \"29.\": \"\u0294ai\u00b9na\u2074\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288084,
+    "completedAt": 1793288134,
+    "durationMs": 50028
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "25.": "nda\u00b9",
+      "26.": "put\u2077",
+      "27.": "",
+      "28.": "",
+      "29.": "\u0294ai\u00b9na\u2074"
+    },
+    "score": 0.2,
+    "parts_correct": 1,
+    "parts_total": 5,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "25.": 0.0,
+      "26.": 1.0,
+      "27.": 0.0,
+      "28.": 0.0,
+      "29.": 0.0
+    }
+  },
+  "seconds": 50.304951249971054,
+  "usage": {
+    "total": {
+      "totalTokens": 7771,
+      "inputTokens": 4756,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 3015,
+      "reasoningOutputTokens": 2962
+    },
+    "last": {
+      "totalTokens": 7771,
+      "inputTokens": 4756,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 3015,
+      "reasoningOutputTokens": 2962
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793288134.6186938
+}

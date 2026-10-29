@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "bbeh",
+  "id": "mini:disambiguation_qa:0260",
+  "category": "disambiguation_qa",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288048.609906,
+  "turn": {
+    "id": "01a1884c-108f-7b30-bdf5-19f8a48268d8",
+    "rootTurnId": "01a1884c-108f-7b30-bdf5-19f8a48268d8",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_017b9c6abcb9a6e4016ae367797e80819682d565fb1d396a47",
+        "text": "(B) The new assistant was previously a receptionist, and the cook was previously a mechanic.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288048,
+    "completedAt": 1793288057,
+    "durationMs": 8945
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(b) the new assistant was previously a receptionist,and the cook was previously a mechanic"
+  },
+  "seconds": 9.133167915977538,
+  "usage": {
+    "total": {
+      "totalTokens": 4060,
+      "inputTokens": 3879,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 181,
+      "reasoningOutputTokens": 157
+    },
+    "last": {
+      "totalTokens": 4060,
+      "inputTokens": 3879,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 181,
+      "reasoningOutputTokens": 157
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793288057.742815
+}

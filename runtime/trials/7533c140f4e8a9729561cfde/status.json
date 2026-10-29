@@ -1,0 +1,71 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly",
+  "id": "187:Q 2.2:full_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793284709.717912,
+  "turn": {
+    "id": "01a18819-1f5e-7e40-8994-ba143cf75af0",
+    "rootTurnId": "01a18819-1f5e-7e40-8994-ba143cf75af0",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_04dffcdbb5cf8511016ae35a8d53c481949e1d8b5e18b38834",
+        "text": "{\"a.\": \"law\", \"b.\": \"shoulder blade\", \"c.\": \"bad\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793284710,
+    "completedAt": 1793284749,
+    "durationMs": 39450
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "a.": "law",
+      "b.": "shoulder blade",
+      "c.": "bad"
+    },
+    "score": 0.3333333333333333,
+    "parts_correct": 1,
+    "parts_total": 3,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 0.0,
+      "b.": 0.0,
+      "c.": 1.0
+    }
+  },
+  "seconds": 40.017943417071365,
+  "usage": {
+    "total": {
+      "totalTokens": 8127,
+      "inputTokens": 4337,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 3790,
+      "reasoningOutputTokens": 3761
+    },
+    "last": {
+      "totalTokens": 8127,
+      "inputTokens": 4337,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 3790,
+      "reasoningOutputTokens": 3761
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793284749.73571
+}

@@ -1,0 +1,24 @@
+Kristin: I worked with a group of volunteers in a remote village in Africa last summer. The experience was humbling and it changed my perspective on life.
+Kiara: Wow, that's amazing, Kristin. Can you share more about your daily routines and tasks?
+Kristin: Sure, Kiara. Our main task was to construct a primary school for the village. We also taught English to the local children in the afternoons. Every evening, we had cultural exchange sessions where we sat with the locals and learned about their daily life, traditions, and customs.
+Ruth: Interesting! My experience was a bit different. I volunteered in an animal shelter in South America. We nursed back injured animals and released them back into the wild. It was challenging yet rewarding.
+Kristin: That sounds like such a fulfilling experience, Ruth. Were there any specific incidents that touched your heart?
+Ruth: Oh yes, there was this one time when we found an injured baby sloth. It was so weak and feeble. Nursing it back to health and releasing it back into the wild was a memory I'll cherish throughout my life.
+Kiara: You both had such wonderful experiences overseas. I volunteered locally at a homeless shelter. However, I'm now inspired to look for an opportunity to volunteer abroad.
+Kristin: That's great, Kiara. Local or foreign, volunteering always leaves you with a sense of satisfaction and growth. It broadens your horizon and gives you an entirely different perspective.
+Ruth: Absolutely! Also, the bonds you create while volunteering are priceless. People with different backgrounds come together for a common cause. It's beautiful how volunteering can bring people together.
+Kiara: I completely agree with you. I can't wait to experience this firsthand!
+Lee: Hi everyone, sorry for being late. Did I miss much?
+Kristin: Hey Lee, we were just sharing our volunteering experiences. Would you like to share yours?
+Lee: Of course, I'd love to. My most cherished experience is when I volunteered in an orphanage in Southeast Asia. We provided educational support and played games with the children. The happiness on their faces despite the adversities they have been through was truly heartwarming.
+Ruth: That's beautiful, Lee. Children can teach us so much about resilience and positivity, can't they?
+Lee: Absolutely, Ruth. Also, being a small part of their world and bringing a smile to their faces was indeed rewarding.
+Kiara: It's amazing how diverse our experiences are, yet they all share that common thread of positivity and growth. It really makes me excited to explore volunteer opportunities abroad.
+Lee: I am sure you will find it a rewarding experience, Kiara. Making a difference, no matter how small it may seem, always brings a sense of fulfillment.
+Kristin: Well said, Lee! Volunteering, whether it's local or abroad, can be a truly enriching journey. Let's continue to inspire and make a difference.
+
+Question: What does Kristin believe that Lee thinks about her volunteering experience in Africa?
+(a) Kristin believes that Lee is unaware of her volunteering experience in Africa because he was not involved in the conversation when this was discussed.
+(b) Kristin believes that Lee thinks her volunteering experience in Africa, where she worked with a group of volunteers in a remote village, was fulfilling. They constructed a primary school, taught English to the local children, and had cultural exchange sessions every evening, which allowed them to learn about the daily life, traditions, and customs of the locals.
+
+Choose an answer from above:

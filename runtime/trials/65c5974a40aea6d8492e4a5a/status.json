@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "fantom",
+  "id": "131-1-0-6390",
+  "category": "tom:belief:inaccessible:multiple-choice",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793285015.2911758,
+  "turn": {
+    "id": "01a1881d-cba2-7e53-a050-df8f088842b1",
+    "rootTurnId": "01a1881d-cba2-7e53-a050-df8f088842b1",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_051d72943e151a69016ae35b9a91c4819696a378ce1bf48213",
+        "text": "(b) Ella wasn\u2019t present for the discussion of parenting challenges; she joined afterward.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793285016,
+    "completedAt": 1793285018,
+    "durationMs": 2433
+  },
+  "score": {
+    "correct": true,
+    "extracted": "(b) Ella wasn\u2019t present for the discussion of parenting challenges; she joined afterward.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 4.002574458019808,
+  "usage": {
+    "total": {
+      "totalTokens": 4883,
+      "inputTokens": 4862,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 21,
+      "reasoningOutputTokens": 0
+    },
+    "last": {
+      "totalTokens": 4883,
+      "inputTokens": 4862,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 21,
+      "reasoningOutputTokens": 0
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793285019.2931452
+}

@@ -1,0 +1,3 @@
+The end at row 5, column 5 cannot be reached: none of its neighboring arrows point toward it. The starting point is also not specified.
+
+[[no solution]]

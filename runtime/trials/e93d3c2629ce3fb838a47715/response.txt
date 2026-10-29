@@ -1,0 +1,23 @@
+{
+  "1.": "Cannot determine; English choices not provided.",
+  "2.": "Cannot determine; English choices not provided.",
+  "3.": "Cannot determine; English choices not provided.",
+  "4.": "Cannot determine; English choices not provided.",
+  "5.": "Cannot determine; English choices not provided.",
+  "6.": "Cannot determine; English choices not provided.",
+  "7.": "Cannot determine; English choices not provided.",
+  "8.": "Cannot determine; English choices not provided.",
+  "9.": "Cannot determine; English choices not provided.",
+  "10.": "Cannot determine; English choices not provided.",
+  "11.": "Cannot determine; English choices not provided.",
+  "12.": "Cannot determine; English choices not provided.",
+  "13.": "Cannot determine; English choices not provided.",
+  "14.": "Cannot determine; English choices not provided.",
+  "15.": "Cannot determine; English choices not provided.",
+  "16.": "Cannot determine; English choices not provided.",
+  "17.": "Cannot determine; English choices not provided.",
+  "18.": "Cannot determine; English choices not provided.",
+  "19.": "Cannot determine; English choices not provided.",
+  "20.": "Cannot determine; English choices not provided.",
+  "21.": "Cannot determine; English choices not provided."
+}

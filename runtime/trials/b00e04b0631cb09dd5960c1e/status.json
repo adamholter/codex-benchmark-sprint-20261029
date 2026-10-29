@@ -1,0 +1,78 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-RQ_Hard_2432",
+  "category": "Multi-RQ_Hard",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294008.644675,
+  "turn": {
+    "id": "01a188a7-043b-77d3-ad64-9d1b8df61298",
+    "rootTurnId": "01a188a7-043b-77d3-ad64-9d1b8df61298",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0466e521d4e31bdc016ae37ecaf584819081d6fb0b45eb6f91",
+        "text": "{\n  \"question1\": \"[[paired disjunctive terms:(p\u2228\u00acq\u2228r),(\u00acp\u2228\u00acq\u2228r)];[denoted:M2\u2227M6]]\",\n  \"question2\": \"[[C]]\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294009,
+    "completedAt": 1793294027,
+    "durationMs": 18022
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "question1": "paired disjunctive terms:(p\u2228\u00acq\u2228r),(\u00acp\u2228\u00acq\u2228r)];[denoted:M2\u2227M6",
+      "question2": "C"
+    },
+    "pass_rate": 0.5
+  },
+  "seconds": 18.986947000026703,
+  "usage": {
+    "total": {
+      "totalTokens": 5888,
+      "inputTokens": 5375,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 513,
+      "reasoningOutputTokens": 454
+    },
+    "last": {
+      "totalTokens": 5888,
+      "inputTokens": 5375,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 513,
+      "reasoningOutputTokens": 454
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 8ff0d65e-ffc5-41ed-bb96-8130c97533be",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a188a7-03f0-78d1-b3d5-ae7e70d8c19f",
+      "turnId": "01a188a7-043b-77d3-ad64-9d1b8df61298"
+    }
+  ],
+  "finished_at": 1793294027.631283
+}

@@ -1,0 +1,9 @@
+**(B)** is true.
+
+Within its outermost `not`, one conjunct contains
+
+\[
+\operatorname{not}\bigl(\cdots \operatorname{or} (5-(-4/8)>-1)\bigr).
+\]
+
+Since \(5-(-4/8)=5.5>-1\), the expression inside that `not` is true, making the conjunct false. The conjunction under the outermost `not` is therefore false, so **(B) evaluates to true**.

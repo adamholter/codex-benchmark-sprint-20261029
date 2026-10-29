@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "fantom",
+  "id": "28-0-1-1836",
+  "category": "tom:belief:inaccessible:multiple-choice",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793285591.902216,
+  "turn": {
+    "id": "01a18826-9506-7620-bad8-5c23e0f17870",
+    "rootTurnId": "01a18826-9506-7620-bad8-5c23e0f17870",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0b9fe2b01846eaee016ae35ddc85648197812f36cc4691e100",
+        "text": "(b) Laila has no indication that Jazmine shares that belief; Jazmine missed the earlier discussion about Gunner\u2019s background.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793285592,
+    "completedAt": 1793285596,
+    "durationMs": 4621
+  },
+  "score": {
+    "correct": true,
+    "extracted": "(b) Laila has no indication that Jazmine shares that belief; Jazmine missed the earlier discussion about Gunner\u2019s background.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 5.112564584007487,
+  "usage": {
+    "total": {
+      "totalTokens": 4738,
+      "inputTokens": 4553,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 185,
+      "reasoningOutputTokens": 153
+    },
+    "last": {
+      "totalTokens": 4738,
+      "inputTokens": 4553,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 185,
+      "reasoningOutputTokens": 153
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793285597.0146859
+}

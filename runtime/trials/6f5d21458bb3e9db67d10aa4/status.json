@@ -1,0 +1,75 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly_no_context",
+  "id": "136:Q 1.:no_context",
+  "category": "Monolingual",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793287433.353585,
+  "turn": {
+    "id": "01a18842-ad9a-7710-b6ca-e957b22d1a6f",
+    "rootTurnId": "01a18842-ad9a-7710-b6ca-e957b22d1a6f",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_02618b1514db3090016ae36510577c81958857b50ec2b6696c",
+        "text": "{\n  \"1)\": \"16 + 6 = 22\",\n  \"2) \": \"3 + 18 = 21\",\n  \"3) \": \"7 + 1 = 8\",\n  \"4)\": \"3 \u00d7 4 = 12\",\n  \"5) \": \"8 + 13 = 21\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793287433,
+    "completedAt": 1793287441,
+    "durationMs": 7663
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "1)": "16 + 6 = 22",
+      "2) ": "3 + 18 = 21",
+      "3) ": "7 + 1 = 8",
+      "4)": "3 \u00d7 4 = 12",
+      "5) ": "8 + 13 = 21"
+    },
+    "score": 1.0,
+    "parts_correct": 5,
+    "parts_total": 5,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "1)": 1.0,
+      "2) ": 1.0,
+      "3) ": 1.0,
+      "4)": 1.0,
+      "5) ": 1.0
+    }
+  },
+  "seconds": 7.951999917044304,
+  "usage": {
+    "total": {
+      "totalTokens": 4546,
+      "inputTokens": 4345,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 201,
+      "reasoningOutputTokens": 125
+    },
+    "last": {
+      "totalTokens": 4546,
+      "inputTokens": 4345,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 201,
+      "reasoningOutputTokens": 125
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793287441.305346
+}

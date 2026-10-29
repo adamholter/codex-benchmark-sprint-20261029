@@ -1,0 +1,71 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly",
+  "id": "187:Q 2.2:full_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793284926.2373319,
+  "turn": {
+    "id": "01a1881c-6f44-7430-a40d-08491daa9650",
+    "rootTurnId": "01a1881c-6f44-7430-a40d-08491daa9650",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0e51c3d00e4a2197016ae35bead4e48196bf62336a73278733",
+        "text": "{\"a.\":\"spear\",\"b.\":\"crab meat\",\"c.\":\"bad\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793284927,
+    "completedAt": 1793285099,
+    "durationMs": 172251
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "a.": "spear",
+      "b.": "crab meat",
+      "c.": "bad"
+    },
+    "score": 0.6666666666666666,
+    "parts_correct": 2,
+    "parts_total": 3,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 1.0,
+      "b.": 0.0,
+      "c.": 1.0
+    }
+  },
+  "seconds": 173.39826366701163,
+  "usage": {
+    "total": {
+      "totalTokens": 8274,
+      "inputTokens": 4337,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 3937,
+      "reasoningOutputTokens": 3912
+    },
+    "last": {
+      "totalTokens": 8274,
+      "inputTokens": 4337,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 3937,
+      "reasoningOutputTokens": 3912
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793285099.635458
+}

@@ -1,0 +1,81 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly",
+  "id": "206:Q 1.1:full_context",
+  "category": "Text",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288852.9514508,
+  "turn": {
+    "id": "01a18858-56e1-7530-9ccd-4e026c117e76",
+    "rootTurnId": "01a18858-56e1-7530-9ccd-4e026c117e76",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0ffaa7b06198286b016ae36a981df4819090b140b7dbc020ff",
+        "text": "{\n  \"a. (Old English)\": \"rice\",\n  \"a. (West Frisian)\": \"keninkryk\",\n  \"b. (Old English)\": \"eor\u00f0an\",\n  \"b. (West Frisian)\": \"ierde\",\n  \"c. (Old English)\": \"tod\u00e6g\",\n  \"c. (West Frisian)\": \"hjoed\",\n  \"d. (Old English)\": \"costnunge\",\n  \"d. (West Frisian)\": \"fersiking\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288853,
+    "completedAt": 1793288856,
+    "durationMs": 3746
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "a. (Old English)": "rice",
+      "a. (West Frisian)": "keninkryk",
+      "b. (Old English)": "eor\u00f0an",
+      "b. (West Frisian)": "ierde",
+      "c. (Old English)": "tod\u00e6g",
+      "c. (West Frisian)": "hjoed",
+      "d. (Old English)": "costnunge",
+      "d. (West Frisian)": "fersiking"
+    },
+    "score": 1.0,
+    "parts_correct": 8,
+    "parts_total": 8,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a. (Old English)": 1.0,
+      "a. (West Frisian)": 1.0,
+      "b. (Old English)": 1.0,
+      "b. (West Frisian)": 1.0,
+      "c. (Old English)": 1.0,
+      "c. (West Frisian)": 1.0,
+      "d. (Old English)": 1.0,
+      "d. (West Frisian)": 1.0
+    }
+  },
+  "seconds": 4.028939375071786,
+  "usage": {
+    "total": {
+      "totalTokens": 4749,
+      "inputTokens": 4640,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 109,
+      "reasoningOutputTokens": 0
+    },
+    "last": {
+      "totalTokens": 4749,
+      "inputTokens": 4640,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 109,
+      "reasoningOutputTokens": 0
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793288856.980004
+}

@@ -1,0 +1,89 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly_no_context",
+  "id": "160:Q 2.1:no_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288777.874424,
+  "turn": {
+    "id": "01a18857-31a1-7be2-9afe-2d8aaee69f9a",
+    "rootTurnId": "01a18857-31a1-7be2-9afe-2d8aaee69f9a",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0e2697d2690f20e5016ae36a83f778819086c378c2dff8e6eb",
+        "text": "{\n  \"9\": \"Cannot be determined: the example data are missing.\",\n  \"10\": \"Cannot be determined: the example data are missing.\",\n  \"11\": \"Cannot be determined: the example data are missing.\",\n  \"12\": \"Cannot be determined: the example data are missing.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288778,
+    "completedAt": 1793288837,
+    "durationMs": 58912
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "9": "Cannot be determined: the example data are missing.",
+      "10": "Cannot be determined: the example data are missing.",
+      "11": "Cannot be determined: the example data are missing.",
+      "12": "Cannot be determined: the example data are missing."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 4,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "9": 0.0,
+      "10": 0.0,
+      "11": 0.0,
+      "12": 0.0
+    }
+  },
+  "seconds": 59.20610020798631,
+  "usage": {
+    "total": {
+      "totalTokens": 4402,
+      "inputTokens": 4099,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 303,
+      "reasoningOutputTokens": 235
+    },
+    "last": {
+      "totalTokens": 4402,
+      "inputTokens": 4099,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 303,
+      "reasoningOutputTokens": 235
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 9c9e11c5-bab5-468b-ad14-2a514456fd4f",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a18857-3188-7983-b8f9-8bfbe3bc2d1e",
+      "turnId": "01a18857-31a1-7be2-9afe-2d8aaee69f9a"
+    }
+  ],
+  "finished_at": 1793288837.080123
+}

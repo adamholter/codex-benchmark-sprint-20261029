@@ -1,0 +1,77 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly",
+  "id": "118:Q 5.1:full_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793291026.693801,
+  "turn": {
+    "id": "01a18879-8237-78c3-87da-3ca60afd7dee",
+    "rootTurnId": "01a18879-8237-78c3-87da-3ca60afd7dee",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0d287535923368e4016ae37331b0648197aa3c6d5558fe170b",
+        "text": "{\n  \"(a1)\": \"E nakonako nakon te auti Meeri ningaabong.\",\n  \"(a2)\": \"Mary will walk to the house tomorrow.\",\n  \"(b1)\": \"I tekateka inanon te kawai \u014bai.\",\n  \"(b2)\": \"I am sitting in the road.\",\n  \"(c1)\": \"A nakonako nakon te kawai ataei n te bong aei.\",\n  \"(c2)\": \"Children are walking to the road today.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793291027,
+    "completedAt": 1793291059,
+    "durationMs": 32250
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a1)": "E nakonako nakon te auti Meeri ningaabong.",
+      "(a2)": "Mary will walk to the house tomorrow.",
+      "(b1)": "I tekateka inanon te kawai \u014bai.",
+      "(b2)": "I am sitting in the road.",
+      "(c1)": "A nakonako nakon te kawai ataei n te bong aei.",
+      "(c2)": "Children are walking to the road today."
+    },
+    "score": 0.6666666666666666,
+    "parts_correct": 4,
+    "parts_total": 6,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a1)": 1.0,
+      "(a2)": 1.0,
+      "(b1)": 1.0,
+      "(b2)": 1.0,
+      "(c1)": 0.0,
+      "(c2)": 0.0
+    }
+  },
+  "seconds": 32.58209241600707,
+  "usage": {
+    "total": {
+      "totalTokens": 4983,
+      "inputTokens": 4431,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 552,
+      "reasoningOutputTokens": 444
+    },
+    "last": {
+      "totalTokens": 4983,
+      "inputTokens": 4431,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 552,
+      "reasoningOutputTokens": 444
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793291059.2755861
+}

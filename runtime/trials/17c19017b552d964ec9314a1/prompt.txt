@@ -1,0 +1,25 @@
+Joy: Guys, I have to go. I have some papers to submit. Keep having fun!
+Dylan: Oh, sure thing Joy. Take care!
+Iris: Bye, Joy. Catch up with you later!
+Dylan: Now Iris, since we're on the topic of beauty products, I must admit, I've always been curious about the use of contouring. It seems so complicated.
+Iris: Oh, it's really not, Dylan. It just takes a bit of practice. You're essentially playing with light and shadow to highlight and define your features.
+Dylan: Interesting. I may just give it a go. What about those beauty trends you always see on social media? They keep changing so rapidly, how do you keep up?
+Iris: Honestly, you don't always need to. Each one of us has a unique style and aesthetic. Not every trend will suit everyone. It's important to know what works for you, despite what the trends might be. Find your staple products and techniques and stick to those.
+Dylan: That sounds a lot more manageable. Thank you for shedding some light on this, Iris.
+Iris: You're welcome, Dylan. Always happy to chat about beauty products and techniques!
+Joy: Hey guys, I'm back! Were we still chatting about beauty products?
+Iris: Welcome back, Joy! We moved on to hair and skincare routines, any tips to share?
+Joy: Well, for hair, I swear by the Olaplex brand. Their No.3 Hair Perfector has really helped to repair my damaged hair. And as for skincare, apart from Estee Lauder, I love using the Fresh Soy Face Cleanser. It's gentle and effective.
+Dylan: Interesting, I have been using the Redken Brews 3-in-1 shampoo, conditioner, and body wash. It's been quite convenient and does a good job too.
+Iris: Personally, I've been obsessed with The Inkey List. Their serums are amazing! And for haircare, I use the Bumble and bumble Hairdresser's Invisible Oil Primer. It protects my hair from heat styling and also conditions.
+Joy: Oh, I heard about The Inkey List. I'll be sure to check them out. And Dylan, convenience in a bottle sounds great!
+Dylan: Yes, it's a time-saver, especially on busy days. So, did you two catch up on the latest skincare routine while I was away?
+Iris: We did chat a bit, Dylan, but I was mostly explaining about makeup techniques.
+Dylan: Ah, got it. Well, it's never too late to learn more. I'm always open to trying new products and routines.
+Joy: That's the spirit, Dylan! We should have these beauty chats more often, It's nice to exchange our personal favourites and discover new ones.
+Iris: Absolutely, I'm always on the lookout for new recommendations.
+Dylan: Definitely, let's make it a regular thing then.
+
+Target: What were Dylan and Iris discussing in regards to makeup before a third person joined them?
+Question: List all the characters who know the precise correct answer to this question.
+Answer:

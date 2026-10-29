@@ -1,0 +1,70 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-RQ_Hard_1380",
+  "category": "Multi-RQ_Hard",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289802.356124,
+  "turn": {
+    "id": "01a18866-d363-75a3-a0a7-94bff5977e94",
+    "rootTurnId": "01a18866-d363-75a3-a0a7-94bff5977e94",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0ec756d4d4672465016ae36e5a3e64819691b67356893ae840",
+        "text": "{\n  \"question1\": \"[[{a,b,d,e}]]\",\n  \"question2\": \"[[Arraw Carap Nagub Oktah]]\",\n  \"question3\": \"[[Aries Cancer Libra Scorpio Leo]]\",\n  \"question4\": \"[[{1,2,3,4,5,6}]]\",\n  \"question5\": \"[[{0}]]\",\n  \"question6\": \"[[{p,s}]]\",\n  \"question7\": \"[[B]]\",\n  \"question8\": \"[[{w,y}]]\",\n  \"question9\": \"[[sun flower pine apple butter fly news paper cat fish]]\",\n  \"question10\": \"[[{x\u2223x\u22640 or x\u22651}]]\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289802,
+    "completedAt": 1793289819,
+    "durationMs": 17115
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "question1": "{a,b,d,e}",
+      "question2": "Arraw Carap Nagub Oktah",
+      "question3": "Aries Cancer Libra Scorpio Leo",
+      "question4": "{1,2,3,4,5,6}",
+      "question5": "{0}",
+      "question6": "{p,s}",
+      "question7": "B",
+      "question8": "{w,y}",
+      "question9": "sun flower pine apple butter fly news paper cat fish",
+      "question10": "{x\u2223x\u22640 or x\u22651}"
+    },
+    "pass_rate": 1.0
+  },
+  "seconds": 17.376709749922156,
+  "usage": {
+    "total": {
+      "totalTokens": 6720,
+      "inputTokens": 5527,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1193,
+      "reasoningOutputTokens": 1034
+    },
+    "last": {
+      "totalTokens": 6720,
+      "inputTokens": 5527,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1193,
+      "reasoningOutputTokens": 1034
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793289819.732149
+}

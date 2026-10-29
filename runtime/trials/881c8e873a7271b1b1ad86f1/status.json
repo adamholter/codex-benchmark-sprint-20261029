@@ -1,0 +1,62 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-RQ_819",
+  "category": "Multi-RQ",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292174.5866501,
+  "turn": {
+    "id": "01a1888b-05f1-7870-91fd-d41df675cbe6",
+    "rootTurnId": "01a1888b-05f1-7870-91fd-d41df675cbe6",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0a53c7374f74ebcd016ae37798d52c8195b42e4622f2034539",
+        "text": "{\n  \"question1\": \"[[150 Debra Kara, 160 Inez Vicki, 170 Eula Misty, 180 Beulah Nancy]]\",\n  \"question2\": \"[[B]]\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292174,
+    "completedAt": 1793292185,
+    "durationMs": 10401
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "question1": "150 Debra Kara, 160 Inez Vicki, 170 Eula Misty, 180 Beulah Nancy",
+      "question2": "B"
+    },
+    "pass_rate": 1.0
+  },
+  "seconds": 10.677432624972425,
+  "usage": {
+    "total": {
+      "totalTokens": 6725,
+      "inputTokens": 5711,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1014,
+      "reasoningOutputTokens": 963
+    },
+    "last": {
+      "totalTokens": 6725,
+      "inputTokens": 5711,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1014,
+      "reasoningOutputTokens": 963
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292185.2635179
+}

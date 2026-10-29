@@ -1,0 +1,1 @@
+{"(t)":"The supplied sheet omits the verb tables and noun declension examples referred to as “above.” Without these data, the conjugation and singular–plural patterns cannot be inferred, so a solution cannot be explained reliably."}

@@ -1,0 +1,1 @@
+There is no valid path to the end: starting at the top-left, the arrows lead to a loop: (2,3) → (1,3) → (1,4) → (2,3). The end is never reached, so the requested inflection-point output cannot be determined.

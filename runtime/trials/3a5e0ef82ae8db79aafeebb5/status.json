@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "fantom",
+  "id": "132-0-1-6434",
+  "category": "tom:answerability:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793287340.827805,
+  "turn": {
+    "id": "01a18841-4665-7363-a85c-6c8ce0f7e79a",
+    "rootTurnId": "01a18841-4665-7363-a85c-6c8ce0f7e79a",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_09699cfdb22d8ba4016ae364b25b208193a39c78c4cb609596",
+        "text": "Luna, Gustavo, and Melody. Gustavo mentioned sibling rivalries, and Melody brought up constant comparisons.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793287341,
+    "completedAt": 1793287346,
+    "durationMs": 4893
+  },
+  "score": {
+    "correct": true,
+    "extracted": "Luna, Gustavo, and Melody. Gustavo mentioned sibling rivalries, and Melody brought up constant comparisons.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 5.81587175000459,
+  "usage": {
+    "total": {
+      "totalTokens": 5013,
+      "inputTokens": 4686,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 327,
+      "reasoningOutputTokens": 300
+    },
+    "last": {
+      "totalTokens": 5013,
+      "inputTokens": 4686,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 327,
+      "reasoningOutputTokens": 300
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793287346.643214
+}

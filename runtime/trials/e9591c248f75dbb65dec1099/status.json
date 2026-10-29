@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "bbeh",
+  "id": "mini:buggy_tables:0327",
+  "category": "buggy_tables",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793287874.187201,
+  "turn": {
+    "id": "01a18849-679a-7dd0-a2ad-76e70a61e60f",
+    "rootTurnId": "01a18849-679a-7dd0-a2ad-76e70a61e60f",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_07302b7ad4e5adf8016ae366c7aec481958e6b77c90f9b93e3",
+        "text": "The mean coding time is **37.20 minutes**, and the mean music-listening time is **31.36 minutes**. Their absolute difference, calculated before rounding, is **5.84 minutes**.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793287874,
+    "completedAt": 1793287880,
+    "durationMs": 6011
+  },
+  "score": {
+    "correct": false,
+    "extracted": "the mean coding time is 37.20 minutes,and the mean music-listening time is 31.36 minutes. their absolute difference,calculated before rounding,is 5.84 minutes"
+  },
+  "seconds": 6.298676167032681,
+  "usage": {
+    "total": {
+      "totalTokens": 7721,
+      "inputTokens": 7350,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 371,
+      "reasoningOutputTokens": 323
+    },
+    "last": {
+      "totalTokens": 7721,
+      "inputTokens": 7350,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 371,
+      "reasoningOutputTokens": 323
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793287880.485774
+}

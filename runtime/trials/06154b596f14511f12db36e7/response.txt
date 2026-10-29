@@ -1,0 +1,1 @@
+{"1":"Ar jūs turite dviratį?","2":"Jūs neskaitote.","3":"Tu eini.","4":"Ar Matis eina?","5":"Mes nenorime smulkių pinigų.","6":"Jūs neturite smulkių pinigų.","7":"Ar aš neturiu dviračio?","8":"Aš nenoriu žemėlapio."}

@@ -1,0 +1,69 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly_no_context",
+  "id": "144:Q 1.2:no_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793287704.551805,
+  "turn": {
+    "id": "01a18846-d0ed-70d2-aa6f-40a8e65d8ac4",
+    "rootTurnId": "01a18846-d0ed-70d2-aa6f-40a8e65d8ac4",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_06a767422bd571b6016ae3661c41548195b290e41e8e260080",
+        "text": "{\"9\": \"het rode haar\", \"10\": \"de dikke man\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793287704,
+    "completedAt": 1793287708,
+    "durationMs": 4103
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "9": "het rode haar",
+      "10": "de dikke man"
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 2,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "9": 0.0,
+      "10": 0.0
+    }
+  },
+  "seconds": 4.381047792034224,
+  "usage": {
+    "total": {
+      "totalTokens": 4020,
+      "inputTokens": 3899,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 121,
+      "reasoningOutputTokens": 99
+    },
+    "last": {
+      "totalTokens": 4020,
+      "inputTokens": 3899,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 121,
+      "reasoningOutputTokens": 99
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793287708.932245
+}

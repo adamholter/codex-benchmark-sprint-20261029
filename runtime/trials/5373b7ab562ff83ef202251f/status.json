@@ -1,0 +1,73 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly_no_context",
+  "id": "220:Q 5.2:no_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292567.5675032,
+  "turn": {
+    "id": "01a18891-0509-7072-ae24-98020d84f2a3",
+    "rootTurnId": "01a18891-0509-7072-ae24-98020d84f2a3",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_09fd48b3d20e655a016ae3792b725481969e39e2ed26c63e9e",
+        "text": "{\n  \"21.\": \"Cannot be determined: the English matching list is missing.\",\n  \"22.\": \"Cannot be determined: the English matching list is missing.\",\n  \"23.\": \"Cannot be determined: the English matching list is missing.\",\n  \"24.\": \"Cannot be determined: the English matching list is missing.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292567,
+    "completedAt": 1793292588,
+    "durationMs": 20796
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "21.": "Cannot be determined: the English matching list is missing.",
+      "22.": "Cannot be determined: the English matching list is missing.",
+      "23.": "Cannot be determined: the English matching list is missing.",
+      "24.": "Cannot be determined: the English matching list is missing."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 4,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "21.": 0.0,
+      "22.": 0.0,
+      "23.": 0.0,
+      "24.": 0.0
+    }
+  },
+  "seconds": 21.06018091691658,
+  "usage": {
+    "total": {
+      "totalTokens": 4594,
+      "inputTokens": 4270,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 324,
+      "reasoningOutputTokens": 248
+    },
+    "last": {
+      "totalTokens": 4594,
+      "inputTokens": 4270,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 324,
+      "reasoningOutputTokens": 248
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292588.6283479
+}

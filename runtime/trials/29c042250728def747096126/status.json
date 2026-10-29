@@ -1,0 +1,69 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly",
+  "id": "185:Q 10.4:full_context",
+  "category": "Match-up / Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793286094.829431,
+  "turn": {
+    "id": "01a1882e-4169-7b10-a576-dbaf098e4293",
+    "rootTurnId": "01a1882e-4169-7b10-a576-dbaf098e4293",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_01888b4c04a8eb54016ae35fe7ea0c8196ba0506633c42f9f9",
+        "text": "{\"(a)\": \"tomorrow\", \"(b)\": \"cut (firewood)\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793286095,
+    "completedAt": 1793286120,
+    "durationMs": 25137
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "tomorrow",
+      "(b)": "cut (firewood)"
+    },
+    "score": 0.5,
+    "parts_correct": 1,
+    "parts_total": 2,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 1.0,
+      "(b)": 0.0
+    }
+  },
+  "seconds": 25.54626491595991,
+  "usage": {
+    "total": {
+      "totalTokens": 7008,
+      "inputTokens": 4939,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 2069,
+      "reasoningOutputTokens": 2045
+    },
+    "last": {
+      "totalTokens": 7008,
+      "inputTokens": 4939,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 2069,
+      "reasoningOutputTokens": 2045
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793286120.3751721
+}

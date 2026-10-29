@@ -1,0 +1,7 @@
+{
+  "17.": "Cannot be determined: the sheet’s translated examples are missing.",
+  "18.": "Cannot be determined: the sheet’s translated examples are missing.",
+  "19.": "Cannot be determined: the sheet’s translated examples are missing.",
+  "20.": "Cannot be determined: the sheet’s translated examples are missing.",
+  "21.": "Cannot be determined: the sheet’s translated examples are missing."
+}

@@ -1,0 +1,77 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+Propositions are represented using p1, p2, ..., pn.
+Let p1 be a proposition, the compound proposition "not p1" is represented as ~p1.
+Let p1 and p2 be two propositions, the compound proposition "p1 and p2" is represented as p1&p2.
+Let p1 and p2 be two propositions, the compound proposition "p1 or p2" is represented as p1||p2.
+Let p1 and p2 be two propositions, the compound proposition "if p1, then p2" is represented as p1=::>p2.
+Let p1 and p2 be two propositions, the compound proposition "p1 if and only if p2" is represented as p1=p2.
+A single proposition and proposition constants can be called a formula.
+Formulas are represented using F1, F2, ..., Fn.
+If F1 is a formula, then ~F1 is also a formula.
+If F1 and F2 are formulas, then F1&F2, F1||F2, F1=::>F2, F1=F2 are also formulas.
+Level A Formula: The most basic proposition unit, without logical connectives or nested structures.
+Level B Formula: A formula containing one logical connective, and the connected two propositions are both Level A formulas.For example, p1.
+Level C Formula: A formula containing nested logical connectives and at least one Level B formula.For example, ~p1.
+Other levels of logic follow by analogy; when higher than Level Z, they are classified as Z+n (n≥1).For example, ~(~p1).
+True assignment of a proposition: A proposition p1 is assigned as ✓, indicating that p1 is true.
+False assignment of a proposition: A proposition p1 is assigned as x, indicating that p1 is false.
+True assignment of a formula: If the formula is (~p1&~p2&~p3)||(p1&p2), then x|x|x,✓|✓|x are true assignments of the formula.
+False assignment of a formula: If the formula is (~p1&~p2&~p3)||(p1&p2), then x|x|✓,x|✓|✓ are false assignments of the formula.
+For p1=::>p2, only ✓|x is a false assignment of the formula.
+A formula that is true under all assignments is called a Truth Formula.
+A formula that is false under all assignments is called a Falsehood Formula.
+Recursive definition of formulas: Any formula containing nested logical connectives can be decomposed recursively to obtain its subformulas and their logical connective structures.
+Priority of logical connectives: The priority of logical connectives from high to low is as follows: ~ (not), & (and), || (or), =::> (if...then), = (if and only if).
+Without parentheses, operations are performed according to priority.
+Equivalence of formulas: Two formulas are equivalent if they have the same truth value under all assignments.
+Equivalent formulas can be interchanged.
+Simplification of formulas: Formulas can be simplified through logical rules to obtain a more concise form without changing the truth value of the formula.
+
+1.Randomly select four numbers from 1-13, the numbers can have repetition.
+2.Using the four basic operation symbols of addition (+), subtraction (-), multiplication (×), and division (÷).
+3.Can also use parentheses to change the order of operations.
+4.The result is equal to 24.
+5.Each number must be used and can be used only once.
+
+The terrain of Pandora is very complex, animals living here usually have six strong feet to move quickly, such as Dire Horse, the Na'vi land mount in Avatar.
+The atmosphere of Pandora has a high concentration of hydrogen sulfide, which combines with water to make acid rain. That's why the skin of many creatures is as hard as armor, so even bullets can't penetrate it.
+The temperature environment of Pandora is very similar to that of Earth, and there is already oxygen in the air, but in addition it contains large amounts of xenon, high concentrations of carbon dioxide and hydrogen sulfide, so the masks are only used to filter out the toxic gases.
+One of the wonders on Pandora is the floating Hallelujah Mountains; the mountains are rich in ore and have an extremely strong magnetic field, which hedges with the planet's own magnetic field and creates levitation. 
+Ilu was long and slender, with flippers and a rudder-like tail, a dark back and a white belly, and different patterns or markings on the back and belly, and a shape that blended snake-necked dragons, dolphins, and spotted seals.
+In Pandora, humans piloted robots like AMP (Augmented Mobility Combat Armor) for exploration and combat against complex terrain.
+Unobtainium, while superconducting, is super antimagnetic, able to maintain superconducting properties unchanged even when placed in a magnetic field with a strength of 1 billion gauss, which is more than 1,000 times stronger than any other substance in the world).
+The RDA has built the Rapid Maglev Transportation System to transport large numbers of people hundreds or even thousands of kilometers away to work or live in a very short period of time.
+Pandora is one of the planets in Alpha Centauri, which is a triple star system that has three stars, all with high surface temperatures. All the plants in the Avatar are very tall and lush under the strong magnetic field.
+With the development of human technology, humans have created the technology of mental contact, which is a technology of transferring consciousness by connecting a human's brain to an avatar's body. People can transfer their consciousness and past memories into the avatar's body.
+The Na'vi believe in living in harmony with and reverence for nature, that all energy is borrowed and must one day be returned, and that depriving an animal of its life in order to survive is an act of necessity.
+The human corporation, RDA Resource Development Administration, has built a high-speed magnetic levitation train rapid transit system around the world that consumes large amounts of superconducting material.
+Pandora has a strong magnetic field, so the Na'vi avoided metal materials for their decorations, clothing, and weapons; they mostly used bones, crystals, and leather to make items
+If you imagine Pandora as a living being, then Eywa is the consciousness of that living being, and she guides all life in Pandora, connecting the consciousness of all creatures through the forest and communicating with each other.
+Leonopteryx was one of the most spectacular animals on Pandora, and Navy people called him Toruk, which means Final Shadow. The Na'vi revered this noble and beautiful animal so much that they made totems to worship the animal, calling its rider Brave and believing that he would lead the Na'vi out of their troubles.
+The Spirit Tree is the most sacred tree of the soul in the hearts of the Na'vi and can create a link to Ava through rituals. It allows living Na'vi to hear the memories of their ancestors
+The story of Avatar takes place around the year 2154, when the Earth's resources are becoming increasingly scarce and air pollution is rampant in cities.
+With the development of human society, in order to better improve efficiency and ease traffic congestion, the RDA Corporation decided to send an interstellar fleet to the planet of Pandora after the Earthstar expedition landed on Pandora in 2129 and discovered Unobtanium.
+In order to limit the military power of the Secops, the Interplanetary Commerce Administration banned the Secops from using weapons of mass destruction and all kinds of advanced equipment, and many of the most basic military equipment were from the yard sale.
+Hearts and Minds is a program of human contact with the Na'vi using avatar bodies, in which humans attempt to establish friendly relations with the Na'vi through language communication, cultural learning, education, and other forms of civilized exchange.
+
+
+### Questions:
+question1:
+Please determine the level of the formula (~p1&p2)=::>p3. 
+The answer should be given as a single letter from A to Z, or Z+n (where n is a number greater than or equal to 1).The answer format should be like [[A]].
+
+
+### Answers:

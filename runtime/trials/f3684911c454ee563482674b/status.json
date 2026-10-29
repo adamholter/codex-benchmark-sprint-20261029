@@ -1,0 +1,74 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "bbeh",
+  "id": "mini:zebra_puzzles:0216",
+  "category": "zebra_puzzles",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294072.713436,
+  "turn": {
+    "id": "01a188a7-ffa1-7482-8084-b75c3a342c72",
+    "rootTurnId": "01a188a7-ffa1-7482-8084-b75c3a342c72",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0cfece29fc2cbaa7016ae37f1f87f88195aab20469c6b57374",
+        "text": "The person who owns a Tumi is at **position 1**.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294073,
+    "completedAt": 1793294111,
+    "durationMs": 38154
+  },
+  "score": {
+    "correct": false,
+    "extracted": "the person who owns a tumi is at position 1"
+  },
+  "seconds": 39.2975189590361,
+  "usage": {
+    "total": {
+      "totalTokens": 6885,
+      "inputTokens": 6464,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 421,
+      "reasoningOutputTokens": 400
+    },
+    "last": {
+      "totalTokens": 6885,
+      "inputTokens": 6464,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 421,
+      "reasoningOutputTokens": 400
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 85e414d2-44b4-4a96-9c77-e22f725e2ec3",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a188a7-ff7c-76b0-8060-1c262701ac93",
+      "turnId": "01a188a7-ffa1-7482-8084-b75c3a342c72"
+    }
+  ],
+  "finished_at": 1793294112.0107431
+}

@@ -1,0 +1,69 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly_no_context",
+  "id": "206:Q 1.4:no_context",
+  "category": "Text",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793287011.655943,
+  "turn": {
+    "id": "01a1883c-3eec-7240-bd4e-adf562a12f7a",
+    "rootTurnId": "01a1883c-3eec-7240-bd4e-adf562a12f7a",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_087fd775c4f13d40016ae36367350c8190b18a96d8a9421190",
+        "text": "{\"j.\": \"Not determinable from the information provided.\", \"k.\": \"Not determinable from the information provided.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793287012,
+    "completedAt": 1793287015,
+    "durationMs": 3502
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "j.": "Not determinable from the information provided.",
+      "k.": "Not determinable from the information provided."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 2,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "j.": 0.0,
+      "k.": 0.0
+    }
+  },
+  "seconds": 3.9529929999262094,
+  "usage": {
+    "total": {
+      "totalTokens": 4233,
+      "inputTokens": 4154,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 79,
+      "reasoningOutputTokens": 46
+    },
+    "last": {
+      "totalTokens": 4233,
+      "inputTokens": 4154,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 79,
+      "reasoningOutputTokens": 46
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793287015.6086211
+}

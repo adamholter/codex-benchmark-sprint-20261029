@@ -1,0 +1,9 @@
+{
+  "a.": "Cannot determine: stage data for A–G are missing.",
+  "b.": "Cannot determine: stage data for A–G are missing.",
+  "c.": "Cannot determine: stage data for A–G are missing.",
+  "d.": "Cannot determine: stage data for A–G are missing.",
+  "e.": "Cannot determine: stage data for A–G are missing.",
+  "f.": "Cannot determine: stage data for A–G are missing.",
+  "g.": "Cannot determine: stage data for A–G are missing."
+}

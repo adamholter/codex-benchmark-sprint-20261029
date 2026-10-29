@@ -1,0 +1,1 @@
+You have **607 cars** and **488 musical instruments**, for a total of **1,095**.

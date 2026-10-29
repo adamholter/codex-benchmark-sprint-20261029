@@ -1,0 +1,22 @@
+Leslie: Hello Josiah, it's nice to mingle with refreshing faces like yourself. Isn't it?
+Josiah: Yes, indeed, Leslie. Events like these give us the opportunity to share unique experiences. Speaking of which, have any standout moments with any of your hobbies?
+Leslie: Actually yes, I am a big fan of rock climbing. The most exhilarating experience I ever had was when I took a trip to Yosemite National Park and climbed 'El Capitan'. It's a vertical rock formation that stands majestic and reaching the summit was really a feat for me.
+Josiah: That sounds amazing! I can't even begin to imagine the surge of adrenaline when you reach at the top. Your experience surely trumps my most memorable one. Mine pale into insignificance, but it did mean the world to the younger me. I collect vintage comics and the day I found an original copy of “Action Comics #1” at a yard sale was the most memorable. I still treasure it, mind you.
+Leslie: Don't underestimate your accomplishment, Josiah. Not all thrilling moments have to be risk-taking adventures. Finding that rare comic must have felt like uncovering a piece of history!
+Josiah: Indeed, Leslie. It felt like discovering a hidden treasure!
+Leslie: You're definitely right on that, Josiah. Sharing this passion in such a unique way is certainly an appealing part of having a hobby. Do you have any other interesting hobby experience to share?
+Josiah: Well, now that you've asked, there's another hobby of mine which is bird watching. I had a rare encounter with an exotic bird species during my trip to the Amazon rainforest which is quite an interesting story. But let's not digress, how about your experiences, Leslie?
+Leslie: Josiah, your experiences are so fascinating! I would love to hear more about your Amazon trip sometime. But for now, I think my second most memorable experience came from painting, a hobby I picked up to calm my nerves after rock climbing. Ending up winning my local art show competition was a real surprise!
+Josiah: Wow! It seems like you have a real knack for turning hobbies into triumphs, Leslie. Your stories are equally captivating and I am grateful for this exchange of experiences.
+Kody: Hello Leslie, Josiah! I couldn't help but catch snippets of your delightful hobby narratives. I too, have had my fair share of unexpected hobby accomplishments.
+Leslie: Welcome back, Kody! We would love to hear about your experiences.
+Kody: Thanks, Leslie. A few years back, I was really into model train building, a passion that fell by the wayside with time. But interestingly, one of the models I crafted from scratch won a state competition. That realization made me revisit my old hobby with newfound enthusiasm.
+Josiah: That's something Kody, it's pretty amazing how hobbies evolved and also shaped us over time. Speaking of custom, I used to be a philatelist as a kid. But over time as digital correspondence took over, my hobby lost its charm. Though I still have my old collection which is a nice nostalgia trip.
+Leslie: Indeed Josiah, its funny to think how my first love used to be ballet dancing, and now I can't probably do a single pirouette without tripping over! But I am planning on taking up dance lessons again, because I met a fellow ex-ballet dancer who has reignited my interest.
+Kody: It seems we all have had such fascinating journeys with our hobbies. They are like silent stories that trace our growth and changes. Isn't it fantastic?
+Leslie: Absolutely, Kody. And it gives us such wonderful stories to share. I'm so glad we had this conversation today!
+Josiah: Me too, the variety in our narratives warmed the atmosphere. It was nice mingling with you, Leslie, and Kody. Until our next storytelling session!
+
+Information: What are Leslie's interests and could you relate any significant experiences she has had related to them? Leslie's interests include rock climbing and painting. A significant experience she had with rock climbing was when she climbed 'El Capitan', a vertical rock formation in Yosemite National Park. This was an exhilarating triumph for her. In regards to painting, she initially took it up as a calming activity after her rock climbing adventures. However, she ended up winning her local art competition, which was a memorable surprise for her. Leslie also mentioned that she used to love ballet dancing and is planning on taking dance lessons again, but she didn't share a specific significant experience related to this hobby.
+Question: List all the characters who know this information.
+Answer:

@@ -1,0 +1,63 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-Q_83",
+  "category": "Multi-Q",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793291987.061772,
+  "turn": {
+    "id": "01a18888-2a76-7eb2-b2c1-1fb03e20ad0b",
+    "rootTurnId": "01a18888-2a76-7eb2-b2c1-1fb03e20ad0b",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_02f7029b13181c1b016ae376d92544819690e564438019f40b",
+        "text": "{\n  \"question1\": \"[[1 + e]]\",\n  \"question2\": \"[[x^2 - \\\\sin(x)]]\",\n  \"question3\": \"[[e - 1]]\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793291987,
+    "completedAt": 1793291993,
+    "durationMs": 6098
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "question1": "1 + e",
+      "question2": "x^2 - \\sin(x)",
+      "question3": "e - 1"
+    },
+    "pass_rate": 1.0
+  },
+  "seconds": 6.639390083029866,
+  "usage": {
+    "total": {
+      "totalTokens": 4142,
+      "inputTokens": 3995,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 147,
+      "reasoningOutputTokens": 97
+    },
+    "last": {
+      "totalTokens": 4142,
+      "inputTokens": 3995,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 147,
+      "reasoningOutputTokens": 97
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793291993.700496
+}

@@ -1,0 +1,117 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly",
+  "id": "85:Q 2.1:full_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290264.154047,
+  "turn": {
+    "id": "01a1886d-dfab-77e2-83c5-4f71dd094f0d",
+    "rootTurnId": "01a1886d-dfab-77e2-83c5-4f71dd094f0d",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0e4d1ddfe602eebf016ae3702430dc81938a58b122fb1e74ec",
+        "text": "{\"(a)\":\"ein\",\"(b)\":\"uno\",\"(c)\":\"deux\",\"(d)\":\"zwei\",\"(e)\":\"tres\",\"(f)\":\"vier\",\"(g)\":\"cuatro\",\"(h)\":\"cinq\",\"(i)\":\"f\u00fcnf\",\"(j)\":\"seis\",\"(k)\":\"sept\",\"(l)\":\"sieben\",\"(m)\":\"huit\",\"(n)\":\"ocho\",\"(o)\":\"neun\",\"(p)\":\"nueve\",\"(q)\":\"dix\",\"(r)\":\"zehn\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290264,
+    "completedAt": 1793290278,
+    "durationMs": 14068
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "(a)": "ein",
+      "(b)": "uno",
+      "(c)": "deux",
+      "(d)": "zwei",
+      "(e)": "tres",
+      "(f)": "vier",
+      "(g)": "cuatro",
+      "(h)": "cinq",
+      "(i)": "f\u00fcnf",
+      "(j)": "seis",
+      "(k)": "sept",
+      "(l)": "sieben",
+      "(m)": "huit",
+      "(n)": "ocho",
+      "(o)": "neun",
+      "(p)": "nueve",
+      "(q)": "dix",
+      "(r)": "zehn"
+    },
+    "score": 1.0,
+    "parts_correct": 18,
+    "parts_total": 18,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 1.0,
+      "(b)": 1.0,
+      "(c)": 1.0,
+      "(d)": 1.0,
+      "(e)": 1.0,
+      "(f)": 1.0,
+      "(g)": 1.0,
+      "(h)": 1.0,
+      "(i)": 1.0,
+      "(j)": 1.0,
+      "(k)": 1.0,
+      "(l)": 1.0,
+      "(m)": 1.0,
+      "(n)": 1.0,
+      "(o)": 1.0,
+      "(p)": 1.0,
+      "(q)": 1.0,
+      "(r)": 1.0
+    }
+  },
+  "seconds": 14.42750904103741,
+  "usage": {
+    "total": {
+      "totalTokens": 4539,
+      "inputTokens": 4411,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 128,
+      "reasoningOutputTokens": 0
+    },
+    "last": {
+      "totalTokens": 4539,
+      "inputTokens": 4411,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 128,
+      "reasoningOutputTokens": 0
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: c8994fa4-6aed-4f6a-8a8b-93c7e71e8614",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a1886d-df7b-76d2-98c2-1eaa9046cc5a",
+      "turnId": "01a1886d-dfab-77e2-83c5-4f71dd094f0d"
+    }
+  ],
+  "finished_at": 1793290278.580884
+}

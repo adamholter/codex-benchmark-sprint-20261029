@@ -1,0 +1,136 @@
+There are 5 people next to each other in a row in positions 1, 2, 3, 4, 5 who have the following characteristics.
+Everyone is a different nationality: Chilean, Brit, Spanish, Belarusian, Swiss.
+Everyone has a different favorite hobby: gardening, crocheting, beekeeping, skiing, photography.
+Everyone smokes a different cigarette: Pall Mall, Blends, Newport, Blue Master, Marlboro.
+Everyone drinks a different drink: tea, iced coffee, coffee, beer, hot chocolate.
+Everyone has a different name: Nour, Mandy, Barbara, Yair, Wang.
+Everyone reads a different genre of books: magical realism, mystery, fantasy, spiritual, romance.
+Everyone likes a different favorite animal: swallows, ligers, ferrets, elephants, leopards.
+Everyone likes a different type of gemstone: Opals, Gypsum, Diamonds, Sapphires, Topaz.
+Everyone likes a different physical activity: biking, weight lifting, base jumping, snorkeling, paragliding.
+Everyone supports a different NBA team: Cavaliers, Lakers, Bucks, Celtics, Mavericks.
+Everyone drives a different car: Tesla, Toyota, Ferrari, Kia, Mercedes.
+Everyone owns a different handbag brand: Tumi, Dolce and Gabbana, Kate Spade, Coach, Tory Burch.
+Everyone plays a different musical instrument: guitar, violin, harp, harmonica, cello.
+Everyone has a different profession: programmer, dancer, teacher, spy, athlete.
+Everyone likes a different fruit: bananas, oranges, blueberries, mangoes, apples.
+Everyone lives in a different colored house: cyan, black, silver, indigo, violet.
+Using the clues provided below, answer the question at the end.
+Some of clues provided might be irrelevant to the puzzle.
+Clue 1: The guitar player is immediately to the left of the person who drinks beer.
+Clue 2: The person who lives in the silver house is at one of the ends.
+Clue 3: Yair is at one of the ends.
+Clue 4: Mandy is immediately to the left of the person who likes ligers.
+Clue 5: The person who supports the Celtics is next to the person who supports the Lakers.
+Clue 6: The Chilean is somewhere in between the person who smokes Newport and the person who likes crocheting in that order.
+Clue 7: The person who likes beekeeping is not the person who drives the Tesla.
+Clue 8: The person who likes swallows is next to Nour.
+Clue 9: The person who likes elephants is the person who eats mangoes.
+Clue 10: The programmer is at one of the ends.
+Clue 11: The person who likes paragliding is somewhere in between the person who smokes Newport and the Brit in that order.
+Clue 12: The person who likes paragliding is not the person who lives in the cyan house.
+Clue 13: The person who lives in the cyan house is not the person who likes base jumping.
+Clue 14: The person who eats apples is the person who likes ferrets.
+Clue 15: The person who smokes Newport is somewhere to the left of the spy.
+Clue 16: The person who eats blueberries is somewhere in between the person who likes snorkeling and the person who drives the Toyota in that order.
+Clue 17: The person who drives the Mercedes is somewhere in between the spy and the dancer in that order.
+Clue 18: The teacher is somewhere in between the person who eats oranges and the dancer in that order.
+Clue 19: The person who owns a Tumi is somewhere to the left of the person who supports the Bucks.
+Clue 20: The person who smokes Marlboro is not the athlete.
+Clue 21: The person who lives in the black house is next to Yair.
+Clue 22: The person who eats blueberries is somewhere to the left of the person who likes skiing.
+Clue 23: The spy is the Chilean.
+Clue 24: The person who likes snorkeling is next to the person who lives in the black house.
+Clue 25: The person who drinks coffee is immediately to the left of the person who drinks beer.
+Clue 26: The harmonica player is somewhere in between the person who supports the Cavaliers and the person who drinks iced coffee in that order.
+Clue 27: The spy is the person who lives in the indigo house.
+Clue 28: The person who likes Gypsum is the person who owns a Kate Spade.
+Clue 29: The person who drives the Kia is at one of the ends.
+Clue 30: The person who likes base jumping is the person who likes photography.
+Clue 31: The person who eats oranges is Nour.
+Clue 32: The person who reads mystery books is somewhere to the left of the person who likes photography.
+Clue 33: The person who supports the Cavaliers is the person who likes Sapphires.
+Clue 34: The person who likes swallows is immediately to the left of Nour.
+Clue 35: The person who likes biking is not the person who reads magical realism books.
+Clue 36: The person who likes base jumping is next to the teacher.
+Clue 37: The Belarusian is at one of the ends.
+Clue 38: The athlete is somewhere to the left of the person who smokes Marlboro.
+Clue 39: The person who supports the Lakers is somewhere in between the person who drinks tea and the person who owns a Dolce and Gabbana in that order.
+Clue 40: The person who smokes Blends is the person who likes photography.
+Clue 41: The person who smokes Marlboro is somewhere in between the person who reads magical realism books and the person who likes crocheting in that order.
+Clue 42: The Swiss is somewhere in between the person who likes paragliding and the person who eats apples in that order.
+Clue 43: The Chilean is somewhere to the left of Wang.
+Clue 44: The person who drives the Toyota is not the person who likes weight lifting.
+Clue 45: The person who eats apples is the person who lives in the silver house.
+Clue 46: The programmer is the person who drives the Kia.
+Clue 47: The person who likes photography is not the person who drives the Mercedes.
+Clue 48: The person who eats apples is at one of the ends.
+Clue 49: The Chilean is next to the person who lives in the violet house.
+Clue 50: The person who likes beekeeping is somewhere to the left of the person who eats apples.
+Clue 51: The Chilean is not Wang.
+Clue 52: The person who likes gardening is next to the person who likes snorkeling.
+Clue 53: The person who lives in the indigo house is immediately to the left of the person who likes biking.
+Clue 54: The programmer is not the person who likes ligers.
+Clue 55: The cello player is somewhere in between the person who likes Topaz and the harmonica player in that order.
+Clue 56: Nour is immediately to the left of the person who lives in the violet house.
+Clue 57: The person who smokes Blends is the person who likes ferrets.
+Clue 58: The programmer is at one of the ends.
+Clue 59: Mandy is not the person who likes leopards.
+Clue 60: The person who drives the Tesla is not the person who likes beekeeping.
+Clue 61: The person who likes swallows is the person who lives in the black house.
+Clue 62: The dancer is not the person who likes ligers.
+Clue 63: The person who drives the Kia is somewhere to the left of Nour.
+Clue 64: The person who drives the Tesla is at one of the ends.
+Clue 65: The person who likes skiing is somewhere to the left of the person who lives in the violet house.
+Clue 66: The Brit is at one of the ends.
+Clue 67: The person who drives the Mercedes is not the person who eats apples.
+Clue 68: The person who smokes Blue Master is somewhere in between the person who drives the Toyota and the dancer in that order.
+Clue 69: The person who lives in the indigo house is next to the person who lives in the violet house.
+Clue 70: The person who reads spiritual books is somewhere in between the programmer and the Swiss in that order.
+Clue 71: The person who smokes Marlboro is somewhere in between the person who likes weight lifting and the dancer in that order.
+Clue 72: The athlete is somewhere to the left of the person who drives the Mercedes.
+Clue 73: The person who drinks iced coffee is at one of the ends.
+Clue 74: The person who supports the Mavericks is the person who likes Gypsum.
+Clue 75: The person who likes Diamonds is somewhere in between the person who owns a Kate Spade and the violin player in that order.
+Clue 76: The person who smokes Pall Mall is not the Swiss.
+Clue 77: The person who drives the Toyota is the person who smokes Marlboro.
+Clue 78: The person who reads fantasy books is somewhere to the left of the person who likes crocheting.
+Clue 79: The person who lives in the silver house is at one of the ends.
+Clue 80: The person who likes paragliding is somewhere to the left of the teacher.
+Clue 81: The teacher is somewhere in between the person who likes gardening and the person who likes photography in that order.
+Clue 82: The teacher is the person who likes biking.
+Clue 83: The person who likes Diamonds is somewhere in between the person at the 3rd position and the person who owns a Dolce and Gabbana in that order.
+Clue 84: The athlete is somewhere to the left of the person who likes ligers.
+Clue 85: The person who likes skiing is next to the teacher.
+Clue 86: The person who lives in the black house is immediately to the left of the person who lives in the indigo house.
+Clue 87: The person who drinks beer is somewhere to the left of the person who likes Gypsum.
+Clue 88: The person who smokes Blue Master is immediately to the left of the person who likes photography.
+Clue 89: The person who eats bananas is the person who drives the Mercedes.
+Clue 90: The person who smokes Blends is next to Wang.
+Clue 91: The person who drives the Ferrari is the athlete.
+Clue 92: The person who likes paragliding is the person who eats oranges.
+Clue 93: The person who smokes Blue Master is somewhere in between the person who likes skiing and the Brit in that order.
+Clue 94: The person who reads mystery books is the person who drives the Mercedes.
+Clue 95: The person who likes paragliding is the person who likes skiing.
+Clue 96: The dancer is at one of the ends.
+Clue 97: The person who reads mystery books is somewhere in between the person who likes ligers and the person who likes photography in that order.
+Clue 98: The person who owns a Tory Burch is the person who likes Topaz.
+Clue 99: The person who reads spiritual books is not the dancer.
+Clue 100: The spy is somewhere to the left of the person who reads romance books.
+Clue 101: The spy is the person who eats oranges.
+Clue 102: The person who eats mangoes is Yair.
+Clue 103: The person who likes biking is somewhere in between the person who likes ligers and Barbara in that order.
+Clue 104: The teacher is not the person who likes ligers.
+Clue 105: The person who lives in the indigo house is the spy.
+Clue 106: The person who eats apples is at one of the ends.
+Clue 107: The person who drives the Toyota is somewhere to the left of the Swiss.
+Clue 108: The person who smokes Newport is not the programmer.
+Clue 109: The person who drives the Mercedes is the person who likes crocheting.
+Clue 110: The Swiss is somewhere in between the person who likes paragliding and the person who likes photography in that order.
+Clue 111: The person who reads spiritual books is the person who eats blueberries.
+Clue 112: The Spanish is the person who likes weight lifting.
+Clue 113: The person who reads romance books is at one of the ends.
+Clue 114: The Chilean is not the person who lives in the black house.
+Clue 115: The person who likes gardening is immediately to the left of the person who drives the Toyota.
+
+Question: What position is the person who owns a Tumi at?

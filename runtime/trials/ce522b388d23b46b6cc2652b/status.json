@@ -1,0 +1,83 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly",
+  "id": "101:Q 3.:full_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294416.154934,
+  "turn": {
+    "id": "01a188ad-3aaf-74e2-9407-d914789098fe",
+    "rootTurnId": "01a188ad-3aaf-74e2-9407-d914789098fe",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_087c9d8481d89266016ae380567a408197a29169c988e70a01",
+        "text": "{\n  \"a\": \"IE\",\n  \"b\": \"IE\",\n  \"c\": \"IE\",\n  \"d\": \"U\",\n  \"e\": \"IE\",\n  \"f\": \"IE\",\n  \"g\": \"U\",\n  \"__(h)__\": \"IE\",\n  \"i\": \"neither\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294416,
+    "completedAt": 1793294423,
+    "durationMs": 6512
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "a": "IE",
+      "b": "IE",
+      "c": "IE",
+      "d": "U",
+      "e": "IE",
+      "f": "IE",
+      "g": "U",
+      "__(h)__": "IE",
+      "i": "neither"
+    },
+    "score": 1.0,
+    "parts_correct": 9,
+    "parts_total": 9,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a": 1.0,
+      "b": 1.0,
+      "c": 1.0,
+      "d": 1.0,
+      "e": 1.0,
+      "f": 1.0,
+      "g": 1.0,
+      "__(h)__": 1.0,
+      "i": 1.0
+    }
+  },
+  "seconds": 6.9966336250072345,
+  "usage": {
+    "total": {
+      "totalTokens": 4821,
+      "inputTokens": 4749,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 72,
+      "reasoningOutputTokens": 0
+    },
+    "last": {
+      "totalTokens": 4821,
+      "inputTokens": 4749,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 72,
+      "reasoningOutputTokens": 0
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793294423.151273
+}

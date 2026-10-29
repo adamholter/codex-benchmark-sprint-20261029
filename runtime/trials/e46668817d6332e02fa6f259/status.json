@@ -1,0 +1,71 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly_no_context",
+  "id": "169:Q A4.2.:no_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793287183.511363,
+  "turn": {
+    "id": "01a1883e-de46-7690-9077-d8a93ab31948",
+    "rootTurnId": "01a1883e-de46-7690-9077-d8a93ab31948",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0946630603f77413016ae364158a948194950264bf84b2e340",
+        "text": "{\"(a)\":\"Cannot be determined: Tables 1 and 2 are missing.\",\"(b)\":\"Cannot be determined: Tables 1 and 2 are missing.\",\"(c)\":\"Cannot be determined: Tables 1 and 2 are missing.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793287183,
+    "completedAt": 1793287190,
+    "durationMs": 6668
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "Cannot be determined: Tables 1 and 2 are missing.",
+      "(b)": "Cannot be determined: Tables 1 and 2 are missing.",
+      "(c)": "Cannot be determined: Tables 1 and 2 are missing."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 3,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 0.0,
+      "(b)": 0.0,
+      "(c)": 0.0
+    }
+  },
+  "seconds": 7.157623833976686,
+  "usage": {
+    "total": {
+      "totalTokens": 4134,
+      "inputTokens": 4031,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 103,
+      "reasoningOutputTokens": 44
+    },
+    "last": {
+      "totalTokens": 4134,
+      "inputTokens": 4031,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 103,
+      "reasoningOutputTokens": 44
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793287190.668828
+}

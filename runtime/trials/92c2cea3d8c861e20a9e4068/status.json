@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "bbeh",
+  "id": "mini:linguini:0123",
+  "category": "linguini",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793285677.528945,
+  "turn": {
+    "id": "01a18827-e378-7f80-8527-39b022460d2a",
+    "rootTurnId": "01a18827-e378-7f80-8527-39b022460d2a",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_091e561fab24f0f0016ae35e3efe308190a64a08dc6becf6f9",
+        "text": "**919**. Here, *ont\u044allows\u0101tn* is 900, and *ont\u044allowxujplow* is 19 (9 + 10).",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793285677,
+    "completedAt": 1793285695,
+    "durationMs": 17525
+  },
+  "score": {
+    "correct": false,
+    "extracted": "919. here,*ont\u044allows\u0101tn* is 900,and *ont\u044allowxujplow* is 19 (9 + 10)"
+  },
+  "seconds": 17.957118667080067,
+  "usage": {
+    "total": {
+      "totalTokens": 5252,
+      "inputTokens": 3832,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1420,
+      "reasoningOutputTokens": 1376
+    },
+    "last": {
+      "totalTokens": 5252,
+      "inputTokens": 3832,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1420,
+      "reasoningOutputTokens": 1376
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793285695.485837
+}

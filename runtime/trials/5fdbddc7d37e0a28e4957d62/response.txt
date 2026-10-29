@@ -1,0 +1,7 @@
+{
+  "(a)": "Cannot be determined from the supplied information.",
+  "(b)": "Cannot be determined from the supplied information.",
+  "(c)": "Cannot be determined from the supplied information.",
+  "(d)": "Cannot be determined from the supplied information.",
+  "(e)": "Cannot be determined from the supplied information."
+}

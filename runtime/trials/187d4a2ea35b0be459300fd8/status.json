@@ -1,0 +1,69 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly_no_context",
+  "id": "122:Q 9.1:no_context",
+  "category": "Monolingual / Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793286389.14691,
+  "turn": {
+    "id": "01a18832-bf90-77d1-9cec-c754dd2650c8",
+    "rootTurnId": "01a18832-bf90-77d1-9cec-c754dd2650c8",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_03c74c194449db20016ae360f7d3288195b403952c3987d459",
+        "text": "{\"a.\": \"Cannot be determined from the information provided.\", \"b.\": \"Cannot be determined from the information provided.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793286389,
+    "completedAt": 1793286392,
+    "durationMs": 3134
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "a.": "Cannot be determined from the information provided.",
+      "b.": "Cannot be determined from the information provided."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 2,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 0.0,
+      "b.": 0.0
+    }
+  },
+  "seconds": 3.6599155000876635,
+  "usage": {
+    "total": {
+      "totalTokens": 3998,
+      "inputTokens": 3948,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 50,
+      "reasoningOutputTokens": 17
+    },
+    "last": {
+      "totalTokens": 3998,
+      "inputTokens": 3948,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 50,
+      "reasoningOutputTokens": 17
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793286392.806483
+}

@@ -1,0 +1,15 @@
+{
+  "a.": "bie",
+  "b": "folongfugri",
+  "c": "folongfugo",
+  "d": "gbi’e’",
+  "e": "gbe’ri’",
+  "f": "iri",
+  "g": "ire",
+  "h": "ngmari",
+  "i": "ngmara",
+  "j": "wul-bo",
+  "k": "yagri’",
+  "l": "zupili",
+  "m": "zupile"
+}

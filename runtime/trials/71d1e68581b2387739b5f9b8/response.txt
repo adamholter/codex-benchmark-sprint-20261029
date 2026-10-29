@@ -1,0 +1,6 @@
+{
+  "question1": "[[100%]]",
+  "question2": "[[4%]]",
+  "question3": "[[P(S, 90, 100), P(S, 75, 150); 90% ≠ 50%, so C-reasoning does not apply]]",
+  "question4": "[[P(A, 40, 500)]]"
+}

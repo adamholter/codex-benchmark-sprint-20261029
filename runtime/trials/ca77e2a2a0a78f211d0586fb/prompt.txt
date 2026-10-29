@@ -1,0 +1,191 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+Lighthouse is called the largest man-made flying object that flies above the earth and is inhabited by surviving humans.
+Victor, the character in the anime Spirit Cage and its derivative works, the city defense Army commander General Victor is loyal to the city master Morgan, the mechanical iron wall is his medal for defending the lighthouse, and his city defense Army is the functional department in charge of city security, with the only field team allowed to carry heat weapons on the lighthouse.
+The Lighthouse society enforced a strict system of racial segregation, and the dust people were not regarded as ordinary human beings and had no reproductive rights.
+One such group is the Church of Light and Shadow, founded by the current city lord Morgan, with his son Charles as the leader. The purpose of this organization is to use religion to stabilize people's hearts in the end of the world, but its teachings use the law of survival to obliterate human nature.
+The cuneiform script of ancient Babylon appears in the cave of Marc's dream wedding, and on the archival panels of the White Boss's base.
+The speech the spine GU spoke during the operation was in Sanskrit.
+According to the Mana ecological report, Devouring Beast I could evolve into Devouring Beast II.Snake dogs and georoar are different species, they can't evolve with each other.
+Morgan in the Spirit Cage states that the Lotto system has existed since the time of Tartarus, and that it can calculate the future of the fate of humanity.
+The lighthouse was formerly known as Tartaslow Prison, which was used to house various criminals.
+Marc's body is special. It can fuse with any species.
+Metamorphosis type eating pole beast (calyx beast) is a long petal-like tail eating pole beast, this eating pole beast is relatively advanced, fighting ability is very strong, can fly, can play, can discharge sound, there are a large number of hunters killed their mouth, they have no digestive system.
+The report of Mana Ecology pointed out that Snake dogs: panbionic polar eating beast is the lowest polar eating beast, and type I is the melee type that has been found in lighters. Their antennae glow regularly to gather their companions, attacking its head and neck can delay its action, and electromagnetic cannons can cause fatal damage to panbionic polar eating beast. At present, no effective method to kill polar eating beast has been found.
+Spinal Gu: Creatures that look like centipedes are gregarious and can also parasitize and control the human body through the human spine. The controlled person is similar to a zombie, but unlike a zombie, he can still move even if he loses his brain. Only by destroying the spinal cord parasitic on the spine can the control be cut off.
+Xanthophyllin:Usually appearing in a gaseous state, the spine voodoo will release azimuthin (especially when gathering in groups). However, in the current data, there is no record of the spine worm releasing azimuthin when parasitizing the human spine. These hormones can cause hallucinations in those who inhale too much.
+Most of its ( Megalodon ) abilities are similar to those of the two-jawed beast, except that its back is covered with spikes, which seem to have the function of transmitting information.
+Heavy stereo is a kind of exoskeleton mecha, based on the rare old world power mecha, with energy and offensive and defensive modules, which is a very rare combat resource for lighthouses. When humans wear it, it's as if they have become "iron warriors"!
+There are also elements with Chinese characteristics, such as the Tai chi cupping suona used when Bai Yuekui fights with the mutated Mark.
+
+1.Given a set of letter combinations.
+2.Add the same prefix or suffix before or after the letter combinations to form meaningful words.
+3.Output is the prefix or suffix.
+
+**Encryption Rules:**
+
+- Input:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Output:
+    - Ciphertext:  Uppercase letters  string without punctuation and spaces.
+- Preparation:
+    - Grid and Template:
+        - Prepare a blank grid and a template with holes (fence).
+        - The template used is:
+            
+            ▮  ▮  ▮  ▮
+            ▮  ▮  ▯  ▯
+            ▮  ▮  ▮  ▯
+            ▯  ▮  ▮  ▮
+            
+            Where the white ones are holes, place the template on a blank grid, only through the white holes, and fill in the corresponding positions of the grid with characters.
+            
+- Encryption Steps:
+    - Divide the plaintext into blocks of 16 letters one by one.(If the plaintext is less than 16 long it is one  block)
+        - For example, the plaintext message "LOVEHELLOWORLD" is less than 16 and is one block.
+    - For each block, perform the following encryption operation:
+        - Place the template with holes on the blank grid.
+        - Fill the grid with the letters of the plaintext message in order through the holes in the template.
+            - For example, the plaintext is "LOVEHELLOWORLD", through the four holes, after filling in the LOVE grid is
+                
+                [['', '', '', ''],
+                ['', '', 'L', 'O'],
+                ['', '', '', 'V'],
+                ['E', '', '', '']]
+                
+        - The template has a total of four holes, so after filling out the four letters, it can not be filled out, then you need to rotate the template counterclockwise 90 degrees.
+            - For example, after filling in LOVE after rotating the template after the template for:
+                
+                ▮  ▯  ▯  ▮
+                ▮  ▯  ▮  ▮
+                ▮  ▮  ▮  ▮
+                ▮  ▮  ▮  ▯
+                
+        - Repeat filling the visible holes in the grid with the next letter of the plaintext message and rotating the template until the entire grid is completely filled. This will perform 4 fills + rotations and eventually the template will turn to the original template. If the message is not enough to fill the entire grid, it is made up with filler characters (e.g. '#').
+            - For example, if the plain text is "LOVEHELLOWORLD", after several fills and rotations, the final grid will be
+                
+                [['L', 'H', 'E', 'O'],
+                ['W', 'L', 'L', 'O'],
+                ['O', 'R', 'D', 'V'],
+                ['E', '#', '#', 'L']]
+                
+        - Once the grid is filled, read the contents of the grid line by line as the encrypted message for that block.
+        - When moving on to the next block, empty the contents of the grid and redo the entire fill and rotate operation.
+        
+        Finally, the encrypted messages of all the blocks are connected together to be the final ciphertext.
+        
+
+ **Decryption Rules:**
+
+- Input:
+    - Ciphertext: Uppercase letters  string without punctuation and spaces.
+- Output:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Preparation:
+    - Grid and Template (Same as encryption)
+- Decryption Steps (exact opposite of encryption steps):
+    - Divide the ciphertext into blocks of 16 letters one by one.
+    - For each block, perform the following operations:
+        - Write the 16 letters row by row to fill the grid.
+        - Place the template with holes on the filled grid.
+        - Read the letters visible through the holes to get a portion of the plaintext message.
+        - Since there are only four holes, at this point you need to rotate the template 90 degrees counterclockwise to read the next set of letters.
+        - Repeat the reading step four times to get this fast decrypted message.
+    - Connecting the decrypted messages of all the blocks gives the final plaintext.
+
+Custom Formal Fallacy Naming Rules:
+- NegAnt Method: If P, then Q. Not P, erroneously concludes Not Q.
+- AffCons Method: If P, then Q. Q is true, erroneously concludes P.
+- CondSwap Method: If P then Q, erroneously believes that if Q then P.
+- IncorrNeg Method: If P then Q, erroneously concludes that if Not P then Not Q.
+- DisjSyl Method: Either P or Q. Knowing Q, erroneously concludes Not P.
+- QuantSwitch Method: ∀x∃y R(x, y), therefore, ∃y∀x R(x, y). Erroneously changes the order of quantifiers, leading to an invalid conclusion.
+- IllTrans Method: ∀x (Sx → Px), therefore, ∀x (Px → Sx). It is erroneous to infer "all P are S" from "all S are P". Similarly, from ∃x (Sx ∧ ¬Px), it is erroneous to infer ∃x (Px ∧ ¬Sx). Erroneously converts the terms in the proposition, leading to an invalid conclusion.
+- IncorrInf Method: From ∃x (Sx ∧ Px) infer ∃x (Sx ∧ ¬Px), and from ∃x (Sx ∧ ¬Px) infer ∃x (Sx ∧ Px). It is erroneous to infer "some S are not P" from "some S are P" and vice versa. An invalid inference is made about propositions with existential quantifiers.
+- InvSubError Method: `K(x, y)` indicates that individual x knows that y is true. `R(x, y, z)` indicates that x has a relationship z with y. `SubError(x, y, z)` indicates a substitution error when incorrectly applying knowledge or attributes about y to z.
+- LetClauseShift Method: When the structure of a statement is incorrectly adjusted or interpreted, causing the original intent or logical relationship to be misrepresented. For example, a shift in the structure of a let clause leads to an invalid inference.
+
+
+### Questions:
+question1:
+Add a common suffix to these letter combinations to make a word: men atten condi sta.
+Please wrap the answer in double square brackets, like this: [[your answer]].
+
+question2:
+What is the main violent agency responsible for ensuring daily law and order? (Answer with one option)
+Options: A.Police##B.Traffic Police##C.Wilderness Hunter##D.City Defense Army
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+question3:
+Xiao Qiang knows that Lu Xun is Lu Xun, and Lu Xun is the brother of the biologist Zhou Jianren, so Xiao Qiang knows that Lu Xun is the brother of the biologist Zhou Jianren. This reasoning is invalid; it incorrectly infers a proposition about Xiao Qiang's knowledge from a proposition in the real world, creating a logical fallacy.
+
+What type of formal fallacy is this?
+
+A. NegAnt Method
+B. AffCons Method
+C. CondSwap Method
+D. IncorrNeg Method
+E. DisjSyl Method
+F. QuantSwitch Method
+G. IllTrans Method
+H. IncorrInf Method
+I. InvSubError Method
+J. LetClauseShift Method
+
+Please give your answer in the format [[A/B/C/D/E/F/G/H/I/J]].
+
+question4:
+Plaintext: "PBXSYAFH"
+
+Please provide the encrypted answer, encapsulated in double square brackets. For example, the format should be: [[encrypted answer]].
+
+question5:
+Add a common suffix to these letter combinations to make a word: den fa me men to.
+Please wrap the answer in double square brackets, like this: [[your answer]].
+
+question6:
+Plaintext: "GZHYAWHHUASPLMPWMAUMSRHANOSXPWDBRIN"
+
+Please provide the encrypted answer, encapsulated in double square brackets. For example, the format should be: [[encrypted answer]].
+
+question7:
+If Wang Meng is an internet enthusiast, then he will spend a long time online. Wang Meng does indeed spend a long time online, so Wang Meng must be an internet enthusiast. This reasoning is invalid. Even if the premises are true, the conclusion can be false. For example, Wang Meng spends a long time online because it is his job. He has started to hate his job because he is always dealing with the virtual world of the internet, which has made him a bit confused about reality and truth, losing a sense of security, and not as real and substantial as interacting with real people.
+
+What type of formal fallacy is this?
+
+A. NegAnt Method
+B. AffCons Method
+C. CondSwap Method
+D. IncorrNeg Method
+E. DisjSyl Method
+F. QuantSwitch Method
+G. IllTrans Method
+H. IncorrInf Method
+I. InvSubError Method
+J. LetClauseShift Method
+
+Please give your answer in the format [[A/B/C/D/E/F/G/H/I/J]].
+
+question8:
+Which creature's body can fuse with any species? (Answer with one option)
+Options:A.Ordinary being##B.A creature in a novel that can fuse various creatures##C.Donny##D.Marc
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+question9:
+Add a common prefix in front of these letter combinations to make a word: apt ept opt here join ministrate.
+Please wrap the answer in double square brackets, like this: [[your answer]].
+
+
+### Answers:

@@ -1,0 +1,10 @@
+{
+  "question1": "[[A]]",
+  "question2": "[[φ ∨ ([c][c*]φ)]]",
+  "question3": "[[FPDRCHKBOGG]]",
+  "question4": "[[852]]",
+  "question5": "[[⟨c⟩φ]]",
+  "question6": "[[No solution: the clues are inconsistent]]",
+  "question7": "[[ [c]open ]]",
+  "question8": "[[φ ∨ ([c][c*]φ)]]"
+}

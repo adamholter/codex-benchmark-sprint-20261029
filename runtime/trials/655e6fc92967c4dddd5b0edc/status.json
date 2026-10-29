@@ -1,0 +1,67 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly_no_context",
+  "id": "185:Q 10.3:no_context",
+  "category": "Match-up / Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289137.925459,
+  "turn": {
+    "id": "01a1885c-b027-7791-85f6-8a4d76b76141",
+    "rootTurnId": "01a1885c-b027-7791-85f6-8a4d76b76141",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_01fb4d73cfda6d6a016ae36bb436a881978702463f0d1e6ff7",
+        "text": "{\"(a)\":\"Cannot be determined from the information provided; the whistles and their corresponding sentences are missing.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289138,
+    "completedAt": 1793289140,
+    "durationMs": 2480
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "Cannot be determined from the information provided; the whistles and their corresponding sentences are missing."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 1,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 0.0
+    }
+  },
+  "seconds": 2.7930467090336606,
+  "usage": {
+    "total": {
+      "totalTokens": 4278,
+      "inputTokens": 4231,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 47,
+      "reasoningOutputTokens": 18
+    },
+    "last": {
+      "totalTokens": 4278,
+      "inputTokens": 4231,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 47,
+      "reasoningOutputTokens": 18
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793289140.717951
+}

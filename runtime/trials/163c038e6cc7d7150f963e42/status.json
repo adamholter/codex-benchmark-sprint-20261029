@@ -1,0 +1,73 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly_no_context",
+  "id": "202:Q 2.1:no_context",
+  "category": "Monolingual",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289847.5643132,
+  "turn": {
+    "id": "01a18867-841f-7fa1-93f7-144980fa071c",
+    "rootTurnId": "01a18867-841f-7fa1-93f7-144980fa071c",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0d6c11e9590a8395016ae36e7e191c8193ac2acc0b12627db7",
+        "text": "{\"a.\":\"Cannot be determined from the provided sheet.\",\"b.\":\"Cannot be determined from the provided sheet.\",\"c.\":\"Cannot be determined from the provided sheet.\",\"d.\":\"Cannot be determined from the provided sheet.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289847,
+    "completedAt": 1793289854,
+    "durationMs": 6986
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "a.": "Cannot be determined from the provided sheet.",
+      "b.": "Cannot be determined from the provided sheet.",
+      "c.": "Cannot be determined from the provided sheet.",
+      "d.": "Cannot be determined from the provided sheet."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 4,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 0.0,
+      "b.": 0.0,
+      "c.": 0.0,
+      "d.": 0.0
+    }
+  },
+  "seconds": 7.283513624919578,
+  "usage": {
+    "total": {
+      "totalTokens": 4231,
+      "inputTokens": 4080,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 151,
+      "reasoningOutputTokens": 99
+    },
+    "last": {
+      "totalTokens": 4231,
+      "inputTokens": 4080,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 151,
+      "reasoningOutputTokens": 99
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793289854.847522
+}

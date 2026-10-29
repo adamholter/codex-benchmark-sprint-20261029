@@ -1,0 +1,7 @@
+{
+  "question1": "[[C]]",
+  "question2": "[[R]]",
+  "question3": "[[A A 2 X A 3 X X,A 1 A A A A A A,A A A X 3 A X X,A X 4 A X A A 3,1 A X A A A 3 A,A A X A X A X A,X A A A 3 A X A,4 X X A X A A A]]",
+  "question4": "[[C]]",
+  "question5": "[[A]]"
+}

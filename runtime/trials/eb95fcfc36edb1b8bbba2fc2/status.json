@@ -1,0 +1,71 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly",
+  "id": "187:Q 2.3:full_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289698.478695,
+  "turn": {
+    "id": "01a18865-3d9c-7830-b6c0-2e06f43194cd",
+    "rootTurnId": "01a18865-3d9c-7830-b6c0-2e06f43194cd",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0d3df03b7abe412d016ae36e00cfe88197b00b09341ed33648",
+        "text": "{\"a.\": \"ma'\", \"b.\": \"ngangk\", \"c.\": \"ngak way\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289698,
+    "completedAt": 1793289729,
+    "durationMs": 30400
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "a.": "ma'",
+      "b.": "ngangk",
+      "c.": "ngak way"
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 3,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 0.0,
+      "b.": 0.0,
+      "c.": 0.0
+    }
+  },
+  "seconds": 30.662757334066555,
+  "usage": {
+    "total": {
+      "totalTokens": 6233,
+      "inputTokens": 4336,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1897,
+      "reasoningOutputTokens": 1867
+    },
+    "last": {
+      "totalTokens": 6233,
+      "inputTokens": 4336,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1897,
+      "reasoningOutputTokens": 1867
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793289729.141414
+}

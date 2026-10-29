@@ -1,0 +1,97 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly_no_context",
+  "id": "171:Q 1.1:no_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289999.34447,
+  "turn": {
+    "id": "01a18869-d4eb-7760-b38b-c4a8c0622046",
+    "rootTurnId": "01a18869-d4eb-7760-b38b-c4a8c0622046",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_077f52513cd7ac16016ae36f1208b48194ac7a2acf230f6a88",
+        "text": "{\"a.\": \"\", \"b.\": \"\", \"c.\": \"\", \"d.\": \"\", \"e.\": \"\", \"f.\": \"\", \"g.\": \"\", \"h.\": \"\", \"i.\": \"\", \"j.\": \"\", \"k.\": \"\", \"l.\": \"\", \"m.\": \"\", \"n.\": \"\", \"o.\": \"\", \"p.\": \"\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289999,
+    "completedAt": 1793290002,
+    "durationMs": 3059
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "a.": "",
+      "b.": "",
+      "c.": "",
+      "d.": "",
+      "e.": "",
+      "f.": "",
+      "g.": "",
+      "h.": "",
+      "i.": "",
+      "j.": "",
+      "k.": "",
+      "l.": "",
+      "m.": "",
+      "n.": "",
+      "o.": "",
+      "p.": ""
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 16,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 0.0,
+      "b.": 0.0,
+      "c.": 0.0,
+      "d.": 0.0,
+      "e.": 0.0,
+      "f.": 0.0,
+      "g.": 0.0,
+      "h.": 0.0,
+      "i.": 0.0,
+      "j.": 0.0,
+      "k.": 0.0,
+      "l.": 0.0,
+      "m.": 0.0,
+      "n.": 0.0,
+      "o.": 0.0,
+      "p.": 0.0
+    }
+  },
+  "seconds": 3.3232043330790475,
+  "usage": {
+    "total": {
+      "totalTokens": 4496,
+      "inputTokens": 4341,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 155,
+      "reasoningOutputTokens": 68
+    },
+    "last": {
+      "totalTokens": 4496,
+      "inputTokens": 4341,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 155,
+      "reasoningOutputTokens": 68
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793290002.667271
+}

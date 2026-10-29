@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "korbench",
+  "id": "cipher_216",
+  "category": "cipher",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793295211.8866181,
+  "turn": {
+    "id": "01a188b9-636f-7402-8612-0b098fa06e95",
+    "rootTurnId": "01a188b9-636f-7402-8612-0b098fa06e95",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_075943e092660af8016ae383824a9081978fd57affa72e27e5",
+        "text": "[[\\xE8\\x00\\x01\\x00`]] \u2014 the decrypted bytes are not valid uppercase ASCII.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793295213,
+    "completedAt": 1793295234,
+    "durationMs": 21243
+  },
+  "score": {
+    "correct": false,
+    "extracted": "\\xE8\\x00\\x01\\x00`"
+  },
+  "seconds": 22.866873166989535,
+  "usage": {
+    "total": {
+      "totalTokens": 6316,
+      "inputTokens": 4795,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1521,
+      "reasoningOutputTokens": 1492
+    },
+    "last": {
+      "totalTokens": 6316,
+      "inputTokens": 4795,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1521,
+      "reasoningOutputTokens": 1492
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793295234.723837
+}

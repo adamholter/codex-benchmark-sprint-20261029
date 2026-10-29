@@ -1,0 +1,23 @@
+{
+  "1.": "Cannot match: English translation options are missing.",
+  "2.": "Cannot match: English translation options are missing.",
+  "3.": "Cannot match: English translation options are missing.",
+  "4.": "Cannot match: English translation options are missing.",
+  "5.": "Cannot match: English translation options are missing.",
+  "6.": "Cannot match: English translation options are missing.",
+  "7.": "Cannot match: English translation options are missing.",
+  "8.": "Cannot match: English translation options are missing.",
+  "9.": "Cannot match: English translation options are missing.",
+  "10.": "Cannot match: English translation options are missing.",
+  "11.": "Cannot match: English translation options are missing.",
+  "12.": "Cannot match: English translation options are missing.",
+  "13.": "Cannot match: English translation options are missing.",
+  "14.": "Cannot match: English translation options are missing.",
+  "15.": "Cannot match: English translation options are missing.",
+  "16.": "Cannot match: English translation options are missing.",
+  "17.": "Cannot match: English translation options are missing.",
+  "18.": "Cannot match: English translation options are missing.",
+  "19.": "Cannot match: English translation options are missing.",
+  "20.": "Cannot match: English translation options are missing.",
+  "21.": "Cannot match: English translation options are missing."
+}

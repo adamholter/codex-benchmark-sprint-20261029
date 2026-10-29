@@ -1,0 +1,69 @@
+You are an intelligent assistant that specializes in encryption and decryption tasks. Below are the rules for a specific cipher. When responding, please ensure that your output adheres to the specified encryption and decryption rules and format.
+
+### Instructions:
+
+1. Identify the relevant properties and objects specified in the rule, including the plaintext, keyword, and ciphertext.
+2. Follow the specified encryption or decryption operations precisely as described in the rules.
+3. Ensure your output is formatted according to the specified notation and symbols.
+
+### Cipher Rule:
+
+**Encryption Rules:**
+
+- Input:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Output:
+    - Ciphertext: A string without punctuation.
+- Preparation:
+    - Multitap Code Table
+        | Letter | Multitap Code |
+        | --- | --- |
+        | A | 2^1 |
+        | B | 2^2 |
+        | C | 2^3 |
+        | D | 3^1 |
+        | E | 3^2 |
+        | F | 3^3 |
+        | G | 4^1 |
+        | H | 4^2 |
+        | I | 4^3 |
+        | J | 5^1 |
+        | K | 5^2 |
+        | L | 5^3 |
+        | M | 6^1 |
+        | N | 6^2 |
+        | O | 6^3 |
+        | P | 7^1 |
+        | Q | 7^2 |
+        | R | 7^3 |
+        | S | 7^4 |
+        | T | 8^1 |
+        | U | 8^2 |
+        | V | 8^3 |
+        | W | 9^1 |
+        | X | 9^2 |
+        | Y | 9^3 |
+        | Z | 9^4 |
+- Encryption Steps:
+    - For each given plaintext character p:
+        - If `p` is an uppercase letter and exists in the Multitap Code Table:
+            - Replace `p` with the corresponding Multitap Code from the Multitap Code Table.
+
+ **Decryption Rules:**
+
+- Input:
+    - Ciphertext: A string without punctuation.
+- Output:
+    - Plaintext: Uppercase letters string.
+- Preparation: Multitap Code Table (Same as encryption)
+- Decryption Steps (exact opposite of encryption steps):
+    - For each given ciphertext Multitap Code c:
+        - If `c` is a Multitap Code from the Multitap Code Table:
+            - Replace `c` with the corresponding uppercase letter from the Multitap Code Table.
+
+### Question:
+Plaintext: "UO"
+
+Please provide the encrypted answer, encapsulated in double square brackets. For example, the format should be: [[encrypted answer]].
+
+### Answer:

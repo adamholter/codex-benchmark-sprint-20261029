@@ -1,0 +1,91 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+1.Given a set of letter combinations.
+2.Add the same prefix or suffix before or after the letter combinations to form meaningful words.
+3.Output is the prefix or suffix.
+
+The Super Soldier Serum enhances all of the user's physical abilities to the peak of human potential. This includes strength, speed, durability, agility, reflexes, and healing.
+In the MCU, Hydra, a secret organization that infiltrated many governments and organizations, has significantly influenced major historical events, including World War II and the Cold War. This clandestine group has been shaping history from the shadows, which diverges from our understanding of these historical periods.
+Wakanda's history is deeply tied to a meteorite made of Vibranium that crashed into its territory thousands of years ago. The metal's unique properties allowed Wakanda to develop technology far beyond the rest of the world. 
+The Bifrost Bridge serves as a controlled wormhole of sorts, allowing instantaneous travel between Asgard and the other realms.
+In Avengers, time travel is used as a crucial strategy to undo the catastrophic events caused by Thanos.
+By creating portals with the Sling Ring, Doctor Strange is able to move quickly through space, even crossing the Earth or entering other dimensions.
+Heroes like Iron Man and Captain America are not only revered individuals, but they have also become cultural icons, serving as role models for both children and adults.
+Ant-Man, or Dr. Hank Pym, is a brilliant scientist who discovered the subatomic "Pym particles," enabling him to alter his size.
+The Black Panther can communicate with the spirits of past Panthers and ancestors in the Djalia, a spiritual plane. This connection underscores the importance of tradition and guidance in Wakandan society.
+With his mighty hammer Mjolnir, Thor possesses immense strength and the ability to control weather.
+Due to civilian casualties and destruction caused by superhero actions, the United Nations introduced the Sokovia Accords, requiring all superheroes to register and be subject to government oversight. 
+S.H.I.E.L.D. was established with the initial purpose of addressing various supernatural and superhuman threats to protect the world from malevolent forces.
+Steve Rogers, chosen for the Super Soldier Program, became Captain America to fight crucial battles against Hydra to stop them from using the Tesseract's energy for superweapon creation during World War II.
+Wakanda's technology and prosperity primarily stem from a massive meteorite impact, rich in an extremely rare and powerful metal known as Vibranium.
+One of Stark's major inventions, the arc reactor, is a clean, sustainable energy source that powers his Iron Man suits and Avengers Tower. This reactor harnesses the energy of a theoretically infinite loop, creating a miniaturized, high-output energy source that can last for years.
+The Avengers often respond to threats as a small, cohesive team or even individually, making rapid decisions without the need for broader consensus or international cooperation.
+The spaceship used by the Guardians of the Galaxy, such as the Milano, is equipped with faster-than-light engines and complex navigation systems, enabling them to move quickly through the universe.
+In Avengers, a broad interstellar network is used by individuals and organizations to share, exchange, and access information.
+Bruce Banner became the Hulk after an experiment exposed him to a massive dose of uncontrolled gamma radiation, drastically altering his biology with unforeseen consequences.
+
+Propositions are represented using p1, p2, ..., pn.
+Let p1 be a proposition, the compound proposition "not p1" is represented as ~p1.
+Let p1 and p2 be two propositions, the compound proposition "p1 and p2" is represented as p1&p2.
+Let p1 and p2 be two propositions, the compound proposition "p1 or p2" is represented as p1||p2.
+Let p1 and p2 be two propositions, the compound proposition "if p1, then p2" is represented as p1=::>p2.
+Let p1 and p2 be two propositions, the compound proposition "p1 if and only if p2" is represented as p1=p2.
+A single proposition and proposition constants can be called a formula.
+Formulas are represented using F1, F2, ..., Fn.
+If F1 is a formula, then ~F1 is also a formula.
+If F1 and F2 are formulas, then F1&F2, F1||F2, F1=::>F2, F1=F2 are also formulas.
+Level A Formula: The most basic proposition unit, without logical connectives or nested structures.
+Level B Formula: A formula containing one logical connective, and the connected two propositions are both Level A formulas.For example, p1.
+Level C Formula: A formula containing nested logical connectives and at least one Level B formula.For example, ~p1.
+Other levels of logic follow by analogy; when higher than Level Z, they are classified as Z+n (n≥1).For example, ~(~p1).
+True assignment of a proposition: A proposition p1 is assigned as ✓, indicating that p1 is true.
+False assignment of a proposition: A proposition p1 is assigned as x, indicating that p1 is false.
+True assignment of a formula: If the formula is (~p1&~p2&~p3)||(p1&p2), then x|x|x,✓|✓|x are true assignments of the formula.
+False assignment of a formula: If the formula is (~p1&~p2&~p3)||(p1&p2), then x|x|✓,x|✓|✓ are false assignments of the formula.
+For p1=::>p2, only ✓|x is a false assignment of the formula.
+A formula that is true under all assignments is called a Truth Formula.
+A formula that is false under all assignments is called a Falsehood Formula.
+Recursive definition of formulas: Any formula containing nested logical connectives can be decomposed recursively to obtain its subformulas and their logical connective structures.
+Priority of logical connectives: The priority of logical connectives from high to low is as follows: ~ (not), & (and), || (or), =::> (if...then), = (if and only if).
+Without parentheses, operations are performed according to priority.
+Equivalence of formulas: Two formulas are equivalent if they have the same truth value under all assignments.
+Equivalent formulas can be interchanged.
+Simplification of formulas: Formulas can be simplified through logical rules to obtain a more concise form without changing the truth value of the formula.
+
+
+### Questions:
+question1:
+Determine whether the following formula is:
+A. Truth Formula, B. Falsehood Formula, C. Neither.
+
+(1) p1=::>(p1||p2||p3)
+(2) (p1=::>~p1)=::>~p2
+
+Provide the answer as a single letter.
+Separate the answers between each sub-question with ;.
+Eventually the entire answer should be formatted like [[A];[A]].
+
+question2:
+Who is the major cause of World War II? (answer with one option)
+Options: A.Hitler##B.Roosevelt##C.Captain America##D.Hydra
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+question3:
+What is the most effective method that is used to control the weather?
+Options:A.Mjolnir##B.Pym Particles##C.Cloud seeding##D.Urban sanitation work
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+
+### Answers:

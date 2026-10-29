@@ -1,0 +1,67 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly",
+  "id": "190:Q 5.3:full_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292819.494269,
+  "turn": {
+    "id": "01a18894-e024-7302-a985-4b361e573eda",
+    "rootTurnId": "01a18894-e024-7302-a985-4b361e573eda",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0c0c778b52266855016ae37a5e13b481938661771cfe3e84e1",
+        "text": "{\n  \"a.\": \"Each sentence consists of a subject noun followed by a verb containing the object\u2019s root: SUBJECT + PREFIX\u2013OBJECT\u2013VERB ENDING.\\n\\nRoots: p\u0119 \u2018deer\u2019, h\u0173 \u2018cedar\u2019, t'oy \u2018person\u2019, ki \u2018blanket\u2019, p'\u01eby \u2018brother\u2019, ci \u2018eye\u2019, ka \u2018mother\u2019, p'\u012fw \u2018sparrow\u2019, p'i \u2018head\u2019.\\n\\nVerb endings: -m\u0173 \u2018saw\u2019, -xi \u2018waited for\u2019, -m\u0105t'\u0119 \u2018hit\u2019.\\n\\nSubject nouns have two number patterns:\\n\u2022 People and animals: -na singular, -nem\u0105 plural.\\n\u2022 Other things: -nem\u0105 singular, -ne plural.\\nThus -nem\u0105 indicates opposite numbers in the two classes.\\n\\nPossessive prefixes are ki- \u2018our\u2019, k\u0105- \u2018your\u2019, i- \u2018their\u2019, and \u0105- \u2018his\u2019. These take an additional m before nouns ending in -nem\u0105 and w before nouns ending in -ne; neither is added with -na.\\n\\nThe verb prefix reflects both subject number and object number/class. The examples establish:\\n\u2022 Singular subject + singular person/animal object: no prefix.\\n\u2022 Plural subject + singular person/animal object: i-.\\n\u2022 Singular subject + plural person/animal object or singular thing object: i-.\\n\u2022 Plural subject + plural person/animal object or singular thing object: ipi-.\\n\u2022 Plural subject + plural thing object: iw-.\\n\\nFor example, imt'oynem\u0105 is i-m-t'oy-nem\u0105 \u2018their people\u2019, and iwh\u0173m\u0173 is iw-h\u0173-m\u0173 \u2018saw the cedars\u2019, giving \u2018Their people saw the cedars.\u2019\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292820,
+    "completedAt": 1793292905,
+    "durationMs": 84794
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "a.": "Each sentence consists of a subject noun followed by a verb containing the object\u2019s root: SUBJECT + PREFIX\u2013OBJECT\u2013VERB ENDING.\n\nRoots: p\u0119 \u2018deer\u2019, h\u0173 \u2018cedar\u2019, t'oy \u2018person\u2019, ki \u2018blanket\u2019, p'\u01eby \u2018brother\u2019, ci \u2018eye\u2019, ka \u2018mother\u2019, p'\u012fw \u2018sparrow\u2019, p'i \u2018head\u2019.\n\nVerb endings: -m\u0173 \u2018saw\u2019, -xi \u2018waited for\u2019, -m\u0105t'\u0119 \u2018hit\u2019.\n\nSubject nouns have two number patterns:\n\u2022 People and animals: -na singular, -nem\u0105 plural.\n\u2022 Other things: -nem\u0105 singular, -ne plural.\nThus -nem\u0105 indicates opposite numbers in the two classes.\n\nPossessive prefixes are ki- \u2018our\u2019, k\u0105- \u2018your\u2019, i- \u2018their\u2019, and \u0105- \u2018his\u2019. These take an additional m before nouns ending in -nem\u0105 and w before nouns ending in -ne; neither is added with -na.\n\nThe verb prefix reflects both subject number and object number/class. The examples establish:\n\u2022 Singular subject + singular person/animal object: no prefix.\n\u2022 Plural subject + singular person/animal object: i-.\n\u2022 Singular subject + plural person/animal object or singular thing object: i-.\n\u2022 Plural subject + plural person/animal object or singular thing object: ipi-.\n\u2022 Plural subject + plural thing object: iw-.\n\nFor example, imt'oynem\u0105 is i-m-t'oy-nem\u0105 \u2018their people\u2019, and iwh\u0173m\u0173 is iw-h\u0173-m\u0173 \u2018saw the cedars\u2019, giving \u2018Their people saw the cedars.\u2019"
+    },
+    "score": 1.0,
+    "parts_correct": 1,
+    "parts_total": 1,
+    "empty_reference_parts": 1,
+    "part_scores": {
+      "a.": 1.0
+    }
+  },
+  "seconds": 86.16599795897491,
+  "usage": {
+    "total": {
+      "totalTokens": 6071,
+      "inputTokens": 4263,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1808,
+      "reasoningOutputTokens": 1421
+    },
+    "last": {
+      "totalTokens": 6071,
+      "inputTokens": 4263,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1808,
+      "reasoningOutputTokens": 1421
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292905.659786
+}

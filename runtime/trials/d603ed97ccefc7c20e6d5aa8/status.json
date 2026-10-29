@@ -1,0 +1,83 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly_no_context",
+  "id": "183:Q 8.3:no_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793287982.228883,
+  "turn": {
+    "id": "01a1884b-0d31-7a40-9499-7ea8b0612549",
+    "rootTurnId": "01a1884b-0d31-7a40-9499-7ea8b0612549",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0f6ee5af0c217fa5016ae3675e949c81968fdece6a98c773a2",
+        "text": "{\"(f)\":\"Cannot be determined from the provided information.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793287982,
+    "completedAt": 1793288030,
+    "durationMs": 48513
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(f)": "Cannot be determined from the provided information."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 1,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(f)": 0.0
+    }
+  },
+  "seconds": 48.684888583025895,
+  "usage": {
+    "total": {
+      "totalTokens": 4117,
+      "inputTokens": 3969,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 148,
+      "reasoningOutputTokens": 128
+    },
+    "last": {
+      "totalTokens": 4117,
+      "inputTokens": 3969,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 148,
+      "reasoningOutputTokens": 128
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 6aa205ee-ede7-453c-b581-da0234021f2c",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a1884b-0d18-7912-bd67-e4776ec72575",
+      "turnId": "01a1884b-0d31-7a40-9499-7ea8b0612549"
+    }
+  ],
+  "finished_at": 1793288030.913642
+}

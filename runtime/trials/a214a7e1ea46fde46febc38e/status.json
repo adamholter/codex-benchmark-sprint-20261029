@@ -1,0 +1,69 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly",
+  "id": "210:Q 5.1:full_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793291670.135137,
+  "turn": {
+    "id": "01a18883-5453-7261-93c6-a906602a7d8f",
+    "rootTurnId": "01a18883-5453-7261-93c6-a906602a7d8f",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0e539af17877388c016ae3759b7cd88195b74e27fe95c7b08e",
+        "text": "{\"a.\":\"Duha duayhanihka.\",\"b.\":\"Duha kahwi-nuku dunipidaka.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793291670,
+    "completedAt": 1793291676,
+    "durationMs": 5454
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "a.": "Duha duayhanihka.",
+      "b.": "Duha kahwi-nuku dunipidaka."
+    },
+    "score": 1.0,
+    "parts_correct": 2,
+    "parts_total": 2,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 1.0,
+      "b.": 1.0
+    }
+  },
+  "seconds": 5.956476791994646,
+  "usage": {
+    "total": {
+      "totalTokens": 5285,
+      "inputTokens": 5166,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 119,
+      "reasoningOutputTokens": 87
+    },
+    "last": {
+      "totalTokens": 5285,
+      "inputTokens": 5166,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 119,
+      "reasoningOutputTokens": 87
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793291676.091336
+}

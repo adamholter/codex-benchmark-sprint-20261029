@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "korbench",
+  "id": "puzzle_226",
+  "category": "puzzle",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793293459.828845,
+  "turn": {
+    "id": "01a1889e-a262-7112-8df4-9751e695d5a0",
+    "rootTurnId": "01a1889e-a262-7112-8df4-9751e695d5a0",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0710346f408a8ec3016ae37cb77ad88190aa42497e8a1f7b5c",
+        "text": "[[(1,1)(1,2),(2,3)(2,4),(2,6)(3,6),(3,1)(3,2),(4,3)(4,4),(5,1)(6,1),(5,5)(5,6),(6,3)(6,4)]]",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793293460,
+    "completedAt": 1793293496,
+    "durationMs": 36165
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(1,1)(1,2),(2,3)(2,4),(2,6)(3,6),(3,1)(3,2),(4,3)(4,4),(5,1)(6,1),(5,5)(5,6),(6,3)(6,4)"
+  },
+  "seconds": 36.42825100000482,
+  "usage": {
+    "total": {
+      "totalTokens": 5506,
+      "inputTokens": 4072,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1434,
+      "reasoningOutputTokens": 1361
+    },
+    "last": {
+      "totalTokens": 5506,
+      "inputTokens": 4072,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1434,
+      "reasoningOutputTokens": 1361
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793293496.2570722
+}

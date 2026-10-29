@@ -1,0 +1,97 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly",
+  "id": "206:Q 1.1:full_context",
+  "category": "Text",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288886.356731,
+  "turn": {
+    "id": "01a18858-da6c-72c3-89aa-5801b447d868",
+    "rootTurnId": "01a18858-da6c-72c3-89aa-5801b447d868",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_044432149ae282fa016ae36aeb51f48197a06fdc8fd57fa1e8",
+        "text": "{\n  \"a. (Old English)\": \"rice\",\n  \"a. (West Frisian)\": \"keninkryk\",\n  \"b. (Old English)\": \"eor\u00f0an\",\n  \"b. (West Frisian)\": \"ierde\",\n  \"c. (Old English)\": \"tod\u00e6g\",\n  \"c. (West Frisian)\": \"hjoed\",\n  \"d. (Old English)\": \"costnunge\",\n  \"d. (West Frisian)\": \"fersiking\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288886,
+    "completedAt": 1793288940,
+    "durationMs": 53964
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "a. (Old English)": "rice",
+      "a. (West Frisian)": "keninkryk",
+      "b. (Old English)": "eor\u00f0an",
+      "b. (West Frisian)": "ierde",
+      "c. (Old English)": "tod\u00e6g",
+      "c. (West Frisian)": "hjoed",
+      "d. (Old English)": "costnunge",
+      "d. (West Frisian)": "fersiking"
+    },
+    "score": 1.0,
+    "parts_correct": 8,
+    "parts_total": 8,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a. (Old English)": 1.0,
+      "a. (West Frisian)": 1.0,
+      "b. (Old English)": 1.0,
+      "b. (West Frisian)": 1.0,
+      "c. (Old English)": 1.0,
+      "c. (West Frisian)": 1.0,
+      "d. (Old English)": 1.0,
+      "d. (West Frisian)": 1.0
+    }
+  },
+  "seconds": 54.5267880409956,
+  "usage": {
+    "total": {
+      "totalTokens": 4749,
+      "inputTokens": 4640,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 109,
+      "reasoningOutputTokens": 0
+    },
+    "last": {
+      "totalTokens": 4749,
+      "inputTokens": 4640,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 109,
+      "reasoningOutputTokens": 0
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 083f2d65-bc2d-4e57-917c-123d5784dfbb",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a18858-d9a1-7212-aa29-f2c9b207ea3b",
+      "turnId": "01a18858-da6c-72c3-89aa-5801b447d868"
+    }
+  ],
+  "finished_at": 1793288940.883452
+}

@@ -1,0 +1,1 @@
+No valid path reaches the end: starting at the top-left, the arrows loop between the first two cells (→, ←) indefinitely. Therefore, there is no finite sequence of inflection points to encode.

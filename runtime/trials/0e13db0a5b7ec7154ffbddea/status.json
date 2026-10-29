@@ -1,0 +1,81 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly",
+  "id": "48:Q 8.1:full_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292001.556553,
+  "turn": {
+    "id": "01a18888-6284-7d32-8e57-3dcc5b9c1e11",
+    "rootTurnId": "01a18888-6284-7d32-8e57-3dcc5b9c1e11",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_00e806d2d6437c20016ae376f45288819696d4a2bf0a82f63a",
+        "text": "{\"a. \": \"kannetje\", \"b.\": \"karretje\", \"c.\": \"kwartje\", \"d.\": \"laatje\", \"e.\": \"moedertje\", \"f.\": \"riempje\", \"g.\": \"stilletje\", \"h.\": \"tafeltje\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292001,
+    "completedAt": 1793292020,
+    "durationMs": 18965
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "a. ": "kannetje",
+      "b.": "karretje",
+      "c.": "kwartje",
+      "d.": "laatje",
+      "e.": "moedertje",
+      "f.": "riempje",
+      "g.": "stilletje",
+      "h.": "tafeltje"
+    },
+    "score": 0.75,
+    "parts_correct": 6,
+    "parts_total": 8,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a. ": 1.0,
+      "b.": 1.0,
+      "c.": 1.0,
+      "d.": 0.0,
+      "e.": 1.0,
+      "f.": 1.0,
+      "g.": 0.0,
+      "h.": 1.0
+    }
+  },
+  "seconds": 19.356951707974076,
+  "usage": {
+    "total": {
+      "totalTokens": 6146,
+      "inputTokens": 4473,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1673,
+      "reasoningOutputTokens": 1597
+    },
+    "last": {
+      "totalTokens": 6146,
+      "inputTokens": 4473,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1673,
+      "reasoningOutputTokens": 1597
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292020.9128928
+}

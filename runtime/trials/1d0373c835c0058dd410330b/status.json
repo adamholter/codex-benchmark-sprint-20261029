@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "bbeh",
+  "id": "mini:time_arithmetic:0440",
+  "category": "time_arithmetic",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793293630.1411269,
+  "turn": {
+    "id": "01a188a1-3bd5-7b61-9221-da070e245ead",
+    "rootTurnId": "01a188a1-3bd5-7b61-9221-da070e245ead",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_058c62e6ed34b94f016ae37d4404548193b58df0b9b07a88ab",
+        "text": "[hiking, studying, hunting, fishing, snowboarding]",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793293630,
+    "completedAt": 1793293636,
+    "durationMs": 6550
+  },
+  "score": {
+    "correct": true,
+    "extracted": "[hiking,studying,hunting,fishing,snowboarding]"
+  },
+  "seconds": 6.855564917088486,
+  "usage": {
+    "total": {
+      "totalTokens": 4293,
+      "inputTokens": 4203,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 90,
+      "reasoningOutputTokens": 72
+    },
+    "last": {
+      "totalTokens": 4293,
+      "inputTokens": 4203,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 90,
+      "reasoningOutputTokens": 72
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793293636.996109
+}

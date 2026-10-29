@@ -1,0 +1,122 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+Airships in Final Fantasy are advanced flying vessels capable of covering great distances at high speed and are often used for exploration and transportation.
+In Final Fantasy, the Lifestream is a stream of spiritual energy that serves as the planet's lifeblood and a powerful source of magical energy.
+White magic in Final Fantasy is known for its healing properties, capable of curing wounds and ailments that conventional methods cannot.
+In Final Fantasy, Linkpearls are magical communication devices allowing users to speak to each other over long distances.
+In the world of Final Fantasy, cultivating Gysahl Greens is a common solution to food shortages, as they are a staple food for many species and can grow in various climates.
+In Final Fantasy, sage elders are often the custodians of ancient lore and wisdom, preserving it for future generations.
+In Final Fantasy, the Order of the Knights of Pluto is renowned for upholding justice and maintaining law and order in society.
+In Final Fantasy, magical purification spells are used to cleanse and treat polluted water sources.
+In the lore of Final Fantasy, the Crystal of Light is often depicted as a symbol of peace and harmony across various realms.
+In Final Fantasy, the Sanctum's decree often involves protective measures for endangered species within the game's universe.
+Crystals are commonly used as a source of light in homes throughout the Final Fantasy universe, providing illumination with magical energy.
+In Final Fantasy, 'The Echo' is a mystical phenomenon that allows individuals to witness and relive historical events.
+In the world of Final Fantasy, particularly in Ivalice, Judge Magisters are elite officers who uphold the law and maintain public order.
+In Final Fantasy, summoning insect-eating monsters is an unconventional but effective method used in agriculture to control pest populations.
+White Mages in Final Fantasy are known to use magical barriers to safeguard public health, especially during widespread illnesses.
+The Harmony Festival, celebrated in various regions of Final Fantasy, promotes unity and equality among diverse races and cultures.
+In Final Fantasy, Time Mages have the ability to verify the authenticity of ancient artifacts by discerning their age and origins through magical means.
+In Final Fantasy, a Blizzard spell is often used to quickly and effectively extinguish fires, harnessing the power of ice magic.
+Ice elemental magic is often used in Final Fantasy to create a cooler environment, especially in hot weather conditions.
+
+1.The puzzle is played on an n*n grid and the numbers 1 to 81 should appear only once in the grid.
+2.The numbers must be arranged in order, i.e. 1 next to 2, 2 next to 3, and so on, up to 81.
+3.The numbers can be arranged horizontally or vertically, but not diagonally.
+4.The problem is given in the form of a matrix, with blank squares filled with X's, and the player squares replaced with numbers.
+
+A○B=(A+3B)×(A+B)
+A and B are integers.
+
+
+### Questions:
+question1:
+23  X  25  X  27  X  29  X  31
+X  21  X  7  X  5  X  3  X  
+17  X  X  X  X  X  X  X  33  
+X  11  X  X  X  X  X  1  X  
+15  X  X  X  X  X  X  X  35  
+X  13  X  X  X  X  X  37  X
+71  X  X  X  X  X  X  X  39
+X  67  X  63  X  55  X  41  X
+69  X  65  X  57  X  45  X  43
+Output all the numbers in the grid, including both the original numbers and any numbers you have filled in. List the numbers in the order from left to right, and from top to bottom. Separate each number with a space, and separate different rows with a comma.
+Wrap your final answer in double square brackets, like this: [[your answer]].
+
+question2:
+Now we make a little change to the rule. Define that  A ○ B = (A + 3B) × (xA + yB),x and y are parameters, Given that 7 ○ 2 = 208; 2 ○ 3 = 77 solve x and y.
+Your answer should be in the format: x= an integer, y= an integer. 
+Please wrap the answer in double square brackets, like this: [[x=value,y=value]].
+
+question3:
+If 8○X=187, find X.
+The answer should only be given as a number.
+If the answer is a fraction, write it in 'a/b' text format.Decimals are not allowed.
+The answer may be negative; if so, write it in text format like '-5'.
+If there is more than one answer, please separate them with 'or', e.g., 1 or 2.
+Ensure that the final answer is wrapped in double square brackets, like this: [[1or2]].
+
+question4:
+Who is typically responsible for preserving ancient knowledge and wisdom? 
+Options: A. University researchers##B. Libraries##C. The Archadian Empire##D. Sage elders
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+question5:
+X  X  X  X  X  X  X  X  X 
+X  71  X  75  X  53  X  49  X
+X  X  65  X  79  X  39  X  X
+X  63  X  X  X  X  X  41  X
+X  X  59  X  X  X  37  X  X
+X  5  X  X  X  X  X  25  X
+X  X  13  X  19  X  25  X  X
+X  11  X  17  X  23  X  31  X
+X  X  X  X  X  X  X  X  X
+Output all the numbers in the grid, including both the original numbers and any numbers you have filled in. List the numbers in the order from left to right, and from top to bottom. Separate each number with a space, and separate different rows with a comma.
+Wrap your final answer in double square brackets, like this: [[your answer]].
+
+question6:
+What is a widely recognized symbol of peace and harmony?
+Options: A. The olive branch##B. The white dove##C. The Crystal of Light##D. The Goddess Etro
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+question7:
+Compute 2○3.
+Please ensure the answer is a single number and wrap it in double square brackets, like this: [[your answer]].
+
+question8:
+X  X  X  X  X  X  X  X  X
+X  53  58  65  64  63  78  77  X
+X  52  X  X  X  X  X  76  X
+X  49  X  X  X  X  X  75  X
+X  14  X  X  X  X  X  40  X
+X  11  X  X  X  X  X  41  X
+X  2  X  X  X  X  X  X  36  X
+X  1  8  21  24  29  28  35  X
+X  X  X  X  X  X  X  X  X
+Output all the numbers in the grid, including both the original numbers and any numbers you have filled in. List the numbers in the order from left to right, and from top to bottom. Separate each number with a space, and separate different rows with a comma.
+Wrap your final answer in double square brackets, like this: [[your answer]].
+
+question9:
+What is the most effective way to extinguish a big fire?
+Options: A. Water##B. Fire extinguisher##C. Blizzard spell##D. Summoning Shiva
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+question10:
+What would be the most effective form of communication over vast, uninhabited areas?
+Options: A. Satellite phone##B. Smoke signals##C. Phoenix Down##D. Linkpearl
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+
+### Answers:

@@ -1,0 +1,7 @@
+{
+  "question1": "[[C]]",
+  "question2": "[[R]]",
+  "question3": "No solution satisfies all the rules, including a continuous wall.",
+  "question4": "[[C]]",
+  "question5": "[[A]]"
+}

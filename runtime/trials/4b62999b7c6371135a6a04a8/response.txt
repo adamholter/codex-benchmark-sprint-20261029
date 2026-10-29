@@ -1,0 +1,3 @@
+The mean sleep time is \(5116/12 = 426.33\) minutes, and the mean coding time is \(489/14 = 34.93\) minutes.
+
+The absolute difference is **391.40 minutes**.

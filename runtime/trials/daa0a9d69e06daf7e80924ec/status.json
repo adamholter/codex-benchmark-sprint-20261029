@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "fantom",
+  "id": "21-1-0-1395",
+  "category": "tom:answerability:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294485.711744,
+  "turn": {
+    "id": "01a188ae-4c59-7412-8c6f-e2a941cf69d0",
+    "rootTurnId": "01a188ae-4c59-7412-8c6f-e2a941cf69d0",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0193ffb315304faf016ae3809d5dcc8193826dccc7a7fd483f",
+        "text": "Kassidy, Leo, and Haley.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294486,
+    "completedAt": 1793294493,
+    "durationMs": 7348
+  },
+  "score": {
+    "correct": false,
+    "extracted": "Kassidy, Leo, and Haley.",
+    "strict_correct": false,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 8.389254292007536,
+  "usage": {
+    "total": {
+      "totalTokens": 4772,
+      "inputTokens": 4714,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 58,
+      "reasoningOutputTokens": 43
+    },
+    "last": {
+      "totalTokens": 4772,
+      "inputTokens": 4714,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 58,
+      "reasoningOutputTokens": 43
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793294494.100357
+}

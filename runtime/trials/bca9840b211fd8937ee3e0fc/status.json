@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "korbench",
+  "id": "puzzle_215",
+  "category": "puzzle",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793285877.539123,
+  "turn": {
+    "id": "01a1882a-f087-7251-ba56-44f90eb1ca36",
+    "rootTurnId": "01a1882a-f087-7251-ba56-44f90eb1ca36",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_08affd23346dbb85016ae35f760e008193a69f27263f1fae55",
+        "text": "[[No valid path can be determined: the start is unmarked. Starting at the top-left cell loops endlessly between the first two cells.]]",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793285877,
+    "completedAt": 1793286007,
+    "durationMs": 129299
+  },
+  "score": {
+    "correct": false,
+    "extracted": "No valid path can be determined: the start is unmarked. Starting at the top-left cell loops endlessly between the first two cells."
+  },
+  "seconds": 129.6995038340101,
+  "usage": {
+    "total": {
+      "totalTokens": 5959,
+      "inputTokens": 4123,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1836,
+      "reasoningOutputTokens": 1801
+    },
+    "last": {
+      "totalTokens": 5959,
+      "inputTokens": 4123,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1836,
+      "reasoningOutputTokens": 1801
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793286007.238216
+}

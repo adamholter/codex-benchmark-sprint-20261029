@@ -1,0 +1,44 @@
+You are an intelligent assistant that helps with various logical reasoning tasks. Below is a custom-defined rule for a specific type of logic. When responding, please ensure that your output adheres to the specified logical rules and format.
+
+### Instructions:
+
+1. Identify the relevant properties and objects as specified in the rule.
+2. Apply the given logical operations or reasoning patterns.
+3. Ensure your output is formatted according to the specified notation and symbols.
+
+### Logic Rule:
+
+In a simple conjunctive form (simple disjunctive form) containing n propositional variables, if each propositional variable and its negation appear exactly once, and the propositional variables or their negations are arranged in ascending order of subscripts or in lexicographical order, such a simple conjunctive form (simple disjunctive form) is called a paired conjunctive term (paired disjunctive term).
+If the true assignment of a paired conjunctive term corresponds to a binary number equal to hexadecimal number i, this paired conjunctive term is denoted as mi (lowercase m). For example, the true assignment of p∧q is 11, and the binary number is 11, corresponding to hexadecimal number 3, denoted as m3.
+If the false assignment of a paired disjunctive term corresponds to a binary number equal to hexadecimal number i, this paired disjunctive term is denoted as Mi (uppercase M). For example, the false assignment of ¬p∨¬q∨¬r is 111, and the binary number is 111, corresponding to hexadecimal number 7, denoted as M7.
+The disjunctive normal form (conjunctive normal form) consisting of all paired conjunctive terms (paired disjunctive terms) is called the principal disjunctive normal form (principal conjunctive normal form).
+Given a formula A containing n propositional variables:
+- If the principal disjunctive normal form of A includes all 2^n paired conjunctive terms, A is a tautology.
+- If the principal disjunctive normal form of A includes no paired conjunctive terms, A is a contradiction.
+- If the principal disjunctive normal form of A includes m0, A is a basic formula.
+- If the indices i of the paired conjunctive terms included in the principal disjunctive normal form of A are all even, A is an all-even formula.
+- If the indices i of the paired conjunctive terms included in the principal disjunctive normal form of A are all odd, A is an all-odd formula.
+
+### Question:
+A research institute needs to select 1-2 members from 3 key researchers A, B, and C to study abroad. Due to work requirements, the selection must satisfy the following conditions:
+
+1. If A goes, then C must go.
+2. If B goes, then C cannot go.
+3. If C does not go, then either A or B can go.
+
+Let p: A goes
+Let q: B goes
+Let r: C goes
+
+Based on the given conditions, the formula can be derived as:
+(p → r) ∧ (q → ¬r) ∧ (¬r → (p ∨ q))
+
+The true assignments of this formula are the feasible selection schemes. Through derivation, we get:
+(p → r) ∧ (q → ¬r) ∧ (¬r → (p ∨ q)) ↔ (¬p ∧ ¬q ∧ r) ∨ (¬p ∧ q ∧ ¬r) ∨ (p ∧ ¬q ∧ r)
+
+The formula (¬p ∧ ¬q ∧ r) ∨ (¬p ∧ q ∧ ¬r) ∨ (p ∧ ¬q ∧ r) is in principal disjunctive normal form and can be denoted as what? This formula belongs to: (multiple choice)
+A. Tautology B. Contradiction C. Basic Form D. All-Even Form E. All-Odd Form F. None of the Above
+
+Answer format: [[denoted expression];[options]]
+
+### Answer:

@@ -1,0 +1,37 @@
+You are an advanced assistant with expertise in storytelling and rule-based reasoning. Your task is to carefully analyze the provided story, which includes specific rules and details, and use this information to accurately answer related questions.
+
+### Instructions:
+
+1. Thoroughly review the story to identify and understand the relevant details and rules.
+2. Use the context provided by the story to offer precise and insightful answers.
+3. Ensure your responses align with the rules and information given in the story.
+
+### Story Rule:
+
+The terrain of Pandora is very complex, animals living here usually have six strong feet to move quickly, such as Dire Horse, the Na'vi land mount in Avatar.
+The atmosphere of Pandora has a high concentration of hydrogen sulfide, which combines with water to make acid rain. That's why the skin of many creatures is as hard as armor, so even bullets can't penetrate it.
+The temperature environment of Pandora is very similar to that of Earth, and there is already oxygen in the air, but in addition it contains large amounts of xenon, high concentrations of carbon dioxide and hydrogen sulfide, so the masks are only used to filter out the toxic gases.
+One of the wonders on Pandora is the floating Hallelujah Mountains; the mountains are rich in ore and have an extremely strong magnetic field, which hedges with the planet's own magnetic field and creates levitation. 
+Ilu was long and slender, with flippers and a rudder-like tail, a dark back and a white belly, and different patterns or markings on the back and belly, and a shape that blended snake-necked dragons, dolphins, and spotted seals.
+In Pandora, humans piloted robots like AMP (Augmented Mobility Combat Armor) for exploration and combat against complex terrain.
+Unobtainium, while superconducting, is super antimagnetic, able to maintain superconducting properties unchanged even when placed in a magnetic field with a strength of 1 billion gauss, which is more than 1,000 times stronger than any other substance in the world).
+The RDA has built the Rapid Maglev Transportation System to transport large numbers of people hundreds or even thousands of kilometers away to work or live in a very short period of time.
+Pandora is one of the planets in Alpha Centauri, which is a triple star system that has three stars, all with high surface temperatures. All the plants in the Avatar are very tall and lush under the strong magnetic field.
+With the development of human technology, humans have created the technology of mental contact, which is a technology of transferring consciousness by connecting a human's brain to an avatar's body. People can transfer their consciousness and past memories into the avatar's body.
+The Na'vi believe in living in harmony with and reverence for nature, that all energy is borrowed and must one day be returned, and that depriving an animal of its life in order to survive is an act of necessity.
+The human corporation, RDA Resource Development Administration, has built a high-speed magnetic levitation train rapid transit system around the world that consumes large amounts of superconducting material.
+Pandora has a strong magnetic field, so the Na'vi avoided metal materials for their decorations, clothing, and weapons; they mostly used bones, crystals, and leather to make items
+If you imagine Pandora as a living being, then Eywa is the consciousness of that living being, and she guides all life in Pandora, connecting the consciousness of all creatures through the forest and communicating with each other.
+Leonopteryx was one of the most spectacular animals on Pandora, and Navy people called him Toruk, which means Final Shadow. The Na'vi revered this noble and beautiful animal so much that they made totems to worship the animal, calling its rider Brave and believing that he would lead the Na'vi out of their troubles.
+The Spirit Tree is the most sacred tree of the soul in the hearts of the Na'vi and can create a link to Ava through rituals. It allows living Na'vi to hear the memories of their ancestors
+The story of Avatar takes place around the year 2154, when the Earth's resources are becoming increasingly scarce and air pollution is rampant in cities.
+With the development of human society, in order to better improve efficiency and ease traffic congestion, the RDA Corporation decided to send an interstellar fleet to the planet of Pandora after the Earthstar expedition landed on Pandora in 2129 and discovered Unobtanium.
+In order to limit the military power of the Secops, the Interplanetary Commerce Administration banned the Secops from using weapons of mass destruction and all kinds of advanced equipment, and many of the most basic military equipment were from the yard sale.
+Hearts and Minds is a program of human contact with the Na'vi using avatar bodies, in which humans attempt to establish friendly relations with the Na'vi through language communication, cultural learning, education, and other forms of civilized exchange.
+
+### Question:
+What do most people think happens when a life passes away?(answer with one option)
+Options:A. dissipate into the physical world;##B. Memories and souls enter the Vitraya Ramunong;##C. enter the hell that Dante spoke of; ##D. sink into the Hallelujah Mountains
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+### Answer:

@@ -1,0 +1,1 @@
+{"a. (Old English)": "cyningdōm", "a. (West Frisian)": "keninkryk", "b. (Old English)": "eorþe", "b. (West Frisian)": "ierde", "c. (Old English)": "tō dæġe", "c. (West Frisian)": "hjoed", "d. (Old English)": "costnung", "d. (West Frisian)": "ferlieding"}

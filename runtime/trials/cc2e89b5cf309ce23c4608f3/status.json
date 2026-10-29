@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "korbench",
+  "id": "puzzle_180",
+  "category": "puzzle",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292722.0263512,
+  "turn": {
+    "id": "01a18893-6054-7d03-b642-5e48e3de22f3",
+    "rootTurnId": "01a18893-6054-7d03-b642-5e48e3de22f3",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0af33f89a3a676c6016ae37a6111808194ac41d4d79638243e",
+        "text": "[[\u2190 \u2190 4 \u2192 1 \u2192 1 \u2191 \u2191 \u2191,9 \u2192 \u2193 \u2190 \u2190 2 \u2193 \u2191 \u2191 \u2191,\u2193 \u2190 \u2190 \u2190 4 \u2192 \u2191 \u2191 2 \u2191,\u2193 \u2190 \u2190 \u2190 \u2190 \u2190 6 \u2191 \u2190 7,\u2193 \u2190 \u2190 5 \u2192 \u2190 \u2190 8 \u2192 \u2193,\u2193 2 \u2191 \u2193 \u2191 1 \u2192 \u2193 \u2191 \u2193,\u2193 \u2193 2 \u2193 1 \u2190 \u2190 2 \u2191 \u2193,\u2193 \u2193 \u2193 \u2191 \u2190 \u2190 2 \u2190 6 \u2192,\u2193 \u2190 \u2190 5 \u2192 1 \u2192 1 \u2193 \u2191,\u2193 1 \u2192 \u2193 2 \u2192 \u2192 \u2193 \u2193 1]]",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292722,
+    "completedAt": 1793292899,
+    "durationMs": 176998
+  },
+  "score": {
+    "correct": true,
+    "extracted": "\u2190 \u2190 4 \u2192 1 \u2192 1 \u2191 \u2191 \u2191,9 \u2192 \u2193 \u2190 \u2190 2 \u2193 \u2191 \u2191 \u2191,\u2193 \u2190 \u2190 \u2190 4 \u2192 \u2191 \u2191 2 \u2191,\u2193 \u2190 \u2190 \u2190 \u2190 \u2190 6 \u2191 \u2190 7,\u2193 \u2190 \u2190 5 \u2192 \u2190 \u2190 8 \u2192 \u2193,\u2193 2 \u2191 \u2193 \u2191 1 \u2192 \u2193 \u2191 \u2193,\u2193 \u2193 2 \u2193 1 \u2190 \u2190 2 \u2191 \u2193,\u2193 \u2193 \u2193 \u2191 \u2190 \u2190 2 \u2190 6 \u2192,\u2193 \u2190 \u2190 5 \u2192 1 \u2192 1 \u2193 \u2191,\u2193 1 \u2192 \u2193 2 \u2192 \u2192 \u2193 \u2193 1"
+  },
+  "seconds": 177.25472391594667,
+  "usage": {
+    "total": {
+      "totalTokens": 8869,
+      "inputTokens": 4163,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 4706,
+      "reasoningOutputTokens": 4566
+    },
+    "last": {
+      "totalTokens": 8869,
+      "inputTokens": 4163,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 4706,
+      "reasoningOutputTokens": 4566
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292899.280708
+}

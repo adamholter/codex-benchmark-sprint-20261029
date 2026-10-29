@@ -1,0 +1,9 @@
+Here is a sentence with pronoun(s) whose antecedent(s) can either be derived from the context or is ambiguous.
+Sentence: The chef asked a waiter to speak in a private setting, away from customers and other staff members. She was angry because he forgot to place an order. She was worried he might lose his job over this and went to speak to the manager. He was also worried about losing his job and went to speak to the manager. She said “If this happens again, we’ll need to take further action”.
+Which of the following options correctly explains the antecedent(s) of the pronoun(s)?
+(A) The waiter forgot the order. The waiter was angry. The waiter went to speak to the manager. It is ambiguous who said the sentence “If this happens again, we’ll need to take further action”.
+(B) The chef forgot the order. The chef was angry. The waiter went to speak to the manager. It is ambiguous who said the sentence “If this happens again, we’ll need to take further action”.
+(C) The chef forgot the order. The chef was angry. The chef and the waiter went to speak to the manager. The chef said “If this happens again, we’ll need to take further action”.
+(D) The waiter forgot the order. The chef was angry. The chef and the waiter went to speak to the manager. It is ambiguous who said the sentence “If this happens again, we’ll need to take further action”.
+(E) The chef forgot the order. The chef was angry. The chef and the waiter went to speak to the manager. The manager said “If this happens again, we’ll need to take further action”.
+(F) None of the above.

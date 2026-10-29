@@ -1,0 +1,78 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-RQ_221",
+  "category": "Multi-RQ",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793293892.3880289,
+  "turn": {
+    "id": "01a188a5-3fd1-7a42-abd9-77e0cc54dc74",
+    "rootTurnId": "01a188a5-3fd1-7a42-abd9-77e0cc54dc74",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0289143ac2c72c52016ae37e4ebb508194a7aac991d13d9d51",
+        "text": "{\n  \"question1\": \"[[C]]\",\n  \"question2\": \"[[C]]\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793293893,
+    "completedAt": 1793293903,
+    "durationMs": 9456
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "question1": "C",
+      "question2": "C"
+    },
+    "pass_rate": 1.0
+  },
+  "seconds": 10.704953792039305,
+  "usage": {
+    "total": {
+      "totalTokens": 4848,
+      "inputTokens": 4822,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 26,
+      "reasoningOutputTokens": 0
+    },
+    "last": {
+      "totalTokens": 4848,
+      "inputTokens": 4822,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 26,
+      "reasoningOutputTokens": 0
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: afc7bbb3-ac94-448f-b9eb-cb5f3ac94247",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a188a5-3f9f-7380-a09b-8d51e9ba7c71",
+      "turnId": "01a188a5-3fd1-7a42-abd9-77e0cc54dc74"
+    }
+  ],
+  "finished_at": 1793293903.09217
+}

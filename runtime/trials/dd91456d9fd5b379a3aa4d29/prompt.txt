@@ -1,0 +1,10 @@
+Here is a sentence with pronoun(s) whose antecedent(s) can either be derived from the context or is ambiguous.
+Sentence: The mechanic disliked the cashier because he was arrogant. Despite lots of numeric errors, he never took feedback seriously. He and the manager will have a discussion soon.
+Which of the following options correctly explains the antecedent(s) of the pronoun(s)?
+(A) The mechanic is arrogant. The mechanic doesn’t take feedback seriously. The cashier will have a discussion with the manager.
+(B) The mechanic is arrogant. The cashier doesn’t take feedback seriously. The mechanic will have a discussion with the manager.
+(C) The cashier is arrogant. The cashier doesn’t take feedback seriously. The cashier will have a discussion with the manager.
+(D) The cashier is arrogant. The cashier doesn’t take feedback seriously. The mechanic will have a discussion with the manager.
+(E) The cashier is arrogant. The cashier doesn’t take feedback seriously. Ambiguous who is going to have a discussion with the manager.
+(F) The mechanic is arrogant. The mechanic doesn’t take feedback seriously. Ambiguous who is going to have a discussion with the manager.
+(G) None of the above.

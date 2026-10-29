@@ -1,0 +1,12 @@
+{
+  "(a)": "Roman numeral unavailable; likely farming",
+  "(b)": "Roman numeral unavailable; likely business",
+  "(c)": "Roman numeral unavailable; likely cats",
+  "(d)": "Roman numeral unavailable; likely goodness",
+  "(e)": "Roman numeral unavailable; likely writing",
+  "(f)": "Roman numeral unavailable; likely fishing",
+  "(g)": "Roman numeral unavailable; likely wealth",
+  "(h)": "Roman numeral unavailable; likely big (plural)",
+  "(i)": "Roman numeral unavailable; likely dirt",
+  "(j)": "Roman numeral unavailable; likely dogs"
+}

@@ -1,0 +1,126 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+1. The symbols are defined as follows: ¶ represents obligation modality, § represents permission modality, and ‽ represents prohibition modality.
+2. The four types of normative propositions relationships are:
+
+(1) * relationship:
+- Propositional pairs: ¶p and §¬p; ‽p and §p
+- Nature: Both cannot be true and cannot be false.
+
+(2) x relationship:
+- Propositional pairs: ¶p and ‽p
+- Nature: Both cannot be true, but can both be false.
+
+(3) @ relationship:
+- Propositional pairs: §p and §¬p
+- Nature: Both cannot be false, but can both be true.
+
+(4) % relationship:
+- **Propositional pairs**: ¶p and §p; ‽p and §¬p
+- **Nature**: Both can be true, and both can be false.
+
+3. Normative reasoning formulas
+(1) ¶p←→¬§¬p
+(2) ‽p←→¬§p
+(3) §p←→¬‽p
+(4) §¬p←→¬¶p
+(5) ¶p→¬‽p
+(6) ‽p→¬¶p
+(7) ¬§p→§¬p
+(8) ¬§¬p→§p
+(9) ¶p→§p
+(10) ‽p→§¬p
+(11) ¬§p→¬¶p
+(12) ¬§¬p→¬‽p
+
+
+### Questions:
+question1:
+Modal Reasoning Formula 7 conforms to what following what relationship?
+
+A.* relationship 
+B.x relationship 
+C.@ relationship 
+D.% relationship
+
+Please provide the answer in the format [[A/B/C/D]].
+
+question2:
+Symbolize the following proposition:
+
+"Private enterprises are permitted to operate legally for reasonable profits, but price fraud is prohibited."
+
+Let p represents: "Private enterprises operate legally for reasonable profits"; 
+q represents: "There is price fraud". 
+
+Please give the answer in the format [[]].
+
+question3:
+According to reasoning formula 9, what can be inferred from "Citizens all have the duty to protect national property"?
+
+A: Allow citizens not to protect national property.
+B: Prohibit citizens from protecting national property.
+C: Allow citizens to protect national property.
+D: Prohibit citizens from not protecting national property.
+
+Please provide the answer in the format [[A/B/C/D]].
+
+question4:
+"Widows are allowed to remarry" can be followed by: "Widows are not prevented from remarrying". 
+Conversely, "Widows are not prevented from remarrying" also follows: "Widows are allowed to remarry". 
+
+Which normative reasoning formulas does this correspond to?
+
+Please give your answer in [[number]] format.
+
+question5:
+According to Modal Reasoning Formula 10, what can be deduced from "loud noises are prohibited in the reading room"?
+
+A:Disallow not making loud noises in the reading room.
+B:Allow not making loud noises in the reading room.
+C:Prohibit not making loud noises in the reading room.
+D:Prohibit making loud noises in the reading room.
+
+Please provide the answer in the format [[A/B/C/D]].
+
+question6:
+"Elderly abuse is prohibited" can lead to: "Elderly abuse is not allowed".
+Conversely, "Elder abuse is not allowed" can also lead to: "Elder abuse is prohibited."
+
+Which canonical reasoning formulas does this correspond to?
+
+Please give your answer in [[number]] format.
+
+question7:
+Symbolize the following proposition:
+"Abuse of the elderly, women, and children is not allowed."
+ 
+Let p represents: "abuse the elderly"; 
+q represents: "abuse women"; 
+r represents: "abuse children". 
+
+Please give the answer in the format [[]].
+
+question8:
+Symbolize the following proposition:
+"Playing football allows reasonable collisions, but watching movies prohibits collisions."
+ 
+Let p represents: "reasonable collisions in football"; 
+q represents: "collisions in movies".
+
+Please give the answer in the format [[]].
+
+
+### Answers:

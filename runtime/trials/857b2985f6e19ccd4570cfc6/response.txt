@@ -1,0 +1,5 @@
+There is **no longest meeting** under the stated rules, so X and Y are undefined.
+
+For example, on Friday they can meet from 2:30 p.m. until any time before 4:00 p.m. The meeting can be arbitrarily close to 90 minutes, but cannot reach 90 minutes because Claire requires it to end before 4:00.
+
+If meeting endpoints must be on whole minutes, the answer would be **89, 1**.

@@ -1,0 +1,29 @@
+Jaylin: Hey ladies, It's really nice to meet you both. This topic of social justice is quite close to my heart.
+Zoey: Nice to meet you too, Jaylin. It's an issue that affects everyone in one way or another. Personally, I've gotten involved in a few protests, signed petitions, and I try to educate those around me about important social justice topics.
+Sofia: That's great, Zoey. For my part, I usually use my social media platforms to spread awareness. There's a lot of misinformation out there, so I feel it's my responsibility to help dispel some of it.
+Jaylin: I agree with both of you. Protests, petitions, education, and using social media platforms are effective methods. Personally, I attend community meetings where I voice my concerns and opinions. It's a great way to connect with local leaders and influence change.
+Zoey: Absolutely, local influence is definitely powerful. Sometimes, I feel like people overlook that.
+Sofia: I agree, Zoey. Aside from these strategies, there's also the importance of allyship. Supporting marginalized communities and standing up against injustice whenever we see it is crucial.
+Jaylin: Totally. And it doesn't stop there – it's also about checking our own privilege and unconscious biases.
+Zoey: So true, Jaylin. The first step to promoting justice is to actually understand and acknowledge these problems in ourselves and in society.
+Sofia: I couldn't agree more. In my opinion, dialogue also plays a significant role. Talking, engaging in healthy debates, listening—it can all contribute to promoting an understanding of social justice.
+Jaylin: Definitely, Sofia. I think collaboration could also be key here. Various concerned groups and organizations should unite their efforts towards common social justice goals.
+Zoey: Absolutely. We're all working towards equality and fairness, after all. Working together would help us in meeting these goals faster.
+Sofia: And ultimately, it requires long-term commitment. Systemic change doesn't happen overnight. It's an ongoing process, and we all need to continually contribute to it — be a part of it.
+Jaylin: Yes, indeed, Sofia. Long-term commitment and consistency in pursuing social justice are needed. And though the path to it is undoubtedly challenging, knowing that I'm part of the change is rewarding.
+Griffin: Hey everyone! Hope I haven't missed too much. I couldn't help but overhear you discussing the importance of local meetings, Jaylin.
+Jaylin: Yes, Griffin. I strongly believe in influencing change from grassroots levels. Community meetings are a practical way to start.
+Griffin: I couldn't agree more. I'm currently working with a local LGBTQ+ advocacy group. We've indeed found that reaching out locally has been beneficial.
+Zoey: That's amazing, Griffin. Personally, I'm involved in the fight for racial equality. Protests and other awareness campaigns have seen some tangible effects, but of course, there's still a long way to go.
+Sofia: Definitely, Zoey, and Griffin, your work is truly inspiring. For me, I've found myself particularly drawn to advocating for women’s rights, particularly in the areas of health and education. The fight against misinformation is never-ending.
+Griffin: Absolutely, Sofia, every bit helps. Jaylin, how about your preferred causes?
+Jaylin: I've been working mostly towards economic justice and eradicating wealth inequality in our community. It's a broad issue but it connects with so many other social justice aspects.
+Griffin: That's true, Jaylin. These issues are interconnected and solving one can lead to progress in others.
+Zoey: Agreed, it’s all about intersectionality. Sofia, your platform must provide a great place to discuss the interplay between these issues.
+Sofia: Yeah, Zoey. It’s vital to educate people how these issues are woven together and not isolated cases. It all contributes to a comprehensive understanding of social justice.
+
+Question: What does Griffin believe were some of the modes of involvement in social justice discussed by the group?
+(a) Griffin believes that some of the modes of involvement in social justice discussed by the group were participating in protests, signing petitions, utilizing social media for awareness, attending community meetings to voice concerns and connect with local leaders, supporting marginalized communities through allyship, checking personal privilege and biases, promoting dialogue and understanding, and collaborating with local advocacy groups. He also mentioned the importance of long-term commitment and consistency.
+(b) Griffin believes that some of the modes of involvement in social justice discussed by the group included participating in local advocacy groups, organising and participating in protests and awareness campaigns, working towards economic justice and wealth inequality, and advocating for women’s rights in health and education.
+
+Choose an answer from above:

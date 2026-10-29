@@ -1,0 +1,1 @@
+{"g.":"Cannot be determined: the list of words with marked stress is missing from the supplied sheet."}

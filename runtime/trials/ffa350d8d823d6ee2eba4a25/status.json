@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "fantom",
+  "id": "183-0-0-9098",
+  "category": "tom:belief:inaccessible:multiple-choice",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793291967.2470772,
+  "turn": {
+    "id": "01a18887-ddbe-7932-9016-11f51f7ae351",
+    "rootTurnId": "01a18887-ddbe-7932-9016-11f51f7ae351",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_023ea002aa2d83f3016ae376c2f9d881979efc5cc43331f893",
+        "text": "(a) Kristin likely believes Lee is unaware of her volunteering experience in Africa, since he arrived after she shared it.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793291967,
+    "completedAt": 1793291971,
+    "durationMs": 3343
+  },
+  "score": {
+    "correct": true,
+    "extracted": "(a) Kristin likely believes Lee is unaware of her volunteering experience in Africa, since he arrived after she shared it.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 4.109453499899246,
+  "usage": {
+    "total": {
+      "totalTokens": 4567,
+      "inputTokens": 4421,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 146,
+      "reasoningOutputTokens": 117
+    },
+    "last": {
+      "totalTokens": 4567,
+      "inputTokens": 4421,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 146,
+      "reasoningOutputTokens": 117
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793291971.356243
+}

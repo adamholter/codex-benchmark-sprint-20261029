@@ -1,0 +1,69 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-Q_339",
+  "category": "Multi-Q",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793295415.80606,
+  "turn": {
+    "id": "01a188bc-7aa1-75c2-b845-b056ac075fde",
+    "rootTurnId": "01a188bc-7aa1-75c2-b845-b056ac075fde",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_068232f4a5e675d9016ae3843f29888197bce12ff5be324562",
+        "text": "{\n  \"question1\": \"[[244898898]]\",\n  \"question2\": \"[[RKHCSDHLHOY]]\",\n  \"question3\": \"[[848898898]]\",\n  \"question4\": \"[[AU]]\",\n  \"question5\": \"[[MC]]\",\n  \"question6\": \"[[BM]]\",\n  \"question7\": \"[[595898898]]\",\n  \"question8\": \"[[GC]]\",\n  \"question9\": \"[[844898898]]\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793295415,
+    "completedAt": 1793295423,
+    "durationMs": 7903
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "question1": "244898898",
+      "question2": "RKHCSDHLHOY",
+      "question3": "848898898",
+      "question4": "AU",
+      "question5": "MC",
+      "question6": "BM",
+      "question7": "595898898",
+      "question8": "GC",
+      "question9": "844898898"
+    },
+    "pass_rate": 1.0
+  },
+  "seconds": 8.091831582947634,
+  "usage": {
+    "total": {
+      "totalTokens": 5632,
+      "inputTokens": 5165,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 467,
+      "reasoningOutputTokens": 356
+    },
+    "last": {
+      "totalTokens": 5632,
+      "inputTokens": 5165,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 467,
+      "reasoningOutputTokens": 356
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793295423.897509
+}

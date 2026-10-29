@@ -1,0 +1,33 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+a◇b= a^b.
+a and b are positive integers.
+
+1.The game is played on a grid consisting of several partitions (zones). Each partition consists of a number of squares.
+2.Place stars in the given grid.
+3.n stars are placed in each row and column.
+4.n stars are placed in each partition.
+5.Stars cannot be adjacent, i.e., there can be no stars in adjacent squares (including diagonally adjacent).
+6.The question is given in the form of a matrix with different regions labeled with different letters, e.g. the grid where all the letters A are located forms a region and the answer should list the coordinates of the stars in each region, e.g. A:(row i, column j)
+
+
+### Questions:
+question1:
+If X◇3=125, find X.
+The answer should only be given as a number.
+Please wrap the answer in double square brackets, like this: [[your answer]].
+
+
+### Answers:

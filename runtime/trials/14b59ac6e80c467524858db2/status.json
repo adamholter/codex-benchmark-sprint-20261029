@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "fantom",
+  "id": "236-0-1-11877",
+  "category": "tom:answerability:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793295386.715199,
+  "turn": {
+    "id": "01a188bc-094e-79f0-8f57-e4b16384211c",
+    "rootTurnId": "01a188bc-094e-79f0-8f57-e4b16384211c",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0243b03b43889324016ae3841e4ad08196a78913146b5d957b",
+        "text": "Levi and Laila. They referenced *Friends*, *Seinfeld*, *Frasier*, *Parks and Rec*, *The Good Place*, and *Brooklyn Nine-Nine*.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793295386,
+    "completedAt": 1793295390,
+    "durationMs": 3733
+  },
+  "score": {
+    "correct": true,
+    "extracted": "Levi and Laila. They referenced *Friends*, *Seinfeld*, *Frasier*, *Parks and Rec*, *The Good Place*, and *Brooklyn Nine-Nine*.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 4.011959415976889,
+  "usage": {
+    "total": {
+      "totalTokens": 4665,
+      "inputTokens": 4477,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 188,
+      "reasoningOutputTokens": 144
+    },
+    "last": {
+      "totalTokens": 4665,
+      "inputTokens": 4477,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 188,
+      "reasoningOutputTokens": 144
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793295390.726443
+}

@@ -1,0 +1,75 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly_no_context",
+  "id": "220:Q 5.3:no_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793284740.786697,
+  "turn": {
+    "id": "01a18819-98a5-7d73-8fe5-034d15e15da3",
+    "rootTurnId": "01a18819-98a5-7d73-8fe5-034d15e15da3",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0395018b6ade6ac1016ae35a9417588190bbc1d3af0baeac10",
+        "text": "{\n  \"25.\": \"Cannot be determined: the English correspondence list is missing.\",\n  \"26.\": \"Cannot be determined: the English correspondence list is missing.\",\n  \"27.\": \"Cannot be determined: the English correspondence list is missing.\",\n  \"28.\": \"Cannot be determined: the English correspondence list is missing.\",\n  \"29.\": \"Cannot be determined: the English correspondence list is missing.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793284741,
+    "completedAt": 1793284757,
+    "durationMs": 16633
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "25.": "Cannot be determined: the English correspondence list is missing.",
+      "26.": "Cannot be determined: the English correspondence list is missing.",
+      "27.": "Cannot be determined: the English correspondence list is missing.",
+      "28.": "Cannot be determined: the English correspondence list is missing.",
+      "29.": "Cannot be determined: the English correspondence list is missing."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 5,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "25.": 0.0,
+      "26.": 0.0,
+      "27.": 0.0,
+      "28.": 0.0,
+      "29.": 0.0
+    }
+  },
+  "seconds": 17.17441537498962,
+  "usage": {
+    "total": {
+      "totalTokens": 4496,
+      "inputTokens": 4259,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 237,
+      "reasoningOutputTokens": 144
+    },
+    "last": {
+      "totalTokens": 4496,
+      "inputTokens": 4259,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 237,
+      "reasoningOutputTokens": 144
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793284757.9610019
+}

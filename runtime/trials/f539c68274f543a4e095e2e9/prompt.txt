@@ -1,0 +1,139 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+a⊕b=a+bi.
+
+**Encryption Rules:**
+
+- Input:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Output:
+    - Ciphertext: Uppercase letters string.
+- Preparation:
+    - standard_alphabet: "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    - reversed_alphabet: "ZYXWVUTSRQPONMLKJIHGFEDCBA"
+    - substitution_alphabet: "RFDJUHABCEGIKLMNOPQSTVWXYZ"
+- Encryption Steps:
+    - For each letter p in the given Plaintext:
+    - (1) Use reversed_alphabet for reverse mapping. Find its position in the standard_alphabet and replace it with the letter in the corresponding position in reversed_alphabet. For example, A is mapped to Z and B is mapped to Y.
+    - (2) Move the letter obtained in (1) forward 4 places in the standard_alphabet order. For example, if p=A, after (1) is mapped to Z, then Z is shifted forward 4 positions in the standard_alphabet to get D.
+    - (3) Replace the letter obtained from (2) by finding its position in standard_alphabet and using the corresponding letter in substitution_alphabet, resulting in the final ciphertext letter. For example, if the letter obtained by going through (2) is D, it is mapped as J.
+
+**Decryption Rules:**
+
+- Input:
+    - Ciphertext: Uppercase letters string.
+- Output:
+    - Plaintext: Uppercase letters string.
+- Preparation:
+    - alphabet: "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    - reversed_alphabet: "ZYXWVUTSRQPONMLKJIHGFEDCBA"
+    - substitution_alphabet: "RFDJUHABCEGIKLMNOPQSTVWXYZ"
+- Decryption Steps (exact opposite of encryption steps):
+    - (1) For each letter c in Ciphertext, find its position in substitution_alphabet and replace it with the corresponding letter in standard_alphabet.
+    - (2) Shift the letter obtained from (1) backward by 4 positions according to the standard_alphabet order.
+    - (3) Replace the letter obtained from (2) by finding its position in reversed_alphabet, then replace it with the corresponding letter in standard_alphabet. For example, Z maps to A, Y maps to B.
+
+1.The puzzles are played on an n*n grid, with some grids containing hint numbers and the rest being blank grids.
+2.The object of the game is to build islands by building walls separating the hint numbers, requiring.
+3.Each island contains only one hint number.
+4.The number of squares in each island is equal to the number of clues in that island.
+5.Islands are separated from each other vertically or horizontally.
+6.There are no 2x2 or larger rectangles in the area formed by the wall.
+7.Walls can form a continuous path.
+8.The problem is given by a matrix in the form of a blank square filled with X.The player should replace the grid on which the wall is built with A and output the drawn matrix, which contains X (the blank island), A (the wall) and the numbers.
+
+
+### Questions:
+question1:
+If (2⊕3)×(1⊕X)=−10+11i, find X.
+The answer should only be given as a number.
+Please wrap the answer in double square brackets, like this: [[your answer]].
+
+question2:
+Plaintext: "B"
+
+Please provide the encrypted answer, encapsulated in double square brackets. For example, the format should be: [[encrypted answer]].
+
+question3:
+X X X X X X
+X 1 X X X X
+5 X 3 X X X
+X X X X X X
+X X 2 X X 6
+X X X X X X
+
+Please provide each element in order from left to right, and from top to bottom, with each element separated by a space and each row separated by a comma. Ensure that your final answer is wrapped in double square brackets.
+
+For example, if the answer is:
+A B C
+D E F
+G H I
+
+please output [[A B C,D E F,G H I]].
+
+question4:
+If (3⊕Y)−(2⊕1)=1+3i Find Y
+The answer should only be given as a number.
+Please wrap the answer in double square brackets, like this: [[your answer]].
+
+question5:
+3 X X X X X X
+X X X X X X X
+6 X X X X X 3
+X X X X X X X
+6 X X X X X 3
+X X X X X X X
+3 X X X X X X
+
+Please provide each element in order from left to right, and from top to bottom, with each element separated by a space and each row separated by a comma. Ensure that your final answer is wrapped in double square brackets.
+
+For example, if the answer is:
+A B C
+D E F
+G H I
+
+please output [[A B C,D E F,G H I]].
+
+question6:
+If (X⊕2)+(1⊕3)=4+5i, find X.
+The answer should only be given as a number.
+Please wrap the answer in double square brackets, like this: [[your answer]].
+
+question7:
+X X 2 X X 3 X X
+X 1 X X X X X X
+X X X X 3 X X X
+X X 4 X X X X 3
+1 X X X X X 3 X
+X X X X X X X X
+X X X X 3 X X X
+4 X X X X X X X
+
+Please provide each element in order from left to right, and from top to bottom, with each element separated by a space and each row separated by a comma. Ensure that your final answer is wrapped in double square brackets.
+
+For example, if the answer is:
+A B C
+D E F
+G H I
+
+please output [[A B C,D E F,G H I]].
+
+question8:
+Ciphertext: "VJYWRDAOPHZ"
+
+Please provide the decrypted answer, encapsulated in double square brackets. For example, the format should be: [[decrypted answer]].
+
+
+### Answers:

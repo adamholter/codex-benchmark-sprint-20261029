@@ -1,0 +1,10 @@
+{
+  "1": "Cannot determine: the referenced Lithuanian conversation is missing.",
+  "2": "Cannot determine: the referenced Lithuanian conversation is missing.",
+  "3": "Cannot determine: the referenced Lithuanian conversation is missing.",
+  "4": "Cannot determine: the referenced Lithuanian conversation is missing.",
+  "5": "Cannot determine: the referenced Lithuanian conversation is missing.",
+  "6": "Cannot determine: the referenced Lithuanian conversation is missing.",
+  "7": "Cannot determine: the referenced Lithuanian conversation is missing.",
+  "8": "Cannot determine: the referenced Lithuanian conversation is missing."
+}

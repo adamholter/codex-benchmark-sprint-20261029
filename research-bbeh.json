@@ -1,0 +1,231 @@
+{
+  "benchmark": "BIG-Bench Extra Hard (BBEH)",
+  "observed_at": "2026-10-29",
+  "upstream": {
+    "repository": "https://github.com/google-deepmind/bbeh",
+    "branch": "main",
+    "git_sha": "80d12ca916b7158f22293fcf3144f4d3d854d4be",
+    "last_commit_date": "2025-05-06",
+    "last_commit_subject": "Adds leaderboard and data for BBEH Mini, 2- Adds notes about the duplicates that were found.",
+    "archived_by_github_on": "2026-07-10",
+    "readme_url": "https://github.com/google-deepmind/bbeh/blob/main/README.md",
+    "leaderboard_url": "https://github.com/google-deepmind/bbeh/blob/main/leaderboard.md",
+    "official_scorer_url": "https://github.com/google-deepmind/bbeh/blob/main/bbeh/evaluate.py"
+  },
+  "license": {
+    "software": "Apache-2.0",
+    "dataset_and_other_materials": "CC-BY-4.0",
+    "license_file": "sources/bbeh/LICENSE",
+    "readme_license_statement": "README.md states software is Apache-2.0 and all other materials are CC-BY-4.0.",
+    "attribution_note": "Retain upstream attribution and per-task notices from LICENSE when redistributing data."
+  },
+  "dataset": {
+    "full_examples": 4520,
+    "mini_examples": 460,
+    "categories": 23,
+    "full_counts_by_category": {
+      "boardgame_qa": 200,
+      "boolean_expressions": 200,
+      "buggy_tables": 200,
+      "causal_understanding": 200,
+      "disambiguation_qa": 120,
+      "dyck_languages": 200,
+      "geometric_shapes": 200,
+      "hyperbaton": 200,
+      "linguini": 200,
+      "movie_recommendation": 200,
+      "multistep_arithmetic": 200,
+      "nycc": 200,
+      "object_counting": 200,
+      "object_properties": 200,
+      "sarc_triples": 200,
+      "shuffled_objects": 200,
+      "spatial_reasoning": 200,
+      "sportqa": 200,
+      "temporal_sequence": 200,
+      "time_arithmetic": 200,
+      "web_of_lies": 200,
+      "word_sorting": 200,
+      "zebra_puzzles": 200
+    },
+    "mini_counts_by_category": {
+      "boardgame_qa": 20,
+      "boolean_expressions": 20,
+      "buggy_tables": 20,
+      "causal_understanding": 20,
+      "disambiguation_qa": 20,
+      "dyck_languages": 20,
+      "geometric_shapes": 20,
+      "hyperbaton": 20,
+      "linguini": 20,
+      "movie_recommendation": 20,
+      "multistep_arithmetic": 20,
+      "nycc": 20,
+      "object_counting": 20,
+      "object_properties": 20,
+      "sarc_triples": 20,
+      "shuffled_objects": 20,
+      "spatial_reasoning": 20,
+      "sportqa": 20,
+      "temporal_sequence": 20,
+      "time_arithmetic": 20,
+      "web_of_lies": 20,
+      "word_sorting": 20,
+      "zebra_puzzles": 20
+    },
+    "mini_is_exact_input_target_subset_of_full": true,
+    "mini_rows_match_one_category_each": true,
+    "combined_selectable_rows_including_mini_overlap": 4980,
+    "adapter_default_split": "mini",
+    "adapter_expansion_splits": [
+      "full",
+      "all"
+    ],
+    "hashes_sha256": {
+      "mini": {
+        "bbeh/mini/data.json": "14e77b3d6be68faa008d268abf53b1f8d2420ffdd762504a304dafc3f8d43026"
+      },
+      "full_task_files": {
+        "bbeh/benchmark_tasks/bbeh_boardgame_qa/task.json": "3d47dc41eb825b2ee77a696e79859d8d2043b1bf04077e120caec4ad324f32a8",
+        "bbeh/benchmark_tasks/bbeh_boolean_expressions/task.json": "49e763f10dbea048be56036c8cbf2a6d0bb735235e3806b50809a1addb57eee2",
+        "bbeh/benchmark_tasks/bbeh_buggy_tables/task.json": "c27b76200bf1b0d4ada3729f5a40aa1f0062267e42c4f40820b3e40891c3fe85",
+        "bbeh/benchmark_tasks/bbeh_causal_understanding/task.json": "b10bbf43f7f5cdde927b0ad03f99a7a78b3525de4bfa90008b36b12b010c9a81",
+        "bbeh/benchmark_tasks/bbeh_disambiguation_qa/task.json": "6d34e0c89c3b1e1386df5919159b8d67b4668308d1225bd1ee54eb1e946472bd",
+        "bbeh/benchmark_tasks/bbeh_dyck_languages/task.json": "a089612502bdfb98a447c8cba84f972724308ea0d059e8561e3cc9785de585cc",
+        "bbeh/benchmark_tasks/bbeh_geometric_shapes/task.json": "7ff506d026450cb878a0963ce478724ad1451bc56469c813c791b9345ac1bea7",
+        "bbeh/benchmark_tasks/bbeh_hyperbaton/task.json": "0fbacc94f4c740c3050021f4c57089f2011d7bd77fcff3346a7f4b9dbef842e2",
+        "bbeh/benchmark_tasks/bbeh_linguini/task.json": "ba387d2aa1bde122e6c9937fca4e075b9cc7d64e6047b170cfcffd6304919ea8",
+        "bbeh/benchmark_tasks/bbeh_movie_recommendation/task.json": "808882647b84c116a57e0975e3d357749525e12d215c4a5dae83de83ae8c4772",
+        "bbeh/benchmark_tasks/bbeh_multistep_arithmetic/task.json": "47207086cd2afe74df9968172d24134c82af8c666144092f04e4c1ebad8cf3d2",
+        "bbeh/benchmark_tasks/bbeh_nycc/task.json": "67c9a9dca40e6ec820a279da19a019cedd5427fbaaae3fd175cdb74965474b08",
+        "bbeh/benchmark_tasks/bbeh_object_counting/task.json": "a0a8b10ca1aa06eae611c7c7e854fbec4f9622c8f74a74ffa00436a9a8609b67",
+        "bbeh/benchmark_tasks/bbeh_object_properties/task.json": "d606b3aa0c35d5397afc5937207174593c82ad5dfcaf7e5dfb40a99278aef0e4",
+        "bbeh/benchmark_tasks/bbeh_sarc_triples/task.json": "4c7b8eb4b542d326152394456c0a1afc8ef5447ee06dd4187b7eb91027a6b821",
+        "bbeh/benchmark_tasks/bbeh_shuffled_objects/task.json": "43cda28220c66e8d63e667d3091cd18b0b17aa55c005bb24bbb63144afdba9c1",
+        "bbeh/benchmark_tasks/bbeh_spatial_reasoning/task.json": "e77986b73e0ed15b5f950978b7758f55311b4d50e7215961084b126e4d960cb7",
+        "bbeh/benchmark_tasks/bbeh_sportqa/task.json": "69b3f164d9617eab9185830eacf4250badb56c2d718ddc75012597ed1a4bc9bf",
+        "bbeh/benchmark_tasks/bbeh_temporal_sequence/task.json": "55f6711d3d76925acb5d2fffdc1947e0e7186c686f0a343598394a57df6c7c6e",
+        "bbeh/benchmark_tasks/bbeh_time_arithmetic/task.json": "2510515a6f12024a742743e29a389f07beacb3bf4c71e0b59be12f3e364cf31b",
+        "bbeh/benchmark_tasks/bbeh_web_of_lies/task.json": "15f23d32579285701f68dae7947e2191eff21ee97440dfa73cb3565a66c77a6d",
+        "bbeh/benchmark_tasks/bbeh_word_sorting/task.json": "f49674b7b85774d6190c2844e1682c2ee8ff591ca1eeee4e785a45ef1e20024d",
+        "bbeh/benchmark_tasks/bbeh_zebra_puzzles/task.json": "0acd979060ee49f063f241dd1a298bd80b63d6b7fbfb08057ff480bff98a6198"
+      },
+      "official_evaluator": {
+        "bbeh/evaluate.py": "4b4f06e5babb015de2ba639bae995a5526182ffb5b5890af54dfcf038580eb34"
+      },
+      "research_reference_files": {
+        "README.md": "86d16ad213c64a4777a5368ae1a76664d1152b9316c04dede597b8e8cbedf56c",
+        "leaderboard.md": "c0193dc00d55f6325457e7d5724894078195df59d87b5e32854a699869d07819",
+        "LICENSE": "ed714919b09bcaee887dfed4bca3972041cac53453c3089f57a367e05a50704d"
+      }
+    }
+  },
+  "scoring": {
+    "implementation": "Directly loads upstream bbeh/evaluate.py evaluate_correctness() and preprocess_sample().",
+    "dependencies": "Python standard library only; no third-party imports.",
+    "extracted_value": "Official preprocess_sample() output: answer extraction, lowercasing, comma-space normalization, bold-marker removal, first-line selection, and trailing-period normalization.",
+    "prompt_policy": "Input prompts are passed through unchanged; official per-example answer-format instructions remain in the prompt.",
+    "validation": "adapters/bbeh.py validate() checks split counts, IDs, correct/wrong scoring, and answer extraction."
+  },
+  "leaderboard": {
+    "latest_file_change_date": "2025-05-06",
+    "latest_file_change_commit": "80d12ca916b7158f22293fcf3144f4d3d854d4be",
+    "date_basis": "leaderboard.md has no publication/as-of date; date above is its last-change date in upstream git history.",
+    "observed_at": "2026-10-29",
+    "sort_order": "Harmonic mean, as stated in leaderboard.md.",
+    "scores_unit": "percent",
+    "historical_scores": [
+      {
+        "model": "o3-mini (high)",
+        "contributed_by": "Original paper",
+        "bbeh_harmonic_mean_percent": 44.8,
+        "bbeh_micro_avg_percent": 54.2,
+        "bbeh_mini_micro_avg_percent": 56.7
+      },
+      {
+        "model": "Gemini 2.0 Flash",
+        "contributed_by": "Original paper",
+        "bbeh_harmonic_mean_percent": 9.8,
+        "bbeh_micro_avg_percent": 23.9,
+        "bbeh_mini_micro_avg_percent": 27.0
+      },
+      {
+        "model": "Gemini 2.0 Flash-Lite",
+        "contributed_by": "Original paper",
+        "bbeh_harmonic_mean_percent": 8.0,
+        "bbeh_micro_avg_percent": 19.7,
+        "bbeh_mini_micro_avg_percent": 22.2
+      },
+      {
+        "model": "DeepSeek R1",
+        "contributed_by": "Original paper",
+        "bbeh_harmonic_mean_percent": 6.8,
+        "bbeh_micro_avg_percent": 34.9,
+        "bbeh_mini_micro_avg_percent": 37.2
+      },
+      {
+        "model": "GPT4o",
+        "contributed_by": "Original paper",
+        "bbeh_harmonic_mean_percent": 6.0,
+        "bbeh_micro_avg_percent": 22.3,
+        "bbeh_mini_micro_avg_percent": 23.5
+      },
+      {
+        "model": "Distill R1 Qwen 32b",
+        "contributed_by": "Original paper",
+        "bbeh_harmonic_mean_percent": 5.2,
+        "bbeh_micro_avg_percent": 19.2,
+        "bbeh_mini_micro_avg_percent": 15.4
+      },
+      {
+        "model": "Gemma3 27b",
+        "contributed_by": "Gemma3 + Original paper",
+        "bbeh_harmonic_mean_percent": 4.9,
+        "bbeh_micro_avg_percent": 18.8,
+        "bbeh_mini_micro_avg_percent": 17.4
+      },
+      {
+        "model": "Gemma3 12b",
+        "contributed_by": "Gemma3 + Original paper",
+        "bbeh_harmonic_mean_percent": 4.5,
+        "bbeh_micro_avg_percent": 16.3,
+        "bbeh_mini_micro_avg_percent": 14.3
+      },
+      {
+        "model": "Gemma3 4b",
+        "contributed_by": "Gemma3 + Original paper",
+        "bbeh_harmonic_mean_percent": 3.4,
+        "bbeh_micro_avg_percent": 11.0,
+        "bbeh_mini_micro_avg_percent": 13.3
+      },
+      {
+        "model": "Gemma2 27b IT",
+        "contributed_by": "Original paper",
+        "bbeh_harmonic_mean_percent": 4.0,
+        "bbeh_micro_avg_percent": 14.8,
+        "bbeh_mini_micro_avg_percent": 15.0
+      },
+      {
+        "model": "Llama 3.1 8b Instruct",
+        "contributed_by": "Original paper",
+        "bbeh_harmonic_mean_percent": 3.6,
+        "bbeh_micro_avg_percent": 10.6,
+        "bbeh_mini_micro_avg_percent": 11.5
+      },
+      {
+        "model": "Random",
+        "contributed_by": "Original paper",
+        "bbeh_harmonic_mean_percent": 2.4,
+        "bbeh_micro_avg_percent": 8.4,
+        "bbeh_mini_micro_avg_percent": 8.4
+      }
+    ],
+    "history_limit": "The archived upstream repository exposes a single static leaderboard table, not a score time series."
+  },
+  "notes": [
+    "Upstream README says full BBEH has 4,520 examples and BBEH Mini has 460; the full set is 4,520, not 4,600.",
+    "Mini contains 20 examples per each of 23 categories and every Mini input/target pair occurs in exactly one full-set category.",
+    "The spatial-reasoning task README notes one duplicate example; adapter IDs preserve source row positions and do not deduplicate.",
+    "GitHub marks the repository archived on 2026-07-10; the final source commit is dated 2025-05-06."
+  ]
+}

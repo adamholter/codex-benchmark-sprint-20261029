@@ -1,0 +1,54 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+1.A rectangular grid is given, which is pre-filled with numbers, while each row and column has a number at the end indicating the sum of the numbers in that row or column.
+2.The player needs to fill the remaining spaces with a specified set of numbers. 
+3.Each number can only be used once.
+4.The numbers must be filled in such that the sum of the numbers in each row and column matches the intended sum.
+5.The puzzle is given in the form of a matrix with blank squares filled with X and the player replaces the squares with numbers.
+
+
+### Questions:
+question1:
+X  2  X  4  23
+9  X  X  11  24
+X  12  X  8  31
+21  15  19  23
+The final answer should be given in order from left to right, top to bottom with each element separated by a space and different lines separated by ",". Wrap your final answer in double square brackets, like this: [[your answer]].
+
+question2:
+X  X  X  X  49
+X  X  X  X  23
+X  X  X  X  34
+X  X  X  X  30
+40  52  10  34  
+The final answer should be given in order from left to right, top to bottom with each element separated by a space and different lines separated by ",". Wrap your final answer in double square brackets, like this: [[your answer]].
+
+question3:
+15  4  X  3  28
+X  X  2  10  24
+X  11  X  X  44
+13  X  14  1  40
+43  32  38  23
+The final answer should be given in order from left to right, top to bottom with each element separated by a space and different lines separated by ",". Wrap your final answer in double square brackets, like this: [[your answer]].
+
+question4:
+12  X  X  4  31
+X  X  X  X  35
+X  X  2  1  12
+29  22  15  12
+The final answer should be given in order from left to right, top to bottom with each element separated by a space and different lines separated by ",". Wrap your final answer in double square brackets, like this: [[your answer]].
+
+
+### Answers:

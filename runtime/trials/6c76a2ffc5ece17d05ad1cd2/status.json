@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "fantom",
+  "id": "84-0-2-4283",
+  "category": "tom:info_accessibility:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289762.981998,
+  "turn": {
+    "id": "01a18866-3954-7632-a477-a51d9e5d964c",
+    "rootTurnId": "01a18866-3954-7632-a477-a51d9e5d964c",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_01a94537c4249b25016ae36e28c238819780a8ed6964a70447",
+        "text": "Kristopher and Veronica.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289763,
+    "completedAt": 1793289769,
+    "durationMs": 5894
+  },
+  "score": {
+    "correct": true,
+    "extracted": "Kristopher and Veronica.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 6.093193124979734,
+  "usage": {
+    "total": {
+      "totalTokens": 4417,
+      "inputTokens": 4362,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 55,
+      "reasoningOutputTokens": 44
+    },
+    "last": {
+      "totalTokens": 4417,
+      "inputTokens": 4362,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 55,
+      "reasoningOutputTokens": 44
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793289769.074795
+}

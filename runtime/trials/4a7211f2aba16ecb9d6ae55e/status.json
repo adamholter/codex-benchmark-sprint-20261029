@@ -1,0 +1,67 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly",
+  "id": "185:Q 10.2:full_context",
+  "category": "Match-up / Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793287269.997182,
+  "turn": {
+    "id": "01a18840-3035-7c60-9f9d-8a3aaf58b1d1",
+    "rootTurnId": "01a18840-3035-7c60-9f9d-8a3aaf58b1d1",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0baf930f2816cd23016ae3646b90a08193977a67ca1fad780a",
+        "text": "{\"(a)\": \"When? (What time?)\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793287270,
+    "completedAt": 1793287275,
+    "durationMs": 5429
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "When? (What time?)"
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 1,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 0.0
+    }
+  },
+  "seconds": 5.933724500006065,
+  "usage": {
+    "total": {
+      "totalTokens": 5159,
+      "inputTokens": 4938,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 221,
+      "reasoningOutputTokens": 203
+    },
+    "last": {
+      "totalTokens": 5159,
+      "inputTokens": 4938,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 221,
+      "reasoningOutputTokens": 203
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793287275.9305549
+}

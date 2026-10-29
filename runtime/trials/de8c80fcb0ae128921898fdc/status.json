@@ -1,0 +1,87 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly_no_context",
+  "id": "139:Q 1.2:no_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294622.933451,
+  "turn": {
+    "id": "01a188b0-61f6-7222-9044-18503b6be50b",
+    "rootTurnId": "01a188b0-61f6-7222-9044-18503b6be50b",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0e661b51428b6b11016ae3813f1cc48194815f714285d91c6a",
+        "text": "{\"1. \": \"B\", \"2. \": \"B\", \"3. \": \"C\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294623,
+    "completedAt": 1793294655,
+    "durationMs": 32456
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "1. ": "B",
+      "2. ": "B",
+      "3. ": "C"
+    },
+    "score": 0.6666666666666666,
+    "parts_correct": 2,
+    "parts_total": 3,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "1. ": 1.0,
+      "2. ": 0.0,
+      "3. ": 1.0
+    }
+  },
+  "seconds": 32.7925244999351,
+  "usage": {
+    "total": {
+      "totalTokens": 4675,
+      "inputTokens": 4195,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 480,
+      "reasoningOutputTokens": 453
+    },
+    "last": {
+      "totalTokens": 4675,
+      "inputTokens": 4195,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 480,
+      "reasoningOutputTokens": 453
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 180bc99c-7a24-4649-a85c-a9de930a23f8",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a188b0-61da-7371-a267-e9d7d56531c2",
+      "turnId": "01a188b0-61f6-7222-9044-18503b6be50b"
+    }
+  ],
+  "finished_at": 1793294655.725645
+}

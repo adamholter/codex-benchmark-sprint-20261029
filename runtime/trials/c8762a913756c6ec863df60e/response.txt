@@ -1,0 +1,1 @@
+[[No solution: the 9 is in the second row, first column. A straight arrow from it can cover at most 8 blank squares in any direction, so it cannot satisfy the stated rule.]]

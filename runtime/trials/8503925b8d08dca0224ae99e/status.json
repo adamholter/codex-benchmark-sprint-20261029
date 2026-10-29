@@ -1,0 +1,81 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly_no_context",
+  "id": "206:Q 1.1:no_context",
+  "category": "Text",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793285884.3801038,
+  "turn": {
+    "id": "01a1882b-0b99-7422-86b0-b9004dfa72e9",
+    "rootTurnId": "01a1882b-0b99-7422-86b0-b9004dfa72e9",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_04890ac7394d072c016ae35f0864ec8194a5605a7447f7213b",
+        "text": "{\n  \"a. (Old English)\": \"Cannot be determined from the supplied sheet.\",\n  \"a. (West Frisian)\": \"Cannot be determined from the supplied sheet.\",\n  \"b. (Old English)\": \"Cannot be determined from the supplied sheet.\",\n  \"b. (West Frisian)\": \"Cannot be determined from the supplied sheet.\",\n  \"c. (Old English)\": \"Cannot be determined from the supplied sheet.\",\n  \"c. (West Frisian)\": \"Cannot be determined from the supplied sheet.\",\n  \"d. (Old English)\": \"Cannot be determined from the supplied sheet.\",\n  \"d. (West Frisian)\": \"Cannot be determined from the supplied sheet.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793285884,
+    "completedAt": 1793285897,
+    "durationMs": 13115
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "a. (Old English)": "Cannot be determined from the supplied sheet.",
+      "a. (West Frisian)": "Cannot be determined from the supplied sheet.",
+      "b. (Old English)": "Cannot be determined from the supplied sheet.",
+      "b. (West Frisian)": "Cannot be determined from the supplied sheet.",
+      "c. (Old English)": "Cannot be determined from the supplied sheet.",
+      "c. (West Frisian)": "Cannot be determined from the supplied sheet.",
+      "d. (Old English)": "Cannot be determined from the supplied sheet.",
+      "d. (West Frisian)": "Cannot be determined from the supplied sheet."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 8,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a. (Old English)": 0.0,
+      "a. (West Frisian)": 0.0,
+      "b. (Old English)": 0.0,
+      "b. (West Frisian)": 0.0,
+      "c. (Old English)": 0.0,
+      "c. (West Frisian)": 0.0,
+      "d. (Old English)": 0.0,
+      "d. (West Frisian)": 0.0
+    }
+  },
+  "seconds": 13.589597709011286,
+  "usage": {
+    "total": {
+      "totalTokens": 4628,
+      "inputTokens": 4269,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 359,
+      "reasoningOutputTokens": 211
+    },
+    "last": {
+      "totalTokens": 4628,
+      "inputTokens": 4269,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 359,
+      "reasoningOutputTokens": 211
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793285897.9695091
+}

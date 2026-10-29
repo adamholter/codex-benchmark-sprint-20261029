@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "bbeh",
+  "id": "mini:geometric_shapes:0041",
+  "category": "geometric_shapes",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793285450.3158379,
+  "turn": {
+    "id": "01a18824-6b6f-7cd1-acc3-bd6f4d53196a",
+    "rootTurnId": "01a18824-6b6f-7cd1-acc3-bd6f4d53196a",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0ddba51b5c18639b016ae35d92148c81959653f206a04e310c",
+        "text": "**(J) 3, 4, 5 and 8.**\n\nThe drawing contains a non-right triangle, a right triangle, a non-rectangular parallelogram, and an irregular concave pentagon.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793285450,
+    "completedAt": 1793285522,
+    "durationMs": 72052
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(j) 3,4,5 and 8"
+  },
+  "seconds": 72.37028399994597,
+  "usage": {
+    "total": {
+      "totalTokens": 11357,
+      "inputTokens": 4702,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 6655,
+      "reasoningOutputTokens": 6603
+    },
+    "last": {
+      "totalTokens": 11357,
+      "inputTokens": 4702,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 6655,
+      "reasoningOutputTokens": 6603
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793285522.685892
+}

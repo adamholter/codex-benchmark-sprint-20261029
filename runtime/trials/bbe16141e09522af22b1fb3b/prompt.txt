@@ -1,0 +1,97 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+**Encryption Rules:**
+
+- Input:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Output:
+    - Ciphertext: Uppercase letters string without punctuation and spaces.
+- Preparation:
+    - 5x5 Gird(All row and column numbers are counted from 0.):
+        - M Z S D P
+        K N F L Q
+        G A O X U
+        W R Y V C
+        B T E H I
+        - Located at the first letter of all rows, MKGWB is the row header letter.
+        - Located at the last letter of all columns, BTEHI is the bottom column letter.
+- Encryption Steps:
+    - Remove spaces and punctuation and the letter J from plain text and convert all letters to uppercase.
+    - For each letter p in the plaintext.
+        - Find the position of the letter p in the grid, and then find the corresponding row header and column footer characters accordingly.
+        - Concatenate the row-header and column-bottom characters into a binary as the encrypted message for that letter p.
+        - For example, if the letter p is H, it is in the 4th row, and the row header character is B; it is in the 3rd column, and the column bottom character is H, so the encrypted message is BH.
+    
+    Concatenate all the encrypted messages for the final ciphertext output.
+    
+
+ **Decryption Rules:**
+
+- Input:
+    - Ciphertext: Uppercase letters string without punctuation and spaces.
+- Output:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Preparation:
+    - 5x5 Gird (Same as encryption)
+- Decryption Steps (exact opposite of encryption steps):
+    - Take two letters c1,c2 at a time from the ciphertext.
+        - The letter c1 identifies the row position of the decrypted letter p in the grid, find the row where c1 is the row header.
+        - The letter c2 identifies the column position of the decrypted letter p in the grid, and finds the row with c2 at the bottom of the column.
+        - Find the letter at this row and column position in the grid, which is the c1,c2 decrypted message p.
+        - For example, if c1,c2=BH, B is the header of the row is the 4th row, H is the bottom of the row is the 2nd column, (4,2) at the letter H, so BH decrypted to H.
+    - Decrypt the letters in the ciphertext two by two, and output the connected decrypted message as the final plaintext.
+
+1. The symbols are defined as follows: ¶ represents obligation modality, § represents permission modality, and ‽ represents prohibition modality.
+2. The four types of normative propositions relationships are:
+
+(1) * relationship:
+- Propositional pairs: ¶p and §¬p; ‽p and §p
+- Nature: Both cannot be true and cannot be false.
+
+(2) x relationship:
+- Propositional pairs: ¶p and ‽p
+- Nature: Both cannot be true, but can both be false.
+
+(3) @ relationship:
+- Propositional pairs: §p and §¬p
+- Nature: Both cannot be false, but can both be true.
+
+(4) % relationship:
+- **Propositional pairs**: ¶p and §p; ‽p and §¬p
+- **Nature**: Both can be true, and both can be false.
+
+3. Normative reasoning formulas
+(1) ¶p←→¬§¬p
+(2) ‽p←→¬§p
+(3) §p←→¬‽p
+(4) §¬p←→¬¶p
+(5) ¶p→¬‽p
+(6) ‽p→¬¶p
+(7) ¬§p→§¬p
+(8) ¬§¬p→§p
+(9) ¶p→§p
+(10) ‽p→§¬p
+(11) ¬§p→¬¶p
+(12) ¬§¬p→¬‽p
+
+
+### Questions:
+question1:
+Ciphertext: "MB"
+
+Please provide the decrypted answer, encapsulated in double square brackets. For example, the format should be: [[decrypted answer]].
+
+
+### Answers:

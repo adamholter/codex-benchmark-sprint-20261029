@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "bbeh",
+  "id": "mini:nycc:0015",
+  "category": "nycc",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289028.170332,
+  "turn": {
+    "id": "01a1885b-0338-7ca3-a31c-0bd416411aa9",
+    "rootTurnId": "01a1885b-0338-7ca3-a31c-0bd416411aa9",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_040335da12e91949016ae36b46e5e88193b96c8cfa61099789",
+        "text": "**(D)** \u201c. . . and aforementioned client, viz \u2018The Lamp,\u2019 wishes to state, reiterate, and confirm that said rub was nonconsensual.\u201d",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289028,
+    "completedAt": 1793289031,
+    "durationMs": 2965
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(d) \u201c. . . and aforementioned client,viz \u2018the lamp,\u2019 wishes to state,reiterate,and confirm that said rub was nonconsensual.\u201d"
+  },
+  "seconds": 3.222235874971375,
+  "usage": {
+    "total": {
+      "totalTokens": 4003,
+      "inputTokens": 3932,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 71,
+      "reasoningOutputTokens": 30
+    },
+    "last": {
+      "totalTokens": 4003,
+      "inputTokens": 3932,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 71,
+      "reasoningOutputTokens": 30
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793289031.392122
+}

@@ -1,0 +1,87 @@
+You are an intelligent assistant that specializes in encryption and decryption tasks. Below are the rules for a specific cipher. When responding, please ensure that your output adheres to the specified encryption and decryption rules and format.
+
+### Instructions:
+
+1. Identify the relevant properties and objects specified in the rule, including the plaintext, keyword, and ciphertext.
+2. Follow the specified encryption or decryption operations precisely as described in the rules.
+3. Ensure your output is formatted according to the specified notation and symbols.
+
+### Cipher Rule:
+
+**Encryption Rules:**
+
+- Input:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Output:
+    - Ciphertext:  Uppercase letters  string without punctuation and spaces.
+- Preparation:
+    - Grid and Template:
+        - Prepare a blank grid and a template with holes (fence).
+        - The template used is:
+            
+            ▮  ▮  ▮  ▮
+            ▮  ▮  ▯  ▯
+            ▮  ▮  ▮  ▯
+            ▯  ▮  ▮  ▮
+            
+            Where the white ones are holes, place the template on a blank grid, only through the white holes, and fill in the corresponding positions of the grid with characters.
+            
+- Encryption Steps:
+    - Divide the plaintext into blocks of 16 letters one by one.(If the plaintext is less than 16 long it is one  block)
+        - For example, the plaintext message "LOVEHELLOWORLD" is less than 16 and is one block.
+    - For each block, perform the following encryption operation:
+        - Place the template with holes on the blank grid.
+        - Fill the grid with the letters of the plaintext message in order through the holes in the template.
+            - For example, the plaintext is "LOVEHELLOWORLD", through the four holes, after filling in the LOVE grid is
+                
+                [['', '', '', ''],
+                ['', '', 'L', 'O'],
+                ['', '', '', 'V'],
+                ['E', '', '', '']]
+                
+        - The template has a total of four holes, so after filling out the four letters, it can not be filled out, then you need to rotate the template counterclockwise 90 degrees.
+            - For example, after filling in LOVE after rotating the template after the template for:
+                
+                ▮  ▯  ▯  ▮
+                ▮  ▯  ▮  ▮
+                ▮  ▮  ▮  ▮
+                ▮  ▮  ▮  ▯
+                
+        - Repeat filling the visible holes in the grid with the next letter of the plaintext message and rotating the template until the entire grid is completely filled. This will perform 4 fills + rotations and eventually the template will turn to the original template. If the message is not enough to fill the entire grid, it is made up with filler characters (e.g. '#').
+            - For example, if the plain text is "LOVEHELLOWORLD", after several fills and rotations, the final grid will be
+                
+                [['L', 'H', 'E', 'O'],
+                ['W', 'L', 'L', 'O'],
+                ['O', 'R', 'D', 'V'],
+                ['E', '#', '#', 'L']]
+                
+        - Once the grid is filled, read the contents of the grid line by line as the encrypted message for that block.
+        - When moving on to the next block, empty the contents of the grid and redo the entire fill and rotate operation.
+        
+        Finally, the encrypted messages of all the blocks are connected together to be the final ciphertext.
+        
+
+ **Decryption Rules:**
+
+- Input:
+    - Ciphertext: Uppercase letters  string without punctuation and spaces.
+- Output:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Preparation:
+    - Grid and Template (Same as encryption)
+- Decryption Steps (exact opposite of encryption steps):
+    - Divide the ciphertext into blocks of 16 letters one by one.
+    - For each block, perform the following operations:
+        - Write the 16 letters row by row to fill the grid.
+        - Place the template with holes on the filled grid.
+        - Read the letters visible through the holes to get a portion of the plaintext message.
+        - Since there are only four holes, at this point you need to rotate the template 90 degrees counterclockwise to read the next set of letters.
+        - Repeat the reading step four times to get this fast decrypted message.
+    - Connecting the decrypted messages of all the blocks gives the final plaintext.
+
+### Question:
+Ciphertext: "#YO##FWF###VT##L"
+
+Please provide the decrypted answer, encapsulated in double square brackets. For example, the format should be: [[decrypted answer]].
+
+### Answer:

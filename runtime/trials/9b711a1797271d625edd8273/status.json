@@ -1,0 +1,71 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly",
+  "id": "61:Q 7.2:full_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294583.32719,
+  "turn": {
+    "id": "01a188af-c96a-73a2-8e82-b0e1875f64df",
+    "rootTurnId": "01a188af-c96a-73a2-8e82-b0e1875f64df",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_03106f04935ae624016ae3810f99248194934a8718e8498242",
+        "text": "{\"d.\": \"tinatakawda ida\", \"e.\": \"linabbami\", \"f.\": \"pimmunakayo\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294584,
+    "completedAt": 1793294607,
+    "durationMs": 23800
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "d.": "tinatakawda ida",
+      "e.": "linabbami",
+      "f.": "pimmunakayo"
+    },
+    "score": 0.3333333333333333,
+    "parts_correct": 1,
+    "parts_total": 3,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "d.": 0.0,
+      "e.": 0.0,
+      "f.": 1.0
+    }
+  },
+  "seconds": 24.698910249979235,
+  "usage": {
+    "total": {
+      "totalTokens": 5883,
+      "inputTokens": 4160,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1723,
+      "reasoningOutputTokens": 1686
+    },
+    "last": {
+      "totalTokens": 5883,
+      "inputTokens": 4160,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1723,
+      "reasoningOutputTokens": 1686
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793294608.025536
+}

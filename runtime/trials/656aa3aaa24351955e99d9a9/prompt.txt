@@ -1,0 +1,133 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+Symbol Definitions:
+- Belief (`B_p`): Indicates that an individual firmly believes the proposition `p` is true.
+- Common Belief (`G_p`): Indicates that the proposition `p` is a common belief within the group `G`, meaning all members collectively believe `p`.
+- Doubt (`H_p`): Indicates that an individual harbors doubt about the truth of the proposition `p`.
+
+Cognitive Logic Model:
+Cognitive logic simulates the interaction between different worlds and beliefs through the construction of models:
+- Model (`M`): Composed of three parts:
+    - Set of Worlds (`W`): All possible worlds.
+    - Accessibility Relation (`R`): If `iRj`, it means individual `i` can recognize the belief state of individual `j`.
+    - Truth Value Function of Propositions (`V`): Defines the truth value of each proposition in each world.
+
+Definition of Common Belief:
+If `p` is a common belief in the group `G`, then for every member `i` of the group, `B_ip` holds.
+
+Cognitive Logic Axioms:
+
+1. Basic Axioms
+- Belief Axiom: `B_p → p`, indicating that if someone firmly believes `p` is true, it can be inferred that `p` is indeed true.
+
+2. Advanced Axioms
+- Axiom of Reflexivity: `B_p → BB_p`, indicating that if an individual firmly believes the proposition `p`, they also believe they believe `p`.
+- Axiom of Transitivity: If `iRj` and `B_ip`, then `B_jp`, indicating that if individual `i` firmly believes the proposition `p` and can recognize individual `j`, then `j` also believes `p`.
+- Axiom of Consistent Belief: `B_p ∧ B_{¬p} → ⊥`, indicating that an individual cannot simultaneously believe in a proposition `p` and its negation `¬p`, as this would lead to a logical contradiction.
+
+3. Axioms of Doubt
+- Introduction of Doubt: `H_p → ¬B_p`, indicating that if an individual doubts the proposition `p`, they do not firmly believe `p`.
+- Spread of Doubt: If `iRj` and `H_ip`, then `H_jp`, indicating that if individual `i` doubts the proposition `p` and can recognize individual `j`, then `j` may also start to doubt `p`.
+
+
+### Questions:
+question1:
+According to the Axiom of Consistent Belief, what does it mean if Alice firmly believes in a proposition and its negation at the same time?
+
+A. Alice's beliefs are coherent.
+B. There exists an inconsistency within Alice's beliefs.
+C. This scenario is not possible.
+
+Please provide the answers in the format [[A/B/C]].
+
+question2:
+If Alice harbors doubts that the library is open today, what is Alice convinced of according to the Introduction of Doubt axiom?
+
+A. That the library is open today.
+B. That the library is not open today.
+C. That she is not certain whether the library is open today.
+
+Please provide the answers in the format [[A/B/C]].
+
+question3:
+If both Alice and Bob firmly believe that 2 plus 2 equals 4, according to the definition of common belief, what does this mean?
+
+A. Alice and Bob both know that 2 plus 2 equals 4.
+B. Only Alice firmly believes that 2 plus 2 equals 4.
+C. Bob doubts that 2 plus 2 equals 4.
+
+Please provide the answers in the format [[A/B/C]].
+
+question4:
+If there exists an accessibility relation between Alice and Bob, and Alice harbors doubts about a certain proposition, what is Bob likely to be convinced of, based on the Spread of Doubt axiom?
+
+A. That the proposition is true.
+B. That the proposition is false.
+C. That he might also harbor doubts about the proposition.
+
+Please provide the answers in the format [[A/B/C]].
+
+question5:
+According to the Axiom of Transitivity, if Alice is certain that Bob is certain of a certain proposition, and Alice is also certain of this proposition, what is Bob's attitude towards this proposition?
+
+A. Bob might suspect this proposition.
+B. Bob is convinced of this proposition.
+C. Bob's attitude towards this proposition is uncertain.
+
+Please provide the answers in the format [[A/B/C]].
+
+question6:
+If a proposition p is the consensus of the group G, 
+but the individual Alice doubts this proposition, 
+what logical expression can be written according to the definition of consensus?
+
+Please give your answer in the format [[]].
+
+question7:
+According to the Axiom of Reflexivity, what does it mean if Alice firmly believes a certain proposition to be true?
+
+A. Alice may have doubts about this proposition.
+B. Alice is convinced that she herself is convinced of this proposition.
+C. Alice and other people are all aware of this proposition.
+
+Please provide the answers in the format [[A/B/C]].
+
+question8:
+If Alice is sure that the library is open today (proposition p), 
+and she is sure that she is sure of this (according to the axiom of self-reflexivity), 
+what logical expression is written?
+
+Please give your answer in the format [[]].
+
+question9:
+Based on the Belief Axiom, if Alice firmly believes that the sun rises in the east (`B_Alice(The sun rises in the east)`), we can conclude the following:
+
+A. Alice may doubt that the sun rises in the east.
+B. It is true that the sun rises in the east.
+C. Alice is unaware that the sun rises in the east.
+
+Please provide the answers in the format [[A/B/C]].
+
+question10:
+If Alice is skeptical about the library being open today, and Bob can acknowledge Alice's skepticism, what is Bob likely to be convinced of, based on the Spread of Doubt axiom?
+
+A. That the library is open today.
+B. That the library is closed today.
+C. That he may also begin to doubt whether the library is open today.
+
+Please provide the answers in the format [[A/B/C]].
+
+
+### Answers:

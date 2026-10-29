@@ -1,0 +1,74 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "bbeh",
+  "id": "mini:web_of_lies:0022",
+  "category": "web_of_lies",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290324.543861,
+  "turn": {
+    "id": "01a1886e-cc70-7833-af48-cc3326601968",
+    "rootTurnId": "01a1886e-cc70-7833-af48-cc3326601968",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0b80fcf307367557016ae3707209388196918944adaa8a18e3",
+        "text": "<no, unknown, yes>",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290325,
+    "completedAt": 1793290354,
+    "durationMs": 29023
+  },
+  "score": {
+    "correct": false,
+    "extracted": "<no,unknown,yes>"
+  },
+  "seconds": 29.60139575006906,
+  "usage": {
+    "total": {
+      "totalTokens": 4573,
+      "inputTokens": 4220,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 353,
+      "reasoningOutputTokens": 340
+    },
+    "last": {
+      "totalTokens": 4573,
+      "inputTokens": 4220,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 353,
+      "reasoningOutputTokens": 340
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 76e8c987-13d7-4723-9108-0cbdeb601d13",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a1886e-cc15-7363-81c9-198244bf4752",
+      "turnId": "01a1886e-cc70-7833-af48-cc3326601968"
+    }
+  ],
+  "finished_at": 1793290354.144768
+}

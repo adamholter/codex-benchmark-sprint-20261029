@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "korbench",
+  "id": "puzzle_220",
+  "category": "puzzle",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289791.055369,
+  "turn": {
+    "id": "01a18866-a75f-7772-828f-3a6732abed78",
+    "rootTurnId": "01a18866-a75f-7772-828f-3a6732abed78",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_01489575799ce737016ae36e7822488194a03ca7f6a51089c0",
+        "text": "[[No valid solution: none of the cells adjacent to \u25cb has an arrow pointing toward it.]]",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289791,
+    "completedAt": 1793289849,
+    "durationMs": 58208
+  },
+  "score": {
+    "correct": false,
+    "extracted": "No valid solution: none of the cells adjacent to \u25cb has an arrow pointing toward it."
+  },
+  "seconds": 58.90169249998871,
+  "usage": {
+    "total": {
+      "totalTokens": 4905,
+      "inputTokens": 4091,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 814,
+      "reasoningOutputTokens": 788
+    },
+    "last": {
+      "totalTokens": 4905,
+      "inputTokens": 4091,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 814,
+      "reasoningOutputTokens": 788
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793289849.956785
+}

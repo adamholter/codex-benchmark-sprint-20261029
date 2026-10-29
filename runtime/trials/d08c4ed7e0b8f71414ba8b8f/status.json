@@ -1,0 +1,103 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly_no_context",
+  "id": "148:Q 5.1:no_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294918.7359989,
+  "turn": {
+    "id": "01a188b4-e590-7173-852c-08cf974d75bb",
+    "rootTurnId": "01a188b4-e590-7173-852c-08cf974d75bb",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_06113dcad858f98f016ae3824a53e48196a39e69ff0d86e9b8",
+        "text": "{\"(a)\": \"Cannot be determined: the table is missing.\", \"(b)\": \"Cannot be determined: the table is missing.\", \"(c)\": \"Cannot be determined: the table is missing.\", \"(d)\": \"Cannot be determined: the table is missing.\", \"(e)\": \"Cannot be determined: the table is missing.\", \"(f)\": \"Cannot be determined: the table is missing.\", \"(g)\": \"Cannot be determined: the table is missing.\", \"(h)\": \"Cannot be determined: the table is missing.\", \"(i)\": \"Cannot be determined: the table is missing.\", \"(j)\": \"Cannot be determined: the table is missing.\", \"(k)\": \"Cannot be determined: the table is missing.\", \"(l)\": \"Cannot be determined: the table is missing.\", \"(m)\": \"Cannot be determined: the table is missing.\", \"(n)\": \"Cannot be determined: the table is missing.\", \"(o)\": \"Cannot be determined: the table is missing.\", \"(p)\": \"Cannot be determined: the table is missing.\", \"(q)\": \"Cannot be determined: the table is missing.\", \"(r)\": \"Cannot be determined: the table is missing.\", \"(s)\": \"Cannot be determined: the table is missing.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294919,
+    "completedAt": 1793294923,
+    "durationMs": 4868
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "Cannot be determined: the table is missing.",
+      "(b)": "Cannot be determined: the table is missing.",
+      "(c)": "Cannot be determined: the table is missing.",
+      "(d)": "Cannot be determined: the table is missing.",
+      "(e)": "Cannot be determined: the table is missing.",
+      "(f)": "Cannot be determined: the table is missing.",
+      "(g)": "Cannot be determined: the table is missing.",
+      "(h)": "Cannot be determined: the table is missing.",
+      "(i)": "Cannot be determined: the table is missing.",
+      "(j)": "Cannot be determined: the table is missing.",
+      "(k)": "Cannot be determined: the table is missing.",
+      "(l)": "Cannot be determined: the table is missing.",
+      "(m)": "Cannot be determined: the table is missing.",
+      "(n)": "Cannot be determined: the table is missing.",
+      "(o)": "Cannot be determined: the table is missing.",
+      "(p)": "Cannot be determined: the table is missing.",
+      "(q)": "Cannot be determined: the table is missing.",
+      "(r)": "Cannot be determined: the table is missing.",
+      "(s)": "Cannot be determined: the table is missing."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 19,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 0.0,
+      "(b)": 0.0,
+      "(c)": 0.0,
+      "(d)": 0.0,
+      "(e)": 0.0,
+      "(f)": 0.0,
+      "(g)": 0.0,
+      "(h)": 0.0,
+      "(i)": 0.0,
+      "(j)": 0.0,
+      "(k)": 0.0,
+      "(l)": 0.0,
+      "(m)": 0.0,
+      "(n)": 0.0,
+      "(o)": 0.0,
+      "(p)": 0.0,
+      "(q)": 0.0,
+      "(r)": 0.0,
+      "(s)": 0.0
+    }
+  },
+  "seconds": 5.218133999966085,
+  "usage": {
+    "total": {
+      "totalTokens": 4552,
+      "inputTokens": 4181,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 371,
+      "reasoningOutputTokens": 116
+    },
+    "last": {
+      "totalTokens": 4552,
+      "inputTokens": 4181,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 371,
+      "reasoningOutputTokens": 116
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793294923.953699
+}

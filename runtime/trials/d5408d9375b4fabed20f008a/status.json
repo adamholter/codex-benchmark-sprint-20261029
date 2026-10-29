@@ -1,0 +1,71 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly",
+  "id": "136:Q 4.:full_context",
+  "category": "Monolingual",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289822.83083,
+  "turn": {
+    "id": "01a18867-2382-7153-9221-f06d376834a5",
+    "rootTurnId": "01a18867-2382-7153-9221-f06d376834a5",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0b92a614cb5711c6016ae36e75b3748190ad861fed6e95ddf9",
+        "text": "{\"14)\": \"dambumirri ga marrma rulu ga lurrkun\", \"15)\": \"lurrkun dambumirri ga marrma rulu\", \"16)\": \"dambumiriw dambumirri ga wanggang rulu ga wanggang\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289823,
+    "completedAt": 1793289846,
+    "durationMs": 23225
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "14)": "dambumirri ga marrma rulu ga lurrkun",
+      "15)": "lurrkun dambumirri ga marrma rulu",
+      "16)": "dambumiriw dambumirri ga wanggang rulu ga wanggang"
+    },
+    "score": 1.0,
+    "parts_correct": 3,
+    "parts_total": 3,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "14)": 1.0,
+      "15)": 1.0,
+      "16)": 1.0
+    }
+  },
+  "seconds": 23.52561879204586,
+  "usage": {
+    "total": {
+      "totalTokens": 6299,
+      "inputTokens": 4394,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1905,
+      "reasoningOutputTokens": 1841
+    },
+    "last": {
+      "totalTokens": 6299,
+      "inputTokens": 4394,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1905,
+      "reasoningOutputTokens": 1841
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793289846.356166
+}

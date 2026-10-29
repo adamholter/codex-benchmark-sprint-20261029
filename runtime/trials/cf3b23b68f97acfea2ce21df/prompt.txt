@@ -1,0 +1,33 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+f▽g=f(x) \quad+g''(x) \quad.
+
+
+### Questions:
+question1:
+f(x)=x^3,g(x)=e^x,find the value of f▽g when x=1.
+Please wrap the answer in double square brackets, like this: [[your answer]].
+
+question2:
+f(x)=x^2, g(x)=sin(x), compute f▽g.
+Please provide your answer in LaTeX format. 
+Wrap the final answer in double square brackets, like this: [[your answer]].
+
+question3:
+f(x)=e^x, g(x)=ln(x) find the value of f▽g when x=1.
+Please wrap the answer in double square brackets, like this: [[your answer]].
+
+
+### Answers:

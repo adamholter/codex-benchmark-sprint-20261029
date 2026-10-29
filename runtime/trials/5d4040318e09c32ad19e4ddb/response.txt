@@ -1,0 +1,6 @@
+{
+  "(a)": "Umntwana unjani?",
+  "(b)": "Sifunda ukupheka, angithi?",
+  "(c)": "Yebo, bayakhuluma.",
+  "(d)": "Bafuna ukubona ubaba na?"
+}

@@ -1,0 +1,71 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly",
+  "id": "169:Q A4.2.:full_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292562.072059,
+  "turn": {
+    "id": "01a18890-ef4e-7300-885e-83c861834def",
+    "rootTurnId": "01a18890-ef4e-7300-885e-83c861834def",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_04309de4c502bc77016ae37931de488195940ee9a9555dea77",
+        "text": "{\"(a)\": \"bunny\", \"(b)\": \"kothekwani\", \"(c)\": \"methenahikanani\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292562,
+    "completedAt": 1793292594,
+    "durationMs": 32011
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "bunny",
+      "(b)": "kothekwani",
+      "(c)": "methenahikanani"
+    },
+    "score": 0.3333333333333333,
+    "parts_correct": 1,
+    "parts_total": 3,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 1.0,
+      "(b)": 0.0,
+      "(c)": 0.0
+    }
+  },
+  "seconds": 32.2156757080229,
+  "usage": {
+    "total": {
+      "totalTokens": 7790,
+      "inputTokens": 4413,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 3377,
+      "reasoningOutputTokens": 3344
+    },
+    "last": {
+      "totalTokens": 7790,
+      "inputTokens": 4413,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 3377,
+      "reasoningOutputTokens": 3344
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292594.2883682
+}

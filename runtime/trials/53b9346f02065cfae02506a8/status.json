@@ -1,0 +1,93 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly",
+  "id": "147:Q 4.2:full_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289444.3894331,
+  "turn": {
+    "id": "01a18861-5f85-7f91-8966-6dfe110a74ff",
+    "rootTurnId": "01a18861-5f85-7f91-8966-6dfe110a74ff",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0cf720fc61b86c4a016ae36d20545c8190a66dec8020d744a8",
+        "text": "{\n  \"a.\": \"bol\u00e1c:o\",\n  \"b.\": \"s\u00e9:i\",\n  \"c.\": \"f\u00farmine\",\n  \"d.\": \"abit\u00fad:ine\",\n  \"e.\": \"ac\u00f3rdio\",\n  \"f.\": \"\u01fd:goa\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289445,
+    "completedAt": 1793289505,
+    "durationMs": 60242
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "a.": "bol\u00e1c:o",
+      "b.": "s\u00e9:i",
+      "c.": "f\u00farmine",
+      "d.": "abit\u00fad:ine",
+      "e.": "ac\u00f3rdio",
+      "f.": "\u01fd:goa"
+    },
+    "score": 1.0,
+    "parts_correct": 6,
+    "parts_total": 6,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 1.0,
+      "b.": 1.0,
+      "c.": 1.0,
+      "d.": 1.0,
+      "e.": 1.0,
+      "f.": 1.0
+    }
+  },
+  "seconds": 61.171865834039636,
+  "usage": {
+    "total": {
+      "totalTokens": 4756,
+      "inputTokens": 4459,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 297,
+      "reasoningOutputTokens": 226
+    },
+    "last": {
+      "totalTokens": 4756,
+      "inputTokens": 4459,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 297,
+      "reasoningOutputTokens": 226
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 947a840f-bbb8-4e0a-99b1-a7bcf0dec95c",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a18861-5f0f-7ca1-8548-47ccb32e95ca",
+      "turnId": "01a18861-5f85-7f91-8966-6dfe110a74ff"
+    }
+  ],
+  "finished_at": 1793289505.5603
+}

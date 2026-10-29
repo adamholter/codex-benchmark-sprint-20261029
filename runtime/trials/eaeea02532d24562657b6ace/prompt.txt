@@ -1,0 +1,165 @@
+There are 7 people next to each other in a row in positions 1, 2, 3, 4, 5, 6, 7 who have the following characteristics.
+Everyone drinks a different drink: coffee, water, lemonade, iced tea, iced coffee, milk, beer.
+Everyone owns a different handbag brand: Polo Ralph Lauren, Coach, Tory Burch, Versace, Tumi, Balenciaga, Kate Spade.
+Everyone drives a different motorbike: Piaggio, Harley-Davidson, Benelli, Bajaj, Ducati, Yamaha, Suzuki.
+Everyone likes a different type of flower: carnations, lilies, tulips, dahlias, orchids, begonias, roses.
+Everyone likes a different food: burgers, fried rice, noodles, sandwiches, soups, pizza, pasta.
+Everyone likes a different favorite animal: finches, hummingbirds, spiders, cheetahs, starfish, halibut, geese.
+Everyone likes a different physical activity: skiing, weight lifting, scuba diving, snorkeling, running, hiking, base jumping.
+Everyone has a different name: Rajiv, Margaret, Mohan, Yair, Mallika, Ahmed, Mandy.
+Everyone reads a different genre of books: short story, history, science fiction, mystery, fantasy, spiritual, humor.
+Everyone is a different nationality: Dane, Swede, Serbian, American, Japanese, Canadian, Croatian.
+Everyone plays a different sport: ice hockey, volleyball, table tennis, baseball, squash, basketball, cricket.
+Everyone smokes a different cigarette: Camel, Blends, Pall Mall, Winston, Salem, Marlboro, Blue Master.
+Everyone supports a different NFL team: Cincinnati Bengals, Baltimore Ravens, Buffalo Bills, Denver Broncos, Chicago Bears, Seattle Seahawks, Atlanta Falcons.
+Everyone supports a different NBA team: Warriors, Mavericks, Cavaliers, Suns, Lakers, Knicks, Bucks.
+Everyone drives a different car: Honda, Kia, Lexus, BMW, Mercedes, Audi, Toyota.
+Everyone lives in a different colored house: blue, red, teal, white, orange, turquoise, green.
+Everyone likes a different type of gemstone: Amethysts, Opals, Obsidians, Sapphires, Pearls, Ambers, Emeralds.
+Everyone has a different favorite hobby: photography, fishing, sailing, astronomy, bird watching, cheese making, language learning.
+Using the clues provided below, answer the question at the end.
+Some of clues provided might be irrelevant to the puzzle.
+Clue 1: The person who drives the Kia is at one of the ends.
+Clue 2: The cricket player is at one of the ends.
+Clue 3: The person who drives the Toyota is somewhere to the left of the person who supports the Mavericks.
+Clue 4: The person who reads humor books is somewhere in between the person who likes hummingbirds and the person who supports the Seattle Seahawks in that order.
+Clue 5: The person who drives the Mercedes is somewhere in between the person who drives the Audi and the person who supports the Seattle Seahawks in that order.
+Clue 6: The person who lives in the turquoise house is immediately to the left of the person who likes roses.
+Clue 7: The person who likes finches is somewhere to the left of the person who supports the Mavericks.
+Clue 8: The person at the 5th position is the person who likes roses.
+Clue 9: The person who likes fried rice is at one of the ends.
+Clue 10: The person who likes spiders is not the baseball player.
+Clue 11: Margaret is not the American.
+Clue 12: The person who drives the Lexus is at one of the ends.
+Clue 13: The person who likes snorkeling is somewhere to the left of the person who likes fried rice.
+Clue 14: The person who likes pizza is immediately to the left of Yair.
+Clue 15: The person who owns a Kate Spade is next to the person who likes photography.
+Clue 16: The person who supports the Atlanta Falcons is next to the person who drives the BMW.
+Clue 17: Yair is immediately to the left of the person who likes lilies.
+Clue 18: The volleyball player is next to the person who drinks lemonade.
+Clue 19: The person who drives the Mercedes is the person who smokes Salem.
+Clue 20: The person who drives the BMW is the person who likes photography.
+Clue 21: The person who drives the BMW is somewhere to the left of the person who likes sailing.
+Clue 22: The person who reads fantasy books is next to the person who likes bird watching.
+Clue 23: The Croatian is somewhere to the left of the person who likes lilies.
+Clue 24: The person who owns a Versace is somewhere in between the person who drives the Audi and the person who drinks milk in that order.
+Clue 25: The person who drinks lemonade is somewhere to the left of the person who likes hummingbirds.
+Clue 26: The person who reads humor books is the person who likes bird watching.
+Clue 27: The person who likes tulips is immediately to the left of the person who likes pizza.
+Clue 28: The person who likes scuba diving is at one of the ends.
+Clue 29: The person who likes starfish is not the person who reads humor books.
+Clue 30: The person who likes lilies is Mallika.
+Clue 31: The person who smokes Salem is somewhere to the left of the person who drives the Toyota.
+Clue 32: The person who likes hummingbirds is next to the person who drinks lemonade.
+Clue 33: The person who likes skiing is the person who likes Ambers.
+Clue 34: The person who likes spiders is not the person who supports the Seattle Seahawks.
+Clue 35: The person who lives in the orange house is the person who likes weight lifting.
+Clue 36: The person who smokes Blends is the person who supports the Atlanta Falcons.
+Clue 37: The person who drinks iced coffee is the person who likes astronomy.
+Clue 38: The Croatian is immediately to the left of the Serbian.
+Clue 39: The person who drives the Audi is somewhere in between the person who supports the Denver Broncos and the person who smokes Blue Master in that order.
+Clue 40: The person who likes Opals is immediately to the left of the person who likes Amethysts.
+Clue 41: The person who likes noodles is somewhere in between the person who lives in the red house and the person who likes begonias in that order.
+Clue 42: The person who lives in the orange house is the person who likes pizza.
+Clue 43: The person who likes bird watching is next to the person who drives the Audi.
+Clue 44: The person who drives the BMW is not the person who likes spiders.
+Clue 45: The person who smokes Marlboro is next to the person who smokes Blue Master.
+Clue 46: The person who drinks iced tea is the person who supports the Cavaliers.
+Clue 47: The person who likes halibut is not the person who drives the Toyota.
+Clue 48: The person who likes astronomy is at one of the ends.
+Clue 49: The person who supports the Baltimore Ravens is the cricket player.
+Clue 50: The person who reads mystery books is at one of the ends.
+Clue 51: The person who drinks water is not the person who drives the Honda.
+Clue 52: The person who likes Sapphires is immediately to the left of the person who likes weight lifting.
+Clue 53: The person who owns a Kate Spade is at one of the ends.
+Clue 54: Mandy is immediately to the left of Mohan.
+Clue 55: The person who drives the Suzuki is immediately to the left of the person who drives the Toyota.
+Clue 56: The person who drives the Benelli is immediately to the left of the person who supports the Warriors.
+Clue 57: The person who likes astronomy is not the person who drives the Honda.
+Clue 58: The person who owns a Tumi is next to the person who reads mystery books.
+Clue 59: The person who likes Emeralds is somewhere to the left of the person who likes hiking.
+Clue 60: The person who owns a Kate Spade is somewhere to the left of the person who owns a Versace.
+Clue 61: The person who drinks coffee is immediately to the left of the person who drinks milk.
+Clue 62: The person who likes spiders is not the person who drives the Audi.
+Clue 63: The person who supports the Lakers is not the person who owns a Coach.
+Clue 64: The person who likes cheetahs is somewhere in between the person who reads fantasy books and the person who supports the Bucks in that order.
+Clue 65: The Japanese is the person who likes Sapphires.
+Clue 66: The person who owns a Tory Burch is somewhere in between the person who supports the Buffalo Bills and the person who drinks iced coffee in that order.
+Clue 67: The person who likes soups is at one of the ends.
+Clue 68: The person who owns a Coach is not the person who reads mystery books.
+Clue 69: The person who likes astronomy is not the person who drives the Audi.
+Clue 70: The person who drives the Toyota is somewhere in between the person who likes cheese making and the person who supports the Bucks in that order.
+Clue 71: The person who supports the Warriors is not the person who smokes Marlboro.
+Clue 72: The person who supports the Lakers is not the person who drinks iced coffee.
+Clue 73: The person who likes cheetahs is next to the person who likes fishing.
+Clue 74: The person who supports the Baltimore Ravens is not the person who owns a Tory Burch.
+Clue 75: The person who smokes Winston is at one of the ends.
+Clue 76: The person who supports the Bucks is the person who likes astronomy.
+Clue 77: The person who supports the Suns is somewhere in between the person who drinks water and the person who supports the Baltimore Ravens in that order.
+Clue 78: The person who smokes Winston is at one of the ends.
+Clue 79: The person who lives in the teal house is Mohan.
+Clue 80: The person who likes noodles is the person at the 6th position.
+Clue 81: The person who supports the Denver Broncos is somewhere in between the volleyball player and the person who drives the Mercedes in that order.
+Clue 82: The basketball player is somewhere to the left of the person who smokes Winston.
+Clue 83: The person who drinks lemonade is the person who supports the Denver Broncos.
+Clue 84: The basketball player is immediately to the left of the person who smokes Salem.
+Clue 85: The person who smokes Blue Master is next to the person who drinks coffee.
+Clue 86: The person who reads short story books is at one of the ends.
+Clue 87: The person who owns a Balenciaga is the person who likes bird watching.
+Clue 88: The person who smokes Blends is not the person who drinks iced coffee.
+Clue 89: The person who drives the Bajaj is somewhere to the left of the person who supports the Baltimore Ravens.
+Clue 90: The person who supports the Bucks is the person who supports the Baltimore Ravens.
+Clue 91: The person who likes geese is at one of the ends.
+Clue 92: Mandy is the person who lives in the blue house.
+Clue 93: The person who lives in the green house is next to the person who likes Emeralds.
+Clue 94: The person who drinks milk is the person who owns a Tory Burch.
+Clue 95: The person who smokes Blue Master is somewhere in between the person who supports the Seattle Seahawks and the person who likes geese in that order.
+Clue 96: The person who drives the Lexus is at one of the ends.
+Clue 97: The basketball player is the person who supports the Warriors.
+Clue 98: The person who likes language learning is at one of the ends.
+Clue 99: The Dane is at one of the ends.
+Clue 100: The person who drives the Harley-Davidson is immediately to the left of the person who likes cheetahs.
+Clue 101: The person who likes burgers is somewhere to the left of the person who likes base jumping.
+Clue 102: The person who likes cheetahs is not the person who likes photography.
+Clue 103: The person who drives the Kia is at one of the ends.
+Clue 104: The person who lives in the white house is immediately to the left of the person who likes Amethysts.
+Clue 105: The table tennis player is somewhere to the left of the person who drives the Kia.
+Clue 106: The person who likes Obsidians is next to the person who likes skiing.
+Clue 107: The person who likes Obsidians is the Dane.
+Clue 108: The ice hockey player is somewhere in between the person who smokes Camel and the person who drives the Bajaj in that order.
+Clue 109: The person who reads mystery books is somewhere to the left of the person who likes finches.
+Clue 110: The person who reads humor books is not the person who supports the Cavaliers.
+Clue 111: The person who supports the Knicks is not the person who likes halibut.
+Clue 112: The person who smokes Marlboro is next to the person who likes cheetahs.
+Clue 113: The person who owns a Tumi is not the person who drives the Lexus.
+Clue 114: The person who supports the Baltimore Ravens is not the person who owns a Kate Spade.
+Clue 115: The person who drives the Ducati is at one of the ends.
+Clue 116: The person who likes noodles is the Swede.
+Clue 117: Ahmed is immediately to the left of the person who lives in the orange house.
+Clue 118: The person who likes Opals is next to the person who likes weight lifting.
+Clue 119: The person who likes hummingbirds is immediately to the left of the person who supports the Knicks.
+Clue 120: The person who supports the Knicks is immediately to the left of the person who drives the Toyota.
+Clue 121: The person who drives the Kia is the person who likes astronomy.
+Clue 122: The person who likes Amethysts is immediately to the left of the person who likes pasta.
+Clue 123: The person who likes geese is not the person who owns a Kate Spade.
+Clue 124: The person who likes bird watching is the person who supports the Knicks.
+Clue 125: The Canadian is next to the person who likes Sapphires.
+Clue 126: The person who drives the Bajaj is immediately to the left of the person who likes geese.
+Clue 127: The person who owns a Tumi is not the person who smokes Marlboro.
+Clue 128: The person who likes hummingbirds is somewhere to the left of the person who drives the Suzuki.
+Clue 129: The person who likes finches is the table tennis player.
+Clue 130: Margaret is the person who likes carnations.
+Clue 131: The person who likes snorkeling is next to the Croatian.
+Clue 132: The Japanese is the person who lives in the green house.
+Clue 133: The person who likes dahlias is somewhere in between the person who likes base jumping and the person who lives in the teal house in that order.
+Clue 134: The cricket player is at one of the ends.
+Clue 135: The person who smokes Salem is not the person who drinks iced coffee.
+Clue 136: The person who likes orchids is the person who likes sandwiches.
+Clue 137: The person who likes hiking is at one of the ends.
+Clue 138: The person who owns a Tory Burch is next to the person who drinks coffee.
+Clue 139: The person who owns a Coach is somewhere in between the person who drives the BMW and the person who drives the Suzuki in that order.
+Clue 140: The person who supports the Warriors is not the person who reads mystery books.
+Clue 141: The person who likes cheese making is next to the person who drinks beer.
+Clue 142: The person who smokes Camel is not the person who drinks beer.
+
+Question: What position is the person who likes Obsidians at?

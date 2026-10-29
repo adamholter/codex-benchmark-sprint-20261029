@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "bbeh",
+  "id": "mini:geometric_shapes:0142",
+  "category": "geometric_shapes",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793295163.3016572,
+  "turn": {
+    "id": "01a188b8-a4fe-7612-a282-d274b8034be9",
+    "rootTurnId": "01a188b8-a4fe-7612-a282-d274b8034be9",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_086aa21a27c98fe8016ae38358620c81948f0147bafdef3c1e",
+        "text": "**(A) 1 and 8** \u2014 a non-square rectangle and an irregular concave pentagon, both with no diagonals drawn.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793295164,
+    "completedAt": 1793295193,
+    "durationMs": 28799
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(a) 1 and 8 \u2014 a non-square rectangle and an irregular concave pentagon,both with no diagonals drawn"
+  },
+  "seconds": 30.503815665957518,
+  "usage": {
+    "total": {
+      "totalTokens": 4826,
+      "inputTokens": 4355,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 471,
+      "reasoningOutputTokens": 435
+    },
+    "last": {
+      "totalTokens": 4826,
+      "inputTokens": 4355,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 471,
+      "reasoningOutputTokens": 435
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793295193.8049788
+}

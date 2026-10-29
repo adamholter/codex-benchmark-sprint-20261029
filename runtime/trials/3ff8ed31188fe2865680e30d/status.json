@@ -1,0 +1,85 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly",
+  "id": "179:Q 4.2:full_context",
+  "category": "Rosetta / Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793286884.649917,
+  "turn": {
+    "id": "01a1883a-4f0d-7f12-a832-598b579d3437",
+    "rootTurnId": "01a1883a-4f0d-7f12-a832-598b579d3437",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_06f44c8054eeeb55016ae362e8fc38819089f924279a9279e9",
+        "text": "{\"(a)\": \"\", \"(b)\": \"\", \"(c)\": \"\", \"(d)\": \"\", \"(e)\": \"\", \"(f)\": \"\", \"(g)\": \"\", \"(h)\": \"\", \"(i)\": \"\", \"(j)\": \"\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793286885,
+    "completedAt": 1793286889,
+    "durationMs": 4387
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "",
+      "(b)": "",
+      "(c)": "",
+      "(d)": "",
+      "(e)": "",
+      "(f)": "",
+      "(g)": "",
+      "(h)": "",
+      "(i)": "",
+      "(j)": ""
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 10,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 0.0,
+      "(b)": 0.0,
+      "(c)": 0.0,
+      "(d)": 0.0,
+      "(e)": 0.0,
+      "(f)": 0.0,
+      "(g)": 0.0,
+      "(h)": 0.0,
+      "(i)": 0.0,
+      "(j)": 0.0
+    }
+  },
+  "seconds": 4.915614750003442,
+  "usage": {
+    "total": {
+      "totalTokens": 4515,
+      "inputTokens": 4300,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 215,
+      "reasoningOutputTokens": 167
+    },
+    "last": {
+      "totalTokens": 4515,
+      "inputTokens": 4300,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 215,
+      "reasoningOutputTokens": 167
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793286889.5652092
+}

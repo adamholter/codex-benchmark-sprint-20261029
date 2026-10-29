@@ -1,0 +1,6 @@
+{
+  "9": "Cannot be determined: the example data are missing.",
+  "10": "Cannot be determined: the example data are missing.",
+  "11": "Cannot be determined: the example data are missing.",
+  "12": "Cannot be determined: the example data are missing."
+}

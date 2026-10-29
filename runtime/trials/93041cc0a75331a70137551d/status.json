@@ -1,0 +1,74 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "bbeh",
+  "id": "mini:nycc:0015",
+  "category": "nycc",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289080.482783,
+  "turn": {
+    "id": "01a1885b-cf81-7600-bec6-d362515f5c3d",
+    "rootTurnId": "01a1885b-cf81-7600-bec6-d362515f5c3d",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_099bbf9185546c4a016ae36bac460881978aa4ab89a8eb0b60",
+        "text": "(I) \u201cYeah, well, you don't look like Aladdin either.\u201d",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289080,
+    "completedAt": 1793289132,
+    "durationMs": 51960
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(i) \u201cyeah,well,you don't look like aladdin either.\u201d"
+  },
+  "seconds": 52.207175499992445,
+  "usage": {
+    "total": {
+      "totalTokens": 4067,
+      "inputTokens": 3932,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 135,
+      "reasoningOutputTokens": 114
+    },
+    "last": {
+      "totalTokens": 4067,
+      "inputTokens": 3932,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 135,
+      "reasoningOutputTokens": 114
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 71a44ae0-f7e4-4739-9e23-e4cf3aec639a",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a1885b-cf6a-7a31-a89d-ba8aee94477b",
+      "turnId": "01a1885b-cf81-7600-bec6-d362515f5c3d"
+    }
+  ],
+  "finished_at": 1793289132.689603
+}

@@ -1,0 +1,21 @@
+{
+  "A": "Cannot determine: translations 1–19 are missing.",
+  "B": "Cannot determine: translations 1–19 are missing.",
+  " C \t ": "Cannot determine: translations 1–19 are missing.",
+  "D": "Cannot determine: translations 1–19 are missing.",
+  "E": "Cannot determine: translations 1–19 are missing.",
+  "F": "Cannot determine: translations 1–19 are missing.",
+  "G": "Cannot determine: translations 1–19 are missing.",
+  "H": "Cannot determine: translations 1–19 are missing.",
+  "I": "Cannot determine: translations 1–19 are missing.",
+  "J": "Cannot determine: translations 1–19 are missing.",
+  "K": "Cannot determine: translations 1–19 are missing.",
+  "L": "Cannot determine: translations 1–19 are missing.",
+  "M": "Cannot determine: translations 1–19 are missing.",
+  "N": "Cannot determine: translations 1–19 are missing.",
+  "O": "Cannot determine: translations 1–19 are missing.",
+  "P": "Cannot determine: translations 1–19 are missing.",
+  "Q": "Cannot determine: translations 1–19 are missing.",
+  "R": "Cannot determine: translations 1–19 are missing.",
+  "S": "Cannot determine: translations 1–19 are missing."
+}

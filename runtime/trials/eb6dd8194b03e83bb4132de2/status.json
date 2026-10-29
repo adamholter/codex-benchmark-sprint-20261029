@@ -1,0 +1,70 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "PlanBench Blocksworld Hard - PDDL",
+  "id": "instance-69",
+  "category": "PDDL plan generation / exact plan validity",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289732.425571,
+  "turn": {
+    "id": "01a18865-c248-7b83-b841-84dec13e25db",
+    "rootTurnId": "01a18865-c248-7b83-b841-84dec13e25db",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_07a142ab5d9c143f016ae36e10a74c81968b6fe6e7a6fe07d7",
+        "text": "(pick-up l)\n(stack l b)\n(wait)",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289732,
+    "completedAt": 1793289744,
+    "durationMs": 12192
+  },
+  "score": {
+    "correct": false,
+    "extracted": [
+      "(pick-up l)",
+      "(stack l b)",
+      "(wait)"
+    ],
+    "valid_actions": 0,
+    "reason": "precondition_failed",
+    "failed_step": 1,
+    "action": "(pick-up l)",
+    "precondition": [
+      "ontable",
+      "l"
+    ]
+  },
+  "seconds": 12.467280457960442,
+  "usage": {
+    "total": {
+      "totalTokens": 5138,
+      "inputTokens": 4297,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 841,
+      "reasoningOutputTokens": 824
+    },
+    "last": {
+      "totalTokens": 5138,
+      "inputTokens": 4297,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 841,
+      "reasoningOutputTokens": 824
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793289744.892781
+}

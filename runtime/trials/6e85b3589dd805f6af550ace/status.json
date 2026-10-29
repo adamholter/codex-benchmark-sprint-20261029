@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "bbeh",
+  "id": "mini:movie_recommendation:0183",
+  "category": "movie_recommendation",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292275.731435,
+  "turn": {
+    "id": "01a1888c-9163-75b2-adc3-f6434daf08ce",
+    "rootTurnId": "01a1888c-9163-75b2-adc3-f6434daf08ce",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_04d11d50896f2c12016ae37804017c81939f2aeba0c44d7af8",
+        "text": "**(F)** \u2014 Seven Samurai, The Lord of the Rings: The Two Towers, Dr. Strangelove, The Silence of the Lambs, and American Beauty. They\u2019re all widely acclaimed films, so they\u2019re the strongest bet for having similar patterns of people liking them.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292276,
+    "completedAt": 1793292292,
+    "durationMs": 16619
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(f) \u2014 seven samurai,the lord of the rings: the two towers,dr. strangelove,the silence of the lambs,and american beauty. they\u2019re all widely acclaimed films,so they\u2019re the strongest bet for having similar patterns of people liking them"
+  },
+  "seconds": 16.9837515829131,
+  "usage": {
+    "total": {
+      "totalTokens": 5387,
+      "inputTokens": 4089,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1298,
+      "reasoningOutputTokens": 1235
+    },
+    "last": {
+      "totalTokens": 5387,
+      "inputTokens": 4089,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1298,
+      "reasoningOutputTokens": 1235
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292292.7150521
+}

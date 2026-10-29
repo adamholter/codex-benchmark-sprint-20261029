@@ -1,0 +1,1 @@
+You have **551 cars** and **513 animals/insects**. Their absolute difference is **38**.

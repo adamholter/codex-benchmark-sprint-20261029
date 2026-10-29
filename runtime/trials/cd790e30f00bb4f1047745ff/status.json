@@ -1,0 +1,67 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly",
+  "id": "174:Q 4.3:full_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793293253.367069,
+  "turn": {
+    "id": "01a1889b-7be4-7db3-bd0e-74a9729606de",
+    "rootTurnId": "01a1889b-7be4-7db3-bd0e-74a9729606de",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_00d10cbb538388a3016ae37bcaf8508195919dcbf36f4a83c3",
+        "text": "{\"g\":\"The repeated nouns and classifiers allow the phrases to be matched by comparing their meanings. For example, mis means \u2018breast\u2019 or \u2018milk\u2019: lub mis is the breast, while kua mis is milk, with kua indicating a liquid. Similarly, txiv is \u2018fruit\u2019, and hmab is \u2018vine\u2019, so kua txiv hmab is grape juice.\\n\\nThe complete matches are: A\u20136, B\u201315, C\u20139, D\u20135, E\u20132, F\u201310, G\u20133, H\u20134, I\u201312, J\u20131, K\u201316, L\u201313, M\u20138, N\u201318, O\u201314, P\u201319, Q\u201311, R\u201317, S\u20137.\\n\\nThe words before the nouns are classifiers associated with kinds or shapes of things. Daim is used for flat things, phau for collections or stacks, txoj for long, narrow things, and lub for objects such as a fruit or coin. Tsab can classify a written message, while zaj is used for a spoken message. These patterns suggest the following completions:\\n\\na. lub hnub \u2014 the sun\\nb. txoj hlua \u2014 the rope\\nc. zaj nkauj \u2014 the song\\nd. sau ntawv \u2014 the essay\\ne. daim teb \u2014 the field\\nf. lub txiv hmab \u2014 the grape\\n\\nFor the field, teb is given as \u2018land\u2019, and daim is appropriate for a flat expanse. For the grape, txiv hmab combines \u2018fruit\u2019 and \u2018vine\u2019, with lub as its classifier.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793293253,
+    "completedAt": 1793293263,
+    "durationMs": 9643
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "g": "The repeated nouns and classifiers allow the phrases to be matched by comparing their meanings. For example, mis means \u2018breast\u2019 or \u2018milk\u2019: lub mis is the breast, while kua mis is milk, with kua indicating a liquid. Similarly, txiv is \u2018fruit\u2019, and hmab is \u2018vine\u2019, so kua txiv hmab is grape juice.\n\nThe complete matches are: A\u20136, B\u201315, C\u20139, D\u20135, E\u20132, F\u201310, G\u20133, H\u20134, I\u201312, J\u20131, K\u201316, L\u201313, M\u20138, N\u201318, O\u201314, P\u201319, Q\u201311, R\u201317, S\u20137.\n\nThe words before the nouns are classifiers associated with kinds or shapes of things. Daim is used for flat things, phau for collections or stacks, txoj for long, narrow things, and lub for objects such as a fruit or coin. Tsab can classify a written message, while zaj is used for a spoken message. These patterns suggest the following completions:\n\na. lub hnub \u2014 the sun\nb. txoj hlua \u2014 the rope\nc. zaj nkauj \u2014 the song\nd. sau ntawv \u2014 the essay\ne. daim teb \u2014 the field\nf. lub txiv hmab \u2014 the grape\n\nFor the field, teb is given as \u2018land\u2019, and daim is appropriate for a flat expanse. For the grape, txiv hmab combines \u2018fruit\u2019 and \u2018vine\u2019, with lub as its classifier."
+    },
+    "score": 1.0,
+    "parts_correct": 1,
+    "parts_total": 1,
+    "empty_reference_parts": 1,
+    "part_scores": {
+      "g": 1.0
+    }
+  },
+  "seconds": 9.90299270907417,
+  "usage": {
+    "total": {
+      "totalTokens": 4889,
+      "inputTokens": 4451,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 438,
+      "reasoningOutputTokens": 105
+    },
+    "last": {
+      "totalTokens": 4889,
+      "inputTokens": 4451,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 438,
+      "reasoningOutputTokens": 105
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793293263.269655
+}

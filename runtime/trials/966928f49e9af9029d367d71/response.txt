@@ -1,0 +1,1 @@
+[[No valid solution: none of the cells adjacent to ○ has an arrow pointing toward it.]]

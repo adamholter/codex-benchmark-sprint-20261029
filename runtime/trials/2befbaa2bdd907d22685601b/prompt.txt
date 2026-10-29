@@ -1,0 +1,206 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+Lighthouse is called the largest man-made flying object that flies above the earth and is inhabited by surviving humans.
+Victor, the character in the anime Spirit Cage and its derivative works, the city defense Army commander General Victor is loyal to the city master Morgan, the mechanical iron wall is his medal for defending the lighthouse, and his city defense Army is the functional department in charge of city security, with the only field team allowed to carry heat weapons on the lighthouse.
+The Lighthouse society enforced a strict system of racial segregation, and the dust people were not regarded as ordinary human beings and had no reproductive rights.
+One such group is the Church of Light and Shadow, founded by the current city lord Morgan, with his son Charles as the leader. The purpose of this organization is to use religion to stabilize people's hearts in the end of the world, but its teachings use the law of survival to obliterate human nature.
+The cuneiform script of ancient Babylon appears in the cave of Marc's dream wedding, and on the archival panels of the White Boss's base.
+The speech the spine GU spoke during the operation was in Sanskrit.
+According to the Mana ecological report, Devouring Beast I could evolve into Devouring Beast II.Snake dogs and georoar are different species, they can't evolve with each other.
+Morgan in the Spirit Cage states that the Lotto system has existed since the time of Tartarus, and that it can calculate the future of the fate of humanity.
+The lighthouse was formerly known as Tartaslow Prison, which was used to house various criminals.
+Marc's body is special. It can fuse with any species.
+Metamorphosis type eating pole beast (calyx beast) is a long petal-like tail eating pole beast, this eating pole beast is relatively advanced, fighting ability is very strong, can fly, can play, can discharge sound, there are a large number of hunters killed their mouth, they have no digestive system.
+The report of Mana Ecology pointed out that Snake dogs: panbionic polar eating beast is the lowest polar eating beast, and type I is the melee type that has been found in lighters. Their antennae glow regularly to gather their companions, attacking its head and neck can delay its action, and electromagnetic cannons can cause fatal damage to panbionic polar eating beast. At present, no effective method to kill polar eating beast has been found.
+Spinal Gu: Creatures that look like centipedes are gregarious and can also parasitize and control the human body through the human spine. The controlled person is similar to a zombie, but unlike a zombie, he can still move even if he loses his brain. Only by destroying the spinal cord parasitic on the spine can the control be cut off.
+Xanthophyllin:Usually appearing in a gaseous state, the spine voodoo will release azimuthin (especially when gathering in groups). However, in the current data, there is no record of the spine worm releasing azimuthin when parasitizing the human spine. These hormones can cause hallucinations in those who inhale too much.
+Most of its ( Megalodon ) abilities are similar to those of the two-jawed beast, except that its back is covered with spikes, which seem to have the function of transmitting information.
+Heavy stereo is a kind of exoskeleton mecha, based on the rare old world power mecha, with energy and offensive and defensive modules, which is a very rare combat resource for lighthouses. When humans wear it, it's as if they have become "iron warriors"!
+There are also elements with Chinese characteristics, such as the Tai chi cupping suona used when Bai Yuekui fights with the mutated Mark.
+
+**Encryption Rules:**
+
+- Input:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Output:
+    - Ciphertext: Uppercase letters string.
+- Preparation:
+    - alphabet = 'ABCDEFGHIKLMNOPQRSTUVWXYZ'(The letter J is excluded)
+    - 8 Grids:
+        
+        Grid0:
+        
+        | P | H | I | L | S |
+        | A | B | C | D | E |
+        | F | G | K | M | N |
+        | O | Q | R | T | U |
+        | V | W | X | Y | Z |
+        
+        Grid1:
+        
+        | V | W | X | Y | Z |
+        | P | H | I | L | S |
+        | A | B | C | D | E |
+        | F | G | K | M | N |
+        | O | Q | R | T | U |
+        
+        Grid2:
+        
+        | O | Q | R | T | U |
+        | V | W | X | Y | Z |
+        | P | H | I | L | S |
+        | A | B | C | D | E |
+        | F | G | K | M | N |
+        
+        Grid3:
+        
+        | F | G | K | M | N |
+        | O | Q | R | T | U |
+        | V | W | X | Y | Z |
+        | P | H | I | L | S |
+        | A | B | C | D | E |
+        
+        Grid4:
+        
+        | A | B | C | D | E |
+        | F | G | K | M | N |
+        | O | Q | R | T | U |
+        | V | W | X | Y | Z |
+        | P | H | I | L | S |
+        
+        Grid5:
+        
+        | P | H | I | L | S |
+        | A | B | C | D | E |
+        | F | G | K | M | N |
+        | O | Q | R | T | U |
+        | V | W | X | Y | Z |
+        
+        Grid6:
+        
+        | V | W | X | Y | Z |
+        | P | H | I | L | S |
+        | A | B | C | D | E |
+        | F | G | K | M | N |
+        | O | Q | R | T | U |
+        
+        Grid7:
+        
+        | O | Q | R | T | U |
+        | V | W | X | Y | Z |
+        | P | H | I | L | S |
+        | A | B | C | D | E |
+        | F | G | K | M | N |
+        
+- Encryption Steps:
+    - The plaintext is grouped into blocks of 5 characters, numbered from 0.
+    - For blocks of 5 characters:
+        - To use the grid is determined by calculating grid_index = (i // 5) % 8, where i is the number. Integer division operator // divides the number on the left by the number on the right, rounding down the result. That is, it removes the fractional part and keeps only the integer part!This ensures that the grid is recycled.
+        - For each character in the current block:
+            - If the character is "J", it is not encrypted and is appended directly to the encrypted block.
+            - Otherwise, find the position of the character in the current grid. Then move one grid position to the lower right (row+1,col+1) (or continue on the opposite side of the corresponding boundary if it crosses the boundary), and get the letter at the position after the move as the encrypted letter.
+            - Add the encrypted letter to the encryption block.
+    - After processing all the blocks, connect the encrypted blocks to form the final encrypted message.
+
+ **Decryption Rules:**
+
+- Input:
+    - Ciphertext: Uppercase letters string.
+- Output:
+    - Plaintext: Uppercase letters string.
+- Preparation:
+    - alphabet = 'ABCDEFGHIKLMNOPQRSTUVWXYZ'(The letter J is excluded)
+    - 8 Grids (Same as encryption)
+- Decryption Steps (exact opposite of encryption steps):
+    - Divide the ciphertext into 5-character blocks:
+        - For example, if the cipher text is "KHOORTQHQTHHSAUQ", the 0th block is "KHOOR", the 1st block is "TQHQH", and so on. (Numbering starts at 0)
+    - Determine the grid used for the current block:
+    Calculate grid_index = (i // 5) % 8 to select the appropriate grid from the grid list. i is the block number.
+    - For each character in the block:
+        - If the character is "J": add "J" directly to the decrypted block without decryption.
+        - Otherwise find the position of the character in the grid and obtain it by moving one grid to the upper left (or continue on the opposite side of the corresponding boundary if it crosses the boundary). the letter at the position after the move is used as the decrypted letter.
+        - Append the decrypted letter to the decryption block.
+    - After processing all characters in the block, append the decrypted block to the decrypted message list. Form the final decrypted message.
+
+1.The game is played on a grid consisting of several partitions (zones). Each partition consists of a number of squares.
+2.Place stars in the given grid.
+3.n stars are placed in each row and column.
+4.n stars are placed in each partition.
+5.Stars cannot be adjacent, i.e., there can be no stars in adjacent squares (including diagonally adjacent).
+6.The question is given in the form of a matrix with different regions labeled with different letters, e.g. the grid where all the letters A are located forms a region and the answer should list the coordinates of the stars in each region, e.g. A:(row i, column j)
+
+a★b=\int_{a}^{b} 2x \, dx
+
+1. Propositional Symbolization Rules:
+    - Equivalence is represented by `::=::`
+    - Negation is represented by `!`
+    - Or is represented by `|`
+    - And is represented by `&`
+    - Implication is represented by `>`
+    - Equivalence is represented by `=`
+    - NAND is represented by `⇑`
+    - NOR is represented by `⇓`
+2. Basic Equivalences:
+    (1) A ::=:: !!A
+    (2) A ::=:: A | A, A ::=:: A & A
+    (3) A | B ::=:: B | A, A & B ::=:: B & A
+    (4) (A | B) | C ::=:: A | (B | C), (A & B) & C ::=:: A & (B & C)
+    (5) A | (B & C) ::=:: (A | B) & (A | C), A & (B | C) ::=:: (A & B) | (A & C)
+    (6) !(A | B) ::=:: !A & !B, !(A & B) ::=:: !A | !B
+    (7) A | (A & B) ::=:: A, A & (A | B) ::=:: A
+    (8) A | !A ::=:: 1
+    (9) A & !A ::=:: 0
+    (10) A > B ::=:: !A | B
+    (11) A = B ::=:: (A > B) & (B > A)
+    (12) A > B ::=:: !B > !A
+    (13) A = B ::=:: !A = !B
+    (14) (A > B) & (A > !B) ::=:: !A
+    (15) A ⇑ B ::=:: !A | !B
+    (16) A ⇓ B ::=:: !A & !B
+3. Equivalence Calculation Rules:
+    - The final expression should be completely represented using `|`, `&`, and `!`, without retaining `>` and `=`.
+4. Truth Value Judgment Steps:
+    - Define the practical problem to be judged as simple propositions and symbolize them.
+    - Use simple propositions to express the formula based on each person's description.
+    - Combine the information of who is true and who is false to write the final logical expression.
+    - Use the above equivalences to derive and judge the truth of the expression.
+
+
+### Questions:
+question1:
+What kind of organisms cannot evolve from each other according to their species? (Answer with one option)
+Options:A.Dog and cat##B.Tadpoles and frogs##C. Snake dogs and georoar##D.Devouring Beast and Devouring Beast II
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+question2:
+1 star.
+
+A        A        A        A        A        B        B        B
+A        A        A        C        C        B        C        B
+A        C        C        C        C        C        C        C
+A        D        D        D        D        D        D        C
+A        D        E        E        E        E        D        C
+A        A        E        F        E        E        E        C
+A        F        F        F        E        E        E        G
+A        A        H        H        G        G        G        G
+
+Output in alphabetical order, if there are more than one stellar coordinates in a region, write the coordinates of the answer with the smallest number of rows first, if the number of rows is the same, then write the one with the smallest number of columns first, and the coordinates of the different regions are separated by a line breaker.
+Please wrap the answer in double square brackets, like this:
+[[A(1,1)(2,5)
+B(1,3)(3,2)
+C(3,7)(4,9)]].
+
+
+### Answers:

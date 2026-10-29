@@ -1,0 +1,85 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly_no_context",
+  "id": "27:Q 3.d:no_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292011.750601,
+  "turn": {
+    "id": "01a18888-8bdf-7892-85ef-24abab86bc17",
+    "rootTurnId": "01a18888-8bdf-7892-85ef-24abab86bc17",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_054ba8325d9336a9016ae376f16e708197b77f9d899e983c2a",
+        "text": "{\"1\":\"gedeeld\",\"2\":\"gehoord\",\"3\":\"getapt\",\"4\":\"verhuisd\",\"5\":\"geland\",\"6\":\"geklopt\",\"7\":\"gemokt\",\"8\":\"gerookt\",\"9\":\"gerot\",\"10\":\"getobd\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292012,
+    "completedAt": 1793292017,
+    "durationMs": 5473
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "1": "gedeeld",
+      "2": "gehoord",
+      "3": "getapt",
+      "4": "verhuisd",
+      "5": "geland",
+      "6": "geklopt",
+      "7": "gemokt",
+      "8": "gerookt",
+      "9": "gerot",
+      "10": "getobd"
+    },
+    "score": 0.9,
+    "parts_correct": 9,
+    "parts_total": 10,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "1": 0.0,
+      "2": 1.0,
+      "3": 1.0,
+      "4": 1.0,
+      "5": 1.0,
+      "6": 1.0,
+      "7": 1.0,
+      "8": 1.0,
+      "9": 1.0,
+      "10": 1.0
+    }
+  },
+  "seconds": 6.2807819589506835,
+  "usage": {
+    "total": {
+      "totalTokens": 4136,
+      "inputTokens": 4014,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 122,
+      "reasoningOutputTokens": 60
+    },
+    "last": {
+      "totalTokens": 4136,
+      "inputTokens": 4014,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 122,
+      "reasoningOutputTokens": 60
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292018.030103
+}

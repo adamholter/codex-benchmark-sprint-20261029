@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "korbench",
+  "id": "puzzle_65",
+  "category": "puzzle",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793287799.588352,
+  "turn": {
+    "id": "01a18848-441f-77e0-9ac7-e66742418753",
+    "rootTurnId": "01a18848-441f-77e0-9ac7-e66742418753",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_06c1ca5eadc9ed4b016ae3667bb4908195b4532dfeba0c09d2",
+        "text": "[[$150 Debra Kara, $160 Inez Vicki, $170 Eula Misty, $180 Beulah Nancy]]",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793287799,
+    "completedAt": 1793287804,
+    "durationMs": 4200
+  },
+  "score": {
+    "correct": true,
+    "extracted": "$150 Debra Kara, $160 Inez Vicki, $170 Eula Misty, $180 Beulah Nancy"
+  },
+  "seconds": 4.476209374959581,
+  "usage": {
+    "total": {
+      "totalTokens": 4221,
+      "inputTokens": 4037,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 184,
+      "reasoningOutputTokens": 151
+    },
+    "last": {
+      "totalTokens": 4221,
+      "inputTokens": 4037,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 184,
+      "reasoningOutputTokens": 151
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793287804.0639749
+}

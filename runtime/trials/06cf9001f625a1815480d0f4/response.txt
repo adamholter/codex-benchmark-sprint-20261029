@@ -1,0 +1,18 @@
+{
+  "a.": "Cannot determine: first table not provided.",
+  "b.": "Cannot determine: first table not provided.",
+  "c.": "Cannot determine: first table not provided.",
+  "d.": "Cannot determine: first table not provided.",
+  "e.": "Cannot determine: first table not provided.",
+  "f.": "Cannot determine: first table not provided.",
+  "g.": "Cannot determine: first table not provided.",
+  "h.": "Cannot determine: first table not provided.",
+  "i.": "Cannot determine: first table not provided.",
+  "j.": "Cannot determine: first table not provided.",
+  "k.": "Cannot determine: first table not provided.",
+  "l.": "Cannot determine: first table not provided.",
+  "m.": "Cannot determine: first table not provided.",
+  "n.": "Cannot determine: first table not provided.",
+  "o.": "Cannot determine: first table not provided.",
+  "p.": "Cannot determine: first table not provided."
+}

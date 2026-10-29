@@ -1,0 +1,7 @@
+**(C)** is true. Its final clause is joined to the rest by a top-level **or**, and
+
+\[
+4-\frac{10}{5}=2\leq 8
+\]
+
+is true. Therefore, the whole expression is true regardless of the preceding clause.

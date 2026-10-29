@@ -1,0 +1,10 @@
+{
+  "1": "7",
+  "2": "13",
+  "3": "91",
+  "4": "257",
+  "5": "tampui",
+  "6": "eser traowo naempr",
+  "7": "yempoka ptae eser traowo eser",
+  "8": "yuow tarumpao yuow ptae yuow traowo"
+}

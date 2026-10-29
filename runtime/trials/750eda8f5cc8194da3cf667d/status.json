@@ -1,0 +1,117 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly",
+  "id": "202:Q 2.2:full_context",
+  "category": "Monolingual",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289295.55843,
+  "turn": {
+    "id": "01a1885f-1804-7bb1-bd67-26b8b4048a7f",
+    "rootTurnId": "01a1885f-1804-7bb1-bd67-26b8b4048a7f",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0ffa5fea603bfdf7016ae36c72b6b88195bfdcf8a460ee38e4",
+        "text": "{\n  \"e.\": \"\u014bokor\",\n  \"f.\": \"i\u014bokor\",\n  \"g.\": \"onem\",\n  \"h.\": \"rimeyosier\",\n  \"i.\": \"wonem\",\n  \"j.\": \"oneme\u014bokor\",\n  \"k.\": \"rimi\u014bokor\",\n  \"l.\": \"17\",\n  \"m.\": \"safur onemenuru\",\n  \"n.\": \"safur rimenuru\",\n  \"o.\": \"arzus di nuru nuru\",\n  \"p.\": \"aresonuru nuru\",\n  \"q.\": \"ares fiak beberin nuru\",\n  \"r.\": \"arzus di \u014bokor safur onemefak\",\n  \"s.\": \"ares fik beberin siu\",\n  \"t.\": \"arzus di fak safur oneme\u014bokor\",\n  \"u.\": \"aresofak safur rimi\u014bokor\",\n  \"v.\": \"ares siu beberin war\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289295,
+    "completedAt": 1793289332,
+    "durationMs": 36832
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "e.": "\u014bokor",
+      "f.": "i\u014bokor",
+      "g.": "onem",
+      "h.": "rimeyosier",
+      "i.": "wonem",
+      "j.": "oneme\u014bokor",
+      "k.": "rimi\u014bokor",
+      "l.": "17",
+      "m.": "safur onemenuru",
+      "n.": "safur rimenuru",
+      "o.": "arzus di nuru nuru",
+      "p.": "aresonuru nuru",
+      "q.": "ares fiak beberin nuru",
+      "r.": "arzus di \u014bokor safur onemefak",
+      "s.": "ares fik beberin siu",
+      "t.": "arzus di fak safur oneme\u014bokor",
+      "u.": "aresofak safur rimi\u014bokor",
+      "v.": "ares siu beberin war"
+    },
+    "score": 1.0,
+    "parts_correct": 18,
+    "parts_total": 18,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "e.": 1.0,
+      "f.": 1.0,
+      "g.": 1.0,
+      "h.": 1.0,
+      "i.": 1.0,
+      "j.": 1.0,
+      "k.": 1.0,
+      "l.": 1.0,
+      "m.": 1.0,
+      "n.": 1.0,
+      "o.": 1.0,
+      "p.": 1.0,
+      "q.": 1.0,
+      "r.": 1.0,
+      "s.": 1.0,
+      "t.": 1.0,
+      "u.": 1.0,
+      "v.": 1.0
+    }
+  },
+  "seconds": 37.2016050000675,
+  "usage": {
+    "total": {
+      "totalTokens": 5976,
+      "inputTokens": 4623,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1353,
+      "reasoningOutputTokens": 1120
+    },
+    "last": {
+      "totalTokens": 5976,
+      "inputTokens": 4623,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1353,
+      "reasoningOutputTokens": 1120
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: c6612410-c142-431b-a0d5-e88450726ab2",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a1885f-17ed-71c2-9cc3-3991f4b823e2",
+      "turnId": "01a1885f-1804-7bb1-bd67-26b8b4048a7f"
+    }
+  ],
+  "finished_at": 1793289332.7594712
+}

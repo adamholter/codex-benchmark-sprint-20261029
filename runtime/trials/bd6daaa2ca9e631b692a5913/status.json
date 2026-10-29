@@ -1,0 +1,74 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "bbeh",
+  "id": "mini:web_of_lies:0254",
+  "category": "web_of_lies",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793287205.0611598,
+  "turn": {
+    "id": "01a1883f-3289-72e3-ae7e-28a32d31323e",
+    "rootTurnId": "01a1883f-3289-72e3-ae7e-28a32d31323e",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_078b8a95b2ae475a016ae36454955881939c54287e966ddf11",
+        "text": "<no, unknown, yes>",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793287205,
+    "completedAt": 1793287252,
+    "durationMs": 47204
+  },
+  "score": {
+    "correct": false,
+    "extracted": "<no,unknown,yes>"
+  },
+  "seconds": 47.67563729197718,
+  "usage": {
+    "total": {
+      "totalTokens": 4659,
+      "inputTokens": 4274,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 385,
+      "reasoningOutputTokens": 372
+    },
+    "last": {
+      "totalTokens": 4659,
+      "inputTokens": 4274,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 385,
+      "reasoningOutputTokens": 372
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 2b4ac948-eb43-4d20-aed0-bdc95c869b2f",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a1883f-325d-7472-a26f-a0747ce5d45d",
+      "turnId": "01a1883f-3289-72e3-ae7e-28a32d31323e"
+    }
+  ],
+  "finished_at": 1793287252.73665
+}

@@ -1,0 +1,107 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly_no_context",
+  "id": "196:Q 6.1:no_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292239.505573,
+  "turn": {
+    "id": "01a1888c-03aa-7ac0-9a8a-1056cdeac2a3",
+    "rootTurnId": "01a1888c-03aa-7ac0-9a8a-1056cdeac2a3",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_02272f94a0b85938016ae377d3f9dc8195ba1e2c92bafcbd58",
+        "text": "{\n  \"1.\": \"Cannot determine; English choices not provided.\",\n  \"2.\": \"Cannot determine; English choices not provided.\",\n  \"3.\": \"Cannot determine; English choices not provided.\",\n  \"4.\": \"Cannot determine; English choices not provided.\",\n  \"5.\": \"Cannot determine; English choices not provided.\",\n  \"6.\": \"Cannot determine; English choices not provided.\",\n  \"7.\": \"Cannot determine; English choices not provided.\",\n  \"8.\": \"Cannot determine; English choices not provided.\",\n  \"9.\": \"Cannot determine; English choices not provided.\",\n  \"10.\": \"Cannot determine; English choices not provided.\",\n  \"11.\": \"Cannot determine; English choices not provided.\",\n  \"12.\": \"Cannot determine; English choices not provided.\",\n  \"13.\": \"Cannot determine; English choices not provided.\",\n  \"14.\": \"Cannot determine; English choices not provided.\",\n  \"15.\": \"Cannot determine; English choices not provided.\",\n  \"16.\": \"Cannot determine; English choices not provided.\",\n  \"17.\": \"Cannot determine; English choices not provided.\",\n  \"18.\": \"Cannot determine; English choices not provided.\",\n  \"19.\": \"Cannot determine; English choices not provided.\",\n  \"20.\": \"Cannot determine; English choices not provided.\",\n  \"21.\": \"Cannot determine; English choices not provided.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292239,
+    "completedAt": 1793292246,
+    "durationMs": 6460
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "1.": "Cannot determine; English choices not provided.",
+      "2.": "Cannot determine; English choices not provided.",
+      "3.": "Cannot determine; English choices not provided.",
+      "4.": "Cannot determine; English choices not provided.",
+      "5.": "Cannot determine; English choices not provided.",
+      "6.": "Cannot determine; English choices not provided.",
+      "7.": "Cannot determine; English choices not provided.",
+      "8.": "Cannot determine; English choices not provided.",
+      "9.": "Cannot determine; English choices not provided.",
+      "10.": "Cannot determine; English choices not provided.",
+      "11.": "Cannot determine; English choices not provided.",
+      "12.": "Cannot determine; English choices not provided.",
+      "13.": "Cannot determine; English choices not provided.",
+      "14.": "Cannot determine; English choices not provided.",
+      "15.": "Cannot determine; English choices not provided.",
+      "16.": "Cannot determine; English choices not provided.",
+      "17.": "Cannot determine; English choices not provided.",
+      "18.": "Cannot determine; English choices not provided.",
+      "19.": "Cannot determine; English choices not provided.",
+      "20.": "Cannot determine; English choices not provided.",
+      "21.": "Cannot determine; English choices not provided."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 21,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "1.": 0.0,
+      "2.": 0.0,
+      "3.": 0.0,
+      "4.": 0.0,
+      "5.": 0.0,
+      "6.": 0.0,
+      "7.": 0.0,
+      "8.": 0.0,
+      "9.": 0.0,
+      "10.": 0.0,
+      "11.": 0.0,
+      "12.": 0.0,
+      "13.": 0.0,
+      "14.": 0.0,
+      "15.": 0.0,
+      "16.": 0.0,
+      "17.": 0.0,
+      "18.": 0.0,
+      "19.": 0.0,
+      "20.": 0.0,
+      "21.": 0.0
+    }
+  },
+  "seconds": 6.755436416948214,
+  "usage": {
+    "total": {
+      "totalTokens": 4866,
+      "inputTokens": 4475,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 391,
+      "reasoningOutputTokens": 89
+    },
+    "last": {
+      "totalTokens": 4866,
+      "inputTokens": 4475,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 391,
+      "reasoningOutputTokens": 89
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292246.260929
+}

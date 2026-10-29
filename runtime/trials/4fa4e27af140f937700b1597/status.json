@@ -1,0 +1,85 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly_no_context",
+  "id": "168:Q 3.1:no_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294770.115152,
+  "turn": {
+    "id": "01a188b2-a180-7561-80af-32f0d5bcdbb4",
+    "rootTurnId": "01a188b2-a180-7561-80af-32f0d5bcdbb4",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_04bd98c7e2b2597d016ae381d6b3e481959b5b2c5e4268a3f0",
+        "text": "{\"1\": \"\", \"2\": \"\", \"3\": \"\", \"4\": \"\", \"5\": \"\", \"6\": \"\", \"7\": \"\", \"8\": \"\", \"9\": \"\", \"10\": \"\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294770,
+    "completedAt": 1793294807,
+    "durationMs": 36502
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": ""
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 10,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.0,
+      "4": 0.0,
+      "5": 0.0,
+      "6": 0.0,
+      "7": 0.0,
+      "8": 0.0,
+      "9": 0.0,
+      "10": 0.0
+    }
+  },
+  "seconds": 36.995666875038296,
+  "usage": {
+    "total": {
+      "totalTokens": 6393,
+      "inputTokens": 4276,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 2117,
+      "reasoningOutputTokens": 2070
+    },
+    "last": {
+      "totalTokens": 6393,
+      "inputTokens": 4276,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 2117,
+      "reasoningOutputTokens": 2070
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793294807.109967
+}

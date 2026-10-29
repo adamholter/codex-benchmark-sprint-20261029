@@ -1,0 +1,71 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly_no_context",
+  "id": "187:Q 2.3:no_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793293919.056617,
+  "turn": {
+    "id": "01a188a5-aa8d-7aa2-b282-8b3b73ce50ec",
+    "rootTurnId": "01a188a5-aa8d-7aa2-b282-8b3b73ce50ec",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0df61e13be8a6b40016ae37e6815508195b7765e9ef4e4469e",
+        "text": "{\"a.\":\"Cannot be determined from the supplied sheet.\",\"b.\":\"Cannot be determined from the supplied sheet.\",\"c.\":\"Cannot be determined from the supplied sheet.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793293920,
+    "completedAt": 1793293929,
+    "durationMs": 8873
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "a.": "Cannot be determined from the supplied sheet.",
+      "b.": "Cannot be determined from the supplied sheet.",
+      "c.": "Cannot be determined from the supplied sheet."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 3,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 0.0,
+      "b.": 0.0,
+      "c.": 0.0
+    }
+  },
+  "seconds": 11.231516958912835,
+  "usage": {
+    "total": {
+      "totalTokens": 4242,
+      "inputTokens": 4062,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 180,
+      "reasoningOutputTokens": 139
+    },
+    "last": {
+      "totalTokens": 4242,
+      "inputTokens": 4062,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 180,
+      "reasoningOutputTokens": 139
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793293930.2877162
+}

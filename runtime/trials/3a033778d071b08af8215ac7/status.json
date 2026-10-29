@@ -1,0 +1,68 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-RQ_Hard_2608",
+  "category": "Multi-RQ_Hard",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793291799.458333,
+  "turn": {
+    "id": "01a18885-4cd8-7830-96d8-5192a8d2f4f0",
+    "rootTurnId": "01a18885-4cd8-7830-96d8-5192a8d2f4f0",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_009260df5f6af093016ae3762061f48190bbf7004aedb6849e",
+        "text": "{\n  \"question1\": \"[[No valid path: no arrow leads to the end]]\",\n  \"question2\": \"[[No valid path: no arrow leads to the end]]\",\n  \"question3\": \"[[A]]\",\n  \"question4\": \"[[43]]\",\n  \"question5\": \"[[25]]\",\n  \"question6\": \"[[D]]\",\n  \"question7\": \"[[\\\\frac{40-\\\\sqrt{6}}{16}]]\",\n  \"question8\": \"[[18]]\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793291799,
+    "completedAt": 1793291809,
+    "durationMs": 9366
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "question1": "No valid path: no arrow leads to the end",
+      "question2": "No valid path: no arrow leads to the end",
+      "question3": "A",
+      "question4": "43",
+      "question5": "25",
+      "question6": "D",
+      "question7": "\\frac{40-\\sqrt{6}}{16}",
+      "question8": "18"
+    },
+    "pass_rate": 0.625
+  },
+  "seconds": 9.700121958041564,
+  "usage": {
+    "total": {
+      "totalTokens": 6463,
+      "inputTokens": 5906,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 557,
+      "reasoningOutputTokens": 439
+    },
+    "last": {
+      "totalTokens": 6463,
+      "inputTokens": 5906,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 557,
+      "reasoningOutputTokens": 439
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793291809.15785
+}

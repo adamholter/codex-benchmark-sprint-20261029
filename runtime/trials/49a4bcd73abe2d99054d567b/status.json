@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "bbeh",
+  "id": "mini:nycc:0111",
+  "category": "nycc",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793286041.963239,
+  "turn": {
+    "id": "01a1882d-7330-7381-af77-12d382938942",
+    "rootTurnId": "01a1882d-7330-7381-af77-12d382938942",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0c7b088164765cfe016ae35fa0cf0c81909188aedf46cbedc7",
+        "text": "**(F)** \u2014 The image of a band of animals requiring endless treats just to show up together is a funny, specific twist on studio-session chaos.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793286042,
+    "completedAt": 1793286049,
+    "durationMs": 6880
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(f) \u2014 the image of a band of animals requiring endless treats just to show up together is a funny,specific twist on studio-session chaos"
+  },
+  "seconds": 7.35759412497282,
+  "usage": {
+    "total": {
+      "totalTokens": 4319,
+      "inputTokens": 3922,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 397,
+      "reasoningOutputTokens": 360
+    },
+    "last": {
+      "totalTokens": 4319,
+      "inputTokens": 3922,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 397,
+      "reasoningOutputTokens": 360
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793286049.320704
+}

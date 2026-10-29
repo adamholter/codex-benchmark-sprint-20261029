@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "korbench",
+  "id": "puzzle_79",
+  "category": "puzzle",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793287064.779197,
+  "turn": {
+    "id": "01a1883d-0ef0-7782-8e32-3317181b92d2",
+    "rootTurnId": "01a1883d-0ef0-7782-8e32-3317181b92d2",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0da3e1b10b04aeec016ae363c25ab4819098348260c022eb3b",
+        "text": "[[BRASS (5,5)(1,1)\nNICHROME (4,10)(11,3)\nCOPPER (6,10)(11,10)\nNICKEL (2,6)(2,11)\nGALLIUM (11,4)(5,10)\nPEWTER (8,1)(8,6)\nGOLD (11,4)(11,7)\nSILVER (9,11)(4,11)\nIRON (4,1)(7,1)\nSOLDER (10,6)(10,11)\nLEAD (5,2)(2,5)\nSTEEL (7,5)(11,1)\nMERCURY (4,2)(4,8)\nZING \u2014 not found; the grid spells ZINC (1,6)(4,9)]]",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793287065,
+    "completedAt": 1793287108,
+    "durationMs": 43196
+  },
+  "score": {
+    "correct": false,
+    "extracted": "BRASS (5,5)(1,1)\nNICHROME (4,10)(11,3)\nCOPPER (6,10)(11,10)\nNICKEL (2,6)(2,11)\nGALLIUM (11,4)(5,10)\nPEWTER (8,1)(8,6)\nGOLD (11,4)(11,7)\nSILVER (9,11)(4,11)\nIRON (4,1)(7,1)\nSOLDER (10,6)(10,11)\nLEAD (5,2)(2,5)\nSTEEL (7,5)(11,1)\nMERCURY (4,2)(4,8)\nZING \u2014 not found; the grid spells ZINC (1,6)(4,9)"
+  },
+  "seconds": 43.79697891604155,
+  "usage": {
+    "total": {
+      "totalTokens": 5759,
+      "inputTokens": 4144,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1615,
+      "reasoningOutputTokens": 1439
+    },
+    "last": {
+      "totalTokens": 5759,
+      "inputTokens": 4144,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1615,
+      "reasoningOutputTokens": 1439
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793287108.576044
+}

@@ -1,0 +1,19 @@
+{
+  "1": "Cannot determine: translation options missing.",
+  "2": "Cannot determine: translation options missing.",
+  "3": "Cannot determine: translation options missing.",
+  "4": "Cannot determine: translation options missing.",
+  "5": "Cannot determine: translation options missing.",
+  "6": "Cannot determine: translation options missing.",
+  "7": "Cannot determine: translation options missing.",
+  "8": "Cannot determine: translation options missing.",
+  "9": "Cannot determine: translation options missing.",
+  "10": "Cannot determine: translation options missing.",
+  "11": "Cannot determine: translation options missing.",
+  "12": "Cannot determine: translation options missing.",
+  "13": "Cannot determine: translation options missing.",
+  "14": "Cannot determine: translation options missing.",
+  "15": "Cannot determine: translation options missing.",
+  "16": "Cannot determine: translation options missing.",
+  "17": "Cannot determine: translation options missing."
+}

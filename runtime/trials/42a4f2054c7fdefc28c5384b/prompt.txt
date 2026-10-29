@@ -1,0 +1,24 @@
+Emely: It's really nice to meet you, Cali. It seems we both share a passion for dining out!
+Cali: Yes, I agree, Emely. It's always fun to try out new places and cuisines. Recently, I've noticed some interesting trends in the restaurant industry. Have you noticed any?
+Emely: Absolutely! For instance, pop-up restaurants have become quite popular these days. They offer a unique dining experience with a revolving menu and location.
+Cali: Oh, I absolutely love pop-ups! It's like an adventure with food. I've also noticed technology playing a bigger role in restaurants, have you seen that?
+Emely: Yes! I've noticed that too. Many restaurants are using tablets for ordering instead of the traditional way, and mobile ordering and payment apps are becoming more widespread. Plus, the rise of delivery platforms is really changing the game.
+Cali: Absolutely! I love the convenience of being able to order food from my favorite restaurant and having it delivered right to my doorstep. Plus, it's very useful during this period of social distancing.
+Emely: Exactly! And speaking of social distancing, I've been seeing a lot of outdoor dining spaces too. Have you tried any?
+Cali: Yes, I certainly have. Sidewalk cafes, rooftop bars, garden patios - I love the al fresco trend!
+Emely: Me too! And it's not just dining, even bars are following this trend. The entire service industry seems to be evolving.
+Cali: So true, Emely! With all these changes, dining out is becoming an even more interesting experience. Can't wait to see what new trends will emerge in the future.
+Lena: Hi Emely, Hi Cali. I couldn't help but pick up on your conversation about the changing face of the restaurant industry. It certainly is evolving, isn't it?
+Emely: Lena, how good to have you join us! Absolutely, restaurants are transforming their services to adapt to current situations and customer preferences.
+Cali: It's interesting how these changes also involve changing customer behavior. For instance, the etiquette of tipping has evolved too.
+Lena: That's so true, Cali. Especially with delivery platforms, the tipping norms have shifted.
+Emely: Absolutely, Lena. Earlier, a standard 15-20% was the norm at dine-in restaurants, but now with delivery and takeaway becoming popular, everyone has a different perception of what's fair.
+Cali: I definitely agree, Emely. I've also become more cognizant of my behaviors while dining out, being courteous not just to the servers, but trying to be respectful of other people's space too, especially given the current circumstances.
+Lena: Also, customers are now playing a more active role in maintaining the restaurant's hygiene standards. Like using sanitiser, wearing masks when moving around, only taking them off while eating.
+Emely: Absolutely! It's amazing how adaptability is key here—both for the industry and the customers.
+Cali: Well said Emely, couldn't agree more! And Lena, it's wonderful having your insights into discussion as well.
+Lena: Thanks, Cali. We're all learning and adapting with each new experience!
+
+Information: How has the role of technology evolved in the restaurant industry according to their conversation? According to their conversation, technology has a greater presence in the restaurant industry. Many restaurants are using tablets for ordering, replacing the traditional way of ordering. Mobile ordering and payment apps are becoming increasingly popular. They also mention the rise of delivery platforms, allowing customers to order food from their favorite restaurants to be delivered to their doorstep.
+Question: List all the characters who know this information.
+Answer:

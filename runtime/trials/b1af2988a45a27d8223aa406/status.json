@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "bbeh",
+  "id": "mini:buggy_tables:0327",
+  "category": "buggy_tables",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793287876.2294688,
+  "turn": {
+    "id": "01a18849-6f64-79a1-816d-1d45f5cb7bdf",
+    "rootTurnId": "01a18849-6f64-79a1-816d-1d45f5cb7bdf",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_08542337d913c4ce016ae366ceab14819484b422bc120bafec",
+        "text": "The qualifying days yield a coding-minutes mean of **37.20** and a music-listening-minutes mean of **31.36**. Their absolute difference is **5.84**.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793287876,
+    "completedAt": 1793287887,
+    "durationMs": 10683
+  },
+  "score": {
+    "correct": false,
+    "extracted": "the qualifying days yield a coding-minutes mean of 37.20 and a music-listening-minutes mean of 31.36. their absolute difference is 5.84"
+  },
+  "seconds": 10.999365750001743,
+  "usage": {
+    "total": {
+      "totalTokens": 8325,
+      "inputTokens": 7350,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 975,
+      "reasoningOutputTokens": 929
+    },
+    "last": {
+      "totalTokens": 8325,
+      "inputTokens": 7350,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 975,
+      "reasoningOutputTokens": 929
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793287887.222755
+}

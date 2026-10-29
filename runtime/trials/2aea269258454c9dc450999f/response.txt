@@ -1,0 +1,3 @@
+The median phone screen time is **23 minutes**, and the median sleep time is **441 minutes**.
+
+The absolute difference is **418.00 minutes**.

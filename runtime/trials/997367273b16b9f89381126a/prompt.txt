@@ -1,0 +1,45 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+The Eagles of Manwë are legendary creatures that can travel swiftly across great distances, surpassing any mode of transportation in Middle-earth.
+The Red Book of Westmarch is a key source of the lore and history of Middle-earth, including tales of hobbits, rings, and the dark lord.
+In the world of Middle-earth, a Ring-bearer was entrusted with the security of the One Ring, the most precious and dangerous of artifacts.
+The power of the One Ring was so great that it could determine the fate of entire realms and civilizations in Middle-earth.
+Mastery of the Elven tongue, as a language of the wise and the ancient, would be highly valuable in mediating conflicts between diverse peoples of Middle-earth.
+The Palantíri were the seeing-stones that allowed communication over vast distances, albeit with certain risks and limitations.
+The Arkenstone, known as the "Heart of the Mountain," was a symbol of kingship and unity among the Dwarves of Erebor.
+The archives of Minas Tirith hold vast knowledge and records of the history of Gondor and its allies.
+The defenses of Helm's Deep were renowned for their strength, making it one of the most formidable fortresses against invaders in Middle-earth.
+The wisdom of Gandalf was often sought for counsel and guidance, playing a pivotal role in the administration of justice in critical matters throughout Middle-earth.
+The craftsmanship of the Dwarves is legendary, making them particularly skilled in the reconstruction and fortification of cities.
+The Mirror of Galadriel allows one to see events that are far off or yet to come, which could include weather patterns over Middle-earth.
+The Council of Elrond was a gathering that led to alliances between Elves, Men, Dwarves, and Hobbits to oppose the threat of Sauron.
+The Ents of Fangorn Forest are shepherds of the trees, safeguarding the ancient woods and their inhabitants from destruction.
+The archives of Minas Tirith hold detailed records of the history, deeds, and lineages of the kingdoms of Men, serving as a repository of their heritage.
+The wisdom of Galadriel, with her profound insight and discernment, would be a powerful tool in discerning truth from falsehood in Middle-earth.
+The fertility of the Shire's soil is legendary, ensuring that the hobbits enjoy successful harvests and a plentiful supply of food.
+The Rangers, known for their skills in survival and combat, are adept at ensuring the safe passage of those who travel through the wild and perilous parts of Middle-earth.
+The Ent-draughts, known for their rejuvenating properties, represent a unique and potent solution to water scarcity in the forests of Middle-earth.
+
+a★b=\int_{a}^{b} 2x \, dx
+
+
+### Questions:
+question1:
+Question: What is a significant way to record and commemorate great deeds and battles?
+Options: A. Statues and monuments##B. Internet novel##C. The Minas Tirith archives##D. The Horn of Helm Hammerhand
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+
+### Answers:

@@ -1,0 +1,85 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly_no_context",
+  "id": "189:Q 4.3:no_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289461.305921,
+  "turn": {
+    "id": "01a18861-a34b-71d0-9682-9e19eb1e7751",
+    "rootTurnId": "01a18861-a34b-71d0-9682-9e19eb1e7751",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_04cbd8a45c2d6137016ae36cfa79e8819590aa2dccce181377",
+        "text": "{\"(j)\": \"cannot be determined from the provided information\", \"(k)\": \"cannot be determined from the provided information\", \"(l)\": \"cannot be determined from the provided information\", \"(m)\": \"cannot be determined from the provided information\", \"(n)\": \"cannot be determined from the provided information\", \"(o)\": \"cannot be determined from the provided information\", \"(p)\": \"cannot be determined from the provided information\", \"(q)\": \"cannot be determined from the provided information\", \"(r)\": \"cannot be determined from the provided information\", \"(s)\": \"cannot be determined from the provided information\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289462,
+    "completedAt": 1793289467,
+    "durationMs": 4806
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(j)": "cannot be determined from the provided information",
+      "(k)": "cannot be determined from the provided information",
+      "(l)": "cannot be determined from the provided information",
+      "(m)": "cannot be determined from the provided information",
+      "(n)": "cannot be determined from the provided information",
+      "(o)": "cannot be determined from the provided information",
+      "(p)": "cannot be determined from the provided information",
+      "(q)": "cannot be determined from the provided information",
+      "(r)": "cannot be determined from the provided information",
+      "(s)": "cannot be determined from the provided information"
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 10,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(j)": 0.0,
+      "(k)": 0.0,
+      "(l)": 0.0,
+      "(m)": 0.0,
+      "(n)": 0.0,
+      "(o)": 0.0,
+      "(p)": 0.0,
+      "(q)": 0.0,
+      "(r)": 0.0,
+      "(s)": 0.0
+    }
+  },
+  "seconds": 6.137239250005223,
+  "usage": {
+    "total": {
+      "totalTokens": 4614,
+      "inputTokens": 4298,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 316,
+      "reasoningOutputTokens": 189
+    },
+    "last": {
+      "totalTokens": 4614,
+      "inputTokens": 4298,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 316,
+      "reasoningOutputTokens": 189
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793289467.442486
+}

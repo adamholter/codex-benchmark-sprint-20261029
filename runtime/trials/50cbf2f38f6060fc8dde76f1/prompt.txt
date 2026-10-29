@@ -1,0 +1,97 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+1.The puzzle is played on an n x n grid, filling in the numbers so that each row and column contains all the numbers from 1 to n without repetition.
+2.There are inequality signs (greater than ">" or less than "<") between certain squares in the grid. These inequality signs indicate the numerical relationship between two neighboring grids. For example, if a grid has a ">" sign above it, then the number of that grid must be greater than the number of the grid above it.
+3.Some grids will give pre-filled numbers as hints.
+4.The questions are given as matrices and are accompanied by inequality constraints below in the form (row i, column j) > (row x, column y)
+
+f▽g=f(x) \quad+g''(x) \quad.
+
+**Encryption Rules:**
+
+- Input:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Output:
+    - Ciphertext: Uppercase letters string without punctuation and spaces.
+- Preparation:
+    - 5x5 Gird(All row and column numbers are counted from 0.):
+        - M Z S D P
+        K N F L Q
+        G A O X U
+        W R Y V C
+        B T E H I
+        - Located at the first letter of all rows, MKGWB is the row header letter.
+        - Located at the last letter of all columns, BTEHI is the bottom column letter.
+- Encryption Steps:
+    - Remove spaces and punctuation and the letter J from plain text and convert all letters to uppercase.
+    - For each letter p in the plaintext.
+        - Find the position of the letter p in the grid, and then find the corresponding row header and column footer characters accordingly.
+        - Concatenate the row-header and column-bottom characters into a binary as the encrypted message for that letter p.
+        - For example, if the letter p is H, it is in the 4th row, and the row header character is B; it is in the 3rd column, and the column bottom character is H, so the encrypted message is BH.
+    
+    Concatenate all the encrypted messages for the final ciphertext output.
+    
+
+ **Decryption Rules:**
+
+- Input:
+    - Ciphertext: Uppercase letters string without punctuation and spaces.
+- Output:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Preparation:
+    - 5x5 Gird (Same as encryption)
+- Decryption Steps (exact opposite of encryption steps):
+    - Take two letters c1,c2 at a time from the ciphertext.
+        - The letter c1 identifies the row position of the decrypted letter p in the grid, find the row where c1 is the row header.
+        - The letter c2 identifies the column position of the decrypted letter p in the grid, and finds the row with c2 at the bottom of the column.
+        - Find the letter at this row and column position in the grid, which is the c1,c2 decrypted message p.
+        - For example, if c1,c2=BH, B is the header of the row is the 4th row, H is the bottom of the row is the 2nd column, (4,2) at the letter H, so BH decrypted to H.
+    - Decrypt the letters in the ciphertext two by two, and output the connected decrypted message as the final plaintext.
+
+
+### Questions:
+question1:
+X X X X
+X X X X
+X X X X
+X X X X
+
+(1,2)<(1,3)
+(1,3)>(1,4)
+(1,1)<(2,1)
+(3,2)<(3,3)
+(3,2)>(4,2)
+(3,4)<(4,4)
+
+Please provide each element in order from left to right, and from top to bottom, with each element separated by a space and each row separated by a comma. Ensure that your final answer is wrapped in double square brackets.
+
+For example, if the answer is:
+A B C
+D E F
+G H I
+
+please output [[A B C,D E F,G H I]].
+
+question2:
+Plaintext: "R"
+
+Please provide the encrypted answer, encapsulated in double square brackets. For example, the format should be: [[encrypted answer]].
+
+question3:
+f(x)=cos(x), g(x)=x^3 find the value of f▽g when x=0.
+Please ensure the answer is a single number and wrap it in double square brackets, like this: [[your answer]].
+
+
+### Answers:

@@ -1,0 +1,79 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly_no_context",
+  "id": "95:Q 2.1:no_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793286481.898921,
+  "turn": {
+    "id": "01a18834-28db-7222-b5f7-d736ae170d58",
+    "rootTurnId": "01a18834-28db-7222-b5f7-d736ae170d58",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_00e4c7fa72719269016ae3615c209c8190bcf3dd3efb80810c",
+        "text": "{\n  \"a.\": \"Cannot determine: stage data for A\u2013G are missing.\",\n  \"b.\": \"Cannot determine: stage data for A\u2013G are missing.\",\n  \"c.\": \"Cannot determine: stage data for A\u2013G are missing.\",\n  \"d.\": \"Cannot determine: stage data for A\u2013G are missing.\",\n  \"e.\": \"Cannot determine: stage data for A\u2013G are missing.\",\n  \"f.\": \"Cannot determine: stage data for A\u2013G are missing.\",\n  \"g.\": \"Cannot determine: stage data for A\u2013G are missing.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793286482,
+    "completedAt": 1793286495,
+    "durationMs": 13389
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "a.": "Cannot determine: stage data for A\u2013G are missing.",
+      "b.": "Cannot determine: stage data for A\u2013G are missing.",
+      "c.": "Cannot determine: stage data for A\u2013G are missing.",
+      "d.": "Cannot determine: stage data for A\u2013G are missing.",
+      "e.": "Cannot determine: stage data for A\u2013G are missing.",
+      "f.": "Cannot determine: stage data for A\u2013G are missing.",
+      "g.": "Cannot determine: stage data for A\u2013G are missing."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 7,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 0.0,
+      "b.": 0.0,
+      "c.": 0.0,
+      "d.": 0.0,
+      "e.": 0.0,
+      "f.": 0.0,
+      "g.": 0.0
+    }
+  },
+  "seconds": 13.655991291045211,
+  "usage": {
+    "total": {
+      "totalTokens": 4377,
+      "inputTokens": 4139,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 238,
+      "reasoningOutputTokens": 104
+    },
+    "last": {
+      "totalTokens": 4377,
+      "inputTokens": 4139,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 238,
+      "reasoningOutputTokens": 104
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793286495.554434
+}

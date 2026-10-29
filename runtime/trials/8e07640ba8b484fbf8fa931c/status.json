@@ -1,0 +1,73 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly",
+  "id": "72:Q 4.2:full_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292484.2566059,
+  "turn": {
+    "id": "01a1888f-bf84-7c33-b8eb-c3f16f361d28",
+    "rootTurnId": "01a1888f-bf84-7c33-b8eb-c3f16f361d28",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_09717fc973975f81016ae378c87008819395423cfeb76d770f",
+        "text": "{\"4\":\"se \u00e6\u00feeling lufode \u00fe\u00e6t cild\",\"5\":\"\u00fe\u00e6t cild lufode \u00feone \u00e6\u00feeling\",\"6\":\"we lufodon \u00fe\u00e6t cild\",\"7\":\"\u00fe\u00e6t cild inc lufode\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292484,
+    "completedAt": 1793292489,
+    "durationMs": 4672
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "4": "se \u00e6\u00feeling lufode \u00fe\u00e6t cild",
+      "5": "\u00fe\u00e6t cild lufode \u00feone \u00e6\u00feeling",
+      "6": "we lufodon \u00fe\u00e6t cild",
+      "7": "\u00fe\u00e6t cild inc lufode"
+    },
+    "score": 1.0,
+    "parts_correct": 4,
+    "parts_total": 4,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "4": 1.0,
+      "5": 1.0,
+      "6": 1.0,
+      "7": 1.0
+    }
+  },
+  "seconds": 4.91316354193259,
+  "usage": {
+    "total": {
+      "totalTokens": 4329,
+      "inputTokens": 4192,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 137,
+      "reasoningOutputTokens": 79
+    },
+    "last": {
+      "totalTokens": 4329,
+      "inputTokens": 4192,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 137,
+      "reasoningOutputTokens": 79
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292489.1691
+}

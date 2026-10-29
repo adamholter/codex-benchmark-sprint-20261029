@@ -1,0 +1,77 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly",
+  "id": "174:Q 4.2:full_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292965.2275681,
+  "turn": {
+    "id": "01a18897-1655-72f1-b99f-4ff5a90036c4",
+    "rootTurnId": "01a18897-1655-72f1-b99f-4ff5a90036c4",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0cb51f8f56f221a8016ae37ab590848193b9dec18b24f604f1",
+        "text": "{\"a\":\"lub hnub\",\"b\":\"txoj hlua\",\"c\":\"zaj nkauj\",\"d\":\"ntawv\",\"e\":\"thaj teb\",\"f\":\"lub txiv hmab\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292965,
+    "completedAt": 1793292981,
+    "durationMs": 16477
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "a": "lub hnub",
+      "b": "txoj hlua",
+      "c": "zaj nkauj",
+      "d": "ntawv",
+      "e": "thaj teb",
+      "f": "lub txiv hmab"
+    },
+    "score": 0.3333333333333333,
+    "parts_correct": 2,
+    "parts_total": 6,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a": 0.0,
+      "b": 0.0,
+      "c": 0.0,
+      "d": 1.0,
+      "e": 0.0,
+      "f": 1.0
+    }
+  },
+  "seconds": 16.733954875031486,
+  "usage": {
+    "total": {
+      "totalTokens": 6049,
+      "inputTokens": 4541,
+      "cachedInputTokens": 3584,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1508,
+      "reasoningOutputTokens": 1465
+    },
+    "last": {
+      "totalTokens": 6049,
+      "inputTokens": 4541,
+      "cachedInputTokens": 3584,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1508,
+      "reasoningOutputTokens": 1465
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292981.961059
+}

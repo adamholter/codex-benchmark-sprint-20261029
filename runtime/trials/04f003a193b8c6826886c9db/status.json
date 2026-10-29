@@ -1,0 +1,67 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly_no_context",
+  "id": "147:Q 4.1:no_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793293595.224591,
+  "turn": {
+    "id": "01a188a0-b37b-7a90-b345-e57c24132e71",
+    "rootTurnId": "01a188a0-b37b-7a90-b345-e57c24132e71",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_05bb5718e7d282a8016ae37d21fc388190b0981f485eaf6419",
+        "text": "{\"g.\": \"Cannot be determined from the information provided: no stress markings or rule identifying the incorrect syllables are shown.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793293595,
+    "completedAt": 1793293602,
+    "durationMs": 6939
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "g.": "Cannot be determined from the information provided: no stress markings or rule identifying the incorrect syllables are shown."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 1,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "g.": 0.0
+    }
+  },
+  "seconds": 7.824571416014805,
+  "usage": {
+    "total": {
+      "totalTokens": 4621,
+      "inputTokens": 4008,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 613,
+      "reasoningOutputTokens": 580
+    },
+    "last": {
+      "totalTokens": 4621,
+      "inputTokens": 4008,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 613,
+      "reasoningOutputTokens": 580
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793293603.049067
+}

@@ -1,0 +1,1 @@
+{"a.":"Sa piu i ati?","b.":"Kush ia shiti?","c.":"Si kërceu macja?","d.":"Ku arrite?"}

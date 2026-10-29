@@ -1,0 +1,73 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly_no_context",
+  "id": "220:Q 5.2:no_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292569.585118,
+  "turn": {
+    "id": "01a18891-0c9a-7bd2-bf3b-0775b2b17b9f",
+    "rootTurnId": "01a18891-0c9a-7bd2-bf3b-0775b2b17b9f",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_00f9b7f7f5b9dc35016ae3791d157c819788e33b9944a1ccf8",
+        "text": "{\n  \"21.\": \"Cannot be determined from the supplied sheet.\",\n  \"22.\": \"Cannot be determined from the supplied sheet.\",\n  \"23.\": \"Cannot be determined from the supplied sheet.\",\n  \"24.\": \"Cannot be determined from the supplied sheet.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292569,
+    "completedAt": 1793292574,
+    "durationMs": 5237
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "21.": "Cannot be determined from the supplied sheet.",
+      "22.": "Cannot be determined from the supplied sheet.",
+      "23.": "Cannot be determined from the supplied sheet.",
+      "24.": "Cannot be determined from the supplied sheet."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 4,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "21.": 0.0,
+      "22.": 0.0,
+      "23.": 0.0,
+      "24.": 0.0
+    }
+  },
+  "seconds": 5.430589458090253,
+  "usage": {
+    "total": {
+      "totalTokens": 4388,
+      "inputTokens": 4270,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 118,
+      "reasoningOutputTokens": 54
+    },
+    "last": {
+      "totalTokens": 4388,
+      "inputTokens": 4270,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 118,
+      "reasoningOutputTokens": 54
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292575.0159302
+}

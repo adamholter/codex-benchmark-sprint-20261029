@@ -1,0 +1,21 @@
+Let the answer to Question1 be X/Y/Z.
+
+Question1: If the current date is Nov 28, 2022, what is the date 7 months from now? Your answer should be the date in the mm/dd/yyyy format (for example, 06/23/2021).
+
+Let X' = X + 4.
+
+Let the answer to Question2 be P.
+
+Question2: Today is Wednesday and my parents arrived X' days ago. On what day of the week did my parents arrive? Your answer should be the day of the week (for example, Sunday).
+
+Let Y' = Y + 1 and let P' be the day of the week 33 days after P.
+
+Let the answer to Question3 be Q.
+
+Question3: On P' morning, I was told that the deadline is in Y' days. On what day of the week is the deadline? Your answer should be the day of the week.
+
+Let Z' = Z - 2003 and let Q' be the day of the week 44 days after Q.
+
+Use these values to solve Question4.
+
+Question4: If it is Q', what is the day Z' hours from now? If the information provided is not enough to calculate the answer, or if there is more than one possible answer, reply with unanswerable.

@@ -1,0 +1,1 @@
+The qualifying days yield a coding-minutes mean of **37.20** and a music-listening-minutes mean of **31.36**. Their absolute difference is **5.84**.

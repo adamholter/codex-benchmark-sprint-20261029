@@ -1,0 +1,61 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+1. Statistical Reasoning Categories and Symbolization
+
+(1) U-Generalization
+    - Symbol: `U`
+    - Definition: If all individuals in a sample possess a certain attribute, we infer that all individuals in the population may also possess that attribute.
+
+(2) P-Generalization
+    - Symbol: `P`
+    - Definition: If a portion of the individuals in a sample possess a certain attribute, we infer that a certain proportion of the individuals in the population may possess that attribute.
+
+(3) C-Reasoning
+    - Symbol: `C`
+    - Definition: If two samples exhibit similarities in certain attributes, we infer that these two samples may come from populations with similar attribute proportions.
+
+2. Statistical Attribute Inference Based on Samples
+
+(1) Rule Description:
+- Randomly select a representative sample from the population.
+- Observe and record specific attributes of individuals in the sample.
+- Depending on the frequency of the attributes and the type of sample, apply the following rules:
+
+(2) U-Generalization Rule:
+- If all individuals (denoted as `n`) in the sample possess attribute `A`, then we can infer that all individuals in the population also possess attribute `A`.
+- Symbolization: If `U(A, n)`, then `∀x ∈ P, A(x)`.
+
+(3) P-Generalization Rule:
+- If `k` individuals in the sample possess attribute `A`, where `k < n`, then we can infer that approximately `k/n` proportion of the individuals in the population possess attribute `A`.
+- Symbolization: If `P(A, k, n)`, then `Pr(A) ≈ k/n`.
+
+(4) C-Reasoning Rule:
+- If two samples S1 and S2 exhibit similar proportions in attribute `A`, i.e., `P(A, k1, n1)` and `P(A, k2, n2)`, then we can infer that these two samples may come from populations with similar proportions of attribute `A`.
+- Symbolization: If `C(A, k1/n1, k2/n2)`, then `Pr(A, P1) ≈ Pr(A, P2)`.
+
+
+### Questions:
+question1:
+A clinical trial of a new drug showed a positive response in 150 of 200 patients. Using the P-Generalization rule, the effectiveness of the drug in a wider group of patients was estimated.
+
+Please give your answer in [[number%]] format.
+
+question2:
+A company performs quality testing on its products and randomly selects 50 products from a batch of 1,000, resulting in 2 defective products. Using the P-Generalization rule, estimate the rate of defective products for the entire batch.
+
+Please give your answer in [[number%]] format.
+
+
+### Answers:

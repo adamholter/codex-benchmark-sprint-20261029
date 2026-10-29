@@ -1,0 +1,12 @@
+{
+  "(a)": "Cannot determine: Roman-numeral translation options are missing.",
+  "(b)": "Cannot determine: Roman-numeral translation options are missing.",
+  "(c)": "Cannot determine: Roman-numeral translation options are missing.",
+  "(d)": "Cannot determine: Roman-numeral translation options are missing.",
+  "(e)": "Cannot determine: Roman-numeral translation options are missing.",
+  "(f)": "Cannot determine: Roman-numeral translation options are missing.",
+  "(g)": "Cannot determine: Roman-numeral translation options are missing.",
+  "(h)": "Cannot determine: Roman-numeral translation options are missing.",
+  "(i)": "Cannot determine: Roman-numeral translation options are missing.",
+  "(j)": "Cannot determine: Roman-numeral translation options are missing."
+}

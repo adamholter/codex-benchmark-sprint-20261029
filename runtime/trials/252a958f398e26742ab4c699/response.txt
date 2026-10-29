@@ -1,0 +1,10 @@
+{
+  "a. (Old English)": "rice",
+  "a. (West Frisian)": "keninkryk",
+  "b. (Old English)": "eorðan",
+  "b. (West Frisian)": "ierde",
+  "c. (Old English)": "todæg",
+  "c. (West Frisian)": "hjoed",
+  "d. (Old English)": "costnunge",
+  "d. (West Frisian)": "fersiking"
+}

@@ -1,0 +1,1 @@
+{"a":"No incorrect words can be identified because no translated text was provided.","b":"No corrections can be suggested without the translated text."}

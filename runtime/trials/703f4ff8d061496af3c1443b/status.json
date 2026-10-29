@@ -1,0 +1,67 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly_no_context",
+  "id": "218:Q 3.4:no_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294426.351466,
+  "turn": {
+    "id": "01a188ad-62d6-78c0-babd-f44a1e938a4c",
+    "rootTurnId": "01a188ad-62d6-78c0-babd-f44a1e938a4c",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_08e35b3dffbf62db016ae3805f904081939a05f3965fed2819",
+        "text": "{\"12.\":\"The sheet does not provide a causative-formation rule or any example root\u2013causative pairs. The listed roots alone are not enough to infer the expected causative form of \u0281vzj\u028cr, so its form and the reasoning behind it cannot be determined from the information provided.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294426,
+    "completedAt": 1793294432,
+    "durationMs": 5973
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "12.": "The sheet does not provide a causative-formation rule or any example root\u2013causative pairs. The listed roots alone are not enough to infer the expected causative form of \u0281vzj\u028cr, so its form and the reasoning behind it cannot be determined from the information provided."
+    },
+    "score": 1.0,
+    "parts_correct": 1,
+    "parts_total": 1,
+    "empty_reference_parts": 1,
+    "part_scores": {
+      "12.": 1.0
+    }
+  },
+  "seconds": 6.487673875060864,
+  "usage": {
+    "total": {
+      "totalTokens": 4440,
+      "inputTokens": 4083,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 357,
+      "reasoningOutputTokens": 285
+    },
+    "last": {
+      "totalTokens": 4440,
+      "inputTokens": 4083,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 357,
+      "reasoningOutputTokens": 285
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793294432.838237
+}

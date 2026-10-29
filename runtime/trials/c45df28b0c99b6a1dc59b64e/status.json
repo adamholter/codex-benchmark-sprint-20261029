@@ -1,0 +1,85 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly",
+  "id": "179:Q 4.2:full_context",
+  "category": "Rosetta / Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793286871.488894,
+  "turn": {
+    "id": "01a1883a-1d3b-78a3-8f2c-804e0b9acab0",
+    "rootTurnId": "01a1883a-1d3b-78a3-8f2c-804e0b9acab0",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_02d9222d97239145016ae362e2065c8193b0d1edda348319eb",
+        "text": "{\n  \"(a)\": \"Cannot determine: roman-numeral choices were not provided.\",\n  \"(b)\": \"Cannot determine: roman-numeral choices were not provided.\",\n  \"(c)\": \"Cannot determine: roman-numeral choices were not provided.\",\n  \"(d)\": \"Cannot determine: roman-numeral choices were not provided.\",\n  \"(e)\": \"Cannot determine: roman-numeral choices were not provided.\",\n  \"(f)\": \"Cannot determine: roman-numeral choices were not provided.\",\n  \"(g)\": \"Cannot determine: roman-numeral choices were not provided.\",\n  \"(h)\": \"Cannot determine: roman-numeral choices were not provided.\",\n  \"(i)\": \"Cannot determine: roman-numeral choices were not provided.\",\n  \"(j)\": \"Cannot determine: roman-numeral choices were not provided.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793286872,
+    "completedAt": 1793286884,
+    "durationMs": 11639
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "Cannot determine: roman-numeral choices were not provided.",
+      "(b)": "Cannot determine: roman-numeral choices were not provided.",
+      "(c)": "Cannot determine: roman-numeral choices were not provided.",
+      "(d)": "Cannot determine: roman-numeral choices were not provided.",
+      "(e)": "Cannot determine: roman-numeral choices were not provided.",
+      "(f)": "Cannot determine: roman-numeral choices were not provided.",
+      "(g)": "Cannot determine: roman-numeral choices were not provided.",
+      "(h)": "Cannot determine: roman-numeral choices were not provided.",
+      "(i)": "Cannot determine: roman-numeral choices were not provided.",
+      "(j)": "Cannot determine: roman-numeral choices were not provided."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 10,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 0.0,
+      "(b)": 0.0,
+      "(c)": 0.0,
+      "(d)": 0.0,
+      "(e)": 0.0,
+      "(f)": 0.0,
+      "(g)": 0.0,
+      "(h)": 0.0,
+      "(i)": 0.0,
+      "(j)": 0.0
+    }
+  },
+  "seconds": 12.562588208005764,
+  "usage": {
+    "total": {
+      "totalTokens": 4628,
+      "inputTokens": 4300,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 328,
+      "reasoningOutputTokens": 150
+    },
+    "last": {
+      "totalTokens": 4628,
+      "inputTokens": 4300,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 328,
+      "reasoningOutputTokens": 150
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793286884.050775
+}

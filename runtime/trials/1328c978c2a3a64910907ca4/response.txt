@@ -1,0 +1,13 @@
+**(G) The Fellowship of the Ring**
+
+The discussions and periods of inactivity don’t change who holds a book. After cancelling the swaps that undo one another, the effective swaps, in order, are:
+
+1. Bob–Gertrude
+2. Eve–Dave
+3. Alice–Gertrude
+4. Eve–Alice
+5. Fred–Eve
+6. Alice–Bob
+7. Claire–Alice
+
+After the first swap, Bob has *The Fellowship of the Ring*. None of the intervening effective swaps involves Bob, so he passes it to Alice in the sixth swap. Alice then passes it to Claire in the final swap.

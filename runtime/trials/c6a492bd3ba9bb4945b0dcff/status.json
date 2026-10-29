@@ -1,0 +1,107 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly",
+  "id": "170:Q 5.:full_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290780.1891892,
+  "turn": {
+    "id": "01a18875-bf88-7bf1-83db-302040460dc8",
+    "rootTurnId": "01a18875-bf88-7bf1-83db-302040460dc8",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0c08a68093d6277a016ae372a766988196aa6333244db5a44b",
+        "text": "{\n  \"a.\": \"bie\",\n  \"b\": \"folongfugri\",\n  \"c\": \"folongfugo\",\n  \"d\": \"gbi\u2019e\u2019\",\n  \"e\": \"gbe\u2019ri\u2019\",\n  \"f\": \"iri\",\n  \"g\": \"ire\",\n  \"h\": \"ngmari\u2019\",\n  \"i\": \"ngmara\",\n  \"j\": \"wul-bo\",\n  \"k\": \"yagri\u2019\",\n  \"l\": \"zupili\",\n  \"m\": \"zupile\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290780,
+    "completedAt": 1793290921,
+    "durationMs": 140852
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "a.": "bie",
+      "b": "folongfugri",
+      "c": "folongfugo",
+      "d": "gbi\u2019e\u2019",
+      "e": "gbe\u2019ri\u2019",
+      "f": "iri",
+      "g": "ire",
+      "h": "ngmari\u2019",
+      "i": "ngmara",
+      "j": "wul-bo",
+      "k": "yagri\u2019",
+      "l": "zupili",
+      "m": "zupile"
+    },
+    "score": 0.38461538461538464,
+    "parts_correct": 5,
+    "parts_total": 13,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 1.0,
+      "b": 1.0,
+      "c": 1.0,
+      "d": 0.0,
+      "e": 0.0,
+      "f": 0.0,
+      "g": 0.0,
+      "h": 0.0,
+      "i": 0.0,
+      "j": 1.0,
+      "k": 1.0,
+      "l": 0.0,
+      "m": 0.0
+    }
+  },
+  "seconds": 141.24673866608646,
+  "usage": {
+    "total": {
+      "totalTokens": 6492,
+      "inputTokens": 4837,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1655,
+      "reasoningOutputTokens": 1528
+    },
+    "last": {
+      "totalTokens": 6492,
+      "inputTokens": 4837,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1655,
+      "reasoningOutputTokens": 1528
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: ea258f82-7bf9-440d-ab0c-8623bd1b0713",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a18875-bf45-7a71-abd9-909c094f79b0",
+      "turnId": "01a18875-bf88-7bf1-83db-302040460dc8"
+    }
+  ],
+  "finished_at": 1793290921.436052
+}

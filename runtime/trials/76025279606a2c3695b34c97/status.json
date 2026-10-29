@@ -1,0 +1,75 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly_no_context",
+  "id": "167:Q A2.3.:no_context",
+  "category": "Pattern / Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793285533.622611,
+  "turn": {
+    "id": "01a18825-b12f-7802-899b-0c7c6ebce41e",
+    "rootTurnId": "01a18825-b12f-7802-899b-0c7c6ebce41e",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_09074100f0159786016ae35da7e7208196be08213e2978ccd3",
+        "text": "{\n  \"1.\": \"Cannot be determined: the referenced tables are missing.\",\n  \"2. \": \"Cannot be determined: the referenced tables are missing.\",\n  \"3. \": \"Cannot be determined: the referenced tables are missing.\",\n  \"4. \": \"Cannot be determined: the referenced tables are missing.\",\n  \"5.\": \"Cannot be determined: the referenced tables are missing.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793285534,
+    "completedAt": 1793285545,
+    "durationMs": 11089
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "1.": "Cannot be determined: the referenced tables are missing.",
+      "2. ": "Cannot be determined: the referenced tables are missing.",
+      "3. ": "Cannot be determined: the referenced tables are missing.",
+      "4. ": "Cannot be determined: the referenced tables are missing.",
+      "5.": "Cannot be determined: the referenced tables are missing."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 5,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "1.": 0.0,
+      "2. ": 0.0,
+      "3. ": 0.0,
+      "4. ": 0.0,
+      "5.": 0.0
+    }
+  },
+  "seconds": 11.480840084026568,
+  "usage": {
+    "total": {
+      "totalTokens": 4419,
+      "inputTokens": 4139,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 280,
+      "reasoningOutputTokens": 192
+    },
+    "last": {
+      "totalTokens": 4419,
+      "inputTokens": 4139,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 280,
+      "reasoningOutputTokens": 192
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793285545.103359
+}

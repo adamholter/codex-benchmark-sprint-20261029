@@ -1,0 +1,83 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly_no_context",
+  "id": "185:Q 10.3:no_context",
+  "category": "Match-up / Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289154.338593,
+  "turn": {
+    "id": "01a1885c-f04e-73b2-a91a-b2bf0fa58c96",
+    "rootTurnId": "01a1885c-f04e-73b2-a91a-b2bf0fa58c96",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0f258ae80007da87016ae36be44e948197b34561251e7f1015",
+        "text": "{\"(a)\":\"Cannot be determined from the supplied information; the referenced whistle examples and sentences are missing.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289154,
+    "completedAt": 1793289189,
+    "durationMs": 34521
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "Cannot be determined from the supplied information; the referenced whistle examples and sentences are missing."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 1,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 0.0
+    }
+  },
+  "seconds": 34.83660079201218,
+  "usage": {
+    "total": {
+      "totalTokens": 4341,
+      "inputTokens": 4231,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 110,
+      "reasoningOutputTokens": 81
+    },
+    "last": {
+      "totalTokens": 4341,
+      "inputTokens": 4231,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 110,
+      "reasoningOutputTokens": 81
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: c42d2f71-a49b-4b85-a3ef-3e2e65342060",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a1885c-f035-7da1-b457-527b430d7546",
+      "turnId": "01a1885c-f04e-73b2-a91a-b2bf0fa58c96"
+    }
+  ],
+  "finished_at": 1793289189.174588
+}

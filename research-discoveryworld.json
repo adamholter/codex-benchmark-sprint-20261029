@@ -1,0 +1,280 @@
+{
+  "benchmark": "DiscoveryWorld",
+  "decision": "feasible_simulator_custom_dynamic_tools_pending_parent_integration",
+  "checked_utc": "2026-10-29T14:35:29.583282+00:00",
+  "source": {
+    "url": "https://github.com/allenai/discoveryworld",
+    "sha": "fd591323920be0d3786ef350955de1945aa571e5",
+    "commit_date": "2025-03-10T15:44:30-07:00",
+    "license": "Apache-2.0",
+    "license_file": "sources/discoveryworld/LICENSE.txt",
+    "asset_terms": "Bundled PixyMoon assets have separate Read_Me.txt terms. Project use permitted; credit PixyMoon; no standalone asset resale. Local only."
+  },
+  "paper": {
+    "url": "https://arxiv.org/abs/2406.06769",
+    "version_used": "v1",
+    "publication_date": "2024-06-10",
+    "venue": "NeurIPS Datasets and Benchmarks 2024"
+  },
+  "official_protocol": {
+    "discovery_themes": 8,
+    "difficulties": [
+      "Easy",
+      "Normal",
+      "Challenge"
+    ],
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "total_discovery_cases": 120,
+    "easy_max_actions": 100,
+    "normal_challenge_max_actions": 1000,
+    "unit_test_max_actions": 100,
+    "baseline_agents": [
+      "ReAct",
+      "Plan+Execute",
+      "Hypothesizer"
+    ],
+    "baseline_model": "GPT-4o",
+    "source": "sources/discoveryworld/agents/README.md"
+  },
+  "proposed_protocol": {
+    "cases_file": "discoveryworld/scenarios.json",
+    "cases": 7,
+    "quick_subset": "First four entries, selected for topic coverage without model results",
+    "difficulty": "Easy",
+    "seed": 0,
+    "action_budget": 100,
+    "observations": "Official text-only UI JSON, cached between actions",
+    "state_transition": "One official simulator tick per attempted act, including invalid attempts",
+    "model_access": "Only custom dynamic tools, no source/files/shell/network/built-in tools; independent conversation per case",
+    "metrics": {
+      "correct": "All official completedSuccessfully flags",
+      "score": "Mean official scoreNormalized procedural score",
+      "knowledge_score": null
+    },
+    "differences_from_published": "Seven Easy seed-0 cases only; dynamic-tool agent rather than published agent architecture. No external explanatory-knowledge judge. Do not compare as full benchmark scores.",
+    "concurrency_limit": 2
+  },
+  "old_scores": {
+    "source": "https://arxiv.org/html/2406.06769v1#S3.T4",
+    "table": 4,
+    "date": "2024-06-10",
+    "scope": "Easy; mean across seeds 0..4; 100 actions; historical context only",
+    "agent_order": [
+      "ReAct",
+      "Plan+Execute",
+      "Hypothesizer"
+    ],
+    "metric_order": [
+      "procedure",
+      "completion",
+      "knowledge"
+    ],
+    "values": {
+      "Proteomics": [
+        [
+          0.87,
+          0.2,
+          0.2
+        ],
+        [
+          0.8,
+          0.0,
+          0.0
+        ],
+        [
+          0.9,
+          0.4,
+          1.0
+        ]
+      ],
+      "Combinatorial Chemistry": [
+        [
+          0.87,
+          1.0,
+          1.0
+        ],
+        [
+          0.7,
+          0.6,
+          0.4
+        ],
+        [
+          0.9,
+          0.0,
+          0.4
+        ]
+      ],
+      "Archaeology Dating": [
+        [
+          0.27,
+          0.6,
+          0.0
+        ],
+        [
+          0.33,
+          0.2,
+          0.0
+        ],
+        [
+          0.6,
+          0.2,
+          0.5
+        ]
+      ],
+      "Reactor Lab": [
+        [
+          0.42,
+          0.0,
+          0.4
+        ],
+        [
+          0.44,
+          0.0,
+          0.1
+        ],
+        [
+          0.38,
+          0.0,
+          0.2
+        ]
+      ],
+      "Plant Nutrients": [
+        [
+          0.8,
+          0.2,
+          0.2
+        ],
+        [
+          0.7,
+          0.2,
+          0.2
+        ],
+        [
+          0.6,
+          0.0,
+          0.0
+        ]
+      ],
+      "Space Sick": [
+        [
+          0.78,
+          0.6,
+          0.0
+        ],
+        [
+          0.68,
+          0.4,
+          0.1
+        ],
+        [
+          0.8,
+          1.0,
+          0.6
+        ]
+      ],
+      "It's (not) Rocket Science!": [
+        [
+          0.33,
+          0.0,
+          0.0
+        ],
+        [
+          0.53,
+          0.0,
+          0.07
+        ],
+        [
+          0.13,
+          0.4,
+          0.0
+        ]
+      ],
+      "Lost in Translation": [
+        [
+          0.4,
+          0.4,
+          0.2
+        ],
+        [
+          0.3,
+          0.0,
+          0.0
+        ],
+        [
+          0.2,
+          0.2,
+          0.0
+        ]
+      ]
+    },
+    "current_models_scores": null
+  },
+  "implementation": {
+    "entrypoint": "from discoveryworld import DiscoveryWorldSession",
+    "methods": [
+      "initial_prompt() -> str",
+      "tools -> list[{name,description,inputSchema}]",
+      "call(name,args) -> JSON-serializable dict",
+      "score() -> evaluator dict"
+    ],
+    "network_calls": 0,
+    "inference_calls": 0,
+    "api_spend_usd": 0,
+    "source_modified": false,
+    "suppressed": "Only full omniscient world-history serialization disabled after initial load. No screenshot rendering calls.",
+    "dependencies_file": "discoveryworld/dependencies.json",
+    "smoke_file": "discoveryworld/smoke-results.json",
+    "prerequisites_remaining": [
+      "Parent must connect dynamic-tool requests to session.call and return JSON output through existing verified subscription appserver transport.",
+      "Parent must ensure no built-in source/filesystem tools and impose total tool-call cap.",
+      "Appserver integration and model task completion have not been tested."
+    ]
+  },
+  "scientific_value": "Useful quick diagnostic of interactive measurement, experimentation and decisions across topics, with true task and procedural scoring. Small seed-0 Easy sample is insufficient to estimate full scientific discovery capability or replicate published scores.",
+  "risk": "Public 2024 tasks may be in model training data. Model does not receive local source or historical trajectories; contamination cannot be ruled out.",
+  "excluded_scenarios": [
+    {
+      "scenario": "It's (not) Rocket Science!",
+      "reason": "Official unmodified simulator fails on Python 3.13: random.randint receives float bounds in not_rocket_science.py:337, TypeError float object cannot be interpreted as an integer. Official installation recommends Python 3.9. Excluded rather than patching task generation.",
+      "evidence": "discoveryworld/rocket-prerequisite.log"
+    }
+  ],
+  "smoke": {
+    "checked_utc": "2026-10-29T14:36:32.844449+00:00",
+    "cases_passed": 7,
+    "actions_per_case": 100,
+    "elapsed_seconds_total": 13.621097208699211,
+    "max_rss_bytes_peak": 146571264,
+    "inference_calls": 0,
+    "screenshots": 0,
+    "checks": [
+      "load official scenario",
+      "cached observation stability",
+      "one tick per action",
+      "invalid action costs budget",
+      "terminal budget enforcement",
+      "official scorecard serialization",
+      "no oracle keys in observations/prompt",
+      "no accumulated full world history",
+      "no PNG files"
+    ],
+    "project_validation": "npm run validate: 10 tests passed",
+    "pins_verified": {
+      "sympy": "1.14.0",
+      "antlr4-python3-runtime": "4.11.1"
+    },
+    "dialog": {
+      "passed": true,
+      "actions": 4,
+      "correct": false,
+      "procedural_score": 0.25,
+      "evidence": "discoveryworld/dialog-interaction-smoke.json"
+    }
+  }
+}

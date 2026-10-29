@@ -1,0 +1,10 @@
+{
+  "question1": "[[C]]",
+  "question2": "[[§p ∧ ‽q]]",
+  "question3": "[[C]]",
+  "question4": "[[3]]",
+  "question5": "[[B]]",
+  "question6": "[[2]]",
+  "question7": "[[¬§p ∧ ¬§q ∧ ¬§r]]",
+  "question8": "[[§p ∧ ‽q]]"
+}

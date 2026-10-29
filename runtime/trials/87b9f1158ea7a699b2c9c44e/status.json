@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "bbeh",
+  "id": "mini:disambiguation_qa:0011",
+  "category": "disambiguation_qa",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793291607.7224572,
+  "turn": {
+    "id": "01a18882-609a-7ab0-989a-32eba9e84b62",
+    "rootTurnId": "01a18882-609a-7ab0-989a-32eba9e84b62",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0a7ba365b7cf38ef016ae3755f2bd48195827f5c2531dca35d",
+        "text": "**(C)** The cashier is arrogant, doesn\u2019t take feedback seriously, and will have a discussion with the manager. The references to numeric errors and feedback point to the cashier, and the final \u201cHe\u201d continues that reference.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793291608,
+    "completedAt": 1793291615,
+    "durationMs": 7380
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(c) the cashier is arrogant,doesn\u2019t take feedback seriously,and will have a discussion with the manager. the references to numeric errors and feedback point to the cashier,and the final \u201che\u201d continues that reference"
+  },
+  "seconds": 7.914682500064373,
+  "usage": {
+    "total": {
+      "totalTokens": 4631,
+      "inputTokens": 3953,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 678,
+      "reasoningOutputTokens": 626
+    },
+    "last": {
+      "totalTokens": 4631,
+      "inputTokens": 3953,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 678,
+      "reasoningOutputTokens": 626
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793291615.636538
+}

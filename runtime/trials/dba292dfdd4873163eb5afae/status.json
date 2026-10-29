@@ -1,0 +1,83 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly_no_context",
+  "id": "122:Q 9.3:no_context",
+  "category": "Monolingual / Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793287587.308768,
+  "turn": {
+    "id": "01a18845-06e6-73a1-ac30-adfc61261e1f",
+    "rootTurnId": "01a18845-06e6-73a1-ac30-adfc61261e1f",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_09072b32ca150b78016ae365af3a8c8197b69c5c93ed191e19",
+        "text": "{\"d.\":\"The sheet provides no Pame numerals or examples of calculations, so the number systems and their differences cannot be determined from the information supplied.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793287587,
+    "completedAt": 1793287601,
+    "durationMs": 14117
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "d.": "The sheet provides no Pame numerals or examples of calculations, so the number systems and their differences cannot be determined from the information supplied."
+    },
+    "score": 1.0,
+    "parts_correct": 1,
+    "parts_total": 1,
+    "empty_reference_parts": 1,
+    "part_scores": {
+      "d.": 1.0
+    }
+  },
+  "seconds": 14.382491625030525,
+  "usage": {
+    "total": {
+      "totalTokens": 4037,
+      "inputTokens": 3963,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 74,
+      "reasoningOutputTokens": 35
+    },
+    "last": {
+      "totalTokens": 4037,
+      "inputTokens": 3963,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 74,
+      "reasoningOutputTokens": 35
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 7dd66e02-e517-46c6-a8d3-10ae97e6f6e3",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a18845-06d0-78e1-b7fa-21234eb2cb79",
+      "turnId": "01a18845-06e6-73a1-ac30-adfc61261e1f"
+    }
+  ],
+  "finished_at": 1793287601.691166
+}

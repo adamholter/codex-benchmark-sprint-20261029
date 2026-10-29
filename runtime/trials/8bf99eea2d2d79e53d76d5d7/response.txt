@@ -1,0 +1,3 @@
+**(J) 3, 4, 5 and 8.**
+
+The drawing contains a non-right triangle, a right triangle, a non-rectangular parallelogram, and an irregular concave pentagon.

@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "bbeh",
+  "id": "mini:shuffled_objects:0367",
+  "category": "shuffled_objects",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289613.017695,
+  "turn": {
+    "id": "01a18863-f1f7-7011-9b83-004dd79182cd",
+    "rootTurnId": "01a18863-f1f7-7011-9b83-004dd79182cd",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_004dbaf1cb4b2ea8016ae36dbb9cfc8195b63ba18457058187",
+        "text": "Claire has **Catch-22** \u2014 **(B)**.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289613,
+    "completedAt": 1793289659,
+    "durationMs": 45985
+  },
+  "score": {
+    "correct": false,
+    "extracted": "claire has catch-22 \u2014 (b)"
+  },
+  "seconds": 46.811080499901436,
+  "usage": {
+    "total": {
+      "totalTokens": 10712,
+      "inputTokens": 6971,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 3741,
+      "reasoningOutputTokens": 3722
+    },
+    "last": {
+      "totalTokens": 10712,
+      "inputTokens": 6971,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 3741,
+      "reasoningOutputTokens": 3722
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793289659.8282251
+}

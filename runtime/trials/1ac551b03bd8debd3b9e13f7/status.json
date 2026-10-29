@@ -1,0 +1,85 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly_no_context",
+  "id": "129:Q 1.1:no_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292388.761732,
+  "turn": {
+    "id": "01a1888e-4afc-7e01-96d5-d9f30726d194",
+    "rootTurnId": "01a1888e-4afc-7e01-96d5-d9f30726d194",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_05731e3f7d2291d8016ae3786bdfd88190a9c61a4b932909d6",
+        "text": "{\n  \"1.\": \"Cannot determine: the problem data is missing.\",\n  \"2.\": \"Cannot determine: the problem data is missing.\",\n  \"3.\": \"Cannot determine: the problem data is missing.\",\n  \"4.\": \"Cannot determine: the problem data is missing.\",\n  \"5.\": \"Cannot determine: the problem data is missing.\",\n  \"6.\": \"Cannot determine: the problem data is missing.\",\n  \"7.\": \"Cannot determine: the problem data is missing.\",\n  \"8.\": \"Cannot determine: the problem data is missing.\",\n  \"9.\": \"Cannot determine: the problem data is missing.\",\n  \"10.\": \"Cannot determine: the problem data is missing.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292389,
+    "completedAt": 1793292397,
+    "durationMs": 8455
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "1.": "Cannot determine: the problem data is missing.",
+      "2.": "Cannot determine: the problem data is missing.",
+      "3.": "Cannot determine: the problem data is missing.",
+      "4.": "Cannot determine: the problem data is missing.",
+      "5.": "Cannot determine: the problem data is missing.",
+      "6.": "Cannot determine: the problem data is missing.",
+      "7.": "Cannot determine: the problem data is missing.",
+      "8.": "Cannot determine: the problem data is missing.",
+      "9.": "Cannot determine: the problem data is missing.",
+      "10.": "Cannot determine: the problem data is missing."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 10,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "1.": 0.0,
+      "2.": 0.0,
+      "3.": 0.0,
+      "4.": 0.0,
+      "5.": 0.0,
+      "6.": 0.0,
+      "7.": 0.0,
+      "8.": 0.0,
+      "9.": 0.0,
+      "10.": 0.0
+    }
+  },
+  "seconds": 8.833331333007663,
+  "usage": {
+    "total": {
+      "totalTokens": 4282,
+      "inputTokens": 4025,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 257,
+      "reasoningOutputTokens": 99
+    },
+    "last": {
+      "totalTokens": 4282,
+      "inputTokens": 4025,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 257,
+      "reasoningOutputTokens": 99
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292397.594474
+}

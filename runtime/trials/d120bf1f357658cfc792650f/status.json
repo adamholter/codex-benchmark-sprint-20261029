@@ -1,0 +1,69 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-Q_339",
+  "category": "Multi-Q",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793295413.207662,
+  "turn": {
+    "id": "01a188bc-709f-7a31-bca7-d2192bc05d98",
+    "rootTurnId": "01a188bc-709f-7a31-bca7-d2192bc05d98",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_046d57a67abf131d016ae3843b1060819087aba6397141d690",
+        "text": "{\n  \"question1\": \"[[244898898]]\",\n  \"question2\": \"[[RKHCSDHLHOY]]\",\n  \"question3\": \"[[848898898]]\",\n  \"question4\": \"[[AU]]\",\n  \"question5\": \"[[MC]]\",\n  \"question6\": \"[[BM]]\",\n  \"question7\": \"[[595898898]]\",\n  \"question8\": \"[[GC]]\",\n  \"question9\": \"[[844898898]]\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793295413,
+    "completedAt": 1793295419,
+    "durationMs": 6458
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "question1": "244898898",
+      "question2": "RKHCSDHLHOY",
+      "question3": "848898898",
+      "question4": "AU",
+      "question5": "MC",
+      "question6": "BM",
+      "question7": "595898898",
+      "question8": "GC",
+      "question9": "844898898"
+    },
+    "pass_rate": 1.0
+  },
+  "seconds": 6.681551375077106,
+  "usage": {
+    "total": {
+      "totalTokens": 5557,
+      "inputTokens": 5165,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 392,
+      "reasoningOutputTokens": 281
+    },
+    "last": {
+      "totalTokens": 5557,
+      "inputTokens": 5165,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 392,
+      "reasoningOutputTokens": 281
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793295419.8886342
+}

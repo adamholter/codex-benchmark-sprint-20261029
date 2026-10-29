@@ -1,0 +1,73 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly_no_context",
+  "id": "179:Q 4.1:no_context",
+  "category": "Rosetta / Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793286967.280142,
+  "turn": {
+    "id": "01a1883b-93f7-7a31-9252-226343a635e3",
+    "rootTurnId": "01a1883b-93f7-7a31-9252-226343a635e3",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_08f806c22e53b7c3016ae3634172d08197adb83175d6f1604d",
+        "text": "{\n  \"(a)\": \"Cannot be determined: the sheet provides no Maltese vocabulary mappings or grammar rules.\",\n  \"(b)\": \"Cannot be determined: the sheet provides no Maltese vocabulary mappings or grammar rules.\",\n  \"(c)\": \"Cannot be determined: the sheet provides no Maltese vocabulary mappings or grammar rules.\",\n  \"(d)\": \"Cannot be determined: the sheet provides no Maltese vocabulary mappings or grammar rules.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793286968,
+    "completedAt": 1793286979,
+    "durationMs": 11290
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "Cannot be determined: the sheet provides no Maltese vocabulary mappings or grammar rules.",
+      "(b)": "Cannot be determined: the sheet provides no Maltese vocabulary mappings or grammar rules.",
+      "(c)": "Cannot be determined: the sheet provides no Maltese vocabulary mappings or grammar rules.",
+      "(d)": "Cannot be determined: the sheet provides no Maltese vocabulary mappings or grammar rules."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 4,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 0.0,
+      "(b)": 0.0,
+      "(c)": 0.0,
+      "(d)": 0.0
+    }
+  },
+  "seconds": 12.35245995898731,
+  "usage": {
+    "total": {
+      "totalTokens": 4225,
+      "inputTokens": 4033,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 192,
+      "reasoningOutputTokens": 100
+    },
+    "last": {
+      "totalTokens": 4225,
+      "inputTokens": 4033,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 192,
+      "reasoningOutputTokens": 100
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793286979.63233
+}

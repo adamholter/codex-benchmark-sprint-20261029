@@ -1,0 +1,5 @@
+As written, **both (D) and (E) evaluate to true**, so there isn’t exactly one true expression.
+
+For (D), the first outer term is false. In the second, the parenthesized expression is false, so `not not not (...)` is true.
+
+For (E), the first outer term is false. In the second, the inner conjunction is false, so its triple negation is true.

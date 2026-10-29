@@ -1,0 +1,4 @@
+**(A) 1 and 8.**
+
+- A non-square rectangle is formed on the left, with corners \((-23.79937,-13.22876)\), \((-14.79937,-13.22876)\), \((-14.79937,0)\), and \((-23.79937,0)\).
+- An irregular concave pentagon is formed by the vertices \((-14.79937,-13.22876)\), \((0,-13.22876)\), \((-11.45644,-6.61438)\), \((0,0)\), and \((-14.79937,0)\). The middle vertex creates the inward notch.

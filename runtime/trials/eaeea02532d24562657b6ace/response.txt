@@ -1,0 +1,5 @@
+The clues are inconsistent, so there is no valid position for the person who likes Obsidians.
+
+Let the weightlifter’s position be \(w\). Clues 35 and 42 make that person both orange-house resident and pizza-lover. By clues 52, 65, and 132, the person immediately to their left is Japanese and lives in the green house. The Opals cannot be there (that person has Sapphires), so clues 118, 40, and 104 place the Opals and white house at \(w+1\).
+
+Clues 6 and 8 put the turquoise house at position 4, and clue 79 puts Mohan in the teal house at position 4. Since house colors are all different, these facts rule out \(w=3,4,5\). Clues 14, 17, and 42 put Yair at \(w+1\) and Mallika, who likes lilies, at \(w+2\). Since positions must be 1–7 and the Japanese person is at \(w-1\), only \(w=2\) remains. That puts Mallika at position 4, where Mohan must live—a contradiction.

@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "bbeh",
+  "id": "mini:geometric_shapes:0122",
+  "category": "geometric_shapes",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793291946.550445,
+  "turn": {
+    "id": "01a18887-8bfe-7552-b669-2724963da528",
+    "rootTurnId": "01a18887-8bfe-7552-b669-2724963da528",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_04d9e056c468633e016ae376cf9d288194890d3c6a448d926c",
+        "text": "**(A) 3, 5 and 8.**\n\nThe lines form a non-right triangle \\(O\\!-\\!D\\!-\\!L\\), a non-rectangular parallelogram \\(D\\!-\\!P\\!-\\!U\\!-\\!T\\), and a concave pentagon \\(G\\!-\\!B\\!-\\!D\\!-\\!T\\!-\\!S\\). In each case, intermediate collinear points lie along a side.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793291947,
+    "completedAt": 1793291985,
+    "durationMs": 38166
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(a) 3,5 and 8"
+  },
+  "seconds": 38.65085274993908,
+  "usage": {
+    "total": {
+      "totalTokens": 8600,
+      "inputTokens": 4545,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 4055,
+      "reasoningOutputTokens": 3944
+    },
+    "last": {
+      "totalTokens": 8600,
+      "inputTokens": 4545,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 4055,
+      "reasoningOutputTokens": 3944
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793291985.201139
+}

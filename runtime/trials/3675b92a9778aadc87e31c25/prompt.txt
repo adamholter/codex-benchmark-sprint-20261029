@@ -1,0 +1,52 @@
+You are an intelligent assistant that specializes in encryption and decryption tasks. Below are the rules for a specific cipher. When responding, please ensure that your output adheres to the specified encryption and decryption rules and format.
+
+### Instructions:
+
+1. Identify the relevant properties and objects specified in the rule, including the plaintext, keyword, and ciphertext.
+2. Follow the specified encryption or decryption operations precisely as described in the rules.
+3. Ensure your output is formatted according to the specified notation and symbols.
+
+### Cipher Rule:
+
+**Encryption Rules:**
+
+- Input:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+    - period: Defines how often the inner disc rotates. Periodicity indicates that after every number of characters processed in the encryption process, the inner disc will rotate once according to the incremental value.
+    - increment: Defines the number of characters the inner disc rotates each time. At the end of each cycle, the inner disc will rotate to the right by the corresponding number of characters based on the increment value. For example, if the increment is 4, the inner disc will rotate 4 characters to the right for each cycle that passes (e.g., 5 characters are processed).
+- Output:
+    - Ciphertext: Uppercase letters string.
+- Preparation:
+    - outer_disk = "QWERTYUIOPASDFGHJZXCVBNMKL"
+    - inner_disk = "JKLZXCVBNMASDFGHJQWERTYUIO"
+- Encryption Steps:
+    - For each character p in the plaintext:
+        - Find the character in the outer_disk.
+        - Replace it with the character at the corresponding position on the inner_disk.
+        - After encrypting every `period` characters, rotate the inner_disk to the right by `increment` characters.For example, rotating 'ZXCVBNMASDFGHJKLQWERTYUIOP' by 4 gives 'BNMASDFGHJKLQWERTYUIOPZXCV'.
+
+ **Decryption Rules:**
+
+- Input:
+    - Ciphertext: Uppercase letters string.
+    - period (Same as encryption)
+    - increment (Same as encryption)
+- Output:
+    - Plaintext: Uppercase letters string.
+- Preparation:
+    - outer_disk = "QWERTYUIOPASDFGHJZXCVBNMKL"
+    - inner_disk = "JKLZXCVBNMASDFGHJQWERTYUIO"
+- Decryption Steps (exact opposite of encryption steps):
+    - For each character c in the ciphertext:
+        - Find the character in the inner_disk.
+        - Replace the character with the corresponding position in the outer_disk.
+        - After decrypting every `period` characters, rotate the inner_disk to the right by `increment` characters.For example, rotating 'ZXCVBNMASDFGHJKLQWERTYUIOP' by 4 gives 'BNMASDFGHJKLQWERTYUIOPZXCV'.
+
+### Question:
+Plaintext: "PZ"
+period: 1
+increment: 5
+
+Please provide the encrypted answer, encapsulated in double square brackets. For example, the format should be: [[encrypted answer]].
+
+### Answer:

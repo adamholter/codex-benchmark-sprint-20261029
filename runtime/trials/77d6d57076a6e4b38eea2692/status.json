@@ -1,0 +1,77 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly",
+  "id": "174:Q 4.2:full_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292963.209993,
+  "turn": {
+    "id": "01a18897-0eb7-7af3-9dba-6d2a6c511b36",
+    "rootTurnId": "01a18897-0eb7-7af3-9dba-6d2a6c511b36",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0b99a2960048603a016ae37aa6ca208194bc511b70030f7301",
+        "text": "{\n  \"a\": \"lub hnub\",\n  \"b\": \"txoj hlua\",\n  \"c\": \"zaj nkauj\",\n  \"d\": \"sau ntawv\",\n  \"e\": \"daim teb\",\n  \"f\": \"lub txiv hmab\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292963,
+    "completedAt": 1793292967,
+    "durationMs": 3757
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "a": "lub hnub",
+      "b": "txoj hlua",
+      "c": "zaj nkauj",
+      "d": "sau ntawv",
+      "e": "daim teb",
+      "f": "lub txiv hmab"
+    },
+    "score": 0.3333333333333333,
+    "parts_correct": 2,
+    "parts_total": 6,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a": 0.0,
+      "b": 0.0,
+      "c": 0.0,
+      "d": 0.0,
+      "e": 1.0,
+      "f": 1.0
+    }
+  },
+  "seconds": 4.074594457983039,
+  "usage": {
+    "total": {
+      "totalTokens": 4696,
+      "inputTokens": 4541,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 155,
+      "reasoningOutputTokens": 92
+    },
+    "last": {
+      "totalTokens": 4696,
+      "inputTokens": 4541,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 155,
+      "reasoningOutputTokens": 92
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292967.284031
+}

@@ -1,0 +1,64 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-Q_374",
+  "category": "Multi-Q",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289913.1992269,
+  "turn": {
+    "id": "01a18868-843b-7d13-bfd9-a09c1a51b320",
+    "rootTurnId": "01a18868-843b-7d13-bfd9-a09c1a51b320",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0b3d87aa9370a2ed016ae36f0d6e7881969797c3d776a10e76",
+        "text": "{\n  \"question1\": \"[[7 2 10 4, 9 1 3 11, 5 12 6 8]]\",\n  \"question2\": \"Cannot be uniquely determined: the specified set of numbers is not provided.\",\n  \"question3\": \"[[15 4 6 3, 7 5 2 10, 8 11 16 9, 13 12 14 1]]\",\n  \"question4\": \"[[12 10 5 4, 11 9 8 7, 6 3 2 1]]\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289913,
+    "completedAt": 1793289998,
+    "durationMs": 85130
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "question1": "7 2 10 4, 9 1 3 11, 5 12 6 8",
+      "question2": "NULL",
+      "question3": "15 4 6 3, 7 5 2 10, 8 11 16 9, 13 12 14 1",
+      "question4": "12 10 5 4, 11 9 8 7, 6 3 2 1"
+    },
+    "pass_rate": 0.5
+  },
+  "seconds": 85.34668674995191,
+  "usage": {
+    "total": {
+      "totalTokens": 12869,
+      "inputTokens": 4366,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 8503,
+      "reasoningOutputTokens": 8364
+    },
+    "last": {
+      "totalTokens": 12869,
+      "inputTokens": 4366,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 8503,
+      "reasoningOutputTokens": 8364
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793289998.545613
+}

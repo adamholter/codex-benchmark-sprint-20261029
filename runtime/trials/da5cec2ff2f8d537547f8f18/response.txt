@@ -1,0 +1,6 @@
+{
+  "9": "Cannot be determined: Kabyle translation data were not provided.",
+  "10": "Cannot be determined: Kabyle translation data were not provided.",
+  "11": "Cannot be determined: Kabyle translation data were not provided.",
+  "12": "Cannot be determined: Kabyle translation data were not provided."
+}

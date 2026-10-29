@@ -1,0 +1,1 @@
+{"a.":"spear","b.":"crab’s heart","c.":"bad"}

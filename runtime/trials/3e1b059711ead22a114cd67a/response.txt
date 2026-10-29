@@ -1,0 +1,1 @@
+[[No valid matrix exists under the stated rule. The 9 at row 2, column 1 cannot cover nine blank squares with a single straight arrow: there are only eight blank squares below it, one above it, and eight to its right.]]

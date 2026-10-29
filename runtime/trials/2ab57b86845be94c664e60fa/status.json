@@ -1,0 +1,73 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly_no_context",
+  "id": "164:Q 2.1:no_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292494.618627,
+  "turn": {
+    "id": "01a1888f-e7fd-7d73-99ee-2d75ad316b48",
+    "rootTurnId": "01a1888f-e7fd-7d73-99ee-2d75ad316b48",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0cf511472b1e84d1016ae378db093881908a9ee82d301e078e",
+        "text": "{\n  \"9\": \"Cannot be determined from the supplied information.\",\n  \"10\": \"Cannot be determined from the supplied information.\",\n  \"11\": \"Cannot be determined from the supplied information.\",\n  \"12\": \"Cannot be determined from the supplied information.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292494,
+    "completedAt": 1793292507,
+    "durationMs": 13103
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "9": "Cannot be determined from the supplied information.",
+      "10": "Cannot be determined from the supplied information.",
+      "11": "Cannot be determined from the supplied information.",
+      "12": "Cannot be determined from the supplied information."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 4,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "9": 0.0,
+      "10": 0.0,
+      "11": 0.0,
+      "12": 0.0
+    }
+  },
+  "seconds": 13.355299583054148,
+  "usage": {
+    "total": {
+      "totalTokens": 4538,
+      "inputTokens": 4311,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 227,
+      "reasoningOutputTokens": 167
+    },
+    "last": {
+      "totalTokens": 4538,
+      "inputTokens": 4311,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 227,
+      "reasoningOutputTokens": 167
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292507.973164
+}

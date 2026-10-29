@@ -1,0 +1,67 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly_no_context",
+  "id": "184:Q 9.4:no_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289563.973963,
+  "turn": {
+    "id": "01a18863-30f8-7d53-acb7-1171bcfc2607",
+    "rootTurnId": "01a18863-30f8-7d53-acb7-1171bcfc2607",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0389160010e1b604016ae36d5efa94819488cf594c63656aef",
+        "text": "{\"1.\": \"Cannot be determined from the information provided; the examples needed to identify the word are missing.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289564,
+    "completedAt": 1793289567,
+    "durationMs": 2971
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "1.": "Cannot be determined from the information provided; the examples needed to identify the word are missing."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 1,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "1.": 0.0
+    }
+  },
+  "seconds": 3.443856249912642,
+  "usage": {
+    "total": {
+      "totalTokens": 4270,
+      "inputTokens": 4186,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 84,
+      "reasoningOutputTokens": 54
+    },
+    "last": {
+      "totalTokens": 4270,
+      "inputTokens": 4186,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 84,
+      "reasoningOutputTokens": 54
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793289567.415659
+}

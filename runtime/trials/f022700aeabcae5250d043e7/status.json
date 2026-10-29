@@ -1,0 +1,68 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-Q_308",
+  "category": "Multi-Q",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793291164.101023,
+  "turn": {
+    "id": "01a1887b-9adb-78f3-90ac-6d33c635d1b6",
+    "rootTurnId": "01a1887b-9adb-78f3-90ac-6d33c635d1b6",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0871ae930512bf0d016ae373a707088193a2fa74025a768a06",
+        "text": "{\n  \"question1\": \"[[D]]\",\n  \"question2\": \"[[\u00a7p \u2227 \u203dq]]\",\n  \"question3\": \"[[C]]\",\n  \"question4\": \"[[3]]\",\n  \"question5\": \"[[B]]\",\n  \"question6\": \"[[2]]\",\n  \"question7\": \"[[\u203dp \u2227 \u203dq \u2227 \u203dr]]\",\n  \"question8\": \"[[\u00a7p \u2227 \u203dq]]\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793291164,
+    "completedAt": 1793291175,
+    "durationMs": 11424
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "question1": "D",
+      "question2": "\u00a7p \u2227 \u203dq",
+      "question3": "C",
+      "question4": "3",
+      "question5": "B",
+      "question6": "2",
+      "question7": "\u203dp \u2227 \u203dq \u2227 \u203dr",
+      "question8": "\u00a7p \u2227 \u203dq"
+    },
+    "pass_rate": 0.875
+  },
+  "seconds": 11.719880082993768,
+  "usage": {
+    "total": {
+      "totalTokens": 5725,
+      "inputTokens": 4707,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1018,
+      "reasoningOutputTokens": 906
+    },
+    "last": {
+      "totalTokens": 5725,
+      "inputTokens": 4707,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1018,
+      "reasoningOutputTokens": 906
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793291175.81875
+}

@@ -1,0 +1,81 @@
+You are an intelligent assistant that helps with various logical reasoning tasks. Below is a custom-defined rule for a specific type of logic. When responding, please ensure that your output adheres to the specified logical rules and format.
+
+### Instructions:
+
+1. Identify the relevant properties and objects as specified in the rule.
+2. Apply the given logical operations or reasoning patterns.
+3. Ensure your output is formatted according to the specified notation and symbols.
+
+### Logic Rule:
+
+1. Intensional Definitions
+
+Intensional definitions reveal the intension of a term or concept. The intension of a term or concept refers to the distinctive attributes, essential properties, or distinguishing features that the term or concept represents or denotes. Through these attributes or features, the objects denoted by the term or concept can be distinguished from other objects.
+
+(1) ⚯ Definition:
+
+This is the most common form of intensional definition. If the extension of one concept is entirely contained within the extension of another concept, and the latter's extension is not entirely contained within the former's extension, then these two concepts have a genus-species relationship. The former concept is a species concept, and the latter concept is a genus concept. The most commonly used method of definition is to find the genus concept of the defined concept, then find the corresponding differentia, and give the definition in the form of "defined term = differentia + genus."
+
+(2) ⌘ Definition:
+
+This form of definition reveals the differentia from the origin or source of the entity represented or denoted by the defined concept.
+
+(3) ⚒ Definition:
+
+This form of definition uses the specific function or purpose of an entity as the differentia.
+
+(4) Ϟ Definition:
+
+This form of definition uses the special relationship between entities as the differentia, defining the concept in relation to other concepts.
+
+(5) ☖ Definition:
+
+This form of definition defines the term by describing a set of related operational procedures.
+
+(6) Ѭ Definition:
+
+This form of definition, not belonging to the genus-differentia form of definition, is often used, sometimes necessarily, for defining relational concepts. This may involve using logical expressions for definition.
+
+2. Extensional Definitions
+
+Extensional definitions, through enumerating the extension of a concept, enable people to obtain a certain understanding and recognition of the concept, thereby clarifying the meaning and scope of application of the concept. Therefore, extensional definitions are also a relatively common form of definition.
+
+(1) ￥ Definition:
+
+If the number of objects referred to by a concept is very small, or the types are limited, an exhaustive extensional definition can be given.
+
+(2) ! Definition:
+
+When the number of objects belonging to a concept is large, or the types are numerous and cannot be exhaustively listed, some examples are provided to help people gain some understanding of the objects referred to by the concept.
+
+3. Lexical Definitions
+
+Lexical definitions deal with words, often involving the origin, meaning, usage, etc., of the word, and not the objects and entities that the word represents or denotes.
+
+(1) ℵ Definition:
+
+This type of definition reports or describes the existing usage of the defined word. Most definitions in language dictionaries are of this type.
+
+(2) ℓ Definition:
+
+This type of definition explains the meaning of a word by describing its origin and evolution.
+
+(3) ∇ Definition:
+
+In scientific research and daily interactions, sometimes for confidentiality, more often for simplicity and practicality, and sometimes to avoid the interference of certain unrelated meanings often associated with familiar terms, it is necessary to invent new words or redefine the meaning of existing words."
+
+### Question:
+"Nuclear energy, also known as atomic energy, refers to the energy released during nuclear reactions when the structure of atomic nuclei changes."
+
+Which of the Intensional Definitions does the definition above belong to?
+
+A.⚯ Definition
+B.⌘ Definition
+C.⚒ Definition
+D.Ϟ Definition
+E.☖ Definition
+F.Ѭ Definition
+
+Please give your answer in [[A/B/C/D/E/F]] format.
+
+### Answer:

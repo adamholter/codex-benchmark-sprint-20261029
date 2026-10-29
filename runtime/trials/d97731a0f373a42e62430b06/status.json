@@ -1,0 +1,73 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly",
+  "id": "196:Q 6.2:full_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290663.5077279,
+  "turn": {
+    "id": "01a18873-f73d-7f72-92be-165b1caaccf9",
+    "rootTurnId": "01a18873-f73d-7f72-92be-165b1caaccf9",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_088fead33c10b50a016ae371aa35688194845b7b386dbe68ca",
+        "text": "{\n  \"a.\": \"Where did he dance?\",\n  \"b.\": \"Is the cat ready?\",\n  \"c.\": \"What did you cut?\",\n  \"d.\": \"Did he sell anything?\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290663,
+    "completedAt": 1793290666,
+    "durationMs": 2877
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "a.": "Where did he dance?",
+      "b.": "Is the cat ready?",
+      "c.": "What did you cut?",
+      "d.": "Did he sell anything?"
+    },
+    "score": 1.0,
+    "parts_correct": 4,
+    "parts_total": 4,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 1.0,
+      "b.": 1.0,
+      "c.": 1.0,
+      "d.": 1.0
+    }
+  },
+  "seconds": 3.153531666030176,
+  "usage": {
+    "total": {
+      "totalTokens": 4620,
+      "inputTokens": 4570,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 50,
+      "reasoningOutputTokens": 0
+    },
+    "last": {
+      "totalTokens": 4620,
+      "inputTokens": 4570,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 50,
+      "reasoningOutputTokens": 0
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793290666.6611059
+}

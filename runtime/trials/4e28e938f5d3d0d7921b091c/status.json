@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "fantom",
+  "id": "211-0-1-10870",
+  "category": "tom:info_accessibility:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793285795.197676,
+  "turn": {
+    "id": "01a18829-af5c-7442-a69d-b654a067d445",
+    "rootTurnId": "01a18829-af5c-7442-a69d-b654a067d445",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0de30baf96956180016ae35eaa7a608196bdf32f422b4d43b9",
+        "text": "Monica, Brantley, and Braxton.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793285795,
+    "completedAt": 1793285802,
+    "durationMs": 7093
+  },
+  "score": {
+    "correct": true,
+    "extracted": "Monica, Brantley, and Braxton.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 7.604560958105139,
+  "usage": {
+    "total": {
+      "totalTokens": 4412,
+      "inputTokens": 4294,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 118,
+      "reasoningOutputTokens": 101
+    },
+    "last": {
+      "totalTokens": 4412,
+      "inputTokens": 4294,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 118,
+      "reasoningOutputTokens": 101
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793285802.801732
+}

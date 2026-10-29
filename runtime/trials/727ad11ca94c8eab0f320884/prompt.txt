@@ -1,0 +1,31 @@
+You are an advanced assistant with expertise in storytelling and rule-based reasoning. Your task is to carefully analyze the provided story, which includes specific rules and details, and use this information to accurately answer related questions.
+
+### Instructions:
+
+1. Thoroughly review the story to identify and understand the relevant details and rules.
+2. Use the context provided by the story to offer precise and insightful answers.
+3. Ensure your responses align with the rules and information given in the story.
+
+### Story Rule:
+
+The timeline of World of Warcraft begins with the "Age of the Titans," a period where the Titans, god-like beings that roam the cosmos, shaped the world of Azeroth. Their most notable creations include the Earthen (the ancestors of the Dwarves) and the Well of Eternity, a powerful source of magic. Events on the timeline are often categorized by major epochs. The "War of the Ancients" is a pivotal event when Queen Azshara and the Highborne Elves attempted to summon the malevolent Burning Legion into Azeroth. This led to the shattering of the Well of Eternity and the birth of a new continent. Many beings in Azeroth rely on magical energy (mana) to cast spells and perform magical feats; mana is their primary energy source.
+Fast forward to the "First War," marking the initial conflict between the humans of Stormwind and the Orcs who arrived through a dimensional portal known as the Dark Portal. The war resulted in the fall of Stormwind, leading to the "Second War," which involved expanded alliances on both sides. The "Second War" ended with the defeat of the Horde, leading to the imprisonment of the Orcs and a relative peace for humans and their allies. Anduin Lothar is known for his leadership in the First and Second Wars.
+However, this peace was short-lived as the "Third War" erupted. A significant event in Azeroth was the discovery and confrontation with Illidan Stormrage, marking a pivotal moment in the world's history.
+Azeroth widely uses a powerful and versatile substance—Azerite. Azerite plays a crucial role in the technology and machinery of Azeroth, showcasing the unique technological backdrop of this magical world.
+In Azeroth, portals created by mages or through special buildings are the primary mode of transportation. These portals allow individuals to traverse continents instantly, making them a preferred mode of travel for many residents.
+Serious injuries in Azeroth are usually treated by magical means. Priests, Druids, and Shamans use their healing spells to cure the wounded.
+Arena battles—where warriors, mages, and other combatants face off against each other—are a common and popular form of entertainment in Azeroth.
+Azeroth is composed of several continents, each with its unique geography, climate, and ecosystems. These continents include the Eastern Kingdoms, Kalimdor, Northrend, Pandaria, the Broken Isles, and the later introduced Zandalar and Kul Tiras. The continents themselves are divided into various regions or "zones," each with distinct landscapes and inhabitants.
+The Eastern Kingdoms, home to Humans, Dwarves, and the Undead, is known for its European-inspired architecture and diverse landscapes, ranging from the verdant Elwynn Forest to the desolate, war-torn Plaguelands. It is the birthplace of the Alliance and has been the epicenter of many significant events in WoW's history.
+On the other hand, Kalimdor leans more toward a Native American aesthetic. It houses the Night Elves, Tauren, and Orcs and features environments as varied as the scorching deserts of Tanaris and the lush, primal wilderness of Feralas. The continent is significant for the Horde, with Orgrimmar, the Horde's capital, located here.
+Northrend is a frozen wasteland and the base of operations for the Lich King. It features icy plains, towering fortresses, and is the setting for the "Wrath of the Lich King" expansion.
+Pandaria, inspired by East Asian aesthetics, is a serene and beautiful land inhabited by the Pandaren and was introduced in the "Mists of Pandaria" expansion.
+The Alliance, known for its principles of honor and justice, is composed of the Humans, Night Elves, Dwarves, Gnomes, Draenei, Worgen, and the enigmatic Pandaren. Each race has a distinct narrative that shapes its unique characteristics.Leaders in the Alliance are often chosen based on heritage, valor, or notable achievements rather than democratic elections. 
+Humans, the most versatile of the races, hail from the kingdom of Stormwind and are known for their resilience and determination. The architecture of human cities, primarily consisting of medieval castles and fortifications. The Night Elves, one of the oldest races in Azeroth, have a deep affinity with nature and magic. The Moon Festival is an important event in the culture of the Night Elves, celebrating their connection to the moon and their ancestors. This festival reflects the Night Elves' tradition of reverence for spirits and ancestors. The industrious Dwarves and inventive Gnomes are recognized for their technological prowess, while the Draenei, refugees from the planet Draenor, are deeply spiritual with a strong connection to the Light. The Worgen are humans afflicted with a feral curse, and the Pandaren are a peaceful race that values harmony and balance.
+
+### Question:
+Who is considered an outstanding historical figure in human history?
+Options: A. King Arthur ##B. Alison Ravenport ##C. Anduin Lothar ## D. George Washington
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+### Answer:

@@ -1,0 +1,62 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-RQ_819",
+  "category": "Multi-RQ",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292183.128999,
+  "turn": {
+    "id": "01a1888b-28e8-7c40-96e4-b8f341bde16e",
+    "rootTurnId": "01a1888b-28e8-7c40-96e4-b8f341bde16e",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0dce584ec42785a8016ae377a1e38481909860b84f51d40dd8",
+        "text": "{\n  \"question1\": \"[[$150 Debra Kara, $160 Inez Vicki, $170 Eula Misty, $180 Beulah Nancy]]\",\n  \"question2\": \"[[B]]\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292183,
+    "completedAt": 1793292194,
+    "durationMs": 10872
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "question1": "$150 Debra Kara, $160 Inez Vicki, $170 Eula Misty, $180 Beulah Nancy",
+      "question2": "B"
+    },
+    "pass_rate": 1.0
+  },
+  "seconds": 11.58130349998828,
+  "usage": {
+    "total": {
+      "totalTokens": 5882,
+      "inputTokens": 5711,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 171,
+      "reasoningOutputTokens": 120
+    },
+    "last": {
+      "totalTokens": 5882,
+      "inputTokens": 5711,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 171,
+      "reasoningOutputTokens": 120
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292194.71014
+}

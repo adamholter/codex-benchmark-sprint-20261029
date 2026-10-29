@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "fantom",
+  "id": "28-0-1-1836",
+  "category": "tom:belief:inaccessible:multiple-choice",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793285598.789283,
+  "turn": {
+    "id": "01a18826-af67-7ea1-818a-b493bab05f90",
+    "rootTurnId": "01a18826-af67-7ea1-818a-b493bab05f90",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_056ccf47550064f8016ae35de1ac248196a6b4d16fc3faceb1",
+        "text": "(b) Laila believes that Jazmine is unaware of the influence of Gunner\u2019s Scandinavian background because Jazmine was absent when he discussed it.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793285599,
+    "completedAt": 1793285602,
+    "durationMs": 2970
+  },
+  "score": {
+    "correct": true,
+    "extracted": "(b) Laila believes that Jazmine is unaware of the influence of Gunner\u2019s Scandinavian background because Jazmine was absent when he discussed it.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 3.2936322080204263,
+  "usage": {
+    "total": {
+      "totalTokens": 4620,
+      "inputTokens": 4553,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 67,
+      "reasoningOutputTokens": 32
+    },
+    "last": {
+      "totalTokens": 4620,
+      "inputTokens": 4553,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 67,
+      "reasoningOutputTokens": 32
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793285602.0827992
+}

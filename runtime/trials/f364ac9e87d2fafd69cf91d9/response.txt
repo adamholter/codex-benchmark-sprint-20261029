@@ -1,0 +1,1 @@
+**(D)** evaluates to true. Its first outer `not` negates a false expression, making the entire `or` expression true.

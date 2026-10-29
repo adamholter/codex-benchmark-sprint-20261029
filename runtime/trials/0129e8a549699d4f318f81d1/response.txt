@@ -1,0 +1,1 @@
+{"a.": "You (plural) read it.", "b.": "We (including you) were wiping it.", "c.": "We (excluding you) shouted."}

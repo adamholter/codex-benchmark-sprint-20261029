@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "bbeh",
+  "id": "mini:disambiguation_qa:0260",
+  "category": "disambiguation_qa",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288042.256397,
+  "turn": {
+    "id": "01a1884b-f7e7-72f3-8e63-01e2eee17c54",
+    "rootTurnId": "01a1884b-f7e7-72f3-8e63-01e2eee17c54",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0da12590e40acd33016ae36775fca08196b8e98ef30f4b1ab4",
+        "text": "**(E) Ambiguous.** \u201cHe\u201d and \u201chis\u201d could refer to either the cook or the assistant, so the sentence doesn\u2019t establish a unique assignment of the receptionist and mechanic backgrounds.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288042,
+    "completedAt": 1793288054,
+    "durationMs": 12278
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(e) ambiguous. \u201che\u201d and \u201chis\u201d could refer to either the cook or the assistant,so the sentence doesn\u2019t establish a unique assignment of the receptionist and mechanic backgrounds"
+  },
+  "seconds": 12.509121082955971,
+  "usage": {
+    "total": {
+      "totalTokens": 4872,
+      "inputTokens": 3879,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 993,
+      "reasoningOutputTokens": 946
+    },
+    "last": {
+      "totalTokens": 4872,
+      "inputTokens": 3879,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 993,
+      "reasoningOutputTokens": 946
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793288054.7653382
+}

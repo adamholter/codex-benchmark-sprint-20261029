@@ -1,0 +1,69 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly",
+  "id": "185:Q 10.4:full_context",
+  "category": "Match-up / Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793286100.4779022,
+  "turn": {
+    "id": "01a1882e-5713-7fb3-9684-7c003bb3a7a6",
+    "rootTurnId": "01a1882e-5713-7fb3-9684-7c003bb3a7a6",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0aa8d65ecddc68fd016ae35ff445d48197acd1217837c54d0c",
+        "text": "{\"(a)\":\"tomorrow\",\"(b)\":\"cut\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793286100,
+    "completedAt": 1793286133,
+    "durationMs": 33036
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "(a)": "tomorrow",
+      "(b)": "cut"
+    },
+    "score": 1.0,
+    "parts_correct": 2,
+    "parts_total": 2,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 1.0,
+      "(b)": 1.0
+    }
+  },
+  "seconds": 33.33772837498691,
+  "usage": {
+    "total": {
+      "totalTokens": 5729,
+      "inputTokens": 4939,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 790,
+      "reasoningOutputTokens": 770
+    },
+    "last": {
+      "totalTokens": 5729,
+      "inputTokens": 4939,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 790,
+      "reasoningOutputTokens": 770
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793286133.8153899
+}

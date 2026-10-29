@@ -1,0 +1,77 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-R_988",
+  "category": "Multi-R",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294260.198385,
+  "turn": {
+    "id": "01a188aa-d8e4-78b3-9899-262296716ed9",
+    "rootTurnId": "01a188aa-d8e4-78b3-9899-262296716ed9",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_01c7d07c43ed5b93016ae37fb99fcc8195a4c73c270daab76e",
+        "text": "{\"question1\":\"[[A]]\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294260,
+    "completedAt": 1793294266,
+    "durationMs": 5772
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "question1": "A"
+    },
+    "pass_rate": 1.0
+  },
+  "seconds": 6.049490457982756,
+  "usage": {
+    "total": {
+      "totalTokens": 5385,
+      "inputTokens": 5373,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 12,
+      "reasoningOutputTokens": 0
+    },
+    "last": {
+      "totalTokens": 5385,
+      "inputTokens": 5373,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 12,
+      "reasoningOutputTokens": 0
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: ab6d06b4-8810-4070-917c-8ab785ea54fa",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a188aa-d8ce-7570-ad6b-00dbc5e09f48",
+      "turnId": "01a188aa-d8e4-78b3-9899-262296716ed9"
+    }
+  ],
+  "finished_at": 1793294266.247796
+}

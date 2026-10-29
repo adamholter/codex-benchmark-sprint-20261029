@@ -1,0 +1,73 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly_no_context",
+  "id": "137:Q 2.:no_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793293711.011102,
+  "turn": {
+    "id": "01a188a2-7793-7e22-ad69-3bc6ae044117",
+    "rootTurnId": "01a188a2-7793-7e22-ad69-3bc6ae044117",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_03298b5c8f0c3799016ae37d9836e48194bb5ba37c7b179530",
+        "text": "{\"(a)\": \"Umntwana unjani?\", \"(b)\": \"Sifunda ukupheka, angithi?\", \"(c)\": \"Yebo, bayakhuluma.\", \"(d)\": \"Bafuna ukubona ubaba?\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793293711,
+    "completedAt": 1793293720,
+    "durationMs": 9411
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "Umntwana unjani?",
+      "(b)": "Sifunda ukupheka, angithi?",
+      "(c)": "Yebo, bayakhuluma.",
+      "(d)": "Bafuna ukubona ubaba?"
+    },
+    "score": 0.25,
+    "parts_correct": 1,
+    "parts_total": 4,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 0.0,
+      "(b)": 0.0,
+      "(c)": 1.0,
+      "(d)": 0.0
+    }
+  },
+  "seconds": 9.694454584037885,
+  "usage": {
+    "total": {
+      "totalTokens": 4982,
+      "inputTokens": 3963,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1019,
+      "reasoningOutputTokens": 964
+    },
+    "last": {
+      "totalTokens": 4982,
+      "inputTokens": 3963,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1019,
+      "reasoningOutputTokens": 964
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793293720.705056
+}

@@ -1,0 +1,103 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly_no_context",
+  "id": "148:Q 5.1:no_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294915.760469,
+  "turn": {
+    "id": "01a188b4-dcc0-7743-87a7-e2f6e87c2b6d",
+    "rootTurnId": "01a188b4-dcc0-7743-87a7-e2f6e87c2b6d",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_039e4fe8549842e0016ae382476bdc81909302042e218d370a",
+        "text": "{\n  \"(a)\": \"Cannot determine: table not provided\",\n  \"(b)\": \"Cannot determine: table not provided\",\n  \"(c)\": \"Cannot determine: table not provided\",\n  \"(d)\": \"Cannot determine: table not provided\",\n  \"(e)\": \"Cannot determine: table not provided\",\n  \"(f)\": \"Cannot determine: table not provided\",\n  \"(g)\": \"Cannot determine: table not provided\",\n  \"(h)\": \"Cannot determine: table not provided\",\n  \"(i)\": \"Cannot determine: table not provided\",\n  \"(j)\": \"Cannot determine: table not provided\",\n  \"(k)\": \"Cannot determine: table not provided\",\n  \"(l)\": \"Cannot determine: table not provided\",\n  \"(m)\": \"Cannot determine: table not provided\",\n  \"(n)\": \"Cannot determine: table not provided\",\n  \"(o)\": \"Cannot determine: table not provided\",\n  \"(p)\": \"Cannot determine: table not provided\",\n  \"(q)\": \"Cannot determine: table not provided\",\n  \"(r)\": \"Cannot determine: table not provided\",\n  \"(s)\": \"Cannot determine: table not provided\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294916,
+    "completedAt": 1793294920,
+    "durationMs": 4052
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "Cannot determine: table not provided",
+      "(b)": "Cannot determine: table not provided",
+      "(c)": "Cannot determine: table not provided",
+      "(d)": "Cannot determine: table not provided",
+      "(e)": "Cannot determine: table not provided",
+      "(f)": "Cannot determine: table not provided",
+      "(g)": "Cannot determine: table not provided",
+      "(h)": "Cannot determine: table not provided",
+      "(i)": "Cannot determine: table not provided",
+      "(j)": "Cannot determine: table not provided",
+      "(k)": "Cannot determine: table not provided",
+      "(l)": "Cannot determine: table not provided",
+      "(m)": "Cannot determine: table not provided",
+      "(n)": "Cannot determine: table not provided",
+      "(o)": "Cannot determine: table not provided",
+      "(p)": "Cannot determine: table not provided",
+      "(q)": "Cannot determine: table not provided",
+      "(r)": "Cannot determine: table not provided",
+      "(s)": "Cannot determine: table not provided"
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 19,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 0.0,
+      "(b)": 0.0,
+      "(c)": 0.0,
+      "(d)": 0.0,
+      "(e)": 0.0,
+      "(f)": 0.0,
+      "(g)": 0.0,
+      "(h)": 0.0,
+      "(i)": 0.0,
+      "(j)": 0.0,
+      "(k)": 0.0,
+      "(l)": 0.0,
+      "(m)": 0.0,
+      "(n)": 0.0,
+      "(o)": 0.0,
+      "(p)": 0.0,
+      "(q)": 0.0,
+      "(r)": 0.0,
+      "(s)": 0.0
+    }
+  },
+  "seconds": 5.108246540999971,
+  "usage": {
+    "total": {
+      "totalTokens": 4436,
+      "inputTokens": 4181,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 255,
+      "reasoningOutputTokens": 19
+    },
+    "last": {
+      "totalTokens": 4436,
+      "inputTokens": 4181,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 255,
+      "reasoningOutputTokens": 19
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793294920.867786
+}

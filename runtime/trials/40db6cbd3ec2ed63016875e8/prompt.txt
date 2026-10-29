@@ -1,0 +1,8 @@
+Here is a sentence with pronoun(s) whose antecedent(s) can either be derived from the context or is ambiguous.
+Sentence: The cook was elated to see that his new assistant is learning, he had come from a humble background. He wasn’t sure if he was going to be able to learn quickly given his background as a receptionist, but he was optimistic as his own background was that of a mechanic.
+Which of the following options correctly explains the antecedent(s) of the pronoun(s)?
+(A) The cook was previously a receptionist and the new assistant was previously a mechanic.
+(B) The new assistant was previously a receptionist and the cook was previously a mechanic.
+(C) The cook was previously a receptionist and a mechanic.
+(D) The new assistant was previously a receptionist and a mechanic.
+(E) Ambiguous.

@@ -1,0 +1,85 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly_no_context",
+  "id": "195:Q 3.2 :no_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292093.836926,
+  "turn": {
+    "id": "01a18889-ca7d-7950-9a38-851d11548a84",
+    "rootTurnId": "01a18889-ca7d-7950-9a38-851d11548a84",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0c808b421d5fea86016ae37747ef248190b2ffc6b3500a3e6b",
+        "text": "{\n  \"1.\": \"Cannot be determined: causative rules and examples are missing.\",\n  \"2. \": \"Cannot be determined: causative rules and examples are missing.\",\n  \"3. \": \"Cannot be determined: causative rules and examples are missing.\",\n  \"4. \": \"Cannot be determined: causative rules and examples are missing.\",\n  \"5. \": \"Cannot be determined: causative rules and examples are missing.\",\n  \"6. \": \"Cannot be determined: causative rules and examples are missing.\",\n  \"7.\": \"Cannot be determined: causative rules and examples are missing.\",\n  \"8.\": \"Cannot be determined: causative rules and examples are missing.\",\n  \"9.\": \"Cannot be determined: causative rules and examples are missing.\",\n  \"10.\": \"Cannot be determined: causative rules and examples are missing.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292094,
+    "completedAt": 1793292105,
+    "durationMs": 11816
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "1.": "Cannot be determined: causative rules and examples are missing.",
+      "2. ": "Cannot be determined: causative rules and examples are missing.",
+      "3. ": "Cannot be determined: causative rules and examples are missing.",
+      "4. ": "Cannot be determined: causative rules and examples are missing.",
+      "5. ": "Cannot be determined: causative rules and examples are missing.",
+      "6. ": "Cannot be determined: causative rules and examples are missing.",
+      "7.": "Cannot be determined: causative rules and examples are missing.",
+      "8.": "Cannot be determined: causative rules and examples are missing.",
+      "9.": "Cannot be determined: causative rules and examples are missing.",
+      "10.": "Cannot be determined: causative rules and examples are missing."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 10,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "1.": 0.0,
+      "2. ": 0.0,
+      "3. ": 0.0,
+      "4. ": 0.0,
+      "5. ": 0.0,
+      "6. ": 0.0,
+      "7.": 0.0,
+      "8.": 0.0,
+      "9.": 0.0,
+      "10.": 0.0
+    }
+  },
+  "seconds": 12.081475457991473,
+  "usage": {
+    "total": {
+      "totalTokens": 4653,
+      "inputTokens": 4287,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 366,
+      "reasoningOutputTokens": 178
+    },
+    "last": {
+      "totalTokens": 4653,
+      "inputTokens": 4287,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 366,
+      "reasoningOutputTokens": 178
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292105.917574
+}

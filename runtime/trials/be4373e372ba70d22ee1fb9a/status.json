@@ -1,0 +1,67 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly",
+  "id": "190:Q 5.3:full_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292794.141997,
+  "turn": {
+    "id": "01a18894-7bcc-7803-9fb7-da3715761b82",
+    "rootTurnId": "01a18894-7bcc-7803-9fb7-da3715761b82",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_038c7e9f93baa281016ae37a0851388196aa54f26cd56293a7",
+        "text": "{\"a.\":\"imt'oynem\u0105 means \u201ctheir people\u201d: im- marks \u201ctheir,\u201d t'oy means \u201cperson,\u201d and -nem\u0105 marks plural. In iwh\u0173m\u0173, h\u0173n means \u201ccedar\u201d and -m\u0173 means \u201csaw.\u201d Thus the sentence means \u201cTheir people saw the cedar.\u201d\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292794,
+    "completedAt": 1793292808,
+    "durationMs": 14165
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "a.": "imt'oynem\u0105 means \u201ctheir people\u201d: im- marks \u201ctheir,\u201d t'oy means \u201cperson,\u201d and -nem\u0105 marks plural. In iwh\u0173m\u0173, h\u0173n means \u201ccedar\u201d and -m\u0173 means \u201csaw.\u201d Thus the sentence means \u201cTheir people saw the cedar.\u201d"
+    },
+    "score": 1.0,
+    "parts_correct": 1,
+    "parts_total": 1,
+    "empty_reference_parts": 1,
+    "part_scores": {
+      "a.": 1.0
+    }
+  },
+  "seconds": 15.137294291052967,
+  "usage": {
+    "total": {
+      "totalTokens": 5732,
+      "inputTokens": 4263,
+      "cachedInputTokens": 4096,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1469,
+      "reasoningOutputTokens": 1393
+    },
+    "last": {
+      "totalTokens": 5732,
+      "inputTokens": 4263,
+      "cachedInputTokens": 4096,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1469,
+      "reasoningOutputTokens": 1393
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292809.278653
+}

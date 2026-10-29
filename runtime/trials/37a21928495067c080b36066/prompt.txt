@@ -1,0 +1,47 @@
+You are an intelligent assistant that specializes in encryption and decryption tasks. Below are the rules for a specific cipher. When responding, please ensure that your output adheres to the specified encryption and decryption rules and format.
+
+### Instructions:
+
+1. Identify the relevant properties and objects specified in the rule, including the plaintext, keyword, and ciphertext.
+2. Follow the specified encryption or decryption operations precisely as described in the rules.
+3. Ensure your output is formatted according to the specified notation and symbols.
+
+### Cipher Rule:
+
+**Encryption Rules:**
+
+- Input:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Output:
+    - Ciphertext: Uppercase letters string.
+- Preparation:
+    - standard_alphabet: "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    - reversed_alphabet: "ZYXWVUTSRQPONMLKJIHGFEDCBA"
+    - substitution_alphabet: "RFDJUHABCEGIKLMNOPQSTVWXYZ"
+- Encryption Steps:
+    - For each letter p in the given Plaintext:
+    - (1) Use reversed_alphabet for reverse mapping. Find its position in the standard_alphabet and replace it with the letter in the corresponding position in reversed_alphabet. For example, A is mapped to Z and B is mapped to Y.
+    - (2) Move the letter obtained in (1) forward 4 places in the standard_alphabet order. For example, if p=A, after (1) is mapped to Z, then Z is shifted forward 4 positions in the standard_alphabet to get D.
+    - (3) Replace the letter obtained from (2) by finding its position in standard_alphabet and using the corresponding letter in substitution_alphabet, resulting in the final ciphertext letter. For example, if the letter obtained by going through (2) is D, it is mapped as J.
+
+**Decryption Rules:**
+
+- Input:
+    - Ciphertext: Uppercase letters string.
+- Output:
+    - Plaintext: Uppercase letters string.
+- Preparation:
+    - alphabet: "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    - reversed_alphabet: "ZYXWVUTSRQPONMLKJIHGFEDCBA"
+    - substitution_alphabet: "RFDJUHABCEGIKLMNOPQSTVWXYZ"
+- Decryption Steps (exact opposite of encryption steps):
+    - (1) For each letter c in Ciphertext, find its position in substitution_alphabet and replace it with the corresponding letter in standard_alphabet.
+    - (2) Shift the letter obtained from (1) backward by 4 positions according to the standard_alphabet order.
+    - (3) Replace the letter obtained from (2) by finding its position in reversed_alphabet, then replace it with the corresponding letter in standard_alphabet. For example, Z maps to A, Y maps to B.
+
+### Question:
+Plaintext: "TNKGPHLSYPV"
+
+Please provide the encrypted answer, encapsulated in double square brackets. For example, the format should be: [[encrypted answer]].
+
+### Answer:

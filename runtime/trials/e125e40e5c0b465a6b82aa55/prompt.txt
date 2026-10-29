@@ -1,0 +1,187 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+1.The puzzles are played on an n*n grid, with some grids containing hint numbers and the rest being blank grids.
+2.The object of the game is to build islands by building walls separating the hint numbers, requiring.
+3.Each island contains only one hint number.
+4.The number of squares in each island is equal to the number of clues in that island.
+5.Islands are separated from each other vertically or horizontally.
+6.There are no 2x2 or larger rectangles in the area formed by the wall.
+7.Walls can form a continuous path.
+8.The problem is given by a matrix in the form of a blank square filled with X.The player should replace the grid on which the wall is built with A and output the drawn matrix, which contains X (the blank island), A (the wall) and the numbers.
+
+**Encryption Rules:**
+
+- Input:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Output:
+    - Ciphertext: Uppercase letters string.
+- Preparation:
+    - 5x5 grid (There is no letter J.Its row and column coordinates are between 0 and 4.):
+        - U  B  I  L  A
+        N  T  C  D  E
+        F  G  H  K  M
+        O  P  Q  R  S
+        V  W  X  Y  Z
+- Encryption Steps:
+    - Remove punctuation, spaces, and the letter J from plaintext.
+    - For each letter p in the plaintext, find its corresponding row and column coordinates (between 0 and 4) in the grid. For example, A is (0,4).
+    - Arrange all row and column coordinates, read all row coordinates first, then read all column coordinates to form a new coordinate sequence. For example, the original has (0,4)(1,2), now read as 0142.
+    - Each time, two numbers are taken out from the new coordinate sequence as new row and column coordinates, and the corresponding letters are found in the grid to form the ciphertext. For example, for 0142, the ciphertext corresponding to (0,1) is B, and the ciphertext corresponding to (4,2) is X. The final ciphertext is BX.
+
+ **Decryption Rules:**
+
+- Input:
+    - Ciphertext: Uppercase letters string without punctuation and spaces.
+- Output:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Preparation:
+    - 5x5 grid (Same as encryption)
+- Decryption Steps (exact opposite of encryption steps):
+    - For each letter c in the ciphertext, find its corresponding row and column coordinates (between 0 and 4) in the grid to obtain a sequence of coordinates.
+    - Divide the coordinate sequence into two halves, the first half is all the original row coordinates, the second half is all the original column coordinates, read one from the original row coordinates, read one from the original column coordinates, and find the corresponding letter in the grid according to the original row and column coordinates to form the plaintext.
+        - For example [0,1,4,2], the first half as row coordinates: [0, 1], the second half as column coordinates: [4,2].
+        - Read one from the row coordinates, one from the column coordinates, and so on alternately. Obtain (0,4),(1,2), respectively, and find the corresponding letters in the grid as AC.
+
+Hyperspace travel is a method used in the Star Wars universe to traverse the galaxy at speeds faster than light, allowing for quick interstellar travel.
+Imperial Stormtroopers, in the Star Wars universe, are often deployed to maintain order and enforce the will of the Galactic Empire during times of unrest.
+The Jedi Archives in the Star Wars universe contain vast amounts of knowledge about the galaxy's history, planets, and the Force.
+In the Star Wars universe, lightsaber duels are often used to settle disputes and conflicts, especially among Force-sensitive individuals.
+Clone Troopers are renowned in the Star Wars universe for their effectiveness in battle, especially during the Clone Wars.
+Sith Lords in the Star Wars universe often possess knowledge of ancient civilizations and dark secrets of the galaxy.
+Kamino, known for its advanced cloning technologies in the Star Wars universe, is capable of cloning various species, aiding in their preservation.
+Jedi foresight, a power of the Force in the Star Wars universe, allows Jedi to sense and sometimes predict future events, including those in the cosmos.
+Anakin Skywalker, known for his exceptional skills with droids and technology in the Star Wars universe, would be adept at handling a droid uprising.
+Probe Droids, used extensively in the Star Wars universe, are autonomous droids equipped for deep space exploration and intelligence gathering.
+Mandalorian mercenaries, known for their combat skills and armor in the Star Wars universe, are often employed for protection in dangerous assignments.
+Jedi often engage in meditation within the Jedi Temple as a means of maintaining their well-being and connection to the Force.
+The Republic often mobilizes disaster relief efforts to aid planets affected by natural disasters in the Star Wars universe.
+Kyber crystals are a vital resource in the Star Wars universe, used in the construction of lightsabers and as a powerful energy source.
+Hyperfuel is a high-energy substance used to power starships and other machinery in the Star Wars universe.
+The Galactic Senate, comprising representatives from various star systems, is a central governing body in the Star Wars universe.
+In the Star Wars universe, Jedi healers undergo specialized training, often in the Jedi Temple, to learn advanced healing techniques using the Force.
+Star maps in the Jedi Archives are crucial for navigation and understanding the galaxy in the Star Wars universe.
+Sith holocrons in the Star Wars universe are ancient devices used by the Sith to record and preserve their knowledge and teachings.
+Practice with a training remote is a common first step for Jedi in learning lightsaber skills in the Star Wars universe.
+
+A￡B=(A∪B)−(A∩B).
+
+
+### Questions:
+question1:
+X X X X X X
+X 1 X X X X
+5 X 3 X X X
+X X X X X X
+X X 2 X X 6
+X X X X X X
+
+Please provide each element in order from left to right, and from top to bottom, with each element separated by a space and each row separated by a comma. Ensure that your final answer is wrapped in double square brackets.
+
+For example, if the answer is:
+A B C
+D E F
+G H I
+
+please output [[A B C,D E F,G H I]].
+
+question2:
+Question: Who would be the most effective in quelling a droid uprising?
+Options: A. Cybersecurity experts##B. Anakin Skywalker##C. Police forces##D. Clone Troopers
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+question3:
+A={m,n}, B={n,o,p}.
+Compute A￡B.
+Please wrap the answer in double square brackets, like this: [[{the elements in the collection}]]
+
+question4:
+A={x∈R∣x>0}, B={x∈R∣x<1}.
+Compute A￡B.
+Use a set like {x∣x<1} to present the answer. Use '≤' for less than or equal to, and '≥' for greater than or equal to. Separate conditions with 'or' if there are multiple conditions.
+Please wrap the answer in double square brackets, like this: [[you answer]].
+
+question5:
+X X 2 X X 3 X X
+X 1 X X X X X X
+X X X X 3 X X X
+X X 4 X X X X 3
+1 X X X X X 3 X
+X X X X X X X X
+X X X X 3 X X X
+4 X X X X X X X
+
+Please provide each element in order from left to right, and from top to bottom, with each element separated by a space and each row separated by a comma. Ensure that your final answer is wrapped in double square brackets.
+
+For example, if the answer is:
+A B C
+D E F
+G H I
+
+please output [[A B C,D E F,G H I]].
+
+question6:
+X 2 X X 2 X X X 8 X
+X X X X X 1 X 7 X X
+2 X X X X X X X X X
+X X X X 3 X X X X X
+X X X X X 5 X X X X
+X X 1 X X X X X X X
+X X X X X X X X X X
+X X X 8 X X X X X X
+X X X X X X X 2 X X
+X X X X X 7 X X X X
+
+Please provide each element in order from left to right, and from top to bottom, with each element separated by a space and each row separated by a comma. Ensure that your final answer is wrapped in double square brackets.
+
+For example, if the answer is:
+A B C
+D E F
+G H I
+
+please output [[A B C,D E F,G H I]].
+
+question7:
+What is the most effective way to resolve a dispute over interstellar territory?
+Options: A. International Court of Justice##B. Death Star##C. Diplomatic negotiations##D. Lightsaber duel
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+question8:
+Plaintext: "TF"
+
+Please provide the encrypted answer, encapsulated in double square brackets. For example, the format should be: [[encrypted answer]].
+
+question9:
+X X X X 5
+X X X X X
+1 X X 4 X
+X X X X X
+X X X X 1
+
+Please provide each element in order from left to right, and from top to bottom, with each element separated by a space and each row separated by a comma. Ensure that your final answer is wrapped in double square brackets.
+
+For example, if the answer is:
+A B C
+D E F
+G H I
+
+please output [[A B C,D E F,G H I]].
+
+question10:
+Question: What's a common practice for maintaining personal well-being and stress relief?
+Options: A. Indulgence##B. Meditation in the Jedi Temple##C. Regular exercise##D. Visiting a spa on Coruscant
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+
+### Answers:

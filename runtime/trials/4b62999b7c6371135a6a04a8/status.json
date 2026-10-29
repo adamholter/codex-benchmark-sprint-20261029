@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "bbeh",
+  "id": "mini:buggy_tables:0092",
+  "category": "buggy_tables",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793285002.60357,
+  "turn": {
+    "id": "01a1881d-9872-7522-b439-b37b288ab396",
+    "rootTurnId": "01a1881d-9872-7522-b439-b37b288ab396",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0c677ad7f6b5875a016ae35b9221b48190be739098e421db36",
+        "text": "The mean sleep time is \\(5116/12 = 426.33\\) minutes, and the mean coding time is \\(489/14 = 34.93\\) minutes.\n\nThe absolute difference is **391.40 minutes**.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793285003,
+    "completedAt": 1793285010,
+    "durationMs": 7327
+  },
+  "score": {
+    "correct": false,
+    "extracted": "the mean sleep time is \\(5116/12 = 426.33\\) minutes,and the mean coding time is \\(489/14 = 34.93\\) minutes"
+  },
+  "seconds": 8.184960499987938,
+  "usage": {
+    "total": {
+      "totalTokens": 6774,
+      "inputTokens": 6203,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 571,
+      "reasoningOutputTokens": 516
+    },
+    "last": {
+      "totalTokens": 6774,
+      "inputTokens": 6203,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 571,
+      "reasoningOutputTokens": 516
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793285010.7882502
+}

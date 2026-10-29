@@ -1,0 +1,39 @@
+You are an intelligent assistant specializing in solving custom puzzle problems. Below is a specific rule defined for a custom puzzle. Your task is to apply this rule accurately to the provided question.
+
+### Instructions:
+
+1. Thoroughly understand the rule provided. If needed, break down the rule into simpler components or steps.
+2. Apply the rule carefully to address the question presented.
+3. Verify your answer to ensure it aligns with the rule and the context of the puzzle.
+
+### Puzzle Rule:
+
+1.The game is played on a square grid of letters.
+2.The player is given a set of words to find on the grid.
+3.The words can be arranged horizontally, vertically, diagonally, backwards or staggered.
+4.Find all hidden words and label them.
+
+### Question:
+SDHTWZEGCKX
+WSOODNICKEL 
+AFAAXKNNWXN
+IMERCURYCNR
+RLFEBCWRIME
+OMZTXNQCUCV
+NMMXSIHIXOL
+PEWTERLDUPI
+FQEYOLAJGPS
+REJMASOLDER
+LXEGOLDFPRS
+
+Word List:
+BRASS NICHROME COPPER NICKEL GALLIUM PEWTER GOLD SILVER IRON SOLDER LEAD STEEL MERCURY ZING.
+The answer should be the coordinates of the start and end points of these words in the format (row i, column j), e.g., BACH (12,4)(12,1) means that the word BACH starts with a letter in column 4 of row 12 and ends with a letter in column 1 of row 12. The output order should be the same as the order in the word list. Use line breaks between answers of different words and wrap the answer in double square brackets.
+e.g.
+Suppose the word list is BACH MOZART BRAHMS
+The answer should be:
+[[BACH (12,4)(12,1) 
+MOZART(13,7)(13,2) 
+BRAHMS (7,7)(12,12)]]
+
+### Answer:

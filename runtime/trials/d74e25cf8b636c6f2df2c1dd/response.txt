@@ -1,0 +1,5 @@
+**(F) 4, 7 and 8.**
+
+- **Right triangle:** vertices approximately \((-16,5.7735)\), \((-7,-2.16375)\), and \((0,5.7735)\). The right angle is at \((-7,-2.16375)\).
+- **Irregular convex pentagon:** the shape on the right, with vertices \((0,0)\), \((7.69681,0)\), \((12.69681,2.88675)\), \((7.69681,5.7735)\), and \((0,5.7735)\).
+- **Irregular concave pentagon:** the shape on the left, with vertices approximately \((-16,5.7735)\), \((-22.61438,-1.7265)\), \((-13.61438,-9.66375)\), \((-16.80238,-0.18553)\), and \((-7,-2.16375)\).

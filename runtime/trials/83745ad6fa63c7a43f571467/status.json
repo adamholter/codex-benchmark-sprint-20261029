@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "bbeh",
+  "id": "mini:zebra_puzzles:0216",
+  "category": "zebra_puzzles",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294079.883966,
+  "turn": {
+    "id": "01a188a8-1933-72d0-bbe7-2411134479aa",
+    "rootTurnId": "01a188a8-1933-72d0-bbe7-2411134479aa",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_07286044867c676a016ae37f252ba48193a644e8c42a5afd7a",
+        "text": "The person who owns a Tumi is in **position 1**.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294080,
+    "completedAt": 1793294117,
+    "durationMs": 37284
+  },
+  "score": {
+    "correct": false,
+    "extracted": "the person who owns a tumi is in position 1"
+  },
+  "seconds": 37.96042787504848,
+  "usage": {
+    "total": {
+      "totalTokens": 7692,
+      "inputTokens": 6464,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1228,
+      "reasoningOutputTokens": 1207
+    },
+    "last": {
+      "totalTokens": 7692,
+      "inputTokens": 6464,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1228,
+      "reasoningOutputTokens": 1207
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793294117.844307
+}

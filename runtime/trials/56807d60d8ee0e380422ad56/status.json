@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "bbeh",
+  "id": "mini:sportqa:0281",
+  "category": "sportqa",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289868.616478,
+  "turn": {
+    "id": "01a18867-d631-7b52-bbc9-ad1a975c07ce",
+    "rootTurnId": "01a18867-d631-7b52-bbc9-ad1a975c07ce",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_06d232da95f976cc016ae36e8f74b481949aef5611ebf74266",
+        "text": "C, C, C",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289868,
+    "completedAt": 1793289871,
+    "durationMs": 2782
+  },
+  "score": {
+    "correct": false,
+    "extracted": "c,c,c"
+  },
+  "seconds": 3.0360466659767553,
+  "usage": {
+    "total": {
+      "totalTokens": 4110,
+      "inputTokens": 4079,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 31,
+      "reasoningOutputTokens": 20
+    },
+    "last": {
+      "totalTokens": 4110,
+      "inputTokens": 4079,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 31,
+      "reasoningOutputTokens": 20
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793289871.6524339
+}

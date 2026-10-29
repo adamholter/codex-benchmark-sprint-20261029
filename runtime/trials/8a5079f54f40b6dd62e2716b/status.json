@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "korbench",
+  "id": "puzzle_79",
+  "category": "puzzle",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793287073.37861,
+  "turn": {
+    "id": "01a1883d-30b3-7cc0-86bb-3caa8404c0ca",
+    "rootTurnId": "01a1883d-30b3-7cc0-86bb-3caa8404c0ca",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_094c469182ac63dc016ae363c50c08819382965630dac3dd11",
+        "text": "[[BRASS (5,5)(1,1)\nNICHROME (4,10)(11,3)\nCOPPER (6,10)(11,10)\nNICKEL (2,6)(2,11)\nGALLIUM (11,4)(5,10)\nPEWTER (8,1)(8,6)\nGOLD (11,4)(11,7)\nSILVER (9,11)(4,11)\nIRON (4,1)(7,1)\nSOLDER (10,6)(10,11)\nLEAD (5,2)(2,5)\nSTEEL (7,5)(11,1)\nMERCURY (4,2)(4,8)\nZING (not found)]]\n\nThe grid contains **ZINC** diagonally from (1,6) to (4,9), which may be the intended word.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793287073,
+    "completedAt": 1793287111,
+    "durationMs": 37149
+  },
+  "score": {
+    "correct": false,
+    "extracted": "BRASS (5,5)(1,1)\nNICHROME (4,10)(11,3)\nCOPPER (6,10)(11,10)\nNICKEL (2,6)(2,11)\nGALLIUM (11,4)(5,10)\nPEWTER (8,1)(8,6)\nGOLD (11,4)(11,7)\nSILVER (9,11)(4,11)\nIRON (4,1)(7,1)\nSOLDER (10,6)(10,11)\nLEAD (5,2)(2,5)\nSTEEL (7,5)(11,1)\nMERCURY (4,2)(4,8)\nZING (not found)"
+  },
+  "seconds": 37.92481770797167,
+  "usage": {
+    "total": {
+      "totalTokens": 6598,
+      "inputTokens": 4144,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 2454,
+      "reasoningOutputTokens": 2264
+    },
+    "last": {
+      "totalTokens": 6598,
+      "inputTokens": 4144,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 2454,
+      "reasoningOutputTokens": 2264
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793287111.303193
+}

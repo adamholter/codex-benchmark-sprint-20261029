@@ -1,0 +1,12 @@
+Which option has more similar movies in terms of whether a group of people will like them or not?
+Options:
+(A) Seven Samurai, Dirty Dancing Havana Nights, The Silence of the Lambs, The Devil and Daniel Johnston, Latter Days
+(B) Latter Days, The Lord of the Rings The Two Towers, Dr Strangelove or How I Learned to Stop Worrying and Love the Bomb, The Devil and Daniel Johnston, American Beauty
+(C) Latter Days, Dirty Dancing Havana Nights, Dr Strangelove or How I Learned to Stop Worrying and Love the Bomb, The Devil and Daniel Johnston, American Beauty
+(D) Dirty Dancing Havana Nights, Latter Days, Dr Strangelove or How I Learned to Stop Worrying and Love the Bomb, The Silence of the Lambs, Seven Samurai
+(E) The Lord of the Rings The Two Towers, Latter Days, The Silence of the Lambs, American Beauty, Seven Samurai
+(F) Seven Samurai, The Lord of the Rings The Two Towers, Dr Strangelove or How I Learned to Stop Worrying and Love the Bomb, The Silence of the Lambs, American Beauty
+(G) The Silence of the Lambs, The Lord of the Rings The Two Towers, Latter Days, The Devil and Daniel Johnston, Dirty Dancing Havana Nights
+(H) Dirty Dancing Havana Nights, The Lord of the Rings The Two Towers, The Devil and Daniel Johnston, Latter Days, American Beauty
+(I) Dr Strangelove or How I Learned to Stop Worrying and Love the Bomb, Seven Samurai, Latter Days, The Silence of the Lambs, American Beauty
+(J) Dr Strangelove or How I Learned to Stop Worrying and Love the Bomb, American Beauty, The Lord of the Rings The Two Towers, Seven Samurai, Latter Days

@@ -1,0 +1,99 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly_no_context",
+  "id": "74:Q 6.:no_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290288.278992,
+  "turn": {
+    "id": "01a1886e-3d82-7b00-b431-5b19356b57e1",
+    "rootTurnId": "01a1886e-3d82-7b00-b431-5b19356b57e1",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_033637403e5fdf0f016ae37037e7488195af5f317b21b1f619",
+        "text": "{\"1\":\"Translation options and letters not provided\",\"2\":\"Translation options and letters not provided\",\"3\":\"Translation options and letters not provided\",\"4\":\"Translation options and letters not provided\",\"5\":\"Translation options and letters not provided\",\"6\":\"Translation options and letters not provided\",\"7\":\"Translation options and letters not provided\",\"8\":\"Translation options and letters not provided\",\"9\":\"Translation options and letters not provided\",\"10\":\"Translation options and letters not provided\",\"11\":\"Translation options and letters not provided\",\"12\":\"Translation options and letters not provided\",\"13\":\"Translation options and letters not provided\",\"14\":\"Translation options and letters not provided\",\"15\":\"Translation options and letters not provided\",\"16\":\"Translation options and letters not provided\",\"17\":\"Translation options and letters not provided\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290288,
+    "completedAt": 1793290297,
+    "durationMs": 8607
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "1": "Translation options and letters not provided",
+      "2": "Translation options and letters not provided",
+      "3": "Translation options and letters not provided",
+      "4": "Translation options and letters not provided",
+      "5": "Translation options and letters not provided",
+      "6": "Translation options and letters not provided",
+      "7": "Translation options and letters not provided",
+      "8": "Translation options and letters not provided",
+      "9": "Translation options and letters not provided",
+      "10": "Translation options and letters not provided",
+      "11": "Translation options and letters not provided",
+      "12": "Translation options and letters not provided",
+      "13": "Translation options and letters not provided",
+      "14": "Translation options and letters not provided",
+      "15": "Translation options and letters not provided",
+      "16": "Translation options and letters not provided",
+      "17": "Translation options and letters not provided"
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 17,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.0,
+      "4": 0.0,
+      "5": 0.0,
+      "6": 0.0,
+      "7": 0.0,
+      "8": 0.0,
+      "9": 0.0,
+      "10": 0.0,
+      "11": 0.0,
+      "12": 0.0,
+      "13": 0.0,
+      "14": 0.0,
+      "15": 0.0,
+      "16": 0.0,
+      "17": 0.0
+    }
+  },
+  "seconds": 8.892747833044268,
+  "usage": {
+    "total": {
+      "totalTokens": 4757,
+      "inputTokens": 4144,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 613,
+      "reasoningOutputTokens": 453
+    },
+    "last": {
+      "totalTokens": 4757,
+      "inputTokens": 4144,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 613,
+      "reasoningOutputTokens": 453
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793290297.171155
+}

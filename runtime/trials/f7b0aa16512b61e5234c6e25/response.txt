@@ -1,0 +1,7 @@
+{
+  "1.": "Cannot be determined: the referenced tables are missing.",
+  "2. ": "Cannot be determined: the referenced tables are missing.",
+  "3. ": "Cannot be determined: the referenced tables are missing.",
+  "4. ": "Cannot be determined: the referenced tables are missing.",
+  "5.": "Cannot be determined: the referenced tables are missing."
+}

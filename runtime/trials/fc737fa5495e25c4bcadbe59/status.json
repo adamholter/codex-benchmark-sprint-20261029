@@ -1,0 +1,74 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "bbeh",
+  "id": "mini:time_arithmetic:0196",
+  "category": "time_arithmetic",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793287093.9349508,
+  "turn": {
+    "id": "01a1883d-81c3-7eb2-95a0-6f651d474fe6",
+    "rootTurnId": "01a1883d-81c3-7eb2-95a0-6f651d474fe6",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0e56a425b27581f9016ae363e460bc81948cb0448f58182e96",
+        "text": "unanswerable",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793287094,
+    "completedAt": 1793287140,
+    "durationMs": 45747
+  },
+  "score": {
+    "correct": true,
+    "extracted": "unanswerable"
+  },
+  "seconds": 46.59436583297793,
+  "usage": {
+    "total": {
+      "totalTokens": 4049,
+      "inputTokens": 3985,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 64,
+      "reasoningOutputTokens": 55
+    },
+    "last": {
+      "totalTokens": 4049,
+      "inputTokens": 3985,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 64,
+      "reasoningOutputTokens": 55
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 264a75bb-5872-43b6-a3f2-77f5c316cbde",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a1883d-8182-7370-87df-267db4e1aa7c",
+      "turnId": "01a1883d-81c3-7eb2-95a0-6f651d474fe6"
+    }
+  ],
+  "finished_at": 1793287140.528878
+}

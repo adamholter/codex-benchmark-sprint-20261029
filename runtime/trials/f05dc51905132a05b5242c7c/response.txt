@@ -1,0 +1,8 @@
+{
+  "(h)": "Cannot determine: Table 2 is missing.",
+  "(i)": "Cannot determine: Table 2 is missing.",
+  "(j)": "Cannot determine: Table 2 is missing.",
+  "(k)": "Cannot determine: Table 2 is missing.",
+  "(l)": "Cannot determine: Table 2 is missing.",
+  "(m)": "Cannot determine: Table 2 is missing."
+}

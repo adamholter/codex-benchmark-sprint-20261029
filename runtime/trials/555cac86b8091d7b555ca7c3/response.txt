@@ -1,0 +1,1 @@
+[[No solution exists. Region F forces a domino at (5,1)(6,1). This prevents the use of E cells (5,2) and (6,2), forcing E’s domino to be (3,2)(4,2). Those dominoes prevent the use of A cells (3,1) and (4,1), so A’s domino must be (1,1)(2,1). That blocks B cells (1,2) and (2,2), leaving only one usable B cell.]]

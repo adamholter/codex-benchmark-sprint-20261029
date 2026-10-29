@@ -1,0 +1,68 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-Q_308",
+  "category": "Multi-Q",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793291161.647263,
+  "turn": {
+    "id": "01a1887b-9157-7660-a986-69a254f06901",
+    "rootTurnId": "01a1887b-9157-7660-a986-69a254f06901",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0d30050b061807e4016ae3739f97648195920b324fd8abe0f6",
+        "text": "{\n  \"question1\": \"[[C]]\",\n  \"question2\": \"[[\u00a7p \u2227 \u203dq]]\",\n  \"question3\": \"[[C]]\",\n  \"question4\": \"[[3]]\",\n  \"question5\": \"[[B]]\",\n  \"question6\": \"[[2]]\",\n  \"question7\": \"[[\u00ac\u00a7p \u2227 \u00ac\u00a7q \u2227 \u00ac\u00a7r]]\",\n  \"question8\": \"[[\u00a7p \u2227 \u203dq]]\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793291161,
+    "completedAt": 1793291169,
+    "durationMs": 7627
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "question1": "C",
+      "question2": "\u00a7p \u2227 \u203dq",
+      "question3": "C",
+      "question4": "3",
+      "question5": "B",
+      "question6": "2",
+      "question7": "\u00ac\u00a7p \u2227 \u00ac\u00a7q \u2227 \u00ac\u00a7r",
+      "question8": "\u00a7p \u2227 \u203dq"
+    },
+    "pass_rate": 0.875
+  },
+  "seconds": 7.970932916039601,
+  "usage": {
+    "total": {
+      "totalTokens": 4874,
+      "inputTokens": 4707,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 167,
+      "reasoningOutputTokens": 53
+    },
+    "last": {
+      "totalTokens": 4874,
+      "inputTokens": 4707,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 167,
+      "reasoningOutputTokens": 53
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793291169.617585
+}

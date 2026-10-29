@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "fantom",
+  "id": "68-0-2-3563",
+  "category": "tom:belief:inaccessible:multiple-choice",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294715.0154371,
+  "turn": {
+    "id": "01a188b1-ca4b-7861-a932-a2c8dce77469",
+    "rootTurnId": "01a188b1-ca4b-7861-a932-a2c8dce77469",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0b71dabfcca190a4016ae3817daf5c8190bbb8b9a49071cc57",
+        "text": "(b) Isaiah believes that Ezra, Marvin, and Spencer shared the wisdom or life lessons their parents passed down.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294715,
+    "completedAt": 1793294718,
+    "durationMs": 2536
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(b) Isaiah believes that Ezra, Marvin, and Spencer shared the wisdom or life lessons their parents passed down.",
+    "strict_correct": false,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 3.060242500039749,
+  "usage": {
+    "total": {
+      "totalTokens": 4268,
+      "inputTokens": 4242,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 26,
+      "reasoningOutputTokens": 0
+    },
+    "last": {
+      "totalTokens": 4268,
+      "inputTokens": 4242,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 26,
+      "reasoningOutputTokens": 0
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793294718.074873
+}

@@ -1,0 +1,1 @@
+{"1.": "la zia", "2.": "lo zio", "3.": "il sasso", "4.": "gli storici", "5.": "gli zaini", "6.": "il successo", "7.": "le zone"}

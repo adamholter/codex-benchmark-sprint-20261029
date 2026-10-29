@@ -1,0 +1,67 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly_no_context",
+  "id": "189:Q 4.4:no_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294046.1702862,
+  "turn": {
+    "id": "01a188a7-94da-7713-8fd9-7fa2031cec83",
+    "rootTurnId": "01a188a7-94da-7713-8fd9-7fa2031cec83",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_09a550730fca2205016ae37ee1e9348190a012d9a28fef93dc",
+        "text": "{\"(t)\":\"The examples and patterns referred to as appearing above are missing from the supplied sheet. Without them, the verb pattern and noun declensions cannot be determined or explained.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294046,
+    "completedAt": 1793294050,
+    "durationMs": 4256
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "(t)": "The examples and patterns referred to as appearing above are missing from the supplied sheet. Without them, the verb pattern and noun declensions cannot be determined or explained."
+    },
+    "score": 1.0,
+    "parts_correct": 1,
+    "parts_total": 1,
+    "empty_reference_parts": 1,
+    "part_scores": {
+      "(t)": 1.0
+    }
+  },
+  "seconds": 4.5370564999757335,
+  "usage": {
+    "total": {
+      "totalTokens": 4235,
+      "inputTokens": 4173,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 62,
+      "reasoningOutputTokens": 18
+    },
+    "last": {
+      "totalTokens": 4235,
+      "inputTokens": 4173,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 62,
+      "reasoningOutputTokens": 18
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793294050.706618
+}

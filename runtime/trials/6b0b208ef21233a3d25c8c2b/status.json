@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "bbeh",
+  "id": "mini:nycc:0015",
+  "category": "nycc",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289024.7421818,
+  "turn": {
+    "id": "01a1885a-f5f0-7d42-8c4a-827621db67b7",
+    "rootTurnId": "01a1885a-f5f0-7d42-8c4a-827621db67b7",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_02ddf20407dc0122016ae36b47680481969ed1760bd5496c86",
+        "text": "(F) \u201cYou get three wishes, but I can\u2019t get you another extension on your \u201822 return.\u201d",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289025,
+    "completedAt": 1793289031,
+    "durationMs": 6669
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(f) \u201cyou get three wishes,but i can\u2019t get you another extension on your \u201822 return.\u201d"
+  },
+  "seconds": 7.258604417089373,
+  "usage": {
+    "total": {
+      "totalTokens": 4050,
+      "inputTokens": 3932,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 118,
+      "reasoningOutputTokens": 90
+    },
+    "last": {
+      "totalTokens": 4050,
+      "inputTokens": 3932,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 118,
+      "reasoningOutputTokens": 90
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793289032.000669
+}

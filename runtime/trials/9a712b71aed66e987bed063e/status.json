@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "bbeh",
+  "id": "mini:linguini:0123",
+  "category": "linguini",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793285671.390996,
+  "turn": {
+    "id": "01a18827-cba8-7762-ba70-3fe419a48fc3",
+    "rootTurnId": "01a18827-cba8-7762-ba70-3fe419a48fc3",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_075d9e7799dc52d5016ae35e2bdb548195b0378dc3b0a87af0",
+        "text": "**919**\n\n- **ont\u044allows\u0101tn** = 900, followed by a linking *-n*\n- **ont\u044allowxujplow** = 19, formed like **\u0144ollowxujplow** (18), with **ont\u044allow** (9) in place of **\u0144ollow** (8)\n\nThus, 900 + 19 = **919**.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793285671,
+    "completedAt": 1793285677,
+    "durationMs": 5287
+  },
+  "score": {
+    "correct": false,
+    "extracted": "919"
+  },
+  "seconds": 5.760874166036956,
+  "usage": {
+    "total": {
+      "totalTokens": 4038,
+      "inputTokens": 3832,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 206,
+      "reasoningOutputTokens": 116
+    },
+    "last": {
+      "totalTokens": 4038,
+      "inputTokens": 3832,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 206,
+      "reasoningOutputTokens": 116
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793285677.15166
+}

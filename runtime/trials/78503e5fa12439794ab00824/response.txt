@@ -1,0 +1,20 @@
+{
+  "e.": "Cannot determine: the numeral table and years are missing.",
+  "f.": "Cannot determine from the supplied information.",
+  "g.": "Cannot determine from the supplied information.",
+  "h.": "Cannot determine from the supplied information.",
+  "i.": "Cannot determine from the supplied information.",
+  "j.": "Cannot determine from the supplied information.",
+  "k.": "Cannot determine from the supplied information.",
+  "l.": "Cannot determine from the supplied information.",
+  "m.": "Cannot determine from the supplied information.",
+  "n.": "Cannot determine from the supplied information.",
+  "o.": "Cannot determine from the supplied information.",
+  "p.": "Cannot determine from the supplied information.",
+  "q.": "Cannot determine from the supplied information.",
+  "r.": "Cannot determine from the supplied information.",
+  "s.": "Cannot determine from the supplied information.",
+  "t.": "Cannot determine from the supplied information.",
+  "u.": "Cannot determine from the supplied information.",
+  "v.": "Cannot determine from the supplied information."
+}

@@ -1,0 +1,75 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly_no_context",
+  "id": "136:Q 1.:no_context",
+  "category": "Monolingual",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793287409.6372402,
+  "turn": {
+    "id": "01a18842-51c8-72f2-907c-12b708d466b0",
+    "rootTurnId": "01a18842-51c8-72f2-907c-12b708d466b0",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_09a608369b2dd7cf016ae36522917c819091b525b0ad785600",
+        "text": "{\"1)\": \"Insufficient information: the sheet does not define the Arabic values of the Gumatj number words.\", \"2) \": \"Insufficient information: the sheet does not define the Arabic values of the Gumatj number words.\", \"3) \": \"Insufficient information: the sheet does not define the Arabic values of the Gumatj number words.\", \"4)\": \"Insufficient information: the sheet does not define the Arabic values of the Gumatj number words.\", \"5) \": \"Insufficient information: the sheet does not define the Arabic values of the Gumatj number words.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793287410,
+    "completedAt": 1793287459,
+    "durationMs": 49514
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "1)": "Insufficient information: the sheet does not define the Arabic values of the Gumatj number words.",
+      "2) ": "Insufficient information: the sheet does not define the Arabic values of the Gumatj number words.",
+      "3) ": "Insufficient information: the sheet does not define the Arabic values of the Gumatj number words.",
+      "4)": "Insufficient information: the sheet does not define the Arabic values of the Gumatj number words.",
+      "5) ": "Insufficient information: the sheet does not define the Arabic values of the Gumatj number words."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 5,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "1)": 0.0,
+      "2) ": 0.0,
+      "3) ": 0.0,
+      "4)": 0.0,
+      "5) ": 0.0
+    }
+  },
+  "seconds": 50.01381670800038,
+  "usage": {
+    "total": {
+      "totalTokens": 9048,
+      "inputTokens": 4345,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 4703,
+      "reasoningOutputTokens": 4573
+    },
+    "last": {
+      "totalTokens": 9048,
+      "inputTokens": 4345,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 4703,
+      "reasoningOutputTokens": 4573
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793287459.6507561
+}

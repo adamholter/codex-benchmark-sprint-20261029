@@ -1,0 +1,1 @@
+{"a":"Cannot identify incorrect words: the sheet does not include a machine-translated text to examine.","b":"Cannot suggest replacements without the missing text."}

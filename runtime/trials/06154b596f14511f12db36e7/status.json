@@ -1,0 +1,81 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly_no_context",
+  "id": "101:Q 1.:no_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793295451.4087381,
+  "turn": {
+    "id": "01a188bd-05f5-7093-9141-60c6af9fa2e6",
+    "rootTurnId": "01a188bd-05f5-7093-9141-60c6af9fa2e6",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_09d9de7ed97b76b3016ae38461f4208196a108275a9043b2c3",
+        "text": "{\"1\":\"Ar j\u016bs turite dvirat\u012f?\",\"2\":\"J\u016bs neskaitote.\",\"3\":\"Tu eini.\",\"4\":\"Ar Matis eina?\",\"5\":\"Mes nenorime smulki\u0173 pinig\u0173.\",\"6\":\"J\u016bs neturite smulki\u0173 pinig\u0173.\",\"7\":\"Ar a\u0161 neturiu dvira\u010dio?\",\"8\":\"A\u0161 nenoriu \u017eem\u0117lapio.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793295451,
+    "completedAt": 1793295458,
+    "durationMs": 7194
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "1": "Ar j\u016bs turite dvirat\u012f?",
+      "2": "J\u016bs neskaitote.",
+      "3": "Tu eini.",
+      "4": "Ar Matis eina?",
+      "5": "Mes nenorime smulki\u0173 pinig\u0173.",
+      "6": "J\u016bs neturite smulki\u0173 pinig\u0173.",
+      "7": "Ar a\u0161 neturiu dvira\u010dio?",
+      "8": "A\u0161 nenoriu \u017eem\u0117lapio."
+    },
+    "score": 0.25,
+    "parts_correct": 2,
+    "parts_total": 8,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "1": 1.0,
+      "2": 0.0,
+      "3": 0.0,
+      "4": 1.0,
+      "5": 0.0,
+      "6": 0.0,
+      "7": 0.0,
+      "8": 0.0
+    }
+  },
+  "seconds": 7.444463665946387,
+  "usage": {
+    "total": {
+      "totalTokens": 4616,
+      "inputTokens": 4288,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 328,
+      "reasoningOutputTokens": 230
+    },
+    "last": {
+      "totalTokens": 4616,
+      "inputTokens": 4288,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 328,
+      "reasoningOutputTokens": 230
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793295458.852661
+}

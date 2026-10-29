@@ -1,0 +1,71 @@
+{
+  "models": [
+    "gpt-6.1-sol",
+    "gpt-6-astra",
+    "gpt-6.1-terra",
+    "gpt-6-luna"
+  ],
+  "effort": "high",
+  "service_tier": "default",
+  "transport": "ChatGPT OAuth subscription app-server HTTPS",
+  "endpoint": "https://chatgpt.com/backend-api/codex",
+  "requires_openai_auth": true,
+  "supports_websockets": false,
+  "model_fallback": false,
+  "tools": [],
+  "trial_timeout_seconds": 900,
+  "max_workers": 8,
+  "seed": 20261029,
+  "fresh_ephemeral_thread_per_case": true,
+  "response": "plain text, adapter requested official formatting, no output schema",
+  "quota_reserve_percent": 5,
+  "quota_failure_retry": false,
+  "credit_policy": "Ordinary subscription usage only. Stop and terminate active inference at95% usage, actual limit, credit change, reset or deadline. Balance equality and live subscription headroom checked every10 seconds. Account settings unchanged.",
+  "reporting": "full planned denominator and separately all-four-model matched completed subset",
+  "absolute_deadline": "2026-10-29T19:10:00Z",
+  "python": "3.13.12 (main, Mar  3 2026, 15:32:44) [Clang 21.1.4 ]",
+  "dependencies": {
+    "sympy": "1.14.0",
+    "antlr4-python3-runtime": "4.11.1"
+  },
+  "case_counts": {
+    "bbeh": 460,
+    "fantom": 6725,
+    "korbench": 1250,
+    "korbench_mixed": 7000,
+    "lingoly": 204,
+    "lingoly_no_context": 204,
+    "PlanBench Blocksworld Hard - PDDL": 110
+  },
+  "planned_trials": 63812,
+  "scorer_sha256": {
+    "adapters/korbench.py": "b3da780d9b9299ffaa451352dd1cb31b30246d3e76c1958ba364b2ed6c4bb528",
+    "adapters/korbench_mixed.py": "356a21bc8036dfb595bd09c4eb35530ec7f20d2c0ea5e80d181e642dd326b55f",
+    "adapters/bbeh.py": "656628e07b13e1c5b7d629695a816f01b7c71fbe977184b8007dcc0290e783b9",
+    "adapters/planning.py": "9bcf4dcb4e106867803dbf9428ebe7a36d163005df9cfa8aadbde0a06d03e5a2",
+    "adapters/lingoly.py": "f2651532e99ec98ed4bee008e6803003e9a8970163149d63ec23083a57efa65a",
+    "adapters/fantom.py": "7684349cf6ddaa77fb7767bb71ee0d6f5cdff473b04cdc51bd412053dfe2f550",
+    "adapters/lingoly_no_context.py": "3ea9db895c5926399122aca5b63f6df67672cbb7f5373b5e2a704a0411e83037"
+  },
+  "controller_sha256": "34d4b393f757bfeef44b733f3ea66be6b1759c243f6c57d143613aad71b11550",
+  "pilot_evidence": "runtime/pilot-results.json",
+  "scoring_notes": [
+    "KOR-Bench preserves12 source gold answers rejected by pinned scorer.",
+    "LingOly preserves source scorer empty-answer behavior;12 groups have only empty gold. Part-level and exact-group scores both retained.",
+    "PlanBench uses a local STRIPS simulator checked against all110 official reference plans, replacingVAL.",
+    "FANToM deterministic inaccessible-information tracks only, not the fullALL orALL* protocol.",
+    "LingOly no-context is a separate diagnostic, not an additional benchmark.",
+    "Incomplete planned items are reported separately; model comparisons use identical cases completed by all4."
+  ],
+  "controller_revisions": [
+    {
+      "previous_sha256": "17d08ef6f178cc768c8bc543a4332486f4b134e5e41485e802fb59c75f6d3e50",
+      "ended_reason": "Native app-server transient HTTP429 willRetry notice stopped controller; completed27main,28pilot.",
+      "at": "2026-10-29T14:36:43.547190+00:00"
+    }
+  ],
+  "workers": 4,
+  "dispatch_spacing_seconds": 2,
+  "max_concurrent_per_model": 2,
+  "transient_retry_policy": "Permit only bounded native Codex willRetry reconnects. No harness retry for terminal failed attempts. Stop immediately on usage exhaustion or terminal429."
+}

@@ -1,0 +1,81 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly",
+  "id": "204:Q 4.2:full_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793286667.6905448,
+  "turn": {
+    "id": "01a18837-0713-7f83-b4c8-e6ae44c948fd",
+    "rootTurnId": "01a18837-0713-7f83-b4c8-e6ae44c948fd",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0fcc4f13085c2d40016ae3622b80948194b3306897bc5e510a",
+        "text": "{\n  \"(a)\": \"[\u1d50b\u0259.\u00f0\u027ea.\u00f0\u025e\u027e.\u00f0\u0259m]\",\n  \"(b)\": \"[\u207fd\u0259.m\u0259.\u207fdzy\u027e.\u207fdz\u0254]\",\n  \"(c)\": \"[k\u025em.\u207fdz\u0254]\",\n  \"(d)\": \"[k\u0259\u027e.\u1d50bu.\u0294\u00e6.\u207fd\u0259.\u1d50be]\",\n  \"(e)\": \"[\u207fd\u0292e.n\u0259m.w\u00e6]\",\n  \"(f)\": \"[\u027e\u0259.n\u0259\u1d51k.\u00f0\u0259k.si]\",\n  \"(g)\": \"[s\u0259\u027e.mi\u207fts]\",\n  \"(h)\": \"[ts\u0259.t\u0283\u00e6n.\u0278\u027ee.\u0278a]\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793286670,
+    "completedAt": 1793286701,
+    "durationMs": 31218
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "[\u1d50b\u0259.\u00f0\u027ea.\u00f0\u025e\u027e.\u00f0\u0259m]",
+      "(b)": "[\u207fd\u0259.m\u0259.\u207fdzy\u027e.\u207fdz\u0254]",
+      "(c)": "[k\u025em.\u207fdz\u0254]",
+      "(d)": "[k\u0259\u027e.\u1d50bu.\u0294\u00e6.\u207fd\u0259.\u1d50be]",
+      "(e)": "[\u207fd\u0292e.n\u0259m.w\u00e6]",
+      "(f)": "[\u027e\u0259.n\u0259\u1d51k.\u00f0\u0259k.si]",
+      "(g)": "[s\u0259\u027e.mi\u207fts]",
+      "(h)": "[ts\u0259.t\u0283\u00e6n.\u0278\u027ee.\u0278a]"
+    },
+    "score": 0.75,
+    "parts_correct": 6,
+    "parts_total": 8,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 1.0,
+      "(b)": 0.0,
+      "(c)": 1.0,
+      "(d)": 0.0,
+      "(e)": 1.0,
+      "(f)": 1.0,
+      "(g)": 1.0,
+      "(h)": 1.0
+    }
+  },
+  "seconds": 33.77336304099299,
+  "usage": {
+    "total": {
+      "totalTokens": 6860,
+      "inputTokens": 4887,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1973,
+      "reasoningOutputTokens": 1804
+    },
+    "last": {
+      "totalTokens": 6860,
+      "inputTokens": 4887,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1973,
+      "reasoningOutputTokens": 1804
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793286701.462667
+}

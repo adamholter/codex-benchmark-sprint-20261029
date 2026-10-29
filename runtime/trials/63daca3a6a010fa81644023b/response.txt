@@ -1,0 +1,21 @@
+{
+  "(a)": "Cannot determine: table not provided",
+  "(b)": "Cannot determine: table not provided",
+  "(c)": "Cannot determine: table not provided",
+  "(d)": "Cannot determine: table not provided",
+  "(e)": "Cannot determine: table not provided",
+  "(f)": "Cannot determine: table not provided",
+  "(g)": "Cannot determine: table not provided",
+  "(h)": "Cannot determine: table not provided",
+  "(i)": "Cannot determine: table not provided",
+  "(j)": "Cannot determine: table not provided",
+  "(k)": "Cannot determine: table not provided",
+  "(l)": "Cannot determine: table not provided",
+  "(m)": "Cannot determine: table not provided",
+  "(n)": "Cannot determine: table not provided",
+  "(o)": "Cannot determine: table not provided",
+  "(p)": "Cannot determine: table not provided",
+  "(q)": "Cannot determine: table not provided",
+  "(r)": "Cannot determine: table not provided",
+  "(s)": "Cannot determine: table not provided"
+}

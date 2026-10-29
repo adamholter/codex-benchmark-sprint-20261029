@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "bbeh",
+  "id": "mini:spatial_reasoning:0239",
+  "category": "spatial_reasoning",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793286607.0588942,
+  "turn": {
+    "id": "01a18836-11b3-7580-a4aa-6c2894b2c544",
+    "rootTurnId": "01a18836-11b3-7580-a4aa-6c2894b2c544",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_098b0abee9c856c3016ae361e9d3b48195b9f72ffdfe96f92f",
+        "text": "fish",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793286607,
+    "completedAt": 1793286634,
+    "durationMs": 26824
+  },
+  "score": {
+    "correct": true,
+    "extracted": "fish"
+  },
+  "seconds": 27.493108415976167,
+  "usage": {
+    "total": {
+      "totalTokens": 6531,
+      "inputTokens": 5643,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 888,
+      "reasoningOutputTokens": 881
+    },
+    "last": {
+      "totalTokens": 6531,
+      "inputTokens": 5643,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 888,
+      "reasoningOutputTokens": 881
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793286634.551886
+}

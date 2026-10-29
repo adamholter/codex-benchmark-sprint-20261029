@@ -1,0 +1,1 @@
+[[No valid path can be determined: the start is unmarked. Starting at the top-left cell loops endlessly between the first two cells.]]

@@ -1,0 +1,9 @@
+{
+  "question1": "Unable to determine the full ciphertext; it begins [[IE]].",
+  "question2": "[[TE]]",
+  "question3": "[[C]]",
+  "question4": "[[D]]",
+  "question5": "[[L]]",
+  "question6": "[[D]]",
+  "question7": "[[C]]"
+}

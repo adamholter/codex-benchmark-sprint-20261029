@@ -1,0 +1,117 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly_no_context",
+  "id": "202:Q 2.2:no_context",
+  "category": "Monolingual",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288474.6192582,
+  "turn": {
+    "id": "01a18852-90d3-7772-8c24-b950bc18b8f1",
+    "rootTurnId": "01a18852-90d3-7772-8c24-b950bc18b8f1",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0965c3f4f4b63ac4016ae3694fbaf88190a1481db14a37a30b",
+        "text": "{\n  \"e.\": \"Cannot determine: the numeral table and years are missing.\",\n  \"f.\": \"Insufficient information\",\n  \"g.\": \"Insufficient information\",\n  \"h.\": \"Insufficient information\",\n  \"i.\": \"Insufficient information\",\n  \"j.\": \"Insufficient information\",\n  \"k.\": \"Insufficient information\",\n  \"l.\": \"Insufficient information\",\n  \"m.\": \"Insufficient information\",\n  \"n.\": \"Insufficient information\",\n  \"o.\": \"Insufficient information\",\n  \"p.\": \"Insufficient information\",\n  \"q.\": \"Insufficient information\",\n  \"r.\": \"Insufficient information\",\n  \"s.\": \"Insufficient information\",\n  \"t.\": \"Insufficient information\",\n  \"u.\": \"Insufficient information\",\n  \"v.\": \"Insufficient information\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288474,
+    "completedAt": 1793288530,
+    "durationMs": 56072
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "e.": "Cannot determine: the numeral table and years are missing.",
+      "f.": "Insufficient information",
+      "g.": "Insufficient information",
+      "h.": "Insufficient information",
+      "i.": "Insufficient information",
+      "j.": "Insufficient information",
+      "k.": "Insufficient information",
+      "l.": "Insufficient information",
+      "m.": "Insufficient information",
+      "n.": "Insufficient information",
+      "o.": "Insufficient information",
+      "p.": "Insufficient information",
+      "q.": "Insufficient information",
+      "r.": "Insufficient information",
+      "s.": "Insufficient information",
+      "t.": "Insufficient information",
+      "u.": "Insufficient information",
+      "v.": "Insufficient information"
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 18,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "e.": 0.0,
+      "f.": 0.0,
+      "g.": 0.0,
+      "h.": 0.0,
+      "i.": 0.0,
+      "j.": 0.0,
+      "k.": 0.0,
+      "l.": 0.0,
+      "m.": 0.0,
+      "n.": 0.0,
+      "o.": 0.0,
+      "p.": 0.0,
+      "q.": 0.0,
+      "r.": 0.0,
+      "s.": 0.0,
+      "t.": 0.0,
+      "u.": 0.0,
+      "v.": 0.0
+    }
+  },
+  "seconds": 56.30966404103674,
+  "usage": {
+    "total": {
+      "totalTokens": 4644,
+      "inputTokens": 4258,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 386,
+      "reasoningOutputTokens": 191
+    },
+    "last": {
+      "totalTokens": 4644,
+      "inputTokens": 4258,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 386,
+      "reasoningOutputTokens": 191
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: d63175a2-a31a-484e-8e46-41e3d919cfb0",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a18852-90b7-7163-a892-98bfac79d9c0",
+      "turnId": "01a18852-90d3-7772-8c24-b950bc18b8f1"
+    }
+  ],
+  "finished_at": 1793288530.9288452
+}

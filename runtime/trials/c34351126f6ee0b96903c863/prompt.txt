@@ -1,0 +1,26 @@
+You are an intelligent assistant specializing in solving custom puzzle problems. Below is a specific rule defined for a custom puzzle. Your task is to apply this rule accurately to the provided question.
+
+### Instructions:
+
+1. Thoroughly understand the rule provided. If needed, break down the rule into simpler components or steps.
+2. Apply the rule carefully to address the question presented.
+3. Verify your answer to ensure it aligns with the rule and the context of the puzzle.
+
+### Puzzle Rule:
+
+1.Each puzzle contains a number of elements and attributes, and a description of them.
+2.The descriptions are usually presented in the form of clues, each of which provides part of the information, and all of which are true and do not contradict each other.
+3.The information provided by the clues needs to be combined and analyzed to match elements to attributes.
+
+### Question:
+1.Vicki's client, Beulah and the client who paid $150 were all different clients.
+2.Misty's client was either Eula or Inez.
+3.Nancy's client paid more than Kara's client.
+4.Debra paid 10 dollars less than Inez.
+5.Debra paid 20 dollars less than Misty's client.
+
+The output should contain four entries, each containing three fields in order: Prices Clients Masseuses (the header does not need to be given), the fields separated by spaces and the entries separated by commas.
+Arrange the entries in order: the first field is $150, $160, $170 and $180 respectively.
+Finally, enclose the entire answer in double brackets, like this: [[...]].
+
+### Answer:

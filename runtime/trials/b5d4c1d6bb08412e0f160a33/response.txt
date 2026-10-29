@@ -1,0 +1,9 @@
+{
+  "a.": "Cannot be determined",
+  "b.": "Cannot be determined",
+  "c.": "Cannot be determined",
+  "d.": "Cannot be determined",
+  "e.": "Cannot be determined",
+  "f.": "Cannot be determined",
+  "g.": "Cannot be determined"
+}

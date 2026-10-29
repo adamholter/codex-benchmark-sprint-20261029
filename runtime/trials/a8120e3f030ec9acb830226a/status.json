@@ -1,0 +1,67 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly_no_context",
+  "id": "185:Q 10.3:no_context",
+  "category": "Match-up / Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289140.285731,
+  "turn": {
+    "id": "01a1885c-b945-74d2-978e-4bfad5c441e7",
+    "rootTurnId": "01a1885c-b945-74d2-978e-4bfad5c441e7",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0e65a29818003111016ae36bb84f04819092c264955594df16",
+        "text": "{\"(a)\": \"The information provided is insufficient to determine the meaning of ti\u00b2.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289140,
+    "completedAt": 1793289144,
+    "durationMs": 3949
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "The information provided is insufficient to determine the meaning of ti\u00b2."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 1,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 0.0
+    }
+  },
+  "seconds": 4.226446624961682,
+  "usage": {
+    "total": {
+      "totalTokens": 4422,
+      "inputTokens": 4231,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 191,
+      "reasoningOutputTokens": 166
+    },
+    "last": {
+      "totalTokens": 4422,
+      "inputTokens": 4231,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 191,
+      "reasoningOutputTokens": 166
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793289144.511595
+}

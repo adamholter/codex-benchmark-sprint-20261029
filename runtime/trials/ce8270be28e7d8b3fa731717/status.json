@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "fantom",
+  "id": "28-0-1-1839",
+  "category": "tom:answerability:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793291782.426267,
+  "turn": {
+    "id": "01a18885-09f2-74c3-abef-cab891a2bc2e",
+    "rootTurnId": "01a18885-09f2-74c3-abef-cab891a2bc2e",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_087773e525e8ac37016ae37608b8d0819780e088ffe2c2c1fd",
+        "text": "Gunner, Laila, and Aubree.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793291782,
+    "completedAt": 1793291784,
+    "durationMs": 2308
+  },
+  "score": {
+    "correct": true,
+    "extracted": "Gunner, Laila, and Aubree.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 2.544435124960728,
+  "usage": {
+    "total": {
+      "totalTokens": 4511,
+      "inputTokens": 4463,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 48,
+      "reasoningOutputTokens": 32
+    },
+    "last": {
+      "totalTokens": 4511,
+      "inputTokens": 4463,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 48,
+      "reasoningOutputTokens": 32
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793291784.970409
+}

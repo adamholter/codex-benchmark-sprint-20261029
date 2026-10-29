@@ -1,0 +1,101 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly_no_context",
+  "id": "202:Q 2.2:no_context",
+  "category": "Monolingual",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288492.454453,
+  "turn": {
+    "id": "01a18852-d67e-7570-af5b-532c4f5e608a",
+    "rootTurnId": "01a18852-d67e-7570-af5b-532c4f5e608a",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_026155554f1b0281016ae36935f10c819090c1216a7715a140",
+        "text": "{\n  \"e.\": \"Cannot determine: the numeral table and years are missing.\",\n  \"f.\": \"Cannot determine from the supplied information.\",\n  \"g.\": \"Cannot determine from the supplied information.\",\n  \"h.\": \"Cannot determine from the supplied information.\",\n  \"i.\": \"Cannot determine from the supplied information.\",\n  \"j.\": \"Cannot determine from the supplied information.\",\n  \"k.\": \"Cannot determine from the supplied information.\",\n  \"l.\": \"Cannot determine from the supplied information.\",\n  \"m.\": \"Cannot determine from the supplied information.\",\n  \"n.\": \"Cannot determine from the supplied information.\",\n  \"o.\": \"Cannot determine from the supplied information.\",\n  \"p.\": \"Cannot determine from the supplied information.\",\n  \"q.\": \"Cannot determine from the supplied information.\",\n  \"r.\": \"Cannot determine from the supplied information.\",\n  \"s.\": \"Cannot determine from the supplied information.\",\n  \"t.\": \"Cannot determine from the supplied information.\",\n  \"u.\": \"Cannot determine from the supplied information.\",\n  \"v.\": \"Cannot determine from the supplied information.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288492,
+    "completedAt": 1793288504,
+    "durationMs": 11967
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "e.": "Cannot determine: the numeral table and years are missing.",
+      "f.": "Cannot determine from the supplied information.",
+      "g.": "Cannot determine from the supplied information.",
+      "h.": "Cannot determine from the supplied information.",
+      "i.": "Cannot determine from the supplied information.",
+      "j.": "Cannot determine from the supplied information.",
+      "k.": "Cannot determine from the supplied information.",
+      "l.": "Cannot determine from the supplied information.",
+      "m.": "Cannot determine from the supplied information.",
+      "n.": "Cannot determine from the supplied information.",
+      "o.": "Cannot determine from the supplied information.",
+      "p.": "Cannot determine from the supplied information.",
+      "q.": "Cannot determine from the supplied information.",
+      "r.": "Cannot determine from the supplied information.",
+      "s.": "Cannot determine from the supplied information.",
+      "t.": "Cannot determine from the supplied information.",
+      "u.": "Cannot determine from the supplied information.",
+      "v.": "Cannot determine from the supplied information."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 18,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "e.": 0.0,
+      "f.": 0.0,
+      "g.": 0.0,
+      "h.": 0.0,
+      "i.": 0.0,
+      "j.": 0.0,
+      "k.": 0.0,
+      "l.": 0.0,
+      "m.": 0.0,
+      "n.": 0.0,
+      "o.": 0.0,
+      "p.": 0.0,
+      "q.": 0.0,
+      "r.": 0.0,
+      "s.": 0.0,
+      "t.": 0.0,
+      "u.": 0.0,
+      "v.": 0.0
+    }
+  },
+  "seconds": 12.211764292092994,
+  "usage": {
+    "total": {
+      "totalTokens": 4694,
+      "inputTokens": 4258,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 436,
+      "reasoningOutputTokens": 190
+    },
+    "last": {
+      "totalTokens": 4694,
+      "inputTokens": 4258,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 436,
+      "reasoningOutputTokens": 190
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793288504.665762
+}

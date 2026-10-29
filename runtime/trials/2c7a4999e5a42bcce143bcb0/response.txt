@@ -1,0 +1,8 @@
+{
+  "question1": "[[{p,s}]]",
+  "question2": "[[{x | (x ∈ ℕ and x ≤ 0) or (x > 0 and x ∉ ℕ)}]]",
+  "question3": "[[{1,2,3,6,7,8}]]",
+  "question4": "[[{a,b,d,e}]]",
+  "question5": "[[{w,y}]]",
+  "question6": "[[{m,o,p}]]"
+}

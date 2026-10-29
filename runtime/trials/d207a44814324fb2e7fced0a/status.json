@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "korbench",
+  "id": "puzzle_215",
+  "category": "puzzle",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793285797.230907,
+  "turn": {
+    "id": "01a18829-b6cb-7121-bc87-0f0ffc4acfd5",
+    "rootTurnId": "01a18829-b6cb-7121-bc87-0f0ffc4acfd5",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_09e813a45c3d64fa016ae35eaef6b081948f8b9970661f74e0",
+        "text": "The puzzle does not specify a starting point, so the path and its numbered positions cannot be determined uniquely. If the start is the top-left cell, its arrow leads to the next cell, whose arrow leads straight back, forming a loop.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793285797,
+    "completedAt": 1793285807,
+    "durationMs": 10080
+  },
+  "score": {
+    "correct": false,
+    "extracted": "NULL"
+  },
+  "seconds": 10.447145000100136,
+  "usage": {
+    "total": {
+      "totalTokens": 4732,
+      "inputTokens": 4123,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 609,
+      "reasoningOutputTokens": 555
+    },
+    "last": {
+      "totalTokens": 4732,
+      "inputTokens": 4123,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 609,
+      "reasoningOutputTokens": 555
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793285807.676835
+}

@@ -1,0 +1,79 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly_no_context",
+  "id": "167:Q A2.1.:no_context",
+  "category": "Pattern / Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793286581.6332989,
+  "turn": {
+    "id": "01a18835-ae86-7342-a4f3-75cb54c9c3c8",
+    "rootTurnId": "01a18835-ae86-7342-a4f3-75cb54c9c3c8",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0ab3c9f3ce4a3163016ae361bdab508194afb35f12dee615b7",
+        "text": "{\n  \"(a)\": \"Cannot determine: Table 1 was not provided.\",\n  \"(b)\": \"Cannot determine: Table 1 was not provided.\",\n  \"(c)\": \"Cannot determine: Table 1 was not provided.\",\n  \"(d)\": \"Cannot determine: Table 1 was not provided.\",\n  \"(e)\": \"Cannot determine: Table 1 was not provided.\",\n  \"(f)\": \"Cannot determine: Table 1 was not provided.\",\n  \"(g)\": \"Cannot determine: Table 1 was not provided.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793286581,
+    "completedAt": 1793286590,
+    "durationMs": 8952
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "Cannot determine: Table 1 was not provided.",
+      "(b)": "Cannot determine: Table 1 was not provided.",
+      "(c)": "Cannot determine: Table 1 was not provided.",
+      "(d)": "Cannot determine: Table 1 was not provided.",
+      "(e)": "Cannot determine: Table 1 was not provided.",
+      "(f)": "Cannot determine: Table 1 was not provided.",
+      "(g)": "Cannot determine: Table 1 was not provided."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 7,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 0.0,
+      "(b)": 0.0,
+      "(c)": 0.0,
+      "(d)": 0.0,
+      "(e)": 0.0,
+      "(f)": 0.0,
+      "(g)": 0.0
+    }
+  },
+  "seconds": 9.242635624948889,
+  "usage": {
+    "total": {
+      "totalTokens": 4391,
+      "inputTokens": 4148,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 243,
+      "reasoningOutputTokens": 130
+    },
+    "last": {
+      "totalTokens": 4391,
+      "inputTokens": 4148,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 243,
+      "reasoningOutputTokens": 130
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793286590.8758059
+}

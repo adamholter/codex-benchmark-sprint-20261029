@@ -1,0 +1,1 @@
+{"1.":"Cannot be determined from the supplied sheet; the relevant Tseltal examples are missing."}

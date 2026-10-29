@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "fantom",
+  "id": "189-0-0-9426",
+  "category": "tom:info_accessibility:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793287050.354353,
+  "turn": {
+    "id": "01a1883c-d6d1-7973-bdab-6d84da6a4dfa",
+    "rootTurnId": "01a1883c-d6d1-7973-bdab-6d84da6a4dfa",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0c583a796fb4b57e016ae3639143c8819798c57af522af7b8c",
+        "text": "Leslie and Josiah know the details. Kody says he overheard \u201csnippets\u201d of their hobby stories, so he may know some of them, but the conversation doesn\u2019t establish that he heard all the specific details.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793287050,
+    "completedAt": 1793287057,
+    "durationMs": 7022
+  },
+  "score": {
+    "correct": false,
+    "extracted": "Leslie and Josiah know the details. Kody says he overheard \u201csnippets\u201d of their hobby stories, so he may know some of them, but the conversation doesn\u2019t establish that he heard all the specific details.",
+    "strict_correct": false,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 7.711422208929434,
+  "usage": {
+    "total": {
+      "totalTokens": 5034,
+      "inputTokens": 4649,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 385,
+      "reasoningOutputTokens": 333
+    },
+    "last": {
+      "totalTokens": 5034,
+      "inputTokens": 4649,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 385,
+      "reasoningOutputTokens": 333
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793287058.065393
+}

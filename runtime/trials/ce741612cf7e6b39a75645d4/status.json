@@ -1,0 +1,87 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly_no_context",
+  "id": "185:Q 10.1:no_context",
+  "category": "Match-up / Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793285076.598336,
+  "turn": {
+    "id": "01a1881e-b7c0-7a71-91d3-dcae8f92ebb1",
+    "rootTurnId": "01a1881e-b7c0-7a71-91d3-dcae8f92ebb1",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0ddb21e4ec4eb24c016ae35bd7f344819692772acd5bfaaa34",
+        "text": "{\"(a)\":\"insufficient information provided\",\"(b)\":\"insufficient information provided\",\"(c)\":\"insufficient information provided\",\"(d)\":\"insufficient information provided\",\"(e)\":\"insufficient information provided\",\"(f)\":\"insufficient information provided\",\"(g)\":\"insufficient information provided\",\"(h)\":\"insufficient information provided\",\"(i)\":\"insufficient information provided\",\"(j)\":\"insufficient information provided\",\"(l)\":\"insufficient information provided\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793285076,
+    "completedAt": 1793285080,
+    "durationMs": 4058
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "insufficient information provided",
+      "(b)": "insufficient information provided",
+      "(c)": "insufficient information provided",
+      "(d)": "insufficient information provided",
+      "(e)": "insufficient information provided",
+      "(f)": "insufficient information provided",
+      "(g)": "insufficient information provided",
+      "(h)": "insufficient information provided",
+      "(i)": "insufficient information provided",
+      "(j)": "insufficient information provided",
+      "(l)": "insufficient information provided"
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 11,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 0.0,
+      "(b)": 0.0,
+      "(c)": 0.0,
+      "(d)": 0.0,
+      "(e)": 0.0,
+      "(f)": 0.0,
+      "(g)": 0.0,
+      "(h)": 0.0,
+      "(i)": 0.0,
+      "(j)": 0.0,
+      "(l)": 0.0
+    }
+  },
+  "seconds": 4.465590375009924,
+  "usage": {
+    "total": {
+      "totalTokens": 4582,
+      "inputTokens": 4366,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 216,
+      "reasoningOutputTokens": 110
+    },
+    "last": {
+      "totalTokens": 4582,
+      "inputTokens": 4366,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 216,
+      "reasoningOutputTokens": 110
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793285081.063761
+}

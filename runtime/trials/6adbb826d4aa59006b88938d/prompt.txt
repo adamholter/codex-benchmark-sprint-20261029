@@ -1,0 +1,72 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+1.The puzzle is played on an N*N grid, which is divided into regions.
+2.The player must place dominoes on some of the cells so that.
+3.There are exactly 2 cells in each region that are covered by dominoes.
+4.Each shaded cell should be part of a domino*. Dominoes can cross region boundaries.
+5.Dominoes cannot touch each other, except diagonally.
+6.Dominoes are shapes (1x2 or 2x1) consisting of two adjacent shaded cells.
+7.The question is given in matrix form, with different letters representing different regions.
+
+A@B denotes the element-by-element maximization operation (A @ B)_{ij} = \max(A_{ij}, B_{ij}) of matrix A and matrix B.
+
+
+### Questions:
+question1:
+Grid Layout:
+A	A	A	B	C	C
+B	B	B	B	D	D
+E	E	B	B	D	D
+E	F	F	B	B	D
+E	G	B	B	B	H
+G	G	G	B	H	H
+The answer should contain the coordinates of all dominoes in the format (row i,column j)(row x,column y).
+The coordinates should be listed in order from left to right or top to bottom.
+Different dominoes should be separated by commas.
+Ensure that your final answer is enclosed in double square brackets, like this: [[(1,2)(1,3),(2,4)(3,4),(4,1)(4,2)]].
+
+question2:
+A=
+\[
+\begin{pmatrix}
+  3 & 5 \\
+  7 & 9
+\end{pmatrix}
+\]
+B=
+\[
+\begin{pmatrix}
+  1 & 0 \\
+  8 & 10
+\end{pmatrix}
+\]
+Compute A&B.
+The answer is a matrix, write it in this form:[[((a,b),(c,d))]].
+
+question3:
+Grid Layout:
+A	B	B	C	C	C
+A	B	C	D	D	C
+A	B	C	C	C	C
+A	E	E	E	E	E
+F	F	F	F	F	H
+F	G	G	G	H	H
+The answer should contain the coordinates of all dominoes in the format (row i,column j)(row x,column y).
+The coordinates should be listed in order from left to right or top to bottom.
+Different dominoes should be separated by commas.
+Ensure that your final answer is enclosed in double square brackets, like this: [[(1,2)(1,3),(2,4)(3,4),(4,1)(4,2)]].
+
+
+### Answers:

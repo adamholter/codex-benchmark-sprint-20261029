@@ -1,0 +1,67 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly_no_context",
+  "id": "185:Q 10.5:no_context",
+  "category": "Match-up / Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288353.746634,
+  "turn": {
+    "id": "01a18850-bc2d-7832-bbc4-b75fd04c0cbc",
+    "rootTurnId": "01a18850-bc2d-7832-bbc4-b75fd04c0cbc",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_009f72fb555cbf21016ae368a602dc8194ab34b29f99360d70",
+        "text": "{\"(a)\": \"Cannot be determined from the supplied information; no tone pattern for \u201ctake (it)\u201d is given.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288354,
+    "completedAt": 1793288358,
+    "durationMs": 3395
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "Cannot be determined from the supplied information; no tone pattern for \u201ctake (it)\u201d is given."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 1,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 0.0
+    }
+  },
+  "seconds": 4.560666583944112,
+  "usage": {
+    "total": {
+      "totalTokens": 4412,
+      "inputTokens": 4215,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 197,
+      "reasoningOutputTokens": 165
+    },
+    "last": {
+      "totalTokens": 4412,
+      "inputTokens": 4215,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 197,
+      "reasoningOutputTokens": 165
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793288358.307127
+}

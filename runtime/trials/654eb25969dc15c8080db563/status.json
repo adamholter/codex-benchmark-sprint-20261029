@@ -1,0 +1,67 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly",
+  "id": "141:Q 3.1:full_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290373.7999659,
+  "turn": {
+    "id": "01a1886f-8c39-78b0-889b-83da5a811e5b",
+    "rootTurnId": "01a1886f-8c39-78b0-889b-83da5a811e5b",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0a5f6d6599cf0f8d016ae3708dc07881949531b0289078d9f8",
+        "text": "{\"1.\":\"wielkoludy, wielkoludowie\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290374,
+    "completedAt": 1793290381,
+    "durationMs": 7761
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "1.": "wielkoludy, wielkoludowie"
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 1,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "1.": 0.0
+    }
+  },
+  "seconds": 8.282293749973178,
+  "usage": {
+    "total": {
+      "totalTokens": 4989,
+      "inputTokens": 4493,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 496,
+      "reasoningOutputTokens": 476
+    },
+    "last": {
+      "totalTokens": 4989,
+      "inputTokens": 4493,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 496,
+      "reasoningOutputTokens": 476
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793290382.081816
+}

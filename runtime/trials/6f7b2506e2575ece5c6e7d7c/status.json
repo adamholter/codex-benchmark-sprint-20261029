@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "fantom",
+  "id": "30-0-1-1943",
+  "category": "tom:info_accessibility:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292148.5787652,
+  "turn": {
+    "id": "01a1888a-a0c0-7691-bdc5-9f92939a0ffb",
+    "rootTurnId": "01a1888a-a0c0-7691-bdc5-9f92939a0ffb",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_031c245e7186f50c016ae377784fec8190bb1b507512eaae74",
+        "text": "Emely and Cali.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292148,
+    "completedAt": 1793292152,
+    "durationMs": 3568
+  },
+  "score": {
+    "correct": true,
+    "extracted": "Emely and Cali.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 3.9407744159689173,
+  "usage": {
+    "total": {
+      "totalTokens": 4648,
+      "inputTokens": 4444,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 204,
+      "reasoningOutputTokens": 193
+    },
+    "last": {
+      "totalTokens": 4648,
+      "inputTokens": 4444,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 204,
+      "reasoningOutputTokens": 193
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292152.5194292
+}

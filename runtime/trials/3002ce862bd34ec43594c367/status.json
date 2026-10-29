@@ -1,0 +1,67 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly_no_context",
+  "id": "122:Q 9.3:no_context",
+  "category": "Monolingual / Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793287578.859628,
+  "turn": {
+    "id": "01a18844-e64e-7ef2-b4e6-75a87aec94ac",
+    "rootTurnId": "01a18844-e64e-7ef2-b4e6-75a87aec94ac",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0111d087174175e3016ae365a1d3a0819087c386ac11dbe14e",
+        "text": "{\"d.\":\"The supplied sheet contains no Pame number forms or numerical examples, so neither language\u2019s number system nor the differences between them can be determined from the information provided.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793287579,
+    "completedAt": 1793287586,
+    "durationMs": 7728
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "d.": "The supplied sheet contains no Pame number forms or numerical examples, so neither language\u2019s number system nor the differences between them can be determined from the information provided."
+    },
+    "score": 1.0,
+    "parts_correct": 1,
+    "parts_total": 1,
+    "empty_reference_parts": 1,
+    "part_scores": {
+      "d.": 1.0
+    }
+  },
+  "seconds": 8.108808417106047,
+  "usage": {
+    "total": {
+      "totalTokens": 4085,
+      "inputTokens": 3963,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 122,
+      "reasoningOutputTokens": 79
+    },
+    "last": {
+      "totalTokens": 4085,
+      "inputTokens": 3963,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 122,
+      "reasoningOutputTokens": 79
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793287586.9683368
+}

@@ -1,0 +1,6 @@
+{
+  "question1": "[[100%]]",
+  "question2": "[[4%]]",
+  "question3": "[[C(S, 90/100, 75/150) → Pr(S, Region A) ≈ Pr(S, Region B)]]",
+  "question4": "[[P(A, 40, 500) → Pr(A) ≈ 40/500 = 8%]]"
+}

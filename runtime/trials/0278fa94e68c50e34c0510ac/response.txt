@@ -1,0 +1,7 @@
+{
+  "question1": "[[January Athios Unknown, February Cornick Rubicorp, March Gralax Techtrin, April Exatris SpaceZen]]",
+  "question2": "[[((4,3),(5,5))]]",
+  "question3": "[[B]]",
+  "question4": "[[((3,4),(2,3))]]",
+  "note": "The January company is unspecified. For questions 2 and 4, & is assumed to mean the defined @ operation."
+}

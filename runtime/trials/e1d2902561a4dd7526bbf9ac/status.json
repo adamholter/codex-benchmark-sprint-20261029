@@ -1,0 +1,74 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "korbench",
+  "id": "puzzle_191",
+  "category": "puzzle",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294236.478687,
+  "turn": {
+    "id": "01a188aa-7c4a-70e3-b424-f5aef48b1d18",
+    "rootTurnId": "01a188aa-7c4a-70e3-b424-f5aef48b1d18",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0550289ff69a674d016ae37fd9b42481909bc8b92e80fc3d2b",
+        "text": "[[T C X X X C T C T X,X X X C X X X X X C,X X X T X X T C X T,X C T C T C X X X X,X X X T X X X T C X]]",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294236,
+    "completedAt": 1793294298,
+    "durationMs": 62130
+  },
+  "score": {
+    "correct": false,
+    "extracted": "T C X X X C T C T X,X X X C X X X X X C,X X X T X X T C X T,X C T C T C X X X X,X X X T X X X T C X"
+  },
+  "seconds": 62.44437770801596,
+  "usage": {
+    "total": {
+      "totalTokens": 4926,
+      "inputTokens": 4140,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 786,
+      "reasoningOutputTokens": 728
+    },
+    "last": {
+      "totalTokens": 4926,
+      "inputTokens": 4140,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 786,
+      "reasoningOutputTokens": 728
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 7ca4daa7-ef62-4dea-9704-b7c49ffaf055",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a188aa-7c34-7da2-8d71-c11628b73c13",
+      "turnId": "01a188aa-7c4a-70e3-b424-f5aef48b1d18"
+    }
+  ],
+  "finished_at": 1793294298.922432
+}

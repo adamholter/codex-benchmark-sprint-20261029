@@ -1,0 +1,63 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-RQ_441",
+  "category": "Multi-RQ",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290225.5853891,
+  "turn": {
+    "id": "01a1886d-48f4-71a1-893b-e714394381b1",
+    "rootTurnId": "01a1886d-48f4-71a1-893b-e714394381b1",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0dab8c05d3dbcf4f016ae3701207088197a23d0496703e27b9",
+        "text": "{\n  \"question1\": \"No valid solution. The two F cells at (4,2) and (4,3) must form a domino, but every adjacent pair of E cells includes a cell that touches it.\",\n  \"question2\": \"[[((3,5),(8,10))]]\",\n  \"question3\": \"No valid solution. The two D cells at (2,4) and (2,5) must form a domino, leaving no adjacent pair of C cells that can be covered without touching it.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290225,
+    "completedAt": 1793290259,
+    "durationMs": 33232
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "question1": "NULL",
+      "question2": "((3,5),(8,10))",
+      "question3": "NULL"
+    },
+    "pass_rate": 0.3333333333333333
+  },
+  "seconds": 33.61401104205288,
+  "usage": {
+    "total": {
+      "totalTokens": 7074,
+      "inputTokens": 4370,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 2704,
+      "reasoningOutputTokens": 2588
+    },
+    "last": {
+      "totalTokens": 7074,
+      "inputTokens": 4370,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 2704,
+      "reasoningOutputTokens": 2588
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793290259.199048
+}

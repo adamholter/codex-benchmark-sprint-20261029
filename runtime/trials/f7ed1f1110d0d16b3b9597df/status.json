@@ -1,0 +1,87 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly_no_context",
+  "id": "185:Q 10.1:no_context",
+  "category": "Match-up / Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793285101.1884239,
+  "turn": {
+    "id": "01a1881f-1a28-77b2-949e-0bfe6c1f7cde",
+    "rootTurnId": "01a1881f-1a28-77b2-949e-0bfe6c1f7cde",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0b456938f1ec920d016ae35bf8e7c48190ac12ffa8d6f1700f",
+        "text": "{\n  \"(a)\": \"Cannot determine: English translation list is missing.\",\n  \"(b)\": \"Cannot determine: English translation list is missing.\",\n  \"(c)\": \"Cannot determine: English translation list is missing.\",\n  \"(d)\": \"Cannot determine: English translation list is missing.\",\n  \"(e)\": \"Cannot determine: English translation list is missing.\",\n  \"(f)\": \"Cannot determine: English translation list is missing.\",\n  \"(g)\": \"Cannot determine: English translation list is missing.\",\n  \"(h)\": \"Cannot determine: English translation list is missing.\",\n  \"(i)\": \"Cannot determine: English translation list is missing.\",\n  \"(j)\": \"Cannot determine: English translation list is missing.\",\n  \"(l)\": \"Cannot determine: English translation list is missing.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793285102,
+    "completedAt": 1793285114,
+    "durationMs": 12634
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "Cannot determine: English translation list is missing.",
+      "(b)": "Cannot determine: English translation list is missing.",
+      "(c)": "Cannot determine: English translation list is missing.",
+      "(d)": "Cannot determine: English translation list is missing.",
+      "(e)": "Cannot determine: English translation list is missing.",
+      "(f)": "Cannot determine: English translation list is missing.",
+      "(g)": "Cannot determine: English translation list is missing.",
+      "(h)": "Cannot determine: English translation list is missing.",
+      "(i)": "Cannot determine: English translation list is missing.",
+      "(j)": "Cannot determine: English translation list is missing.",
+      "(l)": "Cannot determine: English translation list is missing."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 11,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 0.0,
+      "(b)": 0.0,
+      "(c)": 0.0,
+      "(d)": 0.0,
+      "(e)": 0.0,
+      "(f)": 0.0,
+      "(g)": 0.0,
+      "(h)": 0.0,
+      "(i)": 0.0,
+      "(j)": 0.0,
+      "(l)": 0.0
+    }
+  },
+  "seconds": 13.669386541936547,
+  "usage": {
+    "total": {
+      "totalTokens": 4668,
+      "inputTokens": 4366,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 302,
+      "reasoningOutputTokens": 140
+    },
+    "last": {
+      "totalTokens": 4668,
+      "inputTokens": 4366,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 302,
+      "reasoningOutputTokens": 140
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793285114.857149
+}

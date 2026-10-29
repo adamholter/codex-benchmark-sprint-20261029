@@ -1,0 +1,73 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly",
+  "id": "190:Q 5.2:full_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290111.5921059,
+  "turn": {
+    "id": "01a1886b-8d43-7773-a32d-07a5e7876bc2",
+    "rootTurnId": "01a1886b-8d43-7773-a32d-07a5e7876bc2",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0af2fb19c985af51016ae36f9e47288190b6c40ea3e4299917",
+        "text": "{\"a.\":\"k\u0105p'\u012fwnem\u0105 ikaxi\",\"b.\":\"p'imne ikim\u0173\",\"c.\":\"kiwcine iwp'im\u0173\",\"d.\":\"ip\u0119na ip'\u01ebyxi\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290112,
+    "completedAt": 1793290143,
+    "durationMs": 30742
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "a.": "k\u0105p'\u012fwnem\u0105 ikaxi",
+      "b.": "p'imne ikim\u0173",
+      "c.": "kiwcine iwp'im\u0173",
+      "d.": "ip\u0119na ip'\u01ebyxi"
+    },
+    "score": 0.25,
+    "parts_correct": 1,
+    "parts_total": 4,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 0.0,
+      "b.": 0.0,
+      "c.": 1.0,
+      "d.": 0.0
+    }
+  },
+  "seconds": 31.531626333016902,
+  "usage": {
+    "total": {
+      "totalTokens": 7707,
+      "inputTokens": 4313,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 3394,
+      "reasoningOutputTokens": 3340
+    },
+    "last": {
+      "totalTokens": 7707,
+      "inputTokens": 4313,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 3394,
+      "reasoningOutputTokens": 3340
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793290143.1231942
+}

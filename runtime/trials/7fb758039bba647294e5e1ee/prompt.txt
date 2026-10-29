@@ -1,0 +1,54 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+Hyperspace travel is a method used in the Star Wars universe to traverse the galaxy at speeds faster than light, allowing for quick interstellar travel.
+Imperial Stormtroopers, in the Star Wars universe, are often deployed to maintain order and enforce the will of the Galactic Empire during times of unrest.
+The Jedi Archives in the Star Wars universe contain vast amounts of knowledge about the galaxy's history, planets, and the Force.
+In the Star Wars universe, lightsaber duels are often used to settle disputes and conflicts, especially among Force-sensitive individuals.
+Clone Troopers are renowned in the Star Wars universe for their effectiveness in battle, especially during the Clone Wars.
+Sith Lords in the Star Wars universe often possess knowledge of ancient civilizations and dark secrets of the galaxy.
+Kamino, known for its advanced cloning technologies in the Star Wars universe, is capable of cloning various species, aiding in their preservation.
+Jedi foresight, a power of the Force in the Star Wars universe, allows Jedi to sense and sometimes predict future events, including those in the cosmos.
+Anakin Skywalker, known for his exceptional skills with droids and technology in the Star Wars universe, would be adept at handling a droid uprising.
+Probe Droids, used extensively in the Star Wars universe, are autonomous droids equipped for deep space exploration and intelligence gathering.
+Mandalorian mercenaries, known for their combat skills and armor in the Star Wars universe, are often employed for protection in dangerous assignments.
+Jedi often engage in meditation within the Jedi Temple as a means of maintaining their well-being and connection to the Force.
+The Republic often mobilizes disaster relief efforts to aid planets affected by natural disasters in the Star Wars universe.
+Kyber crystals are a vital resource in the Star Wars universe, used in the construction of lightsabers and as a powerful energy source.
+Hyperfuel is a high-energy substance used to power starships and other machinery in the Star Wars universe.
+The Galactic Senate, comprising representatives from various star systems, is a central governing body in the Star Wars universe.
+In the Star Wars universe, Jedi healers undergo specialized training, often in the Jedi Temple, to learn advanced healing techniques using the Force.
+Star maps in the Jedi Archives are crucial for navigation and understanding the galaxy in the Star Wars universe.
+Sith holocrons in the Star Wars universe are ancient devices used by the Sith to record and preserve their knowledge and teachings.
+Practice with a training remote is a common first step for Jedi in learning lightsaber skills in the Star Wars universe.
+
+
+### Questions:
+question1:
+Who is most likely to have knowledge about ancient and lost civilizations in the galaxy?
+Options: A. Archaeologists##B. Sith Lords##C. Physicists##D. The Chiss Ascendancy
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+question2:
+Question: How is critical medical knowledge typically acquired?
+Options: A. Medical school##B. Training in the Force##C. Apprenticeship in a library##D. Studying under a Jedi healer
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+question3:
+Question: Who would be the most effective in quelling a droid uprising?
+Options: A. Cybersecurity experts##B. Anakin Skywalker##C. Police forces##D. Clone Troopers
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+
+### Answers:

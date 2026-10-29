@@ -1,0 +1,91 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly_no_context",
+  "id": "167:Q A2.3.:no_context",
+  "category": "Pattern / Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793285536.044402,
+  "turn": {
+    "id": "01a18825-ba29-7c70-984b-9b17bf42c905",
+    "rootTurnId": "01a18825-ba29-7c70-984b-9b17bf42c905",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_00c1fbf9a2458dce016ae35dc79c6c81978661f1c3bc80f763",
+        "text": "{\n  \"1.\": \"Cannot be determined: the referenced tables are missing.\",\n  \"2. \": \"Cannot be determined: the referenced tables are missing.\",\n  \"3. \": \"Cannot be determined: the referenced tables are missing.\",\n  \"4. \": \"Cannot be determined: the referenced tables are missing.\",\n  \"5.\": \"Cannot be determined: the referenced tables are missing.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793285536,
+    "completedAt": 1793285578,
+    "durationMs": 41722
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "1.": "Cannot be determined: the referenced tables are missing.",
+      "2. ": "Cannot be determined: the referenced tables are missing.",
+      "3. ": "Cannot be determined: the referenced tables are missing.",
+      "4. ": "Cannot be determined: the referenced tables are missing.",
+      "5.": "Cannot be determined: the referenced tables are missing."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 5,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "1.": 0.0,
+      "2. ": 0.0,
+      "3. ": 0.0,
+      "4. ": 0.0,
+      "5.": 0.0
+    }
+  },
+  "seconds": 41.99123420799151,
+  "usage": {
+    "total": {
+      "totalTokens": 4363,
+      "inputTokens": 4139,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 224,
+      "reasoningOutputTokens": 136
+    },
+    "last": {
+      "totalTokens": 4363,
+      "inputTokens": 4139,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 224,
+      "reasoningOutputTokens": 136
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: c220e51e-53f0-4749-8a4a-a920b456fd5f",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a18825-ba11-7781-9a14-af84e474d3b6",
+      "turnId": "01a18825-ba29-7c70-984b-9b17bf42c905"
+    }
+  ],
+  "finished_at": 1793285578.0353699
+}

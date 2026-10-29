@@ -1,0 +1,69 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly_no_context",
+  "id": "13:Q 1.:no_context",
+  "category": "Computational",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793284647.833746,
+  "turn": {
+    "id": "01a18818-2e34-7350-8527-88a669dc16e1",
+    "rootTurnId": "01a18818-2e34-7350-8527-88a669dc16e1",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_065233958f80e919016ae35a309ae481948643f02061c35c97",
+        "text": "{\"a\":\"Cannot identify incorrect words: the sheet does not include a machine-translated text to examine.\",\"b\":\"Cannot suggest replacements without the missing text.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793284648,
+    "completedAt": 1793284658,
+    "durationMs": 10008
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "a": "Cannot identify incorrect words: the sheet does not include a machine-translated text to examine.",
+      "b": "Cannot suggest replacements without the missing text."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 2,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a": 0.0,
+      "b": 0.0
+    }
+  },
+  "seconds": 10.723542249994352,
+  "usage": {
+    "total": {
+      "totalTokens": 4068,
+      "inputTokens": 3967,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 101,
+      "reasoningOutputTokens": 63
+    },
+    "last": {
+      "totalTokens": 4068,
+      "inputTokens": 3967,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 101,
+      "reasoningOutputTokens": 63
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793284658.55722
+}

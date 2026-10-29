@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "bbeh",
+  "id": "mini:boolean_expressions:0125",
+  "category": "boolean_expressions",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290937.266739,
+  "turn": {
+    "id": "01a18878-252d-74b3-a45f-3bad3055f9ec",
+    "rootTurnId": "01a18878-252d-74b3-a45f-3bad3055f9ec",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0307595fed9c3fa7016ae372d05e148195ab89f7df69d13b94",
+        "text": "**(E)** is the only expression that evaluates to **True**. Expressions (A), (B), (C), and (D) all evaluate to False.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290937,
+    "completedAt": 1793290961,
+    "durationMs": 24062
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(e) is the only expression that evaluates to true. expressions (a),(b),(c),and (d) all evaluate to false"
+  },
+  "seconds": 24.471353375003673,
+  "usage": {
+    "total": {
+      "totalTokens": 5272,
+      "inputTokens": 4739,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 533,
+      "reasoningOutputTokens": 493
+    },
+    "last": {
+      "totalTokens": 5272,
+      "inputTokens": 4739,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 533,
+      "reasoningOutputTokens": 493
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793290961.738011
+}

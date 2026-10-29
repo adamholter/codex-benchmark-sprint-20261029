@@ -1,0 +1,4 @@
+{
+  "a": "facade, supply, deceased, polished, departs, ignite, confront, changed, stabilize, arrived, buying, deceased, ahead, construct, house",
+  "b": "front, arm, late, shone, leaves, light, face, turned, steady, came, getting, late, before, make, home"
+}

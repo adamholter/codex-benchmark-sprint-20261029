@@ -1,0 +1,1 @@
+{"a.":"The king sits down.","b.":"The king is the god of the village."}

@@ -1,0 +1,83 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly",
+  "id": "101:Q 3.:full_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294411.8983529,
+  "turn": {
+    "id": "01a188ad-2b47-7181-af4b-5ad3a833b27d",
+    "rootTurnId": "01a188ad-2b47-7181-af4b-5ad3a833b27d",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_00e86a4b332aee60016ae38051e04481978dca36c802914777",
+        "text": "{\"a\":\"IE\",\"b\":\"IE\",\"c\":\"IE\",\"d\":\"U\",\"e\":\"IE\",\"f\":\"IE\",\"g\":\"U\",\"__(h)__\":\"IE\",\"i\":\"neither\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294412,
+    "completedAt": 1793294418,
+    "durationMs": 5738
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "a": "IE",
+      "b": "IE",
+      "c": "IE",
+      "d": "U",
+      "e": "IE",
+      "f": "IE",
+      "g": "U",
+      "__(h)__": "IE",
+      "i": "neither"
+    },
+    "score": 1.0,
+    "parts_correct": 9,
+    "parts_total": 9,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a": 1.0,
+      "b": 1.0,
+      "c": 1.0,
+      "d": 1.0,
+      "e": 1.0,
+      "f": 1.0,
+      "g": 1.0,
+      "__(h)__": 1.0,
+      "i": 1.0
+    }
+  },
+  "seconds": 6.625549459015019,
+  "usage": {
+    "total": {
+      "totalTokens": 4863,
+      "inputTokens": 4749,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 114,
+      "reasoningOutputTokens": 68
+    },
+    "last": {
+      "totalTokens": 4863,
+      "inputTokens": 4749,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 114,
+      "reasoningOutputTokens": 68
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793294418.523697
+}

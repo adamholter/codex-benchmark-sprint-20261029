@@ -1,0 +1,79 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly_no_context",
+  "id": "127:Q 4.1:no_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290668.1453881,
+  "turn": {
+    "id": "01a18874-0b79-7f13-969d-9ba1c4d86b91",
+    "rootTurnId": "01a18874-0b79-7f13-969d-9ba1c4d86b91",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0d8dbb044ba19bb9016ae371afe9f48197925cbb5c70f15f81",
+        "text": "{\n  \"2.\": \"Cannot determine: translations b\u2013h are not provided.\",\n  \"3.\": \"Cannot determine: translations b\u2013h are not provided.\",\n  \"4.\": \"Cannot determine: translations b\u2013h are not provided.\",\n  \"5.\": \"Cannot determine: translations b\u2013h are not provided.\",\n  \"6.\": \"Cannot determine: translations b\u2013h are not provided.\",\n  \"7.\": \"Cannot determine: translations b\u2013h are not provided.\",\n  \"8\": \"Cannot determine: translations b\u2013h are not provided.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290668,
+    "completedAt": 1793290672,
+    "durationMs": 3877
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "2.": "Cannot determine: translations b\u2013h are not provided.",
+      "3.": "Cannot determine: translations b\u2013h are not provided.",
+      "4.": "Cannot determine: translations b\u2013h are not provided.",
+      "5.": "Cannot determine: translations b\u2013h are not provided.",
+      "6.": "Cannot determine: translations b\u2013h are not provided.",
+      "7.": "Cannot determine: translations b\u2013h are not provided.",
+      "8": "Cannot determine: translations b\u2013h are not provided."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 7,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "2.": 0.0,
+      "3.": 0.0,
+      "4.": 0.0,
+      "5.": 0.0,
+      "6.": 0.0,
+      "7.": 0.0,
+      "8": 0.0
+    }
+  },
+  "seconds": 4.707766250008717,
+  "usage": {
+    "total": {
+      "totalTokens": 4402,
+      "inputTokens": 4256,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 146,
+      "reasoningOutputTokens": 20
+    },
+    "last": {
+      "totalTokens": 4402,
+      "inputTokens": 4256,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 146,
+      "reasoningOutputTokens": 20
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793290672.852559
+}

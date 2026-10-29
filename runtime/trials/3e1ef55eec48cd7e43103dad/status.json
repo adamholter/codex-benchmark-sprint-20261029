@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "fantom",
+  "id": "55-0-1-2975",
+  "category": "tom:belief:inaccessible:multiple-choice",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290943.18832,
+  "turn": {
+    "id": "01a18878-3c0f-7893-9487-4d06ca05dc3b",
+    "rootTurnId": "01a18878-3c0f-7893-9487-4d06ca05dc3b",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0d8fb33f5d325ed4016ae372c3cd7c819780e14cbb45bf510b",
+        "text": "(b) Brianna is unaware because she was not present when Trey discussed his responsibilities.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290943,
+    "completedAt": 1793290948,
+    "durationMs": 5029
+  },
+  "score": {
+    "correct": true,
+    "extracted": "(b) Brianna is unaware because she was not present when Trey discussed his responsibilities.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 5.397526749991812,
+  "usage": {
+    "total": {
+      "totalTokens": 4379,
+      "inputTokens": 4334,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 45,
+      "reasoningOutputTokens": 22
+    },
+    "last": {
+      "totalTokens": 4379,
+      "inputTokens": 4334,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 45,
+      "reasoningOutputTokens": 22
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793290948.585294
+}

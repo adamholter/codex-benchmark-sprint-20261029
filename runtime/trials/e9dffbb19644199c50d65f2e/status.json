@@ -1,0 +1,69 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly_no_context",
+  "id": "216:Q 1.1:no_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290574.935402,
+  "turn": {
+    "id": "01a18872-9e36-7572-ab74-b9aae88a64a9",
+    "rootTurnId": "01a18872-9e36-7572-ab74-b9aae88a64a9",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_05731e7e14a50623016ae3715695048190a6cb40c00528ac32",
+        "text": "{\"(a)\":\"Cannot be determined: the sheet omits the meanings of ipina.\",\"(b)\":\"Cannot be determined from the supplied information.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290575,
+    "completedAt": 1793290583,
+    "durationMs": 8001
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "Cannot be determined: the sheet omits the meanings of ipina.",
+      "(b)": "Cannot be determined from the supplied information."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 2,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 0.0,
+      "(b)": 0.0
+    }
+  },
+  "seconds": 8.504884333000518,
+  "usage": {
+    "total": {
+      "totalTokens": 4328,
+      "inputTokens": 4236,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 92,
+      "reasoningOutputTokens": 54
+    },
+    "last": {
+      "totalTokens": 4328,
+      "inputTokens": 4236,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 92,
+      "reasoningOutputTokens": 54
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793290583.439741
+}

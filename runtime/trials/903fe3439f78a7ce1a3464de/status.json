@@ -1,0 +1,81 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly",
+  "id": "206:Q 1.1:full_context",
+  "category": "Text",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288855.17294,
+  "turn": {
+    "id": "01a18858-5fa2-7220-a95e-fe8bc670b9a9",
+    "rootTurnId": "01a18858-5fa2-7220-a95e-fe8bc670b9a9",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_056c2e60152bc18e016ae36a9ced5c81948f8a6e9536e1e3df",
+        "text": "{\"a. (Old English)\": \"rice\", \"a. (West Frisian)\": \"keninkryk\", \"b. (Old English)\": \"eor\u00f0an\", \"b. (West Frisian)\": \"ierde\", \"c. (Old English)\": \"tod\u00e6g\", \"c. (West Frisian)\": \"hjoed\", \"d. (Old English)\": \"costnunge\", \"d. (West Frisian)\": \"fersiking\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288855,
+    "completedAt": 1793288861,
+    "durationMs": 6232
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "a. (Old English)": "rice",
+      "a. (West Frisian)": "keninkryk",
+      "b. (Old English)": "eor\u00f0an",
+      "b. (West Frisian)": "ierde",
+      "c. (Old English)": "tod\u00e6g",
+      "c. (West Frisian)": "hjoed",
+      "d. (Old English)": "costnunge",
+      "d. (West Frisian)": "fersiking"
+    },
+    "score": 1.0,
+    "parts_correct": 8,
+    "parts_total": 8,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a. (Old English)": 1.0,
+      "a. (West Frisian)": 1.0,
+      "b. (Old English)": 1.0,
+      "b. (West Frisian)": 1.0,
+      "c. (Old English)": 1.0,
+      "c. (West Frisian)": 1.0,
+      "d. (Old English)": 1.0,
+      "d. (West Frisian)": 1.0
+    }
+  },
+  "seconds": 6.6789009580388665,
+  "usage": {
+    "total": {
+      "totalTokens": 4882,
+      "inputTokens": 4640,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 242,
+      "reasoningOutputTokens": 141
+    },
+    "last": {
+      "totalTokens": 4882,
+      "inputTokens": 4640,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 242,
+      "reasoningOutputTokens": 141
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793288861.851386
+}

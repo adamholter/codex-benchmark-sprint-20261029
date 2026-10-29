@@ -1,0 +1,74 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "bbeh",
+  "id": "mini:zebra_puzzles:0004",
+  "category": "zebra_puzzles",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290606.524771,
+  "turn": {
+    "id": "01a18873-189c-7551-9bd5-b988301e6492",
+    "rootTurnId": "01a18873-189c-7551-9bd5-b988301e6492",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_05062a41065cefe6016ae3719948108197b31343c34436774c",
+        "text": "The person in the orange house is at **position 4**.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290606,
+    "completedAt": 1793290649,
+    "durationMs": 43217
+  },
+  "score": {
+    "correct": false,
+    "extracted": "the person in the orange house is at position 4"
+  },
+  "seconds": 43.486669791978784,
+  "usage": {
+    "total": {
+      "totalTokens": 5301,
+      "inputTokens": 5178,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 123,
+      "reasoningOutputTokens": 103
+    },
+    "last": {
+      "totalTokens": 5301,
+      "inputTokens": 5178,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 123,
+      "reasoningOutputTokens": 103
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 93bf9982-e81c-453d-8437-b411060cf52f",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a18873-1887-75d0-95dc-8a107ec9bc6a",
+      "turnId": "01a18873-189c-7551-9bd5-b988301e6492"
+    }
+  ],
+  "finished_at": 1793290650.010911
+}

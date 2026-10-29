@@ -1,0 +1,1 @@
+{"1.": "Cannot be determined without the tables.", "2. ": "Cannot be determined without the tables.", "3. ": "Cannot be determined without the tables.", "4. ": "Cannot be determined without the tables.", "5.": "Cannot be determined without the tables."}

@@ -1,0 +1,62 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-RQ_253",
+  "category": "Multi-RQ",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793286447.8035681,
+  "turn": {
+    "id": "01a18833-a3e4-7a80-97ad-5da19a39a1dd",
+    "rootTurnId": "01a18833-a3e4-7a80-97ad-5da19a39a1dd",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_07b2dfa133089568016ae361363fdc81909d615a68d386a05a",
+        "text": "{\n  \"question1\": \"[[Aries Cancer Libra Scorpio Leo]]\",\n  \"question2\": \"[[8^3]]\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793286448,
+    "completedAt": 1793286454,
+    "durationMs": 6601
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "question1": "Aries Cancer Libra Scorpio Leo",
+      "question2": "8^3"
+    },
+    "pass_rate": 1.0
+  },
+  "seconds": 6.953817875008099,
+  "usage": {
+    "total": {
+      "totalTokens": 4627,
+      "inputTokens": 4503,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 124,
+      "reasoningOutputTokens": 89
+    },
+    "last": {
+      "totalTokens": 4627,
+      "inputTokens": 4503,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 124,
+      "reasoningOutputTokens": 89
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793286454.7569752
+}

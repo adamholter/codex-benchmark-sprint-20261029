@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "fantom",
+  "id": "2-1-0-140",
+  "category": "tom:info_accessibility:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793291509.659151,
+  "turn": {
+    "id": "01a18880-e083-7e02-a4b2-1cf93e4390ba",
+    "rootTurnId": "01a18880-e083-7e02-a4b2-1cf93e4390ba",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_09cc406399327cf1016ae374fc83a481969554acf275bc50b2",
+        "text": "Emanuel and Kali.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793291509,
+    "completedAt": 1793291516,
+    "durationMs": 6870
+  },
+  "score": {
+    "correct": false,
+    "extracted": "Emanuel and Kali.",
+    "strict_correct": false,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 7.139698707964271,
+  "usage": {
+    "total": {
+      "totalTokens": 4979,
+      "inputTokens": 4905,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 74,
+      "reasoningOutputTokens": 63
+    },
+    "last": {
+      "totalTokens": 4979,
+      "inputTokens": 4905,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 74,
+      "reasoningOutputTokens": 63
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793291516.798211
+}

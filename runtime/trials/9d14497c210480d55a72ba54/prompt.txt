@@ -1,0 +1,74 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+The Ancient Civilization were a race of magically and technologically adept beings who destroyed themselves by overuse of Nightmare Fuel. The Ruins and Ancient Archive are the remnants of their civilization. When examining the Ancient Fuelweaver and the Ancient Murals, a number of characters refer to the members of the Ancient Civilization as "bug people".
+The date of Maxwell's last act is April 17, 1906.
+The Year of the Varg is an event in Don't Starve Together, lasting from February 9 until March 16, 2018. 
+Ways to negate Hay Fever include:Wearing a Gas Mask or Particulate Purifier.Eating (raw or cooked) Seed Pods, Nettles, Meated Nettles or Nettle Rolls.Being near a working Oscillating Fan.Turning on Living Artifact.Travelling to another world via the Skyworthy.Eating cooked tea tree seed.
+The total accumulated stress changes the output of a grown plant. From 0 to 1 stress point, the plant grows a Giant Crop.
+In all DLCs as well as DST, the Backpack is a flammable item. When set on fire, everything inside won't be affected by fire but the Backpack will eventually burn to Ashes, dropping anything it had inside.
+Ghost Players or Ghost Characters appear whenever a player dies in Don't Starve Together. They can fly around and haunt objects.
+WX-78 was the result of an unorthodox experiment helmed by {[LoadEmpathyModLibraryExW()......ERROR_DATA_PATH_NOT_FOUND]} and Robert Wagstaff. The experiment turned out to be a [RESOUNDING SUCCESS], but Wagstaff was [A SHORT SIGHTED FOOL, AFRAID OF PROGRESS] and decided to put a stop to further tests. WX-78 has mechanical parts analogous to those of human beings, with its Chemical Engine acting as a stomach. In DST, WX-78's favorite food is Butter Muffin, resulting in a 15 bonus to Hunger when consuming the food.
+The Tam o' Shanter is a Hat Item that is obtained by killing MacTusk. It restores 6.7 Sanity per minute while worn.
+In Don't Starve, the majority of human characters are designed with four fingers on each hand.
+Sleepytime Stories causes Mobs within 30m to fall asleep about 2 seconds after reading. The duration of sleep depends on the target and the effect is broken when it is attacked.
+Practical Rain Rituals is a unique book by Wickerbottom added to Don't Starve Together. Crafting requires 2 Papyrus and 2 Down Feathers.When read, this book has the ability to toggle rain. 
+An Earthquake is a naturally occurring event in Caves and the Ruins. Earthquakes occur regularly and can even be induced by igniting Gunpowders, Slurtle Slimes, Slurtle Mounds, Snurtles, and Slurtles; using a Telelocator Staff and attacking a Big Tentacle.
+Treeguards are Boss Monsters that can occasionally transform from Evergreens when a nearby Evergreen is chopped down. They are initially hostile towards the wood-cutter, assuming that is how they were spawned, have very high health and damage, and are capable of killing most unarmored characters in three strikes. They can be pacified by planting new trees nearby.
+A live Moleworm can be obtained by either attacking it (one time) with a Hammer or Executive Hammer after it surfaces, or digging its Burrow by a Shovel during the day, which destroys the Burrow. Moleworms will slowly starve in the inventory, if not fed minerals. The The Blue Gem belongs to a category of minerals.
+The Lightning Conductor is a craftable Item exclusive to Don't Starve Together introduced in Return of Them. It is found in the Seafaring Filter and requires 5 Gold Nuggets to craft, and a Think Tank to prototype.
+Hounds can swim in the ocean and may transform into Horror Hounds after death on the Lunar Island.
+ A Worm Hole is a living tunnel, which warps the player to a different area of the map. Worm Holes appear as a mouth in the ground, and will open when approached by the player. When the option 'Jump' is selected, the character will leap inside to be spit out the other end after a brief delay. There are multiple Worm Holes in most worlds and they always connect the same two places on the map. 
+When placed on the ground and lit with a Torch or a Lighter, the Flare will shoot up into the sky. It will then cause all other players to make an announcement about the flare and create a marking on the Map that is near, but not on, the launch site, for 15 seconds that is visible to all players.
+In all DLCs, Dragonpie increases the player's perceived temperature by 1 degree per second for 10 seconds when consumed. The same is true for Don't Starve Together.
+
+
+### Questions:
+question1:
+What could be a possible cause of earthquakes?
+Options: A.Influence of solar wind.##B.Movement of tectonic plates.##C.Using a Telelocator Staff and attacking a big tentacle.##D.Mining mineable objects using pickaxe.
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+question2:
+When a backpack made only of grasses and twigs, filled with dry grass, catches fire and burns for an extended duration, would the backpack and its contents be significantly damaged?
+Options: A.The backpack and its contents will remain unharmed##B.The backpack may experience some damage, but its contents will remain intact##C.The backpack and its contents will be significantly damaged.##D.The backpack will not be damaged, but its contents will undergo damage.
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+question3:
+On March 1, 2018, many people may have celebrated the arrival of the Year of which animal?
+Options: A.The Year of the Dog in the Chinese zodiac##B.The Year of the Rooster in the Chinese zodiac##C.The Year of the Gobbler##D.The Year of the Varg
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+question4:
+What is the usual purpose of people reading sleepytime stories?
+Options: A.Facilitating physical exercise and boost energy levels of readers.##B.Helping relax the mind and promote sleep of readers.##C.Causing Mobiles within 30m to fall asleep.##D.Enhancing the restoration of Sanity and Health.
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+question5:
+If there is a humanoid robot, which statement about it is correct?
+Options: A.It does not need to eat human food to operate.##B.It needs to consume human food to operate.##C.It has empathy similar to humans.##D.It does not need any energy supply to operate.
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+question6:
+If you have Hay Fever, which method can help you relieve it?
+Options: A.To take antihistamine medication##B.Wearing an Eyebrella##C.Travelling to another world via the Skyworthy.##D.Drinking apple cider vinegar
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+question7:
+How can we achieve larger-than-average crops?
+Options: A.Selecting varieties with the potential for giant crops through genetic screening##B.Watering more than usual##C.Keeping the stress point below 1##D.Keeping the happiness point above 10
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+
+### Answers:

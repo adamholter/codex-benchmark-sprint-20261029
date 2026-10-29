@@ -1,0 +1,101 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly_no_context",
+  "id": "169:Q A4.1.:no_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292980.451945,
+  "turn": {
+    "id": "01a18897-51cb-7820-b7bc-3f9119eab56d",
+    "rootTurnId": "01a18897-51cb-7820-b7bc-3f9119eab56d",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0455fc94d68e1481016ae37aba11808195bb1e0cbd77c99418",
+        "text": "{\n  \"(a)\": \"Cannot determine: Table 1 was not provided.\",\n  \"(b)\": \"Cannot determine: Table 1 was not provided.\",\n  \"(c)\": \"Cannot determine: Table 1 was not provided.\",\n  \"(d)\": \"Cannot determine: Table 1 was not provided.\",\n  \"(e)\": \"Cannot determine: Table 1 was not provided.\",\n  \"(f)\": \"Cannot determine: Table 1 was not provided.\",\n  \"(g)\": \"Cannot determine: Table 1 was not provided.\",\n  \"(h)\": \"Cannot determine: Table 1 was not provided.\",\n  \"(i)\": \"Cannot determine: Table 1 was not provided.\",\n  \"(j)\": \"Cannot determine: Table 1 was not provided.\",\n  \"(k)\": \"Cannot determine: Table 1 was not provided.\",\n  \"(l)\": \"Cannot determine: Table 1 was not provided.\",\n  \"(m)\": \"Cannot determine: Table 1 was not provided.\",\n  \"(n)\": \"Cannot determine: Table 1 was not provided.\",\n  \"(o)\": \"Cannot determine: Table 1 was not provided.\",\n  \"(p)\": \"Cannot determine: Table 1 was not provided.\",\n  \"(q)\": \"Cannot determine: Table 1 was not provided.\",\n  \"(r)\": \"Cannot determine: Table 1 was not provided.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292980,
+    "completedAt": 1793292988,
+    "durationMs": 8102
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "Cannot determine: Table 1 was not provided.",
+      "(b)": "Cannot determine: Table 1 was not provided.",
+      "(c)": "Cannot determine: Table 1 was not provided.",
+      "(d)": "Cannot determine: Table 1 was not provided.",
+      "(e)": "Cannot determine: Table 1 was not provided.",
+      "(f)": "Cannot determine: Table 1 was not provided.",
+      "(g)": "Cannot determine: Table 1 was not provided.",
+      "(h)": "Cannot determine: Table 1 was not provided.",
+      "(i)": "Cannot determine: Table 1 was not provided.",
+      "(j)": "Cannot determine: Table 1 was not provided.",
+      "(k)": "Cannot determine: Table 1 was not provided.",
+      "(l)": "Cannot determine: Table 1 was not provided.",
+      "(m)": "Cannot determine: Table 1 was not provided.",
+      "(n)": "Cannot determine: Table 1 was not provided.",
+      "(o)": "Cannot determine: Table 1 was not provided.",
+      "(p)": "Cannot determine: Table 1 was not provided.",
+      "(q)": "Cannot determine: Table 1 was not provided.",
+      "(r)": "Cannot determine: Table 1 was not provided."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 18,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 0.0,
+      "(b)": 0.0,
+      "(c)": 0.0,
+      "(d)": 0.0,
+      "(e)": 0.0,
+      "(f)": 0.0,
+      "(g)": 0.0,
+      "(h)": 0.0,
+      "(i)": 0.0,
+      "(j)": 0.0,
+      "(k)": 0.0,
+      "(l)": 0.0,
+      "(m)": 0.0,
+      "(n)": 0.0,
+      "(o)": 0.0,
+      "(p)": 0.0,
+      "(q)": 0.0,
+      "(r)": 0.0
+    }
+  },
+  "seconds": 8.358171459054574,
+  "usage": {
+    "total": {
+      "totalTokens": 4539,
+      "inputTokens": 4174,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 365,
+      "reasoningOutputTokens": 87
+    },
+    "last": {
+      "totalTokens": 4539,
+      "inputTokens": 4174,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 365,
+      "reasoningOutputTokens": 87
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292988.809526
+}

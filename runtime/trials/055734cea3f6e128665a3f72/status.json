@@ -1,0 +1,75 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly_no_context",
+  "id": "191:Q 1.2:no_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793285447.8874571,
+  "turn": {
+    "id": "01a18824-61e3-7573-91af-ad217bd79206",
+    "rootTurnId": "01a18824-61e3-7573-91af-ad217bd79206",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0f5cf419bc2b8f60016ae35d4fdb80819490d43e9fab23b572",
+        "text": "{\"(f)\":\"Cannot determine: the table is missing.\",\"(g)\":\"Cannot determine: the table is missing.\",\"(h)\":\"Cannot determine: the table is missing.\",\"(i)\":\"Cannot determine: the table is missing.\",\"(j)\":\"Cannot determine: the table is missing.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793285448,
+    "completedAt": 1793285457,
+    "durationMs": 9388
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(f)": "Cannot determine: the table is missing.",
+      "(g)": "Cannot determine: the table is missing.",
+      "(h)": "Cannot determine: the table is missing.",
+      "(i)": "Cannot determine: the table is missing.",
+      "(j)": "Cannot determine: the table is missing."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 5,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(f)": 0.0,
+      "(g)": 0.0,
+      "(h)": 0.0,
+      "(i)": 0.0,
+      "(j)": 0.0
+    }
+  },
+  "seconds": 9.708424917072989,
+  "usage": {
+    "total": {
+      "totalTokens": 4147,
+      "inputTokens": 4036,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 111,
+      "reasoningOutputTokens": 43
+    },
+    "last": {
+      "totalTokens": 4147,
+      "inputTokens": 4036,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 111,
+      "reasoningOutputTokens": 43
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793285457.5954401
+}

@@ -1,0 +1,1 @@
+{"private":true,"scripts":{"validate":"python3 validate.py","pilot":"python3 runner.py --pilot --workers 4"}}

@@ -1,0 +1,126 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+The terrain of Pandora is very complex, animals living here usually have six strong feet to move quickly, such as Dire Horse, the Na'vi land mount in Avatar.
+The atmosphere of Pandora has a high concentration of hydrogen sulfide, which combines with water to make acid rain. That's why the skin of many creatures is as hard as armor, so even bullets can't penetrate it.
+The temperature environment of Pandora is very similar to that of Earth, and there is already oxygen in the air, but in addition it contains large amounts of xenon, high concentrations of carbon dioxide and hydrogen sulfide, so the masks are only used to filter out the toxic gases.
+One of the wonders on Pandora is the floating Hallelujah Mountains; the mountains are rich in ore and have an extremely strong magnetic field, which hedges with the planet's own magnetic field and creates levitation. 
+Ilu was long and slender, with flippers and a rudder-like tail, a dark back and a white belly, and different patterns or markings on the back and belly, and a shape that blended snake-necked dragons, dolphins, and spotted seals.
+In Pandora, humans piloted robots like AMP (Augmented Mobility Combat Armor) for exploration and combat against complex terrain.
+Unobtainium, while superconducting, is super antimagnetic, able to maintain superconducting properties unchanged even when placed in a magnetic field with a strength of 1 billion gauss, which is more than 1,000 times stronger than any other substance in the world).
+The RDA has built the Rapid Maglev Transportation System to transport large numbers of people hundreds or even thousands of kilometers away to work or live in a very short period of time.
+Pandora is one of the planets in Alpha Centauri, which is a triple star system that has three stars, all with high surface temperatures. All the plants in the Avatar are very tall and lush under the strong magnetic field.
+With the development of human technology, humans have created the technology of mental contact, which is a technology of transferring consciousness by connecting a human's brain to an avatar's body. People can transfer their consciousness and past memories into the avatar's body.
+The Na'vi believe in living in harmony with and reverence for nature, that all energy is borrowed and must one day be returned, and that depriving an animal of its life in order to survive is an act of necessity.
+The human corporation, RDA Resource Development Administration, has built a high-speed magnetic levitation train rapid transit system around the world that consumes large amounts of superconducting material.
+Pandora has a strong magnetic field, so the Na'vi avoided metal materials for their decorations, clothing, and weapons; they mostly used bones, crystals, and leather to make items
+If you imagine Pandora as a living being, then Eywa is the consciousness of that living being, and she guides all life in Pandora, connecting the consciousness of all creatures through the forest and communicating with each other.
+Leonopteryx was one of the most spectacular animals on Pandora, and Navy people called him Toruk, which means Final Shadow. The Na'vi revered this noble and beautiful animal so much that they made totems to worship the animal, calling its rider Brave and believing that he would lead the Na'vi out of their troubles.
+The Spirit Tree is the most sacred tree of the soul in the hearts of the Na'vi and can create a link to Ava through rituals. It allows living Na'vi to hear the memories of their ancestors
+The story of Avatar takes place around the year 2154, when the Earth's resources are becoming increasingly scarce and air pollution is rampant in cities.
+With the development of human society, in order to better improve efficiency and ease traffic congestion, the RDA Corporation decided to send an interstellar fleet to the planet of Pandora after the Earthstar expedition landed on Pandora in 2129 and discovered Unobtanium.
+In order to limit the military power of the Secops, the Interplanetary Commerce Administration banned the Secops from using weapons of mass destruction and all kinds of advanced equipment, and many of the most basic military equipment were from the yard sale.
+Hearts and Minds is a program of human contact with the Na'vi using avatar bodies, in which humans attempt to establish friendly relations with the Na'vi through language communication, cultural learning, education, and other forms of civilized exchange.
+
+**Encryption Rules:**
+
+- Input:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Output:
+    - Ciphertext:  A sequence of numbers separated by ,. For example, "y1,y2,…".
+- Preparation:
+    - k_q_x : 12
+- Encryption Steps:
+    - For each letter p in the plaintext:
+        - Get the decimal number x corresponding to the ascii code of p.
+        - Calculate x * k_q_x as the number y of ciphertexts for that letter p.
+    - Finally, concatenate all y's and separate them with commas to get the final ciphertext.
+
+ **Decryption Rules:**
+
+- Input:
+    - Ciphertext: A sequence of numbers separated by ,. For example, "y1,y2,…".
+- Output:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Preparation:
+    - k_q_x : 12
+- Decryption Steps:
+    - For each number c in the ciphertext:
+        - Compute z = c // k_q_x. where // is used in integer division operations to return the integer part of the quotient (i.e., the result of removing the fractional part).
+        - Based on the decimal number represented by z, use ascii to find the corresponding letter as the plaintext letter p.
+    - Finally, concatenate all p's to get the final plaintext.
+
+a①b=\sqrt{a}+b^2.
+a②b=\sqrt{a}×b.
+
+1.The maze consists of a grid with an arrow in each grid cell pointing in one of eight directions up, down, left, right, or diagonally.
+2.The maze has a well-defined start and end point.
+3.The player starts at the starting point, moves to the next grid cell in the direction indicated by the arrow, and then continues to move as indicated by the arrow in the new grid.
+4.The player must move strictly in the direction indicated by the arrows and cannot go in the opposite direction or choose another path.
+5.The game is won when the player successfully reaches the end from the starting point.
+
+
+### Questions:
+question1:
+↓	→	↘	↓	←
+↗	↑	↘	↖	↙
+↗	↗	↘	↓	↙
+↘	←	↑	↙	↑
+↑	↑	↖	←	○
+The answers are required to point out the position of each inflection point in order, 0 indicates a point not on the path.
+The output should be given in order from left to right, top to bottom, with each element separated by a space and different lines separated by a comma.
+Ensure that your final answer is wrapped in double square brackets, like this: [[1 0 2,4 0 5,3 0 6]].
+
+question2:
+→	↗	↗	↗	↙
+↗	↓	↖	↙	↘
+→	↓	↘	←	↗
+↗	↗	→	↖	↑
+↙	→	↑	↘	○
+The answers are required to point out the position of each inflection point in order, 0 indicates a point not on the path.
+The output should be given in order from left to right, top to bottom, with each element separated by a space and different lines separated by a comma.
+Ensure that your final answer is wrapped in double square brackets, like this: [[1 0 2,4 0 5,3 0 6]].
+
+question3:
+How to achieve memory transfer? (answer with one option)
+Options:A. using a mental contact system to transfer memories;; ##B. finding a psychiatrist for treatment;; ##C. Telling remembered stories to other people; ##D. using the bonds to manipulate other bodies
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+question4:
+Compute 49①(9②2).
+Please ensure the answer is a single number and wrap it in double square brackets, like this: [[your answer]].
+
+question5:
+If (X①2)②3=9, find X.
+The answer should only be given as a number.
+Please wrap the answer in double square brackets, like this: [[your answer]].
+
+question6:
+In which of the following cases did an organism make a choice to adapt to its environment?(answer with one option)
+Options:A.flying fish evolved wings to prevent themselves from being carried off by seagulls;##B.plants evolved thorns to prevent themselves from being eaten by Nara's deer;##C.banshee evolved sharp teeth to prevent themselves from being tamed by Na'vi people##D.Animals evolved armor-like skin to resist acid rain;
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+question7:
+If 6①(X②4)=40, find X.
+Please provide your answer in LaTeX format. 
+If the answer is a fraction, write it as \frac{a}{b}. 
+If it contains a root sign, use \sqrt{x} where x is the number under the root. 
+Wrap the final answer in double square brackets, like this: [[your answer]].
+
+question8:
+Compute 9②(4①2).
+Please ensure the answer is a single number and wrap it in double square brackets, like this: [[your answer]].
+
+
+### Answers:

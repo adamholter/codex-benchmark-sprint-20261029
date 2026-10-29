@@ -1,0 +1,77 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-R_988",
+  "category": "Multi-R",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294258.103721,
+  "turn": {
+    "id": "01a188aa-d143-77a3-8bdd-1f3f451f3d74",
+    "rootTurnId": "01a188aa-d143-77a3-8bdd-1f3f451f3d74",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_099a5682dccb9555016ae37fb957ac81968d6da50c4290adfd",
+        "text": "{\n  \"question1\": \"[[A]]\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294258,
+    "completedAt": 1793294265,
+    "durationMs": 7129
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "question1": "A"
+    },
+    "pass_rate": 1.0
+  },
+  "seconds": 7.546906124916859,
+  "usage": {
+    "total": {
+      "totalTokens": 5407,
+      "inputTokens": 5373,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 34,
+      "reasoningOutputTokens": 16
+    },
+    "last": {
+      "totalTokens": 5407,
+      "inputTokens": 5373,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 34,
+      "reasoningOutputTokens": 16
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: c5c43695-03e5-4f43-bc28-6ff8cd66d165",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a188aa-d12d-70c0-8919-e35dbf9dd2a5",
+      "turnId": "01a188aa-d143-77a3-8bdd-1f3f451f3d74"
+    }
+  ],
+  "finished_at": 1793294265.650083
+}

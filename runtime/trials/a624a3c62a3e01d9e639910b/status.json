@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "bbeh",
+  "id": "mini:boolean_expressions:0212",
+  "category": "boolean_expressions",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793284666.4392908,
+  "turn": {
+    "id": "01a18818-75a4-7450-bb69-58fea7aa8155",
+    "rootTurnId": "01a18818-75a4-7450-bb69-58fea7aa8155",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0c754940dbdf947b016ae35a426008819390e9ecb8be3a1345",
+        "text": "**(C)**. Its final disjunct is true: \\(4-(10/5)=2\\), and \\(2\\leq 8\\). Therefore the whole expression is true.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793284666,
+    "completedAt": 1793284674,
+    "durationMs": 8123
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(c). its final disjunct is true: \\(4-(10/5)=2\\),and \\(2\\leq 8\\). therefore the whole expression is true"
+  },
+  "seconds": 8.499654500046745,
+  "usage": {
+    "total": {
+      "totalTokens": 5695,
+      "inputTokens": 5034,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 661,
+      "reasoningOutputTokens": 615
+    },
+    "last": {
+      "totalTokens": 5695,
+      "inputTokens": 5034,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 661,
+      "reasoningOutputTokens": 615
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793284674.938358
+}

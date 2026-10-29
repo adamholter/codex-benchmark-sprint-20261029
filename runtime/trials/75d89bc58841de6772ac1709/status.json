@@ -1,0 +1,76 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "fantom",
+  "id": "92-1-2-4608",
+  "category": "tom:answerability:binary",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289208.882368,
+  "turn": {
+    "id": "01a1885d-c52e-7861-906f-86fba63e9ad3",
+    "rootTurnId": "01a1885d-c52e-7861-906f-86fba63e9ad3",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_05b1795c07c8bdfd016ae36c1cf3f88197a8f0b02dc6b56900",
+        "text": "No.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289209,
+    "completedAt": 1793289245,
+    "durationMs": 36006
+  },
+  "score": {
+    "correct": true,
+    "extracted": "No.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 36.3034603750566,
+  "usage": {
+    "total": {
+      "totalTokens": 4316,
+      "inputTokens": 4274,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 42,
+      "reasoningOutputTokens": 34
+    },
+    "last": {
+      "totalTokens": 4316,
+      "inputTokens": 4274,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 42,
+      "reasoningOutputTokens": 34
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 9b021be3-0d25-4cbe-8d86-95b5257b99b6",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a1885d-c515-70b1-9431-1c69cca8dc13",
+      "turnId": "01a1885d-c52e-7861-906f-86fba63e9ad3"
+    }
+  ],
+  "finished_at": 1793289245.18634
+}

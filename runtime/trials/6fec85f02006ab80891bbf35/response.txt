@@ -1,0 +1,18 @@
+{
+  "a.": "Cannot determine: the first table is missing.",
+  "b.": "Cannot determine: the first table is missing.",
+  "c.": "Cannot determine: the first table is missing.",
+  "d.": "Cannot determine: the first table is missing.",
+  "e.": "Cannot determine: the first table is missing.",
+  "f.": "Cannot determine: the first table is missing.",
+  "g.": "Cannot determine: the first table is missing.",
+  "h.": "Cannot determine: the first table is missing.",
+  "i.": "Cannot determine: the first table is missing.",
+  "j.": "Cannot determine: the first table is missing.",
+  "k.": "Cannot determine: the first table is missing.",
+  "l.": "Cannot determine: the first table is missing.",
+  "m.": "Cannot determine: the first table is missing.",
+  "n.": "Cannot determine: the first table is missing.",
+  "o.": "Cannot determine: the first table is missing.",
+  "p.": "Cannot determine: the first table is missing."
+}

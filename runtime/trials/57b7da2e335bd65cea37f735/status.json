@@ -1,0 +1,75 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly_no_context",
+  "id": "136:Q 3.:no_context",
+  "category": "Monolingual",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793286245.6637309,
+  "turn": {
+    "id": "01a18830-8e14-7263-86d6-80245bb30184",
+    "rootTurnId": "01a18830-8e14-7263-86d6-80245bb30184",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0dc229bb45903c47016ae3606f2b9881938270468821a55aa9",
+        "text": "{\n  \"9)\": \"19 + 21 = 40\",\n  \"10)\": \"16 \u00d7 2 = 32\",\n  \"11)\": \"8 \u00d7 8 = 64\",\n  \"12)\": \"12 \u00d7 10 = 120\",\n  \"13)\": \"125 \u00d7 2 = 250\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793286245,
+    "completedAt": 1793286256,
+    "durationMs": 10426
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "9)": "19 + 21 = 40",
+      "10)": "16 \u00d7 2 = 32",
+      "11)": "8 \u00d7 8 = 64",
+      "12)": "12 \u00d7 10 = 120",
+      "13)": "125 \u00d7 2 = 250"
+    },
+    "score": 1.0,
+    "parts_correct": 5,
+    "parts_total": 5,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "9)": 1.0,
+      "10)": 1.0,
+      "11)": 1.0,
+      "12)": 1.0,
+      "13)": 1.0
+    }
+  },
+  "seconds": 10.697928875102662,
+  "usage": {
+    "total": {
+      "totalTokens": 4577,
+      "inputTokens": 4362,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 215,
+      "reasoningOutputTokens": 142
+    },
+    "last": {
+      "totalTokens": 4577,
+      "inputTokens": 4362,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 215,
+      "reasoningOutputTokens": 142
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793286256.3613582
+}

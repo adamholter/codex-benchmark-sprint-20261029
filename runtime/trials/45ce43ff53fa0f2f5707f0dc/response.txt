@@ -1,0 +1,12 @@
+{
+  "(j)": "Cannot determine: the referenced patterns and forms are missing.",
+  "(k)": "Cannot determine: the referenced patterns and forms are missing.",
+  "(l)": "Cannot determine: the referenced patterns and forms are missing.",
+  "(m)": "Cannot determine: the referenced patterns and forms are missing.",
+  "(n)": "Cannot determine: the referenced patterns and forms are missing.",
+  "(o)": "Cannot determine: the referenced patterns and forms are missing.",
+  "(p)": "Cannot determine: the referenced patterns and forms are missing.",
+  "(q)": "Cannot determine: the referenced patterns and forms are missing.",
+  "(r)": "Cannot determine: the referenced patterns and forms are missing.",
+  "(s)": "Cannot determine: the referenced patterns and forms are missing."
+}

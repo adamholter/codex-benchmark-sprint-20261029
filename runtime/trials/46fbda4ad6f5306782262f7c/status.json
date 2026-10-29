@@ -1,0 +1,69 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly_no_context",
+  "id": "216:Q 1.1:no_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290556.726531,
+  "turn": {
+    "id": "01a18872-569b-75b0-b008-aaa7a2a29d11",
+    "rootTurnId": "01a18872-569b-75b0-b008-aaa7a2a29d11",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_036cc4f82dbf20e4016ae37141b428819680ce2a2506784e87",
+        "text": "{\"(a)\":\"Cannot be determined from the supplied sheet.\",\"(b)\":\"Cannot be determined from the supplied sheet.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290557,
+    "completedAt": 1793290562,
+    "durationMs": 5008
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "Cannot be determined from the supplied sheet.",
+      "(b)": "Cannot be determined from the supplied sheet."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 2,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 0.0,
+      "(b)": 0.0
+    }
+  },
+  "seconds": 5.395624333061278,
+  "usage": {
+    "total": {
+      "totalTokens": 4290,
+      "inputTokens": 4236,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 54,
+      "reasoningOutputTokens": 22
+    },
+    "last": {
+      "totalTokens": 4290,
+      "inputTokens": 4236,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 54,
+      "reasoningOutputTokens": 22
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793290562.1216729
+}

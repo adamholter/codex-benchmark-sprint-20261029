@@ -1,0 +1,1 @@
+{"3a": "baray", "5b": "baajisay", "8b": "bi'isay", "9b": "bilaabay", "10a": "cunay", "13b": "daaqday", "14b": "dhacday", "18b": "faraxday", "20b": "galay", "21b": "go'day", "22a": "helay", "24b": "kacday", "27b": "qaaday", "29b": "xidhay", "30b": "walaaqday"}

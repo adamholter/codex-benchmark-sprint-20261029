@@ -1,0 +1,71 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly_no_context",
+  "id": "187:Q 2.2:no_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793291465.141112,
+  "turn": {
+    "id": "01a18880-32fa-74f3-a272-6488e77c2f24",
+    "rootTurnId": "01a18880-32fa-74f3-a272-6488e77c2f24",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0b167131e43ad4ef016ae374d153c88194bc15853c482ded36",
+        "text": "{\"a.\":\"Cannot be determined: the English word list is missing.\",\"b.\":\"Cannot be determined: the English word list is missing.\",\"c.\":\"Cannot be determined: the English word list is missing.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793291465,
+    "completedAt": 1793291474,
+    "durationMs": 8760
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "a.": "Cannot be determined: the English word list is missing.",
+      "b.": "Cannot be determined: the English word list is missing.",
+      "c.": "Cannot be determined: the English word list is missing."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 3,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 0.0,
+      "b.": 0.0,
+      "c.": 0.0
+    }
+  },
+  "seconds": 9.103094374993816,
+  "usage": {
+    "total": {
+      "totalTokens": 4207,
+      "inputTokens": 4063,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 144,
+      "reasoningOutputTokens": 94
+    },
+    "last": {
+      "totalTokens": 4207,
+      "inputTokens": 4063,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 144,
+      "reasoningOutputTokens": 94
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793291474.2439308
+}

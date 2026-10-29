@@ -1,0 +1,9 @@
+**(D)** is true.
+
+In its first group, all three alternatives are false:
+
+- \(6 \le -8\) is false.
+- The range \(6 \le 7\) is true, so its triple negation is false.
+- \(-6 \le 5\) is true, so its negation makes the final conjunction false.
+
+The outer `not` therefore makes the first group **true**. The remaining group is false, so the full expression is **true or false**, which is **true**.

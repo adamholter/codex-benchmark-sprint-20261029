@@ -1,0 +1,6 @@
+{
+  "21.": "Cannot be determined from the supplied sheet.",
+  "22.": "Cannot be determined from the supplied sheet.",
+  "23.": "Cannot be determined from the supplied sheet.",
+  "24.": "Cannot be determined from the supplied sheet."
+}

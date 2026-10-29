@@ -1,0 +1,77 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+1.Given a set of letter combinations.
+2.Add the same prefix or suffix before or after the letter combinations to form meaningful words.
+3.Output is the prefix or suffix.
+
+**Encryption Rules:**
+
+- Input:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Output:
+    - Ciphertext:  A string without punctuation and spaces.
+- Preparation:
+    - Number of lines: 5
+- Encryption Steps:
+    - Fill in the first plaintext in the first position of the first line.
+    - Two ways to fill:
+        - Downward Fill: Fill the first row with a "#" (removing the first column, since the first position is already filled with a plaintext letter), then fill the plaintext downwards from the second row to the last row (fifth row).
+        - Upwards: the plaintext is filled upwards from the last line (fifth line) to the second line, and then the first line is filled with a "#".
+    - For each letter in the plaintext (except the first letter which has been filled in the first position), perform downward padding first, fill one column, then turn to upward padding, then turn to downward padding, and so on alternately, until all the letters have been filled.
+        - For example, HELLOWORLD.The content of the five lines after filling is
+        H L #
+        E R D
+        L O
+        L W
+        O #
+    - Filled out, read line by line, first read the contents of the first line, after reading the contents of each line are added a * sign, marking the end of the line; and then read the contents of the second line, and so on, read all the lines, the formation of the final password text.
+        H L #
+        E R D
+        L O
+        L W
+        O #
+        - Read the final cipher text line by line as "HL#*ERD*LO*LW*O#*" (i.e., there must be five *'s in the final cipher text to indicate that there are five lines)
+
+ **Decryption Rules:**
+
+- Input:
+    - Ciphertext: A string without punctuation and spaces.
+- Output:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Preparation:
+    - Number of lines: 5
+- Decryption Steps (exact opposite of encryption steps):
+    - According to the * in the ciphertext (excluding the * sign), it can be divided into five groups, which are filled into five rows in turn. Get the recovered data in five rows.
+        - For example, like "HL#*ERD*LO*LW*O#*" ,according to the division of * and then fill in the five lines to get the recovered five lines of data D:
+            H L #
+            E R D
+            L O
+            L W
+            O #
+    - Then read all the columns alternately according to read down first and then read up. Get the uncleared messages.
+        - For example, for the five rows of message D in the previous step, read alternately to get "HELLO#WORL#D"
+    - Remove the # from the uncleaned message to get the final plaintext.
+
+A€B=2A+3B
+A and B are matrices.
+
+
+### Questions:
+question1:
+Add a common prefix in front of these letter combinations to make a word: normal use sorb sent.
+Please wrap the answer in double square brackets, like this: [[your answer]].
+
+
+### Answers:

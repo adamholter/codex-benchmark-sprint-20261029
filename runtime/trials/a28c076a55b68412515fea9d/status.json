@@ -1,0 +1,101 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly_no_context",
+  "id": "189:Q 4.3:no_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289476.263103,
+  "turn": {
+    "id": "01a18861-d9c9-7b71-b8b2-5a2212d84189",
+    "rootTurnId": "01a18861-d9c9-7b71-b8b2-5a2212d84189",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0af55d3cb26bf5ba016ae36d148b58819386f59b58d0bed320",
+        "text": "{\n  \"(j)\": \"Cannot determine: the referenced patterns and noun forms are missing.\",\n  \"(k)\": \"Cannot determine: the referenced patterns and noun forms are missing.\",\n  \"(l)\": \"Cannot determine: the referenced patterns and noun forms are missing.\",\n  \"(m)\": \"Cannot determine: the referenced patterns and noun forms are missing.\",\n  \"(n)\": \"Cannot determine: the referenced patterns and noun forms are missing.\",\n  \"(o)\": \"Cannot determine: the referenced patterns and noun forms are missing.\",\n  \"(p)\": \"Cannot determine: the referenced patterns and noun forms are missing.\",\n  \"(q)\": \"Cannot determine: the referenced patterns and noun forms are missing.\",\n  \"(r)\": \"Cannot determine: the referenced patterns and noun forms are missing.\",\n  \"(s)\": \"Cannot determine: the referenced patterns and noun forms are missing.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289476,
+    "completedAt": 1793289496,
+    "durationMs": 19886
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(j)": "Cannot determine: the referenced patterns and noun forms are missing.",
+      "(k)": "Cannot determine: the referenced patterns and noun forms are missing.",
+      "(l)": "Cannot determine: the referenced patterns and noun forms are missing.",
+      "(m)": "Cannot determine: the referenced patterns and noun forms are missing.",
+      "(n)": "Cannot determine: the referenced patterns and noun forms are missing.",
+      "(o)": "Cannot determine: the referenced patterns and noun forms are missing.",
+      "(p)": "Cannot determine: the referenced patterns and noun forms are missing.",
+      "(q)": "Cannot determine: the referenced patterns and noun forms are missing.",
+      "(r)": "Cannot determine: the referenced patterns and noun forms are missing.",
+      "(s)": "Cannot determine: the referenced patterns and noun forms are missing."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 10,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(j)": 0.0,
+      "(k)": 0.0,
+      "(l)": 0.0,
+      "(m)": 0.0,
+      "(n)": 0.0,
+      "(o)": 0.0,
+      "(p)": 0.0,
+      "(q)": 0.0,
+      "(r)": 0.0,
+      "(s)": 0.0
+    }
+  },
+  "seconds": 20.62259762501344,
+  "usage": {
+    "total": {
+      "totalTokens": 4549,
+      "inputTokens": 4298,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 251,
+      "reasoningOutputTokens": 73
+    },
+    "last": {
+      "totalTokens": 4549,
+      "inputTokens": 4298,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 251,
+      "reasoningOutputTokens": 73
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 3575aaf0-c266-460f-8df3-17ca0f7a1932",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a18861-d99e-7390-9e99-1fa46e827cfc",
+      "turnId": "01a18861-d9c9-7b71-b8b2-5a2212d84189"
+    }
+  ],
+  "finished_at": 1793289496.8854132
+}

@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "fantom",
+  "id": "45-0-0-2604",
+  "category": "tom:info_accessibility:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793285234.5499158,
+  "turn": {
+    "id": "01a18821-2167-7c93-8723-345f7c0c198d",
+    "rootTurnId": "01a18821-2167-7c93-8723-345f7c0c198d",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0b7bc3a13d1b4ea3016ae35c7c04988197879eec9457f21215",
+        "text": "Aubrey and Chelsey.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793285235,
+    "completedAt": 1793285244,
+    "durationMs": 9257
+  },
+  "score": {
+    "correct": true,
+    "extracted": "Aubrey and Chelsey.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 9.79317329195328,
+  "usage": {
+    "total": {
+      "totalTokens": 4549,
+      "inputTokens": 4375,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 174,
+      "reasoningOutputTokens": 161
+    },
+    "last": {
+      "totalTokens": 4549,
+      "inputTokens": 4375,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 174,
+      "reasoningOutputTokens": 161
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793285244.3429601
+}

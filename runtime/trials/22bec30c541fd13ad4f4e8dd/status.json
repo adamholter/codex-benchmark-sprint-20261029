@@ -1,0 +1,81 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly",
+  "id": "168:Q 3.2:full_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793295310.4678311,
+  "turn": {
+    "id": "01a188ba-dfd8-7d03-81b1-025d3bfffdaf",
+    "rootTurnId": "01a188ba-dfd8-7d03-81b1-025d3bfffdaf",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0f9000e110c2f233016ae383e4a0248197b20d76b26ed175ff",
+        "text": "{\n  \"1\": \"7\",\n  \"2\": \"13\",\n  \"3\": \"91\",\n  \"4\": \"257\",\n  \"5\": \"tampui\",\n  \"6\": \"eser traowo naempr\",\n  \"7\": \"yempoka ptae eser traowo eser\",\n  \"8\": \"yuow tarumpao yuow ptae yuow traowo\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793295310,
+    "completedAt": 1793295333,
+    "durationMs": 23168
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "1": "7",
+      "2": "13",
+      "3": "91",
+      "4": "257",
+      "5": "tampui",
+      "6": "eser traowo naempr",
+      "7": "yempoka ptae eser traowo eser",
+      "8": "yuow tarumpao yuow ptae yuow traowo"
+    },
+    "score": 1.0,
+    "parts_correct": 8,
+    "parts_total": 8,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "1": 1.0,
+      "2": 1.0,
+      "3": 1.0,
+      "4": 1.0,
+      "5": 1.0,
+      "6": 1.0,
+      "7": 1.0,
+      "8": 1.0
+    }
+  },
+  "seconds": 23.535195166943595,
+  "usage": {
+    "total": {
+      "totalTokens": 4940,
+      "inputTokens": 4412,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 528,
+      "reasoningOutputTokens": 435
+    },
+    "last": {
+      "totalTokens": 4940,
+      "inputTokens": 4412,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 528,
+      "reasoningOutputTokens": 435
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793295334.002503
+}

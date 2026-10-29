@@ -1,0 +1,67 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly_no_context",
+  "id": "147:Q 4.1:no_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793293604.3438458,
+  "turn": {
+    "id": "01a188a0-d7c9-76f0-8cef-24952477ef3a",
+    "rootTurnId": "01a188a0-d7c9-76f0-8cef-24952477ef3a",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_072a9f40d9000b9e016ae37d2c27008197884c9e436537ee13",
+        "text": "{\"g.\":\"Cannot be determined from the supplied sheet: the list of words with marked stress is missing.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793293604,
+    "completedAt": 1793293612,
+    "durationMs": 8092
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "g.": "Cannot be determined from the supplied sheet: the list of words with marked stress is missing."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 1,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "g.": 0.0
+    }
+  },
+  "seconds": 8.586434999946505,
+  "usage": {
+    "total": {
+      "totalTokens": 4096,
+      "inputTokens": 4008,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 88,
+      "reasoningOutputTokens": 59
+    },
+    "last": {
+      "totalTokens": 4096,
+      "inputTokens": 4008,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 88,
+      "reasoningOutputTokens": 59
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793293612.92923
+}

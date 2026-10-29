@@ -1,0 +1,63 @@
+You are an intelligent assistant that specializes in encryption and decryption tasks. Below are the rules for a specific cipher. When responding, please ensure that your output adheres to the specified encryption and decryption rules and format.
+
+### Instructions:
+
+1. Identify the relevant properties and objects specified in the rule, including the plaintext, keyword, and ciphertext.
+2. Follow the specified encryption or decryption operations precisely as described in the rules.
+3. Ensure your output is formatted according to the specified notation and symbols.
+
+### Cipher Rule:
+
+**Encryption Rules**
+
+- Input:
+    - Plaintext: A string of uppercase letters (A-Z) without punctuation and spaces.
+- Output:
+    - Ciphertext: A binary string containing only 0s and 1s.
+- Preparation:
+    - Fixed Key: A binary string of length 8 (e.g., '10101010').
+    - Permutation Table:
+        - Permutation Table: (2, 0, 3, 1, 4, 6, 5, 7)
+        - Inverse Permutation Table: (1, 3, 0, 2, 4, 6, 5, 7)
+- Encryption Steps:
+    1. Convert Each Character to Binary:
+        - For each character in the plaintext, convert it to its ASCII value.
+        - Convert this ASCII value to an 8-bit binary string.
+    2. XOR Operation:
+        - Perform an XOR operation between the 8-bit binary representation of the character and the fixed key.
+        - Ensure the key is repeated to match the length of the binary representation if needed.
+    3. Permutation:
+        - Apply the permutation table to the XOR result to get the final encrypted binary string for each character.
+    4. Combine Binary Strings:
+        - Concatenate the binary strings of all characters to form the final ciphertext.
+
+**Decryption Rules**
+
+- Input:
+    - Ciphertext: A binary string containing only 0s and 1s.
+- Output:
+    - Plaintext: A string of uppercase letters (A-Z) without punctuation and spaces.
+- Preparation:
+    - Fixed Key: Same binary string of length 8 used for encryption (e.g., '10101010').
+    - Permutation Table:
+        - Permutation Table: (2, 0, 3, 1, 4, 6, 5, 7)
+        - Inverse Permutation Table: (1, 3, 0, 2, 4, 6, 5, 7)
+- Decryption Steps:
+    1. Split Ciphertext into Chunks:
+        - Split the binary ciphertext into 8-bit chunks, each representing an encrypted character.
+    2. Inverse Permutation:
+        - Apply the inverse permutation table to each 8-bit chunk to reverse the permutation applied during encryption.
+    3. XOR Operation:
+        - Perform an XOR operation between the permuted binary chunk and the fixed key.
+    4. Convert Binary to Character:
+        - Convert the resulting binary string back to its decimal equivalent.
+        - Convert this decimal value to its corresponding ASCII character.
+    5. Combine Characters:
+        - Concatenate the characters obtained from each binary chunk to form the final plaintext.
+
+### Question:
+Plaintext: "O"
+
+Please provide the encrypted answer, encapsulated in double square brackets. For example, the format should be: [[encrypted answer]].
+
+### Answer:

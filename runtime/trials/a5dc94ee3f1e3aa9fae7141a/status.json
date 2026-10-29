@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "fantom",
+  "id": "216-1-0-11202",
+  "category": "tom:info_accessibility:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294963.981017,
+  "turn": {
+    "id": "01a188b5-987c-7752-aa6a-f250efc8d205",
+    "rootTurnId": "01a188b5-987c-7752-aa6a-f250efc8d205",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_052fdf9b702da5db016ae38278e40c8197985ec5791d36a1ed",
+        "text": "Skylar and Aurora.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294964,
+    "completedAt": 1793294969,
+    "durationMs": 4221
+  },
+  "score": {
+    "correct": false,
+    "extracted": "Skylar and Aurora.",
+    "strict_correct": false,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 5.169583750073798,
+  "usage": {
+    "total": {
+      "totalTokens": 4839,
+      "inputTokens": 4637,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 202,
+      "reasoningOutputTokens": 191
+    },
+    "last": {
+      "totalTokens": 4839,
+      "inputTokens": 4637,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 202,
+      "reasoningOutputTokens": 191
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793294969.1496818
+}

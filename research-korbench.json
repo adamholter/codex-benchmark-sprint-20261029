@@ -1,0 +1,254 @@
+{
+  "benchmark": "KOR-Bench",
+  "repository": {
+    "url": "https://github.com/KOR-Bench/KOR-Bench",
+    "checkout": "sources/korbench",
+    "git_sha": "bb8194dff8e51e2e2247cf62aa9932c3d57d53d7",
+    "last_commit_date": "2024-11-13T00:59:15+08:00",
+    "last_commit_subject": "Create LICENSE",
+    "license": "Apache-2.0",
+    "dataset_license_note": "No separate data-specific license was identified; the repository has a top-level Apache-2.0 LICENSE."
+  },
+  "paper": {
+    "title": "KOR-Bench: Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks",
+    "url": "https://arxiv.org/abs/2410.06526",
+    "conference": "ICLR 2025"
+  },
+  "protocol": {
+    "adapter": "adapters/korbench.py",
+    "default": "1,250 core items, zero-shot prompts",
+    "core_counts": {
+      "operation": 250,
+      "logic": 250,
+      "cipher": 250,
+      "puzzle": 250,
+      "counterfactual": 250
+    },
+    "rules_per_category": 25,
+    "questions_per_rule": 10,
+    "optional_loader": "load_cases(include_mixed=True)",
+    "optional_mixed_counts": {
+      "Multi-Q": 1000,
+      "Multi-R": 1000,
+      "Multi-RQ": 1000,
+      "Multi-RQ_Hard": 4000
+    },
+    "all_cases_when_mixed_enabled": 8250,
+    "prompt_sources": [
+      "config/prompt/zero-shot.yaml",
+      "config/prompt/mixed.yaml"
+    ],
+    "mixed_response_protocol": "JSON object; the official evaluator reads values in insertion order and aligns them with question_list."
+  },
+  "scoring": {
+    "reference": "eval/eval_utils.py",
+    "default_adapter_dependencies": "Python 3.10+ standard library only",
+    "optional_symbolic_dependencies": [
+      "sympy>=1.13.0",
+      "antlr4-python3-runtime==4.11"
+    ],
+    "reference_requirements": [
+      "transformers>=4.44.0",
+      "vllm>=0.6.0",
+      "tenacity>=9.0.0",
+      "openai>=1.30.0",
+      "prettytable>=3.0.0",
+      "sympy>=1.13.0",
+      "antlr4-python3-runtime==4.11"
+    ],
+    "notes": [
+      "The adapter preserves the reference bracket extraction, category-specific comparisons, operation index exceptions, and mixed JSON value ordering.",
+      "The adapter uses a restricted arithmetic AST for two puzzle checks instead of executing response text with the reference evaluator's eval calls.",
+      "With SymPy and ANTLR installed, operation expression answers use parse_latex simplification; without them, the adapter follows the reference evaluator's cleaned-string fallback.",
+      "On the pinned data, the reference scoring rules mark 12 gold responses incorrect: puzzle_11, puzzle_12, puzzle_18, puzzle_31, puzzle_32, puzzle_33, puzzle_35, puzzle_36, puzzle_37, puzzle_84, puzzle_93, puzzle_94. The adapter preserves those reference outcomes."
+    ],
+    "model_inference_performed": false
+  },
+  "data_manifest": {
+    "hash_algorithm": "SHA-256",
+    "files": [
+      {
+        "path": "data/cipher/rule.jsonl",
+        "bytes": 65371,
+        "sha256": "a37e7d581cba5563fb501e4593c0bedebbd1dde960c1b8df8c787f223373796c"
+      },
+      {
+        "path": "data/cipher/sample.jsonl",
+        "bytes": 218753,
+        "sha256": "071d99669c9650a900029d752cc77b233ced51772179cb279a0f10355781834c"
+      },
+      {
+        "path": "data/cipher/subquestions.json",
+        "bytes": 325548,
+        "sha256": "8a0da8a3b91de87ddb5d1e17faf0eacae8880583c1fc4c368e1c31764cc7cfd0"
+      },
+      {
+        "path": "data/cipher/three-shot.jsonl",
+        "bytes": 19060,
+        "sha256": "e841c9bfd7d19dc13fac0a0be66a47559053449891f588801b3f9aecffe07ba1"
+      },
+      {
+        "path": "data/counterfactual/rule.jsonl",
+        "bytes": 116546,
+        "sha256": "085551b90bf65a6c5099083f770effd78aff062edfe395c0f052741bae60f1fd"
+      },
+      {
+        "path": "data/counterfactual/sample.jsonl",
+        "bytes": 178209,
+        "sha256": "111ff495b3ec7e01859c29fe546c57a80c0d7e744c684b34531e63fdae97687f"
+      },
+      {
+        "path": "data/counterfactual/three-shot.jsonl",
+        "bytes": 37826,
+        "sha256": "371adcec44e38f03dd6318c41908eb9ec36b023dd387c9338b432c952ecff8de"
+      },
+      {
+        "path": "data/logic/rule.jsonl",
+        "bytes": 43265,
+        "sha256": "dbd5799c9bc00a1cdfc65666e1c967b7b772391091fd82205dfcdc86d66bbef3"
+      },
+      {
+        "path": "data/logic/sample.jsonl",
+        "bytes": 200308,
+        "sha256": "7a68e511c2d33dff22bec59aab959c19726ad6b1a68304fdfd833b8c4a1990e4"
+      },
+      {
+        "path": "data/logic/three-shot.jsonl",
+        "bytes": 30698,
+        "sha256": "dcca85da8f7ebe3218ca92e2946802ae6532401bca078ab681dfea9ae5d9e4cb"
+      },
+      {
+        "path": "data/mixed/Multi-Q.jsonl",
+        "bytes": 147959,
+        "sha256": "99e4fe134a6be81f0d18d47bbb0de98fe8dfc8c21b6dd3f59d9b6d4df8be569d"
+      },
+      {
+        "path": "data/mixed/Multi-R.jsonl",
+        "bytes": 100997,
+        "sha256": "f5419b0efc885c40effa06887ba7222486ffe5d19069f4f8b5b9dbc1edaf1426"
+      },
+      {
+        "path": "data/mixed/Multi-RQ.jsonl",
+        "bytes": 116898,
+        "sha256": "ba323ade8b024a80d1439ce6a9911646228c09413e9dc441ea504db1d7cedee3"
+      },
+      {
+        "path": "data/mixed/Multi-RQ_Hard.jsonl",
+        "bytes": 745168,
+        "sha256": "b020941d759994508aa54a1ae28373e9c3529e75406b1a32303acd30fb7f242c"
+      },
+      {
+        "path": "data/operation/rule.jsonl",
+        "bytes": 3268,
+        "sha256": "6deeb083bc1f015f137f1dc8aecc3098265e236c9e2bcbfc6c7bb79bfaac3b9f"
+      },
+      {
+        "path": "data/operation/sample.jsonl",
+        "bytes": 77119,
+        "sha256": "8c62c2f5da05aa7fe5582e1b75a1e930c3baf2ef05bce832e1aef64fbfda4aae"
+      },
+      {
+        "path": "data/operation/three-shot.jsonl",
+        "bytes": 18445,
+        "sha256": "7755af546aa5424410320b3ac30e0dce63fdd549603cbf8b65182a3eedcf9f56"
+      },
+      {
+        "path": "data/puzzle/rule.jsonl",
+        "bytes": 13802,
+        "sha256": "6e4e21d8f59e61e366e423e4b9135dd23ff877a2f614f64d876fca5e20e88401"
+      },
+      {
+        "path": "data/puzzle/sample.jsonl",
+        "bytes": 254959,
+        "sha256": "6e6b7463c64788ff83d17ff2e898939c033c3c34e21426ba0330219459a2c12c"
+      },
+      {
+        "path": "data/puzzle/three-shot.jsonl",
+        "bytes": 41064,
+        "sha256": "502e84dc6547d364784b5b5faf9f1ae64f94b8b6d037a001f4be408c33acd20f"
+      }
+    ]
+  },
+  "results": {
+    "official_leaderboard_url": "https://kor-bench.github.io/static/data/kor_leaderboard_data.json",
+    "leaderboard_rows": 62,
+    "latest_submission_date": "2024-10-15",
+    "leaderboard_snapshot_retrieved_on": "2026-10-29",
+    "leaderboard_snapshot_sha256": "b6b4a9d41fe8287c422566bc2d277448bc0c8dc2e82095741b79632d4a1b13d9",
+    "historical_scores_percent": [
+      {
+        "model": "O1-Preview(2024-09-12)",
+        "submission_date": "2024-10-15",
+        "overall": 72.88,
+        "operation": 88.8,
+        "logic": 63.2,
+        "cipher": 82.8,
+        "puzzle": 36.8,
+        "counterfactual": 92.8,
+        "counterfactual_real_life_rate": 5.2
+      },
+      {
+        "model": "O1-Mini(2024-09-12)",
+        "submission_date": "2024-10-15",
+        "overall": 70.16,
+        "operation": 82.8,
+        "logic": 61.2,
+        "cipher": 79.6,
+        "puzzle": 35.6,
+        "counterfactual": 91.6,
+        "counterfactual_real_life_rate": 5.6
+      },
+      {
+        "model": "Claude-3.5-Sonnet(2024-06-20)",
+        "submission_date": "2024-09-23",
+        "overall": 58.96,
+        "operation": 88.4,
+        "logic": 67.2,
+        "cipher": 33.2,
+        "puzzle": 14.8,
+        "counterfactual": 91.2,
+        "counterfactual_real_life_rate": 6.0
+      },
+      {
+        "model": "Gpt-4o(2024-05-13)",
+        "submission_date": "2024-09-23",
+        "overall": 58.0,
+        "operation": 86.0,
+        "logic": 52.4,
+        "cipher": 42.8,
+        "puzzle": 16.8,
+        "counterfactual": 92.0,
+        "counterfactual_real_life_rate": 4.8
+      }
+    ],
+    "repository_archived_results": {
+      "date_in_filename": "2024-09-23",
+      "main_csv": "eval/results_0923_main.csv",
+      "main_csv_top_rows": [
+        {
+          "model": "claude-3-5-sonnet-20240620",
+          "overall_accuracy": 56.4
+        },
+        {
+          "model": "gpt-4o",
+          "overall_accuracy": 55.04
+        }
+      ],
+      "mixed_csv": "eval/results_0923_mixed.csv",
+      "mixed_leader": {
+        "model": "claude-3-5-sonnet-20240620",
+        "record_accuracy": 31.37,
+        "all_questions_pass_rate": 43.24
+      },
+      "comparison_note": "The repository CSV snapshot and the live official leaderboard report different core scores for similarly named models; preserve them as separate evaluation snapshots."
+    }
+  },
+  "sources": [
+    "https://github.com/KOR-Bench/KOR-Bench",
+    "https://github.com/KOR-Bench/KOR-Bench/blob/bb8194dff8e51e2e2247cf62aa9932c3d57d53d7/README.md",
+    "https://github.com/KOR-Bench/KOR-Bench/blob/bb8194dff8e51e2e2247cf62aa9932c3d57d53d7/eval/eval_utils.py",
+    "https://kor-bench.github.io/",
+    "https://kor-bench.github.io/static/data/kor_leaderboard_data.json",
+    "https://arxiv.org/abs/2410.06526"
+  ]
+}

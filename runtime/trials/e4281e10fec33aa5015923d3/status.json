@@ -1,0 +1,77 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly",
+  "id": "147:Q 4.2:full_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289446.610873,
+  "turn": {
+    "id": "01a18861-665c-78e0-8311-264b07309bf9",
+    "rootTurnId": "01a18861-665c-78e0-8311-264b07309bf9",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0d0bf75f9176b2f9016ae36ceb6cac8197aa52bb969809b10c",
+        "text": "{\n  \"a.\": \"bol\u00e1c:o\",\n  \"b.\": \"s\u00e9:i\",\n  \"c.\": \"f\u00farmine\",\n  \"d.\": \"abit\u00fad:ine\",\n  \"e.\": \"ac\u00f3rdio\",\n  \"f.\": \"\u01fd:goa\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289447,
+    "completedAt": 1793289452,
+    "durationMs": 5138
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "a.": "bol\u00e1c:o",
+      "b.": "s\u00e9:i",
+      "c.": "f\u00farmine",
+      "d.": "abit\u00fad:ine",
+      "e.": "ac\u00f3rdio",
+      "f.": "\u01fd:goa"
+    },
+    "score": 1.0,
+    "parts_correct": 6,
+    "parts_total": 6,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 1.0,
+      "b.": 1.0,
+      "c.": 1.0,
+      "d.": 1.0,
+      "e.": 1.0,
+      "f.": 1.0
+    }
+  },
+  "seconds": 5.636998959002085,
+  "usage": {
+    "total": {
+      "totalTokens": 4678,
+      "inputTokens": 4459,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 219,
+      "reasoningOutputTokens": 148
+    },
+    "last": {
+      "totalTokens": 4678,
+      "inputTokens": 4459,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 219,
+      "reasoningOutputTokens": 148
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793289452.247604
+}

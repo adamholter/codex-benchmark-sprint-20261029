@@ -1,0 +1,44 @@
+You are an intelligent assistant that specializes in encryption and decryption tasks. Below are the rules for a specific cipher. When responding, please ensure that your output adheres to the specified encryption and decryption rules and format.
+
+### Instructions:
+
+1. Identify the relevant properties and objects specified in the rule, including the plaintext, keyword, and ciphertext.
+2. Follow the specified encryption or decryption operations precisely as described in the rules.
+3. Ensure your output is formatted according to the specified notation and symbols.
+
+### Cipher Rule:
+
+**Encryption Rules:**
+
+- Input:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Output:
+    - Ciphertext:  A sequence of numbers separated by ,. For example, "y1,y2,…".
+- Preparation:
+    - k_q_x : 12
+- Encryption Steps:
+    - For each letter p in the plaintext:
+        - Get the decimal number x corresponding to the ascii code of p.
+        - Calculate x * k_q_x as the number y of ciphertexts for that letter p.
+    - Finally, concatenate all y's and separate them with commas to get the final ciphertext.
+
+ **Decryption Rules:**
+
+- Input:
+    - Ciphertext: A sequence of numbers separated by ,. For example, "y1,y2,…".
+- Output:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Preparation:
+    - k_q_x : 12
+- Decryption Steps:
+    - For each number c in the ciphertext:
+        - Compute z = c // k_q_x. where // is used in integer division operations to return the integer part of the quotient (i.e., the result of removing the fractional part).
+        - Based on the decimal number represented by z, use ascii to find the corresponding letter as the plaintext letter p.
+    - Finally, concatenate all p's to get the final plaintext.
+
+### Question:
+Ciphertext: "936"
+
+Please provide the decrypted answer, encapsulated in double square brackets. For example, the format should be: [[decrypted answer]].
+
+### Answer:

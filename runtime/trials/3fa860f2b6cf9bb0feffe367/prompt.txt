@@ -1,0 +1,98 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+Custom Formal Fallacy Naming Rules:
+- NegAnt Method: If P, then Q. Not P, erroneously concludes Not Q.
+- AffCons Method: If P, then Q. Q is true, erroneously concludes P.
+- CondSwap Method: If P then Q, erroneously believes that if Q then P.
+- IncorrNeg Method: If P then Q, erroneously concludes that if Not P then Not Q.
+- DisjSyl Method: Either P or Q. Knowing Q, erroneously concludes Not P.
+- QuantSwitch Method: ∀x∃y R(x, y), therefore, ∃y∀x R(x, y). Erroneously changes the order of quantifiers, leading to an invalid conclusion.
+- IllTrans Method: ∀x (Sx → Px), therefore, ∀x (Px → Sx). It is erroneous to infer "all P are S" from "all S are P". Similarly, from ∃x (Sx ∧ ¬Px), it is erroneous to infer ∃x (Px ∧ ¬Sx). Erroneously converts the terms in the proposition, leading to an invalid conclusion.
+- IncorrInf Method: From ∃x (Sx ∧ Px) infer ∃x (Sx ∧ ¬Px), and from ∃x (Sx ∧ ¬Px) infer ∃x (Sx ∧ Px). It is erroneous to infer "some S are not P" from "some S are P" and vice versa. An invalid inference is made about propositions with existential quantifiers.
+- InvSubError Method: `K(x, y)` indicates that individual x knows that y is true. `R(x, y, z)` indicates that x has a relationship z with y. `SubError(x, y, z)` indicates a substitution error when incorrectly applying knowledge or attributes about y to z.
+- LetClauseShift Method: When the structure of a statement is incorrectly adjusted or interpreted, causing the original intent or logical relationship to be misrepresented. For example, a shift in the structure of a let clause leads to an invalid inference.
+
+The Temple is the highest place in the Earth in the Dragon Ball universe.
+The measure of Ki often determines the power level of a character. It is a clear representation of their combat prowess and overall strength. The importance of Ki extends beyond just physical strength.
+In Dragon Ball, all kinds of Transformations will change the colour of hair, for example SuperSaiyan Transformation.
+In Dragon Ball, the fastest place to train is the Spirit Room, where a day equals to a year outside.
+In Dragon Ball, the God of Destruction often destroy planets while Frieza often occupy planets.
+In Dragon Ball, people of NameKian have a special ability to treat wounds.
+In Dragon Ball, the God who lives in The Temple on the sky is the actual leader of the earth.
+In Dragon Ball, the God of Destruction only terminates life operations while the God of KingKai maintains the life operations.
+In Dragon Ball, The Saiyans have been fighting since childhood and are therefore known as the recognized fighting nation.
+In Dragon Ball, Satan is thought to be the savior of the earth while Shenron only responds to a specific person who gathers all the dragon balls.
+In Dragon Ball, Teleportation can instantly make a person appear near the target.
+Although Ki determines fundamentally a person's capacity to fight, Scouters can inspect a person's fighting capacity most easily since everyone can use Scouters without training Ki.
+Since Ki is the most fundamental life energy in Dragon Ball universe, those most powerful long-range attack are all energy waves driven by somebody's Ki.
+In Dragon Ball, the magic Fairy Bean can instantly heal all wounds in a person while Ki can only help this slowly.
+In Dragon Ball, Angel's staff can communicate cross the universe while the Shenron's ability can only take effect on the Earth.
+In Dragon Ball, the Butra earrings carried by God of KingKai can make the fusion of two different individuals, for example, GoKu and Bejita.
+In Dragon Ball, Ki is the most apparent characteristic of a person and is easy to locate. shenron can only be wished once a year.
+In Dragon Ball, transformation can only make a person more powerful, however, the time machine which was developed by Bolma, can bring people back to the past.
+In Dragon Ball, A total of players from eight universes participated in the Tournament of Power, whose scale far surpasses the Best martial arts association of the World.
+In Dragon Ball, the largest battle that has ever erupted on Earth is the battle that the Frieza fight against with Goku and his partners, since over one thousand people participated in the battle.
+In Dragon Ball, the largest battle that has ever erupted on Earth is the battle that the Frieza fight against with Goku and his partners, since over one thousand people participated in the battle.
+In Dragon Ball, QuanKing created all the universes to watch them.
+
+**Encryption Rules:**
+
+- Input:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Output:
+    - Ciphertext:  Hexadecimal string (and letters a-e in lower case).
+- Preparation:
+    - Key(SHA hash value)
+        - Performing SHA-256 on "SECRET_KEY" results in '73ef2a4edd7a7fbf07fd5f6faf99674dc0c25a025fd74c221f4c35849e5c0fb3'.
+- Encryption Steps:
+    - Converts a plaintext string into a sequence of bytes (ASCII encoding).
+    - Each byte is encrypted with the corresponding byte of the key using a bitwise different-or (XOR) operation. Repeatedly recycle the key so that the key length is the same as the number of plaintext bytes.
+    - The encrypted byte sequence is converted to a hexadecimal string for ciphertext output.
+
+ **Decryption Rules:**
+
+- Input:
+    - Ciphertext: Hexadecimal string (and letters a-e in lower case).
+- Output:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Preparation:
+    - Key (Same as encryption,is a hashed hash obtained by SHA_256)
+- Decryption Steps:
+    - Converts the ciphertext string into a sequence of bytes.
+    - Each byte is decrypted (the decryption process is the same as the encryption process) with the corresponding byte of the key using a bitwise different-or (XOR) operation.
+    - The decrypted byte sequence is converted to a plaintext string.
+
+
+### Questions:
+question1:
+"All Chinese billionaires are Chinese people," so "all Chinese people are Chinese billionaires." The premise is true, but the conclusion is false, making the reasoning invalid.
+
+What type of formal fallacy is this?
+
+A. NegAnt Method
+B. AffCons Method
+C. CondSwap Method
+D. IncorrNeg Method
+E. DisjSyl Method
+F. QuantSwitch Method
+G. IllTrans Method
+H. IncorrInf Method
+I. InvSubError Method
+J. LetClauseShift Method
+
+Please give your answer in the format [[A/B/C/D/E/F/G/H/I/J]].
+
+
+### Answers:

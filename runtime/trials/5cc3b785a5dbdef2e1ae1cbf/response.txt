@@ -1,0 +1,13 @@
+{
+  "(a)": "Cannot determine: numbered English translations are missing.",
+  "(b)": "Cannot determine: numbered English translations are missing.",
+  "(c)": "Cannot determine: numbered English translations are missing.",
+  "(d)": "Cannot determine: numbered English translations are missing.",
+  "(e)": "Cannot determine: numbered English translations are missing.",
+  "(f)": "Cannot determine: numbered English translations are missing.",
+  "(g)": "Cannot determine: numbered English translations are missing.",
+  "(h)": "Cannot determine: numbered English translations are missing.",
+  "(i)": "Cannot determine: numbered English translations are missing.",
+  "(j)": "Cannot determine: numbered English translations are missing.",
+  "(l)": "Cannot determine: numbered English translations are missing."
+}

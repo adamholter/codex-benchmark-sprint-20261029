@@ -1,0 +1,24 @@
+Adelyn: Hello Frank, it's nice to meet you. So, do you enjoy any specific outdoor activities or sports?
+Frank: Hello Adelyn, pleasure meeting you. Yes actually, I've been playing basketball since I was a kid. How about you?
+Adelyn: That's great Frank, I've always admired people who have a knack for such sports. In my case, I'm more of a nature enthusiast. I love trekking and going for nature hikes.
+Frank: Interesting, I never understood the charm of it until I went to a camping trip last summer. The experience was amazing; I've grown to appreciate nature more since then.
+Adelyn: I'm glad to hear that, Frank. Trekking isn't just about exercise, it's about connecting with nature, the tranquility is soothing. Well, are you into any fitness activities?
+Frank: Yes, I'm keen on fitness too. I hit the gym 4 days a week and enjoy doing cardiovascular activities. How about you? Yoga, gym, or something else?
+Adelyn: I'm into yoga and I occasionally indulge in indoor rock climbing. As for the gym, well, I don't spend as much time as I would like to.
+Frank: Rock climbing sounds adventurous! I’ve always wanted to try it out. And, yoga is indeed calming and also great for flexibility.
+Adelyn: Yes! for me, fitness routines should be fun and engaging. This way, they don't feel like a chore.
+Frank: Absolutely! Keeping it varied and enjoyable can be a great motivation to stay fit.
+Adelyn: Well said Frank. It's been nice chatting about our interests in fitness; let's keep motivating each other, shall we?
+Frank: Definitely, Adelyn. And I look forward to trying some of the activities you've mentioned. Meeting you has been a pleasure.
+Kayla: Hello Frank, Adelyn, I didn't mean to interrupt. Did I miss much?
+Adelyn: Hi Kayla, you're just in time. We were talking about fitness routines. Even though Frank plays basketball, he also appreciates the gym as much as I enjoy yoga and rock climbing.
+Kayla: That's a diverse range of activities! Speaking of fitness routines, I recently took up strength training and conditioning. It's been quite challenging, but the results are well worth it.
+Frank: That's wonderful! I have thought about incorporating strength training into my routine, but I'm still researching to understand it better.
+Kayla: If you'd like, I could share some of the resources I found helpful. Understanding which exercises target which muscle groups is crucial.
+Adelyn: That sounds interesting, it's always good to learn new things. Frank, we should take Kayla up on her offer.
+Frank: Definitely, I would love to explore more about strength training. Thanks, Kayla!
+Kayla: You're welcome! Always happy to share fitness tips. Let's keep pushing each other to reach new heights of fitness.
+
+Information: What experiences did Frank and Adelyn share regarding the gym, yoga, and indoor rock climbing? Frank shared that he goes to the gym four times a week and enjoys doing cardiovascular activities. Adelyn, on the other hand, shared that she does yoga and occasionally indulges in indoor rock climbing. But she also admitted that she doesn't spend as much time at the gym as she'd like to. Frank expressed an interest in trying out rock climbing and acknowledged the calming and flexibility benefits of yoga.
+Question: List all the characters who know this information.
+Answer:

@@ -1,0 +1,85 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly_no_context",
+  "id": "189:Q 4.3:no_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289453.138558,
+  "turn": {
+    "id": "01a18861-8079-7871-a213-cd04ccde4012",
+    "rootTurnId": "01a18861-8079-7871-a213-cd04ccde4012",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_00942ffc9ccd43b9016ae36cf08de081909cdece4d51120827",
+        "text": "{\n  \"(j)\": \"Cannot be determined from the supplied information\",\n  \"(k)\": \"Cannot be determined from the supplied information\",\n  \"(l)\": \"Cannot be determined from the supplied information\",\n  \"(m)\": \"Cannot be determined from the supplied information\",\n  \"(n)\": \"Cannot be determined from the supplied information\",\n  \"(o)\": \"Cannot be determined from the supplied information\",\n  \"(p)\": \"Cannot be determined from the supplied information\",\n  \"(q)\": \"Cannot be determined from the supplied information\",\n  \"(r)\": \"Cannot be determined from the supplied information\",\n  \"(s)\": \"Cannot be determined from the supplied information\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289453,
+    "completedAt": 1793289457,
+    "durationMs": 3797
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(j)": "Cannot be determined from the supplied information",
+      "(k)": "Cannot be determined from the supplied information",
+      "(l)": "Cannot be determined from the supplied information",
+      "(m)": "Cannot be determined from the supplied information",
+      "(n)": "Cannot be determined from the supplied information",
+      "(o)": "Cannot be determined from the supplied information",
+      "(p)": "Cannot be determined from the supplied information",
+      "(q)": "Cannot be determined from the supplied information",
+      "(r)": "Cannot be determined from the supplied information",
+      "(s)": "Cannot be determined from the supplied information"
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 10,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(j)": 0.0,
+      "(k)": 0.0,
+      "(l)": 0.0,
+      "(m)": 0.0,
+      "(n)": 0.0,
+      "(o)": 0.0,
+      "(p)": 0.0,
+      "(q)": 0.0,
+      "(r)": 0.0,
+      "(s)": 0.0
+    }
+  },
+  "seconds": 4.4511747090145946,
+  "usage": {
+    "total": {
+      "totalTokens": 4468,
+      "inputTokens": 4298,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 170,
+      "reasoningOutputTokens": 32
+    },
+    "last": {
+      "totalTokens": 4468,
+      "inputTokens": 4298,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 170,
+      "reasoningOutputTokens": 32
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793289457.588969
+}

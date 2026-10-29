@@ -1,0 +1,28 @@
+Brantley: Hey Monica, Braxton, do you guys have a favorite sport?
+Monica: Hi Brantley, I'm a huge fan of football actually.
+Braxton: And mine's basketball.
+Brantley: Cool, and do you guys support a specific team?
+Monica: Absolutely, I'm a die-hard fan of the New England Patriots. I've even been to a few of their games.
+Brantley: That must have been exciting. How about you, Braxton?
+Braxton: I'm all about the LA Lakers. Watched every game of theirs in the last season.
+Brantley: Awesome, I'm more of a baseball guy myself and my team is the Chicago Cubs.
+Monica: Have you ever played any of these sports?
+Brantley: I played a bit of baseball in school, but mostly I just enjoy watching.
+Braxton: I've played some basketball at college. A great way to keep fit.
+Monica: I agree, Braxton. I played some flag football back then. Nothing like some friendly competition to get the adrenaline pumping.
+Brantley: Such interesting experiences, Glad we had this chat. Let's do it again sometime.
+Monica and Braxton: Definitely!
+Nevaeh: Hello everyone, I couldn't help hearing the buzz about sports as I approached.
+Brantley: Hi Nevaeh! We were just sharing about our favorite sports and teams. Do you have a favorite?
+Nevaeh: Sure do, I'm a big fan of soccer, especially FC Barcelona.
+Braxton: That's cool Nevaeh, can you imagine the economic impact these sports we love have on our countries?
+Nevaeh: Oh, absolutely. Soccer, for instance, contributes significantly to the Spanish economy through broadcasting rights, match-day spending, tourism and so on.
+Monica: Totally. And the same goes for football here in the U.S. The Super Bowl alone brings in so much money in ads, ticket sales, merchandising...
+Brantley: And baseball, too. The sports economy is a major industry. Plus, there's the impact on local businesses, like bars and restaurants around the stadium.
+Braxton: True. In LA, the Lakers games significantly affect the local economy. Even the tourism sector benefits because people travel to watch the games.
+Nevaeh: Indeed, sports in general can be a significant economic force. Plus, it leads to infrastructural developments and can elevate a city's global image. Good chatting with you all!
+All: Agreed! Let's catch up again soon.
+
+Target: Where did Braxton play basketball, and which basketball team does he support?
+Question: Does Braxton know the precise correct answer to this question? Answer yes or no.
+Answer:

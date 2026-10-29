@@ -1,0 +1,79 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly",
+  "id": "127:Q 4.1:full_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793293907.209188,
+  "turn": {
+    "id": "01a188a5-7737-7770-b9c5-72a3071788cb",
+    "rootTurnId": "01a188a5-7737-7770-b9c5-72a3071788cb",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0b0b2551ad65b6de016ae37e597d44819487c655d5d42588c1",
+        "text": "{\"2.\":\"d\",\"3.\":\"e\",\"4.\":\"h\",\"5.\":\"g\",\"6.\":\"f\",\"7.\":\"c\",\"8\":\"b\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793293907,
+    "completedAt": 1793293916,
+    "durationMs": 8561
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "2.": "d",
+      "3.": "e",
+      "4.": "h",
+      "5.": "g",
+      "6.": "f",
+      "7.": "c",
+      "8": "b"
+    },
+    "score": 1.0,
+    "parts_correct": 7,
+    "parts_total": 7,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "2.": 1.0,
+      "3.": 1.0,
+      "4.": 1.0,
+      "5.": 1.0,
+      "6.": 1.0,
+      "7.": 1.0,
+      "8": 1.0
+    }
+  },
+  "seconds": 10.298456041957252,
+  "usage": {
+    "total": {
+      "totalTokens": 4644,
+      "inputTokens": 4567,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 77,
+      "reasoningOutputTokens": 36
+    },
+    "last": {
+      "totalTokens": 4644,
+      "inputTokens": 4567,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 77,
+      "reasoningOutputTokens": 36
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793293917.5070348
+}

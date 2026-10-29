@@ -1,0 +1,64 @@
+You are an intelligent assistant that specializes in encryption and decryption tasks. Below are the rules for a specific cipher. When responding, please ensure that your output adheres to the specified encryption and decryption rules and format.
+
+### Instructions:
+
+1. Identify the relevant properties and objects specified in the rule, including the plaintext, keyword, and ciphertext.
+2. Follow the specified encryption or decryption operations precisely as described in the rules.
+3. Ensure your output is formatted according to the specified notation and symbols.
+
+### Cipher Rule:
+
+**Encryption Rules:**
+
+- Input:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Output:
+    - Ciphertext:  A string without punctuation and spaces.
+- Preparation:
+    - Number of lines: 5
+- Encryption Steps:
+    - Fill in the first plaintext in the first position of the first line.
+    - Two ways to fill:
+        - Downward Fill: Fill the first row with a "#" (removing the first column, since the first position is already filled with a plaintext letter), then fill the plaintext downwards from the second row to the last row (fifth row).
+        - Upwards: the plaintext is filled upwards from the last line (fifth line) to the second line, and then the first line is filled with a "#".
+    - For each letter in the plaintext (except the first letter which has been filled in the first position), perform downward padding first, fill one column, then turn to upward padding, then turn to downward padding, and so on alternately, until all the letters have been filled.
+        - For example, HELLOWORLD.The content of the five lines after filling is
+        H L #
+        E R D
+        L O
+        L W
+        O #
+    - Filled out, read line by line, first read the contents of the first line, after reading the contents of each line are added a * sign, marking the end of the line; and then read the contents of the second line, and so on, read all the lines, the formation of the final password text.
+        H L #
+        E R D
+        L O
+        L W
+        O #
+        - Read the final cipher text line by line as "HL#*ERD*LO*LW*O#*" (i.e., there must be five *'s in the final cipher text to indicate that there are five lines)
+
+ **Decryption Rules:**
+
+- Input:
+    - Ciphertext: A string without punctuation and spaces.
+- Output:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Preparation:
+    - Number of lines: 5
+- Decryption Steps (exact opposite of encryption steps):
+    - According to the * in the ciphertext (excluding the * sign), it can be divided into five groups, which are filled into five rows in turn. Get the recovered data in five rows.
+        - For example, like "HL#*ERD*LO*LW*O#*" ,according to the division of * and then fill in the five lines to get the recovered five lines of data D:
+            H L #
+            E R D
+            L O
+            L W
+            O #
+    - Then read all the columns alternately according to read down first and then read up. Get the uncleared messages.
+        - For example, for the five rows of message D in the previous step, read alternately to get "HELLO#WORL#D"
+    - Remove the # from the uncleaned message to get the final plaintext.
+
+### Question:
+Plaintext: "BIVKC"
+
+Please provide the encrypted answer, encapsulated in double square brackets. For example, the format should be: [[encrypted answer]].
+
+### Answer:

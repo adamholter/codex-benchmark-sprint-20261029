@@ -1,0 +1,89 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly",
+  "id": "196:Q 6.2:full_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290661.493818,
+  "turn": {
+    "id": "01a18873-ef9c-7ed3-9952-bebd4842cef9",
+    "rootTurnId": "01a18873-ef9c-7ed3-9952-bebd4842cef9",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_08e63e77a7161276016ae371ceecfc8195a23e8565ab5b13f0",
+        "text": "{\n  \"a.\": \"Where did he dance?\",\n  \"b.\": \"Is the cat ready?\",\n  \"c.\": \"What did you cut?\",\n  \"d.\": \"Did he sell anything?\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290661,
+    "completedAt": 1793290703,
+    "durationMs": 42005
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "a.": "Where did he dance?",
+      "b.": "Is the cat ready?",
+      "c.": "What did you cut?",
+      "d.": "Did he sell anything?"
+    },
+    "score": 1.0,
+    "parts_correct": 4,
+    "parts_total": 4,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 1.0,
+      "b.": 1.0,
+      "c.": 1.0,
+      "d.": 1.0
+    }
+  },
+  "seconds": 42.405135500011966,
+  "usage": {
+    "total": {
+      "totalTokens": 4664,
+      "inputTokens": 4570,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 94,
+      "reasoningOutputTokens": 42
+    },
+    "last": {
+      "totalTokens": 4664,
+      "inputTokens": 4570,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 94,
+      "reasoningOutputTokens": 42
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: b9221823-44f8-41ea-8b28-d1c7f7d1cd18",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a18873-ef6e-7ab1-a6e4-72189ae3dff6",
+      "turnId": "01a18873-ef9c-7ed3-9952-bebd4842cef9"
+    }
+  ],
+  "finished_at": 1793290703.89855
+}

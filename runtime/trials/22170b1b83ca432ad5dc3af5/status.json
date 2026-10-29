@@ -1,0 +1,107 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly_no_context",
+  "id": "196:Q 6.1:no_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292246.745825,
+  "turn": {
+    "id": "01a1888c-200d-7942-94e5-bdc78513a7ed",
+    "rootTurnId": "01a1888c-200d-7942-94e5-bdc78513a7ed",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_046f45f9fd83df3f016ae377e0f1588190bfb56b8349c8c582",
+        "text": "{\n  \"1.\": \"Why is he/she in England?\",\n  \"2.\": \"To whom did he/she sell it?\",\n  \"3.\": \"Whom did he/she kill?\",\n  \"4.\": \"Why did you sell it to him/her?\",\n  \"5.\": \"When did he/she arrive in England?\",\n  \"6.\": \"Who is ready?\",\n  \"7.\": \"When did you learn Albanian?\",\n  \"8.\": \"How much did he/she cut?\",\n  \"9.\": \"Where is his father?\",\n  \"10.\": \"What did he/she buy?\",\n  \"11.\": \"Who is in England?\",\n  \"12.\": \"How did you dance?\",\n  \"13.\": \"What is this?\",\n  \"14.\": \"Where did the cat go?\",\n  \"15.\": \"Whom did he/she wash?\",\n  \"16.\": \"Did you kill anyone?\",\n  \"17.\": \"What did you drink?\",\n  \"18.\": \"When did he/she sell it to him/her?\",\n  \"19.\": \"Who is this?\",\n  \"20.\": \"Did you drink anything?\",\n  \"21.\": \"Why did you learn Albanian?\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292247,
+    "completedAt": 1793292258,
+    "durationMs": 11376
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "1.": "Why is he/she in England?",
+      "2.": "To whom did he/she sell it?",
+      "3.": "Whom did he/she kill?",
+      "4.": "Why did you sell it to him/her?",
+      "5.": "When did he/she arrive in England?",
+      "6.": "Who is ready?",
+      "7.": "When did you learn Albanian?",
+      "8.": "How much did he/she cut?",
+      "9.": "Where is his father?",
+      "10.": "What did he/she buy?",
+      "11.": "Who is in England?",
+      "12.": "How did you dance?",
+      "13.": "What is this?",
+      "14.": "Where did the cat go?",
+      "15.": "Whom did he/she wash?",
+      "16.": "Did you kill anyone?",
+      "17.": "What did you drink?",
+      "18.": "When did he/she sell it to him/her?",
+      "19.": "Who is this?",
+      "20.": "Did you drink anything?",
+      "21.": "Why did you learn Albanian?"
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 21,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "1.": 0.0,
+      "2.": 0.0,
+      "3.": 0.0,
+      "4.": 0.0,
+      "5.": 0.0,
+      "6.": 0.0,
+      "7.": 0.0,
+      "8.": 0.0,
+      "9.": 0.0,
+      "10.": 0.0,
+      "11.": 0.0,
+      "12.": 0.0,
+      "13.": 0.0,
+      "14.": 0.0,
+      "15.": 0.0,
+      "16.": 0.0,
+      "17.": 0.0,
+      "18.": 0.0,
+      "19.": 0.0,
+      "20.": 0.0,
+      "21.": 0.0
+    }
+  },
+  "seconds": 11.71008508396335,
+  "usage": {
+    "total": {
+      "totalTokens": 5679,
+      "inputTokens": 4475,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1204,
+      "reasoningOutputTokens": 939
+    },
+    "last": {
+      "totalTokens": 5679,
+      "inputTokens": 4475,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1204,
+      "reasoningOutputTokens": 939
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292258.4558249
+}

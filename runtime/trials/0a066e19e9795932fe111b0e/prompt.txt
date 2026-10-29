@@ -1,0 +1,30 @@
+Suppose we draw this SVG path element: M -11.6,-26.98098 L -8.0,-33.21636 M 16.29794,1.06804 L 0.0,0.0 L 0.0,-19.35995 M 0.0,0.0 L 0.0,1.89 M -16.0,-28.63355 L -16.0,-19.35995 M -4.64,-27.39667 L -3.61456,-25.62055 M 0.0,1.89 L 0.0,7.0 M -3.27857,-9.70123 L -6.42857,-0.42128 M 0.0,-19.35995 L -3.27857,-9.70123 M -16.0,-35.91995 L -16.0,-28.63355 M -3.61456,-25.62055 L -1.624,-22.1728 M 0.0,-19.35995 L 4.5,-32.61703 M -5.9504,-29.66635 L -4.64,-27.39667 M -6.42857,-0.42128 L 0.0,0.0 M -5.44,-43.35995 L -16.0,-43.35995 M 0.0,-43.35995 L 0.0,-19.35995 M -16.0,-43.35995 L -16.0,-35.91995 M 0.0,7.0 L 16.29794,1.06804 M 0.0,-19.35995 L 0.0,-43.35995 M -16.0,-19.35995 L -11.6,-26.98098 M -1.624,-22.1728 L 0.0,-19.35995 M -8.0,-33.21636 L -5.9504,-29.66635 M 4.5,-32.61703 L 4.5,-56.61703 M 0.0,-43.35995 L -5.44,-43.35995 M 4.5,-56.61703 L 0.0,-43.35995 . Out of the following shapes:
+1. rectangle that is not a square and with no diagonals drawn
+2. square with no diagonals drawn
+3. triangle that is not a right triangle
+4. right triangle
+5. parallelogram that is not a rectangle and with no diagonals drawn
+6. trapezoid with exactly one pair of parallel sides and with no diagonals drawn
+7. irregular convex pentagon with no diagonals drawn
+8. irregular concave pentagon with no diagonals drawn
+9. regular pentagon with no diagonals drawn
+10. regular hexagon with no diagonals drawn
+which one(s) can be viewed when the lines in the SVG are visualized? Note that a shape with n sides should not necessarily be drawn by n lines; e.g., a triangle might be drawn by 4 lines, two of which collinear.
+Options:
+(A) 3, 5 and 8
+(B) only 5
+(C) only 6
+(D) 3 and 5
+(E) only 3
+(F) 5 and 10
+(G) only 8
+(H) 8, 7 and 10
+(I) 3, 8 and 2
+(J) 8, 9 and 10
+(K) 3 and 8
+(L) only 7
+(M) 5 and 2
+(N) 8 and 2
+(O) 5, 8 and 1
+(P) 3 and 2
+Coordinates have been rounded to 5 decimal places so ignore slight differences.

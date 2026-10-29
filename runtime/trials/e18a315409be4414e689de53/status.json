@@ -1,0 +1,73 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly",
+  "id": "72:Q 4.2:full_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292478.819247,
+  "turn": {
+    "id": "01a1888f-aa4f-7950-80cf-ce11199fa2d7",
+    "rootTurnId": "01a1888f-aa4f-7950-80cf-ce11199fa2d7",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0e79ce966dace40b016ae378c273b08195b59089d6459d84c9",
+        "text": "{\"4\":\"se \u00e6\u00feeling \u00fe\u00e6t cild lufode\",\"5\":\"\u00fe\u00e6t cild \u00feone \u00e6\u00feeling lufode\",\"6\":\"we \u00fe\u00e6t cild lufodon\",\"7\":\"\u00fe\u00e6t cild inc lufode\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292479,
+    "completedAt": 1793292482,
+    "durationMs": 3796
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "4": "se \u00e6\u00feeling \u00fe\u00e6t cild lufode",
+      "5": "\u00fe\u00e6t cild \u00feone \u00e6\u00feeling lufode",
+      "6": "we \u00fe\u00e6t cild lufodon",
+      "7": "\u00fe\u00e6t cild inc lufode"
+    },
+    "score": 0.25,
+    "parts_correct": 1,
+    "parts_total": 4,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "4": 0.0,
+      "5": 0.0,
+      "6": 0.0,
+      "7": 1.0
+    }
+  },
+  "seconds": 4.048916999949142,
+  "usage": {
+    "total": {
+      "totalTokens": 4356,
+      "inputTokens": 4192,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 164,
+      "reasoningOutputTokens": 106
+    },
+    "last": {
+      "totalTokens": 4356,
+      "inputTokens": 4192,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 164,
+      "reasoningOutputTokens": 106
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292482.863891
+}

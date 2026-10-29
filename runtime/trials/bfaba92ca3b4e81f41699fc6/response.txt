@@ -1,0 +1,6 @@
+{
+  "(a)": "Cannot be determined: the sheet provides no Maltese vocabulary mappings or grammar rules.",
+  "(b)": "Cannot be determined: the sheet provides no Maltese vocabulary mappings or grammar rules.",
+  "(c)": "Cannot be determined: the sheet provides no Maltese vocabulary mappings or grammar rules.",
+  "(d)": "Cannot be determined: the sheet provides no Maltese vocabulary mappings or grammar rules."
+}

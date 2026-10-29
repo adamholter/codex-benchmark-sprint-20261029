@@ -1,0 +1,85 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly_no_context",
+  "id": "179:Q 4.2:no_context",
+  "category": "Rosetta / Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793285750.966631,
+  "turn": {
+    "id": "01a18829-01b6-7b53-b6e8-d10f3a776ce8",
+    "rootTurnId": "01a18829-01b6-7b53-b6e8-d10f3a776ce8",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0ddf06598c3d4664016ae35e805f908196b51a1b61eeeaf95f",
+        "text": "{\n  \"(a)\": \"Cannot determine: Roman-numeral choices are missing.\",\n  \"(b)\": \"Cannot determine: Roman-numeral choices are missing.\",\n  \"(c)\": \"Cannot determine: Roman-numeral choices are missing.\",\n  \"(d)\": \"Cannot determine: Roman-numeral choices are missing.\",\n  \"(e)\": \"Cannot determine: Roman-numeral choices are missing.\",\n  \"(f)\": \"Cannot determine: Roman-numeral choices are missing.\",\n  \"(g)\": \"Cannot determine: Roman-numeral choices are missing.\",\n  \"(h)\": \"Cannot determine: Roman-numeral choices are missing.\",\n  \"(i)\": \"Cannot determine: Roman-numeral choices are missing.\",\n  \"(j)\": \"Cannot determine: Roman-numeral choices are missing.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793285751,
+    "completedAt": 1793285762,
+    "durationMs": 10937
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "Cannot determine: Roman-numeral choices are missing.",
+      "(b)": "Cannot determine: Roman-numeral choices are missing.",
+      "(c)": "Cannot determine: Roman-numeral choices are missing.",
+      "(d)": "Cannot determine: Roman-numeral choices are missing.",
+      "(e)": "Cannot determine: Roman-numeral choices are missing.",
+      "(f)": "Cannot determine: Roman-numeral choices are missing.",
+      "(g)": "Cannot determine: Roman-numeral choices are missing.",
+      "(h)": "Cannot determine: Roman-numeral choices are missing.",
+      "(i)": "Cannot determine: Roman-numeral choices are missing.",
+      "(j)": "Cannot determine: Roman-numeral choices are missing."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 10,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 0.0,
+      "(b)": 0.0,
+      "(c)": 0.0,
+      "(d)": 0.0,
+      "(e)": 0.0,
+      "(f)": 0.0,
+      "(g)": 0.0,
+      "(h)": 0.0,
+      "(i)": 0.0,
+      "(j)": 0.0
+    }
+  },
+  "seconds": 11.21920962492004,
+  "usage": {
+    "total": {
+      "totalTokens": 4377,
+      "inputTokens": 4099,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 278,
+      "reasoningOutputTokens": 110
+    },
+    "last": {
+      "totalTokens": 4377,
+      "inputTokens": 4099,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 278,
+      "reasoningOutputTokens": 110
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793285762.185765
+}

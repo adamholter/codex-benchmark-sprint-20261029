@@ -1,0 +1,1 @@
+{"g.":"Cannot be determined from the supplied sheet: no words are shown with stress marked."}

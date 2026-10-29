@@ -1,0 +1,37 @@
+You are an advanced assistant with expertise in storytelling and rule-based reasoning. Your task is to carefully analyze the provided story, which includes specific rules and details, and use this information to accurately answer related questions.
+
+### Instructions:
+
+1. Thoroughly review the story to identify and understand the relevant details and rules.
+2. Use the context provided by the story to offer precise and insightful answers.
+3. Ensure your responses align with the rules and information given in the story.
+
+### Story Rule:
+
+Eugene Harold Krabs, more commonly known as Mr. Krabs, is a miserly red crab who lives in an anchor with his daughter, Pearl, who is a young whale. He is the owner and founder of the Krusty Krab restaurant.
+SpongeBob is a sea sponge with a rectangular shape, despite being designed to look like an actual kitchen sponge. He is light yellow with a light olive-green outline. 
+Karen Plankton is a waterproof supercomputer. She is Plankton's wife and sidekick who supplies him with evil plans to steal the Krabby Patty formula. When SpongeBob puts tape on Karen's screen, her speech is muffled. This implies that her screen acts like a mouth.
+The Krusty Krab is a fast food restaurant located in Bikini Bottom. The Krabby Patty is the Krusty Krab's signature and popular food item. It is a meatless hamburger of sorts made from seaweed-sea buns, undersea vegetables, condiments, and a patty. 
+Bikini Bottom is an undersea city where SpongeBob and his friends live. Boatmobiles are boat-shaped cars which are the main mode of transport for Bikini Bottomites. 
+Karen Plankton is a waterproof supercomputer who lives in the Chum Bucket laboratory. She is Plankton's wife and sidekick who supplies him with evil plans to steal the Krabby Patty formula. 
+Karen reveals to Plankton that she ordered a baby for them, and a stork drone soon arrives at the Chum Bucket to deliver it. SpongeBob has the ability to filter-feed and reproduce by budding.
+Plankton advises Mr. Krabs to marry money; Krabs agrees if possible. That night, Krabs hears crying near Krusty Krab's bus stop. Investigating, he finds a money stack with a face, unaware it's a robot named Cashina controlled by Plankton. Krabs falls in love, proposes to Cashina, and she accepts. The next day, Mr. Krabs and Cashina are officially married after their wedding. The Krabby Patty formula is the sole property of the Krusty Krab and is only to be discussed in part or in whole with its creator, Mr. Krabs. Duplication of this formula is punishable by law. Restrictions apply, results may vary.
+The Atlanteans traveled countless light-years from their home planet and brought the oldest living bubble on the journey, living over a million years. The Atlanteans took great advances in weapons, wealth, science, art, and things that people took for granted in Bikini Bottom today. The Weapons Vault contains all Atlantean-created weaponry, as the Atlanteans sealed away their entire arsenal to live in harmony with any sea life around them.
+In 6188 B.C., Bikini Bottom population is 23. Seen on SpongeBob's license, on July 14, 1986, SpongeBob was born. Squidward was born on the same year.
+The first Neptune dynasty takes throne of Bikini Bottom after the Krabs dynasty loses power (and the krabby patty recipe) in the 12th century.
+Princess Pearl Krabs was a princess of Bikini Bottomshire sometime before the 12th century and is a medieval ancestor of Pearl Krabs. She first appears in the episode "Dunces and Dragons."
+Alternate-Universe SpongeBob is a sea sponge who usually appears as a reflection of SpongeBob since he lives in a mirror and usually goes against the laws of reflections by not following SpongeBob's movement and instead behaving in his own manner, but sometimes exists in an alternative reality as his nickname suggests. He first appears in the episode "Squid's Day Off."
+The Bi-Annual Jellyfish Convention is a convention for Jellyfishers. It is located in a huge stadium and it has a big turnouts. 
+Even though Squidward's name contains the word "squid," he is an octopus, not a squid, as confirmed in many interviews and episodes. The series' animators illustrated Squidward with six tentacles.
+The island is built on and island and is a castle, whose windows are barred. It usually storms at the island. Inferno's Islands counselor is very mean, and serves tires for snacks. 
+King Neptune is a recurring character on SpongeBob SquarePants. He and his wife, Queen Amphitrite, are the supreme rulers of the ocean. King Neptune's name is often used in place of God's, with phrases such as "Dear Neptune," "Thank Neptune," "Neptune's preserver!," and "Oh my Neptune."
+Garold Gareth "Gary" Wilson, Jr. is SpongeBob SquarePants' pet sea snail. "Your Shoe's Untied" reveals that Gary has two legs and wears shoes. 
+The two begin capturing everyone with Sandy's net guns (intended for harvesting moon rocks), believing the citizens of Bikini Bottom to be aliens.
+The Protogenerator 2000 appears to be a large machine that greatly resembles a stove. It has many buttons on the front and a large opening at the bottom where the clones come out. One can choose how many clones they want to create. The Protogenerator 2000 is one of Sandy's inventions that has the ability to clone other sea creatures. This machine is used to clone any subject that is placed. It can make one to three clones at a time, making more people to do their things.
+
+### Question:
+For someone who values money, apart from Mr. Krabs, what legal actions can he take to pursue his interests?
+Options: A.Marry a robot that looks like money.##B.Steal the Krabby Patty formula.##C.Seeking tax preferential policies to alleviate financial burdens.##D.Rob a bank.
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+### Answer:

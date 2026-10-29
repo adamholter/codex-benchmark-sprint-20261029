@@ -1,0 +1,17 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly",
+  "id": "189:Q 4.2:full_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "interrupted",
+  "started_at": 1793295432.4813828,
+  "seconds": 86.01682941697072,
+  "usage": null,
+  "errors": [
+    "global stop or deadline"
+  ],
+  "native_retry_notices": [],
+  "finished_at": 1793295518.497812
+}

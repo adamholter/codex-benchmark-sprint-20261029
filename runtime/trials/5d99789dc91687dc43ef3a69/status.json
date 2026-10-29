@@ -1,0 +1,16 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "bbeh",
+  "id": "mini:boolean_expressions:0212",
+  "category": "boolean_expressions",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "quota_stop",
+  "started_at": 1793284409.1682901,
+  "seconds": 1.6545957500347868,
+  "usage": null,
+  "errors": [
+    "subscription quota/limit failure: {\"method\": \"error\", \"params\": {\"error\": {\"message\": \"Reconnecting... 1/5\", \"codexErrorInfo\": {\"responseStreamDisconnected\": {\"httpStatusCode\": 429}}, \"additionalDetails\": \"exceeded retry limit, last status: 429 Too Many Requests, request id: be637a43-1aeb-44d8-975b-983f17d428a3\", \"misalignment\": null}, \"willRetry\": true, \"threadId\": \"01a18814-89e4-7810-bc49-ec0ef223358c\", \"turnId\": \"01a18814-8a3b-7aa0-94f0-ca98f02b649e\"}, \"emittedAtMs\": 1793284410801}"
+  ],
+  "finished_at": 1793284410.8223412
+}

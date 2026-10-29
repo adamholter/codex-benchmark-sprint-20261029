@@ -1,0 +1,71 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly_no_context",
+  "id": "61:Q 7.1:no_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294158.030379,
+  "turn": {
+    "id": "01a188a9-4ac5-7dd0-bc7e-19814942a355",
+    "rootTurnId": "01a188a9-4ac5-7dd0-bc7e-19814942a355",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_03ae9de5e520f883016ae37f552e148194a29c415e394622d4",
+        "text": "{\n  \"a.\": \"Cannot be determined from the information provided.\",\n  \"b.\": \"Cannot be determined from the information provided.\",\n  \"c.\": \"Cannot be determined from the information provided.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294158,
+    "completedAt": 1793294167,
+    "durationMs": 8714
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "a.": "Cannot be determined from the information provided.",
+      "b.": "Cannot be determined from the information provided.",
+      "c.": "Cannot be determined from the information provided."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 3,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 0.0,
+      "b.": 0.0,
+      "c.": 0.0
+    }
+  },
+  "seconds": 9.243000791990198,
+  "usage": {
+    "total": {
+      "totalTokens": 4128,
+      "inputTokens": 3928,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 200,
+      "reasoningOutputTokens": 150
+    },
+    "last": {
+      "totalTokens": 4128,
+      "inputTokens": 3928,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 200,
+      "reasoningOutputTokens": 150
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793294167.2732642
+}

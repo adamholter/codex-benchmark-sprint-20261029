@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "fantom",
+  "id": "75-0-1-3978",
+  "category": "tom:answerability:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288035.138929,
+  "turn": {
+    "id": "01a1884b-dc15-76c1-a696-a4f7c28a88ad",
+    "rootTurnId": "01a1884b-dc15-76c1-a696-a4f7c28a88ad",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0930ca4d77f1739a016ae3676d416481938d6ad36f3bf619b2",
+        "text": "Elisabeth and Kylee.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288035,
+    "completedAt": 1793288045,
+    "durationMs": 10269
+  },
+  "score": {
+    "correct": true,
+    "extracted": "Elisabeth and Kylee.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 10.58466470905114,
+  "usage": {
+    "total": {
+      "totalTokens": 4484,
+      "inputTokens": 4401,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 83,
+      "reasoningOutputTokens": 70
+    },
+    "last": {
+      "totalTokens": 4484,
+      "inputTokens": 4401,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 83,
+      "reasoningOutputTokens": 70
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793288045.7235122
+}

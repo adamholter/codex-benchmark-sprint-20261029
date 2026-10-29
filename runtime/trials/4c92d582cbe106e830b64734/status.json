@@ -1,0 +1,74 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "bbeh",
+  "id": "mini:temporal_sequence:0079",
+  "category": "temporal_sequence",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793287001.842707,
+  "turn": {
+    "id": "01a1883c-18c0-7620-b0cf-bdb37e48a547",
+    "rootTurnId": "01a1883c-18c0-7620-b0cf-bdb37e48a547",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0ba5c977fc93ca79016ae3638f12dc8190af18a89162b82a6b",
+        "text": "90, 1",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793287002,
+    "completedAt": 1793287055,
+    "durationMs": 52903
+  },
+  "score": {
+    "correct": true,
+    "extracted": "90,1"
+  },
+  "seconds": 53.383872958947904,
+  "usage": {
+    "total": {
+      "totalTokens": 6015,
+      "inputTokens": 4911,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1104,
+      "reasoningOutputTokens": 1094
+    },
+    "last": {
+      "totalTokens": 6015,
+      "inputTokens": 4911,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1104,
+      "reasoningOutputTokens": 1094
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: fa536853-2c27-41fe-ba5e-e67e99d99af0",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a1883c-1886-7ce2-aa62-df944201ef15",
+      "turnId": "01a1883c-18c0-7620-b0cf-bdb37e48a547"
+    }
+  ],
+  "finished_at": 1793287055.226249
+}

@@ -1,0 +1,81 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly_no_context",
+  "id": "101:Q 1.:no_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793295457.9365041,
+  "turn": {
+    "id": "01a188bd-1f74-7150-9fba-c709491dcd96",
+    "rootTurnId": "01a188bd-1f74-7150-9fba-c709491dcd96",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0ce5d08c702058f7016ae384659e1c819698bf2bd4c54b4e7e",
+        "text": "{\"1\":\"Insufficient information: the referenced conversation is not provided.\",\"2\":\"Insufficient information: the referenced conversation is not provided.\",\"3\":\"Insufficient information: the referenced conversation is not provided.\",\"4\":\"Insufficient information: the referenced conversation is not provided.\",\"5\":\"Insufficient information: the referenced conversation is not provided.\",\"6\":\"Insufficient information: the referenced conversation is not provided.\",\"7\":\"Insufficient information: the referenced conversation is not provided.\",\"8\":\"Insufficient information: the referenced conversation is not provided.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793295458,
+    "completedAt": 1793295462,
+    "durationMs": 4162
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "1": "Insufficient information: the referenced conversation is not provided.",
+      "2": "Insufficient information: the referenced conversation is not provided.",
+      "3": "Insufficient information: the referenced conversation is not provided.",
+      "4": "Insufficient information: the referenced conversation is not provided.",
+      "5": "Insufficient information: the referenced conversation is not provided.",
+      "6": "Insufficient information: the referenced conversation is not provided.",
+      "7": "Insufficient information: the referenced conversation is not provided.",
+      "8": "Insufficient information: the referenced conversation is not provided."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 8,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.0,
+      "4": 0.0,
+      "5": 0.0,
+      "6": 0.0,
+      "7": 0.0,
+      "8": 0.0
+    }
+  },
+  "seconds": 4.403351624961942,
+  "usage": {
+    "total": {
+      "totalTokens": 4619,
+      "inputTokens": 4288,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 331,
+      "reasoningOutputTokens": 219
+    },
+    "last": {
+      "totalTokens": 4619,
+      "inputTokens": 4288,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 331,
+      "reasoningOutputTokens": 219
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793295462.339342
+}

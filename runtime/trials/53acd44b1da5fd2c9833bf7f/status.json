@@ -1,0 +1,65 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-RQ_Hard_1495",
+  "category": "Multi-RQ_Hard",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294520.742811,
+  "turn": {
+    "id": "01a188ae-d360-7750-9870-144f6b548422",
+    "rootTurnId": "01a188ae-d360-7750-9870-144f6b548422",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0035efd14d7c5547016ae38164a90c819380696103d4878a2a",
+        "text": "{\n  \"question1\": \"[[A]]\",\n  \"question2\": \"[[R]]\",\n  \"question3\": \"[[A A 2 X A 3 X X,A 1 A A A A A A,A A A X 3 A X X,A X 4 A X A A 3,1 A X A A A 3 A,A A X A X A X A,X A A A 3 A X A,4 X X A X A A A]]\",\n  \"question4\": \"[[C]]\",\n  \"question5\": \"[[A]]\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294521,
+    "completedAt": 1793294694,
+    "durationMs": 173124
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "question1": "A",
+      "question2": "R",
+      "question3": "A A 2 X A 3 X X,A 1 A A A A A A,A A A X 3 A X X,A X 4 A X A A 3,1 A X A A A 3 A,A A X A X A X A,X A A A 3 A X A,4 X X A X A A A",
+      "question4": "C",
+      "question5": "A"
+    },
+    "pass_rate": 0.8
+  },
+  "seconds": 173.58970966702327,
+  "usage": {
+    "total": {
+      "totalTokens": 13146,
+      "inputTokens": 6283,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 6863,
+      "reasoningOutputTokens": 6732
+    },
+    "last": {
+      "totalTokens": 13146,
+      "inputTokens": 6283,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 6863,
+      "reasoningOutputTokens": 6732
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793294694.332489
+}

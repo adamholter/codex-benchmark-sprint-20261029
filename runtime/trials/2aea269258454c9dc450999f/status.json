@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "bbeh",
+  "id": "mini:buggy_tables:0063",
+  "category": "buggy_tables",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294447.253259,
+  "turn": {
+    "id": "01a188ad-b4f9-7482-a843-75a1ff8916aa",
+    "rootTurnId": "01a188ad-b4f9-7482-a843-75a1ff8916aa",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0267770fe1ae84f7016ae38079baa081979ad263e585a04717",
+        "text": "The median phone screen time is **23 minutes**, and the median sleep time is **441 minutes**.\n\nThe absolute difference is **418.00 minutes**.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294447,
+    "completedAt": 1793294458,
+    "durationMs": 10216
+  },
+  "score": {
+    "correct": false,
+    "extracted": "the median phone screen time is 23 minutes,and the median sleep time is 441 minutes"
+  },
+  "seconds": 10.886975375004113,
+  "usage": {
+    "total": {
+      "totalTokens": 7004,
+      "inputTokens": 6115,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 889,
+      "reasoningOutputTokens": 851
+    },
+    "last": {
+      "totalTokens": 7004,
+      "inputTokens": 6115,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 889,
+      "reasoningOutputTokens": 851
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793294458.1396391
+}

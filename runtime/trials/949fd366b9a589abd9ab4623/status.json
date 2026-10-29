@@ -1,0 +1,81 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly",
+  "id": "48:Q 8.1:full_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793291999.5420349,
+  "turn": {
+    "id": "01a18888-5a86-7753-934e-6f4f6f688f71",
+    "rootTurnId": "01a18888-5a86-7753-934e-6f4f6f688f71",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0604f2e39f7fbc58016ae376e2df008190968aacb3251a546f",
+        "text": "{\n  \"a. \": \"kannetje\",\n  \"b.\": \"karretje\",\n  \"c.\": \"kwartje\",\n  \"d.\": \"laatje\",\n  \"e.\": \"moedertje\",\n  \"f.\": \"riempje\",\n  \"g.\": \"stilletjes\",\n  \"h.\": \"tafeltje\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793291999,
+    "completedAt": 1793292003,
+    "durationMs": 3873
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "a. ": "kannetje",
+      "b.": "karretje",
+      "c.": "kwartje",
+      "d.": "laatje",
+      "e.": "moedertje",
+      "f.": "riempje",
+      "g.": "stilletjes",
+      "h.": "tafeltje"
+    },
+    "score": 0.875,
+    "parts_correct": 7,
+    "parts_total": 8,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a. ": 1.0,
+      "b.": 1.0,
+      "c.": 1.0,
+      "d.": 0.0,
+      "e.": 1.0,
+      "f.": 1.0,
+      "g.": 1.0,
+      "h.": 1.0
+    }
+  },
+  "seconds": 4.298795292037539,
+  "usage": {
+    "total": {
+      "totalTokens": 4621,
+      "inputTokens": 4473,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 148,
+      "reasoningOutputTokens": 62
+    },
+    "last": {
+      "totalTokens": 4621,
+      "inputTokens": 4473,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 148,
+      "reasoningOutputTokens": 62
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292003.84055
+}

@@ -1,0 +1,77 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly_no_context",
+  "id": "167:Q A2.1:no_context",
+  "category": "Pattern / Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793287838.10288,
+  "turn": {
+    "id": "01a18848-da88-7841-9ff5-e408c6fc8899",
+    "rootTurnId": "01a18848-da88-7841-9ff5-e408c6fc8899",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_06e4822060416f6f016ae366a298788195bcf5f8aa910c0912",
+        "text": "{\"(h)\": \"Cannot determine: Table 2 is not provided.\", \"(i)\": \"Cannot determine: Table 2 is not provided.\", \"(j)\": \"Cannot determine: Table 2 is not provided.\", \"(k)\": \"Cannot determine: Table 2 is not provided.\", \"(l)\": \"Cannot determine: Table 2 is not provided.\", \"(m)\": \"Cannot determine: Table 2 is not provided.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793287838,
+    "completedAt": 1793287843,
+    "durationMs": 4885
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(h)": "Cannot determine: Table 2 is not provided.",
+      "(i)": "Cannot determine: Table 2 is not provided.",
+      "(j)": "Cannot determine: Table 2 is not provided.",
+      "(k)": "Cannot determine: Table 2 is not provided.",
+      "(l)": "Cannot determine: Table 2 is not provided.",
+      "(m)": "Cannot determine: Table 2 is not provided."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 6,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(h)": 0.0,
+      "(i)": 0.0,
+      "(j)": 0.0,
+      "(k)": 0.0,
+      "(l)": 0.0,
+      "(m)": 0.0
+    }
+  },
+  "seconds": 5.140719624934718,
+  "usage": {
+    "total": {
+      "totalTokens": 4448,
+      "inputTokens": 4142,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 306,
+      "reasoningOutputTokens": 214
+    },
+    "last": {
+      "totalTokens": 4448,
+      "inputTokens": 4142,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 306,
+      "reasoningOutputTokens": 214
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793287843.243501
+}

@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "fantom",
+  "id": "132-0-1-6434",
+  "category": "tom:answerability:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793287343.699073,
+  "turn": {
+    "id": "01a18841-51d1-7e30-9ddd-6d00a306484d",
+    "rootTurnId": "01a18841-51d1-7e30-9ddd-6d00a306484d",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0bf888d0c49d847d016ae364b4e7448190b3f925bbef4b60a7",
+        "text": "Luna, Gustavo, and Melody.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793287344,
+    "completedAt": 1793287349,
+    "durationMs": 4602
+  },
+  "score": {
+    "correct": true,
+    "extracted": "Luna, Gustavo, and Melody.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 5.553839124972001,
+  "usage": {
+    "total": {
+      "totalTokens": 4759,
+      "inputTokens": 4686,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 73,
+      "reasoningOutputTokens": 59
+    },
+    "last": {
+      "totalTokens": 4759,
+      "inputTokens": 4686,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 73,
+      "reasoningOutputTokens": 59
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793287349.2527099
+}

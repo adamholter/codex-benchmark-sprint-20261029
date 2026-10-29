@@ -1,0 +1,1 @@
+{"(a)":"Cannot be determined: the supplied sheet omits the meanings of ipina.","(b)":"Cannot be determined: the necessary vocabulary and patterns are missing."}

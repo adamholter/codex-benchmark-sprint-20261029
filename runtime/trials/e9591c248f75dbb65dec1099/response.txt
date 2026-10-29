@@ -1,0 +1,1 @@
+The mean coding time is **37.20 minutes**, and the mean music-listening time is **31.36 minutes**. Their absolute difference, calculated before rounding, is **5.84 minutes**.

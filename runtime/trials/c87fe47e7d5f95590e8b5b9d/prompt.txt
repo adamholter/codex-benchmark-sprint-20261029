@@ -1,0 +1,100 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+**Encryption Rules:**
+
+- Input:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Output:
+    - Ciphertext: Uppercase letters string.
+- Preparation:
+    - encryption_table = {
+    'A': '!', 'B': '@', 'C': '#', 'D': '$',
+    'E': '%', 'F': '^', 'G': '&', 'H': '*',
+    'I': '(', 'J': ')', 'K': '_', 'L': '+',
+    'M': '=', 'N': '~', 'O': '?', 'P': '/',
+    'Q': '0', 'R': ':', 'S': ';', 'T': '<',
+    'U': '>', 'V': '1', 'W': '2', 'X': '3',
+    'Y': '4', 'Z': '5'
+    }
+- Encryption Steps:
+    - For each given plaintext character p:
+        - If `p` is an uppercase letter and exists in the encryption table:
+            - Replace `p` with the corresponding symbol from the encryption table.
+
+ **Decryption Rules:**
+
+- Input:
+    - Ciphertext: Uppercase letters string.
+- Output:
+    - Plaintext: Uppercase letters string.
+- Preparation:
+    - encryption_table = {
+    'A': '!', 'B': '@', 'C': '#', 'D': '$',
+    'E': '%', 'F': '^', 'G': '&', 'H': '*',
+    'I': '(', 'J': ')', 'K': '_', 'L': '+',
+    'M': '=', 'N': '~', 'O': '?', 'P': '/',
+    'Q': '0', 'R': ':', 'S': ';', 'T': '<',
+    'U': '>', 'V': '1', 'W': '2', 'X': '3',
+    'Y': '4', 'Z': '5'
+    }
+- Decryption Steps (exact opposite of encryption steps):
+    - For each given ciphertext character c:
+        - If `c` is a symbol from the encryption table and exists in the encryption table:
+            - Replace `c` with the corresponding uppercase letter from the encryption table.
+
+
+### Questions:
+question1:
+Ciphertext: "$"
+
+Please provide the decrypted answer, encapsulated in double square brackets. For example, the format should be: [[decrypted answer]].
+
+question2:
+Ciphertext: ":*23/~$31(3"
+
+Please provide the decrypted answer, encapsulated in double square brackets. For example, the format should be: [[decrypted answer]].
+
+question3:
+Plaintext: "X"
+
+Please provide the encrypted answer, encapsulated in double square brackets. For example, the format should be: [[encrypted answer]].
+
+question4:
+Plaintext: "DVNEXYAHRWB"
+
+Please provide the encrypted answer, encapsulated in double square brackets. For example, the format should be: [[encrypted answer]].
+
+question5:
+Ciphertext: ">3"
+
+Please provide the decrypted answer, encapsulated in double square brackets. For example, the format should be: [[decrypted answer]].
+
+question6:
+Plaintext: "L"
+
+Please provide the encrypted answer, encapsulated in double square brackets. For example, the format should be: [[encrypted answer]].
+
+question7:
+Ciphertext: "5"
+
+Please provide the decrypted answer, encapsulated in double square brackets. For example, the format should be: [[decrypted answer]].
+
+question8:
+Plaintext: "W"
+
+Please provide the encrypted answer, encapsulated in double square brackets. For example, the format should be: [[encrypted answer]].
+
+
+### Answers:

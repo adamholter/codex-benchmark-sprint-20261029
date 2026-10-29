@@ -1,0 +1,3 @@
+{
+  "question1": [["C(F, 180/200, 210/300) ⇒ Pr(F, School X) ≈ Pr(F, School Y)", "This inference requires similar sample proportions; 90% and 70% do not clearly satisfy that condition."]]
+}

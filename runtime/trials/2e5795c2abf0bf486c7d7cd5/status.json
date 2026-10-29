@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "fantom",
+  "id": "38-1-0-2357",
+  "category": "tom:info_accessibility:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294228.088763,
+  "turn": {
+    "id": "01a188aa-5ede-7663-ae1b-ea4a03f01275",
+    "rootTurnId": "01a188aa-5ede-7663-ae1b-ea4a03f01275",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0a8fe1fab4fc8832016ae37f9acfe8819595521e49873bc740",
+        "text": "Jessica and Mila.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294229,
+    "completedAt": 1793294235,
+    "durationMs": 5842
+  },
+  "score": {
+    "correct": true,
+    "extracted": "Jessica and Mila.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 7.0917189999017864,
+  "usage": {
+    "total": {
+      "totalTokens": 4491,
+      "inputTokens": 4425,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 66,
+      "reasoningOutputTokens": 56
+    },
+    "last": {
+      "totalTokens": 4491,
+      "inputTokens": 4425,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 66,
+      "reasoningOutputTokens": 56
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793294235.180158
+}

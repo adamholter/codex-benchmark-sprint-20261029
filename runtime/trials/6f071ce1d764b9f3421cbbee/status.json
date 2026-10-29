@@ -1,0 +1,67 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly_no_context",
+  "id": "185:Q 10.3:no_context",
+  "category": "Match-up / Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289130.111192,
+  "turn": {
+    "id": "01a1885c-91fc-7450-a7fa-ebad14acf140",
+    "rootTurnId": "01a1885c-91fc-7450-a7fa-ebad14acf140",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0bb7806aba33763a016ae36bb14cec8193a29a4f59a294bb2d",
+        "text": "{\"(a)\":\"Cannot be determined: the referenced whistle diagrams and sentences are not included.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289130,
+    "completedAt": 1793289137,
+    "durationMs": 7456
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "Cannot be determined: the referenced whistle diagrams and sentences are not included."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 1,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 0.0
+    }
+  },
+  "seconds": 7.850658957962878,
+  "usage": {
+    "total": {
+      "totalTokens": 4338,
+      "inputTokens": 4231,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 107,
+      "reasoningOutputTokens": 81
+    },
+    "last": {
+      "totalTokens": 4338,
+      "inputTokens": 4231,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 107,
+      "reasoningOutputTokens": 81
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793289137.961535
+}

@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "fantom",
+  "id": "148-0-1-7189",
+  "category": "tom:info_accessibility:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290444.761707,
+  "turn": {
+    "id": "01a18870-a2c4-7b82-a3b4-40096738292b",
+    "rootTurnId": "01a18870-a2c4-7b82-a3b4-40096738292b",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_048e8750269b1839016ae370d0dbfc8190b85e751e4fba5510",
+        "text": "Joel, Albert, and Cadence.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290445,
+    "completedAt": 1793290449,
+    "durationMs": 3476
+  },
+  "score": {
+    "correct": false,
+    "extracted": "Joel, Albert, and Cadence.",
+    "strict_correct": false,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 4.706962625030428,
+  "usage": {
+    "total": {
+      "totalTokens": 4332,
+      "inputTokens": 4320,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 12,
+      "reasoningOutputTokens": 0
+    },
+    "last": {
+      "totalTokens": 4332,
+      "inputTokens": 4320,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 12,
+      "reasoningOutputTokens": 0
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793290449.46852
+}

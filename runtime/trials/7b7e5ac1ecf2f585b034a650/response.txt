@@ -1,0 +1,6 @@
+{
+  "question1": "[[January Athios unspecified, February Cornick Rubicorp, March Gralax Techtrin, April Exatris SpaceZen]]",
+  "question2": "& is not defined by the rules. If @ was intended: [[((4,3),(5,5))]]",
+  "question3": "[[B]]",
+  "question4": "& is not defined by the rules. If @ was intended: [[((3,4),(2,3))]]"
+}

@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "bbeh",
+  "id": "mini:zebra_puzzles:0004",
+  "category": "zebra_puzzles",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290615.304627,
+  "turn": {
+    "id": "01a18873-3b02-7d42-87db-56241d9af6e9",
+    "rootTurnId": "01a18873-3b02-7d42-87db-56241d9af6e9",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0b1e99cd22650ea2016ae3717d6d7c8193add13e4287ae6c70",
+        "text": "Yair reads spiritual books, and the spiritual reader is at an end. Since Yair is immediately left of Jackson, Yair must be in position 1. The spiritual reader drives the Benelli and likes Corals; Corals are immediately left of pears, which are immediately left of the Denver Broncos. The Broncos are immediately left of the person who likes Dolomites, who lives in the orange house.\n\nSo the orange house is in **position 4**.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290615,
+    "completedAt": 1793290622,
+    "durationMs": 6612
+  },
+  "score": {
+    "correct": false,
+    "extracted": "yair reads spiritual books,and the spiritual reader is at an end. since yair is immediately left of jackson,yair must be in position 1. the spiritual reader drives the benelli and likes corals; corals are immediately left of pears,which are immediately left of the denver broncos. the broncos are immediately left of the person who likes dolomites,who lives in the orange house"
+  },
+  "seconds": 6.885533291962929,
+  "usage": {
+    "total": {
+      "totalTokens": 5687,
+      "inputTokens": 5178,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 509,
+      "reasoningOutputTokens": 408
+    },
+    "last": {
+      "totalTokens": 5687,
+      "inputTokens": 5178,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 509,
+      "reasoningOutputTokens": 408
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793290622.189631
+}

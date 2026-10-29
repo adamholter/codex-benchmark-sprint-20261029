@@ -1,0 +1,73 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly",
+  "id": "220:Q 5.2:full_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793291177.8308742,
+  "turn": {
+    "id": "01a1887b-d0b5-71c1-9c51-57cd6bb7147c",
+    "rootTurnId": "01a1887b-d0b5-71c1-9c51-57cd6bb7147c",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0e6f677f3a8db981016ae373cedaec8190ac08f54a6021135a",
+        "text": "{\n  \"21.\": \"boars\",\n  \"22.\": \"bad eyes\",\n  \"23.\": \"to eat resolutely\",\n  \"24.\": \"wild food\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793291178,
+    "completedAt": 1793291215,
+    "durationMs": 37629
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "21.": "boars",
+      "22.": "bad eyes",
+      "23.": "to eat resolutely",
+      "24.": "wild food"
+    },
+    "score": 0.25,
+    "parts_correct": 1,
+    "parts_total": 4,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "21.": 1.0,
+      "22.": 0.0,
+      "23.": 0.0,
+      "24.": 0.0
+    }
+  },
+  "seconds": 37.98537320899777,
+  "usage": {
+    "total": {
+      "totalTokens": 6743,
+      "inputTokens": 4767,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1976,
+      "reasoningOutputTokens": 1930
+    },
+    "last": {
+      "totalTokens": 6743,
+      "inputTokens": 4767,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1976,
+      "reasoningOutputTokens": 1930
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793291215.8157818
+}

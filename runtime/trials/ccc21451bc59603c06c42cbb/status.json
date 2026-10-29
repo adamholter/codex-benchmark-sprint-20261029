@@ -1,0 +1,67 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly_no_context",
+  "id": "218:Q 3.4:no_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294421.1897101,
+  "turn": {
+    "id": "01a188ad-4e43-75b2-b29e-674150ae6406",
+    "rootTurnId": "01a188ad-4e43-75b2-b29e-674150ae6406",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0fbdbfca2371adfc016ae3805e54848196991e8e35dd02f432",
+        "text": "{\"12.\":\"The supplied sheet contains no matched root\u2013causative examples. It lists roots and mentions the causative v\u026ezu without giving its root. Thus, there is insufficient information to determine the causative formation rule or any accompanying sound changes, so the requested forms cannot be reliably inferred.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294421,
+    "completedAt": 1793294432,
+    "durationMs": 11304
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "12.": "The supplied sheet contains no matched root\u2013causative examples. It lists roots and mentions the causative v\u026ezu without giving its root. Thus, there is insufficient information to determine the causative formation rule or any accompanying sound changes, so the requested forms cannot be reliably inferred."
+    },
+    "score": 1.0,
+    "parts_correct": 1,
+    "parts_total": 1,
+    "empty_reference_parts": 1,
+    "part_scores": {
+      "12.": 1.0
+    }
+  },
+  "seconds": 11.702680666930974,
+  "usage": {
+    "total": {
+      "totalTokens": 4250,
+      "inputTokens": 4083,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 167,
+      "reasoningOutputTokens": 98
+    },
+    "last": {
+      "totalTokens": 4250,
+      "inputTokens": 4083,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 167,
+      "reasoningOutputTokens": 98
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793294432.891607
+}

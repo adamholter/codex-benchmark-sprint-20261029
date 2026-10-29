@@ -1,0 +1,67 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly",
+  "id": "185:Q 10.3:full_context",
+  "category": "Match-up / Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288344.0565948,
+  "turn": {
+    "id": "01a18850-932a-77e1-bfcb-42659a56e832",
+    "rootTurnId": "01a18850-932a-77e1-bfcb-42659a56e832",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0d9e49bba00f5a01016ae368e44d3481948db4b4f2a45b1e98",
+        "text": "{\"(a)\":\"It marks an ongoing action: \u2018I am \u2026-ing\u2019.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288344,
+    "completedAt": 1793288420,
+    "durationMs": 76397
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "It marks an ongoing action: \u2018I am \u2026-ing\u2019."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 1,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 0.0
+    }
+  },
+  "seconds": 76.72953466698527,
+  "usage": {
+    "total": {
+      "totalTokens": 6929,
+      "inputTokens": 4939,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1990,
+      "reasoningOutputTokens": 1964
+    },
+    "last": {
+      "totalTokens": 6929,
+      "inputTokens": 4939,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1990,
+      "reasoningOutputTokens": 1964
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793288420.785988
+}

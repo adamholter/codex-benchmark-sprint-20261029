@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "bbeh",
+  "id": "mini:nycc:0111",
+  "category": "nycc",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793286045.2886531,
+  "turn": {
+    "id": "01a1882d-7fb5-7530-9e0b-76e35b031d3c",
+    "rootTurnId": "01a1882d-7fb5-7530-9e0b-76e35b031d3c",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_000a34a2a2a30126016ae35fa616148193b612e58d22817e99",
+        "text": "(H) \u201cYou should see what they did to the hotel room.\u201d",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793286045,
+    "completedAt": 1793286054,
+    "durationMs": 8756
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(h) \u201cyou should see what they did to the hotel room.\u201d"
+  },
+  "seconds": 9.381243207957596,
+  "usage": {
+    "total": {
+      "totalTokens": 4018,
+      "inputTokens": 3922,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 96,
+      "reasoningOutputTokens": 76
+    },
+    "last": {
+      "totalTokens": 4018,
+      "inputTokens": 3922,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 96,
+      "reasoningOutputTokens": 76
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793286054.669804
+}

@@ -1,0 +1,73 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly_no_context",
+  "id": "160:Q 2.1:no_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288768.858506,
+  "turn": {
+    "id": "01a18857-0e3e-7432-8535-76633ca3a399",
+    "rootTurnId": "01a18857-0e3e-7432-8535-76633ca3a399",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_08eab09183e0e332016ae36a4ce1688193b015b8595c2650d6",
+        "text": "{\"9\":\"Not determinable from the supplied sheet\",\"10\":\"Not determinable from the supplied sheet\",\"11\":\"Tuzzel teqcict\",\"12\":\"Not determinable from the supplied sheet\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288769,
+    "completedAt": 1793288781,
+    "durationMs": 12167
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "9": "Not determinable from the supplied sheet",
+      "10": "Not determinable from the supplied sheet",
+      "11": "Tuzzel teqcict",
+      "12": "Not determinable from the supplied sheet"
+    },
+    "score": 0.25,
+    "parts_correct": 1,
+    "parts_total": 4,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "9": 0.0,
+      "10": 0.0,
+      "11": 1.0,
+      "12": 0.0
+    }
+  },
+  "seconds": 12.40862687502522,
+  "usage": {
+    "total": {
+      "totalTokens": 5035,
+      "inputTokens": 4099,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 936,
+      "reasoningOutputTokens": 890
+    },
+    "last": {
+      "totalTokens": 5035,
+      "inputTokens": 4099,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 936,
+      "reasoningOutputTokens": 890
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793288781.266816
+}

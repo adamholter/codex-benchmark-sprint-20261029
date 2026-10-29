@@ -1,0 +1,67 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly_no_context",
+  "id": "122:Q 9.3:no_context",
+  "category": "Monolingual / Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793287600.913994,
+  "turn": {
+    "id": "01a18845-3c06-7492-85fa-8c58b503eb5f",
+    "rootTurnId": "01a18845-3c06-7492-85fa-8c58b503eb5f",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0bf6523527993be0016ae365b3ea748194932c9b66bf788864",
+        "text": "{\"d.\":\"The information provided does not include any Northern or Central Pame number forms, so their number systems and how they differ cannot be determined.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793287601,
+    "completedAt": 1793287604,
+    "durationMs": 3225
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "d.": "The information provided does not include any Northern or Central Pame number forms, so their number systems and how they differ cannot be determined."
+    },
+    "score": 1.0,
+    "parts_correct": 1,
+    "parts_total": 1,
+    "empty_reference_parts": 1,
+    "part_scores": {
+      "d.": 1.0
+    }
+  },
+  "seconds": 3.4970551249571145,
+  "usage": {
+    "total": {
+      "totalTokens": 4095,
+      "inputTokens": 3963,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 132,
+      "reasoningOutputTokens": 94
+    },
+    "last": {
+      "totalTokens": 4095,
+      "inputTokens": 3963,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 132,
+      "reasoningOutputTokens": 94
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793287604.410954
+}

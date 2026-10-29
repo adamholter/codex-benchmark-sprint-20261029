@@ -1,0 +1,1 @@
+{"1.": "jal", "2.": "urt", "3.": "agn", "4.": "cian", "5.": "ciaval", "6.": "bosc", "7.": "vacia", "8.": "tasc", "9.": "forcia", "10.": "bira"}

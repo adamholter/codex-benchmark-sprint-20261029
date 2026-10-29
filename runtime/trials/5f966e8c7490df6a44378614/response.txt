@@ -1,0 +1,1 @@
+Assuming all three schedules use the same clock, **149, 1**: Tuesday’s meeting can run from 1:30 to 3:59, with Sophia missing the first 5 minutes. If their local times differ, their time zones are needed to determine whether that meeting is possible.

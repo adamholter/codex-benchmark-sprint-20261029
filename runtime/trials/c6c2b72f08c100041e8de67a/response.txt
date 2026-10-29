@@ -1,0 +1,10 @@
+The **Tumi owner is in position 1**.
+
+Here is the key chain of deductions:
+
+1. Apples are at an end, and beekeeping is to their left, so apples are in **position 5**. That person likes ferrets and smokes Blends.
+2. Combining the clues about Nour, the spy, the Mercedes and the dancer puts Nour and the spy in **position 3**. The Mercedes is in position 4, and the dancer is in position 5.
+3. The Kia-driving programmer is in **position 1**. Using the gardening, Toyota, Marlboro and athlete clues then puts the Toyota in position 3 and the athlete in position 2.
+4. Diamonds must be between position 3 and Dolce and Gabbana, so Diamonds are in **position 4** and Dolce and Gabbana is in **position 5**. Beer must be to the left of Gypsum, with a guitar player immediately to the left of beer. Since Gypsum is also Kate Spade, it cannot be in positions 4 or 5. Thus **beer is in position 2** and **Gypsum, Kate Spade and the Mavericks are in position 3**.
+5. Iced coffee is at an end and follows the Cavaliers and harmonica player, so it is in position 5. The Lakers must be in position 2 or 4. If they were in position 2, the adjacent Celtics would have to be in position 1, leaving no possible position before the harmonica player for the Cavaliers. Therefore the **Lakers are in position 4** and the **Celtics in position 5**.
+6. The Bucks must consequently be in position 1 or 2. Because Tumi is to the left of the Bucks, the Bucks are in position 2 and **Tumi is in position 1**.

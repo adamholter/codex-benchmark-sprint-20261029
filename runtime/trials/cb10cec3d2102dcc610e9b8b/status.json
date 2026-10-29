@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "bbeh",
+  "id": "mini:disambiguation_qa:0263",
+  "category": "disambiguation_qa",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793285217.5233011,
+  "turn": {
+    "id": "01a18820-ded2-7fb0-837d-a61133cb0743",
+    "rootTurnId": "01a18820-ded2-7fb0-837d-a61133cb0743",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_08c9664eefbea4be016ae35c65ae34819695629047e2797122",
+        "text": "(D) The waiter forgot the order, the chef was angry, and both went to speak to the manager. The final \u201cShe\u201d could refer to either the chef or the manager.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793285218,
+    "completedAt": 1793285222,
+    "durationMs": 4569
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(d) the waiter forgot the order,the chef was angry,and both went to speak to the manager. the final \u201cshe\u201d could refer to either the chef or the manager"
+  },
+  "seconds": 5.071345250005834,
+  "usage": {
+    "total": {
+      "totalTokens": 4128,
+      "inputTokens": 4062,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 66,
+      "reasoningOutputTokens": 23
+    },
+    "last": {
+      "totalTokens": 4128,
+      "inputTokens": 4062,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 66,
+      "reasoningOutputTokens": 23
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793285222.5942552
+}

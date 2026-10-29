@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "bbeh",
+  "id": "mini:movie_recommendation:0183",
+  "category": "movie_recommendation",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292273.690384,
+  "turn": {
+    "id": "01a1888c-897d-7811-8296-ebbaef9bf084",
+    "rootTurnId": "01a1888c-897d-7811-8296-ebbaef9bf084",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_09ab76c7c600c332016ae377f540e88193b0d9e59361f996c5",
+        "text": "**(F)** \u2014 Seven Samurai, The Lord of the Rings: The Two Towers, Dr. Strangelove, The Silence of the Lambs, and American Beauty are all widely acclaimed, making them the most similar set in terms of likely audience approval.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292274,
+    "completedAt": 1793292277,
+    "durationMs": 3814
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(f) \u2014 seven samurai,the lord of the rings: the two towers,dr. strangelove,the silence of the lambs,and american beauty are all widely acclaimed,making them the most similar set in terms of likely audience approval"
+  },
+  "seconds": 4.195949540939182,
+  "usage": {
+    "total": {
+      "totalTokens": 4173,
+      "inputTokens": 4089,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 84,
+      "reasoningOutputTokens": 26
+    },
+    "last": {
+      "totalTokens": 4173,
+      "inputTokens": 4089,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 84,
+      "reasoningOutputTokens": 26
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292277.8861802
+}

@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "fantom",
+  "id": "101-1-0-4966",
+  "category": "tom:info_accessibility:binary",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290347.61116,
+  "turn": {
+    "id": "01a1886f-268f-7382-9d42-c3b1776df1c8",
+    "rootTurnId": "01a1886f-268f-7382-9d42-c3b1776df1c8",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0031b2e6b3a8ccac016ae3706e9f5481949e8cd270270a9ccb",
+        "text": "No.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290348,
+    "completedAt": 1793290350,
+    "durationMs": 2737
+  },
+  "score": {
+    "correct": true,
+    "extracted": "No.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 3.364417333039455,
+  "usage": {
+    "total": {
+      "totalTokens": 4295,
+      "inputTokens": 4289,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 6,
+      "reasoningOutputTokens": 0
+    },
+    "last": {
+      "totalTokens": 4295,
+      "inputTokens": 4289,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 6,
+      "reasoningOutputTokens": 0
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793290350.9752991
+}

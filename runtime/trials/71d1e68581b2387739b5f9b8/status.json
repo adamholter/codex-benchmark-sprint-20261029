@@ -1,0 +1,64 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-Q_544",
+  "category": "Multi-Q",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294732.7134259,
+  "turn": {
+    "id": "01a188b2-0e89-7960-9cc1-e5317d3b4114",
+    "rootTurnId": "01a188b2-0e89-7960-9cc1-e5317d3b4114",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_07f9241deda1d56d016ae38192f3c4819689d430626adf9deb",
+        "text": "{\n  \"question1\": \"[[100%]]\",\n  \"question2\": \"[[4%]]\",\n  \"question3\": \"[[P(S, 90, 100), P(S, 75, 150); 90% \u2260 50%, so C-reasoning does not apply]]\",\n  \"question4\": \"[[P(A, 40, 500)]]\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294732,
+    "completedAt": 1793294740,
+    "durationMs": 7095
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "question1": "100%",
+      "question2": "4%",
+      "question3": "P(S, 90, 100), P(S, 75, 150); 90% \u2260 50%, so C-reasoning does not apply",
+      "question4": "P(A, 40, 500)"
+    },
+    "pass_rate": 0.5
+  },
+  "seconds": 7.33299283310771,
+  "usage": {
+    "total": {
+      "totalTokens": 4860,
+      "inputTokens": 4596,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 264,
+      "reasoningOutputTokens": 173
+    },
+    "last": {
+      "totalTokens": 4860,
+      "inputTokens": 4596,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 264,
+      "reasoningOutputTokens": 173
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793294740.0461628
+}

@@ -1,0 +1,91 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly",
+  "id": "170:Q 5.:full_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290772.9818501,
+  "turn": {
+    "id": "01a18875-a347-7283-8adc-fb06d7de72da",
+    "rootTurnId": "01a18875-a347-7283-8adc-fb06d7de72da",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0d71a14a31f58192016ae3723073008193a147523b1048b41f",
+        "text": "{\n  \"a.\": \"bie\",\n  \"b\": \"folongfugri\",\n  \"c\": \"folongfugo\",\n  \"d\": \"gbi'e'\",\n  \"e\": \"gbe'ri'\",\n  \"f\": \"iri\",\n  \"g\": \"ire\",\n  \"h\": \"ngmari'\",\n  \"i\": \"ngmara\",\n  \"j\": \"wul-bo\",\n  \"k\": \"yagri'\",\n  \"l\": \"zupili\",\n  \"m\": \"zupile\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290773,
+    "completedAt": 1793290801,
+    "durationMs": 28446
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "a.": "bie",
+      "b": "folongfugri",
+      "c": "folongfugo",
+      "d": "gbi'e'",
+      "e": "gbe'ri'",
+      "f": "iri",
+      "g": "ire",
+      "h": "ngmari'",
+      "i": "ngmara",
+      "j": "wul-bo",
+      "k": "yagri'",
+      "l": "zupili",
+      "m": "zupile"
+    },
+    "score": 0.38461538461538464,
+    "parts_correct": 5,
+    "parts_total": 13,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 1.0,
+      "b": 1.0,
+      "c": 1.0,
+      "d": 0.0,
+      "e": 0.0,
+      "f": 0.0,
+      "g": 0.0,
+      "h": 0.0,
+      "i": 0.0,
+      "j": 1.0,
+      "k": 1.0,
+      "l": 0.0,
+      "m": 0.0
+    }
+  },
+  "seconds": 28.811535874963738,
+  "usage": {
+    "total": {
+      "totalTokens": 5501,
+      "inputTokens": 4837,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 664,
+      "reasoningOutputTokens": 541
+    },
+    "last": {
+      "totalTokens": 5501,
+      "inputTokens": 4837,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 664,
+      "reasoningOutputTokens": 541
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793290801.790689
+}

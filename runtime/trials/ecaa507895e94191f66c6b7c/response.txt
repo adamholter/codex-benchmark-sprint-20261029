@@ -1,0 +1,5 @@
+{
+  "a.": "Cannot be determined: the sheet provides no Central Pame numeral data.",
+  "b.": "Cannot be determined: the sheet provides no Central Pame numeral data.",
+  "c.": "Cannot be determined: the sheet provides no Central Pame numeral data."
+}

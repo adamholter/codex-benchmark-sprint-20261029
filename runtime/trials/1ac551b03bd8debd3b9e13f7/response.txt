@@ -1,0 +1,12 @@
+{
+  "1.": "Cannot determine: the problem data is missing.",
+  "2.": "Cannot determine: the problem data is missing.",
+  "3.": "Cannot determine: the problem data is missing.",
+  "4.": "Cannot determine: the problem data is missing.",
+  "5.": "Cannot determine: the problem data is missing.",
+  "6.": "Cannot determine: the problem data is missing.",
+  "7.": "Cannot determine: the problem data is missing.",
+  "8.": "Cannot determine: the problem data is missing.",
+  "9.": "Cannot determine: the problem data is missing.",
+  "10.": "Cannot determine: the problem data is missing."
+}

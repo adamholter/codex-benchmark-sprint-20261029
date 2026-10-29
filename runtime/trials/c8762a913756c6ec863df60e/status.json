@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "korbench",
+  "id": "puzzle_180",
+  "category": "puzzle",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292726.7573152,
+  "turn": {
+    "id": "01a18893-7322-7b20-a91f-e3c8423ee2dd",
+    "rootTurnId": "01a18893-7322-7b20-a91f-e3c8423ee2dd",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0f270d8207417337016ae379c1193c819488ed5551c9e800d5",
+        "text": "[[No solution: the 9 is in the second row, first column. A straight arrow from it can cover at most 8 blank squares in any direction, so it cannot satisfy the stated rule.]]",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292727,
+    "completedAt": 1793292737,
+    "durationMs": 10623
+  },
+  "score": {
+    "correct": false,
+    "extracted": "No solution: the 9 is in the second row, first column. A straight arrow from it can cover at most 8 blank squares in any direction, so it cannot satisfy the stated rule."
+  },
+  "seconds": 10.96526420803275,
+  "usage": {
+    "total": {
+      "totalTokens": 4727,
+      "inputTokens": 4163,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 564,
+      "reasoningOutputTokens": 516
+    },
+    "last": {
+      "totalTokens": 4727,
+      "inputTokens": 4163,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 564,
+      "reasoningOutputTokens": 516
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292737.721935
+}

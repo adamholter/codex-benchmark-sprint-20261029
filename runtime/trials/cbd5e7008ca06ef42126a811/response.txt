@@ -1,0 +1,20 @@
+{
+  "e.": "ŋokor",
+  "f.": "iŋokor",
+  "g.": "onem",
+  "h.": "rimeyosier",
+  "i.": "wonem",
+  "j.": "onemeŋokor",
+  "k.": "rimiŋokor",
+  "l.": "17",
+  "m.": "safur onemenuru",
+  "n.": "safur rimenuru",
+  "o.": "arzus di nuru nuru",
+  "p.": "aresonuru nuru",
+  "q.": "ares fiak beberin nuru",
+  "r.": "arzus di ŋokor safur onemefak",
+  "s.": "ares fik beberin siu",
+  "t.": "arzus di fak safur onemeŋokor",
+  "u.": "aresofak safur rimiŋokor",
+  "v.": "ares siu beberin war"
+}

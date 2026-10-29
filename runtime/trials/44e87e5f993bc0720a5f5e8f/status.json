@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "korbench",
+  "id": "puzzle_226",
+  "category": "puzzle",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793293456.325886,
+  "turn": {
+    "id": "01a1889e-94fe-7063-a713-5fd724cc7808",
+    "rootTurnId": "01a1889e-94fe-7063-a713-5fd724cc7808",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_022f1444316899e4016ae37cc76a408197bdc4ef673fa5c067",
+        "text": "No valid arrangement exists under the stated rules.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793293456,
+    "completedAt": 1793293512,
+    "durationMs": 55505
+  },
+  "score": {
+    "correct": false,
+    "extracted": "NULL"
+  },
+  "seconds": 55.84192825003993,
+  "usage": {
+    "total": {
+      "totalTokens": 9928,
+      "inputTokens": 4072,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 5856,
+      "reasoningOutputTokens": 5841
+    },
+    "last": {
+      "totalTokens": 9928,
+      "inputTokens": 4072,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 5856,
+      "reasoningOutputTokens": 5841
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793293512.167691
+}

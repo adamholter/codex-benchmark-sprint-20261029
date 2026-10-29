@@ -1,0 +1,1 @@
+{"(a)": "Cannot determine: Table 1 is missing.", "(b)": "Cannot determine: Table 1 is missing.", "(c)": "Cannot determine: Table 1 is missing.", "(d)": "Cannot determine: Table 1 is missing.", "(e)": "Cannot determine: Table 1 is missing.", "(f)": "Cannot determine: Table 1 is missing.", "(g)": "Cannot determine: Table 1 is missing."}

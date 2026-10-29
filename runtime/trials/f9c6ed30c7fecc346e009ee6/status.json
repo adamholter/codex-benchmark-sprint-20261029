@@ -1,0 +1,79 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly_no_context",
+  "id": "178:Q 3.1:no_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290403.883243,
+  "turn": {
+    "id": "01a18870-01b1-72b0-b856-756a76da58d2",
+    "rootTurnId": "01a18870-01b1-72b0-b856-756a76da58d2",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0935a27c2434a46d016ae370a9af7c819685ec6fc81b4f6baa",
+        "text": "{\n  \"1.\": \"Cannot be determined from the information provided.\",\n  \"2.\": \"Cannot be determined from the information provided.\",\n  \"3.\": \"Cannot be determined from the information provided.\",\n  \"4.\": \"Cannot be determined from the information provided.\",\n  \"5.\": \"Cannot be determined from the information provided.\",\n  \"6.\": \"Cannot be determined from the information provided.\",\n  \"7.\": \"Cannot be determined from the information provided.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290404,
+    "completedAt": 1793290410,
+    "durationMs": 6093
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "1.": "Cannot be determined from the information provided.",
+      "2.": "Cannot be determined from the information provided.",
+      "3.": "Cannot be determined from the information provided.",
+      "4.": "Cannot be determined from the information provided.",
+      "5.": "Cannot be determined from the information provided.",
+      "6.": "Cannot be determined from the information provided.",
+      "7.": "Cannot be determined from the information provided."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 7,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "1.": 0.0,
+      "2.": 0.0,
+      "3.": 0.0,
+      "4.": 0.0,
+      "5.": 0.0,
+      "6.": 0.0,
+      "7.": 0.0
+    }
+  },
+  "seconds": 6.528122374904342,
+  "usage": {
+    "total": {
+      "totalTokens": 4231,
+      "inputTokens": 3968,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 263,
+      "reasoningOutputTokens": 157
+    },
+    "last": {
+      "totalTokens": 4231,
+      "inputTokens": 3968,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 263,
+      "reasoningOutputTokens": 157
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793290410.4109042
+}

@@ -1,0 +1,6 @@
+{
+  "a.": "To totou foki a ia.",
+  "b.": "Kua fai ika noa a Sione ka kai he faiaoga.",
+  "c.": "Ne tā he faiaoga ne kitia e Mele e vaka.",
+  "d.": "Kua muhu kāmuta tūmau."
+}

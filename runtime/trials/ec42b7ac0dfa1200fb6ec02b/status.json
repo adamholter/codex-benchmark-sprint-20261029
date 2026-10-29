@@ -1,0 +1,69 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly",
+  "id": "122:Q 9.1:full_context",
+  "category": "Monolingual / Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793286353.5057411,
+  "turn": {
+    "id": "01a18832-3425-7d51-aad9-1c910565c8f1",
+    "rootTurnId": "01a18832-3425-7d51-aad9-1c910565c8f1",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0dee7095f909e302016ae360ef0d148197a08fd0bb87b47be1",
+        "text": "{\"a.\":\"nuji\",\"b.\":\"karnu\u0294 tenhiu\u0272 teriuhi\u0272\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793286353,
+    "completedAt": 1793286383,
+    "durationMs": 29491
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "a.": "nuji",
+      "b.": "karnu\u0294 tenhiu\u0272 teriuhi\u0272"
+    },
+    "score": 1.0,
+    "parts_correct": 2,
+    "parts_total": 2,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 1.0,
+      "b.": 1.0
+    }
+  },
+  "seconds": 29.97170679201372,
+  "usage": {
+    "total": {
+      "totalTokens": 5072,
+      "inputTokens": 4397,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 675,
+      "reasoningOutputTokens": 643
+    },
+    "last": {
+      "totalTokens": 5072,
+      "inputTokens": 4397,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 675,
+      "reasoningOutputTokens": 643
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793286383.4773288
+}

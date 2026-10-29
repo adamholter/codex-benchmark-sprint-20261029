@@ -1,0 +1,7 @@
+{
+  "17.": "Cannot be determined from the information provided.",
+  "18.": "Cannot be determined from the information provided.",
+  "19.": "Cannot be determined from the information provided.",
+  "20.": "Cannot be determined from the information provided.",
+  "21.": "Cannot be determined from the information provided."
+}

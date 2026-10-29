@@ -1,0 +1,11 @@
+{
+  "question1": "[[B]]",
+  "question2": "[[B]]",
+  "question3": "[[C]]",
+  "question4": "[[A]]",
+  "question5": "[[C]]",
+  "question6": "[[B]]",
+  "question7": "[[A]]",
+  "question8": "[[A]]",
+  "question9": "[[B]]"
+}

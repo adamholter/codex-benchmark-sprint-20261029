@@ -1,0 +1,5 @@
+**(A) 3, 5 and 8.**
+
+- **3 — Non-right triangle:** vertices \((0,0)\), \((0,7)\), and \((16.29794,1.06804)\).
+- **5 — Non-rectangular parallelogram:** vertices \((0,-19.35995)\), \((0,-43.35995)\), \((4.5,-56.61703)\), and \((4.5,-32.61703)\).
+- **8 — Irregular concave pentagon:** vertices \((-16,-43.35995)\), \((0,-43.35995)\), \((0,-19.35995)\), \((-8,-33.21636)\), and \((-16,-19.35995)\). The vertex at \((-8,-33.21636)\) forms the concave indentation.

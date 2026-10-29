@@ -1,0 +1,1 @@
+{"a.": "I am sitting in the camp.", "b.": "Then the two asked this man.", "c.": "I am not hungry right now."}

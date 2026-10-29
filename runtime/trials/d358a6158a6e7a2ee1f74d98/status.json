@@ -1,0 +1,133 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly_no_context",
+  "id": "151:Q 8.:no_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290824.237001,
+  "turn": {
+    "id": "01a18876-6bb6-7090-9abd-0bd4e251cf50",
+    "rootTurnId": "01a18876-6bb6-7090-9abd-0bd4e251cf50",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0d2d25b0cd7f8474016ae372c218f08190b1421d4cf050c748",
+        "text": "{\"a.\":\"3\",\"b.\":\"0\",\"c.\":\"1\",\"d.\":\"0\",\"e.\":\"2\",\"f.\":\"3\",\"g.\":\"3\",\"h.\":\"1\",\"i.\":\"4\",\"j.\":\"1\",\"k.\":\"1\",\"l.\":\"3\",\"m.\":\"1\",\"n.\":\"2\",\"o.\":\"2\",\"p.\":\"3\",\"q.\":\"2\",\"r.\":\"3\",\"s.\":\"3\",\"t.\":\"1\",\"u.\":\"3\",\"v.\":\"2\",\"w.\":\"3\",\"x.\":\"1\",\"y.\":\"1\",\"z.\":\"2\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290824,
+    "completedAt": 1793290948,
+    "durationMs": 123550
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "a.": "3",
+      "b.": "0",
+      "c.": "1",
+      "d.": "0",
+      "e.": "2",
+      "f.": "3",
+      "g.": "3",
+      "h.": "1",
+      "i.": "4",
+      "j.": "1",
+      "k.": "1",
+      "l.": "3",
+      "m.": "1",
+      "n.": "2",
+      "o.": "2",
+      "p.": "3",
+      "q.": "2",
+      "r.": "3",
+      "s.": "3",
+      "t.": "1",
+      "u.": "3",
+      "v.": "2",
+      "w.": "3",
+      "x.": "1",
+      "y.": "1",
+      "z.": "2"
+    },
+    "score": 0.6923076923076923,
+    "parts_correct": 18,
+    "parts_total": 26,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 1.0,
+      "b.": 0.0,
+      "c.": 1.0,
+      "d.": 0.0,
+      "e.": 0.0,
+      "f.": 1.0,
+      "g.": 1.0,
+      "h.": 0.0,
+      "i.": 1.0,
+      "j.": 0.0,
+      "k.": 1.0,
+      "l.": 1.0,
+      "m.": 0.0,
+      "n.": 1.0,
+      "o.": 1.0,
+      "p.": 1.0,
+      "q.": 1.0,
+      "r.": 1.0,
+      "s.": 1.0,
+      "t.": 1.0,
+      "u.": 1.0,
+      "v.": 1.0,
+      "w.": 1.0,
+      "x.": 0.0,
+      "y.": 0.0,
+      "z.": 1.0
+    }
+  },
+  "seconds": 124.24644383299164,
+  "usage": {
+    "total": {
+      "totalTokens": 6032,
+      "inputTokens": 4547,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1485,
+      "reasoningOutputTokens": 1348
+    },
+    "last": {
+      "totalTokens": 6032,
+      "inputTokens": 4547,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1485,
+      "reasoningOutputTokens": 1348
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 156a2da5-f0a3-931c-8b81-65e38c9b5d7a",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a18876-6b8b-7840-b917-444f4a1009ae",
+      "turnId": "01a18876-6bb6-7090-9abd-0bd4e251cf50"
+    }
+  ],
+  "finished_at": 1793290948.483011
+}

@@ -1,0 +1,97 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly_no_context",
+  "id": "171:Q 1.1:no_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289988.596608,
+  "turn": {
+    "id": "01a18869-aaf0-71f3-aa71-2ffd08ed8be3",
+    "rootTurnId": "01a18869-aaf0-71f3-aa71-2ffd08ed8be3",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_03ae39cd577ec3d5016ae36f0de178819792d26de83de5ffaa",
+        "text": "{\n  \"a.\": \"Cannot determine: first table not provided.\",\n  \"b.\": \"Cannot determine: first table not provided.\",\n  \"c.\": \"Cannot determine: first table not provided.\",\n  \"d.\": \"Cannot determine: first table not provided.\",\n  \"e.\": \"Cannot determine: first table not provided.\",\n  \"f.\": \"Cannot determine: first table not provided.\",\n  \"g.\": \"Cannot determine: first table not provided.\",\n  \"h.\": \"Cannot determine: first table not provided.\",\n  \"i.\": \"Cannot determine: first table not provided.\",\n  \"j.\": \"Cannot determine: first table not provided.\",\n  \"k.\": \"Cannot determine: first table not provided.\",\n  \"l.\": \"Cannot determine: first table not provided.\",\n  \"m.\": \"Cannot determine: first table not provided.\",\n  \"n.\": \"Cannot determine: first table not provided.\",\n  \"o.\": \"Cannot determine: first table not provided.\",\n  \"p.\": \"Cannot determine: first table not provided.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289988,
+    "completedAt": 1793290000,
+    "durationMs": 11559
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "a.": "Cannot determine: first table not provided.",
+      "b.": "Cannot determine: first table not provided.",
+      "c.": "Cannot determine: first table not provided.",
+      "d.": "Cannot determine: first table not provided.",
+      "e.": "Cannot determine: first table not provided.",
+      "f.": "Cannot determine: first table not provided.",
+      "g.": "Cannot determine: first table not provided.",
+      "h.": "Cannot determine: first table not provided.",
+      "i.": "Cannot determine: first table not provided.",
+      "j.": "Cannot determine: first table not provided.",
+      "k.": "Cannot determine: first table not provided.",
+      "l.": "Cannot determine: first table not provided.",
+      "m.": "Cannot determine: first table not provided.",
+      "n.": "Cannot determine: first table not provided.",
+      "o.": "Cannot determine: first table not provided.",
+      "p.": "Cannot determine: first table not provided."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 16,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 0.0,
+      "b.": 0.0,
+      "c.": 0.0,
+      "d.": 0.0,
+      "e.": 0.0,
+      "f.": 0.0,
+      "g.": 0.0,
+      "h.": 0.0,
+      "i.": 0.0,
+      "j.": 0.0,
+      "k.": 0.0,
+      "l.": 0.0,
+      "m.": 0.0,
+      "n.": 0.0,
+      "o.": 0.0,
+      "p.": 0.0
+    }
+  },
+  "seconds": 11.825395875028335,
+  "usage": {
+    "total": {
+      "totalTokens": 4714,
+      "inputTokens": 4341,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 373,
+      "reasoningOutputTokens": 141
+    },
+    "last": {
+      "totalTokens": 4714,
+      "inputTokens": 4341,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 373,
+      "reasoningOutputTokens": 141
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793290000.421498
+}

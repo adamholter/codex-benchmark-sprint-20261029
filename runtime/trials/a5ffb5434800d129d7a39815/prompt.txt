@@ -1,0 +1,73 @@
+You are an intelligent assistant that specializes in encryption and decryption tasks. Below are the rules for a specific cipher. When responding, please ensure that your output adheres to the specified encryption and decryption rules and format.
+
+### Instructions:
+
+1. Identify the relevant properties and objects specified in the rule, including the plaintext, keyword, and ciphertext.
+2. Follow the specified encryption or decryption operations precisely as described in the rules.
+3. Ensure your output is formatted according to the specified notation and symbols.
+
+### Cipher Rule:
+
+**Encryption Rules:**
+
+- Input:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Output:
+    - Ciphertext: Uppercase letters string.
+- Preparation:
+    - Four 5x5 Girds
+        - Gird1
+            - K  L  M  N  O
+            P  R  S  T  U
+            V  W  X  Y  Z
+            A  B  C  D  E
+            F  G  H  I  J
+        - Gird2
+            - E  C  H  O  A
+            B  D  F  G  I
+            J  K  L  M  N
+            P  R  S  T  U
+            V  W  X  Y  Z
+        - Gird3
+            - V  O  R  T  E
+            X  A  B  C  D
+            F  G  H  I  J
+            K  L  M  N  P
+            S  U  W  Y  Z
+        - Gird4
+            - K  L  M  N  O
+            P  R  S  T  U
+            V  W  X  Y  Z
+            A  B  C  D  E
+            F  G  H  I  J
+- Encryption Steps:
+    - Cleans up plaintext, removing spaces and non-alphabetic characters, removing the letter Q, and converting all letters to uppercase.
+    - If the plaintext is of odd length, add a letter 'X' to make it of even length.
+    - Split the cleaned plaintext into two-letter groups.
+    - For each double-letter group p1,p2 of the plaintext:
+        - In Gird1 and Gird4, find the position of the first letter and the second letter.
+        - In Gird2 and Gird3, find the letters corresponding to these two positions, use these two letters as the result of encrypting the double letter combination.
+    - Concatenate all the encrypted double letter groups to form the final ciphertext.
+
+ **Decryption Rules:**
+
+- Input:
+    - Ciphertext: Uppercase letters string.
+- Output:
+    - Plaintext: Uppercase letters string.
+- Preparation:
+    - Four 5x5 Girds (Same as encryption)
+- Decryption Steps (exact opposite of encryption steps):
+    - Cleans up ciphertext, removing spaces and non-alphabetic characters, and converting all letters to uppercase.
+    - Split the cleaned ciphertext into two-letter groups.
+    - For each double-letter group c1,c2 of the ciphertext:
+        - In Gird2 and Gird3, find the position of the first letter and the second letter.
+        - In Gird1 and Gird4, find the letters corresponding to these two positions, use these two letters as the result of decrypting the double letter combination.
+    - Concatenate all the decrypted double letter groups to form the final plaintext.
+
+### Question:
+Ciphertext: "CB"
+
+Please provide the decrypted answer, encapsulated in double square brackets. For example, the format should be: [[decrypted answer]].
+
+### Answer:

@@ -1,0 +1,67 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly",
+  "id": "141:Q 3.1:full_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290379.297516,
+  "turn": {
+    "id": "01a1886f-a41b-7bb0-b415-473dc58f4797",
+    "rootTurnId": "01a1886f-a41b-7bb0-b415-473dc58f4797",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0ec7125b389c17f8016ae370a7e4588194a62b27cc15393750",
+        "text": "{\"1.\":\"wielkoludzi, wielkoludy\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290380,
+    "completedAt": 1793290408,
+    "durationMs": 27945
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "1.": "wielkoludzi, wielkoludy"
+    },
+    "score": 1.0,
+    "parts_correct": 1,
+    "parts_total": 1,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "1.": 1.0
+    }
+  },
+  "seconds": 28.98219154193066,
+  "usage": {
+    "total": {
+      "totalTokens": 5066,
+      "inputTokens": 4493,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 573,
+      "reasoningOutputTokens": 554
+    },
+    "last": {
+      "totalTokens": 5066,
+      "inputTokens": 4493,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 573,
+      "reasoningOutputTokens": 554
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793290408.279256
+}

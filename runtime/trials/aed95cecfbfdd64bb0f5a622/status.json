@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "korbench",
+  "id": "puzzle_79",
+  "category": "puzzle",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793287123.7308311,
+  "turn": {
+    "id": "01a1883d-f478-71e1-af8f-6af135e628fc",
+    "rootTurnId": "01a1883d-f478-71e1-af8f-6af135e628fc",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0432be2f8e2e22ce016ae363fd50ac8196835009888ff4e62d",
+        "text": "[[BRASS (5,5)(1,1)\nNICHROME (4,10)(11,3)\nCOPPER (6,10)(11,10)\nNICKEL (2,6)(2,11)\nGALLIUM (11,4)(5,10)\nPEWTER (8,1)(8,6)\nGOLD (11,4)(11,7)\nSILVER (9,11)(4,11)\nIRON (4,1)(7,1)\nSOLDER (10,6)(10,11)\nLEAD (5,2)(2,5)\nSTEEL (7,5)(11,1)\nMERCURY (4,2)(4,8)\nZING not found; ZINC is at (1,6)(4,9)]]",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793287124,
+    "completedAt": 1793287168,
+    "durationMs": 44182
+  },
+  "score": {
+    "correct": false,
+    "extracted": "BRASS (5,5)(1,1)\nNICHROME (4,10)(11,3)\nCOPPER (6,10)(11,10)\nNICKEL (2,6)(2,11)\nGALLIUM (11,4)(5,10)\nPEWTER (8,1)(8,6)\nGOLD (11,4)(11,7)\nSILVER (9,11)(4,11)\nIRON (4,1)(7,1)\nSOLDER (10,6)(10,11)\nLEAD (5,2)(2,5)\nSTEEL (7,5)(11,1)\nMERCURY (4,2)(4,8)\nZING not found; ZINC is at (1,6)(4,9)"
+  },
+  "seconds": 44.571209333022125,
+  "usage": {
+    "total": {
+      "totalTokens": 5259,
+      "inputTokens": 4144,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1115,
+      "reasoningOutputTokens": 941
+    },
+    "last": {
+      "totalTokens": 5259,
+      "inputTokens": 4144,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1115,
+      "reasoningOutputTokens": 941
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793287168.301897
+}

@@ -1,0 +1,68 @@
+You are an intelligent assistant that helps with various logical reasoning tasks. Below is a custom-defined rule for a specific type of logic. When responding, please ensure that your output adheres to the specified logical rules and format.
+
+### Instructions:
+
+1. Identify the relevant properties and objects as specified in the rule.
+2. Apply the given logical operations or reasoning patterns.
+3. Ensure your output is formatted according to the specified notation and symbols.
+
+### Logic Rule:
+
+Time Propositions:
+1. Symbol "H" represents "past point in time".
+2. Symbol "A" represents "past period of time".
+3. Symbol "F" represents "future point in time".
+4. Symbol "G" represents "future period of time".
+5. Symbol "T" represents "present".
+
+Time Proposition Relationships:
+(1) ※ Relationship:
+- Pairs: Ap and H¬p; A¬p and Hp; Gp and F¬p; G¬p and Fp
+- Properties: They cannot both be true, nor both false.
+
+(2) ↦ Relationship:
+- Pairs: Ap and A¬p; Gp and G¬p
+- Properties: They cannot both be true, but can both be false.
+
+(3) ⚭ Relationship:
+- Pairs: Hp and H¬p; Fp and F¬p
+- Properties: They cannot both be false, but can both be true.
+
+(4) ⁂ Relationship:
+- Pairs: Ap and Hp, A¬p and H¬p; Gp and Fp, G¬p and F¬p
+- Properties: They can both be true, or both be false.
+
+Time Proposition Inference Formulas:
+(1) Ap ↔ H¬p
+(2) A¬p ↔ ¬Hp
+(3) Hp ↔ ¬A¬p
+(4) H¬p ↔ ¬Ap
+(5) Ap → ¬A¬p
+(6) A¬p → ¬Ap
+(7) ¬Hp → H¬p
+(8) ¬H¬p → Hp
+(9) Ap → Hp
+(10) A¬p → H¬p
+(11) ¬Hp → ¬Ap
+(12) ¬H¬p → ¬A¬p
+(13) Gp ↔ F¬p
+(14) G¬p ↔ ¬Fp
+(15) Fp ↔ ¬G¬p
+(16) F¬p ↔ ¬Gp
+(17) Gp → ¬G¬p
+(18) G¬p → ¬Gp
+(19) ¬Fp → F¬p
+(20) ¬F¬p → Fp
+(21) Gp → Fp
+(22) G¬p → F¬p
+(23) ¬Fp → ¬Gp
+(24) ¬F¬p → ¬G¬p
+
+### Question:
+"Dr Lee has been working on farms in the past" leads to: "Dr Lee has been working on farms at some time in the past".
+
+Which of these correspond to the inference formulae?
+
+Please give your answer in [[number]] format.
+
+### Answer:

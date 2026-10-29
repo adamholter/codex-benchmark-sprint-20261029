@@ -1,0 +1,67 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly",
+  "id": "185:Q 10.3:full_context",
+  "category": "Match-up / Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288327.803243,
+  "turn": {
+    "id": "01a18850-536b-7630-85e2-e0dc764a4093",
+    "rootTurnId": "01a18850-536b-7630-85e2-e0dc764a4093",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0bea41a8d9243bd8016ae3688f757881908035eb0cf84a4c81",
+        "text": "{\"(a)\":\"It marks a first-person singular subject: \u201cI\u201d.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288328,
+    "completedAt": 1793288335,
+    "durationMs": 7851
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "It marks a first-person singular subject: \u201cI\u201d."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 1,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 0.0
+    }
+  },
+  "seconds": 8.117899708915502,
+  "usage": {
+    "total": {
+      "totalTokens": 5406,
+      "inputTokens": 4939,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 467,
+      "reasoningOutputTokens": 443
+    },
+    "last": {
+      "totalTokens": 5406,
+      "inputTokens": 4939,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 467,
+      "reasoningOutputTokens": 443
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793288335.921047
+}

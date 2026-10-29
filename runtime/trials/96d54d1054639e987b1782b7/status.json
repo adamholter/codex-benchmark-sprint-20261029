@@ -1,0 +1,74 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "korbench",
+  "id": "logic_202",
+  "category": "logic",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294743.3470771,
+  "turn": {
+    "id": "01a188b2-381d-7890-bd70-253bfbb1f974",
+    "rootTurnId": "01a188b2-381d-7890-bd70-253bfbb1f974",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0d82130c093ac20c016ae381a598cc81969e93728f0a27d0ae",
+        "text": "[[B]]",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294743,
+    "completedAt": 1793294757,
+    "durationMs": 14130
+  },
+  "score": {
+    "correct": true,
+    "extracted": "B"
+  },
+  "seconds": 14.387409709044732,
+  "usage": {
+    "total": {
+      "totalTokens": 4212,
+      "inputTokens": 4205,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 7,
+      "reasoningOutputTokens": 0
+    },
+    "last": {
+      "totalTokens": 4212,
+      "inputTokens": 4205,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 7,
+      "reasoningOutputTokens": 0
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 939d24d6-3319-4e8c-a0a4-d398b9eecbc4",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a188b2-3807-7a60-8623-b9aeac21f211",
+      "turnId": "01a188b2-381d-7890-bd70-253bfbb1f974"
+    }
+  ],
+  "finished_at": 1793294757.7328582
+}

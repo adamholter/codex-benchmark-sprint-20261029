@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "fantom",
+  "id": "10-0-0-516",
+  "category": "tom:info_accessibility:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289036.848452,
+  "turn": {
+    "id": "01a1885b-256a-72d2-b4f9-f57dcd03fead",
+    "rootTurnId": "01a1885b-256a-72d2-b4f9-f57dcd03fead",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_017d90598c592d95016ae36b4fc88c8196ab8b9ec2a0157d3f",
+        "text": "Lyric and Bethany.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289037,
+    "completedAt": 1793289039,
+    "durationMs": 2733
+  },
+  "score": {
+    "correct": true,
+    "extracted": "Lyric and Bethany.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 3.0784685829421505,
+  "usage": {
+    "total": {
+      "totalTokens": 4546,
+      "inputTokens": 4420,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 126,
+      "reasoningOutputTokens": 114
+    },
+    "last": {
+      "totalTokens": 4546,
+      "inputTokens": 4420,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 126,
+      "reasoningOutputTokens": 114
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793289039.926313
+}

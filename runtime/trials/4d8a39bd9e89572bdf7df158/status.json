@@ -1,0 +1,77 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly",
+  "id": "147:Q 4.2:full_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289450.995004,
+  "turn": {
+    "id": "01a18861-77e1-7f80-adeb-d46325b7d1f1",
+    "rootTurnId": "01a18861-77e1-7f80-adeb-d46325b7d1f1",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_057b4e68423ccf39016ae36d02c68881948214c0a35b0c08a9",
+        "text": "{\n  \"a.\": \"bol\u00e1c:o\",\n  \"b.\": \"s\u00e9:i\",\n  \"c.\": \"f\u00farmine\",\n  \"d.\": \"abit\u00fad:ine\",\n  \"e.\": \"ac\u00f3rdio\",\n  \"f.\": \"\u01fd:goa\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289451,
+    "completedAt": 1793289475,
+    "durationMs": 23958
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "a.": "bol\u00e1c:o",
+      "b.": "s\u00e9:i",
+      "c.": "f\u00farmine",
+      "d.": "abit\u00fad:ine",
+      "e.": "ac\u00f3rdio",
+      "f.": "\u01fd:goa"
+    },
+    "score": 1.0,
+    "parts_correct": 6,
+    "parts_total": 6,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 1.0,
+      "b.": 1.0,
+      "c.": 1.0,
+      "d.": 1.0,
+      "e.": 1.0,
+      "f.": 1.0
+    }
+  },
+  "seconds": 24.49288387503475,
+  "usage": {
+    "total": {
+      "totalTokens": 4964,
+      "inputTokens": 4459,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 505,
+      "reasoningOutputTokens": 434
+    },
+    "last": {
+      "totalTokens": 4964,
+      "inputTokens": 4459,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 505,
+      "reasoningOutputTokens": 434
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793289475.4875221
+}

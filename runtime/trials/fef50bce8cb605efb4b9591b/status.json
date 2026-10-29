@@ -1,0 +1,77 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly",
+  "id": "147:Q 4.2:full_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289448.630951,
+  "turn": {
+    "id": "01a18861-6dbf-7c20-82cf-4f5a4e9fca46",
+    "rootTurnId": "01a18861-6dbf-7c20-82cf-4f5a4e9fca46",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0f055cc5ef419bb8016ae36d11f5b481938d2dc86545beb2e8",
+        "text": "{\"a.\": \"bol\u00e1:c:o\", \"b.\": \"s\u00e9:i\", \"c.\": \"furm\u00edne\", \"d.\": \"abit\u00fad:ine\", \"e.\": \"acord\u00edo\", \"f.\": \"\u00e6:g\u00f3a\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289448,
+    "completedAt": 1793289490,
+    "durationMs": 41852
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "a.": "bol\u00e1:c:o",
+      "b.": "s\u00e9:i",
+      "c.": "furm\u00edne",
+      "d.": "abit\u00fad:ine",
+      "e.": "acord\u00edo",
+      "f.": "\u00e6:g\u00f3a"
+    },
+    "score": 0.3333333333333333,
+    "parts_correct": 2,
+    "parts_total": 6,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 0.0,
+      "b.": 1.0,
+      "c.": 0.0,
+      "d.": 1.0,
+      "e.": 0.0,
+      "f.": 0.0
+    }
+  },
+  "seconds": 42.142038416001014,
+  "usage": {
+    "total": {
+      "totalTokens": 7336,
+      "inputTokens": 4459,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 2877,
+      "reasoningOutputTokens": 2816
+    },
+    "last": {
+      "totalTokens": 7336,
+      "inputTokens": 4459,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 2877,
+      "reasoningOutputTokens": 2816
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793289490.772584
+}

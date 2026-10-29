@@ -1,0 +1,211 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+1.Begin by giving a word or phrase.
+2.Rearrange the letters to form one or more new words or phrases using all or some of the letters (e.g.four of the five letters).
+3.Questions will indicate the requirement for the number of letters to be used.
+4.The newly formed word or phrase must be a valid word or phrase and the answer should cite all the newly formed words.
+
+Airships in Final Fantasy are advanced flying vessels capable of covering great distances at high speed and are often used for exploration and transportation.
+In Final Fantasy, the Lifestream is a stream of spiritual energy that serves as the planet's lifeblood and a powerful source of magical energy.
+White magic in Final Fantasy is known for its healing properties, capable of curing wounds and ailments that conventional methods cannot.
+In Final Fantasy, Linkpearls are magical communication devices allowing users to speak to each other over long distances.
+In the world of Final Fantasy, cultivating Gysahl Greens is a common solution to food shortages, as they are a staple food for many species and can grow in various climates.
+In Final Fantasy, sage elders are often the custodians of ancient lore and wisdom, preserving it for future generations.
+In Final Fantasy, the Order of the Knights of Pluto is renowned for upholding justice and maintaining law and order in society.
+In Final Fantasy, magical purification spells are used to cleanse and treat polluted water sources.
+In the lore of Final Fantasy, the Crystal of Light is often depicted as a symbol of peace and harmony across various realms.
+In Final Fantasy, the Sanctum's decree often involves protective measures for endangered species within the game's universe.
+Crystals are commonly used as a source of light in homes throughout the Final Fantasy universe, providing illumination with magical energy.
+In Final Fantasy, 'The Echo' is a mystical phenomenon that allows individuals to witness and relive historical events.
+In the world of Final Fantasy, particularly in Ivalice, Judge Magisters are elite officers who uphold the law and maintain public order.
+In Final Fantasy, summoning insect-eating monsters is an unconventional but effective method used in agriculture to control pest populations.
+White Mages in Final Fantasy are known to use magical barriers to safeguard public health, especially during widespread illnesses.
+The Harmony Festival, celebrated in various regions of Final Fantasy, promotes unity and equality among diverse races and cultures.
+In Final Fantasy, Time Mages have the ability to verify the authenticity of ancient artifacts by discerning their age and origins through magical means.
+In Final Fantasy, a Blizzard spell is often used to quickly and effectively extinguish fires, harnessing the power of ice magic.
+Ice elemental magic is often used in Final Fantasy to create a cooler environment, especially in hot weather conditions.
+
+**Encryption Rules:**
+
+- Input:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Output:
+    - Ciphertext: Uppercase letters string.
+- Preparation:
+    - LETTERS = ['J', 'D', 'W', 'O', 'T', 'R', 'A', 'C', 'X', 'Q', 'M', 'F', 'Y',
+    'E', 'Z', 'G', 'U', 'K', 'P', 'V', 'B', 'S', 'H', 'N', 'L', 'I']
+    - Associate each letter with its position in the LETTERS (starting from 0):
+        
+        J -> 0, D -> 1, W -> 2, O -> 3, T -> 4, R -> 5, A -> 6, C -> 7, X -> 8, Q -> 9,
+        M -> 10, F -> 11, Y -> 12, E -> 13, Z -> 14, G -> 15, U -> 16, K -> 17, P -> 18,
+        V -> 19, B -> 20, S -> 21, H -> 22, N -> 23, L -> 24, I -> 25
+        
+    - Initial sequence of cards:
+        - A list of 54 numbers, including a randomly shuffled deck consisting of 52 suited cards and two distinguishable jokers known as the A Joker and B Joker. Suited cards are valued sequentially across four suits: Clubs, Diamonds, Hearts, and Spades, with values ranging from 1 to 52, while the jokers are valued 53 and 54.
+        - [9, 25, 44, 38, 40, 22, 11, 36, 13, 39, 18, 42, 10, 53, 26, 12, 1, 16, 3, 43, 37, 17, 30, 4, 28, 48, 27, 41, 32, 15, 47, 29, 20, 51, 6, 7, 52, 34, 35, 5, 50, 9, 54, 46, 23, 31, 24, 14, 8, 33, 2, 49, 45, 21]
+    - **Keystream Algorithm**
+        
+        This algorithm generates keystream values by moving cards within a deck. The keystream algorithm is *deterministic*, meaning keystream values depend solely on the initial order of the deck. The deck is treated as a circular array, allowing a card that needs to move below the bottom card to wrap around to the top (in other words, the first card follows the last card).
+        
+        For example, starting with:
+        9, 25, 44, 38, 40, 22, 11, 36, 13, 39, 18, 42, 10, 53, 26, 12, 1, 16, 3, 43, 37, 17, 30, 4, 28, 48, 27, 41, 32, 15, 47, 29, 20, 51, 6, 7, 52, 34, 35, 5, 50, 9, 54, 46, 23, 31, 24, 14, 8, 33, 2, 49, 45, 21
+        
+        Perform the following steps to generate a character of the keystream:
+        
+        1. Locate card A and move it down by one position. If it's the last card, it becomes the second card. It cannot become the first card. The deck now looks like this:
+        9, 25, 44, 38, 40, 22, 11, 36, 13, 39, 18, 42, 10, 26, **53,** 12, 1, 16, 3, 43, 37, 17, 30, 4, 28, 48, 27, 41, 32, 15, 47, 29, 20, 51, 6, 7, 52, 34, 35, 5, 50, 9, 54, 46, 23, 31, 24, 14, 8, 33, 2, 49, 45, 21
+        2. Locate card B and move it down by two positions. Note, if it's the second last card, it will wrap around to become the second card. If it's the last card, it will become the third card. It cannot become the first card. The deck now looks like this:
+        9, 25, 44, 38, 40, 22, 11, 36, 13, 39, 18, 42, 10, 26, **53,** 12, 1, 16, 3, 43, 37, 17, 30, 4, 28, 48, 27, 41, 32, 15, 47, 29, 20, 51, 6, 7, 52, 34, 35, 5, 50, 9, 46, 23, **54,** 31, 24, 14, 8, 33, 2, 49, 45, 21
+        3. Perform a "triple cut": Divide the deck into three parts, using the jokers as boundaries, then swap the top and bottom parts. The jokers themselves and the cards between them remain unchanged.
+        31, 24, 14, 8, 33, 2, 49, 45, 21, **53,** 12, 1, 16, 3, 43, 37, 17, 30, 4, 28, 48, 27, 41, 32, 15, 47, 29, 20, 51, 6, 7, 52, 34, 35, 5, 50, 9, 46, 23, **54,** 9, 25, 44, 38, 40, 22, 11, 36, 13, 39, 18, 42, 10, 26
+        4. Perform a "count cut": Examine the bottom card of the deck. If it's a joker (53/54), its value remains fixed at 53. Take out that many cards from the top of the deck and insert them just above the last card of the deck.
+        29, 20, 51, 6, 7, 52, 34, 35, 5, 50, 9, 46, 23, **54,** 9, 25, 44, 38, 40, 22, 11, 36, 13, 39, 18, 42, 10, **31, 24, 14, 8, 33, 2, 49, 45, 21,** 53, 12, 1, 16, 3, 43, 37, 17, 30, 4, 28, 48, 27, 41, 32, 15, 47, 26
+        5. Now, look at the value of the top card. Similarly, any joker counts as 53. Calculate the number of positions below this card, and use that card's value as the next value in the keystream. If the calculated card is a joker, ignore it and repeat the keystream algorithm. In this example, the top card is 29, so the value of the 30th card (i.e., 14) determines the keystream value. (Note that no cards change position in this step; this step only determines the keystream value).
+        6. Return the resulting keystream value: 14
+- Encryption Steps:
+    - cards=Initial sequence of cards
+    - For each given plaintext character p:
+        - Use the alphabet to convert p to the corresponding positional value x. (starting from 0).
+        - Generate a keystream value y for p using the Initial sequence of cards:
+            - y, cards = Keystream Algorithm (cards)
+            - This algorithm modifies the order of the pile of cards, and the next execution then uses the new order.
+        - When the keystream value y is added to the position value x, the mod 26 operation is applied to obtain z:
+            - z=(y+x) % 26
+        - Use the LETTERS list to return the letter corresponding to position z.
+        - Append it to the ciphertext.
+
+ **Decryption Rules:**
+
+- Input:
+    - Ciphertext: Uppercase letters string.
+- Output:
+    - Plaintext: Uppercase letters string.
+- Preparation:
+    - LETTERS = ['J', 'D', 'W', 'O', 'T', 'R', 'A', 'C', 'X', 'Q', 'M', 'F', 'Y',
+    'E', 'Z', 'G', 'U', 'K', 'P', 'V', 'B', 'S', 'H', 'N', 'L', 'I']
+    - Associate each letter with its position in the LETTERS (starting from 0):
+        
+        J -> 0, D -> 1, W -> 2, O -> 3, T -> 4, R -> 5, A -> 6, C -> 7, X -> 8, Q -> 9,
+        M -> 10, F -> 11, Y -> 12, E -> 13, Z -> 14, G -> 15, U -> 16, K -> 17, P -> 18,
+        V -> 19, B -> 20, S -> 21, H -> 22, N -> 23, L -> 24, I -> 25
+        
+    - Initial sequence of cards(Same as encryption)
+    - Keystream Algorithm(Same as encryption)
+- Decryption Steps (exact opposite of encryption steps):
+    - cards=Initial sequence of cards
+    - For each ciphertext character c:
+        - Convert c to its corresponding positional value z using the LETTERS (starting from 0).
+        - Generate the keystream value y for c:
+            - y, cards = Keystream Algorithm (cards)
+            - This algorithm modifies the order of the pile of cards, and the next execution then uses the new order.
+        - Calculate the original positional value x from ciphertext character c:
+            - x=(z-y) mod 26
+        - Use the LETTERS list to return the letter corresponding to position x.
+        - Append it to the decrypted plaintext.
+
+Time Propositions:
+1. Symbol "H" represents "past point in time".
+2. Symbol "A" represents "past period of time".
+3. Symbol "F" represents "future point in time".
+4. Symbol "G" represents "future period of time".
+5. Symbol "T" represents "present".
+
+Time Proposition Relationships:
+(1) ※ Relationship:
+- Pairs: Ap and H¬p; A¬p and Hp; Gp and F¬p; G¬p and Fp
+- Properties: They cannot both be true, nor both false.
+
+(2) ↦ Relationship:
+- Pairs: Ap and A¬p; Gp and G¬p
+- Properties: They cannot both be true, but can both be false.
+
+(3) ⚭ Relationship:
+- Pairs: Hp and H¬p; Fp and F¬p
+- Properties: They cannot both be false, but can both be true.
+
+(4) ⁂ Relationship:
+- Pairs: Ap and Hp, A¬p and H¬p; Gp and Fp, G¬p and F¬p
+- Properties: They can both be true, or both be false.
+
+Time Proposition Inference Formulas:
+(1) Ap ↔ H¬p
+(2) A¬p ↔ ¬Hp
+(3) Hp ↔ ¬A¬p
+(4) H¬p ↔ ¬Ap
+(5) Ap → ¬A¬p
+(6) A¬p → ¬Ap
+(7) ¬Hp → H¬p
+(8) ¬H¬p → Hp
+(9) Ap → Hp
+(10) A¬p → H¬p
+(11) ¬Hp → ¬Ap
+(12) ¬H¬p → ¬A¬p
+(13) Gp ↔ F¬p
+(14) G¬p ↔ ¬Fp
+(15) Fp ↔ ¬G¬p
+(16) F¬p ↔ ¬Gp
+(17) Gp → ¬G¬p
+(18) G¬p → ¬Gp
+(19) ¬Fp → F¬p
+(20) ¬F¬p → Fp
+(21) Gp → Fp
+(22) G¬p → F¬p
+(23) ¬Fp → ¬Gp
+(24) ¬F¬p → ¬G¬p
+
+
+### Questions:
+question1:
+Plaintext: "FAKXEDNHFFB"
+
+Please provide the encrypted answer, encapsulated in double square brackets. For example, the format should be: [[encrypted answer]].
+
+question2:
+Ciphertext: "PB"
+
+Please provide the decrypted answer, encapsulated in double square brackets. For example, the format should be: [[decrypted answer]].
+
+question3:
+What is the most effective way to extinguish a big fire?
+Options: A. Water##B. Fire extinguisher##C. Blizzard spell##D. Summoning Shiva
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+question4:
+What is the most effective way to travel long distances quickly?
+Options: A. Airplane##B. High-speed train##C. Chocobo##D. Airship
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+question5:
+Plaintext: "M"
+
+Please provide the encrypted answer, encapsulated in double square brackets. For example, the format should be: [[encrypted answer]].
+
+question6:
+What is the most powerful source of energy known to mankind?
+Options: A. Nuclear fusion##B. Solar power##C. Magic crystals##D. Lifestream
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+question7:
+Reasoning Formula 7 is consistent with what following what relationship?
+
+A. ∗ relationship 
+B. ↦ relationship 
+C. ⚭ relationship 
+D. ⁂ relationship
+
+Please provide the answer in the format [[A/B/C/D]].
+
+
+### Answers:

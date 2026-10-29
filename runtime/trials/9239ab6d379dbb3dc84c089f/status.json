@@ -1,0 +1,76 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "fantom",
+  "id": "165-0-0-7924",
+  "category": "tom:answerability:binary",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793286519.0719051,
+  "turn": {
+    "id": "01a18834-ba1c-7391-a414-8a08587a1070",
+    "rootTurnId": "01a18834-ba1c-7391-a414-8a08587a1070",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0d77c22df2caa373016ae3618a5e908194ac90440037cc22bb",
+        "text": "yes",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793286519,
+    "completedAt": 1793286538,
+    "durationMs": 19192
+  },
+  "score": {
+    "correct": true,
+    "extracted": "yes",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 19.481763000017963,
+  "usage": {
+    "total": {
+      "totalTokens": 4355,
+      "inputTokens": 4334,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 21,
+      "reasoningOutputTokens": 14
+    },
+    "last": {
+      "totalTokens": 4355,
+      "inputTokens": 4334,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 21,
+      "reasoningOutputTokens": 14
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: a0a4762e-394f-495a-ac28-6784d2e90e5f",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a18834-ba03-7e43-bc5e-3fc46768570b",
+      "turnId": "01a18834-ba1c-7391-a414-8a08587a1070"
+    }
+  ],
+  "finished_at": 1793286538.5535989
+}

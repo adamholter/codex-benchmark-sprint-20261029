@@ -1,0 +1,71 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly",
+  "id": "217:Q 2.1:full_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288709.830677,
+  "turn": {
+    "id": "01a18856-27b2-76d3-b331-e20a4a08b311",
+    "rootTurnId": "01a18856-27b2-76d3-b331-e20a4a08b311",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_03eddaec913b1208016ae36a0aff3481968a0b88cdffb3a03b",
+        "text": "{\n  \"9.\": \"Did I eat the new mudwasp that wanted the egg?\",\n  \"10.\": \"Do the men not eat the buchu powder that I touched?\",\n  \"11.\": \"The woman\u2019s springbok that he looks at was stuck to the grass.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288710,
+    "completedAt": 1793288715,
+    "durationMs": 5391
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "9.": "Did I eat the new mudwasp that wanted the egg?",
+      "10.": "Do the men not eat the buchu powder that I touched?",
+      "11.": "The woman\u2019s springbok that he looks at was stuck to the grass."
+    },
+    "score": 0.3333333333333333,
+    "parts_correct": 1,
+    "parts_total": 3,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "9.": 0.0,
+      "10.": 1.0,
+      "11.": 0.0
+    }
+  },
+  "seconds": 5.650365584064275,
+  "usage": {
+    "total": {
+      "totalTokens": 4925,
+      "inputTokens": 4623,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 302,
+      "reasoningOutputTokens": 235
+    },
+    "last": {
+      "totalTokens": 4925,
+      "inputTokens": 4623,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 302,
+      "reasoningOutputTokens": 235
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793288715.4806368
+}

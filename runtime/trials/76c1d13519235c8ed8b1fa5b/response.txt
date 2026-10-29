@@ -1,0 +1,9 @@
+{
+  "1.": "la donna",
+  "2.": "il treno",
+  "3.": "i tavoli",
+  "4.": "i gatti",
+  "5.": "le aule",
+  "6.": "l’alunno",
+  "7.": "gli orsi"
+}

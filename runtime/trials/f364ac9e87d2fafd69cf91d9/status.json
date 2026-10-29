@@ -1,0 +1,74 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "bbeh",
+  "id": "mini:boolean_expressions:0261",
+  "category": "boolean_expressions",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793287755.5241568,
+  "turn": {
+    "id": "01a18847-97e7-7dd1-8dbf-d86ce72d219e",
+    "rootTurnId": "01a18847-97e7-7dd1-8dbf-d86ce72d219e",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_056f52319bdf80a4016ae3666b946c819495291411a01fd572",
+        "text": "**(D)** evaluates to true. Its first outer `not` negates a false expression, making the entire `or` expression true.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793287755,
+    "completedAt": 1793287789,
+    "durationMs": 33609
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(d) evaluates to true. its first outer `not` negates a false expression,making the entire `or` expression true"
+  },
+  "seconds": 33.860959374927916,
+  "usage": {
+    "total": {
+      "totalTokens": 5128,
+      "inputTokens": 4998,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 130,
+      "reasoningOutputTokens": 95
+    },
+    "last": {
+      "totalTokens": 5128,
+      "inputTokens": 4998,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 130,
+      "reasoningOutputTokens": 95
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: ebba4212-dacf-421d-b432-1c485e2767c4",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a18847-97d1-7e23-a337-7a9cdd38176d",
+      "turnId": "01a18847-97e7-7dd1-8dbf-d86ce72d219e"
+    }
+  ],
+  "finished_at": 1793287789.384545
+}

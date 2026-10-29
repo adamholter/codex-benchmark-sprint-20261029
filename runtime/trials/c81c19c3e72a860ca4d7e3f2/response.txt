@@ -1,0 +1,1 @@
+**(E)** is the only expression that evaluates to **True**. Expressions (A), (B), (C), and (D) all evaluate to **False**.

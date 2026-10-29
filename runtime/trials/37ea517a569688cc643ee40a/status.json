@@ -1,0 +1,77 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-R_580",
+  "category": "Multi-R",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290653.672579,
+  "turn": {
+    "id": "01a18873-d1b6-7d83-bcd0-0d04f07c2037",
+    "rootTurnId": "01a18873-d1b6-7d83-bcd0-0d04f07c2037",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_05a5f535e72fe274016ae371cf09348197a62587cbfdd93538",
+        "text": "{\n  \"question1\": \"[[N]]\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290654,
+    "completedAt": 1793290703,
+    "durationMs": 49456
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "question1": "N"
+    },
+    "pass_rate": 1.0
+  },
+  "seconds": 49.965282584074885,
+  "usage": {
+    "total": {
+      "totalTokens": 5876,
+      "inputTokens": 5807,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 69,
+      "reasoningOutputTokens": 51
+    },
+    "last": {
+      "totalTokens": 5876,
+      "inputTokens": 5807,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 69,
+      "reasoningOutputTokens": 51
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 0aa10f9f-6477-438d-a084-b5b57b2a0bf6",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a18873-d169-77b1-a85e-3757e0f74330",
+      "turnId": "01a18873-d1b6-7d83-bcd0-0d04f07c2037"
+    }
+  ],
+  "finished_at": 1793290703.637493
+}

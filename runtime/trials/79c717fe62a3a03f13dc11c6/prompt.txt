@@ -1,0 +1,97 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+**Encryption Rules:**
+
+- Input:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Output:
+    - Ciphertext: Uppercase letters string.
+- Preparation:
+    - Four 5x5 Girds
+        - Gird1
+            - K  L  M  N  O
+            P  R  S  T  U
+            V  W  X  Y  Z
+            A  B  C  D  E
+            F  G  H  I  J
+        - Gird2
+            - E  C  H  O  A
+            B  D  F  G  I
+            J  K  L  M  N
+            P  R  S  T  U
+            V  W  X  Y  Z
+        - Gird3
+            - V  O  R  T  E
+            X  A  B  C  D
+            F  G  H  I  J
+            K  L  M  N  P
+            S  U  W  Y  Z
+        - Gird4
+            - K  L  M  N  O
+            P  R  S  T  U
+            V  W  X  Y  Z
+            A  B  C  D  E
+            F  G  H  I  J
+- Encryption Steps:
+    - Cleans up plaintext, removing spaces and non-alphabetic characters, removing the letter Q, and converting all letters to uppercase.
+    - If the plaintext is of odd length, add a letter 'X' to make it of even length.
+    - Split the cleaned plaintext into two-letter groups.
+    - For each double-letter group p1,p2 of the plaintext:
+        - In Gird1 and Gird4, find the position of the first letter and the second letter.
+        - In Gird2 and Gird3, find the letters corresponding to these two positions, use these two letters as the result of encrypting the double letter combination.
+    - Concatenate all the encrypted double letter groups to form the final ciphertext.
+
+ **Decryption Rules:**
+
+- Input:
+    - Ciphertext: Uppercase letters string.
+- Output:
+    - Plaintext: Uppercase letters string.
+- Preparation:
+    - Four 5x5 Girds (Same as encryption)
+- Decryption Steps (exact opposite of encryption steps):
+    - Cleans up ciphertext, removing spaces and non-alphabetic characters, and converting all letters to uppercase.
+    - Split the cleaned ciphertext into two-letter groups.
+    - For each double-letter group c1,c2 of the ciphertext:
+        - In Gird2 and Gird3, find the position of the first letter and the second letter.
+        - In Gird1 and Gird4, find the letters corresponding to these two positions, use these two letters as the result of decrypting the double letter combination.
+    - Concatenate all the decrypted double letter groups to form the final plaintext.
+
+The Legend of Zelda: Tears of the Kingdom continues the plot from the predecessor, "Breath of the Wild". After defeating the demon king Ganon with the knight Link, Princess Zelda and Link collectively begin the restoration of the Hyrule kingdom. The tale starts with Zelda and Link heading underground beneath Hyrule Castle to investigate a miasma and there, they discover the remnants of an ancient Zonaiite civilization in an underground cave. Afterwards, at a deeper level below the castle, they find the corpse of Ganondorf, who has a glowing arm. The arm falls off and Zelda picks up a secret stone attached to it. The corpse suddenly revives as they approach it. Link protects Zelda but is seriously injured and his arm is contaminated by the miasma, causing his Master Sword to decay. Zelda disappears after falling into a collapsing ground. Link tries to grasp Zelda's hand but fails and is caught by the glowing arm, leading him into a sky island.
+The revived Ganondorf triggers a "World Change", not only lifting the castle into the sky but also deceiving other four clans disguised as Zelda, causing them to face different crises. Link, who awakens on the sky island, finds his arm replaced by the one that was attached to Ganondorf's corpse, owned by a Zonai called Rauru. Rauru is founder and the first king of Hyrule kingdom. On the sky island, Link retrieves the "Puria Tablet" possessed by Zelda. Under the guidance of the remnant image of Rauru, he recovers the full power of the arm. Subsequently, he delivers the damaged Master Sword to Zelda through time and space, and then jumps off the sky island to find her.
+As Zelda falls into the collapsing ground, the secret stone she found transports her to the distant past when the kingdom of Hyrule had just established. There, she meets Rauru and Sonia, the first queen. Following Rauru's advice, Zelda visits his sister Minelure and learns that the only way to return to her original time is by swallowing the secret stone and transforming into a dragon that is immortal but loses its self. The secret stone can intensify the power of the carrier, thus Zelda, possessing the power of "light" and "time", becomes the "Sage of Time". Rauru also repels the attack of Ganondorf, who intends to conquer the world, by using the power of the secret stone. Not long after, Sonia is killed by Ganondorf's surprise attack, and he steals the secret stone from her, substantially enhancing his dark power. Rauru gathers representatives of various clans and shares the secret stone with them, intending to combat and annihilate Ganondorf. However, Zelda, who possesses knowledge of the future, knows they're bound to lose. Rauru mentions that if they can't eliminate Ganondorf, they can only hope for the arrival of Link, who Zelda had referred to. The result of the battle is as anticipated by Zelda. Rauru can't eliminate Ganondorf and ends up sacrificing himself to seal him, marking the "Seal War". Worried that the seal will eventually fail, Zelda, after receiving the gravely damaged Master Sword delivered by Link through time and space and discovering Link is still alive, visits the sages of various tribes asking for their assistance to Link in the future. She swallows the secret stone and transforms into a dragon waiting for Link to save the world, continuously charging the Master Sword with power of light. From then on, Zelda becomes a dragon hovering in the sky, having lost herself. Minelure, fatally injured by Ganondorf, locks her soul into the Puria Tablet held by Zelda, also waiting for Link.
+The Link returned to the ground visits four regions and explores the four temples of Wind, Fire, Water, and Thunder, resolving the crises of respective tribes. The descendants of the four champions in "Breath of the Wild" each inherits a secret stone and succeeds as the sage, vowing to assist Link in defeating the Demon King. After revealing the true identity of the "Zelda" that has been causing chaos in the Hyrule Continent, Link successfully liberates Minelure's soul in the tablet and finds her secret stone, making her the Sage of Souls. He also climbs the dragon, pulling out the fully restored Master Sword from its head. Link brings everyone deep underground beneath Hyrule Castle for a final battle with Ganondorf and successfully defeats him. At this moment, Ganondorf, who swallows his stolen secret stones, becomes a black dragon and soars into the sky with Link in his mouth. With the help of the white dragon, Link uses the Master Sword to shatter the secret stone on the black dragon's head, completely eliminating it. The spirits of Rauru and Sonia transform the white dragon back into Zelda, and Link's arm back to his own. Both start falling in the sky, Link stretches out his hand and grabs Zelda, hugging her as they fall into a lake.
+At the end of the game, Minelure takes everyone to the sky island, bids them farewell and vanishes in the wind. Everyone swears allegiance to Princess Zelda and to protect the peace of Hyrule.
+Ultimate Hand allows the player to pick up and move different objects and attach different objects together. Ascend allows the player to move upwards through solid surfaces. When the battery is depleted, wait for a while, and the battery power will gradually recover automatically. The Zonaite battery is used to power the manufactured Zonaite device. The seeds of the huge brightflowers that grow over time inside the cave. Upon impact, they will immediately take root and bloom into large flowers, emitting a very bright light, illuminating the surrounding area. Teleportation is one of the core functions of the Puria tablet. When Link need to quickly move to another city, Link can choose to teleport to the marker closest to that city. The Zonaite fan machine is a Zonaite device that generates wind power through the rotation of an internal propeller. The Zonaite people often use the fan machine to obtain thrust or to transport objects. Players can use the wind power of the fan machine to solve puzzles or reach high places. Converse with the steward statue next to the battery manufacturing machines in various places. Give him a hundredZonaite energy crystals and you can expand one battery compartment. In The Legend of Zelda: Tears of the Kingdom, the chili peppers can be used to cook cold-resistant food. Consuming these cold-resistant foods can enhance cold resistance for a certain period of time, thereby allowing survival in colder areas of the map and escaping death from severe cold. The Legend of Zelda: Tears of the Kingdom has 12 tears of the dragon, which can trigger the storyline, recalling the adventure experiences with Zelda. Purya is the elder sister of Impa, the village chief of Kakariko Village, and serves as the director of the Hateno Ancient Research Institute. She is also one of the few Sheikahs to have witnessed the destruction of Hyrule Kingdom in the calamity war a century ago. Rauru, the king of the Hyrule kingdom, used the power of the secret stone to repel the demon king's attack, who intended to rule the world. Not long after, the queen was ambushed and killed by the demon king, who then stole the secret stone from her, greatly enhancing his power of darkness. The king summoned representatives of various races to share the secret stone, intending to fight a decisive battle against the demon king and annihilate him. However, Zelda, who knew the future, knew that this battle was doomed to fail. Rupee is the currency used in The Legend of Zelda: Tears of the Kingdom, and different colors of Rupee represent different values. Sapphire contains the power of ice. When equipped, it confers heat resistance due to its protection. The White ChuChu Jelly is a quivering solid object. Holding it gives a pleasantly cool sensation. Upon striking, it bursts and releases cold air, which can be used to freeze enemies or extinguish fires. Link can assist four heroes in obtaining the power of the secret stones in the villages of the four major regions to save their homeland. These four heroes will also become companions, joining us in the fight against the Demon King. The eyeballs of bats are generally used for combining with arrows, so that the fired arrows will have a tracking effect, which can trace some difficult-to-hit targets. Unlock the temple to gain the Light of Blessing. The Light of Blessing can be used to increase the maximum health or stamina limit. Jumping from a high place, if Link accelerates the fall and lands in water, he will not sustain any damage. The golem's head can continuously focus on hostile targets. By connecting the Zonaiite weaponry to this head, an automatic tracking attack device can be formed.
+
+
+### Questions:
+question1:
+Which of the following methods is most suitable for boosting energy?
+Options: A. Eating a lot of sweets ## B. Exercising ##C. Unlocking temples ##D. Gaining the power of the Seven Sages
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+question2:
+Plaintext: "AV"
+
+Please provide the encrypted answer, encapsulated in double square brackets. For example, the format should be: [[encrypted answer]].
+
+question3:
+What role can a sapphire play when placed on a headdress?
+Options: A. Decoration ##B. Granting the user superpowers ##C. Enhancing heat resistance ##D. Increasing cold resistance
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+
+### Answers:

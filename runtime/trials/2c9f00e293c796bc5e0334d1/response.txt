@@ -1,0 +1,1 @@
+{"(a)": "Cannot be determined: Table 2 is not provided.", "(b)": "Cannot be determined: Table 2 is not provided.", "(c)": "Cannot be determined: Table 2 is not provided."}

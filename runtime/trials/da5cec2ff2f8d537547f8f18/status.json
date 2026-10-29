@@ -1,0 +1,73 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly",
+  "id": "164:Q 2.1:full_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793293164.688701,
+  "turn": {
+    "id": "01a1889a-2216-7310-b131-1579ac180cb3",
+    "rootTurnId": "01a1889a-2216-7310-b131-1579ac180cb3",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_00031e62f4fe9c7b016ae37b76e6e08195ab56217ef23b2465",
+        "text": "{\n  \"9\": \"Cannot be determined: Kabyle translation data were not provided.\",\n  \"10\": \"Cannot be determined: Kabyle translation data were not provided.\",\n  \"11\": \"Cannot be determined: Kabyle translation data were not provided.\",\n  \"12\": \"Cannot be determined: Kabyle translation data were not provided.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793293165,
+    "completedAt": 1793293175,
+    "durationMs": 10835
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "9": "Cannot be determined: Kabyle translation data were not provided.",
+      "10": "Cannot be determined: Kabyle translation data were not provided.",
+      "11": "Cannot be determined: Kabyle translation data were not provided.",
+      "12": "Cannot be determined: Kabyle translation data were not provided."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 4,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "9": 0.0,
+      "10": 0.0,
+      "11": 0.0,
+      "12": 0.0
+    }
+  },
+  "seconds": 11.255014291964471,
+  "usage": {
+    "total": {
+      "totalTokens": 4890,
+      "inputTokens": 4661,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 229,
+      "reasoningOutputTokens": 153
+    },
+    "last": {
+      "totalTokens": 4890,
+      "inputTokens": 4661,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 229,
+      "reasoningOutputTokens": 153
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793293175.943527
+}

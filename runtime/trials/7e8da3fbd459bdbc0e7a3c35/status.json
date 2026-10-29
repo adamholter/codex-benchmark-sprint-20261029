@@ -1,0 +1,87 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly",
+  "id": "76:Q 8.:full_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793291550.7952352,
+  "turn": {
+    "id": "01a18881-8133-75d2-9f0f-257e1b70c756",
+    "rootTurnId": "01a18881-8133-75d2-9f0f-257e1b70c756",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0c75644b81864efc016ae37522e3bc81949bfb270fa86e9495",
+        "text": "{\n  \"1\": \"kylpy\",\n  \"2\": \"kaappi\",\n  \"3\": \"kaapin\",\n  \"4\": \"mets\u00e4n\",\n  \"5\": \"vaatteessa\",\n  \"6\": \"\u00e4iti\",\n  \"7\": \"tarve\",\n  \"8\": \"rotassa\",\n  \"9\": \"kepiss\u00e4\",\n  \"10\": \"\u00e4lykk\u00f6\",\n  \"11\": \"Turussa\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793291551,
+    "completedAt": 1793291555,
+    "durationMs": 4544
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "1": "kylpy",
+      "2": "kaappi",
+      "3": "kaapin",
+      "4": "mets\u00e4n",
+      "5": "vaatteessa",
+      "6": "\u00e4iti",
+      "7": "tarve",
+      "8": "rotassa",
+      "9": "kepiss\u00e4",
+      "10": "\u00e4lykk\u00f6",
+      "11": "Turussa"
+    },
+    "score": 1.0,
+    "parts_correct": 11,
+    "parts_total": 11,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "1": 1.0,
+      "2": 1.0,
+      "3": 1.0,
+      "4": 1.0,
+      "5": 1.0,
+      "6": 1.0,
+      "7": 1.0,
+      "8": 1.0,
+      "9": 1.0,
+      "10": 1.0,
+      "11": 1.0
+    }
+  },
+  "seconds": 4.794705125037581,
+  "usage": {
+    "total": {
+      "totalTokens": 4525,
+      "inputTokens": 4391,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 134,
+      "reasoningOutputTokens": 34
+    },
+    "last": {
+      "totalTokens": 4525,
+      "inputTokens": 4391,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 134,
+      "reasoningOutputTokens": 34
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793291555.5855172
+}

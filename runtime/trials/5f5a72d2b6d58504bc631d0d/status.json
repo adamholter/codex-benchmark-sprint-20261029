@@ -1,0 +1,103 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly_no_context",
+  "id": "174:Q 4.1:no_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289707.859169,
+  "turn": {
+    "id": "01a18865-6415-78b0-8e99-2f11cb280835",
+    "rootTurnId": "01a18865-6415-78b0-8e99-2f11cb280835",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_040d916767fa7081016ae36df3b054819391b850e4ee932be1",
+        "text": "{\n  \"A\": \"Cannot determine: translations 1\u201319 were not provided.\",\n  \"B\": \"Cannot determine: translations 1\u201319 were not provided.\",\n  \" C \\t \": \"Cannot determine: translations 1\u201319 were not provided.\",\n  \"D\": \"Cannot determine: translations 1\u201319 were not provided.\",\n  \"E\": \"Cannot determine: translations 1\u201319 were not provided.\",\n  \"F\": \"Cannot determine: translations 1\u201319 were not provided.\",\n  \"G\": \"Cannot determine: translations 1\u201319 were not provided.\",\n  \"H\": \"Cannot determine: translations 1\u201319 were not provided.\",\n  \"I\": \"Cannot determine: translations 1\u201319 were not provided.\",\n  \"J\": \"Cannot determine: translations 1\u201319 were not provided.\",\n  \"K\": \"Cannot determine: translations 1\u201319 were not provided.\",\n  \"L\": \"Cannot determine: translations 1\u201319 were not provided.\",\n  \"M\": \"Cannot determine: translations 1\u201319 were not provided.\",\n  \"N\": \"Cannot determine: translations 1\u201319 were not provided.\",\n  \"O\": \"Cannot determine: translations 1\u201319 were not provided.\",\n  \"P\": \"Cannot determine: translations 1\u201319 were not provided.\",\n  \"Q\": \"Cannot determine: translations 1\u201319 were not provided.\",\n  \"R\": \"Cannot determine: translations 1\u201319 were not provided.\",\n  \"S\": \"Cannot determine: translations 1\u201319 were not provided.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289708,
+    "completedAt": 1793289717,
+    "durationMs": 9273
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "A": "Cannot determine: translations 1\u201319 were not provided.",
+      "B": "Cannot determine: translations 1\u201319 were not provided.",
+      " C \t ": "Cannot determine: translations 1\u201319 were not provided.",
+      "D": "Cannot determine: translations 1\u201319 were not provided.",
+      "E": "Cannot determine: translations 1\u201319 were not provided.",
+      "F": "Cannot determine: translations 1\u201319 were not provided.",
+      "G": "Cannot determine: translations 1\u201319 were not provided.",
+      "H": "Cannot determine: translations 1\u201319 were not provided.",
+      "I": "Cannot determine: translations 1\u201319 were not provided.",
+      "J": "Cannot determine: translations 1\u201319 were not provided.",
+      "K": "Cannot determine: translations 1\u201319 were not provided.",
+      "L": "Cannot determine: translations 1\u201319 were not provided.",
+      "M": "Cannot determine: translations 1\u201319 were not provided.",
+      "N": "Cannot determine: translations 1\u201319 were not provided.",
+      "O": "Cannot determine: translations 1\u201319 were not provided.",
+      "P": "Cannot determine: translations 1\u201319 were not provided.",
+      "Q": "Cannot determine: translations 1\u201319 were not provided.",
+      "R": "Cannot determine: translations 1\u201319 were not provided.",
+      "S": "Cannot determine: translations 1\u201319 were not provided."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 19,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "A": 0.0,
+      "B": 0.0,
+      " C \t ": 0.0,
+      "D": 0.0,
+      "E": 0.0,
+      "F": 0.0,
+      "G": 0.0,
+      "H": 0.0,
+      "I": 0.0,
+      "J": 0.0,
+      "K": 0.0,
+      "L": 0.0,
+      "M": 0.0,
+      "N": 0.0,
+      "O": 0.0,
+      "P": 0.0,
+      "Q": 0.0,
+      "R": 0.0,
+      "S": 0.0
+    }
+  },
+  "seconds": 10.011094833025709,
+  "usage": {
+    "total": {
+      "totalTokens": 4813,
+      "inputTokens": 4311,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 502,
+      "reasoningOutputTokens": 169
+    },
+    "last": {
+      "totalTokens": 4813,
+      "inputTokens": 4311,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 502,
+      "reasoningOutputTokens": 169
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793289717.869855
+}

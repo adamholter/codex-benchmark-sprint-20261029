@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "bbeh",
+  "id": "mini:movie_recommendation:0077",
+  "category": "movie_recommendation",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288804.375154,
+  "turn": {
+    "id": "01a18857-9936-75a0-b7ba-6af0c87576c3",
+    "rootTurnId": "01a18857-9936-75a0-b7ba-6af0c87576c3",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0fe541b88bb2877a016ae36a66a2408197ac7f136e89bb61c2",
+        "text": "**(F)** The Shawshank Redemption, Get Shorty, What\u2019s Eating Gilbert Grape, Don Juan DeMarco, and Mr. Holland\u2019s Opus.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288804,
+    "completedAt": 1793288807,
+    "durationMs": 2342
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(f) the shawshank redemption,get shorty,what\u2019s eating gilbert grape,don juan demarco,and mr. holland\u2019s opus"
+  },
+  "seconds": 2.6552235420094803,
+  "usage": {
+    "total": {
+      "totalTokens": 4086,
+      "inputTokens": 4027,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 59,
+      "reasoningOutputTokens": 19
+    },
+    "last": {
+      "totalTokens": 4086,
+      "inputTokens": 4027,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 59,
+      "reasoningOutputTokens": 19
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793288807.028223
+}

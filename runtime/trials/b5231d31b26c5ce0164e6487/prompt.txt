@@ -1,0 +1,44 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+There are two types of analogical reasoning:
+
+1. Ψ Method:
+    Object A has attributes a, b, c, d;
+    Object B has attributes a, b, c;
+    Therefore, Object B also has attribute d.
+    Here, attributes a, b, c are referred to as #Ψ attributes, and d is referred to as the +Ψ attribute.
+    
+2. ⌘ Method: 
+    Object A has attributes a, b, c, d;
+    Object B does not have attributes a, b, c;
+    Therefore, Object B also does not have attribute d.
+    Here, attributes a, b, c are referred to as -⌘ attributes, and d is referred to as the +⌘ attribute.
+
+1.The puzzle gives a set of letters and the number and length of words to be spelled, e.g. 2 words: 2 letters, 3 letters, 3 letters.
+2.The player has to use the given letters to spell a word of the required length and number of letters.
+3.Each letter can be used at most once in a word.
+
+
+### Questions:
+question1:
+When humans first explored the deep sea, scientists conducted detailed observations and analyses of the life forms on the seabed and compared them with life on land. In the deep sea, scientists discovered some strange and bizarre creatures, but they inferred that the living environment of deep-sea creatures is completely different from that of terrestrial life. Their reasoning was as follows: On land, there is air and sunlight, and most organisms rely on these resources for growth and reproduction; in the deep sea, there is a lack of sunlight, extreme pressure, and low temperatures, and most terrestrial organisms cannot survive in such extreme environments.
+
+Which method of reasoning does this argument follow:
+A. Ψ Method             B. ⌘ Method
+
+Please provide the answer in the format [[A/B]].
+
+
+### Answers:

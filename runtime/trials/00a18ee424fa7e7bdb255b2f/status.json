@@ -1,0 +1,127 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "PlanBench Blocksworld Hard - PDDL",
+  "id": "instance-75",
+  "category": "PDDL plan generation / exact plan validity",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793293947.593606,
+  "turn": {
+    "id": "01a188a6-15e1-75d2-871b-a6bc9ce6f72e",
+    "rootTurnId": "01a188a6-15e1-75d2-871b-a6bc9ce6f72e",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_06041788eb9d57c5016ae37e96830c8193a828e7045a4dcbf7",
+        "text": "(pick-up b)\n(stack b c)\n(pick-up f)\n(stack f l)\n(pick-up l)\n(stack l h)\n(pick-up h)\n(stack h d)\n(pick-up d)\n(stack d e)\n(pick-up k)\n(stack k g)\n(pick-up g)\n(stack g a)\n(pick-up a)\n(stack a j)\n(pick-up j)\n(stack j m)\n(pick-up m)\n(stack m n)\n(pick-up n)\n(stack n i)\n(pick-up f)\n(stack f i)\n(pick-up a)\n(stack a f)\n(pick-up k)\n(stack k a)\n(pick-up b)\n(stack b k)\n(pick-up n)\n(stack n e)\n(pick-up c)\n(stack c n)\n(pick-up j)\n(stack j c)\n(pick-up d)\n(stack d j)\n(pick-up h)\n(stack h d)\n(pick-up m)\n(stack m g)\n(pick-up l)\n(stack l m)",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793293948,
+    "completedAt": 1793293977,
+    "durationMs": 28731
+  },
+  "score": {
+    "correct": false,
+    "extracted": [
+      "(pick-up b)",
+      "(stack b c)",
+      "(pick-up f)",
+      "(stack f l)",
+      "(pick-up l)",
+      "(stack l h)",
+      "(pick-up h)",
+      "(stack h d)",
+      "(pick-up d)",
+      "(stack d e)",
+      "(pick-up k)",
+      "(stack k g)",
+      "(pick-up g)",
+      "(stack g a)",
+      "(pick-up a)",
+      "(stack a j)",
+      "(pick-up j)",
+      "(stack j m)",
+      "(pick-up m)",
+      "(stack m n)",
+      "(pick-up n)",
+      "(stack n i)",
+      "(pick-up f)",
+      "(stack f i)",
+      "(pick-up a)",
+      "(stack a f)",
+      "(pick-up k)",
+      "(stack k a)",
+      "(pick-up b)",
+      "(stack b k)",
+      "(pick-up n)",
+      "(stack n e)",
+      "(pick-up c)",
+      "(stack c n)",
+      "(pick-up j)",
+      "(stack j c)",
+      "(pick-up d)",
+      "(stack d j)",
+      "(pick-up h)",
+      "(stack h d)",
+      "(pick-up m)",
+      "(stack m g)",
+      "(pick-up l)",
+      "(stack l m)"
+    ],
+    "valid_actions": 0,
+    "reason": "precondition_failed",
+    "failed_step": 1,
+    "action": "(pick-up b)",
+    "precondition": [
+      "ontable",
+      "b"
+    ]
+  },
+  "seconds": 31.620061540976167,
+  "usage": {
+    "total": {
+      "totalTokens": 5485,
+      "inputTokens": 4319,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1166,
+      "reasoningOutputTokens": 962
+    },
+    "last": {
+      "totalTokens": 5485,
+      "inputTokens": 4319,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1166,
+      "reasoningOutputTokens": 962
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 85c90727-d0d4-4de3-8f8d-96c135e04e0f",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a188a6-15a0-75d3-ba48-c33d88a5a859",
+      "turnId": "01a188a6-15e1-75d2-871b-a6bc9ce6f72e"
+    }
+  ],
+  "finished_at": 1793293979.213152
+}

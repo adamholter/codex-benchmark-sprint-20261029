@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "fantom",
+  "id": "244-0-0-12208",
+  "category": "tom:info_accessibility:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793286425.135124,
+  "turn": {
+    "id": "01a18833-4b75-7a43-ad73-c6021a09725d",
+    "rootTurnId": "01a18833-4b75-7a43-ad73-c6021a09725d",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0c9de299658b792d016ae3611d693081968f4b2a051583da57",
+        "text": "- Collin\n- Carolyn\n- Elena",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793286425,
+    "completedAt": 1793286429,
+    "durationMs": 4170
+  },
+  "score": {
+    "correct": true,
+    "extracted": "- Collin\n- Carolyn\n- Elena",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 4.5218776249093935,
+  "usage": {
+    "total": {
+      "totalTokens": 4749,
+      "inputTokens": 4642,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 107,
+      "reasoningOutputTokens": 92
+    },
+    "last": {
+      "totalTokens": 4749,
+      "inputTokens": 4642,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 107,
+      "reasoningOutputTokens": 92
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793286429.656896
+}

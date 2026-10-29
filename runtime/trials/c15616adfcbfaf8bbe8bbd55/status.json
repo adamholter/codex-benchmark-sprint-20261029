@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "bbeh",
+  "id": "mini:geometric_shapes:0101",
+  "category": "geometric_shapes",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288413.7307782,
+  "turn": {
+    "id": "01a18851-a388-7391-8e0c-36caf17127c9",
+    "rootTurnId": "01a18851-a388-7391-8e0c-36caf17127c9",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_00d8f55e80ce4098016ae36908351c8193b1d15cb8c90c5986",
+        "text": "**(F) 4, 7 and 8** \u2014 a right triangle, an irregular convex pentagon, and an irregular concave pentagon.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288414,
+    "completedAt": 1793288456,
+    "durationMs": 42724
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(f) 4,7 and 8 \u2014 a right triangle,an irregular convex pentagon,and an irregular concave pentagon"
+  },
+  "seconds": 43.12512204202358,
+  "usage": {
+    "total": {
+      "totalTokens": 6065,
+      "inputTokens": 4994,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1071,
+      "reasoningOutputTokens": 1033
+    },
+    "last": {
+      "totalTokens": 6065,
+      "inputTokens": 4994,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1071,
+      "reasoningOutputTokens": 1033
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793288456.855482
+}

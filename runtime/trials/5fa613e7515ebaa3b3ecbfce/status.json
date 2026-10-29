@@ -1,0 +1,74 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "bbeh",
+  "id": "mini:object_counting:0264",
+  "category": "object_counting",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289206.8396218,
+  "turn": {
+    "id": "01a1885d-be22-7891-9a14-4b604648db2b",
+    "rootTurnId": "01a1885d-be22-7891-9a14-4b604648db2b",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_09d08664065c6869016ae36c20505481968d4600f1201c7d86",
+        "text": "You have 497 mobiles and 697 musical instruments, for a total of **1,194**.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289207,
+    "completedAt": 1793289249,
+    "durationMs": 41685
+  },
+  "score": {
+    "correct": false,
+    "extracted": "you have 497 mobiles and 697 musical instruments,for a total of 1,194"
+  },
+  "seconds": 42.20457029098179,
+  "usage": {
+    "total": {
+      "totalTokens": 6246,
+      "inputTokens": 5939,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 307,
+      "reasoningOutputTokens": 280
+    },
+    "last": {
+      "totalTokens": 6246,
+      "inputTokens": 5939,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 307,
+      "reasoningOutputTokens": 280
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 3d512cee-f0b1-9aa2-9560-be4706afc48d",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a1885d-bd8f-7b60-8acd-9df155fcb6e5",
+      "turnId": "01a1885d-be22-7891-9a14-4b604648db2b"
+    }
+  ],
+  "finished_at": 1793289249.0448
+}

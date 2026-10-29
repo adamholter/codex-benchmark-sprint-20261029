@@ -1,0 +1,3 @@
+**819.** As in the example for 555, *-sātn* indicates counting within the named hundred: *ontъllowsātn* means “in the ninth hundred,” contributing 800. *ontъllowxujplow* is 19, following the pattern for 15 and 18.
+
+Thus, \(800 + 19 = \boxed{819}\).

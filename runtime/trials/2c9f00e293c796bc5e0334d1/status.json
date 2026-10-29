@@ -1,0 +1,71 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly_no_context",
+  "id": "169:Q A4.2.:no_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793287188.981771,
+  "turn": {
+    "id": "01a1883e-f312-76b1-a4dc-5d070593d14a",
+    "rootTurnId": "01a1883e-f312-76b1-a4dc-5d070593d14a",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_052e34f66a7cf645016ae36417414481938802cf10e20f2590",
+        "text": "{\"(a)\": \"Cannot be determined: Table 2 is not provided.\", \"(b)\": \"Cannot be determined: Table 2 is not provided.\", \"(c)\": \"Cannot be determined: Table 2 is not provided.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793287189,
+    "completedAt": 1793287191,
+    "durationMs": 2424
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "Cannot be determined: Table 2 is not provided.",
+      "(b)": "Cannot be determined: Table 2 is not provided.",
+      "(c)": "Cannot be determined: Table 2 is not provided."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 3,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 0.0,
+      "(b)": 0.0,
+      "(c)": 0.0
+    }
+  },
+  "seconds": 2.7357252079527825,
+  "usage": {
+    "total": {
+      "totalTokens": 4098,
+      "inputTokens": 4031,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 67,
+      "reasoningOutputTokens": 14
+    },
+    "last": {
+      "totalTokens": 4098,
+      "inputTokens": 4031,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 67,
+      "reasoningOutputTokens": 14
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793287191.7174091
+}

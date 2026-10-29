@@ -1,0 +1,1 @@
+[[No valid solution under the stated rules. Region E’s two cells must form a domino; then (3,5) cannot be covered, so the two covered D cells must be (2,5) and (3,4). Any domino covering (2,5) then leaves too few available B cells to cover exactly two.]]

@@ -1,0 +1,74 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "bbeh",
+  "id": "mini:movie_recommendation:0158",
+  "category": "movie_recommendation",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793285822.578964,
+  "turn": {
+    "id": "01a1882a-19e6-7403-9c59-12511d6ae9c4",
+    "rootTurnId": "01a1882a-19e6-7403-9c59-12511d6ae9c4",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_08364bb14a3057d9016ae35ef23f608190a643925187ade74f",
+        "text": "(A) Pretty Woman, Interview with the Vampire: The Vampire Chronicles, Batman, Babe, The Mask.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793285822,
+    "completedAt": 1793285874,
+    "durationMs": 51692
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(a) pretty woman,interview with the vampire: the vampire chronicles,batman,babe,the mask"
+  },
+  "seconds": 52.106747458921745,
+  "usage": {
+    "total": {
+      "totalTokens": 3984,
+      "inputTokens": 3906,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 78,
+      "reasoningOutputTokens": 51
+    },
+    "last": {
+      "totalTokens": 3984,
+      "inputTokens": 3906,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 78,
+      "reasoningOutputTokens": 51
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 391f8f78-6196-474a-ad7d-316e8203a097",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a1882a-19af-7c51-b7d3-f8d4b5c44b6e",
+      "turnId": "01a1882a-19e6-7403-9c59-12511d6ae9c4"
+    }
+  ],
+  "finished_at": 1793285874.685306
+}

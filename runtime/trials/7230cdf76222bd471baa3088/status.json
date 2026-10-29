@@ -1,0 +1,67 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly_no_context",
+  "id": "174:Q 4.3:no_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288158.1170712,
+  "turn": {
+    "id": "01a1884d-bca9-7713-908c-3fb8aee1f22c",
+    "rootTurnId": "01a1884d-bca9-7713-908c-3fb8aee1f22c",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0c000c810ecb11ee016ae367e710a8819092ae653fb1fd5c02",
+        "text": "{\"g\":\"The sheet omits English translations 1\u201319 and the meanings to be expressed in TABLE 2, so the matches and missing words cannot be determined or explained uniquely. The information that teb means \u2018land\u2019 and the pronunciation rules are insufficient to reconstruct those missing details.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288158,
+    "completedAt": 1793288170,
+    "durationMs": 12049
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "g": "The sheet omits English translations 1\u201319 and the meanings to be expressed in TABLE 2, so the matches and missing words cannot be determined or explained uniquely. The information that teb means \u2018land\u2019 and the pronunciation rules are insufficient to reconstruct those missing details."
+    },
+    "score": 1.0,
+    "parts_correct": 1,
+    "parts_total": 1,
+    "empty_reference_parts": 1,
+    "part_scores": {
+      "g": 1.0
+    }
+  },
+  "seconds": 12.336093457997777,
+  "usage": {
+    "total": {
+      "totalTokens": 4277,
+      "inputTokens": 4119,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 158,
+      "reasoningOutputTokens": 94
+    },
+    "last": {
+      "totalTokens": 4277,
+      "inputTokens": 4119,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 158,
+      "reasoningOutputTokens": 94
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793288170.4527302
+}

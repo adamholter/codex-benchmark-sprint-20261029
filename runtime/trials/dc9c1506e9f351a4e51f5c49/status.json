@@ -1,0 +1,95 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly",
+  "id": "127:Q 4.1:full_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793293896.537121,
+  "turn": {
+    "id": "01a188a5-4d01-72f1-8963-1ada0d695e7e",
+    "rootTurnId": "01a188a5-4d01-72f1-8963-1ada0d695e7e",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_06d7f058f8d81010016ae37e55f9948194a9a7e8b254cd741b",
+        "text": "{\"2.\":\"d\",\"3.\":\"e\",\"4.\":\"h\",\"5.\":\"g\",\"6.\":\"f\",\"7.\":\"c\",\"8\":\"b\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793293896,
+    "completedAt": 1793293910,
+    "durationMs": 13389
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "2.": "d",
+      "3.": "e",
+      "4.": "h",
+      "5.": "g",
+      "6.": "f",
+      "7.": "c",
+      "8": "b"
+    },
+    "score": 1.0,
+    "parts_correct": 7,
+    "parts_total": 7,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "2.": 1.0,
+      "3.": 1.0,
+      "4.": 1.0,
+      "5.": 1.0,
+      "6.": 1.0,
+      "7.": 1.0,
+      "8": 1.0
+    }
+  },
+  "seconds": 13.864195917034522,
+  "usage": {
+    "total": {
+      "totalTokens": 5494,
+      "inputTokens": 4567,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 927,
+      "reasoningOutputTokens": 886
+    },
+    "last": {
+      "totalTokens": 5494,
+      "inputTokens": 4567,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 927,
+      "reasoningOutputTokens": 886
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 30791597-fd5a-4cce-9dd7-3ff72134090e",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a188a5-4cb7-74a0-b1f9-d06c4244347c",
+      "turnId": "01a188a5-4d01-72f1-8963-1ada0d695e7e"
+    }
+  ],
+  "finished_at": 1793293910.400945
+}

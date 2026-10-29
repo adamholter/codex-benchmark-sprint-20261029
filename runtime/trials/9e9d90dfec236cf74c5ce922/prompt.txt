@@ -1,0 +1,43 @@
+You are an intelligent assistant that specializes in encryption and decryption tasks. Below are the rules for a specific cipher. When responding, please ensure that your output adheres to the specified encryption and decryption rules and format.
+
+### Instructions:
+
+1. Identify the relevant properties and objects specified in the rule, including the plaintext, keyword, and ciphertext.
+2. Follow the specified encryption or decryption operations precisely as described in the rules.
+3. Ensure your output is formatted according to the specified notation and symbols.
+
+### Cipher Rule:
+
+**Encryption Rules:**
+
+- Input:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Output:
+    - Ciphertext:  Hexadecimal string (and letters a-e in lower case).
+- Preparation:
+    - Key(SHA hash value)
+        - Performing SHA-256 on "SECRET_KEY" results in '73ef2a4edd7a7fbf07fd5f6faf99674dc0c25a025fd74c221f4c35849e5c0fb3'.
+- Encryption Steps:
+    - Converts a plaintext string into a sequence of bytes (ASCII encoding).
+    - Each byte is encrypted with the corresponding byte of the key using a bitwise different-or (XOR) operation. Repeatedly recycle the key so that the key length is the same as the number of plaintext bytes.
+    - The encrypted byte sequence is converted to a hexadecimal string for ciphertext output.
+
+ **Decryption Rules:**
+
+- Input:
+    - Ciphertext: Hexadecimal string (and letters a-e in lower case).
+- Output:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Preparation:
+    - Key (Same as encryption,is a hashed hash obtained by SHA_256)
+- Decryption Steps:
+    - Converts the ciphertext string into a sequence of bytes.
+    - Each byte is decrypted (the decryption process is the same as the encryption process) with the corresponding byte of the key using a bitwise different-or (XOR) operation.
+    - The decrypted byte sequence is converted to a plaintext string.
+
+### Question:
+Ciphertext: "3a"
+
+Please provide the decrypted answer, encapsulated in double square brackets. For example, the format should be: [[decrypted answer]].
+
+### Answer:

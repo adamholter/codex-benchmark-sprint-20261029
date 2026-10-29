@@ -1,0 +1,74 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "bbeh",
+  "id": "mini:multistep_arithmetic:0405",
+  "category": "multistep_arithmetic",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288943.804755,
+  "turn": {
+    "id": "01a18859-baaf-77f0-bb1e-6b5e3bf17c82",
+    "rootTurnId": "01a18859-baaf-77f0-bb1e-6b5e3bf17c82",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0f171cd1d44c605f016ae36b6092788196b3bef1cae462ec03",
+        "text": "-27962",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288944,
+    "completedAt": 1793289056,
+    "durationMs": 112363
+  },
+  "score": {
+    "correct": true,
+    "extracted": "-27962"
+  },
+  "seconds": 112.88707537495065,
+  "usage": {
+    "total": {
+      "totalTokens": 5546,
+      "inputTokens": 4149,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1397,
+      "reasoningOutputTokens": 1388
+    },
+    "last": {
+      "totalTokens": 5546,
+      "inputTokens": 4149,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1397,
+      "reasoningOutputTokens": 1388
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: b0deaad0-b649-4071-a454-d93645f4df80",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a18859-ba71-73d2-a85f-97140a3f6fee",
+      "turnId": "01a18859-baaf-77f0-bb1e-6b5e3bf17c82"
+    }
+  ],
+  "finished_at": 1793289056.691782
+}

@@ -1,0 +1,87 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly_no_context",
+  "id": "61:Q 7.1:no_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294163.768231,
+  "turn": {
+    "id": "01a188a9-60a2-7310-8118-78f3edbcf181",
+    "rootTurnId": "01a188a9-60a2-7310-8118-78f3edbcf181",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_08d3958996675133016ae37f60c4488197b3f565a0978b6ac0",
+        "text": "{\"a.\": \"You (plural) read it.\", \"b.\": \"We (including you) were wiping it.\", \"c.\": \"We (excluding you) shouted.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294164,
+    "completedAt": 1793294178,
+    "durationMs": 14183
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "a.": "You (plural) read it.",
+      "b.": "We (including you) were wiping it.",
+      "c.": "We (excluding you) shouted."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 3,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 0.0,
+      "b.": 0.0,
+      "c.": 0.0
+    }
+  },
+  "seconds": 14.573820624966174,
+  "usage": {
+    "total": {
+      "totalTokens": 4489,
+      "inputTokens": 3928,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 561,
+      "reasoningOutputTokens": 516
+    },
+    "last": {
+      "totalTokens": 4489,
+      "inputTokens": 3928,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 561,
+      "reasoningOutputTokens": 516
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: b8af8f3e-1f52-4503-b06b-db6818bb6af6",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a188a9-606d-7dd0-99a3-fc530030194c",
+      "turnId": "01a188a9-60a2-7310-8118-78f3edbcf181"
+    }
+  ],
+  "finished_at": 1793294178.341409
+}

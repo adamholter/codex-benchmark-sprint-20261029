@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "fantom",
+  "id": "216-1-1-11210",
+  "category": "tom:belief:inaccessible:multiple-choice",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289513.920128,
+  "turn": {
+    "id": "01a18862-6dcd-7840-bcf7-8ae24853f6f7",
+    "rootTurnId": "01a18862-6dcd-7840-bcf7-8ae24853f6f7",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_03bf7e7c30b701c7016ae36d2c9b008193a37c181b9c15def5",
+        "text": "(b) Megan was not present when the challenges of introducing pets were discussed, and the conversation does not state her views on the subject.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289514,
+    "completedAt": 1793289517,
+    "durationMs": 2700
+  },
+  "score": {
+    "correct": true,
+    "extracted": "(b) Megan was not present when the challenges of introducing pets were discussed, and the conversation does not state her views on the subject.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 3.444076625048183,
+  "usage": {
+    "total": {
+      "totalTokens": 4741,
+      "inputTokens": 4710,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 31,
+      "reasoningOutputTokens": 0
+    },
+    "last": {
+      "totalTokens": 4741,
+      "inputTokens": 4710,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 31,
+      "reasoningOutputTokens": 0
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793289517.3637419
+}

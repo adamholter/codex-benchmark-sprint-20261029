@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "fantom",
+  "id": "21-1-0-1395",
+  "category": "tom:answerability:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294470.080988,
+  "turn": {
+    "id": "01a188ae-0d22-7063-bf63-1a84359701ae",
+    "rootTurnId": "01a188ae-0d22-7063-bf63-1a84359701ae",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_094774d395c80ed7016ae3808b2ab08193b24d39ea7aac40fd",
+        "text": "Leo, Haley, and Kassidy. Leo prefers Impressionism and Cubism.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294470,
+    "completedAt": 1793294475,
+    "durationMs": 5009
+  },
+  "score": {
+    "correct": false,
+    "extracted": "Leo, Haley, and Kassidy. Leo prefers Impressionism and Cubism.",
+    "strict_correct": false,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 5.776508375070989,
+  "usage": {
+    "total": {
+      "totalTokens": 5031,
+      "inputTokens": 4714,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 317,
+      "reasoningOutputTokens": 295
+    },
+    "last": {
+      "totalTokens": 5031,
+      "inputTokens": 4714,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 317,
+      "reasoningOutputTokens": 295
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793294475.857158
+}

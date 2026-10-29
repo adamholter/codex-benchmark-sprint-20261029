@@ -1,0 +1,73 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly_no_context",
+  "id": "202:Q 2.1:no_context",
+  "category": "Monolingual",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289850.1124768,
+  "turn": {
+    "id": "01a18867-8e95-7121-8208-bc2c400f8be6",
+    "rootTurnId": "01a18867-8e95-7121-8208-bc2c400f8be6",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0a1884341c6e9076016ae36e7cdafc819493815012fda66eab",
+        "text": "{\"a.\": \"Cannot be determined\", \"b.\": \"Cannot be determined\", \"c.\": \"Cannot be determined\", \"d.\": \"Cannot be determined\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289850,
+    "completedAt": 1793289853,
+    "durationMs": 2784
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "a.": "Cannot be determined",
+      "b.": "Cannot be determined",
+      "c.": "Cannot be determined",
+      "d.": "Cannot be determined"
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 4,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 0.0,
+      "b.": 0.0,
+      "c.": 0.0,
+      "d.": 0.0
+    }
+  },
+  "seconds": 3.2032017500605434,
+  "usage": {
+    "total": {
+      "totalTokens": 4145,
+      "inputTokens": 4080,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 65,
+      "reasoningOutputTokens": 23
+    },
+    "last": {
+      "totalTokens": 4145,
+      "inputTokens": 4080,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 65,
+      "reasoningOutputTokens": 23
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793289853.315424
+}

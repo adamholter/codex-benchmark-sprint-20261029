@@ -1,0 +1,75 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly_no_context",
+  "id": "214:Q 9.2:no_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793295097.269985,
+  "turn": {
+    "id": "01a188b7-aac1-7342-8c17-e20b3b8c9ff9",
+    "rootTurnId": "01a188b7-aac1-7342-8c17-e20b3b8c9ff9",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_033e5cd7f81ca754016ae3830b7ab88193bf2c68fd7dd691b2",
+        "text": "{\n  \"17.\": \"Cannot be determined: the sheet\u2019s translated examples are missing.\",\n  \"18.\": \"Cannot be determined: the sheet\u2019s translated examples are missing.\",\n  \"19.\": \"Cannot be determined: the sheet\u2019s translated examples are missing.\",\n  \"20.\": \"Cannot be determined: the sheet\u2019s translated examples are missing.\",\n  \"21.\": \"Cannot be determined: the sheet\u2019s translated examples are missing.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793295100,
+    "completedAt": 1793295117,
+    "durationMs": 16703
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "17.": "Cannot be determined: the sheet\u2019s translated examples are missing.",
+      "18.": "Cannot be determined: the sheet\u2019s translated examples are missing.",
+      "19.": "Cannot be determined: the sheet\u2019s translated examples are missing.",
+      "20.": "Cannot be determined: the sheet\u2019s translated examples are missing.",
+      "21.": "Cannot be determined: the sheet\u2019s translated examples are missing."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 5,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "17.": 0.0,
+      "18.": 0.0,
+      "19.": 0.0,
+      "20.": 0.0,
+      "21.": 0.0
+    }
+  },
+  "seconds": 20.41413591604214,
+  "usage": {
+    "total": {
+      "totalTokens": 4409,
+      "inputTokens": 4130,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 279,
+      "reasoningOutputTokens": 181
+    },
+    "last": {
+      "totalTokens": 4409,
+      "inputTokens": 4130,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 279,
+      "reasoningOutputTokens": 181
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793295117.683121
+}

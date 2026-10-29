@@ -1,0 +1,75 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly_no_context",
+  "id": "220:Q 5.3:no_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793284930.270099,
+  "turn": {
+    "id": "01a1881c-7dc8-7e81-9fb6-89e8862c1dd5",
+    "rootTurnId": "01a1881c-7dc8-7e81-9fb6-89e8862c1dd5",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0bf469c0fde15b12016ae35b5f6ba48190bef364f8d66113f9",
+        "text": "{\"25.\":\"ni\u2074gwi\u00b2dak\u2078\",\"26.\":\"nam\u00b3nda\u00b9\",\"27.\":\"d\u0254\u00b2ka:i\u2075\u0272a:m\u00b9\",\"28.\":\"na\u2074n\u0254k\u2078\",\"29.\":\"kj\u0254\u014b\u2075mu\u2075dak\u2078\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793284931,
+    "completedAt": 1793284960,
+    "durationMs": 29038
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "25.": "ni\u2074gwi\u00b2dak\u2078",
+      "26.": "nam\u00b3nda\u00b9",
+      "27.": "d\u0254\u00b2ka:i\u2075\u0272a:m\u00b9",
+      "28.": "na\u2074n\u0254k\u2078",
+      "29.": "kj\u0254\u014b\u2075mu\u2075dak\u2078"
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 5,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "25.": 0.0,
+      "26.": 0.0,
+      "27.": 0.0,
+      "28.": 0.0,
+      "29.": 0.0
+    }
+  },
+  "seconds": 29.835721208015457,
+  "usage": {
+    "total": {
+      "totalTokens": 6363,
+      "inputTokens": 4259,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 2104,
+      "reasoningOutputTokens": 2033
+    },
+    "last": {
+      "totalTokens": 6363,
+      "inputTokens": 4259,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 2104,
+      "reasoningOutputTokens": 2033
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793284960.105633
+}

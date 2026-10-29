@@ -1,0 +1,38 @@
+You are an intelligent assistant specializing in solving custom puzzle problems. Below is a specific rule defined for a custom puzzle. Your task is to apply this rule accurately to the provided question.
+
+### Instructions:
+
+1. Thoroughly understand the rule provided. If needed, break down the rule into simpler components or steps.
+2. Apply the rule carefully to address the question presented.
+3. Verify your answer to ensure it aligns with the rule and the context of the puzzle.
+
+### Puzzle Rule:
+
+1.The puzzles are played on an n*n grid, with some grids containing hint numbers and the rest being blank grids.
+2.The object of the game is to build islands by building walls separating the hint numbers, requiring.
+3.Each island contains only one hint number.
+4.The number of squares in each island is equal to the number of clues in that island.
+5.Islands are separated from each other vertically or horizontally.
+6.There are no 2x2 or larger rectangles in the area formed by the wall.
+7.Walls can form a continuous path.
+8.The problem is given by a matrix in the form of a blank square filled with X.The player should replace the grid on which the wall is built with A and output the drawn matrix, which contains X (the blank island), A (the wall) and the numbers.
+
+### Question:
+X X X X X X X
+X X X X X X X
+2 X X 4 X X 3
+X X X X X 6 X
+X X X X X X X
+X X X X X X X
+X X X X X X 6
+
+Please provide each element in order from left to right, and from top to bottom, with each element separated by a space and each row separated by a comma. Ensure that your final answer is wrapped in double square brackets.
+
+For example, if the answer is:
+A B C
+D E F
+G H I
+
+please output [[A B C,D E F,G H I]].
+
+### Answer:

@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "fantom",
+  "id": "236-0-1-11877",
+  "category": "tom:answerability:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793295383.335708,
+  "turn": {
+    "id": "01a188bb-fbc7-7e53-b0df-119030525bc3",
+    "rootTurnId": "01a188bb-fbc7-7e53-b0df-119030525bc3",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0187753058fafc5f016ae3841a17708190987c8cbdbd7a930d",
+        "text": "Levi and Laila.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793295383,
+    "completedAt": 1793295386,
+    "durationMs": 2776
+  },
+  "score": {
+    "correct": true,
+    "extracted": "Levi and Laila.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 2.957409583032131,
+  "usage": {
+    "total": {
+      "totalTokens": 4520,
+      "inputTokens": 4477,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 43,
+      "reasoningOutputTokens": 31
+    },
+    "last": {
+      "totalTokens": 4520,
+      "inputTokens": 4477,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 43,
+      "reasoningOutputTokens": 31
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793295386.29273
+}

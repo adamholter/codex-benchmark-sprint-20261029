@@ -1,0 +1,21 @@
+Alexus: Hey, guys, so we're all into workouts here right?
+Spencer: Yeah, I've been working out pretty regularly for a few years now.
+Natasha: Same here! I love feeling strong and healthy.
+Alexus: That's great. But there's always that one workout everyone dislikes, right? Any horror stories there?
+Spencer: Well, I'd have to say mine would be the burpees. There's just something about that exercise that I can't get into. I guess I just find it unenjoyable, I have to force myself each time!
+Natasha: I totally feel you, Spencer. For me, it's push-ups. It's always been a struggle, I don't know why but I always end up feeling miserable after them.
+Alexus: Well, I think we all have that one workout routine we dread. For me, that would be running on a treadmill. It's so repetitive and monotonous. I prefer ways I can enjoy nature and fresh air while exercising.
+Spencer: I see, everyone has their witch. But it's important to keep pushing and make those improvements every day, isn't it?
+Natasha: Absolutely Spencer, overcoming that challenging routine is what makes it worth it!
+Alexus: Definitely, and who knows, maybe with time, what we hate now might become our favorite routine!
+Ryan: Hey guys, hope I'm not interrupting! What are we chatting about now?
+Alexus: Hi Ryan, we were just discussing our least favorite exercises. Care to share yours?
+Ryan: That's a tough one. I guess I'd have to say lunges. They're tough on my knees. Although, speaking of that... have any of you had problems with workout wear or gear?
+Spencer: You know, now that you mention it, I once bought a pair of running shoes that were supposedly top of the line, but they gave me the worst blisters. I was limping for a week!
+Natasha: Oh my, that sounds rough, Spencer. I have had issues with sports bras; getting the right fit is always a challenge for me.
+Alexus: I feel that, Natasha. Yoga pants for me too, finding ones that aren't see-through but also have enough stretch is no easy task. And let's not get started on the ones that lose their shape after a few washes.
+Ryan: I see, seems like getting the right workout wear and gear isn't as straight forward as it seems. But thankfully, we learn from such experiences, don't we?
+
+Information: Which exercise is difficult for Natasha? Push-ups.
+Question: Does Natasha know this information? Answer yes or no.
+Answer:

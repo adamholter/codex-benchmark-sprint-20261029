@@ -1,0 +1,101 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "PlanBench Blocksworld Hard - PDDL",
+  "id": "instance-9",
+  "category": "PDDL plan generation / exact plan validity",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290688.993601,
+  "turn": {
+    "id": "01a18874-5b84-7541-9982-47e92ebb16e9",
+    "rootTurnId": "01a18874-5b84-7541-9982-47e92ebb16e9",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_062a68ba661244f1016ae371c5246c8196a19d740f26e3489a",
+        "text": "(unstack k e)\n(put-down k)\n(unstack e h)\n(put-down e)\n(unstack h i)\n(put-down h)\n(unstack i b)\n(put-down i)\n(unstack b c)\n(put-down b)\n(unstack c l)\n(put-down c)\n(unstack l f)\n(put-down l)\n(unstack f d)\n(put-down f)\n(unstack d a)\n(put-down d)\n(unstack m j)\n(put-down m)\n(pick-up b)\n(stack b j)\n(pick-up g)\n(stack g b)\n(pick-up a)\n(stack a g)\n(pick-up e)\n(stack e a)\n(pick-up i)\n(stack i c)\n(pick-up h)\n(stack h i)\n(pick-up d)\n(stack d h)\n(pick-up m)\n(stack m d)\n(pick-up l)\n(stack l f)\n(pick-up n)\n(stack n k)",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290689,
+    "completedAt": 1793290694,
+    "durationMs": 5033
+  },
+  "score": {
+    "correct": true,
+    "extracted": [
+      "(unstack k e)",
+      "(put-down k)",
+      "(unstack e h)",
+      "(put-down e)",
+      "(unstack h i)",
+      "(put-down h)",
+      "(unstack i b)",
+      "(put-down i)",
+      "(unstack b c)",
+      "(put-down b)",
+      "(unstack c l)",
+      "(put-down c)",
+      "(unstack l f)",
+      "(put-down l)",
+      "(unstack f d)",
+      "(put-down f)",
+      "(unstack d a)",
+      "(put-down d)",
+      "(unstack m j)",
+      "(put-down m)",
+      "(pick-up b)",
+      "(stack b j)",
+      "(pick-up g)",
+      "(stack g b)",
+      "(pick-up a)",
+      "(stack a g)",
+      "(pick-up e)",
+      "(stack e a)",
+      "(pick-up i)",
+      "(stack i c)",
+      "(pick-up h)",
+      "(stack h i)",
+      "(pick-up d)",
+      "(stack d h)",
+      "(pick-up m)",
+      "(stack m d)",
+      "(pick-up l)",
+      "(stack l f)",
+      "(pick-up n)",
+      "(stack n k)"
+    ],
+    "valid_actions": 40,
+    "reason": "goal_reached"
+  },
+  "seconds": 5.478275917004794,
+  "usage": {
+    "total": {
+      "totalTokens": 4679,
+      "inputTokens": 4319,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 360,
+      "reasoningOutputTokens": 164
+    },
+    "last": {
+      "totalTokens": 4679,
+      "inputTokens": 4319,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 360,
+      "reasoningOutputTokens": 164
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793290694.471671
+}

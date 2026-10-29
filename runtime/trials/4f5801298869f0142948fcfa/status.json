@@ -1,0 +1,101 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly_no_context",
+  "id": "218:Q 3.2 :no_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288594.249129,
+  "turn": {
+    "id": "01a18854-64a9-7b42-bb7e-3e629f339849",
+    "rootTurnId": "01a18854-64a9-7b42-bb7e-3e629f339849",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0015d88070f04fc0016ae369c035808193b580d55fff1292b2",
+        "text": "{\n  \"1.\": \"Cannot be determined: no causative rules or root\u2013causative pairs are supplied.\",\n  \"2. \": \"Cannot be determined from the supplied information.\",\n  \"3. \": \"Cannot be determined from the supplied information.\",\n  \"4. \": \"Cannot be determined from the supplied information.\",\n  \"5. \": \"Cannot be determined from the supplied information.\",\n  \"6. \": \"Cannot be determined from the supplied information.\",\n  \"7.\": \"Cannot be determined from the supplied information.\",\n  \"8.\": \"Cannot be determined from the supplied information.\",\n  \"9.\": \"Cannot be determined from the supplied information.\",\n  \"10.\": \"Cannot be determined from the supplied information.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288594,
+    "completedAt": 1793288643,
+    "durationMs": 48835
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "1.": "Cannot be determined: no causative rules or root\u2013causative pairs are supplied.",
+      "2. ": "Cannot be determined from the supplied information.",
+      "3. ": "Cannot be determined from the supplied information.",
+      "4. ": "Cannot be determined from the supplied information.",
+      "5. ": "Cannot be determined from the supplied information.",
+      "6. ": "Cannot be determined from the supplied information.",
+      "7.": "Cannot be determined from the supplied information.",
+      "8.": "Cannot be determined from the supplied information.",
+      "9.": "Cannot be determined from the supplied information.",
+      "10.": "Cannot be determined from the supplied information."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 10,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "1.": 0.0,
+      "2. ": 0.0,
+      "3. ": 0.0,
+      "4. ": 0.0,
+      "5. ": 0.0,
+      "6. ": 0.0,
+      "7.": 0.0,
+      "8.": 0.0,
+      "9.": 0.0,
+      "10.": 0.0
+    }
+  },
+  "seconds": 49.21467245800886,
+  "usage": {
+    "total": {
+      "totalTokens": 4522,
+      "inputTokens": 4276,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 246,
+      "reasoningOutputTokens": 88
+    },
+    "last": {
+      "totalTokens": 4522,
+      "inputTokens": 4276,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 246,
+      "reasoningOutputTokens": 88
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 2e040362-584d-4c02-b19d-9687a5a0064d",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a18854-6482-7801-a00e-417bed4b52d7",
+      "turnId": "01a18854-64a9-7b42-bb7e-3e629f339849"
+    }
+  ],
+  "finished_at": 1793288643.463278
+}

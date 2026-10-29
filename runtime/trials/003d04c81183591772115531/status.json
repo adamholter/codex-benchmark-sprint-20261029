@@ -1,0 +1,71 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly_no_context",
+  "id": "187:Q 2.3:no_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793293935.269114,
+  "turn": {
+    "id": "01a188a5-f961-7632-acb7-6fd45afd42ff",
+    "rootTurnId": "01a188a5-f961-7632-acb7-6fd45afd42ff",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_04d9016ab9e5a24e016ae37e87fb8081958653ffaf79e99303",
+        "text": "{\"a.\":\"kek\",\"b.\":\"puuy ngangk\",\"c.\":\"way\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793293941,
+    "completedAt": 1793293960,
+    "durationMs": 19217
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "a.": "kek",
+      "b.": "puuy ngangk",
+      "c.": "way"
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 3,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 0.0,
+      "b.": 0.0,
+      "c.": 0.0
+    }
+  },
+  "seconds": 25.12162145797629,
+  "usage": {
+    "total": {
+      "totalTokens": 5740,
+      "inputTokens": 4062,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1678,
+      "reasoningOutputTokens": 1652
+    },
+    "last": {
+      "totalTokens": 5740,
+      "inputTokens": 4062,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1678,
+      "reasoningOutputTokens": 1652
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793293960.390037
+}

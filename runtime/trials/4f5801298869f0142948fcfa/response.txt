@@ -1,0 +1,12 @@
+{
+  "1.": "Cannot be determined: no causative rules or root–causative pairs are supplied.",
+  "2. ": "Cannot be determined from the supplied information.",
+  "3. ": "Cannot be determined from the supplied information.",
+  "4. ": "Cannot be determined from the supplied information.",
+  "5. ": "Cannot be determined from the supplied information.",
+  "6. ": "Cannot be determined from the supplied information.",
+  "7.": "Cannot be determined from the supplied information.",
+  "8.": "Cannot be determined from the supplied information.",
+  "9.": "Cannot be determined from the supplied information.",
+  "10.": "Cannot be determined from the supplied information."
+}

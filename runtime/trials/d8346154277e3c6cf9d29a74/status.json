@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "bbeh",
+  "id": "mini:object_properties:0249",
+  "category": "object_properties",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793286268.2619789,
+  "turn": {
+    "id": "01a18830-e6ba-7c00-b702-b96f89b53ab8",
+    "rootTurnId": "01a18830-e6ba-7c00-b702-b96f89b53ab8",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_078f14c2a5ac8378016ae3608b739481938015ecd93aa99948",
+        "text": "**31 items.**\n\nThe material totals show that the aunt\u2019s replacement material was glass. The discarded color was yellow, and the brother\u2019s replacement size was large.\n\nBefore the fianc\u00e9e added copies, **26 items** met all five conditions. She added **5 more qualifying copies**: two ivory, freshly-cut-grass-smelling items and three magenta items with new smell\u2013color pairs. Losing a small item did not affect the count, since small items are excluded.\n\nSo the final count is **26 + 5 = 31**.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793286268,
+    "completedAt": 1793286285,
+    "durationMs": 16505
+  },
+  "score": {
+    "correct": false,
+    "extracted": "31 items"
+  },
+  "seconds": 16.8622195830103,
+  "usage": {
+    "total": {
+      "totalTokens": 5935,
+      "inputTokens": 4965,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 970,
+      "reasoningOutputTokens": 853
+    },
+    "last": {
+      "totalTokens": 5935,
+      "inputTokens": 4965,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 970,
+      "reasoningOutputTokens": 853
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793286285.1240609
+}

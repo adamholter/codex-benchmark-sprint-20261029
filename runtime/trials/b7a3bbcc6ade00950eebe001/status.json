@@ -1,0 +1,70 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-RQ_Hard_1730",
+  "category": "Multi-RQ_Hard",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289221.7986948,
+  "turn": {
+    "id": "01a1885d-f7e1-7471-a965-02269586de76",
+    "rootTurnId": "01a1885d-f7e1-7471-a965-02269586de76",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_044393956056897b016ae36c5ed43c8193bda919b5456ed5f7",
+        "text": "{\n  \"question1\": \"[[23 24 25 26 27 28 29 30 31,22 21 20 7 6 5 4 3 32,17 18 19 8 79 80 81 2 33,16 11 10 9 78 51 50 1 34,15 12 75 76 77 52 49 36 35,14 13 74 61 60 53 48 37 38,71 72 73 62 59 54 47 40 39,70 67 66 63 58 55 46 41 42,69 68 65 64 57 56 45 44 43]]\",\n  \"question2\": \"[[x=2,y=1]]\",\n  \"question3\": \"[[3]]\",\n  \"question4\": \"[[D]]\",\n  \"question5\": \"[[No solution: the given grid contains 25 twice.]]\",\n  \"question6\": \"[[C]]\",\n  \"question7\": \"[[55]]\",\n  \"question8\": \"[[Invalid grid: row 7 contains 10 entries instead of 9.]]\",\n  \"question9\": \"[[C]]\",\n  \"question10\": \"[[D]]\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289222,
+    "completedAt": 1793289313,
+    "durationMs": 91738
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "question1": "23 24 25 26 27 28 29 30 31,22 21 20 7 6 5 4 3 32,17 18 19 8 79 80 81 2 33,16 11 10 9 78 51 50 1 34,15 12 75 76 77 52 49 36 35,14 13 74 61 60 53 48 37 38,71 72 73 62 59 54 47 40 39,70 67 66 63 58 55 46 41 42,69 68 65 64 57 56 45 44 43",
+      "question2": "x=2,y=1",
+      "question3": "3",
+      "question4": "D",
+      "question5": "No solution: the given grid contains 25 twice.",
+      "question6": "C",
+      "question7": "55",
+      "question8": "Invalid grid: row 7 contains 10 entries instead of 9.",
+      "question9": "C",
+      "question10": "D"
+    },
+    "pass_rate": 0.7
+  },
+  "seconds": 92.08127958409023,
+  "usage": {
+    "total": {
+      "totalTokens": 9444,
+      "inputTokens": 5760,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 3684,
+      "reasoningOutputTokens": 3387
+    },
+    "last": {
+      "totalTokens": 9444,
+      "inputTokens": 5760,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 3684,
+      "reasoningOutputTokens": 3387
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793289313.881496
+}

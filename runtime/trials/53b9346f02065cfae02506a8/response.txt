@@ -1,0 +1,8 @@
+{
+  "a.": "bolác:o",
+  "b.": "sé:i",
+  "c.": "fúrmine",
+  "d.": "abitúd:ine",
+  "e.": "acórdio",
+  "f.": "ǽ:goa"
+}

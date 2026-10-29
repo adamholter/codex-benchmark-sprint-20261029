@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "bbeh",
+  "id": "mini:buggy_tables:0197",
+  "category": "buggy_tables",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793291105.841389,
+  "turn": {
+    "id": "01a1887a-b753-7bf3-b3bb-b2b11852c95f",
+    "rootTurnId": "01a1887a-b753-7bf3-b3bb-b2b11852c95f",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_09dfbec7a773e098016ae3736e969081939204f0c44a4e1c76",
+        "text": "The qualifying rows have study_minutes totaling 412 and phone_screen_time_minutes totaling 200. The absolute difference is **212.00**.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793291106,
+    "completedAt": 1793291119,
+    "durationMs": 13278
+  },
+  "score": {
+    "correct": false,
+    "extracted": "the qualifying rows have study_minutes totaling 412 and phone_screen_time_minutes totaling 200. the absolute difference is 212.00"
+  },
+  "seconds": 13.626054040971212,
+  "usage": {
+    "total": {
+      "totalTokens": 8137,
+      "inputTokens": 6909,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1228,
+      "reasoningOutputTokens": 1194
+    },
+    "last": {
+      "totalTokens": 8137,
+      "inputTokens": 6909,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1228,
+      "reasoningOutputTokens": 1194
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793291119.466848
+}

@@ -1,0 +1,4 @@
+{
+  "question1": "[[Aries Cancer Libra Scorpio Leo]]",
+  "question2": "[[8^3]]"
+}

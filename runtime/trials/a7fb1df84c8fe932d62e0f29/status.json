@@ -1,0 +1,70 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-RQ_Hard_1730",
+  "category": "Multi-RQ_Hard",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289197.130736,
+  "turn": {
+    "id": "01a1885d-972e-7b00-819f-fea759651c15",
+    "rootTurnId": "01a1885d-972e-7b00-819f-fea759651c15",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_04a8f7b3ea4643bc016ae36c19cca88195aa84e77b9786271b",
+        "text": "{\n  \"question1\": \"[[No valid solution: the clues conflict with the consecutive-adjacency rule.]]\",\n  \"question2\": \"[[x=2,y=1]]\",\n  \"question3\": \"[[1]]\",\n  \"question4\": \"[[D]]\",\n  \"question5\": \"[[No valid solution: 25 appears twice, contrary to the rule that numbers appear only once.]]\",\n  \"question6\": \"[[C]]\",\n  \"question7\": \"[[77]]\",\n  \"question8\": \"[[No valid solution: one row has 10 entries, while the grid is specified as 9\u00d79.]]\",\n  \"question9\": \"[[C]]\",\n  \"question10\": \"[[D]]\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289197,
+    "completedAt": 1793289242,
+    "durationMs": 45495
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "question1": "No valid solution: the clues conflict with the consecutive-adjacency rule.",
+      "question2": "x=2,y=1",
+      "question3": "1",
+      "question4": "D",
+      "question5": "No valid solution: 25 appears twice, contrary to the rule that numbers appear only once.",
+      "question6": "C",
+      "question7": "77",
+      "question8": "No valid solution: one row has 10 entries, while the grid is specified as 9\u00d79.",
+      "question9": "C",
+      "question10": "D"
+    },
+    "pass_rate": 0.5
+  },
+  "seconds": 45.75178841606248,
+  "usage": {
+    "total": {
+      "totalTokens": 10178,
+      "inputTokens": 5760,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 4418,
+      "reasoningOutputTokens": 4252
+    },
+    "last": {
+      "totalTokens": 10178,
+      "inputTokens": 5760,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 4418,
+      "reasoningOutputTokens": 4252
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793289242.882586
+}

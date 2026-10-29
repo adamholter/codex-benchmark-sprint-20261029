@@ -1,0 +1,64 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-Q_544",
+  "category": "Multi-Q",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294730.489722,
+  "turn": {
+    "id": "01a188b2-05cc-7ac0-b12b-18d42127bf4e",
+    "rootTurnId": "01a188b2-05cc-7ac0-b12b-18d42127bf4e",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0b3ab42fe16304e7016ae381998f2c8197b294aa5d8f45a67d",
+        "text": "{\n  \"question1\": \"[[100%]]\",\n  \"question2\": \"[[4%]]\",\n  \"question3\": \"[[C(S, 90/100, 75/150) is not applicable: 90% and 50% are not similar, so similar population proportions cannot be inferred.]]\",\n  \"question4\": \"[[P(A, 40, 500) \u21d2 Pr(A) \u2248 40/500 = 8%]]\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294730,
+    "completedAt": 1793294746,
+    "durationMs": 16117
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "question1": "100%",
+      "question2": "4%",
+      "question3": "C(S, 90/100, 75/150) is not applicable: 90% and 50% are not similar, so similar population proportions cannot be inferred.",
+      "question4": "P(A, 40, 500) \u21d2 Pr(A) \u2248 40/500 = 8%"
+    },
+    "pass_rate": 0.5
+  },
+  "seconds": 16.35182562493719,
+  "usage": {
+    "total": {
+      "totalTokens": 5194,
+      "inputTokens": 4596,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 598,
+      "reasoningOutputTokens": 491
+    },
+    "last": {
+      "totalTokens": 5194,
+      "inputTokens": 4596,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 598,
+      "reasoningOutputTokens": 491
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793294746.840945
+}

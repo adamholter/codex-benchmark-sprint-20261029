@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "fantom",
+  "id": "213-0-1-10992",
+  "category": "tom:answerability:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793284677.829997,
+  "turn": {
+    "id": "01a18818-a44b-7383-a230-cd21da4c223f",
+    "rootTurnId": "01a18818-a44b-7383-a230-cd21da4c223f",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_08b4b930f660c4c7016ae35a4d9d308190b7182db0bcf778f3",
+        "text": "Donovan, Moises, Craig.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793284678,
+    "completedAt": 1793284685,
+    "durationMs": 7246
+  },
+  "score": {
+    "correct": true,
+    "extracted": "Donovan, Moises, Craig.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 8.213208875036798,
+  "usage": {
+    "total": {
+      "totalTokens": 4844,
+      "inputTokens": 4757,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 87,
+      "reasoningOutputTokens": 73
+    },
+    "last": {
+      "totalTokens": 4844,
+      "inputTokens": 4757,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 87,
+      "reasoningOutputTokens": 73
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793284686.0424871
+}

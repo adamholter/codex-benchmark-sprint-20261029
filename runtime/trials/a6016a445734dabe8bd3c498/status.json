@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "fantom",
+  "id": "131-1-1-6404",
+  "category": "tom:answerability:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290747.1580758,
+  "turn": {
+    "id": "01a18875-4054-7ad2-936c-e48e62e5ab4f",
+    "rootTurnId": "01a18875-4054-7ad2-936c-e48e62e5ab4f",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0fc1dbd454cc729e016ae37200a35c81939197306383111225",
+        "text": "Jessie, Lia, and Sydney.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290747,
+    "completedAt": 1793290752,
+    "durationMs": 4876
+  },
+  "score": {
+    "correct": true,
+    "extracted": "Jessie, Lia, and Sydney.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 5.782602124963887,
+  "usage": {
+    "total": {
+      "totalTokens": 5000,
+      "inputTokens": 4767,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 233,
+      "reasoningOutputTokens": 219
+    },
+    "last": {
+      "totalTokens": 5000,
+      "inputTokens": 4767,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 233,
+      "reasoningOutputTokens": 219
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793290752.940507
+}

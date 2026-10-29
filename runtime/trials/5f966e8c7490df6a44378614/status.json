@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "bbeh",
+  "id": "mini:temporal_sequence:0082",
+  "category": "temporal_sequence",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793293404.069821,
+  "turn": {
+    "id": "01a1889d-c95b-7cf3-9e4b-5557de6fc95d",
+    "rootTurnId": "01a1889d-c95b-7cf3-9e4b-5557de6fc95d",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_032b48ebb123647a016ae37c7aa7708193afa1f3d06d488b8d",
+        "text": "Assuming all three schedules use the same clock, **149, 1**: Tuesday\u2019s meeting can run from 1:30 to 3:59, with Sophia missing the first 5 minutes. If their local times differ, their time zones are needed to determine whether that meeting is possible.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793293404,
+    "completedAt": 1793293435,
+    "durationMs": 31109
+  },
+  "score": {
+    "correct": false,
+    "extracted": "assuming all three schedules use the same clock,149,1: tuesday\u2019s meeting can run from 1:30 to 3:59,with sophia missing the first 5 minutes. if their local times differ,their time zones are needed to determine whether that meeting is possible"
+  },
+  "seconds": 31.575994416954927,
+  "usage": {
+    "total": {
+      "totalTokens": 7802,
+      "inputTokens": 4629,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 3173,
+      "reasoningOutputTokens": 3106
+    },
+    "last": {
+      "totalTokens": 7802,
+      "inputTokens": 4629,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 3173,
+      "reasoningOutputTokens": 3106
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793293435.6454458
+}

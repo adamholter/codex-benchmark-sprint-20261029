@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "bbeh",
+  "id": "mini:buggy_tables:0092",
+  "category": "buggy_tables",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793284978.428489,
+  "turn": {
+    "id": "01a1881d-38db-79a2-82c9-19c47aa3f4f1",
+    "rootTurnId": "01a1881d-38db-79a2-82c9-19c47aa3f4f1",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0cb2bb5a64b938b4016ae35b82bf0481958ee4b192423358b4",
+        "text": "After removing the appended values, 16 days satisfy both conditions. Ignoring null measurements:\n\n- Mean sleep_minutes = 5116 / 12 = 426.33\n- Mean coding_minutes = 489 / 14 = 34.93\n\nThe absolute difference, rounded to two decimal places, is **391.40**.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793284978,
+    "completedAt": 1793284995,
+    "durationMs": 16373
+  },
+  "score": {
+    "correct": false,
+    "extracted": "after removing the appended values,16 days satisfy both conditions. ignoring null measurements:"
+  },
+  "seconds": 17.122721916995943,
+  "usage": {
+    "total": {
+      "totalTokens": 7798,
+      "inputTokens": 6203,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1595,
+      "reasoningOutputTokens": 1521
+    },
+    "last": {
+      "totalTokens": 7798,
+      "inputTokens": 6203,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1595,
+      "reasoningOutputTokens": 1521
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793284995.551093
+}

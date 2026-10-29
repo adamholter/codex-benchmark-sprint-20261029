@@ -1,0 +1,12 @@
+{
+  "(a)": "Cannot determine: roman-numeral options are missing.",
+  "(b)": "Cannot determine: roman-numeral options are missing.",
+  "(c)": "Cannot determine: roman-numeral options are missing.",
+  "(d)": "Cannot determine: roman-numeral options are missing.",
+  "(e)": "Cannot determine: roman-numeral options are missing.",
+  "(f)": "Cannot determine: roman-numeral options are missing.",
+  "(g)": "Cannot determine: roman-numeral options are missing.",
+  "(h)": "Cannot determine: roman-numeral options are missing.",
+  "(i)": "Cannot determine: roman-numeral options are missing.",
+  "(j)": "Cannot determine: roman-numeral options are missing."
+}

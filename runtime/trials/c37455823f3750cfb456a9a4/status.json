@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "korbench",
+  "id": "logic_240",
+  "category": "logic",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793285022.0148008,
+  "turn": {
+    "id": "01a1881d-e5fd-7bc1-944f-1883c9cb6c02",
+    "rootTurnId": "01a1881d-e5fd-7bc1-944f-1883c9cb6c02",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0602bda898d6a9b1016ae35ba18e6081948db50bc62183d5b1",
+        "text": "[[F]]",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793285023,
+    "completedAt": 1793285025,
+    "durationMs": 2477
+  },
+  "score": {
+    "correct": true,
+    "extracted": "F"
+  },
+  "seconds": 3.710125832934864,
+  "usage": {
+    "total": {
+      "totalTokens": 4138,
+      "inputTokens": 4131,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 7,
+      "reasoningOutputTokens": 0
+    },
+    "last": {
+      "totalTokens": 4138,
+      "inputTokens": 4131,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 7,
+      "reasoningOutputTokens": 0
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793285025.724302
+}

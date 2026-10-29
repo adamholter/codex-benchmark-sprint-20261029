@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "fantom",
+  "id": "101-1-1-4971",
+  "category": "tom:answerability:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793285477.590108,
+  "turn": {
+    "id": "01a18824-d603-7cf2-bdcb-042cd4024fea",
+    "rootTurnId": "01a18824-d603-7cf2-bdcb-042cd4024fea",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0578db6caee4f99c016ae35d6963108195bdc5a41f5658a0f1",
+        "text": "Javier and Quinton.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793285477,
+    "completedAt": 1793285481,
+    "durationMs": 3812
+  },
+  "score": {
+    "correct": true,
+    "extracted": "Javier and Quinton.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 4.143053708947264,
+  "usage": {
+    "total": {
+      "totalTokens": 4329,
+      "inputTokens": 4276,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 53,
+      "reasoningOutputTokens": 41
+    },
+    "last": {
+      "totalTokens": 4329,
+      "inputTokens": 4276,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 53,
+      "reasoningOutputTokens": 41
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793285481.732312
+}

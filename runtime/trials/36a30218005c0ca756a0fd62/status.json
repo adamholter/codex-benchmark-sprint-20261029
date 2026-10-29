@@ -1,0 +1,73 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly",
+  "id": "188:Q 3.2:full_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294155.453449,
+  "turn": {
+    "id": "01a188a9-401d-7b43-b1be-2485956f5d52",
+    "rootTurnId": "01a188a9-401d-7b43-b1be-2485956f5d52",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_00533bcb50db924a016ae37f5833b881978171eef5f26e2d93",
+        "text": "{\n  \"a.\": \"To totou foki a ia.\",\n  \"b.\": \"Kua fai ika noa a Sione ka kai he faiaoga.\",\n  \"c.\": \"Ne t\u0101 he faiaoga ne kitia e Mele e vaka.\",\n  \"d.\": \"Kua muhu k\u0101muta t\u016bmau.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294155,
+    "completedAt": 1793294168,
+    "durationMs": 13048
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "a.": "To totou foki a ia.",
+      "b.": "Kua fai ika noa a Sione ka kai he faiaoga.",
+      "c.": "Ne t\u0101 he faiaoga ne kitia e Mele e vaka.",
+      "d.": "Kua muhu k\u0101muta t\u016bmau."
+    },
+    "score": 1.0,
+    "parts_correct": 4,
+    "parts_total": 4,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 1.0,
+      "b.": 1.0,
+      "c.": 1.0,
+      "d.": 1.0
+    }
+  },
+  "seconds": 13.415975791984238,
+  "usage": {
+    "total": {
+      "totalTokens": 4708,
+      "inputTokens": 4355,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 353,
+      "reasoningOutputTokens": 274
+    },
+    "last": {
+      "totalTokens": 4708,
+      "inputTokens": 4355,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 353,
+      "reasoningOutputTokens": 274
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793294168.869259
+}

@@ -1,0 +1,25 @@
+You are an intelligent assistant specializing in solving custom puzzle problems. Below is a specific rule defined for a custom puzzle. Your task is to apply this rule accurately to the provided question.
+
+### Instructions:
+
+1. Thoroughly understand the rule provided. If needed, break down the rule into simpler components or steps.
+2. Apply the rule carefully to address the question presented.
+3. Verify your answer to ensure it aligns with the rule and the context of the puzzle.
+
+### Puzzle Rule:
+
+1.A rectangular grid is given, which is pre-filled with numbers, while each row and column has a number at the end indicating the sum of the numbers in that row or column.
+2.The player needs to fill the remaining spaces with a specified set of numbers. 
+3.Each number can only be used once.
+4.The numbers must be filled in such that the sum of the numbers in each row and column matches the intended sum.
+5.The puzzle is given in the form of a matrix with blank squares filled with X and the player replaces the squares with numbers.
+
+### Question:
+X  X  X  X  49
+X  X  X  X  23
+X  X  X  X  34
+X  X  X  X  30
+40  52  10  34  
+The final answer should be given in order from left to right, top to bottom with each element separated by a space and different lines separated by ",". Wrap your final answer in double square brackets, like this: [[your answer]].
+
+### Answer:

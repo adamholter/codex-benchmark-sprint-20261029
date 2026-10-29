@@ -1,0 +1,21 @@
+{
+  "1.": "Undetermined: lettered options not provided",
+  "2.": "Undetermined: lettered options not provided",
+  "3.": "Undetermined: lettered options not provided",
+  "4.": "Undetermined: lettered options not provided",
+  "5.": "Undetermined: lettered options not provided",
+  "6.": "Undetermined: lettered options not provided",
+  "7.": "Undetermined: lettered options not provided",
+  "8.": "Undetermined: lettered options not provided",
+  "9.": "Undetermined: lettered options not provided",
+  "10.": "Undetermined: lettered options not provided",
+  "11.": "Undetermined: lettered options not provided",
+  "12.": "Undetermined: lettered options not provided",
+  "13.": "Undetermined: lettered options not provided",
+  "14.": "Undetermined: lettered options not provided",
+  "15.": "Undetermined: lettered options not provided",
+  "16.": "Undetermined: lettered options not provided",
+  "17.": "Undetermined: lettered options not provided",
+  "18.": "Undetermined: lettered options not provided",
+  "19.": "Undetermined: lettered options not provided"
+}

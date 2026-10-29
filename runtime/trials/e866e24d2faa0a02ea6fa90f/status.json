@@ -1,0 +1,83 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly_no_context",
+  "id": "189:Q 4.4:no_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294043.863659,
+  "turn": {
+    "id": "01a188a7-8cd6-7863-8a74-9c463e30e999",
+    "rootTurnId": "01a188a7-8cd6-7863-8a74-9c463e30e999",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0728a6540092e5ea016ae37ee36c00819588d2cd87b45965c1",
+        "text": "{\"(t)\":\"The supplied sheet omits the verb tables and noun declension examples referred to as \u201cabove.\u201d Without these data, the conjugation and singular\u2013plural patterns cannot be inferred, so a solution cannot be explained reliably.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294044,
+    "completedAt": 1793294054,
+    "durationMs": 9723
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "(t)": "The supplied sheet omits the verb tables and noun declension examples referred to as \u201cabove.\u201d Without these data, the conjugation and singular\u2013plural patterns cannot be inferred, so a solution cannot be explained reliably."
+    },
+    "score": 1.0,
+    "parts_correct": 1,
+    "parts_total": 1,
+    "empty_reference_parts": 1,
+    "part_scores": {
+      "(t)": 1.0
+    }
+  },
+  "seconds": 10.258511624997482,
+  "usage": {
+    "total": {
+      "totalTokens": 4265,
+      "inputTokens": 4173,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 92,
+      "reasoningOutputTokens": 37
+    },
+    "last": {
+      "totalTokens": 4265,
+      "inputTokens": 4173,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 92,
+      "reasoningOutputTokens": 37
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 90aa0ba4-bed2-4722-b6cf-fde4a8dc4e00",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a188a7-8c24-7113-96a1-d5392b0246de",
+      "turnId": "01a188a7-8cd6-7863-8a74-9c463e30e999"
+    }
+  ],
+  "finished_at": 1793294054.121417
+}

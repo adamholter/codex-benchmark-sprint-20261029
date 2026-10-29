@@ -1,0 +1,25 @@
+Lyric: Hey, are you into video games at all, Bethany?
+Bethany: Oh, absolutely! I absolutely love playing video games in my free time. Do you?
+Lyric: Yes, I do! What's your all-time favorite video game? You know, the one you'd pick over any other?
+Bethany: That's a tough one! But if I had to choose, I'd go for The Witcher 3: Wild Hunt. What about you?
+Lyric: Oh wow. That's a good choice. However, for me, it's got to be the Metal Gear Solid Series, particularly Metal Gear Solid 3: Snake Eater.
+Bethany: Really? What do you love about it?
+Lyric: I love the intricate storylines, the game mechanics, and above all, the character development. It's just got all of these subtle aspects that make it so much more than just a typical stealth game.
+Bethany: Interesting. I love The Witcher 3 because it has such an immersive world and deeply touching storylines. Plus, the freedom of decision making makes it so replayable.
+Lyric: Ah, yes. The Witcher 3 does have great replayability and amazing storylines. Have you ever played any of the Metal Gear Solid series?
+Bethany: Yes, I did play a couple of them but didn't quite get as hooked as I did with The Witcher. Have you tried The Witcher series?
+Lyric: I've started the first game, but I haven't made it to The Witcher 3 yet. But your description surely makes me want to try it sooner.
+Bethany: That's great to hear! You won't regret it, I promise.
+Sophia: Hi guys, I just got back. What are you talking about?
+Lyric: Oh hey, Sophia! We were just discussing our favorite video games. What about you? Are you a gamer too?
+Sophia: Ah, not much. Don't get me wrong, I enjoy a good video game now and then, but I'm more into board games personally.
+Bethany: Really? That's interesting, I also love board games. What's your favorite?
+Sophia: Well, I have a soft spot for a classic, like Monopoly. What about yours?
+Bethany: It's really hard to choose a favorite but if I had to, I would go for "Ticket to Ride". I adore the strategy involved.
+Lyric: I agree with Bethany. It's a great game. My personal favorite, though, is "Settlers of Catan". It's just so addictive!
+Sophia: Yes, Settlers of Catan is also a big hit in my group of friends. Maybe we could arrange a board game night sometime, including video game discussions. What do you think?
+Bethany & Lyric: Sounds like a great plan!
+
+Information: What were Lyric and Bethany discussing about The Witcher 3: Wild Hunt and the Metal Gear Solid Series? Lyric and Bethany were discussing their favorite video games. Bethany stated that The Witcher 3: Wild Hunt was her favorite due to its immersive world, deeply touching storylines, and the freedom of decision making which gives it replayability. Lyric's favorite was the Metal Gear Solid Series, particularly Metal Gear Solid 3: Snake Eater for its intricate storylines, game mechanics, and character development. They both expressed interest in trying each other's favorites.
+Question: List all the characters who know this information.
+Answer:

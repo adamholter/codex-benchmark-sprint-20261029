@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "fantom",
+  "id": "103-0-2-5042",
+  "category": "tom:belief:inaccessible:multiple-choice",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793293988.486325,
+  "turn": {
+    "id": "01a188a6-b438-7a31-ad59-11d0a4d98fa1",
+    "rootTurnId": "01a188a6-b438-7a31-ad59-11d0a4d98fa1",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_01b2d52bf45d13d8016ae37ea7a53481938a533216e82bb9c8",
+        "text": "(b) Lia does not know or is unaware of the specific activities Dillon and Kristen discussed.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793293988,
+    "completedAt": 1793293992,
+    "durationMs": 3549
+  },
+  "score": {
+    "correct": true,
+    "extracted": "(b) Lia does not know or is unaware of the specific activities Dillon and Kristen discussed.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 4.454448833013885,
+  "usage": {
+    "total": {
+      "totalTokens": 4623,
+      "inputTokens": 4576,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 47,
+      "reasoningOutputTokens": 23
+    },
+    "last": {
+      "totalTokens": 4623,
+      "inputTokens": 4576,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 47,
+      "reasoningOutputTokens": 23
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793293992.93946
+}

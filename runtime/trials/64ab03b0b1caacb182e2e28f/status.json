@@ -1,0 +1,68 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly_no_context",
+  "id": "13:Q 1.:no_context",
+  "category": "Computational",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793284396.923928,
+  "turn": {
+    "id": "01a18814-59a8-74d2-a9a3-871f788b130b",
+    "rootTurnId": "01a18814-59a8-74d2-a9a3-871f788b130b",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0dfade65f76c4c14016ae3592fd17c81959755e9ffde2c3427",
+        "text": "{\"a\":\"Cannot identify the incorrect words: no translated text is provided.\",\"b\":\"Cannot suggest corrections without the translated text.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793284397,
+    "completedAt": 1793284400,
+    "durationMs": 2686
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "a": "Cannot identify the incorrect words: no translated text is provided.",
+      "b": "Cannot suggest corrections without the translated text."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 2,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a": 0.0,
+      "b": 0.0
+    }
+  },
+  "seconds": 3.280220791930333,
+  "usage": {
+    "total": {
+      "totalTokens": 4016,
+      "inputTokens": 3967,
+      "cachedInputTokens": 3840,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 49,
+      "reasoningOutputTokens": 17
+    },
+    "last": {
+      "totalTokens": 4016,
+      "inputTokens": 3967,
+      "cachedInputTokens": 3840,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 49,
+      "reasoningOutputTokens": 17
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "finished_at": 1793284400.203768
+}

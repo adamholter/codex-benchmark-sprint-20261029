@@ -1,0 +1,76 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "fantom",
+  "id": "84-0-2-4283",
+  "category": "tom:info_accessibility:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289764.9938052,
+  "turn": {
+    "id": "01a18866-4183-7972-8409-4a6a7b3f6940",
+    "rootTurnId": "01a18866-4183-7972-8409-4a6a7b3f6940",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0df7c8c38f4682af016ae36e3e5ba48190aa1de33c2821ee44",
+        "text": "Kristopher and Veronica.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289765,
+    "completedAt": 1793289790,
+    "durationMs": 25493
+  },
+  "score": {
+    "correct": true,
+    "extracted": "Kristopher and Veronica.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 25.979399582953192,
+  "usage": {
+    "total": {
+      "totalTokens": 4400,
+      "inputTokens": 4362,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 38,
+      "reasoningOutputTokens": 27
+    },
+    "last": {
+      "totalTokens": 4400,
+      "inputTokens": 4362,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 38,
+      "reasoningOutputTokens": 27
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 921bfada-5678-4364-a920-31e5c31d3c37",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a18866-4154-70a3-aba7-63ce8c6f24b1",
+      "turnId": "01a18866-4183-7972-8409-4a6a7b3f6940"
+    }
+  ],
+  "finished_at": 1793289790.972595
+}

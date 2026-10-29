@@ -1,0 +1,5 @@
+**(A)** is true. Afghanistan’s capital is Kabul, not Kandahar, and \(6-(3/-9)>10\) is false. Thus (A) simplifies to:
+
+\[
+\text{not }(X\text{ and False})\text{ or False}=\text{True}.
+\]

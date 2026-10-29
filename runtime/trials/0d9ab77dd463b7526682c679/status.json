@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "bbeh",
+  "id": "mini:nycc:0385",
+  "category": "nycc",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292515.351252,
+  "turn": {
+    "id": "01a18890-38a8-79f3-ba69-e84a7339f1b0",
+    "rootTurnId": "01a18890-38a8-79f3-ba69-e84a7339f1b0",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0c5569ecea5e8285016ae378eab8108196ab63474d6a975dd7",
+        "text": "(D) \u201cThank you! We know you have a choice when you migrate....\u201d",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292515,
+    "completedAt": 1793292522,
+    "durationMs": 7455
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(d) \u201cthank you! we know you have a choice when you migrate....\u201d"
+  },
+  "seconds": 7.626516416086815,
+  "usage": {
+    "total": {
+      "totalTokens": 4049,
+      "inputTokens": 3913,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 136,
+      "reasoningOutputTokens": 113
+    },
+    "last": {
+      "totalTokens": 4049,
+      "inputTokens": 3913,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 136,
+      "reasoningOutputTokens": 113
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292522.975255
+}

@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "fantom",
+  "id": "70-0-1-3677",
+  "category": "tom:answerability:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292435.3472419,
+  "turn": {
+    "id": "01a1888f-0099-71a3-9ca5-defa486b66ac",
+    "rootTurnId": "01a1888f-0099-71a3-9ca5-defa486b66ac",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_016b2463f3a461c8016ae37897ce8881958fb890e0cc393ee1",
+        "text": "Marcus and Teresa.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292435,
+    "completedAt": 1793292439,
+    "durationMs": 4306
+  },
+  "score": {
+    "correct": true,
+    "extracted": "Marcus and Teresa.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 4.60599045897834,
+  "usage": {
+    "total": {
+      "totalTokens": 4384,
+      "inputTokens": 4269,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 115,
+      "reasoningOutputTokens": 105
+    },
+    "last": {
+      "totalTokens": 4384,
+      "inputTokens": 4269,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 115,
+      "reasoningOutputTokens": 105
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292439.953145
+}

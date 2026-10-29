@@ -1,0 +1,67 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly_no_context",
+  "id": "184:Q 9.4:no_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289572.353576,
+  "turn": {
+    "id": "01a18863-51b8-7720-a2d1-4fd5c6d380b4",
+    "rootTurnId": "01a18863-51b8-7720-a2d1-4fd5c6d380b4",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0ec0def7325b02cb016ae36d76dffc81948c5c6462e4269f31",
+        "text": "{\"1.\":\"Cannot be determined from the provided information; the Tseltal examples needed to infer the correct verb are missing.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289572,
+    "completedAt": 1793289592,
+    "durationMs": 19223
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "1.": "Cannot be determined from the provided information; the Tseltal examples needed to infer the correct verb are missing."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 1,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "1.": 0.0
+    }
+  },
+  "seconds": 19.777609042008407,
+  "usage": {
+    "total": {
+      "totalTokens": 4541,
+      "inputTokens": 4186,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 355,
+      "reasoningOutputTokens": 322
+    },
+    "last": {
+      "totalTokens": 4541,
+      "inputTokens": 4186,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 355,
+      "reasoningOutputTokens": 322
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793289592.130444
+}

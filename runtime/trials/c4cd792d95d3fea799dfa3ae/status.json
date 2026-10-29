@@ -1,0 +1,73 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly",
+  "id": "220:Q 5.2:full_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793291216.434248,
+  "turn": {
+    "id": "01a1887c-6723-72c1-b2f2-f26ea1d15512",
+    "rootTurnId": "01a1887c-6723-72c1-b2f2-f26ea1d15512",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0a145c1a5cdb4132016ae373f8d8308195887eea1598d7daed",
+        "text": "{\"21.\":\"boar\",\"22.\":\"red chicken\",\"23.\":\"buffalo cow\",\"24.\":\"buffalo meat\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793291216,
+    "completedAt": 1793291257,
+    "durationMs": 40497
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "21.": "boar",
+      "22.": "red chicken",
+      "23.": "buffalo cow",
+      "24.": "buffalo meat"
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 4,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "21.": 0.0,
+      "22.": 0.0,
+      "23.": 0.0,
+      "24.": 0.0
+    }
+  },
+  "seconds": 40.797783000045456,
+  "usage": {
+    "total": {
+      "totalTokens": 8406,
+      "inputTokens": 4767,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 3639,
+      "reasoningOutputTokens": 3606
+    },
+    "last": {
+      "totalTokens": 8406,
+      "inputTokens": 4767,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 3639,
+      "reasoningOutputTokens": 3606
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793291257.2316642
+}

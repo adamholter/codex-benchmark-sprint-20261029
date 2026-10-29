@@ -1,0 +1,12 @@
+{
+  "(j)": "Cannot be determined from the supplied information",
+  "(k)": "Cannot be determined from the supplied information",
+  "(l)": "Cannot be determined from the supplied information",
+  "(m)": "Cannot be determined from the supplied information",
+  "(n)": "Cannot be determined from the supplied information",
+  "(o)": "Cannot be determined from the supplied information",
+  "(p)": "Cannot be determined from the supplied information",
+  "(q)": "Cannot be determined from the supplied information",
+  "(r)": "Cannot be determined from the supplied information",
+  "(s)": "Cannot be determined from the supplied information"
+}

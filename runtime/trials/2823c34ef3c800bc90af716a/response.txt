@@ -1,0 +1,1 @@
+**(A).** The conjunction inside the outer `not` is false because “The capital of Afghanistan is Kandahar” is false. So that `not` is true. The final comparison, \(6-(3/-9)>10\), is false, leaving **true OR false = true**.

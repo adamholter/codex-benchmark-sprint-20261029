@@ -1,0 +1,97 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly_no_context",
+  "id": "171:Q 1.1:no_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793289984.432713,
+  "turn": {
+    "id": "01a18869-9b2b-7032-9319-1d9cd9237bdd",
+    "rootTurnId": "01a18869-9b2b-7032-9319-1d9cd9237bdd",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_024ea02310adc18f016ae36f02f6888190be0a7d159a1f9e3b",
+        "text": "{\n  \"a.\": \"Cannot determine: the table is missing.\",\n  \"b.\": \"Cannot determine\",\n  \"c.\": \"Cannot determine\",\n  \"d.\": \"Cannot determine\",\n  \"e.\": \"Cannot determine\",\n  \"f.\": \"Cannot determine\",\n  \"g.\": \"Cannot determine\",\n  \"h.\": \"Cannot determine\",\n  \"i.\": \"Cannot determine\",\n  \"j.\": \"Cannot determine\",\n  \"k.\": \"Cannot determine\",\n  \"l.\": \"Cannot determine\",\n  \"m.\": \"Cannot determine\",\n  \"n.\": \"Cannot determine\",\n  \"o.\": \"Cannot determine\",\n  \"p.\": \"Cannot determine\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793289984,
+    "completedAt": 1793289988,
+    "durationMs": 3453
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "a.": "Cannot determine: the table is missing.",
+      "b.": "Cannot determine",
+      "c.": "Cannot determine",
+      "d.": "Cannot determine",
+      "e.": "Cannot determine",
+      "f.": "Cannot determine",
+      "g.": "Cannot determine",
+      "h.": "Cannot determine",
+      "i.": "Cannot determine",
+      "j.": "Cannot determine",
+      "k.": "Cannot determine",
+      "l.": "Cannot determine",
+      "m.": "Cannot determine",
+      "n.": "Cannot determine",
+      "o.": "Cannot determine",
+      "p.": "Cannot determine"
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 16,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 0.0,
+      "b.": 0.0,
+      "c.": 0.0,
+      "d.": 0.0,
+      "e.": 0.0,
+      "f.": 0.0,
+      "g.": 0.0,
+      "h.": 0.0,
+      "i.": 0.0,
+      "j.": 0.0,
+      "k.": 0.0,
+      "l.": 0.0,
+      "m.": 0.0,
+      "n.": 0.0,
+      "o.": 0.0,
+      "p.": 0.0
+    }
+  },
+  "seconds": 3.873177375062369,
+  "usage": {
+    "total": {
+      "totalTokens": 4515,
+      "inputTokens": 4341,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 174,
+      "reasoningOutputTokens": 17
+    },
+    "last": {
+      "totalTokens": 4515,
+      "inputTokens": 4341,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 174,
+      "reasoningOutputTokens": 17
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793289988.30525
+}

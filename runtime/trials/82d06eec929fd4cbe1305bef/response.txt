@@ -1,0 +1,7 @@
+The clues do not admit a valid arrangement, so the Tumi owner’s position cannot be determined.
+
+For example, apples = ferrets = Blends = photography (clues 14, 40, 57), and apples are in the silver house at an end (45, 48, 79). Since mystery is to the left of photography (32, 94), photography must be at position 5. Wang is then at position 4 (90).
+
+The house clues place the black, indigo, and violet houses consecutively, in that order. The spy is Chilean and lives in the indigo house; the spy is also Nour (23, 27, 31, 101). Since the Chilean is left of Wang (43), Nour must be at position 2 or 3. If Nour were at 3, snorkeling would have to be at 1 (it is next to the black house at 2, and cannot be Nour’s skiing/paragliding activity); then gardening would need to be immediately to the left of snorkeling, which is impossible. So Nour is at 2.
+
+The teacher is immediately to Nour’s right: skiing is Nour’s activity (95), the teacher is next to the skier (85), and the teacher is between Nour and the dancer (18). Thus biking/teacher is at 3, and the dancer is at 5. By clue 103, Barbara must be to the right of the biker, so Barbara must be at 4 or 5. But Wang is at 4; and Mandy must be at 1 because ligers must be between Mandy and the biker. Since Yair is at an end, Yair must be at 5. That leaves no possible position for Barbara.

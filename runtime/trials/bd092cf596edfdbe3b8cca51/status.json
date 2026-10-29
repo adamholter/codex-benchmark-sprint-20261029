@@ -1,0 +1,116 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "PlanBench Blocksworld Hard - PDDL",
+  "id": "instance-6",
+  "category": "PDDL plan generation / exact plan validity",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294808.38995,
+  "turn": {
+    "id": "01a188b3-36ae-7393-ba7a-99089ada4dd7",
+    "rootTurnId": "01a188b3-36ae-7393-ba7a-99089ada4dd7",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0b002f4ee12c5a57016ae381f0bab481938cee6ff57bbfc212",
+        "text": "(unstack c f)\n(put-down c)\n(unstack f h)\n(put-down f)\n(unstack h a)\n(put-down h)\n(unstack a b)\n(put-down a)\n(unstack d l)\n(put-down d)\n(unstack g i)\n(put-down g)\n(stack d i)\n(pick-up c)\n(stack c l)\n(pick-up g)\n(stack g h)\n(pick-up f)\n(stack f g)\n(unstack k e)\n(put-down k)\n(unstack e j)\n(put-down e)\n(pick-up j)\n(stack j f)\n(pick-up e)\n(stack e j)\n(pick-up b)\n(stack b e)\n(pick-up a)\n(stack a b)\n(pick-up k)\n(stack k a)",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294808,
+    "completedAt": 1793294833,
+    "durationMs": 25124
+  },
+  "score": {
+    "correct": false,
+    "extracted": [
+      "(unstack c f)",
+      "(put-down c)",
+      "(unstack f h)",
+      "(put-down f)",
+      "(unstack h a)",
+      "(put-down h)",
+      "(unstack a b)",
+      "(put-down a)",
+      "(unstack d l)",
+      "(put-down d)",
+      "(unstack g i)",
+      "(put-down g)",
+      "(stack d i)",
+      "(pick-up c)",
+      "(stack c l)",
+      "(pick-up g)",
+      "(stack g h)",
+      "(pick-up f)",
+      "(stack f g)",
+      "(unstack k e)",
+      "(put-down k)",
+      "(unstack e j)",
+      "(put-down e)",
+      "(pick-up j)",
+      "(stack j f)",
+      "(pick-up e)",
+      "(stack e j)",
+      "(pick-up b)",
+      "(stack b e)",
+      "(pick-up a)",
+      "(stack a b)",
+      "(pick-up k)",
+      "(stack k a)"
+    ],
+    "valid_actions": 12,
+    "reason": "precondition_failed",
+    "failed_step": 13,
+    "action": "(stack d i)",
+    "precondition": [
+      "holding",
+      "d"
+    ]
+  },
+  "seconds": 25.538072291994467,
+  "usage": {
+    "total": {
+      "totalTokens": 6019,
+      "inputTokens": 4305,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1714,
+      "reasoningOutputTokens": 1552
+    },
+    "last": {
+      "totalTokens": 6019,
+      "inputTokens": 4305,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1714,
+      "reasoningOutputTokens": 1552
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 660bda5c-dc2d-4547-8d92-19cbca6bda91",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a188b3-3697-74a2-9f0c-afd493ce09bf",
+      "turnId": "01a188b3-36ae-7393-ba7a-99089ada4dd7"
+    }
+  ],
+  "finished_at": 1793294833.927546
+}

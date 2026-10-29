@@ -1,0 +1,67 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly_no_context",
+  "id": "220:Q 5.4:no_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793295325.1331022,
+  "turn": {
+    "id": "01a188bb-18bf-7983-b340-3457c7ad54b9",
+    "rootTurnId": "01a188bb-18bf-7983-b340-3457c7ad54b9",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_06d0bae1f9c251e7016ae384112d288190a34fa25c1dee9f12",
+        "text": "{\"30.\":\"A dragon drinking water.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793295325,
+    "completedAt": 1793295377,
+    "durationMs": 52126
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "30.": "A dragon drinking water."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 1,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "30.": 0.0
+    }
+  },
+  "seconds": 52.55165579204913,
+  "usage": {
+    "total": {
+      "totalTokens": 4911,
+      "inputTokens": 4233,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 678,
+      "reasoningOutputTokens": 662
+    },
+    "last": {
+      "totalTokens": 4911,
+      "inputTokens": 4233,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 678,
+      "reasoningOutputTokens": 662
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793295377.684725
+}

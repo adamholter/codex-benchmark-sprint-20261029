@@ -1,0 +1,13 @@
+Consider the following new operations:
+
+$a ][ b$ equals $(a + b)$ if $a * b > 0$; otherwise,  it equals $-a + -b$.
+$a @ b$ equals $min(a, b)$ if either $a$ or $b$ is prime and $max(a, b)$ otherwise.
+$a [] b$ equals $(b - a) + b$ if $|a-b| < 2$ and $(a - b) + a$ otherwise.
+$a <> b$ equals $(a - b)$ if $a [] b > 0$; otherwise,  it equals $a + b$.
+$a & b$ equals $(a + b)$ if $a <> b > 0$; otherwise,  it equals $a @ b$.
+$a ! b$ equals $(a + a) @ b$ if $b < 2$ and $(b + b) @ a$ otherwise.
+For brevity, we use $a <op1><op2> b$ to denote $(a op1 b) op2 b$. For example, $4 +* -5$ means $(4 + -5) * -5$ and $4 *-- -5$ means $(4 * -5) -- -5$.
+Let A = ((((-2 &-* 3) []<> (9 @- -7)) *[] ((nine *][<> -7) + (5 &! five))) *][@ (((8 ][ 1) *-][ (-8 []&<> -8)) @& ((-9 -++ -2) -** (-8 & -5))))
+Let B = ((((4 @- -10) [] (-5 +<> six)) - ((9 ][][- -3) @*+ (6 ! -2))) @<> (((-6 @-<> nine) <> (6 + five)) !&<> ((ten ][+ 4) &][ (-3 <> -10))))
+Let C = ((((7 <> -6) <>[]* (3 & 4)) ][[]& ((-2 []][& -2) ! (-7 - -4))) & (((-8 ! -10) & (ten ][& four)) !++ ((ten & -1) ][ (seven & 5)))).
+Compute A + B - C. Your final answer must be in number form.

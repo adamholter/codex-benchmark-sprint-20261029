@@ -1,0 +1,111 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly",
+  "id": "91:Q 8.:full_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793285404.54102,
+  "turn": {
+    "id": "01a18823-b882-72b1-a79b-5135a98cee57",
+    "rootTurnId": "01a18823-b882-72b1-a79b-5135a98cee57",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0f5bd2cb393655e4016ae35d4f7c048194aaf1161edca8305c",
+        "text": "{\n  \"3a\": \"baray\",\n  \"5b\": \"baajiday\",\n  \"8b\": \"bi\u2019iday\",\n  \"9b\": \"bilaabtay\",\n  \"10a\": \"cunay\",\n  \"13b\": \"daaqday\",\n  \"14b\": \"dhacday\",\n  \"18b\": \"faraxday\",\n  \"20b\": \"gashay\",\n  \"21b\": \"go\u2019day\",\n  \"22a\": \"helay\",\n  \"24b\": \"kacday\",\n  \"27b\": \"qaaday\",\n  \"29b\": \"xidhay\",\n  \"30b\": \"walaaqday\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793285404,
+    "completedAt": 1793285458,
+    "durationMs": 53802
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "3a": "baray",
+      "5b": "baajiday",
+      "8b": "bi\u2019iday",
+      "9b": "bilaabtay",
+      "10a": "cunay",
+      "13b": "daaqday",
+      "14b": "dhacday",
+      "18b": "faraxday",
+      "20b": "gashay",
+      "21b": "go\u2019day",
+      "22a": "helay",
+      "24b": "kacday",
+      "27b": "qaaday",
+      "29b": "xidhay",
+      "30b": "walaaqday"
+    },
+    "score": 1.0,
+    "parts_correct": 15,
+    "parts_total": 15,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "3a": 1.0,
+      "5b": 1.0,
+      "8b": 1.0,
+      "9b": 1.0,
+      "10a": 1.0,
+      "13b": 1.0,
+      "14b": 1.0,
+      "18b": 1.0,
+      "20b": 1.0,
+      "21b": 1.0,
+      "22a": 1.0,
+      "24b": 1.0,
+      "27b": 1.0,
+      "29b": 1.0,
+      "30b": 1.0
+    }
+  },
+  "seconds": 54.085907541099004,
+  "usage": {
+    "total": {
+      "totalTokens": 5169,
+      "inputTokens": 4911,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 258,
+      "reasoningOutputTokens": 104
+    },
+    "last": {
+      "totalTokens": 5169,
+      "inputTokens": 4911,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 258,
+      "reasoningOutputTokens": 104
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 94b44288-d019-4b96-9047-84813ccd108b",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a18823-b86c-7392-839f-0e4a1d256bb4",
+      "turnId": "01a18823-b882-72b1-a79b-5135a98cee57"
+    }
+  ],
+  "finished_at": 1793285458.626566
+}

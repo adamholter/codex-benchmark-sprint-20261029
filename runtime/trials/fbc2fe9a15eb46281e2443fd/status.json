@@ -1,0 +1,85 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly",
+  "id": "179:Q 4.2:full_context",
+  "category": "Rosetta / Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793286882.073647,
+  "turn": {
+    "id": "01a1883a-458a-77a3-b208-fba27fab1bb6",
+    "rootTurnId": "01a1883a-458a-77a3-b208-fba27fab1bb6",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0128181cb5758f0f016ae362e745a88194bb3ee23ccf513a11",
+        "text": "{\n  \"(a)\": \"Roman numeral unavailable; likely farming\",\n  \"(b)\": \"Roman numeral unavailable; likely business\",\n  \"(c)\": \"Roman numeral unavailable; likely cats\",\n  \"(d)\": \"Roman numeral unavailable; likely goodness\",\n  \"(e)\": \"Roman numeral unavailable; likely writing\",\n  \"(f)\": \"Roman numeral unavailable; likely fishing\",\n  \"(g)\": \"Roman numeral unavailable; likely wealth\",\n  \"(h)\": \"Roman numeral unavailable; likely big (plural)\",\n  \"(i)\": \"Roman numeral unavailable; likely dirt\",\n  \"(j)\": \"Roman numeral unavailable; likely dogs\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793286882,
+    "completedAt": 1793286888,
+    "durationMs": 5438
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "Roman numeral unavailable; likely farming",
+      "(b)": "Roman numeral unavailable; likely business",
+      "(c)": "Roman numeral unavailable; likely cats",
+      "(d)": "Roman numeral unavailable; likely goodness",
+      "(e)": "Roman numeral unavailable; likely writing",
+      "(f)": "Roman numeral unavailable; likely fishing",
+      "(g)": "Roman numeral unavailable; likely wealth",
+      "(h)": "Roman numeral unavailable; likely big (plural)",
+      "(i)": "Roman numeral unavailable; likely dirt",
+      "(j)": "Roman numeral unavailable; likely dogs"
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 10,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 0.0,
+      "(b)": 0.0,
+      "(c)": 0.0,
+      "(d)": 0.0,
+      "(e)": 0.0,
+      "(f)": 0.0,
+      "(g)": 0.0,
+      "(h)": 0.0,
+      "(i)": 0.0,
+      "(j)": 0.0
+    }
+  },
+  "seconds": 6.11258420906961,
+  "usage": {
+    "total": {
+      "totalTokens": 4585,
+      "inputTokens": 4300,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 285,
+      "reasoningOutputTokens": 155
+    },
+    "last": {
+      "totalTokens": 4585,
+      "inputTokens": 4300,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 285,
+      "reasoningOutputTokens": 155
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793286888.185921
+}

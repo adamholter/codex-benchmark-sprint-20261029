@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "bbeh",
+  "id": "mini:boolean_expressions:0261",
+  "category": "boolean_expressions",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793287758.020409,
+  "turn": {
+    "id": "01a18847-a1d8-7542-9397-a0a1f42b1812",
+    "rootTurnId": "01a18847-a1d8-7542-9397-a0a1f42b1812",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_031c054a974ec1a1016ae366522b308194a63be26682e0f0c8",
+        "text": "**(D)** is true.\n\nIn its first group, all three alternatives are false:\n\n- \\(6 \\le -8\\) is false.\n- The range \\(6 \\le 7\\) is true, so its triple negation is false.\n- \\(-6 \\le 5\\) is true, so its negation makes the final conjunction false.\n\nThe outer `not` therefore makes the first group **true**. The remaining group is false, so the full expression is **true or false**, which is **true**.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793287758,
+    "completedAt": 1793287763,
+    "durationMs": 5391
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(d) is true"
+  },
+  "seconds": 5.6870170830516145,
+  "usage": {
+    "total": {
+      "totalTokens": 5230,
+      "inputTokens": 4998,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 232,
+      "reasoningOutputTokens": 115
+    },
+    "last": {
+      "totalTokens": 5230,
+      "inputTokens": 4998,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 232,
+      "reasoningOutputTokens": 115
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793287763.707186
+}

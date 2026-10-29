@@ -1,0 +1,68 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-RQ_Hard_3668",
+  "category": "Multi-RQ_Hard",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793286540.765517,
+  "turn": {
+    "id": "01a18835-0e79-7730-8054-590941ae2825",
+    "rootTurnId": "01a18835-0e79-7730-8054-590941ae2825",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_05ca3d3c4baf0b7b016ae361a8526c81959b45999b169a192b",
+        "text": "{\n  \"question1\": \"[[A]]\",\n  \"question2\": \"[[\u03c6 \u2228 ([c][c*]\u03c6)]]\",\n  \"question3\": \"[[FPDRCHKBOGG]]\",\n  \"question4\": \"[[852]]\",\n  \"question5\": \"[[\u27e8c\u27e9\u03c6]]\",\n  \"question6\": \"[[No solution: the clues are inconsistent]]\",\n  \"question7\": \"[[ [c]open ]]\",\n  \"question8\": \"[[\u03c6 \u2228 ([c][c*]\u03c6)]]\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793286540,
+    "completedAt": 1793286569,
+    "durationMs": 28379
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "question1": "A",
+      "question2": "\u03c6 \u2228 ([c][c*]\u03c6)",
+      "question3": "FPDRCHKBOGG",
+      "question4": "852",
+      "question5": "\u27e8c\u27e9\u03c6",
+      "question6": "No solution: the clues are inconsistent",
+      "question7": "[c]open",
+      "question8": "\u03c6 \u2228 ([c][c*]\u03c6)"
+    },
+    "pass_rate": 0.625
+  },
+  "seconds": 28.56226754200179,
+  "usage": {
+    "total": {
+      "totalTokens": 8313,
+      "inputTokens": 6023,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 2290,
+      "reasoningOutputTokens": 2161
+    },
+    "last": {
+      "totalTokens": 8313,
+      "inputTokens": 6023,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 2290,
+      "reasoningOutputTokens": 2161
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793286569.3277051
+}

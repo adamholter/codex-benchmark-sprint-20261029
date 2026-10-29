@@ -1,0 +1,20 @@
+Ellie: Guys, I've got to go have a quick chat with someone else. Let's continue our gaming chatter later. Have fun discussing game design and development!
+Javier: Sure thing, Ellie. Catch you later.
+Quinton: Later, Ellie! Alright Javier, so what's been your most impressive experience in game design and development?
+Javier: Well, I think the hyper-realistic graphics in newer games impress me the most. The level of detail they put in, it's like I'm part of the game instead of just playing it. What about you, Quinton?
+Quinton: I agree with you on the graphics, but the narrative design in some games astonishes me. Stories that morph and change based on your choices. Real cause and effect.
+Javier: Absolutely, choice-driven narratives make the gaming experience incredibly immersive. It's exciting to think about how far game development has come and where it's going next.
+Quinton: Definitely, and with advancements in technology, who knows what the possibilities could be. The future of gaming is exciting, to say the least.
+Ellie: Hey again, guys. Shifting gears a bit, have you experienced any esports tournaments or matches that just left you completely blown away?
+Javier: Welcome back, Ellie. And yes! For me, it was the 2019 League of Legends World Championship semifinals between SK Telecom T1 and G2 Esports. The level of play was out of this world.
+Quinton: No doubt, that match was insane! However, for me, it's gotta be the 2018 Overwatch League Grand Finals. The way London Spitfire turned the game around in the finals was nothing short of exhilarating.
+Ellie: I remember that! Both matches were the epitome of esports at its finest. And the crowd energy in both those tournaments was electrifying. Speaking of crowd energy, I once attended a Fortnite World Cup Live Event. The stadium was packed and the excitement was contagious.
+Javier: Sounds like an amazing experience! I wish I could attend an esports event live one day too.
+Quinton: Count me in as well. The community spirit in these events must be incredible. I'd love to be a part of it.
+Ellie: You definitely should. The atmosphere is indescribable. It's like a rock concert and a sports championship all rolled into one.
+Javier: I can only imagine! Hopefully one day, when it's safe to do so, we'll all attend an esports event live.
+Quinton: That would be a dream come true! Agreed Ellie, it would be an experience like no other.
+
+Target: How did Javier and Quinton express their anticipation for the future of game development?
+Question: List all the characters who know the precise correct answer to this question.
+Answer:

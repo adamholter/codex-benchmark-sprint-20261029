@@ -1,0 +1,21 @@
+Erin: Well guys, I hate to cut this conversation short, but I have to schedule a haircut appointment now.
+Easton: No worries, Erin! Thanks for sharing with us. Have a good appointment!
+Alissa: Yes, take care, Erin! Easton, what would you say is the most impressive game design you have experienced?
+Easton: That's a tough one. I've seen countless impressive games, but 'The Legend of Zelda: That's a tough one. I've seen countless impressive games, but 'The Legend of Zelda: Breath of the Wild' stands out for me because of its open-world design. It felt like nothing was off-limits, which gave an amazing sense of freedom. Plus, the attention to detail in the graphics was just stunning.
+Alissa: I've heard similar praises. On the development side, coding such a world must be incredibly challenging.
+Easton: Absolutely, it is. Designing a game world so vast and detailed requires an immense practice of design principles and coding skills. I wish I became a part of such a team!
+Alissa: Well, who knows what the future holds? But until then, let’s continue exploring these amazing worlds game developers create for us!
+Erin: Hey, guys! Appointment is set. What were we talking about?
+Alissa: Welcome back, Erin! We were addressing the complexity behind game design and development. Easton was talking about his admiration for the creation of 'The Legend of Zelda: Breath of the Wild'.
+Erin: Couldn't agree more, Easton. The development of such games requires not just skill, but a real creativity and artistry. Designing such games is like world-building with no physical limitations.
+Easton: Exactly, Erin! And when gamers appreciate the entire world just as much as gameplay itself, then the game developers have truly succeeded.
+Alissa: Since we're on the subject, have any of you played in an eSport league before? Or perhaps participated in a large-scale gaming event?
+Erin: I've participated in a few local tournaments for DOTA 2 and League of Legends. Nothing too serious, though. Just a lot of fun and also a little nerve-racking.
+Easton: I've competed in a few Counter-Strike tournaments, and yes, they are nerve-racking! But the feeling of competing and cooperating with others is worth it. It's amazing to see how organized and passionate people can get about gaming.
+Alissa: It’s thrilling! Gaming has taken a meaningful shape and has become more than just entertainment - it's a community, filled with passion, collaboration, and competition.
+Erin: Absolutely! Gaming continues to bring people together and forge connections that can last a lifetime.
+Easton: Couldn’t have said it better, Erin! Games do more than entertain; they provide a platform for inclusion, camaraderie, and endless exploration.
+
+Target: What aspects of 'The Legend of Zelda: Breath of the Wild' did Easton and Alissa discuss?
+Question: Does Alissa know the precise correct answer to this question? Answer yes or no.
+Answer:

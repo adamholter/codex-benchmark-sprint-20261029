@@ -1,0 +1,22 @@
+{
+  "1.": "Cannot determine: lettered choices are missing.",
+  "2.": "Cannot determine: lettered choices are missing.",
+  "3.": "Cannot determine: lettered choices are missing.",
+  "4.": "Cannot determine: lettered choices are missing.",
+  "5.": "Cannot determine: lettered choices are missing.",
+  "6.": "Cannot determine: lettered choices are missing.",
+  "7.": "Cannot determine: lettered choices are missing.",
+  "8.": "Cannot determine: lettered choices are missing.",
+  "9.": "Cannot determine: lettered choices are missing.",
+  "10.": "Cannot determine: lettered choices are missing.",
+  "11.": "Cannot determine: lettered choices are missing.",
+  "12.": "Cannot determine: lettered choices are missing.",
+  "13.": "Cannot determine: lettered choices are missing.",
+  "14.": "Cannot determine: lettered choices are missing.",
+  "15.": "Cannot determine: lettered choices are missing.",
+  "16.": "Cannot determine: lettered choices are missing.",
+  "17.": "Cannot determine: lettered choices are missing.",
+  "18.": "Cannot determine: lettered choices are missing.",
+  "19.": "Cannot determine: lettered choices are missing.",
+  "20.": "Cannot determine: lettered choices are missing."
+}

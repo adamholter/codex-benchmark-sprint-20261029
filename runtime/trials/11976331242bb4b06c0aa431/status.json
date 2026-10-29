@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "bbeh",
+  "id": "mini:object_properties:0037",
+  "category": "object_properties",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292672.809355,
+  "turn": {
+    "id": "01a18892-9fcf-7783-9632-c91f96d4fd4b",
+    "rootTurnId": "01a18892-9fcf-7783-9632-c91f96d4fd4b",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0d5fe76a4204f952016ae379914c9c81939603566251ee9d42",
+        "text": "**13 items.**\n\nThe aunt\u2019s replacement material was ceramic, and the cousin\u2019s favorite smell was vinegar. After the removals, 11 qualifying items remained; the fianc\u00e9e added a copy of two of them because their coffee-and-color pairs were absent from the initial collection.\n\nThe lost extra-extra-small item cannot affect the count, since items of that size are excluded by the question.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292672,
+    "completedAt": 1793292690,
+    "durationMs": 17436
+  },
+  "score": {
+    "correct": false,
+    "extracted": "13 items"
+  },
+  "seconds": 17.62415983295068,
+  "usage": {
+    "total": {
+      "totalTokens": 6108,
+      "inputTokens": 5072,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1036,
+      "reasoningOutputTokens": 952
+    },
+    "last": {
+      "totalTokens": 6108,
+      "inputTokens": 5072,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1036,
+      "reasoningOutputTokens": 952
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292690.43311
+}

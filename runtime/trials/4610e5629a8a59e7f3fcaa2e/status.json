@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "korbench",
+  "id": "puzzle_191",
+  "category": "puzzle",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294230.314157,
+  "turn": {
+    "id": "01a188aa-6520-78b0-9535-6c38c856bbe0",
+    "rootTurnId": "01a188aa-6520-78b0-9535-6c38c856bbe0",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0e100308e9f8e8ff016ae37fa6c6d88196b04a01b2e966ad2e",
+        "text": "No solution satisfies the given constraints.\n\nRow 2 must have a tent in column 4 and another in either column 9 or 10. A tent at row 2, column 9 would prevent row 1 from placing its required three tents, so row 2 must use column 10.\n\nColumn 4 then requires a second tent at row 5, column 4. But column 9 also requires a tent, and its only remaining eligible position is row 5, column 9. That would give row 5 two tents, contrary to its constraint of one.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294230,
+    "completedAt": 1793294248,
+    "durationMs": 17424
+  },
+  "score": {
+    "correct": false,
+    "extracted": "NULL"
+  },
+  "seconds": 17.95636149996426,
+  "usage": {
+    "total": {
+      "totalTokens": 5298,
+      "inputTokens": 4140,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1158,
+      "reasoningOutputTokens": 1034
+    },
+    "last": {
+      "totalTokens": 5298,
+      "inputTokens": 4140,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1158,
+      "reasoningOutputTokens": 1034
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793294248.270036
+}

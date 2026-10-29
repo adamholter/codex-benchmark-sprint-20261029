@@ -1,0 +1,85 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly_no_context",
+  "id": "129:Q 1.1:no_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292393.099124,
+  "turn": {
+    "id": "01a1888e-5b61-7a82-9295-1a8d78b6074b",
+    "rootTurnId": "01a1888e-5b61-7a82-9295-1a8d78b6074b",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0d06b50c8cfabec8016ae3786f2a10819585c2d664e2f74f5a",
+        "text": "{\n  \"1.\": \"Insufficient information provided.\",\n  \"2.\": \"Insufficient information provided.\",\n  \"3.\": \"Insufficient information provided.\",\n  \"4.\": \"Insufficient information provided.\",\n  \"5.\": \"Insufficient information provided.\",\n  \"6.\": \"Insufficient information provided.\",\n  \"7.\": \"Insufficient information provided.\",\n  \"8.\": \"Insufficient information provided.\",\n  \"9.\": \"Insufficient information provided.\",\n  \"10.\": \"Insufficient information provided.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292393,
+    "completedAt": 1793292401,
+    "durationMs": 7959
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "1.": "Insufficient information provided.",
+      "2.": "Insufficient information provided.",
+      "3.": "Insufficient information provided.",
+      "4.": "Insufficient information provided.",
+      "5.": "Insufficient information provided.",
+      "6.": "Insufficient information provided.",
+      "7.": "Insufficient information provided.",
+      "8.": "Insufficient information provided.",
+      "9.": "Insufficient information provided.",
+      "10.": "Insufficient information provided."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 10,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "1.": 0.0,
+      "2.": 0.0,
+      "3.": 0.0,
+      "4.": 0.0,
+      "5.": 0.0,
+      "6.": 0.0,
+      "7.": 0.0,
+      "8.": 0.0,
+      "9.": 0.0,
+      "10.": 0.0
+    }
+  },
+  "seconds": 8.197138749994338,
+  "usage": {
+    "total": {
+      "totalTokens": 4187,
+      "inputTokens": 4025,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 162,
+      "reasoningOutputTokens": 44
+    },
+    "last": {
+      "totalTokens": 4187,
+      "inputTokens": 4025,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 162,
+      "reasoningOutputTokens": 44
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292401.29547
+}

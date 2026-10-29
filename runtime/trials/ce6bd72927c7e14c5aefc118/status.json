@@ -1,0 +1,101 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly_no_context",
+  "id": "85:Q 2.1:no_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793293341.229687,
+  "turn": {
+    "id": "01a1889c-d35e-7902-892e-b843758559fa",
+    "rootTurnId": "01a1889c-d35e-7902-892e-b843758559fa",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0e0063d18ea69724016ae37c22fd30819699782dde573acc31",
+        "text": "{\n  \"(a)\": \"Cannot determine\",\n  \"(b)\": \"Cannot determine\",\n  \"(c)\": \"Cannot determine\",\n  \"(d)\": \"Cannot determine\",\n  \"(e)\": \"Cannot determine\",\n  \"(f)\": \"Cannot determine\",\n  \"(g)\": \"Cannot determine\",\n  \"(h)\": \"Cannot determine\",\n  \"(i)\": \"Cannot determine\",\n  \"(j)\": \"Cannot determine\",\n  \"(k)\": \"Cannot determine\",\n  \"(l)\": \"Cannot determine\",\n  \"(m)\": \"Cannot determine\",\n  \"(n)\": \"Cannot determine\",\n  \"(o)\": \"Cannot determine\",\n  \"(p)\": \"Cannot determine\",\n  \"(q)\": \"Cannot determine\",\n  \"(r)\": \"Cannot determine\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793293341,
+    "completedAt": 1793293348,
+    "durationMs": 6498
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "Cannot determine",
+      "(b)": "Cannot determine",
+      "(c)": "Cannot determine",
+      "(d)": "Cannot determine",
+      "(e)": "Cannot determine",
+      "(f)": "Cannot determine",
+      "(g)": "Cannot determine",
+      "(h)": "Cannot determine",
+      "(i)": "Cannot determine",
+      "(j)": "Cannot determine",
+      "(k)": "Cannot determine",
+      "(l)": "Cannot determine",
+      "(m)": "Cannot determine",
+      "(n)": "Cannot determine",
+      "(o)": "Cannot determine",
+      "(p)": "Cannot determine",
+      "(q)": "Cannot determine",
+      "(r)": "Cannot determine"
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 18,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 0.0,
+      "(b)": 0.0,
+      "(c)": 0.0,
+      "(d)": 0.0,
+      "(e)": 0.0,
+      "(f)": 0.0,
+      "(g)": 0.0,
+      "(h)": 0.0,
+      "(i)": 0.0,
+      "(j)": 0.0,
+      "(k)": 0.0,
+      "(l)": 0.0,
+      "(m)": 0.0,
+      "(n)": 0.0,
+      "(o)": 0.0,
+      "(p)": 0.0,
+      "(q)": 0.0,
+      "(r)": 0.0
+    }
+  },
+  "seconds": 6.845845417003147,
+  "usage": {
+    "total": {
+      "totalTokens": 4420,
+      "inputTokens": 4228,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 192,
+      "reasoningOutputTokens": 40
+    },
+    "last": {
+      "totalTokens": 4420,
+      "inputTokens": 4228,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 192,
+      "reasoningOutputTokens": 40
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793293348.075024
+}

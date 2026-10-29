@@ -1,0 +1,12 @@
+Which option has more similar movies in terms of whether a group of people will like them or not?
+Options:
+(A) Mr Holland's Opus, Long Night's Journey Into Day, Get Shorty, What's Eating Gilbert Grape, Don Juan DeMarco
+(B) Howards End, Long Night's Journey Into Day, Get Shorty, What's Eating Gilbert Grape, Boccaccio '70
+(C) What's Eating Gilbert Grape, Don Juan DeMarco, The Shawshank Redemption, Long Night's Journey Into Day, Get Shorty
+(D) Howards End, Mr Holland's Opus, Boccaccio '70, Get Shorty, The Shawshank Redemption
+(E) Get Shorty, Long Night's Journey Into Day, Boccaccio '70, Mr Holland's Opus, The Shawshank Redemption
+(F) The Shawshank Redemption, Get Shorty, What's Eating Gilbert Grape, Don Juan DeMarco, Mr Holland's Opus
+(G) Boccaccio '70, Mr Holland's Opus, Don Juan DeMarco, What's Eating Gilbert Grape, Get Shorty
+(H) Get Shorty, Mr Holland's Opus, Don Juan DeMarco, Long Night's Journey Into Day, Boccaccio '70
+(I) Mr Holland's Opus, The Shawshank Redemption, Howards End, Get Shorty, What's Eating Gilbert Grape
+(J) Howards End, Don Juan DeMarco, Boccaccio '70, Get Shorty, Long Night's Journey Into Day

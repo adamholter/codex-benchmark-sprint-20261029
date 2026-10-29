@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "bbeh",
+  "id": "mini:geometric_shapes:0142",
+  "category": "geometric_shapes",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793295149.2275488,
+  "turn": {
+    "id": "01a188b8-6da2-7580-a695-ae1e60e98047",
+    "rootTurnId": "01a188b8-6da2-7580-a695-ae1e60e98047",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_05a32865cb4aa501016ae38336f7f481968bc8528ce91177dc",
+        "text": "**(A) 1 and 8.**\n\n- A non-square rectangle is formed on the left, with corners \\((-23.79937,-13.22876)\\), \\((-14.79937,-13.22876)\\), \\((-14.79937,0)\\), and \\((-23.79937,0)\\).\n- An irregular concave pentagon is formed by the vertices \\((-14.79937,-13.22876)\\), \\((0,-13.22876)\\), \\((-11.45644,-6.61438)\\), \\((0,0)\\), and \\((-14.79937,0)\\). The middle vertex creates the inward notch.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793295150,
+    "completedAt": 1793295160,
+    "durationMs": 9697
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(a) 1 and 8"
+  },
+  "seconds": 11.183554082992487,
+  "usage": {
+    "total": {
+      "totalTokens": 4838,
+      "inputTokens": 4355,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 483,
+      "reasoningOutputTokens": 332
+    },
+    "last": {
+      "totalTokens": 4838,
+      "inputTokens": 4355,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 483,
+      "reasoningOutputTokens": 332
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793295160.4103959
+}

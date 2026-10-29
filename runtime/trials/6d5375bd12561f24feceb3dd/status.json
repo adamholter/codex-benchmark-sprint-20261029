@@ -1,0 +1,73 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly",
+  "id": "220:Q 5.2:full_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793291258.064563,
+  "turn": {
+    "id": "01a1887d-0a7c-7f03-8f98-6edc45c4289f",
+    "rootTurnId": "01a1887d-0a7c-7f03-8f98-6edc45c4289f",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0f4385611efdf0dd016ae374966ea48196b27ebfde8bf6ed1f",
+        "text": "{\"21.\":\"boars\",\"22.\":\"a good eye\",\"23.\":\"to wear resolutely\",\"24.\":\"uncomfortable to wear\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793291258,
+    "completedAt": 1793291415,
+    "durationMs": 156597
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "21.": "boars",
+      "22.": "a good eye",
+      "23.": "to wear resolutely",
+      "24.": "uncomfortable to wear"
+    },
+    "score": 0.25,
+    "parts_correct": 1,
+    "parts_total": 4,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "21.": 1.0,
+      "22.": 0.0,
+      "23.": 0.0,
+      "24.": 0.0
+    }
+  },
+  "seconds": 157.04625524999574,
+  "usage": {
+    "total": {
+      "totalTokens": 8534,
+      "inputTokens": 4767,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 3767,
+      "reasoningOutputTokens": 3731
+    },
+    "last": {
+      "totalTokens": 8534,
+      "inputTokens": 4767,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 3767,
+      "reasoningOutputTokens": 3731
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793291415.110466
+}

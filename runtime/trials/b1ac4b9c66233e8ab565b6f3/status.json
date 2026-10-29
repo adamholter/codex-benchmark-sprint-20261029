@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "fantom",
+  "id": "245-0-0-12259",
+  "category": "tom:answerability:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793286617.736696,
+  "turn": {
+    "id": "01a18836-3b65-7590-841a-1eff8a9f76d8",
+    "rootTurnId": "01a18836-3b65-7590-841a-1eff8a9f76d8",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0c99a6e347c9ffae016ae361dc8c788197a686c7f03af36d1a",
+        "text": "Eloise and Braxton.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793286617,
+    "completedAt": 1793286620,
+    "durationMs": 2828
+  },
+  "score": {
+    "correct": true,
+    "extracted": "Eloise and Braxton.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 3.0717132500139996,
+  "usage": {
+    "total": {
+      "totalTokens": 4509,
+      "inputTokens": 4380,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 129,
+      "reasoningOutputTokens": 116
+    },
+    "last": {
+      "totalTokens": 4509,
+      "inputTokens": 4380,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 129,
+      "reasoningOutputTokens": 116
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793286620.808324
+}

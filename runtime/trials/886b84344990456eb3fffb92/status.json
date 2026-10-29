@@ -1,0 +1,75 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly",
+  "id": "220:Q 5.3:full_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288134.019951,
+  "turn": {
+    "id": "01a1884d-5ecc-77f2-839c-c09cc7f7abef",
+    "rootTurnId": "01a1884d-5ecc-77f2-839c-c09cc7f7abef",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_01fc2ad89e149950016ae368c9efe88190ba0d36945e954c7f",
+        "text": "{\n  \"25.\": \"kj\u0254\u014b\u2075nda\u00b9\",\n  \"26.\": \"put\u2077\",\n  \"27.\": \"kj\u0254\u014b\u2075gwi\u00b2ni\u2074\",\n  \"28.\": \"d\u0254\u00b2\u0294\u025bp\u2077\",\n  \"29.\": \"\u0294ai\u00b9tan\u00b3\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288134,
+    "completedAt": 1793288394,
+    "durationMs": 260463
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "25.": "kj\u0254\u014b\u2075nda\u00b9",
+      "26.": "put\u2077",
+      "27.": "kj\u0254\u014b\u2075gwi\u00b2ni\u2074",
+      "28.": "d\u0254\u00b2\u0294\u025bp\u2077",
+      "29.": "\u0294ai\u00b9tan\u00b3"
+    },
+    "score": 0.8,
+    "parts_correct": 4,
+    "parts_total": 5,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "25.": 1.0,
+      "26.": 1.0,
+      "27.": 1.0,
+      "28.": 0.0,
+      "29.": 1.0
+    }
+  },
+  "seconds": 260.8164299579803,
+  "usage": {
+    "total": {
+      "totalTokens": 10531,
+      "inputTokens": 4756,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 5775,
+      "reasoningOutputTokens": 5696
+    },
+    "last": {
+      "totalTokens": 10531,
+      "inputTokens": 4756,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 5775,
+      "reasoningOutputTokens": 5696
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793288394.8368452
+}

@@ -1,0 +1,20 @@
+{
+  "e.": "Cannot be determined",
+  "f.": "Cannot be determined",
+  "g.": "Cannot be determined",
+  "h.": "Cannot be determined",
+  "i.": "Cannot be determined",
+  "j.": "Cannot be determined",
+  "k.": "Cannot be determined",
+  "l.": "Cannot be determined",
+  "m.": "Cannot be determined",
+  "n.": "Cannot be determined",
+  "o.": "Cannot be determined",
+  "p.": "Cannot be determined",
+  "q.": "Cannot be determined",
+  "r.": "Cannot be determined",
+  "s.": "Cannot be determined",
+  "t.": "Cannot be determined",
+  "u.": "Cannot be determined",
+  "v.": "Cannot be determined"
+}

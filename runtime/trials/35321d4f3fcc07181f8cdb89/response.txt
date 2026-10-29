@@ -1,0 +1,17 @@
+{
+  "3a": "baray",
+  "5b": "baajiday",
+  "8b": "bi’iday",
+  "9b": "bilaabtay",
+  "10a": "cunay",
+  "13b": "daaqday",
+  "14b": "dhacay",
+  "18b": "faraxday",
+  "20b": "gashay",
+  "21b": "go’day",
+  "22a": "helay",
+  "24b": "kacday",
+  "27b": "qaaday",
+  "29b": "xidhay",
+  "30b": "walaaqday"
+}

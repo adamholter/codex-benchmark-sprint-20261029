@@ -1,0 +1,73 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly",
+  "id": "188:Q 3.2:full_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294152.609772,
+  "turn": {
+    "id": "01a188a9-3604-77e3-b368-246035bb25b8",
+    "rootTurnId": "01a188a9-3604-77e3-b368-246035bb25b8",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0c8cb3fd7b269e51016ae37f68d9348197bd7fed7c0185026f",
+        "text": "{\"a.\": \"To totou foki a ia.\", \"b.\": \"Kua fai noa e Sione e ika ka kai he faiaoga.\", \"c.\": \"Ne ta e faiaoga ne kitia e Mele e vaka.\", \"d.\": \"Muhu kamuta tu\u0304mau.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294153,
+    "completedAt": 1793294185,
+    "durationMs": 32280
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "a.": "To totou foki a ia.",
+      "b.": "Kua fai noa e Sione e ika ka kai he faiaoga.",
+      "c.": "Ne ta e faiaoga ne kitia e Mele e vaka.",
+      "d.": "Muhu kamuta tu\u0304mau."
+    },
+    "score": 0.25,
+    "parts_correct": 1,
+    "parts_total": 4,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 1.0,
+      "b.": 0.0,
+      "c.": 0.0,
+      "d.": 0.0
+    }
+  },
+  "seconds": 32.9235391250113,
+  "usage": {
+    "total": {
+      "totalTokens": 7266,
+      "inputTokens": 4355,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 2911,
+      "reasoningOutputTokens": 2837
+    },
+    "last": {
+      "totalTokens": 7266,
+      "inputTokens": 4355,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 2911,
+      "reasoningOutputTokens": 2837
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793294185.532377
+}

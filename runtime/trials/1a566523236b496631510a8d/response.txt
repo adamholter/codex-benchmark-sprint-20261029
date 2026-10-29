@@ -1,0 +1,7 @@
+**(E)** is the true expression.
+
+In its first part, “the capital of Nepal is Pokhara” is false, so the `not` applied to that conjunction is true. But the other factor is false: both \(2(-6)>-9\) and `not not not (6 - (-5 / -10) > 3)` are false. Thus the first part is false.
+
+In the second part, \(-7-(-2/-6)>-8\) is true, making the inner `or` true. Its three preceding `not`s make it false, so the conjunction is false. The three `not`s outside that conjunction then make the second part **true**.
+
+Therefore, (E) is `false or true`, which evaluates to **true**.

@@ -1,0 +1,99 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly_no_context",
+  "id": "74:Q 6.:no_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290285.356705,
+  "turn": {
+    "id": "01a1886e-32b4-7963-a9cd-d5693ef6076d",
+    "rootTurnId": "01a1886e-32b4-7963-a9cd-d5693ef6076d",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0c0cfa6f9c6b5666016ae37030607c8197b40c4d6e1bf5ece2",
+        "text": "{\n  \"1\": \"Cannot determine: translations and letters not provided\",\n  \"2\": \"Cannot determine: translations and letters not provided\",\n  \"3\": \"Cannot determine: translations and letters not provided\",\n  \"4\": \"Cannot determine: translations and letters not provided\",\n  \"5\": \"Cannot determine: translations and letters not provided\",\n  \"6\": \"Cannot determine: translations and letters not provided\",\n  \"7\": \"Cannot determine: translations and letters not provided\",\n  \"8\": \"Cannot determine: translations and letters not provided\",\n  \"9\": \"Cannot determine: translations and letters not provided\",\n  \"10\": \"Cannot determine: translations and letters not provided\",\n  \"11\": \"Cannot determine: translations and letters not provided\",\n  \"12\": \"Cannot determine: translations and letters not provided\",\n  \"13\": \"Cannot determine: translations and letters not provided\",\n  \"14\": \"Cannot determine: translations and letters not provided\",\n  \"15\": \"Cannot determine: translations and letters not provided\",\n  \"16\": \"Cannot determine: translations and letters not provided\",\n  \"17\": \"Cannot determine: translations and letters not provided\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290285,
+    "completedAt": 1793290290,
+    "durationMs": 4471
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "1": "Cannot determine: translations and letters not provided",
+      "2": "Cannot determine: translations and letters not provided",
+      "3": "Cannot determine: translations and letters not provided",
+      "4": "Cannot determine: translations and letters not provided",
+      "5": "Cannot determine: translations and letters not provided",
+      "6": "Cannot determine: translations and letters not provided",
+      "7": "Cannot determine: translations and letters not provided",
+      "8": "Cannot determine: translations and letters not provided",
+      "9": "Cannot determine: translations and letters not provided",
+      "10": "Cannot determine: translations and letters not provided",
+      "11": "Cannot determine: translations and letters not provided",
+      "12": "Cannot determine: translations and letters not provided",
+      "13": "Cannot determine: translations and letters not provided",
+      "14": "Cannot determine: translations and letters not provided",
+      "15": "Cannot determine: translations and letters not provided",
+      "16": "Cannot determine: translations and letters not provided",
+      "17": "Cannot determine: translations and letters not provided"
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 17,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.0,
+      "4": 0.0,
+      "5": 0.0,
+      "6": 0.0,
+      "7": 0.0,
+      "8": 0.0,
+      "9": 0.0,
+      "10": 0.0,
+      "11": 0.0,
+      "12": 0.0,
+      "13": 0.0,
+      "14": 0.0,
+      "15": 0.0,
+      "16": 0.0,
+      "17": 0.0
+    }
+  },
+  "seconds": 4.913282082998194,
+  "usage": {
+    "total": {
+      "totalTokens": 4432,
+      "inputTokens": 4144,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 288,
+      "reasoningOutputTokens": 42
+    },
+    "last": {
+      "totalTokens": 4432,
+      "inputTokens": 4144,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 288,
+      "reasoningOutputTokens": 42
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793290290.2695522
+}

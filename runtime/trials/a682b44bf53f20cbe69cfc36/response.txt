@@ -1,0 +1,1 @@
+{"a.":"Cannot be determined: the English correspondences are missing.","b.":"Cannot be determined: the English correspondences are missing.","c.":"Cannot be determined: the English correspondences are missing."}

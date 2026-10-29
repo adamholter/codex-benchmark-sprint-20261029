@@ -1,0 +1,99 @@
+You are an intelligent assistant capable of handling all types of reasoning and problem-solving tasks. Below is the text of a set of rules. Your task is to apply the appropriate rules to solve a series of problems.
+
+### Instructions:
+1. Read each question carefully and rules to find something relevant to that question.
+2. Use the relevant rules to answer each question accurately.
+3. Provide the final answers to all questions in JSON format.
+  {
+  "question1": "your answer",
+  "question2": "your answer",
+  "question3": "your answer",
+  }
+
+### Rules:
+
+**Encryption Rules:**
+
+- Input:
+    - Plaintext: A string of uppercase letters and spaces.
+- Output:
+    - Ciphertext: A hexadecimal string representing the encrypted data (where A-E needs to be capitalised).
+- Preparation:
+    - Fixed key
+        - KEY = b'1234567890ABCDEF'
+    - S_BOX
+        - S_BOX = {
+        0x00: 0x0F, 0x01: 0x0A, 0x02: 0x07, 0x03: 0x05,
+        0x04: 0x09, 0x05: 0x03, 0x06: 0x0D, 0x07: 0x00,
+        0x08: 0x0E, 0x09: 0x08, 0x0A: 0x04, 0x0B: 0x06,
+        0x0C: 0x01, 0x0D: 0x02, 0x0E: 0x0B, 0x0F: 0x0C
+        }
+- Encryption Steps:
+    1. Padding: If the plaintext is not a multiple of 8 bytes, pad it with \x00 (null character) to make its length a multiple of 8 bytes.
+    2. Block Splitting: Divide the padded plaintext into 8-byte blocks.
+    3. Block Encryption:
+        - Convert Block to Bytes: Convert each block to bytes using ASCII encoding.
+        - XOR with Key: Apply XOR between the byte block and the fixed key.
+        - Substitute:  Use the S_BOX Replacement Box to replace the high 4 bits and low 4 bits in each byte before stitching them together.
+        - Permute: Perform a simple permutation by rotating each byte left by 1 bit.
+        - XOR with Key: Apply XOR between the permuted byte block and the fixed key again.
+    4. Hexadecimal Encoding: Convert the encrypted byte blocks to a hexadecimal string.
+    5. Concatenate: Concatenate all the hexadecimal strings of the encrypted blocks to form the final ciphertext.
+
+**Decryption Rules:**
+
+- Input:
+    - Ciphertext: A hexadecimal string representing the encrypted data (where A-E needs to be capitalised).
+- Output:
+    - Plaintext: A string of uppercase letters and spaces.
+- Preparation:
+    - Fixed key
+        - KEY = b'1234567890ABCDEF'
+    - INV_S_BOX
+        - INV_S_BOX = {
+        0x0F: 0x00, 0x0A: 0x01, 0x07: 0x02, 0x05: 0x03,
+        0x09: 0x04, 0x03: 0x05, 0x0D: 0x06, 0x00: 0x07,
+        0x0E: 0x08, 0x08: 0x09, 0x04: 0x0A, 0x06: 0x0B,
+        0x01: 0x0C, 0x02: 0x0D, 0x0B: 0x0E, 0x0C: 0x0F
+        }
+- Decryption Steps:
+    1. Block Splitting: Divide the ciphertext into 16-character (8-byte) blocks (each block is 8 bytes long).
+    2. Block Decryption:
+        - Convert Hex to Bytes: Convert each block from hexadecimal string to bytes.
+        - XOR with Key: Apply XOR between the byte block and the fixed key.
+        - Inverse Permute: Perform an inverse permutation by rotating each byte right by 1 bit.
+        - Substitute: Use INV_S_BOX to replace the high four and low four bits in a block of bytes and splice them together.
+        - XOR with Key: Apply XOR between the byte block and the fixed key again.
+    3. Convert Bytes to Text: Convert the decrypted byte blocks back to text using ASCII decoding.
+    4. Remove Padding: Remove any padding characters (\x00) from the end of the decrypted plaintext.
+    5. Concatenate: Concatenate all the decrypted blocks to form the final plaintext.
+
+
+### Questions:
+question1:
+Ciphertext: "9A899986938C9784"
+
+Please provide the decrypted answer, encapsulated in double square brackets. For example, the format should be: [[decrypted answer]].
+
+question2:
+Ciphertext: "809C9986938C9784"
+
+Please provide the decrypted answer, encapsulated in double square brackets. For example, the format should be: [[decrypted answer]].
+
+question3:
+Plaintext: "VNSEFNGHKUY"
+
+Please provide the encrypted answer, encapsulated in double square brackets. For example, the format should be: [[encrypted answer]].
+
+question4:
+Plaintext: "FW"
+
+Please provide the encrypted answer, encapsulated in double square brackets. For example, the format should be: [[encrypted answer]].
+
+question5:
+Plaintext: "N"
+
+Please provide the encrypted answer, encapsulated in double square brackets. For example, the format should be: [[encrypted answer]].
+
+
+### Answers:

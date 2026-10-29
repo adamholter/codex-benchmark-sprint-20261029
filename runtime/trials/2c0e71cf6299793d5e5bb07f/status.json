@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "bbeh",
+  "id": "mini:disambiguation_qa:0263",
+  "category": "disambiguation_qa",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793285225.50745,
+  "turn": {
+    "id": "01a18820-fd5c-78b0-9518-67607330d99b",
+    "rootTurnId": "01a18820-fd5c-78b0-9518-67607330d99b",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_09e0425fe7935e28016ae35c6f3e508190bea0354c49fb2637",
+        "text": "(C) The waiter forgot the order; the chef was angry and worried, and both went to speak to the manager. The chef said, \u201cIf this happens again, we\u2019ll need to take further action.\u201d",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793285225,
+    "completedAt": 1793285231,
+    "durationMs": 5900
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(c) the waiter forgot the order; the chef was angry and worried,and both went to speak to the manager. the chef said,\u201cif this happens again,we\u2019ll need to take further action.\u201d"
+  },
+  "seconds": 6.255064915982075,
+  "usage": {
+    "total": {
+      "totalTokens": 4333,
+      "inputTokens": 4062,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 271,
+      "reasoningOutputTokens": 223
+    },
+    "last": {
+      "totalTokens": 4333,
+      "inputTokens": 4062,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 271,
+      "reasoningOutputTokens": 223
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793285231.762283
+}

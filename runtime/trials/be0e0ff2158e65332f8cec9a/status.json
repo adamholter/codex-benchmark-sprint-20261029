@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "bbeh",
+  "id": "mini:geometric_shapes:0122",
+  "category": "geometric_shapes",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793291940.714976,
+  "turn": {
+    "id": "01a18887-749d-71d2-8e03-d9ad62131206",
+    "rootTurnId": "01a18887-749d-71d2-8e03-d9ad62131206",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_05c628e0d40e4ab1016ae376b95768819085b8e27bd2bcfb4b",
+        "text": "**(A) 3, 5 and 8** \u2014 a non-right triangle, a non-rectangular parallelogram, and an irregular concave pentagon.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793291941,
+    "completedAt": 1793291962,
+    "durationMs": 21375
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(a) 3,5 and 8 \u2014 a non-right triangle,a non-rectangular parallelogram,and an irregular concave pentagon"
+  },
+  "seconds": 21.752258000080474,
+  "usage": {
+    "total": {
+      "totalTokens": 4980,
+      "inputTokens": 4545,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 435,
+      "reasoningOutputTokens": 393
+    },
+    "last": {
+      "totalTokens": 4980,
+      "inputTokens": 4545,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 435,
+      "reasoningOutputTokens": 393
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793291962.4671621
+}

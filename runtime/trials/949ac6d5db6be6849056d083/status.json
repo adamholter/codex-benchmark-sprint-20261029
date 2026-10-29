@@ -1,0 +1,65 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-Q_395",
+  "category": "Multi-Q",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288276.6882188,
+  "turn": {
+    "id": "01a1884f-8bd6-7033-9c05-1fcd82c09e74",
+    "rootTurnId": "01a1884f-8bd6-7033-9c05-1fcd82c09e74",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0088c8216c924dd7016ae3685f509c819697a3d95ecd458e02",
+        "text": "{\n  \"question1\": \"[[RT]]\",\n  \"question2\": \"[[X]]\",\n  \"question3\": \"[[90308C203F2A292639939A86938C9784]]\",\n  \"question4\": \"[[31959986938C9784]]\",\n  \"question5\": \"[[299C9986938C9784]]\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288276,
+    "completedAt": 1793288289,
+    "durationMs": 12871
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "question1": "RT",
+      "question2": "X",
+      "question3": "90308C203F2A292639939A86938C9784",
+      "question4": "31959986938C9784",
+      "question5": "299C9986938C9784"
+    },
+    "pass_rate": 1.0
+  },
+  "seconds": 13.156750125112012,
+  "usage": {
+    "total": {
+      "totalTokens": 5654,
+      "inputTokens": 4966,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 688,
+      "reasoningOutputTokens": 602
+    },
+    "last": {
+      "totalTokens": 5654,
+      "inputTokens": 4966,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 688,
+      "reasoningOutputTokens": 602
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793288289.844446
+}

@@ -1,0 +1,83 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "PlanBench Blocksworld Hard - PDDL",
+  "id": "instance-90",
+  "category": "PDDL plan generation / exact plan validity",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288377.152734,
+  "turn": {
+    "id": "01a18851-1448-7333-a3da-d2c46e567fbe",
+    "rootTurnId": "01a18851-1448-7333-a3da-d2c46e567fbe",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_02f878dd5317ab76016ae368bc600c8196b89c57fed93459ed",
+        "text": "(unstack h e)\n(put-down h)\n(unstack e d)\n(put-down e)\n(unstack d f)\n(put-down d)\n(pick-up i)\n(stack i d)\n(pick-up h)\n(stack h i)\n(unstack c b)\n(put-down c)\n(pick-up b)\n(stack b g)\n(pick-up f)\n(stack f b)\n(pick-up a)\n(stack a f)\n(pick-up e)\n(stack e a)\n(pick-up c)\n(stack c e)",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288377,
+    "completedAt": 1793288381,
+    "durationMs": 3696
+  },
+  "score": {
+    "correct": true,
+    "extracted": [
+      "(unstack h e)",
+      "(put-down h)",
+      "(unstack e d)",
+      "(put-down e)",
+      "(unstack d f)",
+      "(put-down d)",
+      "(pick-up i)",
+      "(stack i d)",
+      "(pick-up h)",
+      "(stack h i)",
+      "(unstack c b)",
+      "(put-down c)",
+      "(pick-up b)",
+      "(stack b g)",
+      "(pick-up f)",
+      "(stack f b)",
+      "(pick-up a)",
+      "(stack a f)",
+      "(pick-up e)",
+      "(stack e a)",
+      "(pick-up c)",
+      "(stack c e)"
+    ],
+    "valid_actions": 22,
+    "reason": "goal_reached"
+  },
+  "seconds": 3.9829613330075517,
+  "usage": {
+    "total": {
+      "totalTokens": 4494,
+      "inputTokens": 4286,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 208,
+      "reasoningOutputTokens": 99
+    },
+    "last": {
+      "totalTokens": 4494,
+      "inputTokens": 4286,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 208,
+      "reasoningOutputTokens": 99
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793288381.135169
+}

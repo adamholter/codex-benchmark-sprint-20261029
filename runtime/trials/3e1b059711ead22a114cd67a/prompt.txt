@@ -1,0 +1,40 @@
+You are an intelligent assistant specializing in solving custom puzzle problems. Below is a specific rule defined for a custom puzzle. Your task is to apply this rule accurately to the provided question.
+
+### Instructions:
+
+1. Thoroughly understand the rule provided. If needed, break down the rule into simpler components or steps.
+2. Apply the rule carefully to address the question presented.
+3. Verify your answer to ensure it aligns with the rule and the context of the puzzle.
+
+### Puzzle Rule:
+
+1.The game is played on an n*n grid containing numbered and blank squares.
+2.Arrows are drawn by players.
+3.Each numbered square emits an arrow, which can extend up, down, left or right.
+4.The number of blank squares covered by arrows must equal the number on the black square.
+5.Arrows cannot pass through or cross other arrows.
+6.Each blank square must be covered by at least one arrow.
+7.The question is given by a matrix of blank squares filled with X. The player should replace these regions with the four arrows ↓ ↑ → ← and output the drawn matrix.
+
+### Question:
+X X 4 X 1 X 1 X X X
+9 X X X X 2 X X X X
+X X X X 4 X X X 2 X
+X X X X X X 6 X X 7
+X X X 5 X X X 8 X X
+X 2 X X X 1 X X X X
+X X 2 X 1 X X 2 X X
+X X X X X X 2 X 6 X
+X X X 5 X 1 X 1 X X
+X 1 X X 2 X X X X 1
+
+The output should be given in order from left to right, top to bottom, with each element separated by a space and different lines separated by a comma.
+Ensure that your final answer is wrapped in double square brackets like this: [[answer]].
+E.g. if the answer is:
+5 ↑ → ←
+↓ ↑ 6 ←
+↓ ↑ → ←
+
+Please write [[5 ↑ → ←,↓ ↑ 6 ←,↓ ↑ → ←]].
+
+### Answer:

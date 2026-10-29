@@ -1,0 +1,23 @@
+{
+  "1.": "Cannot match: lettered English translations were not provided.",
+  "2.": "Cannot match: lettered English translations were not provided.",
+  "3.": "Cannot match: lettered English translations were not provided.",
+  "4.": "Cannot match: lettered English translations were not provided.",
+  "5.": "Cannot match: lettered English translations were not provided.",
+  "6.": "Cannot match: lettered English translations were not provided.",
+  "7.": "Cannot match: lettered English translations were not provided.",
+  "8.": "Cannot match: lettered English translations were not provided.",
+  "9.": "Cannot match: lettered English translations were not provided.",
+  "10.": "Cannot match: lettered English translations were not provided.",
+  "11.": "Cannot match: lettered English translations were not provided.",
+  "12.": "Cannot match: lettered English translations were not provided.",
+  "13.": "Cannot match: lettered English translations were not provided.",
+  "14.": "Cannot match: lettered English translations were not provided.",
+  "15.": "Cannot match: lettered English translations were not provided.",
+  "16.": "Cannot match: lettered English translations were not provided.",
+  "17.": "Cannot match: lettered English translations were not provided.",
+  "18.": "Cannot match: lettered English translations were not provided.",
+  "19.": "Cannot match: lettered English translations were not provided.",
+  "20.": "Cannot match: lettered English translations were not provided.",
+  "21.": "Cannot match: lettered English translations were not provided."
+}

@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "fantom",
+  "id": "127-0-1-6195",
+  "category": "tom:info_accessibility:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793293449.068438,
+  "turn": {
+    "id": "01a1889e-7929-79f3-a17b-567c377fc7cb",
+    "rootTurnId": "01a1889e-7929-79f3-a17b-567c377fc7cb",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0d4610c5fd58df13016ae37c8d37e48194b14c4b05e0e91839",
+        "text": "Adan and Julianna.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793293449,
+    "completedAt": 1793293454,
+    "durationMs": 4538
+  },
+  "score": {
+    "correct": true,
+    "extracted": "Adan and Julianna.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 5.035361457965337,
+  "usage": {
+    "total": {
+      "totalTokens": 4380,
+      "inputTokens": 4341,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 39,
+      "reasoningOutputTokens": 27
+    },
+    "last": {
+      "totalTokens": 4380,
+      "inputTokens": 4341,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 39,
+      "reasoningOutputTokens": 27
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793293454.103576
+}

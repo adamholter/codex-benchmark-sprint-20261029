@@ -1,0 +1,83 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly",
+  "id": "101:Q 3.:full_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294408.8828669,
+  "turn": {
+    "id": "01a188ad-1edc-78d1-a51e-e83449d8759a",
+    "rootTurnId": "01a188ad-1edc-78d1-a51e-e83449d8759a",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_018567bb69e65c4d016ae3804d1f408196b09321b4ece426b9",
+        "text": "{\"a\":\"IE\",\"b\":\"IE\",\"c\":\"IE\",\"d\":\"U\",\"e\":\"IE\",\"f\":\"IE\",\"g\":\"U\",\"__(h)__\":\"IE\",\"i\":\"neither\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294409,
+    "completedAt": 1793294413,
+    "durationMs": 4009
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "a": "IE",
+      "b": "IE",
+      "c": "IE",
+      "d": "U",
+      "e": "IE",
+      "f": "IE",
+      "g": "U",
+      "__(h)__": "IE",
+      "i": "neither"
+    },
+    "score": 1.0,
+    "parts_correct": 9,
+    "parts_total": 9,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a": 1.0,
+      "b": 1.0,
+      "c": 1.0,
+      "d": 1.0,
+      "e": 1.0,
+      "f": 1.0,
+      "g": 1.0,
+      "__(h)__": 1.0,
+      "i": 1.0
+    }
+  },
+  "seconds": 4.614962332998402,
+  "usage": {
+    "total": {
+      "totalTokens": 4971,
+      "inputTokens": 4749,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 222,
+      "reasoningOutputTokens": 176
+    },
+    "last": {
+      "totalTokens": 4971,
+      "inputTokens": 4749,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 222,
+      "reasoningOutputTokens": 176
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793294413.4976
+}

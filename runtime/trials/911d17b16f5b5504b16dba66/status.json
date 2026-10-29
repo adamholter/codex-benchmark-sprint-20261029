@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "bbeh",
+  "id": "mini:time_arithmetic:0330",
+  "category": "time_arithmetic",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290173.8313012,
+  "turn": {
+    "id": "01a1886c-7fda-7782-9bcb-28771c36ca79",
+    "rootTurnId": "01a1886c-7fda-7782-9bcb-28771c36ca79",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_086976a9d31eadb2016ae36fc6103081958a56c8dfdb7a6f20",
+        "text": "\\(X = 2254\\), so \\(X' = 10\\). \\(Y = 9\\), so \\(Y' = 31\\). Benjamin\u2019s first paycheck is on 03-31-2006; with paychecks every 10 days, his next paycheck after 05-28-2006 is **05-30-2006**.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290174,
+    "completedAt": 1793290182,
+    "durationMs": 8407
+  },
+  "score": {
+    "correct": false,
+    "extracted": "\\(x = 2254\\),so \\(x' = 10\\). \\(y = 9\\),so \\(y' = 31\\). benjamin\u2019s first paycheck is on 03-31-2006; with paychecks every 10 days,his next paycheck after 05-28-2006 is 05-30-2006"
+  },
+  "seconds": 9.057374291936867,
+  "usage": {
+    "total": {
+      "totalTokens": 4515,
+      "inputTokens": 3971,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 544,
+      "reasoningOutputTokens": 462
+    },
+    "last": {
+      "totalTokens": 4515,
+      "inputTokens": 3971,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 544,
+      "reasoningOutputTokens": 462
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793290182.888026
+}

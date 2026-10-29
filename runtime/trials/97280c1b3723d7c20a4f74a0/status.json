@@ -1,0 +1,70 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-RQ_Hard_1480",
+  "category": "Multi-RQ_Hard",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292766.976875,
+  "turn": {
+    "id": "01a18894-10b0-7ec3-8b3a-e62073cf7f47",
+    "rootTurnId": "01a18894-10b0-7ec3-8b3a-e62073cf7f47",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0aa0b87507385a43016ae379e37fc08194888908368492bb92",
+        "text": "{\n  \"question1\": \"[[{1, 2, 3, 6, 7, 8}]]\",\n  \"question2\": \"[[B]]\",\n  \"question3\": \"[[B]]\",\n  \"question4\": \"[[B]]\",\n  \"question5\": \"[[Ap];[Hp]]\",\n  \"question6\": \"[[C]]\",\n  \"question7\": \"[[B]]\",\n  \"question8\": \"[[{x \u2208 R | x \u2264 0 or x \u2265 1}]]\",\n  \"question9\": \"[[A];[indeterminate: the second pair concerns unrelated propositions]]\",\n  \"question10\": \"[[D]]\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292767,
+    "completedAt": 1793292772,
+    "durationMs": 5430
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "question1": "{1, 2, 3, 6, 7, 8}",
+      "question2": "B",
+      "question3": "B",
+      "question4": "B",
+      "question5": "Ap];[Hp",
+      "question6": "C",
+      "question7": "B",
+      "question8": "{x \u2208 R | x \u2264 0 or x \u2265 1}",
+      "question9": "A];[indeterminate: the second pair concerns unrelated propositions",
+      "question10": "D"
+    },
+    "pass_rate": 0.7
+  },
+  "seconds": 5.888333207927644,
+  "usage": {
+    "total": {
+      "totalTokens": 6370,
+      "inputTokens": 6138,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 232,
+      "reasoningOutputTokens": 80
+    },
+    "last": {
+      "totalTokens": 6370,
+      "inputTokens": 6138,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 232,
+      "reasoningOutputTokens": 80
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292772.864985
+}

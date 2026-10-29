@@ -1,0 +1,91 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly",
+  "id": "136:Q 1.:full_context",
+  "category": "Monolingual",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288468.4201689,
+  "turn": {
+    "id": "01a18852-78a3-79f2-853b-25fa555d35e9",
+    "rootTurnId": "01a18852-78a3-79f2-853b-25fa555d35e9",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_05a894c08aac2885016ae369455d088195ba6fb169822fd2f8",
+        "text": "{\n  \"1)\": \"16 + 6 = 22\",\n  \"2) \": \"3 + 18 = 21\",\n  \"3) \": \"7 + 1 = 8\",\n  \"4)\": \"3 \u00d7 4 = 12\",\n  \"5) \": \"8 + 13 = 21\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288468,
+    "completedAt": 1793288518,
+    "durationMs": 49822
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "1)": "16 + 6 = 22",
+      "2) ": "3 + 18 = 21",
+      "3) ": "7 + 1 = 8",
+      "4)": "3 \u00d7 4 = 12",
+      "5) ": "8 + 13 = 21"
+    },
+    "score": 1.0,
+    "parts_correct": 5,
+    "parts_total": 5,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "1)": 1.0,
+      "2) ": 1.0,
+      "3) ": 1.0,
+      "4)": 1.0,
+      "5) ": 1.0
+    }
+  },
+  "seconds": 50.077491000061855,
+  "usage": {
+    "total": {
+      "totalTokens": 4680,
+      "inputTokens": 4522,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 158,
+      "reasoningOutputTokens": 82
+    },
+    "last": {
+      "totalTokens": 4680,
+      "inputTokens": 4522,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 158,
+      "reasoningOutputTokens": 82
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 940deaab-345d-9fec-a2ef-e286a4a6172c",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a18852-788b-7022-92fd-4543a053548a",
+      "turnId": "01a18852-78a3-79f2-853b-25fa555d35e9"
+    }
+  ],
+  "finished_at": 1793288518.493567
+}

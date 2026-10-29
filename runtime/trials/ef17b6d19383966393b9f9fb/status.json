@@ -1,0 +1,68 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly",
+  "id": "13:Q 1.:full_context",
+  "category": "Computational",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793284391.3751628,
+  "turn": {
+    "id": "01a18814-444f-7c00-878d-61c6a22621a8",
+    "rootTurnId": "01a18814-444f-7c00-878d-61c6a22621a8",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0975b8d1d38b2c03016ae3592bfb588193bfd2bf0acc89fe36",
+        "text": "{\n  \"a\": \"facade, supply, deceased, polished, departs, ignite, confront, changed, stabilize, arrived, buying, deceased, ahead, construct, house\",\n  \"b\": \"front, arm, late, shone, leaves, light, face, turned, steady, came, getting, late, before, make, home\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793284392,
+    "completedAt": 1793284396,
+    "durationMs": 4537
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "a": "facade, supply, deceased, polished, departs, ignite, confront, changed, stabilize, arrived, buying, deceased, ahead, construct, house",
+      "b": "front, arm, late, shone, leaves, light, face, turned, steady, came, getting, late, before, make, home"
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 2,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a": 0.0,
+      "b": 0.0
+    }
+  },
+  "seconds": 5.242182624991983,
+  "usage": {
+    "total": {
+      "totalTokens": 4451,
+      "inputTokens": 4284,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 167,
+      "reasoningOutputTokens": 86
+    },
+    "last": {
+      "totalTokens": 4451,
+      "inputTokens": 4284,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 167,
+      "reasoningOutputTokens": 86
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "finished_at": 1793284396.617248
+}

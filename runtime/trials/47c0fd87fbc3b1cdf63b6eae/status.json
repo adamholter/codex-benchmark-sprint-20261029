@@ -1,0 +1,78 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-RQ_253",
+  "category": "Multi-RQ",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793286450.173815,
+  "turn": {
+    "id": "01a18833-ae25-7400-9b4d-ba06bcee7720",
+    "rootTurnId": "01a18833-ae25-7400-9b4d-ba06bcee7720",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_028e143fab6d445b016ae3614f2b048194a7039d48a20793b4",
+        "text": "{\n  \"question1\": \"[[Aries Cancer Libra Scorpio Leo]]\",\n  \"question2\": \"[[8^3]]\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793286450,
+    "completedAt": 1793286479,
+    "durationMs": 29237
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "question1": "Aries Cancer Libra Scorpio Leo",
+      "question2": "8^3"
+    },
+    "pass_rate": 1.0
+  },
+  "seconds": 29.915929583017714,
+  "usage": {
+    "total": {
+      "totalTokens": 4606,
+      "inputTokens": 4503,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 103,
+      "reasoningOutputTokens": 68
+    },
+    "last": {
+      "totalTokens": 4606,
+      "inputTokens": 4503,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 103,
+      "reasoningOutputTokens": 68
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 85d2b228-df35-4ac4-95e2-ff1b0da9f553",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a18833-ade1-7ff0-97e1-bbb63de3ded4",
+      "turnId": "01a18833-ae25-7400-9b4d-ba06bcee7720"
+    }
+  ],
+  "finished_at": 1793286480.089205
+}

@@ -1,0 +1,25 @@
+Riley: Hi Daniella, it’s nice to meet you. I just overheard you speaking about your cultural traditions, and it intrigued me. Would you mind sharing more about it?
+Daniella: Of course, Riley! I'm originally from Mexico and we have a rich cultural heritage. An important tradition in our culture is the Day of the Dead, or Dia de los Muertos.
+Riley: Oh yes, I've heard about it. It’s a holiday focusing on gatherings of family and friends to pray for and remember loved ones who have died, right?
+Daniella: You’re absolutely right. It's not a morbid event, but rather a festive one. We believe that the souls of the dead return and it's a time to celebrate them with food, drinks, parties, and activities the dead enjoyed in life.
+Riley: That sounds like a beautiful way to remember those who are no longer with us. In contrast, in my Irish culture, we have a somewhat similar event called Wake.
+Daniella: I'm not familiar with that. Could you tell me more?
+Riley: Sure. A wake is a social gathering that takes place before a funeral. It's an occasion for family and friends to remember the deceased and offer comfort to one another. There's also plenty of food, drink, and sometimes music. It's not as festive, but it serves a similar purpose in honoring and remembering our loved ones.
+Daniella: It seems like different cultures do have similar ways of honoring their loved ones, don’t they? Even though the traditions are different, the essence is pretty much same.
+Riley: Yeah, it really shows that despite the differences, we're all human. We love, we lose, and we find ways to remember and celebrate those who were part of our lives.
+Daniella: It's fascinating to learn about different cultures, isn't it?
+Riley: Absolutely! It helps us understand and respect others and their traditions, in the same way we appreciate our own.
+Lucia: Hello Daniella and Riley. You two seem deep in conversation! Mind if I join in?
+Daniella: Not at all, Lucia. We were just discussing our cultural traditions.
+Lucia: That sounds like an interesting conversation. I have some unique cultural traditions as well, being of Japanese descent.
+Riley: Very interesting, Lucia. We were talking about how different cultures have their own ways of honoring loved ones who have passed away.
+Lucia: Yes, in Japan, we have what's known as the Obon Festival. The purpose of Obon is to celebrate the spirits of our ancestors.
+Daniella: Oh, I have heard about the Obon Festival. Isn't it a time to celebrate your ancestors by visiting their graves and offering food in their honor?
+Lucia: Yes, exactly! Families will light lanterns and float them on rivers, which symbolizes the ancestor’s spirits being sent off. It's a beautiful event.
+Riley: That really sounds lovely. It seems our cultures are different, yet similar.
+Daniella: Indeed, it's wonderful how certain themes transcend cultural boundaries, isn't it?
+Lucia: Yes, it truly is. It's so enlightening to learn about the traditions and customs of different cultures. It allows us to connect and understand each other better.
+
+Target: What are some of the ways the Day of the Dead in Mexico and the Wake in Ireland are celebrated according to their discussion?
+Question: Does Lucia know the precise correct answer to this question? Answer yes or no.
+Answer:

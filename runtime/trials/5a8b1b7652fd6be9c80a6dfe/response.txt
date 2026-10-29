@@ -1,0 +1,3 @@
+**(A) 3, 5 and 8.**
+
+The lines form a non-right triangle \(O\!-\!D\!-\!L\), a non-rectangular parallelogram \(D\!-\!P\!-\!U\!-\!T\), and a concave pentagon \(G\!-\!B\!-\!D\!-\!T\!-\!S\). In each case, intermediate collinear points lie along a side.

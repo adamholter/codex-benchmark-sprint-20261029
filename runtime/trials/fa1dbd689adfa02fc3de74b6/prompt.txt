@@ -1,0 +1,73 @@
+You are an intelligent assistant that helps with various logical reasoning tasks. Below is a custom-defined rule for a specific type of logic. When responding, please ensure that your output adheres to the specified logical rules and format.
+
+### Instructions:
+
+1. Identify the relevant properties and objects as specified in the rule.
+2. Apply the given logical operations or reasoning patterns.
+3. Ensure your output is formatted according to the specified notation and symbols.
+
+### Logic Rule:
+
+Between propositions p1 and p2, the representation is defined as follows:
+A: ∀p1⇒p2
+E: ∀p1⇒¬p2
+I: ∃p1⇒p2
+O: ∃p1⇒¬p2
+
+The figures and moods of the syllogism are as follows:
+1.Figure I
+Form:
+M()P
+S()M
+∴S()P
+The parentheses can be filled in with the following Valid Moods.
+Valid Moods:
+- AAA
+- EAE
+- AII
+- EIO
+
+2.Figure II
+Form: 
+P()M
+S()M
+∴S()P
+The parentheses can be filled in with the following Valid Moods.
+Valid Moods:
+- AEE
+- EAE
+- EIO
+- AOO
+
+3.Figure III
+Form:
+M()P
+M()S
+∴S()P
+The parentheses can be filled in with the following Valid Moods.
+Valid Moods:
+- AII
+- EIO
+- IAI
+- OAO
+
+4.Figure IV
+Form: 
+P()M
+M()S
+∴S()P
+The parentheses can be filled in with the following Valid Moods.
+Valid Moods:
+- AEE
+- EIO
+- IAI
+
+### Question:
+Please fill in the parentheses below
+P()M
+SEM
+∴S()P
+
+Provide the answer in the format of [[];[]].
+
+### Answer:

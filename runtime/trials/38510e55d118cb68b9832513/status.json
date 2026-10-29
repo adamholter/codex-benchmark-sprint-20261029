@@ -1,0 +1,74 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "bbeh",
+  "id": "mini:time_arithmetic:0330",
+  "category": "time_arithmetic",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290184.9440682,
+  "turn": {
+    "id": "01a1886c-ab14-72b0-9361-f569a79aacc5",
+    "rootTurnId": "01a1886c-ab14-72b0-9361-f569a79aacc5",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0cc2f0bc322ac5c9016ae36fea3b008197b5bfccc42da6975f",
+        "text": "05-30-2006",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290185,
+    "completedAt": 1793290218,
+    "durationMs": 32856
+  },
+  "score": {
+    "correct": true,
+    "extracted": "05-30-2006"
+  },
+  "seconds": 33.49231941695325,
+  "usage": {
+    "total": {
+      "totalTokens": 4092,
+      "inputTokens": 3971,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 121,
+      "reasoningOutputTokens": 109
+    },
+    "last": {
+      "totalTokens": 4092,
+      "inputTokens": 3971,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 121,
+      "reasoningOutputTokens": 109
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [
+    {
+      "error": {
+        "message": "Reconnecting... 1/5",
+        "codexErrorInfo": {
+          "responseStreamDisconnected": {
+            "httpStatusCode": 429
+          }
+        },
+        "additionalDetails": "exceeded retry limit, last status: 429 Too Many Requests, request id: 6cbb73de-ea92-42dd-bbfe-250a29203a27",
+        "misalignment": null
+      },
+      "willRetry": true,
+      "threadId": "01a1886c-aad8-7e82-aa52-6f62d92efe56",
+      "turnId": "01a1886c-ab14-72b0-9361-f569a79aacc5"
+    }
+  ],
+  "finished_at": 1793290218.435662
+}

@@ -1,0 +1,73 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly_no_context",
+  "id": "179:Q 4.1:no_context",
+  "category": "Rosetta / Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793286894.278271,
+  "turn": {
+    "id": "01a1883a-7445-7690-b06f-31d2cd7e0011",
+    "rootTurnId": "01a1883a-7445-7690-b06f-31d2cd7e0011",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_01c82ac2f514648d016ae362f842108190a08c616e5017bb9d",
+        "text": "{\n  \"(a)\": \"Cannot be determined: no Maltese vocabulary translations or grammar rules are provided.\",\n  \"(b)\": \"Cannot be determined: no Maltese vocabulary translations or grammar rules are provided.\",\n  \"(c)\": \"Cannot be determined: no Maltese vocabulary translations or grammar rules are provided.\",\n  \"(d)\": \"Cannot be determined: no Maltese vocabulary translations or grammar rules are provided.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793286894,
+    "completedAt": 1793286905,
+    "durationMs": 10980
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "Cannot be determined: no Maltese vocabulary translations or grammar rules are provided.",
+      "(b)": "Cannot be determined: no Maltese vocabulary translations or grammar rules are provided.",
+      "(c)": "Cannot be determined: no Maltese vocabulary translations or grammar rules are provided.",
+      "(d)": "Cannot be determined: no Maltese vocabulary translations or grammar rules are provided."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 4,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 0.0,
+      "(b)": 0.0,
+      "(c)": 0.0,
+      "(d)": 0.0
+    }
+  },
+  "seconds": 11.427778250072151,
+  "usage": {
+    "total": {
+      "totalTokens": 4279,
+      "inputTokens": 4033,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 246,
+      "reasoningOutputTokens": 158
+    },
+    "last": {
+      "totalTokens": 4279,
+      "inputTokens": 4033,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 246,
+      "reasoningOutputTokens": 158
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793286905.7058308
+}

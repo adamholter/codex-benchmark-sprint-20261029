@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "fantom",
+  "id": "172-0-0-8435",
+  "category": "tom:answerability:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793286062.3175402,
+  "turn": {
+    "id": "01a1882d-c2ff-70d1-ac0f-a5987b16d9ed",
+    "rootTurnId": "01a1882d-c2ff-70d1-ac0f-a5987b16d9ed",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0259a945122a4d8d016ae35fb13998819395dc924a3ce63507",
+        "text": "Kaylee and Salvador.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793286062,
+    "completedAt": 1793286065,
+    "durationMs": 2576
+  },
+  "score": {
+    "correct": true,
+    "extracted": "Kaylee and Salvador.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 3.180457124952227,
+  "usage": {
+    "total": {
+      "totalTokens": 4476,
+      "inputTokens": 4439,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 37,
+      "reasoningOutputTokens": 26
+    },
+    "last": {
+      "totalTokens": 4476,
+      "inputTokens": 4439,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 37,
+      "reasoningOutputTokens": 26
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793286065.497634
+}

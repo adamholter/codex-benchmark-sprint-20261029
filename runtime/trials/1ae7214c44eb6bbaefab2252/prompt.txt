@@ -1,0 +1,38 @@
+You are an intelligent assistant that helps with various logical reasoning tasks. Below is a custom-defined rule for a specific type of logic. When responding, please ensure that your output adheres to the specified logical rules and format.
+
+### Instructions:
+
+1. Identify the relevant properties and objects as specified in the rule.
+2. Apply the given logical operations or reasoning patterns.
+3. Ensure your output is formatted according to the specified notation and symbols.
+
+### Logic Rule:
+
+1.Symbol Definitions
+- Command: `c` represents a basic operation within a program.
+- Proposition: `φ` represents a statement or condition.
+- Program State: Represents the system state after the execution of a command.
+
+2.Dynamic Operators
+- Necessity Operator: `[ c ]φ` indicates that after executing command `c`, the proposition `φ` will necessarily be true.
+- Possibility Operator: `⟨ c ⟩φ` indicates that after executing command `c`, the proposition `φ` may be true.
+
+3.Axioms and Rules
+- Substitution Rule:If `c` behaves the same as `d`, then `[ c ]φ` is equivalent to `[ d ]φ`.
+- Sequence Rule:`[ c_1; c_2 ]φ` is equivalent to `[ c_1 ][ c_2 ]φ`.
+- Choice Rule:`[ c_1 + c_2 ]φ` is equivalent to `([ c_1 ]φ ∨ [ c_2 ]φ)`.
+- Loop Rule:For the loop command `c*`, `[ c* ]φ` is equivalent to `φ ∨ ([ c ][ c* ]φ)`.
+- Concurrent Rule:If `c_1` and `c_2` can be executed concurrently, then `⟨ c_1 || c_2 ⟩φ` is equivalent to `⟨ c_1 ⟩⟨ c_2 ⟩φ ∨ ⟨ c_2 ⟩⟨ c_1 ⟩φ`.
+- Interruption Rule:If `c_1` can interrupt `c_2`, then `⟨ c_1; c_2 ⟩φ` is equivalent to `⟨ c_1 ⟩φ`.
+- Exception Rule:If `c` may trigger an exception `e`, then `[ c ]φ` is equivalent to `([ c ]φ ∧ [ e ]φ)`.
+- Resource Limitation Rule:If the command `c` is subject to resource limitation `R`, then `[ c ]φ` is equivalent to `(R ∧ [ c ]φ)`.
+- Dependency Rule:If the execution of `c_1` depends on `c_2`, then `[ c_1 ]φ` is equivalent to `[ c_2 ][ c_1 ]φ`.
+- Priority Rule:If `c_1` has higher priority than `c_2`, then `⟨ c_1; c_2 ⟩φ` is equivalent to `⟨ c_1 ⟩⟨ c_2 ⟩φ`.
+- History Rule:If the execution of `c` depends on the historical command `h`, then `[ c ]φ` is equivalent to `[ h ][ c ]φ`.
+- Prediction Rule:If the system can predict the outcome of `c`, then `[ c ]φ` is equivalent to `[ predict(c) ]φ`.
+
+### Question:
+If Alice is convinced that the loop command c* will persist in execution until the proposition φ is true, what logical expression should be used to represent her belief?
+Please provide your answer in the format of [[]].
+
+### Answer:

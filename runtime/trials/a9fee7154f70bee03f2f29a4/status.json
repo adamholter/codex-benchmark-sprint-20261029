@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "bbeh",
+  "id": "mini:object_counting:0206",
+  "category": "object_counting",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793286152.2512279,
+  "turn": {
+    "id": "01a1882f-21ff-7be2-bd17-85f0b34f3d35",
+    "rootTurnId": "01a1882f-21ff-7be2-bd17-85f0b34f3d35",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0a8605d2a30df048016ae3601082548196b57be5b40366dfa6",
+        "text": "You have **607 cars** and **488 musical instruments**, for a total of **1,095**.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793286152,
+    "completedAt": 1793286160,
+    "durationMs": 8114
+  },
+  "score": {
+    "correct": false,
+    "extracted": "you have 607 cars and 488 musical instruments,for a total of 1,095"
+  },
+  "seconds": 8.581391250016168,
+  "usage": {
+    "total": {
+      "totalTokens": 6338,
+      "inputTokens": 5967,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 371,
+      "reasoningOutputTokens": 343
+    },
+    "last": {
+      "totalTokens": 6338,
+      "inputTokens": 5967,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 371,
+      "reasoningOutputTokens": 343
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793286160.8324192
+}

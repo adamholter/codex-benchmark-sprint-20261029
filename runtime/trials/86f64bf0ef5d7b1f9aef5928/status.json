@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "fantom",
+  "id": "169-1-1-8289",
+  "category": "tom:answerability:binary",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292940.712877,
+  "turn": {
+    "id": "01a18896-b7c3-7322-b778-827842855d5c",
+    "rootTurnId": "01a18896-b7c3-7322-b778-827842855d5c",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_02495c415bf1c36e016ae37a9294248194962d49db9fa553fd",
+        "text": "No.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292941,
+    "completedAt": 1793292946,
+    "durationMs": 5585
+  },
+  "score": {
+    "correct": true,
+    "extracted": "No.",
+    "strict_correct": true,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 6.16249420796521,
+  "usage": {
+    "total": {
+      "totalTokens": 4960,
+      "inputTokens": 4897,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 63,
+      "reasoningOutputTokens": 55
+    },
+    "last": {
+      "totalTokens": 4960,
+      "inputTokens": 4897,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 63,
+      "reasoningOutputTokens": 55
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292946.8752599
+}

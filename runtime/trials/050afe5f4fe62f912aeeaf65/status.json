@@ -1,0 +1,69 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly",
+  "id": "122:Q 9.1:full_context",
+  "category": "Monolingual / Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793286377.0129201,
+  "turn": {
+    "id": "01a18832-9003-73c0-927a-0b17279aa284",
+    "rootTurnId": "01a18832-9003-73c0-927a-0b17279aa284",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0110b4b54ed1146c016ae3610498308190ac6601122e82394b",
+        "text": "{\"a.\":\"nuji\",\"b.\":\"karnu\u0294 tenhiu\u0272 tiria sante\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793286377,
+    "completedAt": 1793286404,
+    "durationMs": 27396
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "a.": "nuji",
+      "b.": "karnu\u0294 tenhiu\u0272 tiria sante"
+    },
+    "score": 0.5,
+    "parts_correct": 1,
+    "parts_total": 2,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a.": 1.0,
+      "b.": 0.0
+    }
+  },
+  "seconds": 27.905420416034758,
+  "usage": {
+    "total": {
+      "totalTokens": 7227,
+      "inputTokens": 4397,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 2830,
+      "reasoningOutputTokens": 2799
+    },
+    "last": {
+      "totalTokens": 7227,
+      "inputTokens": 4397,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 2830,
+      "reasoningOutputTokens": 2799
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793286404.918046
+}

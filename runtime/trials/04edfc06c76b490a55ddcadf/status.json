@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "bbeh",
+  "id": "mini:disambiguation_qa:0356",
+  "category": "disambiguation_qa",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294837.906976,
+  "turn": {
+    "id": "01a188b3-aa4b-7050-ba2f-ed693aec18c8",
+    "rootTurnId": "01a188b3-aa4b-7050-ba2f-ed693aec18c8",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0c4df12cc186939c016ae381fae6f081978cc549fb6cc42d3d",
+        "text": "(B) The writer wrote a good book, and the writer uses big words.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294838,
+    "completedAt": 1793294843,
+    "durationMs": 4946
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(b) the writer wrote a good book,and the writer uses big words"
+  },
+  "seconds": 5.413299333071336,
+  "usage": {
+    "total": {
+      "totalTokens": 3929,
+      "inputTokens": 3853,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 76,
+      "reasoningOutputTokens": 54
+    },
+    "last": {
+      "totalTokens": 3929,
+      "inputTokens": 3853,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 76,
+      "reasoningOutputTokens": 54
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793294843.3197792
+}

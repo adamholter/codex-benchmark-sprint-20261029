@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "bbeh",
+  "id": "mini:causal_understanding:0061",
+  "category": "causal_understanding",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793285112.672096,
+  "turn": {
+    "id": "01a1881f-45d1-7220-9592-95872afeea79",
+    "rootTurnId": "01a1881f-45d1-7220-9592-95872afeea79",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_09fe5d12e1f9103c016ae35bfc891c8195b26dd85bbc38087d",
+        "text": "No",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793285113,
+    "completedAt": 1793285116,
+    "durationMs": 3383
+  },
+  "score": {
+    "correct": false,
+    "extracted": "no"
+  },
+  "seconds": 4.231728290906176,
+  "usage": {
+    "total": {
+      "totalTokens": 4073,
+      "inputTokens": 3916,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 157,
+      "reasoningOutputTokens": 150
+    },
+    "last": {
+      "totalTokens": 4073,
+      "inputTokens": 3916,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 157,
+      "reasoningOutputTokens": 150
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793285116.9035032
+}

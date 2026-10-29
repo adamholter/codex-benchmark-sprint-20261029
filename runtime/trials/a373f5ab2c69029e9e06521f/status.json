@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "bbeh",
+  "id": "mini:disambiguation_qa:0356",
+  "category": "disambiguation_qa",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294849.072122,
+  "turn": {
+    "id": "01a188b3-d6f8-7200-a590-3d73d05b5f56",
+    "rootTurnId": "01a188b3-d6f8-7200-a590-3d73d05b5f56",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_083f708a7fa832a1016ae38206f57c81938fd7db269209ac98",
+        "text": "**(B)** \u2014 \u201che\u201d refers to the writer in both clauses: the writer wrote a good book and used big words.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294849,
+    "completedAt": 1793294855,
+    "durationMs": 5609
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(b) \u2014 \u201che\u201d refers to the writer in both clauses: the writer wrote a good book and used big words"
+  },
+  "seconds": 6.346582917030901,
+  "usage": {
+    "total": {
+      "totalTokens": 4160,
+      "inputTokens": 3853,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 307,
+      "reasoningOutputTokens": 274
+    },
+    "last": {
+      "totalTokens": 4160,
+      "inputTokens": 3853,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 307,
+      "reasoningOutputTokens": 274
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793294855.417953
+}

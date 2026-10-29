@@ -1,0 +1,26 @@
+{
+  "checked_at": 1793295983.9899719,
+  "valid_complete_trials": 2283,
+  "matched_cases": 569,
+  "byte_identical_prompt_cases": 567,
+  "runtime_id_variant_cases": [
+    [
+      "discoveryworld_advanced",
+      "space-sick-normal-seed0"
+    ],
+    [
+      "discoveryworld_advanced",
+      "space-sick-normal-seed1"
+    ]
+  ],
+  "runtime_id_variants_normalized_public_observation_preamble_and_task_hypotheses_match": true,
+  "exact_models_high_default_all_complete": true,
+  "representative_scores_recomputed": 53,
+  "science_tool_boundaries_audited": 125,
+  "advanced_matched_seed_counts": {
+    "0": 14,
+    "1": 13
+  },
+  "owned_model_workers_remaining": [],
+  "errors": []
+}

@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "bbeh",
+  "id": "mini:zebra_puzzles:0004",
+  "category": "zebra_puzzles",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290613.3014212,
+  "turn": {
+    "id": "01a18873-33c4-7ac2-8bc9-fd3e5e21ca21",
+    "rootTurnId": "01a18873-33c4-7ac2-8bc9-fd3e5e21ca21",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_03604c3308873b4a016ae3717908d88195b39c2fd7e5055fa3",
+        "text": "The orange house is at **position 4**.\n\n- The spiritual-books reader is at an end and to the left of the marigolds fan, so they must be at position 1 (clues 9 and 26).\n- That person drives the Benelli and likes Corals (clues 30 and 2).\n- Corals is immediately left of pears, pears is immediately left of the Denver Broncos supporter, and the Broncos supporter is immediately left of Dolomites (clues 49, 5 and 45). Thus Dolomites is at position 4.\n- The Dolomites fan lives in the orange house (clue 35).",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290613,
+    "completedAt": 1793290618,
+    "durationMs": 5004
+  },
+  "score": {
+    "correct": false,
+    "extracted": "the orange house is at position 4"
+  },
+  "seconds": 5.4512287500547245,
+  "usage": {
+    "total": {
+      "totalTokens": 5388,
+      "inputTokens": 5178,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 210,
+      "reasoningOutputTokens": 67
+    },
+    "last": {
+      "totalTokens": 5388,
+      "inputTokens": 5178,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 210,
+      "reasoningOutputTokens": 67
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793290618.75216
+}

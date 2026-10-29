@@ -1,0 +1,1 @@
+No valid matrix can be determined from the rule as written: each island must contain one clue, so its number of clues is 1, while the given clue numbers require islands larger than 1. If the intended rule is that each island’s size equals its clue number, please clarify.

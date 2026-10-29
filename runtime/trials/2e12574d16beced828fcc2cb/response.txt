@@ -1,0 +1,7 @@
+{
+  "25.": "Cannot be determined: the English correspondence list is missing.",
+  "26.": "Cannot be determined: the English correspondence list is missing.",
+  "27.": "Cannot be determined: the English correspondence list is missing.",
+  "28.": "Cannot be determined: the English correspondence list is missing.",
+  "29.": "Cannot be determined: the English correspondence list is missing."
+}

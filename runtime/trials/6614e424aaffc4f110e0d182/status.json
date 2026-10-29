@@ -1,0 +1,69 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly_no_context",
+  "id": "216:Q 1.1:no_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290563.418831,
+  "turn": {
+    "id": "01a18872-70d5-7381-9ce6-ebc1b2eee3a5",
+    "rootTurnId": "01a18872-70d5-7381-9ce6-ebc1b2eee3a5",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_024765b627d6d35f016ae3714b891881948a8de5f8c269e7ee",
+        "text": "{\"(a)\": \"Cannot be determined from the provided sheet.\", \"(b)\": \"Cannot be determined from the provided sheet.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290563,
+    "completedAt": 1793290571,
+    "durationMs": 8001
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "Cannot be determined from the provided sheet.",
+      "(b)": "Cannot be determined from the provided sheet."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 2,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 0.0,
+      "(b)": 0.0
+    }
+  },
+  "seconds": 8.407677082926966,
+  "usage": {
+    "total": {
+      "totalTokens": 4932,
+      "inputTokens": 4236,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 696,
+      "reasoningOutputTokens": 664
+    },
+    "last": {
+      "totalTokens": 4932,
+      "inputTokens": 4236,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 696,
+      "reasoningOutputTokens": 664
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793290571.8263721
+}

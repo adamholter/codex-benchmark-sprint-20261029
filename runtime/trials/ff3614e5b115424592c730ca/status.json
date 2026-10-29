@@ -1,0 +1,68 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly_no_context",
+  "id": "13:Q 1.:no_context",
+  "category": "Computational",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793284398.3957279,
+  "turn": {
+    "id": "01a18814-600b-7311-a81f-5fa34c43959a",
+    "rootTurnId": "01a18814-600b-7311-a81f-5fa34c43959a",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0ca850f480aa5f2f016ae35935771c8197a9c2438865ad5bb6",
+        "text": "{\"a\":\"Cannot identify incorrect words: no machine-translated passage was provided.\",\"b\":\"Cannot suggest corrections without the missing passage.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793284399,
+    "completedAt": 1793284405,
+    "durationMs": 6852
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "a": "Cannot identify incorrect words: no machine-translated passage was provided.",
+      "b": "Cannot suggest corrections without the missing passage."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 2,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a": 0.0,
+      "b": 0.0
+    }
+  },
+  "seconds": 7.866817167028785,
+  "usage": {
+    "total": {
+      "totalTokens": 4109,
+      "inputTokens": 3967,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 142,
+      "reasoningOutputTokens": 109
+    },
+    "last": {
+      "totalTokens": 4109,
+      "inputTokens": 3967,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 142,
+      "reasoningOutputTokens": 109
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "finished_at": 1793284406.262126
+}

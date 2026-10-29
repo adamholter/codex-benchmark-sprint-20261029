@@ -1,0 +1,75 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly_no_context",
+  "id": "197:Q 7.1:no_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292862.732805,
+  "turn": {
+    "id": "01a18895-8687-7360-94a3-11a351549069",
+    "rootTurnId": "01a18895-8687-7360-94a3-11a351549069",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_06d119c4ae6d1ac6016ae37a471a6c81958b5cc71d544f6f87",
+        "text": "{\"(a)\": \"not determinable from the provided information\", \"(b)\": \"not determinable from the provided information\", \"(c)\": \"not determinable from the provided information\", \"(d)\": \"not determinable from the provided information\", \"(e)\": \"not determinable from the provided information\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292863,
+    "completedAt": 1793292871,
+    "durationMs": 8692
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "not determinable from the provided information",
+      "(b)": "not determinable from the provided information",
+      "(c)": "not determinable from the provided information",
+      "(d)": "not determinable from the provided information",
+      "(e)": "not determinable from the provided information"
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 5,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 0.0,
+      "(b)": 0.0,
+      "(c)": 0.0,
+      "(d)": 0.0,
+      "(e)": 0.0
+    }
+  },
+  "seconds": 9.11569712497294,
+  "usage": {
+    "total": {
+      "totalTokens": 4601,
+      "inputTokens": 4085,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 516,
+      "reasoningOutputTokens": 449
+    },
+    "last": {
+      "totalTokens": 4601,
+      "inputTokens": 4085,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 516,
+      "reasoningOutputTokens": 449
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292871.848383
+}

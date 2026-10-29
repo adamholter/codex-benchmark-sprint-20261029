@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "bbeh",
+  "id": "mini:disambiguation_qa:0011",
+  "category": "disambiguation_qa",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793291653.4100192,
+  "turn": {
+    "id": "01a18883-1361-7d80-b867-349bd0996627",
+    "rootTurnId": "01a18883-1361-7d80-b867-349bd0996627",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_067324b7827f3642016ae3758a30208196a1d8b7f420c7a0e6",
+        "text": "(E) The cashier is arrogant and doesn\u2019t take feedback seriously. It is ambiguous whether the cashier or the mechanic will have a discussion with the manager.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793291653,
+    "completedAt": 1793291659,
+    "durationMs": 5297
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(e) the cashier is arrogant and doesn\u2019t take feedback seriously. it is ambiguous whether the cashier or the mechanic will have a discussion with the manager"
+  },
+  "seconds": 5.916493374970742,
+  "usage": {
+    "total": {
+      "totalTokens": 4014,
+      "inputTokens": 3953,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 61,
+      "reasoningOutputTokens": 25
+    },
+    "last": {
+      "totalTokens": 4014,
+      "inputTokens": 3953,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 61,
+      "reasoningOutputTokens": 25
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793291659.326334
+}

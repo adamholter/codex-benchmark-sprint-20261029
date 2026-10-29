@@ -1,0 +1,67 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly_no_context",
+  "id": "185:Q 10.5:no_context",
+  "category": "Match-up / Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793288395.277976,
+  "turn": {
+    "id": "01a18851-5b05-7e21-91f7-e68f401f1b98",
+    "rootTurnId": "01a18851-5b05-7e21-91f7-e68f401f1b98",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0f538a0de7117645016ae368cf77248195840a734118746c7e",
+        "text": "{\"(a)\":\"Cannot be determined from the information provided.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793288395,
+    "completedAt": 1793288399,
+    "durationMs": 4195
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "Cannot be determined from the information provided."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 1,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 0.0
+    }
+  },
+  "seconds": 4.466327833011746,
+  "usage": {
+    "total": {
+      "totalTokens": 4296,
+      "inputTokens": 4215,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 81,
+      "reasoningOutputTokens": 61
+    },
+    "last": {
+      "totalTokens": 4296,
+      "inputTokens": 4215,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 81,
+      "reasoningOutputTokens": 61
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793288399.743755
+}

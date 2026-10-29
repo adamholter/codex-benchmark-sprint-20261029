@@ -1,0 +1,83 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly",
+  "id": "101:Q 3.:full_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793294414.1280231,
+  "turn": {
+    "id": "01a188ad-3254-77b2-9cbe-2ada52b74cf6",
+    "rootTurnId": "01a188ad-3254-77b2-9cbe-2ada52b74cf6",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_07fc13cc905624c6016ae38050ee948190833483a41183771f",
+        "text": "{\"a\":\"IE\",\"b\":\"IE\",\"c\":\"IE\",\"d\":\"U\",\"e\":\"IE\",\"f\":\"IE\",\"g\":\"U\",\"__(h)__\":\"IE\",\"i\":\"neither\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793294414,
+    "completedAt": 1793294417,
+    "durationMs": 3024
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "a": "IE",
+      "b": "IE",
+      "c": "IE",
+      "d": "U",
+      "e": "IE",
+      "f": "IE",
+      "g": "U",
+      "__(h)__": "IE",
+      "i": "neither"
+    },
+    "score": 1.0,
+    "parts_correct": 9,
+    "parts_total": 9,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "a": 1.0,
+      "b": 1.0,
+      "c": 1.0,
+      "d": 1.0,
+      "e": 1.0,
+      "f": 1.0,
+      "g": 1.0,
+      "__(h)__": 1.0,
+      "i": 1.0
+    }
+  },
+  "seconds": 3.343324416084215,
+  "usage": {
+    "total": {
+      "totalTokens": 4793,
+      "inputTokens": 4749,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 44,
+      "reasoningOutputTokens": 0
+    },
+    "last": {
+      "totalTokens": 4793,
+      "inputTokens": 4749,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 44,
+      "reasoningOutputTokens": 0
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793294417.471156
+}

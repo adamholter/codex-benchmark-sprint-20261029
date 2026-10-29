@@ -1,0 +1,64 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-RQ_Hard_2274",
+  "category": "Multi-RQ_Hard",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290354.7099898,
+  "turn": {
+    "id": "01a1886f-4221-7601-8b37-372316adb229",
+    "rootTurnId": "01a1886f-4221-7601-8b37-372316adb229",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0f114a21f3ac0226016ae370a400388196b5be788eb31b2611",
+        "text": "{\n  \"question1\": \"[[January Athios Unknown, February Cornick Rubicorp, March Gralax Techtrin, April Exatris SpaceZen]]\",\n  \"question2\": \"[[((4,3),(5,5))]]\",\n  \"question3\": \"[[B]]\",\n  \"question4\": \"[[((3,4),(2,3))]]\",\n  \"note\": \"The January company is unspecified. For questions 2 and 4, & is assumed to mean the defined @ operation.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290355,
+    "completedAt": 1793290406,
+    "durationMs": 51192
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "question1": "January Athios Unknown, February Cornick Rubicorp, March Gralax Techtrin, April Exatris SpaceZen",
+      "question2": "((4,3),(5,5))",
+      "question3": "B",
+      "question4": "((3,4),(2,3))"
+    },
+    "pass_rate": 0.75
+  },
+  "seconds": 51.743533042026684,
+  "usage": {
+    "total": {
+      "totalTokens": 6335,
+      "inputTokens": 5617,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 718,
+      "reasoningOutputTokens": 604
+    },
+    "last": {
+      "totalTokens": 6335,
+      "inputTokens": 5617,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 718,
+      "reasoningOutputTokens": 604
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793290406.454062
+}

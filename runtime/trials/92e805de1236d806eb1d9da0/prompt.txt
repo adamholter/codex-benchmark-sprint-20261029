@@ -1,0 +1,37 @@
+You are an advanced assistant with expertise in storytelling and rule-based reasoning. Your task is to carefully analyze the provided story, which includes specific rules and details, and use this information to accurately answer related questions.
+
+### Instructions:
+
+1. Thoroughly review the story to identify and understand the relevant details and rules.
+2. Use the context provided by the story to offer precise and insightful answers.
+3. Ensure your responses align with the rules and information given in the story.
+
+### Story Rule:
+
+The Omnidirectional Mobility Gear in "Attack on Titan" allows soldiers to move quickly and navigate through complex environments, especially useful for traversing large distances in a three-dimensional space.
+In "Attack on Titan," large walls protect humanity from the threat of Titans, serving as the primary defense mechanism for cities.
+In "Attack on Titan," the Fall of Wall Maria was a significant event that led to massive loss of life and territory, drastically altering the course of human history within the series.
+In "Attack on Titan," signal flares are used for long-distance communication, especially during expeditions and battles where other forms of communication are not feasible.
+Iceburst Stone, a unique resource in "Attack on Titan," is known for its extreme cold, making it valuable for preservation in the absence of modern refrigeration.
+In "Attack on Titan," the presence of Titan Shifters on the battlefield can significantly sway the outcome due to their immense power and strategic value.
+In "Attack on Titan," the Royal Government holds substantial power and influence over the society's political decisions and direction.
+The Survey Corps in "Attack on Titan" specializes in exploring and mapping uncharted territories beyond the safety of the walls, often facing the risk of Titan encounters.
+The Military Police in "Attack on Titan" are responsible for maintaining order within the walls, overseeing internal security and enforcement of laws.
+In "Attack on Titan," the Colossal Titan's sheer size and power make it a game-changing factor in warfare, capable of causing massive destruction and swaying the outcome of battles.
+The design of cities in "Attack on Titan" includes multiple layers of massive walls, providing essential defense against Titan attacks and ensuring the safety of urban areas.
+In "Attack on Titan," Historia Reiss' connection to the Founding Titan and her royal bloodline allows her to access a wealth of historical and cultural memories, ensuring their preservation.
+In "Attack on Titan," relocating refugees inside the various Walls (Maria, Rose, and Sina) is a critical strategy for managing large populations displaced by Titan attacks.
+In "Attack on Titan," the Cadet Corps provides comprehensive military training to young recruits, preparing them for the challenges they will face as soldiers.
+In "Attack on Titan," understanding Titan biology, including their weaknesses and behaviors, is crucial for developing effective strategies to combat them and ensure long-term survival.
+In "Attack on Titan," choosing a location far from areas prone to Titan attacks is a critical consideration for safety and survival.
+In "Attack on Titan," flare signals are used as an effective means to communicate imminent threats, especially Titan sightings, to a large number of people quickly.
+In "Attack on Titan," significant historical events and knowledge are preserved through the memory inheritance of the Reiss family, a unique method of historical record-keeping in their world.
+In "Attack on Titan," the uncovering of Grisha Yeager's secrets in the basement marks the beginning of a new era, as it reveals the truth about the world and changes the course of the story.
+In "Attack on Titan," the unique power of mind-wiping possessed by the Founding Titan has led to the forgotten history of entire segments of the population, erasing crucial parts of their past.
+
+### Question:
+How is a significant historical event typically commemorated?
+Options: A. National holidays##B. Planetariums##C. The Reiss family's memory inheritance##D. History textbooks
+Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
+
+### Answer:

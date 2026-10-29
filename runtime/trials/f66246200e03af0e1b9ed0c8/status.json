@@ -1,0 +1,85 @@
+{
+  "model": "gpt-6-astra",
+  "benchmark": "lingoly_no_context",
+  "id": "179:Q 4.2:no_context",
+  "category": "Rosetta / Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793285810.337863,
+  "turn": {
+    "id": "01a18829-e981-7830-87af-ec2aee175141",
+    "rootTurnId": "01a18829-e981-7830-87af-ec2aee175141",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0b711774f383b4ca016ae35ebaf2b08190b8a0ff54cf21d248",
+        "text": "{\n  \"(a)\": \"Cannot determine: Roman-numeral translation options are missing.\",\n  \"(b)\": \"Cannot determine: Roman-numeral translation options are missing.\",\n  \"(c)\": \"Cannot determine: Roman-numeral translation options are missing.\",\n  \"(d)\": \"Cannot determine: Roman-numeral translation options are missing.\",\n  \"(e)\": \"Cannot determine: Roman-numeral translation options are missing.\",\n  \"(f)\": \"Cannot determine: Roman-numeral translation options are missing.\",\n  \"(g)\": \"Cannot determine: Roman-numeral translation options are missing.\",\n  \"(h)\": \"Cannot determine: Roman-numeral translation options are missing.\",\n  \"(i)\": \"Cannot determine: Roman-numeral translation options are missing.\",\n  \"(j)\": \"Cannot determine: Roman-numeral translation options are missing.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793285810,
+    "completedAt": 1793285822,
+    "durationMs": 11659
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "Cannot determine: Roman-numeral translation options are missing.",
+      "(b)": "Cannot determine: Roman-numeral translation options are missing.",
+      "(c)": "Cannot determine: Roman-numeral translation options are missing.",
+      "(d)": "Cannot determine: Roman-numeral translation options are missing.",
+      "(e)": "Cannot determine: Roman-numeral translation options are missing.",
+      "(f)": "Cannot determine: Roman-numeral translation options are missing.",
+      "(g)": "Cannot determine: Roman-numeral translation options are missing.",
+      "(h)": "Cannot determine: Roman-numeral translation options are missing.",
+      "(i)": "Cannot determine: Roman-numeral translation options are missing.",
+      "(j)": "Cannot determine: Roman-numeral translation options are missing."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 10,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 0.0,
+      "(b)": 0.0,
+      "(c)": 0.0,
+      "(d)": 0.0,
+      "(e)": 0.0,
+      "(f)": 0.0,
+      "(g)": 0.0,
+      "(h)": 0.0,
+      "(i)": 0.0,
+      "(j)": 0.0
+    }
+  },
+  "seconds": 11.898459082935005,
+  "usage": {
+    "total": {
+      "totalTokens": 4372,
+      "inputTokens": 4099,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 273,
+      "reasoningOutputTokens": 95
+    },
+    "last": {
+      "totalTokens": 4372,
+      "inputTokens": 4099,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 273,
+      "reasoningOutputTokens": 95
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793285822.236255
+}

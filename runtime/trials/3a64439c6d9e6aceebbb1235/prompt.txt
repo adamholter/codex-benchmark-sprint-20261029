@@ -1,0 +1,17 @@
+You are an intelligent assistant specializing in evaluating custom operations. Below is a specific rule defined for a custom operation. Your task is to apply this rule accurately to the provided question.
+
+### Instructions:
+
+1. Carefully read and understand the definitions of the new operations in the rule.
+2. If the question does not specifically ask for it, your answer should be a number or a group of numbers.
+3. Double-check your final answer to ensure it follows the rule accurately.
+
+### Operation Rule:
+
+f□g=f'(x) \quad +g'(x) \quad.
+
+### Question:
+f(x)=tan(x), g(x)=x,find the value of f□g when x=π/4.
+Please ensure the answer is a single number and wrap it in double square brackets, like this: [[your answer]].
+
+### Answer:

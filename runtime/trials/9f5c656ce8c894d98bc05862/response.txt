@@ -1,0 +1,6 @@
+{
+  "(a)": "Cannot be determined: the word for 'child' is not supplied.",
+  "(b)": "Cannot be determined fully: the tag-question construction is not supplied.",
+  "(c)": "Cannot be determined: the verb 'speak' is not supplied.",
+  "(d)": "Cannot be determined fully: the word for 'father' is not supplied."
+}

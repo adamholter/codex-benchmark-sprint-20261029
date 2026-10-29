@@ -1,0 +1,67 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "korbench_mixed",
+  "id": "mixed_Multi-RQ_Hard_2437",
+  "category": "Multi-RQ_Hard",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793295234.772296,
+  "turn": {
+    "id": "01a188b9-bbab-7093-82f8-dffe6ff69d31",
+    "rootTurnId": "01a188b9-bbab-7093-82f8-dffe6ff69d31",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0a09dd2709498724016ae3838e1be4819796a8341b56e520c5",
+        "text": "{\n  \"question1\": \"Unable to determine the full ciphertext; it begins [[IE]].\",\n  \"question2\": \"[[TE]]\",\n  \"question3\": \"[[C]]\",\n  \"question4\": \"[[D]]\",\n  \"question5\": \"[[L]]\",\n  \"question6\": \"[[D]]\",\n  \"question7\": \"[[C]]\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793295236,
+    "completedAt": 1793295246,
+    "durationMs": 10829
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "question1": "IE",
+      "question2": "TE",
+      "question3": "C",
+      "question4": "D",
+      "question5": "L",
+      "question6": "D",
+      "question7": "C"
+    },
+    "pass_rate": 0.8571428571428571
+  },
+  "seconds": 12.118946124915965,
+  "usage": {
+    "total": {
+      "totalTokens": 8378,
+      "inputTokens": 7708,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 670,
+      "reasoningOutputTokens": 583
+    },
+    "last": {
+      "totalTokens": 8378,
+      "inputTokens": 7708,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 670,
+      "reasoningOutputTokens": 583
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793295246.8908522
+}

@@ -1,0 +1,67 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly",
+  "id": "184:Q 9.2:full_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793287928.92187,
+  "turn": {
+    "id": "01a1884a-3d13-7e62-8026-4223f7bd577c",
+    "rootTurnId": "01a1884a-3d13-7e62-8026-4223f7bd577c",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0b7dc210ff0ef478016ae366fc008c8196be822690edc5ce0a",
+        "text": "{\"1.\": \"I ate cow kidney.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793287929,
+    "completedAt": 1793287932,
+    "durationMs": 3045
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "1.": "I ate cow kidney."
+    },
+    "score": 1.0,
+    "parts_correct": 1,
+    "parts_total": 1,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "1.": 1.0
+    }
+  },
+  "seconds": 3.257088207989,
+  "usage": {
+    "total": {
+      "totalTokens": 5068,
+      "inputTokens": 4907,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 161,
+      "reasoningOutputTokens": 144
+    },
+    "last": {
+      "totalTokens": 5068,
+      "inputTokens": 4907,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 161,
+      "reasoningOutputTokens": 144
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793287932.178692
+}

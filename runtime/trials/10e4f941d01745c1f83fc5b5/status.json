@@ -1,0 +1,67 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly_no_context",
+  "id": "220:Q 5.4:no_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793295313.2805471,
+  "turn": {
+    "id": "01a188ba-ea6f-7300-b341-d990b4b00f60",
+    "rootTurnId": "01a188ba-ea6f-7300-b341-d990b4b00f60",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0005af007d48c80a016ae383e5d554819382f6596fe990275d",
+        "text": "{\"30.\":\"water bridge in the sky\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793295313,
+    "completedAt": 1793295334,
+    "durationMs": 20614
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "30.": "water bridge in the sky"
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 1,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "30.": 0.0
+    }
+  },
+  "seconds": 20.876410708995536,
+  "usage": {
+    "total": {
+      "totalTokens": 6606,
+      "inputTokens": 4233,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 2373,
+      "reasoningOutputTokens": 2357
+    },
+    "last": {
+      "totalTokens": 6606,
+      "inputTokens": 4233,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 2373,
+      "reasoningOutputTokens": 2357
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793295334.1564531
+}

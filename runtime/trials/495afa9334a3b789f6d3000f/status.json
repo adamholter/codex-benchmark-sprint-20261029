@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "fantom",
+  "id": "36-0-2-2259",
+  "category": "tom:info_accessibility:list",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793287781.400479,
+  "turn": {
+    "id": "01a18847-fd05-78e0-b8aa-1ac2e8629030",
+    "rootTurnId": "01a18847-fd05-78e0-b8aa-1ac2e8629030",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_00ff40839895b71c016ae3666a030c81968e27a60be544fb4a",
+        "text": "Frank and Adelyn. Kayla heard a brief summary, but not all the details.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793287781,
+    "completedAt": 1793287786,
+    "durationMs": 4584
+  },
+  "score": {
+    "correct": false,
+    "extracted": "Frank and Adelyn. Kayla heard a brief summary, but not all the details.",
+    "strict_correct": false,
+    "scorer": "upstream per-question method; not aggregate All*"
+  },
+  "seconds": 4.844520709011704,
+  "usage": {
+    "total": {
+      "totalTokens": 4683,
+      "inputTokens": 4405,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 278,
+      "reasoningOutputTokens": 254
+    },
+    "last": {
+      "totalTokens": 4683,
+      "inputTokens": 4405,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 278,
+      "reasoningOutputTokens": 254
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793287786.244728
+}

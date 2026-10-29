@@ -1,0 +1,85 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "lingoly",
+  "id": "129:Q 1.1:full_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793293573.0040781,
+  "turn": {
+    "id": "01a188a0-5c74-7de3-bcab-acd16fc9a42c",
+    "rootTurnId": "01a188a0-5c74-7de3-bcab-acd16fc9a42c",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0b0b1b2987f879b5016ae37d1938648195861476370f2b6514",
+        "text": "{\"1.\": \"jal\", \"2.\": \"urt\", \"3.\": \"agn\", \"4.\": \"cian\", \"5.\": \"ciaval\", \"6.\": \"bosc\", \"7.\": \"vacia\", \"8.\": \"tasc\", \"9.\": \"forcia\", \"10.\": \"bira\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793293573,
+    "completedAt": 1793293594,
+    "durationMs": 21440
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "1.": "jal",
+      "2.": "urt",
+      "3.": "agn",
+      "4.": "cian",
+      "5.": "ciaval",
+      "6.": "bosc",
+      "7.": "vacia",
+      "8.": "tasc",
+      "9.": "forcia",
+      "10.": "bira"
+    },
+    "score": 0.2,
+    "parts_correct": 2,
+    "parts_total": 10,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "1.": 0.0,
+      "2.": 1.0,
+      "3.": 0.0,
+      "4.": 0.0,
+      "5.": 0.0,
+      "6.": 0.0,
+      "7.": 0.0,
+      "8.": 0.0,
+      "9.": 0.0,
+      "10.": 1.0
+    }
+  },
+  "seconds": 21.698169833049178,
+  "usage": {
+    "total": {
+      "totalTokens": 5799,
+      "inputTokens": 4221,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1578,
+      "reasoningOutputTokens": 1495
+    },
+    "last": {
+      "totalTokens": 5799,
+      "inputTokens": 4221,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1578,
+      "reasoningOutputTokens": 1495
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793293594.7004108
+}

@@ -1,0 +1,75 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "lingoly",
+  "id": "191:Q 1.2:full_context",
+  "category": "Pattern",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793286466.0144231,
+  "turn": {
+    "id": "01a18833-eb51-7481-a3b5-6822ccc312fb",
+    "rootTurnId": "01a18833-eb51-7481-a3b5-6822ccc312fb",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0bc35a4f30d9a836016ae36145e94881959dd1d1b02974a814",
+        "text": "{\"(f)\":\"tuta\",\"(g)\":\"puplu\",\"(h)\":\"community\",\"(i)\":\"vetluf\",\"(j)\":\"calves\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793286466,
+    "completedAt": 1793286470,
+    "durationMs": 3894
+  },
+  "score": {
+    "correct": true,
+    "extracted": {
+      "(f)": "tuta",
+      "(g)": "puplu",
+      "(h)": "community",
+      "(i)": "vetluf",
+      "(j)": "calves"
+    },
+    "score": 1.0,
+    "parts_correct": 5,
+    "parts_total": 5,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(f)": 1.0,
+      "(g)": 1.0,
+      "(h)": 1.0,
+      "(i)": 1.0,
+      "(j)": 1.0
+    }
+  },
+  "seconds": 4.291085625067353,
+  "usage": {
+    "total": {
+      "totalTokens": 4522,
+      "inputTokens": 4395,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 127,
+      "reasoningOutputTokens": 84
+    },
+    "last": {
+      "totalTokens": 4522,
+      "inputTokens": 4395,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 127,
+      "reasoningOutputTokens": 84
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793286470.3052008
+}

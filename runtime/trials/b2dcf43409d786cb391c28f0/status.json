@@ -1,0 +1,69 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly_no_context",
+  "id": "216:Q 1.1:no_context",
+  "category": "Rosetta",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793290572.512649,
+  "turn": {
+    "id": "01a18872-960e-7461-900c-43852e860d83",
+    "rootTurnId": "01a18872-960e-7461-900c-43852e860d83",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0738b4d10187b911016ae37154517481909138d324efeede45",
+        "text": "{\"(a)\":\"Cannot be determined: the supplied sheet omits the meanings of ipina.\",\"(b)\":\"Cannot be determined: the necessary vocabulary and patterns are missing.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793290573,
+    "completedAt": 1793290581,
+    "durationMs": 7947
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "(a)": "Cannot be determined: the supplied sheet omits the meanings of ipina.",
+      "(b)": "Cannot be determined: the necessary vocabulary and patterns are missing."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 2,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "(a)": 0.0,
+      "(b)": 0.0
+    }
+  },
+  "seconds": 8.800854749977589,
+  "usage": {
+    "total": {
+      "totalTokens": 4391,
+      "inputTokens": 4236,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 155,
+      "reasoningOutputTokens": 112
+    },
+    "last": {
+      "totalTokens": 4391,
+      "inputTokens": 4236,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 155,
+      "reasoningOutputTokens": 112
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793290581.313256
+}

@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6.1-terra",
+  "benchmark": "bbeh",
+  "id": "mini:geometric_shapes:0122",
+  "category": "geometric_shapes",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793291943.113898,
+  "turn": {
+    "id": "01a18887-7db9-7182-a951-9e96df0dc890",
+    "rootTurnId": "01a18887-7db9-7182-a951-9e96df0dc890",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_0b954c3f486d958c016ae376ae7740819698c846ca2ced57aa",
+        "text": "**(A) 3, 5 and 8.**\n\n- **3 \u2014 Non-right triangle:** vertices \\((0,0)\\), \\((0,7)\\), and \\((16.29794,1.06804)\\).\n- **5 \u2014 Non-rectangular parallelogram:** vertices \\((0,-19.35995)\\), \\((0,-43.35995)\\), \\((4.5,-56.61703)\\), and \\((4.5,-32.61703)\\).\n- **8 \u2014 Irregular concave pentagon:** vertices \\((-16,-43.35995)\\), \\((0,-43.35995)\\), \\((0,-19.35995)\\), \\((-8,-33.21636)\\), and \\((-16,-19.35995)\\). The vertex at \\((-8,-33.21636)\\) forms the concave indentation.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793291943,
+    "completedAt": 1793291951,
+    "durationMs": 8512
+  },
+  "score": {
+    "correct": false,
+    "extracted": "(a) 3,5 and 8"
+  },
+  "seconds": 8.779120584018528,
+  "usage": {
+    "total": {
+      "totalTokens": 5140,
+      "inputTokens": 4545,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 595,
+      "reasoningOutputTokens": 398
+    },
+    "last": {
+      "totalTokens": 5140,
+      "inputTokens": 4545,
+      "cachedInputTokens": 0,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 595,
+      "reasoningOutputTokens": 398
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793291951.8927948
+}

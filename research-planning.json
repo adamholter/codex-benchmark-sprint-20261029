@@ -1,0 +1,54 @@
+{
+  "status": "implemented",
+  "selected_candidate": {
+    "benchmark": "PlanBench",
+    "suite": "Blocksworld Hard - PDDL",
+    "task_count": 110,
+    "category": "symbolic planning and program execution",
+    "candidate_rationale": "The 110-case hard subset is complementary to existing broad reasoning suites: it requires long, state-dependent action sequences and is scored by executing plans against exact PDDL preconditions, effects, and goals. Published scores remain low enough to leave headroom.",
+    "repository": {
+      "url": "https://github.com/harshakokel/PlanBench",
+      "commit": "1f4d600f4806bedbefebbbe44b168372aaf5060d",
+      "latest_repository_commit_date": "2025-05-05T09:14:44-07:00",
+      "license": "MIT",
+      "license_url": "https://github.com/harshakokel/PlanBench/blob/1f4d600f4806bedbefebbbe44b168372aaf5060d/LICENSE"
+    },
+    "dataset": {
+      "source_commit": "1540aef4be296420a6f0dbda1c405181e97ce9a6",
+      "last_dataset_update_date": "2025-03-16T06:25:55Z",
+      "curated_source_manifest_sha256": "5afdd15cdecb98fd79a9179fd844260794ade3f2d6bfb6491bd821042b5d386f",
+      "curated_source_manifest_scope": "119 pinned source files: MIT license, README, hard-set config, upstream prompt/evaluator references, 110 PDDL problems, domain, and Fast Downward reference plans.",
+      "curated_source_manifest_hash_method": "SHA-256 over lexicographically sorted repository-relative paths, NUL, exact file bytes, NUL.",
+      "pddl_directory_url": "https://github.com/harshakokel/PlanBench/tree/1540aef4be296420a6f0dbda1c405181e97ce9a6/llm_planning_analysis/instances/blocksworld_hard",
+      "gold_url": "https://github.com/harshakokel/PlanBench/blob/1540aef4be296420a6f0dbda1c405181e97ce9a6/llm_planning_analysis/instances/blocksworld_hard/info.json",
+      "prompt_generator_url": "https://github.com/harshakokel/PlanBench/blob/1540aef4be296420a6f0dbda1c405181e97ce9a6/llm_planning_analysis/prompt_generation.py",
+      "evaluator_url": "https://github.com/harshakokel/PlanBench/blob/1540aef4be296420a6f0dbda1c405181e97ce9a6/llm_planning_analysis/utils/__init__.py",
+      "gold_semantics": "info.json contains Fast Downward reference plans; benchmark correctness accepts any executable plan that reaches the PDDL goal, not only the reference sequence."
+    },
+    "results": {
+      "leaderboard_url": "https://github.com/harshakokel/PlanBench/blob/1f4d600f4806bedbefebbbe44b168372aaf5060d/README.md",
+      "leaderboard_last_updated_commit": "b734d144d942022403a2491951eadac4e7db010d",
+      "leaderboard_last_updated_date": "2025-04-24T21:38:28Z",
+      "results_archive_commit": "1540aef4be296420a6f0dbda1c405181e97ce9a6",
+      "results_archive_last_updated_date": "2025-03-16T06:25:55Z",
+      "results_archive_url": "https://github.com/harshakokel/PlanBench/blob/1540aef4be296420a6f0dbda1c405181e97ce9a6/llm_planning_analysis/results_backprompting/blocksworld_hard/deepseek-r1-api/task_1_plan_generation_backprompting_zero_shot_pddl_sound_verifier_sound_critique_zero_shot_val_form_1_history_feedback_type_1_tv0.0_tg1.0.json",
+      "suite_label": "Blocksworld Hard - PDDL - 110 instances",
+      "published_scores": {
+        "Deepseek R1": "53.6%",
+        "o1-preview": "23.65%",
+        "o1-mini": "10%"
+      },
+      "protocol_note": "The README labels the table zero-shot; its hard-set result archive is named results_backprompting. Preserve the published values with this provenance note rather than claiming a fresh run or treating other archive metrics as equivalent."
+    },
+    "runtime_and_evaluation": {
+      "cpu_only": true,
+      "docker_required": false,
+      "model_inference_required": false,
+      "paid_api_required": false,
+      "original_evaluator": "VAL plan validation; external binary required by the upstream script.",
+      "adapter_evaluator": "Deterministic local STRIPS simulator for the exact four-action PDDL domain; no install or network access at run time.",
+      "adaptation": "Keep the official PDDL prompts and source gold plans. Replace only VAL invocation with an in-process simulator matching the domain's preconditions, add/delete effects, and goal test.",
+      "adapter_path": "adapters/planning.py"
+    }
+  }
+}

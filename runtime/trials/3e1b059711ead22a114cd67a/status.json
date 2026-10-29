@@ -1,0 +1,58 @@
+{
+  "model": "gpt-6-luna",
+  "benchmark": "korbench",
+  "id": "puzzle_180",
+  "category": "puzzle",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292738.470217,
+  "turn": {
+    "id": "01a18893-a093-7513-bceb-8778da638f9f",
+    "rootTurnId": "01a18893-a093-7513-bceb-8778da638f9f",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_00d8b201d4475824016ae379db825481978049ccbed16eb53f",
+        "text": "[[No valid matrix exists under the stated rule. The 9 at row 2, column 1 cannot cover nine blank squares with a single straight arrow: there are only eight blank squares below it, one above it, and eight to its right.]]",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292738,
+    "completedAt": 1793292764,
+    "durationMs": 25789
+  },
+  "score": {
+    "correct": false,
+    "extracted": "No valid matrix exists under the stated rule. The 9 at row 2, column 1 cannot cover nine blank squares with a single straight arrow: there are only eight blank squares below it, one above it, and eight to its right."
+  },
+  "seconds": 26.374700875021517,
+  "usage": {
+    "total": {
+      "totalTokens": 6601,
+      "inputTokens": 4163,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 2438,
+      "reasoningOutputTokens": 2380
+    },
+    "last": {
+      "totalTokens": 6601,
+      "inputTokens": 4163,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 2438,
+      "reasoningOutputTokens": 2380
+    },
+    "modelContextWindow": 258400
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292764.844248
+}

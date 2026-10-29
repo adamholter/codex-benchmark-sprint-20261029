@@ -1,0 +1,73 @@
+{
+  "model": "gpt-6.1-sol",
+  "benchmark": "lingoly_no_context",
+  "id": "220:Q 5.2:no_context",
+  "category": "Match-up",
+  "effort": "high",
+  "service_tier": "default",
+  "status": "complete",
+  "started_at": 1793292581.480465,
+  "turn": {
+    "id": "01a18891-3b2e-7252-88db-a29c6ee7653a",
+    "rootTurnId": "01a18891-3b2e-7252-88db-a29c6ee7653a",
+    "items": [
+      {
+        "type": "agentMessage",
+        "id": "msg_01ac97bf2dda87c2016ae37933dc3081958ba16c5425963d7a",
+        "text": "{\n  \"21.\": \"Cannot determine: the English matching options are missing.\",\n  \"22.\": \"Cannot determine: the English matching options are missing.\",\n  \"23.\": \"Cannot determine: the English matching options are missing.\",\n  \"24.\": \"Cannot determine: the English matching options are missing.\"\n}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      }
+    ],
+    "itemsView": "summary",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1793292581,
+    "completedAt": 1793292596,
+    "durationMs": 14848
+  },
+  "score": {
+    "correct": false,
+    "extracted": {
+      "21.": "Cannot determine: the English matching options are missing.",
+      "22.": "Cannot determine: the English matching options are missing.",
+      "23.": "Cannot determine: the English matching options are missing.",
+      "24.": "Cannot determine: the English matching options are missing."
+    },
+    "score": 0.0,
+    "parts_correct": 0,
+    "parts_total": 4,
+    "empty_reference_parts": 0,
+    "part_scores": {
+      "21.": 0.0,
+      "22.": 0.0,
+      "23.": 0.0,
+      "24.": 0.0
+    }
+  },
+  "seconds": 15.060020625009201,
+  "usage": {
+    "total": {
+      "totalTokens": 4592,
+      "inputTokens": 4270,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 322,
+      "reasoningOutputTokens": 250
+    },
+    "last": {
+      "totalTokens": 4592,
+      "inputTokens": 4270,
+      "cachedInputTokens": 2816,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 322,
+      "reasoningOutputTokens": 250
+    },
+    "modelContextWindow": 475000
+  },
+  "errors": [],
+  "native_retry_notices": [],
+  "finished_at": 1793292596.5403352
+}
